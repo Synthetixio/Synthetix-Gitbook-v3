@@ -35,6 +35,7 @@
 ## For Governance Participants
 
 * [Synthetix Governance](for-governance-participants/synthetix-governance.md)
+* [Elections](for-governance-participants/elections.md)
 
 ## For Developers
 
