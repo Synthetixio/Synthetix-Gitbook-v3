@@ -4080,6 +4080,28 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 
 **Returns**
 * `feeCollector` (*address*) - address of the fee collector contract
+#### setPerAccountCaps
+
+  ```solidity
+  function setPerAccountCaps(uint128 maxPositionsPerAccount, uint128 maxCollateralsPerAccount) external
+  ```
+
+  Set or update the max number of Positions and Collaterals per Account
+
+**Parameters**
+* `maxPositionsPerAccount` (*uint128*) - The max number of concurrent Positions per Account
+* `maxCollateralsPerAccount` (*uint128*) - The max number of concurrent Collaterals per Account
+
+#### getPerAccountCaps
+
+  ```solidity
+  function getPerAccountCaps() external returns (uint128 maxPositionsPerAccount, uint128 maxCollateralsPerAccount)
+  ```
+
+  get the max number of Positions and Collaterals per Account
+
+**Parameters**
+
 #### updateReferrerShare
 
   ```solidity
@@ -4173,6 +4195,18 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 **Parameters**
 * `referrer` (*address*) - The address of the referrer
 * `shareRatioD18` (*uint256*) - The new share ratio for the referrer
+
+#### PerAccountCapsSet
+
+  ```solidity
+  event PerAccountCapsSet(uint128 maxPositionsPerAccount, uint128 maxCollateralsPerAccount)
+  ```
+
+  Gets fired when the max number of Positions and Collaterals per Account are set by owner.
+
+**Parameters**
+* `maxPositionsPerAccount` (*uint128*) - The max number of concurrent Positions per Account
+* `maxCollateralsPerAccount` (*uint128*) - The max number of concurrent Collaterals per Account
 
 ### Liquidation Module
 
