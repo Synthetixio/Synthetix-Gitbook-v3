@@ -3,6 +3,7 @@
 - [Synthetix Core](#synthetix-core)
 - [Spot Market](#spot-market)
 - [Perps Market](#perps-market)
+- [Legacy Market](#legacy-market)
 - [Governance](#governance)
 - [Oracle Manager](#oracle-manager)
 
@@ -2343,7 +2344,7 @@ The return value is a percentage with 18 decimals places.
 
 ## Spot Market
 
-- [Back to TOC](#smart-contracts)
+- [Back to TOC](#synthetix-core)
 
 ### Async Order Configuration Module
 
@@ -3796,7 +3797,7 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 
 ## Perps Market
 
-- [Back to TOC](#smart-contracts)
+- [Back to TOC](#synthetix-core)
 
 ### Async Order Module
 
@@ -3830,7 +3831,7 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 #### computeOrderFees
 
   ```solidity
-  function computeOrderFees(uint128 marketId, int128 sizeDelta) external view returns (uint256 orderFees)
+  function computeOrderFees(uint128 marketId, int128 sizeDelta) external view returns (uint256 orderFees, uint256 fillPrice)
   ```
 
   Simulates what the order fee would be for the given market with the specified size.
@@ -3843,6 +3844,24 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 
 **Returns**
 * `orderFees` (*uint256*) - incurred fees.
+* `fillPrice` (*uint256*) - price at which the order would be filled.
+#### requiredMarginForOrder
+
+  ```solidity
+  function requiredMarginForOrder(uint128 marketId, uint128 accountId, int128 sizeDelta) external view returns (uint256 requiredMargin)
+  ```
+
+  For a given market, account id, and a position size, returns the required total account margin for this order to succeed
+
+  Useful for integrators to determine if an order will succeed or fail
+
+**Parameters**
+* `marketId` (*uint128*) - id of the market.
+* `accountId` (*uint128*) - id of the trader account.
+* `sizeDelta` (*int128*) - size of position.
+
+**Returns**
+* `requiredMargin` (*uint256*) - margin required for the order to succeed.
 
 #### OrderCommitted
 
@@ -3862,6 +3881,22 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 * `expirationTime` (*uint256*) - Time at which the order expired.
 * `trackingCode` (*bytes32*) - Optional code for integrator tracking purposes.
 * `sender` (*address*) - address of the sender of the order. Authorized to commit by account owner.
+
+#### PreviousOrderExpired
+
+  ```solidity
+  event PreviousOrderExpired(uint128 marketId, uint128 accountId, int128 sizeDelta, uint256 acceptablePrice, uint256 settlementTime, bytes32 trackingCode)
+  ```
+
+  Gets fired when a new order is committed while a previous one was expired.
+
+**Parameters**
+* `marketId` (*uint128*) - Id of the market used for the trade.
+* `accountId` (*uint128*) - Id of the account used for the trade.
+* `sizeDelta` (*int128*) - requested change in size of the order sent by the user.
+* `acceptablePrice` (*uint256*) - maximum or minimum, depending on the sizeDelta direction, accepted price to settle the order, set by the user.
+* `settlementTime` (*uint256*) - Time at which the order can be settled.
+* `trackingCode` (*bytes32*) - Optional code for integrator tracking purposes.
 
 ### Async Order Settlement Module
 
@@ -3891,7 +3926,7 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 #### OrderSettled
 
   ```solidity
-  event OrderSettled(uint128 marketId, uint128 accountId, uint256 fillPrice, int256 pnl, int128 sizeDelta, int128 newSize, uint256 totalFees, uint256 referralFees, uint256 collectedFees, uint256 settlementReward, bytes32 trackingCode, address settler)
+  event OrderSettled(uint128 marketId, uint128 accountId, uint256 fillPrice, int256 pnl, int256 accruedFunding, int128 sizeDelta, int128 newSize, uint256 totalFees, uint256 referralFees, uint256 collectedFees, uint256 settlementReward, bytes32 trackingCode, address settler)
   ```
 
   Gets fired when a new order is settled.
@@ -3900,7 +3935,8 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 * `marketId` (*uint128*) - Id of the market used for the trade.
 * `accountId` (*uint128*) - Id of the account used for the trade.
 * `fillPrice` (*uint256*) - Price at which the order was settled.
-* `pnl` (*int256*) - 
+* `pnl` (*int256*) - Pnl of the previous closed position.
+* `accruedFunding` (*int256*) - Accrued funding of the previous closed position.
 * `sizeDelta` (*int128*) - Size delta from order.
 * `newSize` (*int128*) - New size of the position after settlement.
 * `totalFees` (*uint256*) - Amount of fees collected by the protocol.
@@ -4069,6 +4105,16 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 
 **Returns**
 * `shareRatioD18` (*uint256*) - The configured share percentage for the referrer
+#### getMarkets
+
+  ```solidity
+  function getMarkets() external returns (uint256[] marketIds)
+  ```
+
+  get all existing market ids
+
+**Returns**
+* `marketIds` (*uint256[]*) - an array of existing market ids
 
 #### MaxCollateralAmountSet
 
@@ -4136,11 +4182,20 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
   function liquidate(uint128 accountId) external
   ```
 
+  Liquidates an account.
+
+  according to the current situation and account size it can be a partial or full liquidation.
+
+**Parameters**
+* `accountId` (*uint128*) - Id of the account to liquidate.
+
 #### liquidateFlagged
 
   ```solidity
   function liquidateFlagged() external
   ```
+
+  Liquidates all flagged accounts.
 
 #### PositionLiquidated
 
@@ -4148,11 +4203,28 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
   event PositionLiquidated(uint128 accountId, uint128 marketId, uint256 amountLiquidated, int128 currentPositionSize)
   ```
 
+  Gets fired when an account position is liquidated .
+
+**Parameters**
+* `accountId` (*uint128*) - Id of the account liquidated.
+* `marketId` (*uint128*) - Id of the position's market.
+* `amountLiquidated` (*uint256*) - amount liquidated.
+* `currentPositionSize` (*int128*) - position size after liquidation.
+
 #### AccountLiquidated
 
   ```solidity
   event AccountLiquidated(uint128 accountId, uint256 reward, bool fullLiquidation)
   ```
+
+  Gets fired when an account is liquidated.
+
+  this event is fired once per liquidation tx after the each position that can be liquidated at the time was liquidated.
+
+**Parameters**
+* `accountId` (*uint128*) - Id of the account liquidated.
+* `reward` (*uint256*) - total reward sent to liquidator.
+* `fullLiquidation` (*bool*) - flag indicating if it was a partial or full liquidation.
 
 ### Market Configuration Module
 
@@ -4578,7 +4650,7 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 #### getRequiredMargins
 
   ```solidity
-  function getRequiredMargins(uint128 accountId) external view returns (uint256 requiredInitialMargin, uint256 requiredMaintenanceMargin)
+  function getRequiredMargins(uint128 accountId) external view returns (uint256 requiredInitialMargin, uint256 requiredMaintenanceMargin, uint256 totalAccumulatedLiquidationRewards, uint256 maxLiquidationReward)
   ```
 
   Gets the initial/maintenance margins across all positions that an account has open.
@@ -4589,6 +4661,8 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 **Returns**
 * `requiredInitialMargin` (*uint256*) - initial margin req (used when withdrawing collateral).
 * `requiredMaintenanceMargin` (*uint256*) - maintenance margin req (used to determine liquidation threshold).
+* `totalAccumulatedLiquidationRewards` (*uint256*) - sum of all liquidation rewards of if all account open positions were to be liquidated fully.
+* `maxLiquidationReward` (*uint256*) - max liquidation reward the keeper would receive if account was fully liquidated. Note here that the accumulated rewards are checked against the global max/min configured liquidation rewards.
 
 #### CollateralModified
 
@@ -4612,11 +4686,22 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
   function initializeFactory() external returns (uint128)
   ```
 
+  Initializes the factory.
+
+  this function should be called only once.
+
+**Returns**
+* `[0]` (*uint128*) - globalPerpsMarketId Id of the global perps market id.
 #### setSynthetix
 
   ```solidity
   function setSynthetix(contract ISynthetixSystem synthetix) external
   ```
+
+  Sets the synthetix system.
+
+**Parameters**
+* `synthetix` (*contract ISynthetixSystem*) - address of the main synthetix proxy.
 
 #### setSpotMarket
 
@@ -4624,12 +4709,26 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
   function setSpotMarket(contract ISpotMarketSystem spotMarket) external
   ```
 
+  Sets the spot market system.
+
+**Parameters**
+* `spotMarket` (*contract ISpotMarketSystem*) - address of the spot market proxy.
+
 #### createMarket
 
   ```solidity
   function createMarket(uint128 requestedMarketId, string marketName, string marketSymbol) external returns (uint128)
   ```
 
+  Creates a new market.
+
+**Parameters**
+* `requestedMarketId` (*uint128*) - id of the market to create.
+* `marketName` (*string*) - name of the market to create.
+* `marketSymbol` (*string*) - symbol of the market to create.
+
+**Returns**
+* `[0]` (*uint128*) - perpsMarketId Id of the created perps market.
 #### name
 
   ```solidity
@@ -4674,11 +4773,23 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
   event FactoryInitialized(uint128 globalPerpsMarketId)
   ```
 
+  Gets fired when the factory is initialized.
+
+**Parameters**
+* `globalPerpsMarketId` (*uint128*) - the new global perps market id.
+
 #### MarketCreated
 
   ```solidity
   event MarketCreated(uint128 perpsMarketId, string marketName, string marketSymbol)
   ```
+
+  Gets fired when a market is created.
+
+**Parameters**
+* `perpsMarketId` (*uint128*) - the newly created perps market id.
+* `marketName` (*string*) - the newly created perps market name.
+* `marketSymbol` (*string*) - the newly created perps market symbol.
 
 ### Perps Market Module
 
@@ -4688,48 +4799,107 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
   function metadata(uint128 marketId) external view returns (string name, string symbol)
   ```
 
+  Gets a market metadata.
+
+**Parameters**
+* `marketId` (*uint128*) - Id of the market.
+
+**Returns**
+* `name` (*string*) - Name of the market.
+* `symbol` (*string*) - Symbol of the market.
 #### skew
 
   ```solidity
   function skew(uint128 marketId) external view returns (int256)
   ```
 
+  Gets a market's skew.
+
+**Parameters**
+* `marketId` (*uint128*) - Id of the market.
+
+**Returns**
+* `[0]` (*int256*) - skew Skew of the market.
 #### size
 
   ```solidity
   function size(uint128 marketId) external view returns (uint256)
   ```
 
+  Gets a market's size.
+
+**Parameters**
+* `marketId` (*uint128*) - Id of the market.
+
+**Returns**
+* `[0]` (*uint256*) - size Size of the market.
 #### maxOpenInterest
 
   ```solidity
   function maxOpenInterest(uint128 marketId) external view returns (uint256)
   ```
 
+  Gets a market's max open interest.
+
+**Parameters**
+* `marketId` (*uint128*) - Id of the market.
+
+**Returns**
+* `[0]` (*uint256*) - maxOpenInterest Max open interest of the market.
 #### currentFundingRate
 
   ```solidity
   function currentFundingRate(uint128 marketId) external view returns (int256)
   ```
 
+  Gets a market's current funding rate.
+
+**Parameters**
+* `marketId` (*uint128*) - Id of the market.
+
+**Returns**
+* `[0]` (*int256*) - currentFundingRate Current funding rate of the market.
 #### currentFundingVelocity
 
   ```solidity
   function currentFundingVelocity(uint128 marketId) external view returns (int256)
   ```
 
+  Gets a market's current funding velocity.
+
+**Parameters**
+* `marketId` (*uint128*) - Id of the market.
+
+**Returns**
+* `[0]` (*int256*) - currentFundingVelocity Current funding velocity of the market.
 #### indexPrice
 
   ```solidity
   function indexPrice(uint128 marketId) external view returns (uint256)
   ```
 
+  Gets a market's index price.
+
+**Parameters**
+* `marketId` (*uint128*) - Id of the market.
+
+**Returns**
+* `[0]` (*uint256*) - indexPrice Index price of the market.
 #### fillPrice
 
   ```solidity
   function fillPrice(uint128 marketId, int128 orderSize, uint256 price) external returns (uint256)
   ```
 
+  Gets a market's fill price for a specific order size and index price.
+
+**Parameters**
+* `marketId` (*uint128*) - Id of the market.
+* `orderSize` (*int128*) - Order size.
+* `price` (*uint256*) - Index price.
+
+**Returns**
+* `[0]` (*uint256*) - price Fill price.
 #### getMarketSummary
 
   ```solidity
@@ -4738,9 +4908,947 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 
   Given a marketId return a market's summary details in one call.
 
+**Parameters**
+* `marketId` (*uint128*) - Id of the market.
+
+**Returns**
+* `summary` (*struct IPerpsMarketModule.MarketSummary*) - Market summary (see MarketSummary).
+
+## Legacy Market
+
+- [Back to TOC](#synthetix-core)
+
+### InitialModuleBundle
+
+#### upgradeTo
+
+  ```solidity
+  function upgradeTo(address newImplementation) public
+  ```
+
+  Allows the proxy to be upgraded to a new implementation.
+
+  Will revert if `newImplementation` is not upgradeable.
+The implementation of this function needs to be protected by some sort of access control such as `onlyOwner`.
+
+**Parameters**
+* `newImplementation` (*address*) - The address of the proxy's new implementation.
+
+#### simulateUpgradeTo
+
+  ```solidity
+  function simulateUpgradeTo(address newImplementation) public
+  ```
+
+  Function used to determine if a new implementation will be able to receive future upgrades in `upgradeTo`.
+
+  This function will always revert, but will revert with different error messages. The function `upgradeTo` uses this error to determine the future upgradeability of the implementation in question.
+
+**Parameters**
+* `newImplementation` (*address*) - The address of the new implementation being tested for future upgradeability.
+
+#### getImplementation
+
+  ```solidity
+  function getImplementation() external view returns (address)
+  ```
+
+  Retrieves the current implementation of the proxy.
+
+**Returns**
+* `[0]` (*address*) - The address of the current implementation.
+#### _upgradeTo
+
+  ```solidity
+  function _upgradeTo(address newImplementation) internal virtual
+  ```
+
+#### _implementationIsSterile
+
+  ```solidity
+  function _implementationIsSterile(address candidateImplementation) internal virtual returns (bool)
+  ```
+
+#### _proxyStore
+
+  ```solidity
+  function _proxyStore() internal pure returns (struct ProxyStorage.ProxyStore store)
+  ```
+
+#### upgradeTo
+
+  ```solidity
+  function upgradeTo(address newImplementation) external
+  ```
+
+  Allows the proxy to be upgraded to a new implementation.
+
+  Will revert if `newImplementation` is not upgradeable.
+The implementation of this function needs to be protected by some sort of access control such as `onlyOwner`.
+
+**Parameters**
+* `newImplementation` (*address*) - The address of the proxy's new implementation.
+
+#### simulateUpgradeTo
+
+  ```solidity
+  function simulateUpgradeTo(address newImplementation) external
+  ```
+
+  Function used to determine if a new implementation will be able to receive future upgrades in `upgradeTo`.
+
+  This function will always revert, but will revert with different error messages. The function `upgradeTo` uses this error to determine the future upgradeability of the implementation in question.
+
+**Parameters**
+* `newImplementation` (*address*) - The address of the new implementation being tested for future upgradeability.
+
+#### getImplementation
+
+  ```solidity
+  function getImplementation() external view returns (address)
+  ```
+
+  Retrieves the current implementation of the proxy.
+
+**Returns**
+* `[0]` (*address*) - The address of the current implementation.
+#### constructor
+
+  ```solidity
+  constructor() public
+  ```
+
+#### constructor
+
+  ```solidity
+  constructor(address initialOwner) public
+  ```
+
+#### acceptOwnership
+
+  ```solidity
+  function acceptOwnership() public
+  ```
+
+  Allows a nominated address to accept ownership of the contract.
+
+  Reverts if the caller is not nominated.
+
+#### nominateNewOwner
+
+  ```solidity
+  function nominateNewOwner(address newNominatedOwner) public
+  ```
+
+  Allows the current owner to nominate a new owner.
+
+  The nominated owner will have to call `acceptOwnership` in a separate transaction in order to finalize the action and become the new contract owner.
+
+**Parameters**
+* `newNominatedOwner` (*address*) - The address that is to become nominated.
+
+#### renounceNomination
+
+  ```solidity
+  function renounceNomination() external
+  ```
+
+  Allows a nominated owner to reject the nomination.
+
+#### owner
+
+  ```solidity
+  function owner() external view returns (address)
+  ```
+
+  Returns the current owner of the contract.
+
+#### nominatedOwner
+
+  ```solidity
+  function nominatedOwner() external view returns (address)
+  ```
+
+  Returns the current nominated owner of the contract.
+
+  Only one address can be nominated at a time.
+
+#### acceptOwnership
+
+  ```solidity
+  function acceptOwnership() external
+  ```
+
+  Allows a nominated address to accept ownership of the contract.
+
+  Reverts if the caller is not nominated.
+
+#### nominateNewOwner
+
+  ```solidity
+  function nominateNewOwner(address newNominatedOwner) external
+  ```
+
+  Allows the current owner to nominate a new owner.
+
+  The nominated owner will have to call `acceptOwnership` in a separate transaction in order to finalize the action and become the new contract owner.
+
+**Parameters**
+* `newNominatedOwner` (*address*) - The address that is to become nominated.
+
+#### renounceNomination
+
+  ```solidity
+  function renounceNomination() external
+  ```
+
+  Allows a nominated owner to reject the nomination.
+
+#### owner
+
+  ```solidity
+  function owner() external view returns (address)
+  ```
+
+  Returns the current owner of the contract.
+
+#### nominatedOwner
+
+  ```solidity
+  function nominatedOwner() external view returns (address)
+  ```
+
+  Returns the current nominated owner of the contract.
+
+  Only one address can be nominated at a time.
+
+#### Upgraded
+
+  ```solidity
+  event Upgraded(address self, address implementation)
+  ```
+
+  Emitted when the implementation of the proxy has been upgraded.
+
+**Parameters**
+* `self` (*address*) - The address of the proxy whose implementation was upgraded.
+* `implementation` (*address*) - The address of the proxy's new implementation.
+
+#### OwnerNominated
+
+  ```solidity
+  event OwnerNominated(address newOwner)
+  ```
+
+  Emitted when an address has been nominated.
+
+**Parameters**
+* `newOwner` (*address*) - The address that has been nominated.
+
+#### OwnerChanged
+
+  ```solidity
+  event OwnerChanged(address oldOwner, address newOwner)
+  ```
+
+  Emitted when the owner of the contract has changed.
+
+**Parameters**
+* `oldOwner` (*address*) - The previous owner of the contract.
+* `newOwner` (*address*) - The new owner of the contract.
+
+### LegacyMarket
+
+#### constructor
+
+  ```solidity
+  constructor() public
+  ```
+
+#### setSystemAddresses
+
+  ```solidity
+  function setSystemAddresses(contract IAddressResolver v2xResolverAddress, contract IV3CoreProxy v3SystemAddress) external returns (bool didInitialize)
+  ```
+
+  called by the owner to set the addresses of the v3 and v2x systems which are needed for calls in `migrate` and `convertUSD`
+
+**Parameters**
+* `v2xResolverAddress` (*contract IAddressResolver*) - the v2x `AddressResolver` contract address. LegacyMarket can use AddressResolver to get the address of any other v2x contract.
+* `v3SystemAddress` (*contract IV3CoreProxy*) - the v3 core proxy address
+
+#### registerMarket
+
+  ```solidity
+  function registerMarket() external returns (uint128 newMarketId)
+  ```
+
+  called by the owner to register this market with v3. This is an initialization call only.
+
+#### reportedDebt
+
+  ```solidity
+  function reportedDebt(uint128 requestedMarketId) public view returns (uint256 debt)
+  ```
+
+  returns amount of USD that the market would try to mint if everything was withdrawn
+
+#### name
+
+  ```solidity
+  function name(uint128) external pure returns (string)
+  ```
+
+  returns a human-readable name for a given market
+
+#### minimumCredit
+
+  ```solidity
+  function minimumCredit(uint128) external pure returns (uint256 lockedAmount)
+  ```
+
+  prevents reduction of available credit capacity by specifying this amount, for which withdrawals will be disallowed
+
+#### convertUSD
+
+  ```solidity
+  function convertUSD(uint256 amount) external
+  ```
+
+  Called by anyone with {amount} sUSD to convert {amount} sUSD to {amount} snxUSD.
+The sUSD will be burned (thereby reducing the sUSD total supply and v2x system size), and snxUSD will be minted.
+Any user who has sUSD can call this function. If you have migrated to v3 and there is insufficient sUSD liquidity
+to convert, consider buying snxUSD on the open market, since that means most snxUSD has already been migrated.
+Requirements:
+* User must first approve() the legacy market contract to spend the user's sUSD
+* LegacyMarket must have already sufficient migrated collateral
+
+**Parameters**
+* `amount` (*uint256*) - the quantity to convert
+
+#### migrate
+
+  ```solidity
+  function migrate(uint128 accountId) external
+  ```
+
+  Called by an SNX staker on v2x to convert their position to the equivalent on v3. This entails the following broad steps:
+1. collect all their SNX collateral and debt from v2x
+2. create a new staking account on v3 with the supplied {accountId}
+3. put the collateral and debt into this newly created staking account
+4. send the created staking account to the msg.sender.
+
+**Parameters**
+* `accountId` (*uint128*) - the new account id that the user wants to have. can be any non-zero integer that is not already occupied.
+
+#### migrateOnBehalf
+
+  ```solidity
+  function migrateOnBehalf(address staker, uint128 accountId) external
+  ```
+
+  Same as `migrate`, but allows for the owner to forcefully migrate any v2x staker
+
+**Parameters**
+* `staker` (*address*) - 
+* `accountId` (*uint128*) - the new account id that the user wants to have. can be any non-zero integer that is not already occupied.
+
+#### _migrate
+
+  ```solidity
+  function _migrate(address staker, uint128 accountId) internal
+  ```
+
+  Migrates {staker} from V2 to {accountId} in V3.
+
+#### _gatherFromV2
+
+  ```solidity
+  function _gatherFromV2(address staker) internal returns (uint256 totalCollateralAmount, uint256 totalDebtAmount)
+  ```
+
+  Moves the collateral and debt associated {staker} in the V2 system to this market.
+
+#### setPauseStablecoinConversion
+
+  ```solidity
+  function setPauseStablecoinConversion(bool paused) external
+  ```
+
+  called by the owner to disable `convertUSD` (ex. in the case of an emergency)
+
+**Parameters**
+* `paused` (*bool*) - whether or not `convertUSD` should be disable
+
+#### setPauseMigration
+
+  ```solidity
+  function setPauseMigration(bool paused) external
+  ```
+
+  called by the owner to disable `migrate` (ex. in the case of an emergency)
+
+**Parameters**
+* `paused` (*bool*) - whether or not `migrate` should be disable
+
+#### _calculateDebtValueMigrated
+
+  ```solidity
+  function _calculateDebtValueMigrated(uint256 debtSharesMigrated) internal view returns (uint256 portionMigrated)
+  ```
+
+  Returns the amount of dollar-denominated debt associated with {debtSharesMigrated} in the V2 system.
+
+#### supportsInterface
+
+  ```solidity
+  function supportsInterface(bytes4 interfaceId) public view virtual returns (bool)
+  ```
+
+  Determines if the contract in question supports the specified interface.
+
+**Parameters**
+* `interfaceId` (*bytes4*) - 
+
+**Returns**
+* `[0]` (*bool*) - True if the contract supports the specified interface.
+#### upgradeTo
+
+  ```solidity
+  function upgradeTo(address to) external
+  ```
+
+#### name
+
+  ```solidity
+  function name(uint128 marketId) external view returns (string)
+  ```
+
+  returns a human-readable name for a given market
+
+#### reportedDebt
+
+  ```solidity
+  function reportedDebt(uint128 marketId) external view returns (uint256)
+  ```
+
+  returns amount of USD that the market would try to mint if everything was withdrawn
+
+#### minimumCredit
+
+  ```solidity
+  function minimumCredit(uint128 marketId) external view returns (uint256)
+  ```
+
+  prevents reduction of available credit capacity by specifying this amount, for which withdrawals will be disallowed
+
+#### supportsInterface
+
+  ```solidity
+  function supportsInterface(bytes4 interfaceID) external view returns (bool)
+  ```
+
+  Determines if the contract in question supports the specified interface.
+
+**Parameters**
+* `interfaceID` (*bytes4*) - XOR of all selectors in the contract.
+
+**Returns**
+* `[0]` (*bool*) - True if the contract supports the specified interface.
+#### simulateUpgradeTo
+
+  ```solidity
+  function simulateUpgradeTo(address newImplementation) public
+  ```
+
+  Function used to determine if a new implementation will be able to receive future upgrades in `upgradeTo`.
+
+  This function will always revert, but will revert with different error messages. The function `upgradeTo` uses this error to determine the future upgradeability of the implementation in question.
+
+**Parameters**
+* `newImplementation` (*address*) - The address of the new implementation being tested for future upgradeability.
+
+#### getImplementation
+
+  ```solidity
+  function getImplementation() external view returns (address)
+  ```
+
+  Retrieves the current implementation of the proxy.
+
+**Returns**
+* `[0]` (*address*) - The address of the current implementation.
+#### _upgradeTo
+
+  ```solidity
+  function _upgradeTo(address newImplementation) internal virtual
+  ```
+
+#### _implementationIsSterile
+
+  ```solidity
+  function _implementationIsSterile(address candidateImplementation) internal virtual returns (bool)
+  ```
+
+#### _proxyStore
+
+  ```solidity
+  function _proxyStore() internal pure returns (struct ProxyStorage.ProxyStore store)
+  ```
+
+#### upgradeTo
+
+  ```solidity
+  function upgradeTo(address newImplementation) external
+  ```
+
+  Allows the proxy to be upgraded to a new implementation.
+
+  Will revert if `newImplementation` is not upgradeable.
+The implementation of this function needs to be protected by some sort of access control such as `onlyOwner`.
+
+**Parameters**
+* `newImplementation` (*address*) - The address of the proxy's new implementation.
+
+#### simulateUpgradeTo
+
+  ```solidity
+  function simulateUpgradeTo(address newImplementation) external
+  ```
+
+  Function used to determine if a new implementation will be able to receive future upgrades in `upgradeTo`.
+
+  This function will always revert, but will revert with different error messages. The function `upgradeTo` uses this error to determine the future upgradeability of the implementation in question.
+
+**Parameters**
+* `newImplementation` (*address*) - The address of the new implementation being tested for future upgradeability.
+
+#### getImplementation
+
+  ```solidity
+  function getImplementation() external view returns (address)
+  ```
+
+  Retrieves the current implementation of the proxy.
+
+**Returns**
+* `[0]` (*address*) - The address of the current implementation.
+#### constructor
+
+  ```solidity
+  constructor(address initialOwner) public
+  ```
+
+#### acceptOwnership
+
+  ```solidity
+  function acceptOwnership() public
+  ```
+
+  Allows a nominated address to accept ownership of the contract.
+
+  Reverts if the caller is not nominated.
+
+#### nominateNewOwner
+
+  ```solidity
+  function nominateNewOwner(address newNominatedOwner) public
+  ```
+
+  Allows the current owner to nominate a new owner.
+
+  The nominated owner will have to call `acceptOwnership` in a separate transaction in order to finalize the action and become the new contract owner.
+
+**Parameters**
+* `newNominatedOwner` (*address*) - The address that is to become nominated.
+
+#### renounceNomination
+
+  ```solidity
+  function renounceNomination() external
+  ```
+
+  Allows a nominated owner to reject the nomination.
+
+#### owner
+
+  ```solidity
+  function owner() external view returns (address)
+  ```
+
+  Returns the current owner of the contract.
+
+#### nominatedOwner
+
+  ```solidity
+  function nominatedOwner() external view returns (address)
+  ```
+
+  Returns the current nominated owner of the contract.
+
+  Only one address can be nominated at a time.
+
+#### acceptOwnership
+
+  ```solidity
+  function acceptOwnership() external
+  ```
+
+  Allows a nominated address to accept ownership of the contract.
+
+  Reverts if the caller is not nominated.
+
+#### nominateNewOwner
+
+  ```solidity
+  function nominateNewOwner(address newNominatedOwner) external
+  ```
+
+  Allows the current owner to nominate a new owner.
+
+  The nominated owner will have to call `acceptOwnership` in a separate transaction in order to finalize the action and become the new contract owner.
+
+**Parameters**
+* `newNominatedOwner` (*address*) - The address that is to become nominated.
+
+#### renounceNomination
+
+  ```solidity
+  function renounceNomination() external
+  ```
+
+  Allows a nominated owner to reject the nomination.
+
+#### owner
+
+  ```solidity
+  function owner() external view returns (address)
+  ```
+
+  Returns the current owner of the contract.
+
+#### nominatedOwner
+
+  ```solidity
+  function nominatedOwner() external view returns (address)
+  ```
+
+  Returns the current nominated owner of the contract.
+
+  Only one address can be nominated at a time.
+
+#### convertUSD
+
+  ```solidity
+  function convertUSD(uint256 amount) external
+  ```
+
+  Called by anyone with {amount} sUSD to convert {amount} sUSD to {amount} snxUSD.
+The sUSD will be burned (thereby reducing the sUSD total supply and v2x system size), and snxUSD will be minted.
+Any user who has sUSD can call this function. If you have migrated to v3 and there is insufficient sUSD liquidity
+to convert, consider buying snxUSD on the open market, since that means most snxUSD has already been migrated.
+Requirements:
+* User must first approve() the legacy market contract to spend the user's sUSD
+* LegacyMarket must have already sufficient migrated collateral
+
+**Parameters**
+* `amount` (*uint256*) - the quantity to convert
+
+#### migrate
+
+  ```solidity
+  function migrate(uint128 accountId) external
+  ```
+
+  Called by an SNX staker on v2x to convert their position to the equivalent on v3. This entails the following broad steps:
+1. collect all their SNX collateral and debt from v2x
+2. create a new staking account on v3 with the supplied {accountId}
+3. put the collateral and debt into this newly created staking account
+4. send the created staking account to the msg.sender.
+
+**Parameters**
+* `accountId` (*uint128*) - the new account id that the user wants to have. can be any non-zero integer that is not already occupied.
+
+#### migrateOnBehalf
+
+  ```solidity
+  function migrateOnBehalf(address staker, uint128 accountId) external
+  ```
+
+  Same as `migrate`, but allows for the owner to forcefully migrate any v2x staker
+
+**Parameters**
+* `staker` (*address*) - 
+* `accountId` (*uint128*) - the new account id that the user wants to have. can be any non-zero integer that is not already occupied.
+
+#### registerMarket
+
+  ```solidity
+  function registerMarket() external returns (uint128 newMarketId)
+  ```
+
+  called by the owner to register this market with v3. This is an initialization call only.
+
+#### setSystemAddresses
+
+  ```solidity
+  function setSystemAddresses(contract IAddressResolver v2xResolverAddress, contract IV3CoreProxy v3SystemAddress) external returns (bool didInitialize)
+  ```
+
+  called by the owner to set the addresses of the v3 and v2x systems which are needed for calls in `migrate` and `convertUSD`
+
+**Parameters**
+* `v2xResolverAddress` (*contract IAddressResolver*) - the v2x `AddressResolver` contract address. LegacyMarket can use AddressResolver to get the address of any other v2x contract.
+* `v3SystemAddress` (*contract IV3CoreProxy*) - the v3 core proxy address
+
+#### setPauseStablecoinConversion
+
+  ```solidity
+  function setPauseStablecoinConversion(bool paused) external
+  ```
+
+  called by the owner to disable `convertUSD` (ex. in the case of an emergency)
+
+**Parameters**
+* `paused` (*bool*) - whether or not `convertUSD` should be disable
+
+#### setPauseMigration
+
+  ```solidity
+  function setPauseMigration(bool paused) external
+  ```
+
+  called by the owner to disable `migrate` (ex. in the case of an emergency)
+
+**Parameters**
+* `paused` (*bool*) - whether or not `migrate` should be disable
+
+#### Upgraded
+
+  ```solidity
+  event Upgraded(address self, address implementation)
+  ```
+
+  Emitted when the implementation of the proxy has been upgraded.
+
+**Parameters**
+* `self` (*address*) - The address of the proxy whose implementation was upgraded.
+* `implementation` (*address*) - The address of the proxy's new implementation.
+
+#### OwnerNominated
+
+  ```solidity
+  event OwnerNominated(address newOwner)
+  ```
+
+  Emitted when an address has been nominated.
+
+**Parameters**
+* `newOwner` (*address*) - The address that has been nominated.
+
+#### OwnerChanged
+
+  ```solidity
+  event OwnerChanged(address oldOwner, address newOwner)
+  ```
+
+  Emitted when the owner of the contract has changed.
+
+**Parameters**
+* `oldOwner` (*address*) - The previous owner of the contract.
+* `newOwner` (*address*) - The new owner of the contract.
+
+#### AccountMigrated
+
+  ```solidity
+  event AccountMigrated(address staker, uint256 accountId, uint256 collateralAmount, uint256 debtAmount)
+  ```
+
+  Emitted after an account has been migrated from the (legacy) v2x system to v3
+
+**Parameters**
+* `staker` (*address*) - the address of the v2x staker that migrated
+* `accountId` (*uint256*) - the new account id
+* `collateralAmount` (*uint256*) - the amount of SNX migrated to v3
+* `debtAmount` (*uint256*) - the value of new debt now managed by v3
+
+#### ConvertedUSD
+
+  ```solidity
+  event ConvertedUSD(address account, uint256 amount)
+  ```
+
+  Emitted after a call to `convertUSD`, moving debt from v2x to v3.
+
+**Parameters**
+* `account` (*address*) - the address of the address which provided the sUSD for conversion
+* `amount` (*uint256*) - the amount of sUSD burnt, and the amount of snxUSD minted
+
+#### PauseStablecoinConversionSet
+
+  ```solidity
+  event PauseStablecoinConversionSet(address sender, bool paused)
+  ```
+
+  Emitted after a call to `setPauseStablecoinConversion`
+
+**Parameters**
+* `sender` (*address*) - the address setting the stablecoin conversion pause status
+* `paused` (*bool*) - whether stablecoin conversion is being paused or unpaused
+
+#### PauseMigrationSet
+
+  ```solidity
+  event PauseMigrationSet(address sender, bool paused)
+  ```
+
+  Emitted after a call to `setPauseMigration`
+
+**Parameters**
+* `sender` (*address*) - the address setting the migration pause status
+* `paused` (*bool*) - whether migration is being paused or unpaused
+
+### ILegacyMarket
+
+#### convertUSD
+
+  ```solidity
+  function convertUSD(uint256 amount) external
+  ```
+
+  Called by anyone with {amount} sUSD to convert {amount} sUSD to {amount} snxUSD.
+The sUSD will be burned (thereby reducing the sUSD total supply and v2x system size), and snxUSD will be minted.
+Any user who has sUSD can call this function. If you have migrated to v3 and there is insufficient sUSD liquidity
+to convert, consider buying snxUSD on the open market, since that means most snxUSD has already been migrated.
+Requirements:
+* User must first approve() the legacy market contract to spend the user's sUSD
+* LegacyMarket must have already sufficient migrated collateral
+
+**Parameters**
+* `amount` (*uint256*) - the quantity to convert
+
+#### migrate
+
+  ```solidity
+  function migrate(uint128 accountId) external
+  ```
+
+  Called by an SNX staker on v2x to convert their position to the equivalent on v3. This entails the following broad steps:
+1. collect all their SNX collateral and debt from v2x
+2. create a new staking account on v3 with the supplied {accountId}
+3. put the collateral and debt into this newly created staking account
+4. send the created staking account to the msg.sender.
+
+**Parameters**
+* `accountId` (*uint128*) - the new account id that the user wants to have. can be any non-zero integer that is not already occupied.
+
+#### migrateOnBehalf
+
+  ```solidity
+  function migrateOnBehalf(address staker, uint128 accountId) external
+  ```
+
+  Same as `migrate`, but allows for the owner to forcefully migrate any v2x staker
+
+**Parameters**
+* `staker` (*address*) - 
+* `accountId` (*uint128*) - the new account id that the user wants to have. can be any non-zero integer that is not already occupied.
+
+#### registerMarket
+
+  ```solidity
+  function registerMarket() external returns (uint128 newMarketId)
+  ```
+
+  called by the owner to register this market with v3. This is an initialization call only.
+
+#### setSystemAddresses
+
+  ```solidity
+  function setSystemAddresses(contract IAddressResolver v2xResolverAddress, contract IV3CoreProxy v3SystemAddress) external returns (bool didInitialize)
+  ```
+
+  called by the owner to set the addresses of the v3 and v2x systems which are needed for calls in `migrate` and `convertUSD`
+
+**Parameters**
+* `v2xResolverAddress` (*contract IAddressResolver*) - the v2x `AddressResolver` contract address. LegacyMarket can use AddressResolver to get the address of any other v2x contract.
+* `v3SystemAddress` (*contract IV3CoreProxy*) - the v3 core proxy address
+
+#### setPauseStablecoinConversion
+
+  ```solidity
+  function setPauseStablecoinConversion(bool paused) external
+  ```
+
+  called by the owner to disable `convertUSD` (ex. in the case of an emergency)
+
+**Parameters**
+* `paused` (*bool*) - whether or not `convertUSD` should be disable
+
+#### setPauseMigration
+
+  ```solidity
+  function setPauseMigration(bool paused) external
+  ```
+
+  called by the owner to disable `migrate` (ex. in the case of an emergency)
+
+**Parameters**
+* `paused` (*bool*) - whether or not `migrate` should be disable
+
+#### AccountMigrated
+
+  ```solidity
+  event AccountMigrated(address staker, uint256 accountId, uint256 collateralAmount, uint256 debtAmount)
+  ```
+
+  Emitted after an account has been migrated from the (legacy) v2x system to v3
+
+**Parameters**
+* `staker` (*address*) - the address of the v2x staker that migrated
+* `accountId` (*uint256*) - the new account id
+* `collateralAmount` (*uint256*) - the amount of SNX migrated to v3
+* `debtAmount` (*uint256*) - the value of new debt now managed by v3
+
+#### ConvertedUSD
+
+  ```solidity
+  event ConvertedUSD(address account, uint256 amount)
+  ```
+
+  Emitted after a call to `convertUSD`, moving debt from v2x to v3.
+
+**Parameters**
+* `account` (*address*) - the address of the address which provided the sUSD for conversion
+* `amount` (*uint256*) - the amount of sUSD burnt, and the amount of snxUSD minted
+
+#### PauseStablecoinConversionSet
+
+  ```solidity
+  event PauseStablecoinConversionSet(address sender, bool paused)
+  ```
+
+  Emitted after a call to `setPauseStablecoinConversion`
+
+**Parameters**
+* `sender` (*address*) - the address setting the stablecoin conversion pause status
+* `paused` (*bool*) - whether stablecoin conversion is being paused or unpaused
+
+#### PauseMigrationSet
+
+  ```solidity
+  event PauseMigrationSet(address sender, bool paused)
+  ```
+
+  Emitted after a call to `setPauseMigration`
+
+**Parameters**
+* `sender` (*address*) - the address setting the migration pause status
+* `paused` (*bool*) - whether migration is being paused or unpaused
+
 ## Governance
 
-- [Back to TOC](#smart-contracts)
+- [Back to TOC](#synthetix-core)
 
 ### Council Token Module
 
@@ -5861,7 +6969,7 @@ See {setApprovalForAll}
 
 ## Oracle Manager
 
-- [Back to TOC](#smart-contracts)
+- [Back to TOC](#synthetix-core)
 
 ### Node Module
 
@@ -6113,3 +7221,4 @@ See {setApprovalForAll}
   ```solidity
   function isValid(struct NodeDefinition.Data nodeDefinition) internal view returns (bool valid)
   ```
+
