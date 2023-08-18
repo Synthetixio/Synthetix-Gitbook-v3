@@ -1,12 +1,5 @@
 # Smart Contracts
 
-- [Synthetix Core](#synthetix-core)
-- [Spot Market](#spot-market)
-- [Perps Market](#perps-market)
-- [Legacy Market](#legacy-market)
-- [Governance](#governance)
-- [Oracle Manager](#oracle-manager)
-
 ## Synthetix Core
 
 ### Account Module
@@ -2344,8 +2337,6 @@ The return value is a percentage with 18 decimals places.
 
 ## Spot Market
 
-- [Back to TOC](#synthetix-core)
-
 ### Async Order Configuration Module
 
 #### addSettlementStrategy
@@ -3797,8 +3788,6 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 
 ## Perps Market
 
-- [Back to TOC](#synthetix-core)
-
 ### Async Order Module
 
 #### commitOrder
@@ -4950,8 +4939,6 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 
 ## Legacy Market
 
-- [Back to TOC](#synthetix-core)
-
 ### InitialModuleBundle
 
 #### upgradeTo
@@ -5881,8 +5868,6 @@ Requirements:
 * `paused` (*bool*) - whether migration is being paused or unpaused
 
 ## Governance
-
-- [Back to TOC](#synthetix-core)
 
 ### Council Token Module
 
@@ -7002,8 +6987,6 @@ See {setApprovalForAll}
   Returns the current NFT token holders
 
 ## Oracle Manager
-
-- [Back to TOC](#synthetix-core)
 
 ### Node Module
 
