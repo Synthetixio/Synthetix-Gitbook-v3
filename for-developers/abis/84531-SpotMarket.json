@@ -1,5 +1,5 @@
 {
-  "address": "0x5FF4b3aacdeC86782d8c757FAa638d8790799E83",
+  "address": "0x5b5ff238F1d43087A033c9c1800BAAC03d4386F1",
   "abi": [
     {
       "inputs": [
@@ -770,19 +770,6 @@
         }
       ],
       "name": "renounceMarketNomination",
-      "outputs": [],
-      "stateMutability": "nonpayable",
-      "type": "function"
-    },
-    {
-      "inputs": [
-        {
-          "internalType": "uint128",
-          "name": "synthMarketId",
-          "type": "uint128"
-        }
-      ],
-      "name": "renounceMarketOwnership",
       "outputs": [],
       "stateMutability": "nonpayable",
       "type": "function"
