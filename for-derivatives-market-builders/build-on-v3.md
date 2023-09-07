@@ -38,7 +38,7 @@ Synthetix v3 solves the cold-start and scaling liquidity problems for derivate p
    1. propose a SIP, following the [governance guide ](https://docs.synthetix.io/dao/how-to-write-sip-sccps)
 3. Request some of the existing $500m+ LP collateral in the Synthetix system for your market
    1. request collateral from an existing Pool OR
-   2. create a new Pool ([creating-and-configuring-pools.md](../for-liquidity-pool-managers/creating-and-configuring-pools.md "mention")) and attract Synthetix LPs to allocate to your pool, by proposing a SIP as per the [governance guide](https://docs.synthetix.io/dao/how-to-write-sip-sccps)
+   2. create a new Pool ([creating-and-configuring-pools.md](../for-liquidity-pool-managers/creating-and-configuring-pools.md "mention")) and attract Synthetix LPs to allocate to your pool, by proposing an SCCP as per the [governance guide](https://docs.synthetix.io/dao/how-to-write-sip-sccps)
 4. Your high performing Market will be attractive to Pools and LPs
 
 <figure><img src="../.gitbook/assets/v3 flywheel  (1).jpg" alt=""><figcaption><p>The lifecycle of adding a Market and attracting collateral</p></figcaption></figure>
