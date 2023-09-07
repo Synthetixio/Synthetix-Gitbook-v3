@@ -16,8 +16,8 @@
 
 * [Creating and Configuring Pools](for-liquidity-pool-managers/creating-and-configuring-pools.md)
 * [Collateral Vaults](for-liquidity-pool-managers/collateral-vaults/README.md)
-  * [Rewards Distributors](for-liquidity-pool-managers/collateral-vaults/rewards-distributors.md)
   * [Vault Liquidations](for-liquidity-pool-managers/collateral-vaults/vault-liquidations.md)
+* [Rewards Distributors](for-liquidity-pool-managers/rewards-distributors.md)
 * [Credit and Debt Distribution](for-liquidity-pool-managers/credit-and-debt-distribution.md)
 * [Cross-chain Pools](for-liquidity-pool-managers/cross-chain-pools.md)
 
