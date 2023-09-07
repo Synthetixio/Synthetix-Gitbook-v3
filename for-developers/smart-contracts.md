@@ -1136,6 +1136,19 @@ See `IMarket`.
 
 **Returns**
 * `withdrawableD18` (*uint256*) - The total amount of snxUSD that the market could withdraw at the time of the query, denominated with 18 decimals of precision.
+#### getMarketAddress
+
+  ```solidity
+  function getMarketAddress(uint128 marketId) external view returns (address marketAddress)
+  ```
+
+  Returns the contract address for the specified market.
+
+**Parameters**
+* `marketId` (*uint128*) - The id of the market
+
+**Returns**
+* `marketAddress` (*address*) - The contract address for the specified market
 #### getMarketNetIssuance
 
   ```solidity
@@ -1386,7 +1399,7 @@ by limiting the frequency of `delegateCollateral` (or `setPoolConfiguration`) ca
 #### multicall
 
   ```solidity
-  function multicall(bytes[] data) external payable returns (bytes[] results)
+  function multicall(bytes[] data) external returns (bytes[] results)
   ```
 
   Executes multiple transaction payloads in a single transaction.
@@ -1398,6 +1411,42 @@ by limiting the frequency of `delegateCollateral` (or `setPoolConfiguration`) ca
 
 **Returns**
 * `results` (*bytes[]*) - Array of each `delegatecall`'s response corresponding to the incoming calldata array.
+#### multicallThrough
+
+  ```solidity
+  function multicallThrough(address[] to, bytes[] data, uint256[] values) external payable returns (bytes[] results)
+  ```
+
+  Similar to `multicall`, but allows for transactions to be executed
+
+  If the address specified in `to` iteration is not the core system, it will call the contract with a regular "call". If it is the core system, it will be delegatecall.
+Target `to` contracts will need to support calling the below `getMessageSender` rather than regular `msg.sender` in order to allow for usage of permissioned calls with this function
+It is not possible to call this function recursively.
+Fails immediately on revert of any call.
+
+**Returns**
+* `results` (*bytes[]*) - Array of each call's response corresponding
+#### setAllowlistedMulticallTarget
+
+  ```solidity
+  function setAllowlistedMulticallTarget(address target, bool allowlisted) external
+  ```
+
+  Permit the given target to be called through `multicallThrough`.
+
+  This function can only be called by the system owner.
+
+**Parameters**
+* `target` (*address*) - The address of the contract to alter permissions
+* `allowlisted` (*bool*) - Whether or not the target is allowlisted
+
+#### getMessageSender
+
+  ```solidity
+  function getMessageSender() external view returns (address)
+  ```
+
+  When receiving a call from this contract through `multicallThrough`, the receiver can use this function to get the original caller.
 
 ### Pool Configuration Module
 
@@ -1521,6 +1570,31 @@ Incoming market ids need to be provided in ascending order.
 * `poolId` (*uint128*) - The id of the pool whose configuration is being set.
 * `marketDistribution` (*struct MarketConfiguration.Data[]*) - The array of market configuration objects that define the list of markets that are connected to the system.
 
+#### setPoolCollateralConfiguration
+
+  ```solidity
+  function setPoolCollateralConfiguration(uint128 poolId, address collateralType, struct PoolCollateralConfiguration.Data newConfig) external
+  ```
+
+  Allows the pool owner to set the configuration of a specific collateral type for their pool.
+
+**Parameters**
+* `poolId` (*uint128*) - The id of the pool whose configuration is being set.
+* `collateralType` (*address*) - The collate
+* `newConfig` (*struct PoolCollateralConfiguration.Data*) - The config to set
+
+#### setPoolCollateralDisabledByDefault
+
+  ```solidity
+  function setPoolCollateralDisabledByDefault(uint128 poolId, bool disabled) external
+  ```
+
+  Allows collaterals accepeted by the system to be accepeted by the pool by default
+
+**Parameters**
+* `poolId` (*uint128*) - The id of the pool.
+* `disabled` (*bool*) - If set to true new collaterals will be disabled for the pool.
+
 #### getPoolConfiguration
 
   ```solidity
@@ -1641,6 +1715,18 @@ Incoming market ids need to be provided in ascending order.
 **Parameters**
 * `minLiquidityRatio` (*uint256*) - The new system-wide minimum liquidity ratio, denominated with 18 decimals of precision. (100% is represented by 1 followed by 18 zeros.)
 
+#### getPoolCollateralIssuanceRatio
+
+  ```solidity
+  function getPoolCollateralIssuanceRatio(uint128 poolId, address collateral) external returns (uint256 issuanceRatioD18)
+  ```
+
+  returns a pool minimum issuance ratio
+
+**Parameters**
+* `poolId` (*uint128*) - The id of the pool for to check the collateral for.
+* `collateral` (*address*) - The address of the collateral.
+
 #### getMinLiquidityRatio
 
   ```solidity
@@ -1751,6 +1837,12 @@ Incoming market ids need to be provided in ascending order.
 * `markets` (*struct MarketConfiguration.Data[]*) - Array of configuration data of the markets that were connected to the pool.
 * `sender` (*address*) - The address that triggered the pool configuration.
 
+#### PoolCollateralConfigurationUpdated
+
+  ```solidity
+  event PoolCollateralConfigurationUpdated(uint128 poolId, address collateralType, struct PoolCollateralConfiguration.Data config)
+  ```
+
 #### SetMinLiquidityRatio
 
   ```solidity
@@ -1761,6 +1853,18 @@ Incoming market ids need to be provided in ascending order.
 
 **Parameters**
 * `minLiquidityRatio` (*uint256*) - The new system-wide minimum liquidity ratio
+
+#### PoolCollateralDisabledByDefaultSet
+
+  ```solidity
+  event PoolCollateralDisabledByDefaultSet(uint128 poolId, bool disabled)
+  ```
+
+  Allows collaterals accepeted by the system to be accepeted by the pool by default
+
+**Parameters**
+* `poolId` (*uint128*) - The id of the pool.
+* `disabled` (*bool*) - Shows if new collateral's will be dsiabled by default for the pool
 
 ### Rewards Manager Module
 
@@ -3274,6 +3378,19 @@ Anyone who is willing and able to spend the gas can call this method.
 **Parameters**
 * `synthMarketId` (*uint128*) - synth market id value
 
+#### renounceMarketOwnership
+
+  ```solidity
+  function renounceMarketOwnership(uint128 synthMarketId) external
+  ```
+
+  Allows the market owner to renounce his ownership.
+
+  Reverts if the caller is not the owner.
+
+**Parameters**
+* `synthMarketId` (*uint128*) - synth market id value
+
 #### getMarketOwner
 
   ```solidity
@@ -3350,13 +3467,14 @@ Anyone who is willing and able to spend the gas can call this method.
 #### SynthRegistered
 
   ```solidity
-  event SynthRegistered(uint256 synthMarketId)
+  event SynthRegistered(uint256 synthMarketId, address synthTokenAddress)
   ```
 
   Gets fired when the synth is registered as a market.
 
 **Parameters**
 * `synthMarketId` (*uint256*) - Id of the synth market that was created
+* `synthTokenAddress` (*address*) - address of the newly created synth token
 
 #### SynthImplementationUpgraded
 
@@ -4202,7 +4320,7 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 #### liquidate
 
   ```solidity
-  function liquidate(uint128 accountId) external
+  function liquidate(uint128 accountId) external returns (uint256 liquidationReward)
   ```
 
   Liquidates an account.
@@ -4212,13 +4330,28 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 **Parameters**
 * `accountId` (*uint128*) - Id of the account to liquidate.
 
+**Returns**
+* `liquidationReward` (*uint256*) - total reward sent to liquidator.
 #### liquidateFlagged
 
   ```solidity
-  function liquidateFlagged() external
+  function liquidateFlagged() external returns (uint256 liquidationReward)
   ```
 
   Liquidates all flagged accounts.
+
+**Returns**
+* `liquidationReward` (*uint256*) - total reward sent to liquidator.
+#### canLiquidate
+
+  ```solidity
+  function canLiquidate(uint128 accountId) external view returns (bool isEligible)
+  ```
+
+  Returns if an account is eligible for liquidation.
+
+**Returns**
+* `isEligible` (*bool*) - 
 
 #### PositionLiquidated
 
@@ -4303,10 +4436,25 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 * `skewScale` (*uint256*) - the skew scale.
 * `maxFundingVelocity` (*uint256*) - the max funding velocity.
 
+#### setMaxLiquidationParameters
+
+  ```solidity
+  function setMaxLiquidationParameters(uint128 marketId, uint256 maxLiquidationLimitAccumulationMultiplier, uint256 maxSecondsInLiquidationWindow, uint256 maxLiquidationPd, address endorsedLiquidator) external
+  ```
+
+  Set liquidation parameters for a market with this function.
+
+**Parameters**
+* `marketId` (*uint128*) - id of the market to set liquidation parameters.
+* `maxLiquidationLimitAccumulationMultiplier` (*uint256*) - the max liquidation limit accumulation multiplier.
+* `maxSecondsInLiquidationWindow` (*uint256*) - the max seconds in liquidation window (used together with the acc multiplier to get max liquidation per window).
+* `maxLiquidationPd` (*uint256*) - max allowed pd when calculating max liquidation amount
+* `endorsedLiquidator` (*address*) - address of the endorsed liquidator who can fully liquidate accounts without any restriction
+
 #### setLiquidationParameters
 
   ```solidity
-  function setLiquidationParameters(uint128 marketId, uint256 initialMarginRatioD18, uint256 minimumInitialMarginRatioD18, uint256 maintenanceMarginScalarD18, uint256 liquidationRewardRatioD18, uint256 maxLiquidationLimitAccumulationMultiplier, uint256 maxSecondsInLiquidationWindow, uint256 minimumPositionMargin) external
+  function setLiquidationParameters(uint128 marketId, uint256 initialMarginRatioD18, uint256 minimumInitialMarginRatioD18, uint256 maintenanceMarginScalarD18, uint256 liquidationRewardRatioD18, uint256 minimumPositionMargin) external
   ```
 
   Set liquidation parameters for a market with this function.
@@ -4317,8 +4465,6 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 * `minimumInitialMarginRatioD18` (*uint256*) - the minimum initial margin ratio (as decimal with 18 digits precision).
 * `maintenanceMarginScalarD18` (*uint256*) - the maintenance margin scalar relative to the initial margin ratio (as decimal with 18 digits precision).
 * `liquidationRewardRatioD18` (*uint256*) - the liquidation reward ratio (as decimal with 18 digits precision).
-* `maxLiquidationLimitAccumulationMultiplier` (*uint256*) - the max liquidation limit accumulation multiplier.
-* `maxSecondsInLiquidationWindow` (*uint256*) - the max seconds in liquidation window (used together with the acc multiplier to get max liquidation per window).
 * `minimumPositionMargin` (*uint256*) - the minimum position margin.
 
 #### setMaxMarketSize
@@ -4374,10 +4520,26 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 
 **Returns**
 * `settlementStrategy` (*struct SettlementStrategy.Data*) - strategy details (see SettlementStrategy.Data struct).
+#### getMaxLiquidationParameters
+
+  ```solidity
+  function getMaxLiquidationParameters(uint128 marketId) external view returns (uint256 maxLiquidationLimitAccumulationMultiplier, uint256 maxSecondsInLiquidationWindow, uint256 maxLiquidationPd, address endorsedLiquidator)
+  ```
+
+  Gets liquidation parameters details of a market.
+
+**Parameters**
+* `marketId` (*uint128*) - id of the market.
+
+**Returns**
+* `maxLiquidationLimitAccumulationMultiplier` (*uint256*) - the max liquidation limit accumulation multiplier.
+* `maxSecondsInLiquidationWindow` (*uint256*) - the max seconds in liquidation window (used together with the acc multiplier to get max liquidation per window).
+* `maxLiquidationPd` (*uint256*) - max allowed pd when calculating max liquidation amount
+* `endorsedLiquidator` (*address*) - address of the endorsed liquidator who can fully liquidate accounts without any restriction
 #### getLiquidationParameters
 
   ```solidity
-  function getLiquidationParameters(uint128 marketId) external view returns (uint256 initialMarginRatioD18, uint256 minimumInitialMarginRatioD18, uint256 maintenanceMarginScalarD18, uint256 liquidationRewardRatioD18, uint256 maxLiquidationLimitAccumulationMultiplier, uint256 maxSecondsInLiquidationWindow, uint256 minimumPositionMargin)
+  function getLiquidationParameters(uint128 marketId) external view returns (uint256 initialMarginRatioD18, uint256 minimumInitialMarginRatioD18, uint256 maintenanceMarginScalarD18, uint256 liquidationRewardRatioD18, uint256 minimumPositionMargin)
   ```
 
   Gets liquidation parameters details of a market.
@@ -4390,8 +4552,6 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 * `minimumInitialMarginRatioD18` (*uint256*) - the minimum initial margin ratio (as decimal with 18 digits precision).
 * `maintenanceMarginScalarD18` (*uint256*) - the maintenance margin scalar relative to the initial margin ratio (as decimal with 18 digits precision).
 * `liquidationRewardRatioD18` (*uint256*) - the liquidation reward ratio (as decimal with 18 digits precision).
-* `maxLiquidationLimitAccumulationMultiplier` (*uint256*) - the max liquidation limit accumulation multiplier.
-* `maxSecondsInLiquidationWindow` (*uint256*) - the max seconds in liquidation window (used together with the acc multiplier to get max liquidation per window).
 * `minimumPositionMargin` (*uint256*) - the minimum position margin.
 #### getFundingParameters
 
@@ -4499,10 +4659,25 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 * `skewScale` (*uint256*) - the skew scale.
 * `maxFundingVelocity` (*uint256*) - the max funding velocity.
 
+#### MaxLiquidationParametersSet
+
+  ```solidity
+  event MaxLiquidationParametersSet(uint128 marketId, uint256 maxLiquidationLimitAccumulationMultiplier, uint256 maxSecondsInLiquidationWindow, uint256 maxLiquidationPd, address endorsedLiquidator)
+  ```
+
+  Gets fired when parameters for max liquidation are set
+
+**Parameters**
+* `marketId` (*uint128*) - updates funding parameters to this specific market.
+* `maxLiquidationLimitAccumulationMultiplier` (*uint256*) - the max liquidation limit accumulation multiplier.
+* `maxSecondsInLiquidationWindow` (*uint256*) - the max seconds in liquidation window (used together with the acc multiplier to get max liquidation per window).
+* `maxLiquidationPd` (*uint256*) - 
+* `endorsedLiquidator` (*address*) - 
+
 #### LiquidationParametersSet
 
   ```solidity
-  event LiquidationParametersSet(uint128 marketId, uint256 initialMarginRatioD18, uint256 maintenanceMarginRatioD18, uint256 minimumInitialMarginRatioD18, uint256 liquidationRewardRatioD18, uint256 maxLiquidationLimitAccumulationMultiplier, uint256 maxSecondsInLiquidationWindow, uint256 minimumPositionMargin)
+  event LiquidationParametersSet(uint128 marketId, uint256 initialMarginRatioD18, uint256 maintenanceMarginRatioD18, uint256 minimumInitialMarginRatioD18, uint256 liquidationRewardRatioD18, uint256 minimumPositionMargin)
   ```
 
   Gets fired when liquidation parameters are updated.
@@ -4513,8 +4688,6 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 * `maintenanceMarginRatioD18` (*uint256*) - the maintenance margin ratio (as decimal with 18 digits precision).
 * `minimumInitialMarginRatioD18` (*uint256*) - 
 * `liquidationRewardRatioD18` (*uint256*) - the liquidation reward ratio (as decimal with 18 digits precision).
-* `maxLiquidationLimitAccumulationMultiplier` (*uint256*) - the max liquidation limit accumulation multiplier.
-* `maxSecondsInLiquidationWindow` (*uint256*) - the max seconds in liquidation window (used together with the acc multiplier to get max liquidation per window).
 * `minimumPositionMargin` (*uint256*) - the minimum position margin.
 
 #### MaxMarketSizeSet
@@ -4677,6 +4850,8 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
   ```
 
   Gets the initial/maintenance margins across all positions that an account has open.
+
+  Note that requiredInitialMargin and requiredMaintenanceMargin includes the liquidation rewards, in case you want the value without it you need to substract maxLiquidationReward.
 
 **Parameters**
 * `accountId` (*uint128*) - Id of the account.
@@ -7046,6 +7221,21 @@ See {setApprovalForAll}
 
 **Returns**
 * `node` (*struct NodeOutput.Data*) - The node's output data
+#### processWithRuntime
+
+  ```solidity
+  function processWithRuntime(bytes32 nodeId, bytes32[] runtimeKeys, bytes32[] runtimeValues) external view returns (struct NodeOutput.Data node)
+  ```
+
+  Returns a node current output data
+
+**Parameters**
+* `nodeId` (*bytes32*) - The node ID
+* `runtimeKeys` (*bytes32[]*) - Keys corresponding to runtime values which could be used by the node graph
+* `runtimeValues` (*bytes32[]*) - The values used by the node graph
+
+**Returns**
+* `node` (*struct NodeOutput.Data*) - The node's output data
 
 #### NodeRegistered
 
@@ -7100,7 +7290,7 @@ See {setApprovalForAll}
 #### process
 
   ```solidity
-  function process(struct NodeOutput.Data[] prices, bytes parameters) internal view returns (struct NodeOutput.Data nodeOutput)
+  function process(struct NodeOutput.Data[] prices, bytes parameters, bytes32[] runtimeKeys, bytes32[] runtimeValues) internal view returns (struct NodeOutput.Data nodeOutput)
   ```
 
 #### isValid
