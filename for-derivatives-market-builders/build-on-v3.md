@@ -31,15 +31,13 @@ Synthetix v3 solves the cold-start and scaling liquidity problems for derivate p
 
 ## Playbook for building on v3
 
-1. Create a new derivatives Market, or adapt your existing product, following [market-development-guide.md](../for-developers/market-development-guide.md "mention"):
-   1. focus on the mechanics of your product instead of inefficient liquidity incentives
-   2. conform to the IMarket interface in [integrating-synthetix.md](integrating-synthetix.md "mention")
-2. Propose to Synthetix governance for your Market to be enabled _(this step goes away once permissionless Markets are enabled by Spartan Council governance)_
-   1. propose a SIP, following the [governance guide ](https://docs.synthetix.io/dao/how-to-write-sip-sccps)
-3. Request some of the existing $500m+ LP collateral in the Synthetix system for your market
+1. **Create your Market:** Create a new derivatives Market, or adapt your existing product, following [market-development-guide.md](../for-developers/market-development-guide.md "mention"), and conforming to the `IMarket` interface in [integrating-synthetix.md](integrating-synthetix.md "mention")
+2. **Register your Market:** Propose an [SCCP](https://docs.synthetix.io/dao/how-to-write-sip-sccps) to Synthetix governance for your Market to be registered _(this governance requirement goes away once permissionless Markets are enabled by Spartan Council)_
+3. **Get collateral:** Request some of the existing $500m+ LP collateral in the Synthetix system for your Market
    1. request collateral from an existing Pool OR
-   2. create a new Pool ([creating-and-configuring-pools.md](../for-liquidity-pool-managers/creating-and-configuring-pools.md "mention")) and attract Synthetix LPs to allocate to your pool, by proposing an SCCP as per the [governance guide](https://docs.synthetix.io/dao/how-to-write-sip-sccps)
-4. Your high performing Market will be attractive to Pools and LPs
+   2. propose a new Pool of your own via [SCCP](https://docs.synthetix.io/dao/how-to-write-sip-sccps), and attract Synthetix LPs[creating-and-configuring-pools.md](../for-liquidity-pool-managers/creating-and-configuring-pools.md "mention") _(this governance requirement goes away once permissionless Pools are enabled by Spartan Council)_
+
+Your high performing Market will be attractive to other Pools and Synthetix LPs.
 
 <figure><img src="../.gitbook/assets/v3 flywheel  (1).jpg" alt=""><figcaption><p>The lifecycle of adding a Market and attracting collateral</p></figcaption></figure>
 
@@ -52,4 +50,4 @@ Synthetix v3 solves the cold-start and scaling liquidity problems for derivate p
 
 ## Notes
 
-* Currently snx is the only collateral enabled on Synthetix v3, and changes require governance
+* See [development-progress.md](../development-progress.md "mention") for more details on enabled collateral and other milestones.
