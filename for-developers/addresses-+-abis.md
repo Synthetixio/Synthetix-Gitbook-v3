@@ -91,5 +91,4 @@ Chain ID: 84531
 | snxAccount NFT | [0x1b791d05E437C78039424749243F5A79E747525e](https://goerli.basescan.org/address/0x1b791d05E437C78039424749243F5A79E747525e) | [View/Download](./abis/84531-snxAccountNFT.json) |
 | snxUSD Token | [0xe487Ad4291019b33e2230F8E2FB1fb6490325260](https://goerli.basescan.org/address/0xe487Ad4291019b33e2230F8E2FB1fb6490325260) | [View/Download](./abis/84531-snxUSDToken.json) |
 | Oracle Manager | [0x12aE0D5CD26f212bFE242DA78139d463019f7a73](https://goerli.basescan.org/address/0x12aE0D5CD26f212bFE242DA78139d463019f7a73) | [View/Download](./abis/84531-OracleManager.json) |
-| Spot Market | [0x5b5ff238F1d43087A033c9c1800BAAC03d4386F1](https://goerli.basescan.org/address/0x5b5ff238F1d43087A033c9c1800BAAC03d4386F1) | [View/Download](./abis/84531-SpotMarket.json) |
 

@@ -462,6 +462,12 @@
           "internalType": "uint256",
           "name": "synthMarketId",
           "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "synthTokenAddress",
+          "type": "address"
         }
       ],
       "name": "SynthRegistered",
@@ -764,6 +770,19 @@
         }
       ],
       "name": "renounceMarketNomination",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint128",
+          "name": "synthMarketId",
+          "type": "uint128"
+        }
+      ],
+      "name": "renounceMarketOwnership",
       "outputs": [],
       "stateMutability": "nonpayable",
       "type": "function"
@@ -2235,6 +2254,12 @@
           "internalType": "uint256",
           "name": "price",
           "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "enum Transaction.Type",
+          "name": "orderType",
+          "type": "uint8"
         }
       ],
       "name": "OrderSettled",
