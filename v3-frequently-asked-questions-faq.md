@@ -26,7 +26,7 @@ LPs will have greater flexibility to allocate collateral to markets based on the
 The new Pool and Vault system has two key benefits:
 
 1. Better risk management: Users can select one of many liquidity pools, which are connected to one or more markets, allowing more fine-tuned control of LP risk.
-2. Wider collateral range: The V3 system is oracle agnostic, allowing any governance-approved asset to serve as collateral for borrowing sUSD and delegate to derivative markets.
+2. Wider collateral range: The V3 system is collateral agnostic, allowing any governance-approved asset to serve as collateral for borrowing sUSD and delegate to derivative markets.
 
 Stakers have an increasing range of Pools to allocate their capital. This gives stakers more control over their collateral as the V3 system provides many more options for fine-tuned control.
 
