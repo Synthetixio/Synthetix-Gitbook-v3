@@ -2,6 +2,7 @@
 
 * [Overview](README.md)
 * [Development progress](development-progress.md)
+* [V3 Frequently Asked Questions (FAQ)](v3-frequently-asked-questions-faq.md)
 
 ## For Liquidity Providers
 
