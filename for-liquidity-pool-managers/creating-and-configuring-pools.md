@@ -23,6 +23,16 @@ There are a couple scenarios in which a pool's configuration is restricted in ho
 * The pool configuration change will be prevented if it would leave the total amount of credit capacity provided to a market lower than the amount it returns in its `minimumCredit` function.
 * The pool configuration cannot be changed unless the minimum collateral delegation duration has elapsed since the last time `setPoolConfiguration` was called for this pool.
 
+### Collateral Configuration
+
+By default, pools accept all collateral types approved by governance (using the configuration set by governance). Pool owners can set pool-specific collateral configurations using the `setPoolCollateralConfiguration` function.
+
+`issuanceRatioD18` is a custom issuance ratio for the specified collateral type. The system will always use the greater of this value and the issuance ratio set by governance. (Setting this value to  the maximum integer value effectively turns off minting using this collateral type in this pool.)
+
+`collateralLimitD18` is the maximum total amount of collateral that this pool will accept for the specified collateral type. (Note that if this is less than the `minDelegationD18` value, this pool has opted out of accepting this collateral type.)
+
+In the pool configuration (not to be confused with the pool _collateral_ configuration), pool owners can set the `collateralDisabledByDefault` value to `true`. In this case, new collateral types cannot be delegated to this pool. The pool owner must set a `collateralLimitD18` value to accept it. In other words, `collateralLimitD18 == 0` means that the pool will accept an unlimited amount of this collateral, unless `collateralDisabledByDefault` is set to `true`.
+
 ### Calculating Credit Capacity[​](https://snx-v3-docs.vercel.app/pools-markets/delegating-credit-and-debt#calculating-credit-capacity) <a href="#calculating-credit-capacity" id="calculating-credit-capacity"></a>
 
 To understand how the pool configuration function works, it's useful to see how it effects the available credit capacity (i.e. amount of withdrawable snxUSD) provided to markets.
