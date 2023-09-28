@@ -4055,18 +4055,6 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 
 ### Collateral Module
 
-#### setMaxCollateralAmount
-
-  ```solidity
-  function setMaxCollateralAmount(uint128 synthMarketId, uint256 collateralAmount) external
-  ```
-
-  Set the max collateral amoutn via this function
-
-**Parameters**
-* `synthMarketId` (*uint128*) - Synth market id, 0 for snxUSD.
-* `collateralAmount` (*uint256*) - max amount that for the synth
-
 #### MaxCollateralSet
 
   ```solidity
@@ -4335,13 +4323,41 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 #### liquidateFlagged
 
   ```solidity
-  function liquidateFlagged() external returns (uint256 liquidationReward)
+  function liquidateFlagged(uint256 maxNumberOfAccounts) external returns (uint256 liquidationReward)
   ```
 
-  Liquidates all flagged accounts.
+  Liquidates up to maxNumberOfAccounts flagged accounts.
+
+**Parameters**
+* `maxNumberOfAccounts` (*uint256*) - max number of accounts to liquidate.
 
 **Returns**
 * `liquidationReward` (*uint256*) - total reward sent to liquidator.
+#### liquidateFlaggedAccounts
+
+  ```solidity
+  function liquidateFlaggedAccounts(uint128[] accountIds) external returns (uint256 liquidationReward)
+  ```
+
+  Liquidates the listed flagged accounts.
+
+  if any of the accounts is not flagged for liquidation it will be skipped.
+
+**Parameters**
+* `accountIds` (*uint128[]*) - list of account ids to liquidate.
+
+**Returns**
+* `liquidationReward` (*uint256*) - total reward sent to liquidator.
+#### flaggedAccounts
+
+  ```solidity
+  function flaggedAccounts() external view returns (uint256[] accountIds)
+  ```
+
+  Returns the list of flagged accounts.
+
+**Returns**
+* `accountIds` (*uint256[]*) - list of flagged accounts.
 #### canLiquidate
 
   ```solidity
@@ -4352,6 +4368,18 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 
 **Returns**
 * `isEligible` (*bool*) - 
+#### liquidationCapacity
+
+  ```solidity
+  function liquidationCapacity(uint128 marketId) external view returns (uint256 capacity, uint256 maxLiquidationInWindow, uint256 latestLiquidationTimestamp)
+  ```
+
+  Current liquidation capacity for the market
+
+**Returns**
+* `capacity` (*uint256*) - market can liquidate up to this #
+* `maxLiquidationInWindow` (*uint256*) - max amount allowed to liquidate based on the current market configuration
+* `latestLiquidationTimestamp` (*uint256*) - timestamp of the last liquidation of the market
 
 #### PositionLiquidated
 
@@ -4881,7 +4909,7 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 #### initializeFactory
 
   ```solidity
-  function initializeFactory() external returns (uint128)
+  function initializeFactory(contract ISynthetixSystem synthetix, contract ISpotMarketSystem spotMarket, string marketName) external returns (uint128)
   ```
 
   Initializes the factory.
@@ -4890,27 +4918,16 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 
 **Returns**
 * `[0]` (*uint128*) - globalPerpsMarketId Id of the global perps market id.
-#### setSynthetix
+#### setPerpsMarketName
 
   ```solidity
-  function setSynthetix(contract ISynthetixSystem synthetix) external
+  function setPerpsMarketName(string marketName) external
   ```
 
-  Sets the synthetix system.
+  Sets the perps market name.
 
 **Parameters**
-* `synthetix` (*contract ISynthetixSystem*) - address of the main synthetix proxy.
-
-#### setSpotMarket
-
-  ```solidity
-  function setSpotMarket(contract ISpotMarketSystem spotMarket) external
-  ```
-
-  Sets the spot market system.
-
-**Parameters**
-* `spotMarket` (*contract ISpotMarketSystem*) - address of the spot market proxy.
+* `marketName` (*string*) - the new perps market name.
 
 #### createMarket
 
@@ -5818,6 +5835,12 @@ Requirements:
 
 **Parameters**
 * `paused` (*bool*) - whether or not `migrate` should be disable
+
+#### MarketRegistered
+
+  ```solidity
+  event MarketRegistered(address marketAddress, uint128 marketId, address sender)
+  ```
 
 #### Upgraded
 
