@@ -25,8 +25,9 @@
 ## For Derivatives Market Builders
 
 * [Build on v3](for-derivatives-market-builders/build-on-v3.md)
-* [Integrating Synthetix](for-derivatives-market-builders/integrating-synthetix.md)
+* [Build on v3 FAQ](for-derivatives-market-builders/build-on-v3-faq.md)
 * [Registering a Market](for-derivatives-market-builders/registering-a-market.md)
+* [Operating a Market](for-derivatives-market-builders/integrating-synthetix.md)
 
 ## For Traders
 

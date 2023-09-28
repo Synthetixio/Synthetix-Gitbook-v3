@@ -1,10 +1,4 @@
-# Integrating Synthetix
-
-Derivatives market implementations can be [registered](registering-a-market.md) with the Synthetix protocol if they conform to the `IMarket` interface. This consists of just three functions:
-
-* `function name(uint128 marketId) external view returns (string memory);` - A function which should return a human-readable name for the given market.
-* `function reportedDebt(uint129 marketId) external view returns (uint);` - A function which should return the total value of debt issued by the market (to be collateralized by the assets in the pools backing it), denominated with 18 decimals places.
-* `function minimumCredit(uint128 marketId) external view returns (uint);` - A function which returns the amount of credit under which pools cannot rescind credit delegated to the market. This value is dollar-denominated, with 18 decimals places. If the market implementation does not intend to lock collateral, this function can just `return 0;`. **Note that the amount of credit available to a market may still fall below this amount due to price action of the collateral backing it.**
+# Operating a Market
 
 ## Managing Credit & Debt[​](https://snx-v3-docs.vercel.app/pools-markets/integrating-markets#managing-credit--debt) <a href="#managing-credit--debt" id="managing-credit--debt"></a>
 
