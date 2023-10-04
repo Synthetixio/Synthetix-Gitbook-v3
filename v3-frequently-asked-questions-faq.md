@@ -91,3 +91,15 @@ Further as we transition to V3, there will be two non-fungible USD stablecoins t
   * No cancellation of orders; once order is expired, a new order can be placed.
 
 </details>
+
+<details>
+
+<summary>What tooling and resources are available for building on Synthetix V3?</summary>
+
+Synthetix will offer a variety of resources for builders looking to integrate with the V3 system. To start, all builders should review our documentation here: [https://docs.synthetix.io/v/v3/](https://docs.synthetix.io/v/v3/). This repository should contain all the relevant contracts, guides, and FAQs for building on top of Synthetix.
+
+Developers can use [Cannon](https://t.co/hcGnoDWtND), a tool for managing protocol deployments that is built and maintained by Synthetix core contributors.\
+\
+SDKs are also being developed to interface with Synthetix Perps.
+
+</details>
