@@ -651,7 +651,7 @@
           "type": "bytes[]"
         }
       ],
-      "stateMutability": "payable",
+      "stateMutability": "nonpayable",
       "type": "function"
     },
     {
@@ -2342,19 +2342,6 @@
       "type": "event"
     },
     {
-      "inputs": [],
-      "name": "PRECISION",
-      "outputs": [
-        {
-          "internalType": "int256",
-          "name": "",
-          "type": "int256"
-        }
-      ],
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
       "inputs": [
         {
           "internalType": "uint128",
@@ -2381,6 +2368,108 @@
         }
       ],
       "name": "settlePythOrder",
+      "outputs": [],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "fillPrice",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "acceptablePrice",
+          "type": "uint256"
+        }
+      ],
+      "name": "AcceptablePriceNotExceeded",
+      "type": "error"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "uint128",
+          "name": "marketId",
+          "type": "uint128"
+        },
+        {
+          "indexed": true,
+          "internalType": "uint128",
+          "name": "accountId",
+          "type": "uint128"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "desiredPrice",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "fillPrice",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "int128",
+          "name": "sizeDelta",
+          "type": "int128"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "settlementReward",
+          "type": "uint256"
+        },
+        {
+          "indexed": true,
+          "internalType": "bytes32",
+          "name": "trackingCode",
+          "type": "bytes32"
+        },
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "settler",
+          "type": "address"
+        }
+      ],
+      "name": "OrderCancelled",
+      "type": "event"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint128",
+          "name": "accountId",
+          "type": "uint128"
+        }
+      ],
+      "name": "cancelOrder",
+      "outputs": [],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes",
+          "name": "result",
+          "type": "bytes"
+        },
+        {
+          "internalType": "bytes",
+          "name": "extraData",
+          "type": "bytes"
+        }
+      ],
+      "name": "cancelPythOrder",
       "outputs": [],
       "stateMutability": "payable",
       "type": "function"
