@@ -1,8 +1,8 @@
 # Market Development Guide
 
-Earlier this year, Synthetix deployed V3, its next generation derivatives platform, to mainnet. A culmination of years of research and experience in creating on-chain derivatives products, the latest version of the protocol consists of a suite of systems and modules. This design allows developers to build custom market implementations for a wide range of financial instruments, such as spot tokens, perpetual futures, options, insurance, and any else, while utilizing the highest degree of decentralized technology currently available.
+Synthetix has deployed V3, its next generation derivatives platform to mainnet. A culmination of years of research and experience in creating on-chain derivatives products, the latest version of the protocol consists of a suite of systems and modules. This design allows developers to build custom market implementations for a wide range of financial instruments, such as spot tokens, perpetual futures, options, insurance, and any else, while utilizing the highest degree of decentralized technology currently available.
 
-This is a guide to building a simple number guessing game, implemented as a market on Synthetix V3. The code resulting from this guide can be found [on GitHub](https://github.com/Synthetixio/number-guessing-game).
+This is a guide to building a simple number guessing game, implemented as a Market on Synthetix V3. The code resulting from this guide can be found [on GitHub](https://github.com/Synthetixio/number-guessing-game).
 
 Before starting, you will need:
 

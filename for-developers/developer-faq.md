@@ -4,15 +4,23 @@ description: A guide to help developers start interacting with Synthetix V3
 
 # Developer FAQ
 
-### General V3
+### General
 
 Where can I get assets on OP Goerli?&#x20;
 
 * `ETH`: Optimism Goerli ETH is available from various faucets. We recommend the official [Optimism faucet](https://app.optimism.io/faucet) but there are also [other faucets](https://community.optimism.io/docs/useful-tools/faucets/) available.
 * `snxETH`: You can wrap OP Goerli ETH into snxETH on "Spot" tab of [the market prototype](https://synthetix-markets-prototype.vercel.app/). This is the easiest way to get assets for testing if you have testnet ETH.
-* `snxUSD`: snxETH acquired through wrapping can be sold for snxUSD on the spot market prototype. More info on spot swaps below
+* `snxUSD`: snxETH acquired through wrapping can be sold for snxUSD on the spot market prototype.
 
-### **Spot Markets V3**
+## Smart Contracts
+
+* All v3 contracts are under proxy, to find which you have to check the cannon file.&#x20;
+* Cannon is the tooling used to define v3, see [https://usecannon.com/packages/synthetix](https://usecannon.com/packages/synthetix)
+* Owner is the address indicated by the `owner` function, depends on network.&#x20;
+* Function to use for enabling feature flag to all is `setFeatureFlagAllowAll` I believe
+* Decide any error from v3 with `cannon decode synthetix-omnibus --chain-id 1 {paste 0x error code here}`
+
+### **Spot Markets**
 
 How can I swap assets?
 
