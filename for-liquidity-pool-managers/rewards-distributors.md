@@ -20,7 +20,7 @@ A pool owner can then connect a rewards distributor to a vault with the `registe
 
 Below is an example Rewards Distributor contract that can be used to develop your own.
 
-{% @github-files/github-code-block url="https://github.com/Synthetixio/example-rewards-distributor" %}
+{% @github-files/github-code-block %}
 
 ## Distributing Rewards <a href="#rewards-manager" id="rewards-manager"></a>
 
