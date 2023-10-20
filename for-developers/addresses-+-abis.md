@@ -28,10 +28,10 @@ Chain ID: 5
 
 | System         | Address                                                                                                                      | ABI                                               |
 | -------------- | ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
-| Synthetix Core | [0x76490713314fCEC173f44e99346F54c6e92a8E42](https://goerli.etherscan.io/address/0x76490713314fCEC173f44e99346F54c6e92a8E42) | [View/Download](./abis/5-main-SynthetixCore.json) |
-| snxAccount NFT | [0x1b791d05E437C78039424749243F5A79E747525e](https://goerli.etherscan.io/address/0x1b791d05E437C78039424749243F5A79E747525e) | [View/Download](./abis/5-main-snxAccountNFT.json) |
-| snxUSD Token   | [0xe487Ad4291019b33e2230F8E2FB1fb6490325260](https://goerli.etherscan.io/address/0xe487Ad4291019b33e2230F8E2FB1fb6490325260) | [View/Download](./abis/5-main-snxUSDToken.json)   |
-| Oracle Manager | [0x12aE0D5CD26f212bFE242DA78139d463019f7a73](https://goerli.etherscan.io/address/0x12aE0D5CD26f212bFE242DA78139d463019f7a73) | [View/Download](./abis/5-main-OracleManager.json) |
+| Synthetix Core | [0x895CE54BBA4f14FeFbF0624673DC303054De0652](https://goerli.etherscan.io/address/0x895CE54BBA4f14FeFbF0624673DC303054De0652) | [View/Download](./abis/5-main-SynthetixCore.json) |
+| snxAccount NFT | [0xf19BdaE737d61A91cd0aeb3E32D0E11f9eF7aE5c](https://goerli.etherscan.io/address/0xf19BdaE737d61A91cd0aeb3E32D0E11f9eF7aE5c) | [View/Download](./abis/5-main-snxAccountNFT.json) |
+| snxUSD Token   | [0x50f194b9949759510cE3700f759D64ac429dcC76](https://goerli.etherscan.io/address/0x50f194b9949759510cE3700f759D64ac429dcC76) | [View/Download](./abis/5-main-snxUSDToken.json)   |
+| Oracle Manager | [0x21a642c7b2B511f934DDD1250E2335899696ED0e](https://goerli.etherscan.io/address/0x21a642c7b2B511f934DDD1250E2335899696ED0e) | [View/Download](./abis/5-main-OracleManager.json) |
 | SNX Token      | [0x51f44ca59b867E005e48FA573Cb8df83FC7f7597](https://goerli.etherscan.io/address/0x51f44ca59b867E005e48FA573Cb8df83FC7f7597) | _ERC-20 compliant_                                |
 
 ## Sepolia
