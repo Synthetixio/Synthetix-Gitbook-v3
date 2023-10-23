@@ -18,6 +18,10 @@ An outline of v3, its components and possibilities
 The case for building on Synthetix v3
 {% endembed %}
 
+{% embed url="https://t.me/+Jwf641J8a6M1ZTI1" %}
+Telegram group for integrator discussions
+{% endembed %}
+
 ## Why build on v3
 
 Synthetix v3 solves the cold-start and scaling liquidity problems for derivate protocols, with more than $500m of liquidity waiting for new markets. Synthetix is an endlessly composable and configurable liquidity layer; backing derivative Markets, so they can scale faster, and LPs can accrue more fees.
@@ -47,6 +51,13 @@ Your high performing Market will be attractive to other Pools and Synthetix LPs.
 
 * Want to create a novel derivatives product? You could create a v3 Market, then request one of the existing Pools to delegate your Market some collateral, or create a Pool.
 * Want to control your own liquidity? You could propose to create a new Pool, and offer additional token incentives to Liquidity Providers with the Rewards Manager.&#x20;
+
+## Next steps
+
+1. Join the integrator telegram group to ask questions&#x20;
+2. Follow [Synthetix Integrators](https://twitter.com/i/lists/1677086706246520832) list on X
+
+{% embed url="https://t.me/+Jwf641J8a6M1ZTI1" %}
 
 ## Notes
 
