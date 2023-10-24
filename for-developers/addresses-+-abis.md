@@ -90,10 +90,11 @@ Chain ID: 84531
 
 | System         | Address                                                                                                                      | ABI                                                   |
 | -------------- | ---------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------- |
-| Synthetix Core | [0x76490713314fCEC173f44e99346F54c6e92a8E42](https://goerli.basescan.org/address/0x76490713314fCEC173f44e99346F54c6e92a8E42) | [View/Download](./abis/84531-main-SynthetixCore.json) |
-| snxAccount NFT | [0x1b791d05E437C78039424749243F5A79E747525e](https://goerli.basescan.org/address/0x1b791d05E437C78039424749243F5A79E747525e) | [View/Download](./abis/84531-main-snxAccountNFT.json) |
-| snxUSD Token   | [0xe487Ad4291019b33e2230F8E2FB1fb6490325260](https://goerli.basescan.org/address/0xe487Ad4291019b33e2230F8E2FB1fb6490325260) | [View/Download](./abis/84531-main-snxUSDToken.json)   |
-| Oracle Manager | [0x12aE0D5CD26f212bFE242DA78139d463019f7a73](https://goerli.basescan.org/address/0x12aE0D5CD26f212bFE242DA78139d463019f7a73) | [View/Download](./abis/84531-main-OracleManager.json) |
+| Synthetix Core | [0x3a0B49f5B93a95453BdaCfc3653E15F982A0187A](https://goerli.basescan.org/address/0x3a0B49f5B93a95453BdaCfc3653E15F982A0187A) | [View/Download](./abis/84531-main-SynthetixCore.json) |
+| snxAccount NFT | [0x1146D135842015662c46f284FBDb253EDE225fCE](https://goerli.basescan.org/address/0x1146D135842015662c46f284FBDb253EDE225fCE) | [View/Download](./abis/84531-main-snxAccountNFT.json) |
+| snxUSD Token   | [0x2b99243d983d515c611a09Ae673399553452ce18](https://goerli.basescan.org/address/0x2b99243d983d515c611a09Ae673399553452ce18) | [View/Download](./abis/84531-main-snxUSDToken.json)   |
+| Oracle Manager | [0xDca879a959f7B2AB73A6AC59bF84F647Eb6f203e](https://goerli.basescan.org/address/0xDca879a959f7B2AB73A6AC59bF84F647Eb6f203e) | [View/Download](./abis/84531-main-OracleManager.json) |
+| Spot Market    | [0x897CAf492D824a88d374f742E898f56FbD33d631](https://goerli.basescan.org/address/0x897CAf492D824a88d374f742E898f56FbD33d631) | [View/Download](./abis/84531-main-SpotMarket.json)    |
 
 ## Competition on Base Goerli
 
