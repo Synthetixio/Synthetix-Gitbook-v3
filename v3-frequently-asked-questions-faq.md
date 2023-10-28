@@ -34,7 +34,7 @@ Stakers have an increasing range of Pools to allocate their capital. This gives 
 
 <details>
 
-<summary>What types of collateral will there be outside of SNX?z</summary>
+<summary>What types of collateral will there be outside of SNX?</summary>
 
 **Answer:** The V3 system is created to be entirely agnostic to collateral; any ERC-20 with sufficient price feed can be added as collateral. Synthetix governance will determine which assets to support in addition to SNX.
 
