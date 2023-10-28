@@ -34,11 +34,21 @@ Stakers have an increasing range of Pools to allocate their capital. This gives 
 
 <details>
 
-<summary>What types of collateral will there be outside of SNX?</summary>
+<summary>What types of collateral will there be outside of SNX?z</summary>
 
 **Answer:** The V3 system is created to be entirely agnostic to collateral; any ERC-20 with sufficient price feed can be added as collateral. Synthetix governance will determine which assets to support in addition to SNX.
 
 Synthetix V3 features a generalized collateral vault system that is agnostic to collateral types. Over time, Synthetix Governance will determine which assets to support as collateral in addition to the current SNX (staking) and ETH (wrappers). Multi-collateral staking will increase sUSD liquidity and the markets supported by Synthetix. Collateral options will have adjustable variables, such as collateral requirements and rewards, which can be adjusted by governance.
+
+</details>
+
+<details>
+
+<summary>What is the cross-chain vision for Synthetix?</summary>
+
+**Answer**: The endstate goal of cross-chain Synthetix is to power derivative markets on any governance-approved EVM chain with a fully interoperable system. This will allow Synthetix-powered protocols to onboard traders on any chain and deliver the same low-fee deep liquidity trading experience to new users.
+
+As of Oct 2023, Governance is exploring an initial deployment plan on Base Network to experiment with new collateral types, fee sharing, and V3 markets.
 
 </details>
 
