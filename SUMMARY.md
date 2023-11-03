@@ -42,6 +42,7 @@
 ## For Developers
 
 * [Quick Start](for-developers/quick-start.md)
+* [Perp V3 Integrators](for-developers/perp-v3-integrators.md)
 * [Developer FAQ](for-developers/developer-faq.md)
 * [Market Development Guide](for-developers/market-development-guide.md)
 * [Technical Architecture](for-developers/technical-architecture.md)
