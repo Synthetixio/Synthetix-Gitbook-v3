@@ -44,6 +44,7 @@
 * [Introduction](for-perp-integrators/introduction.md)
 * [Perps V3](for-perp-integrators/perps-v3.md)
 * [Sandbox with Perps](for-perp-integrators/sandbox-with-perps.md)
+* [Base Andromeda](for-perp-integrators/base-andromeda.md)
 
 ## For Developers
 
