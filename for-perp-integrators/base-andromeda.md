@@ -14,7 +14,7 @@ description: An evolving reference for Perps V3 on Base
   * &#x20;USDC <-> sUSDC can be wrapped/unwrapped on the spot market
   * sUSD <-> sUSDC can be bought/sold on the spot market
   * No fee on these, all atomic so can be composed with multicalls
-* _Coming: Andromeda Base Sandbox - in the meantime see the more general_ [sandbox-with-perps.md](sandbox-with-perps.md "mention")
+* _Coming: Andromeda Base Sandbox - in the meantime see the more general_ [sandbox-with-perps.md](sandbox-with-perps.md "mention") _can be used once USDC is wrapped and swapped to sUSD_
 * TODO: [https://github.com/pyth-network/pyth-sdk-solidity/blob/main/MockPyth.sol](https://github.com/pyth-network/pyth-sdk-solidity/blob/main/MockPyth.sol)
 
 #### For LPs
