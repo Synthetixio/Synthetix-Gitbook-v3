@@ -46,5 +46,5 @@ Reverse this when withdrawing any margin and profits, by withdrawing sUSD, swapp
 
 * Perps V3 in audit from Nov 6th
 * V3 Core mainnet release from Nov 13th
-* Perps V3 mainnet release from Nov 20th
+* (pending auditor feedback) Perps V3 mainnet release from Nov 20th&#x20;
 
