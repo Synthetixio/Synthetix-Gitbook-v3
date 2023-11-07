@@ -10,7 +10,7 @@ description: An evolving reference for Perps V3 on Base
 * Underneath, USDC is wrapped and or traded into sUSDC for LP collateral (and collecting fees), and sUSD as perp margin
 * The full configuration of Base Goerli can be seen [on Cannon](https://usecannon.com/packages/synthetix-omnibus/3.3.3-dev.e141cd8c/84531-andromeda)
 * Configuration explained:&#x20;
-  * [this is the part](https://github.com/Synthetixio/synthetix-deployments/pull/66/files#diff-dc0e4e9b2b24d1fcf9c5a8ffd5b5548955777eff55c71dd0ab208dc04e84a89b) that deploys a synthUSDC and makes the spot market
+  * [this is the part](https://github.com/Synthetixio/synthetix-deployments/pull/66/files#diff-dc0e4e9b2b24d1fcf9c5a8ffd5b5548955777eff55c71dd0ab208dc04e84a89b) that deploys sUSDC (a USDC synth) and creates the spot market
   * &#x20;USDC <-> sUSDC can be wrapped/unwrapped on the spot market
   * sUSD <-> sUSDC can be bought/sold on the spot market
   * No fee on these, all atomic so can be composed with multicalls
@@ -31,11 +31,11 @@ When withdrawing, initial collateral plus any fees can be withdrawn, then unwrap
 
 If I am a trader or integrator wanting to margin with USDC:
 
-1. Wrap USDC for sUSDC
+1. Wrap USDC for sUSDC using the Spot Market Wrapper
 2. Swap sUSDC for sUSD with Spot Market
-3. Deposit the sUSD to the Perps Market
+3. Deposit the sUSD to the margin account in the Perps Market
 
-Reverse this when withdrawing any margin and profits, by withdrawing sUSD, swapping for sUSDC, and unwrapping to USDC.
+Reverse this order when withdrawing any margin and profits, by withdrawing sUSD margin, swapping for sUSDC, and unwrapping to USDC.
 
 ### Notable changes from Testnet Competition
 
