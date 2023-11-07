@@ -4,7 +4,7 @@ description: An evolving reference for Perps V3 on Base
 
 # Base Andromeda
 
-### Configuration
+## Configuration
 
 * Unique to Andromeda Base is the use of a USDC wrapper, enabling USDC to appear to be used as collateral for LPs, and as margin as perp traders.
 * Underneath, USDC is wrapped and or traded into sUSDC for LP collateral (and collecting fees), and sUSD as perp margin
@@ -17,7 +17,7 @@ description: An evolving reference for Perps V3 on Base
 * _Coming: Andromeda Base Sandbox - in the meantime see the more general_ [sandbox-with-perps.md](sandbox-with-perps.md "mention") _can be used once USDC is wrapped and swapped to sUSD_
 * TODO: [https://github.com/pyth-network/pyth-sdk-solidity/blob/main/MockPyth.sol](https://github.com/pyth-network/pyth-sdk-solidity/blob/main/MockPyth.sol)
 
-#### For LPs
+## For LPs
 
 LPs can arrive with USDC to LP:
 
@@ -27,15 +27,61 @@ LPs can arrive with USDC to LP:
 
 When withdrawing, initial collateral plus any fees can be withdrawn, then unwrapped from sUSDC to USDC.
 
-#### For Traders/Integrators
+## For Traders/Integrators
 
-If I am a trader or integrator wanting to margin with USDC:
+Integrators can create a seamless trading experience using USDC by utilizing the wrapper and spot  market. Since `USDC-sUSDC` and `sUSDC-sUSD` exchanges are both 1:1 swaps, integrators can easily create a "zap" between USDC in their wallet and their account margin.
 
-1. Wrap USDC for sUSDC using the Spot Market Wrapper
-2. Swap sUSDC for sUSD with Spot Market
-3. Deposit the sUSD to the margin account in the Perps Market
+### **Prerequisites**
 
-Reverse this order when withdrawing any margin and profits, by withdrawing sUSD margin, swapping for sUSDC, and unwrapping to USDC.
+An account must meet the following requirements to execute USDC transfers between their wallet and a perps account.
+
+**Deposit:**
+
+* Holds an account NFT for perps
+* Approve `SpotMarketProxy` to transfer USDC
+* Approve `SpotMarketProxy` to transfer sUSDC
+* Approve `PerpsMarketProxy` to transfer sUSD
+
+**Withdraw:**
+
+* Account NFT has some withdrawable margin
+* Approve `SpotMarketProxy` to transfer sUSD
+* Approve `SpotMarketProxy` to transfer sUSDC
+
+### Preparing the Transactions
+
+If you meet these requirements you can prepare a multicall to execute in a single transaction. Use `marketId = 1` for `sUSDC`. Matching values like `wrapAmount` and `amountReceived` in the transactions will guarantee this 1:1 swap.
+
+All transactions should be prepared as a multicall and sent to the `TrustedMulticallForwarder` contracts using `aggregate3Value`.
+
+**Deposit:**&#x20;
+
+1. `USDC -> sUSDC` - Wrap USDC on the spot market
+   1. Function: `SpotMarketProxy.wrap(marketId, wrapAmount, amountReceived)`
+   2. Example: `wrap(1, 1000000000000000000, 1000000000000000000)`
+2. `sUSDC -> sUSD` - Sell sUSDC for sUSD on the spot market
+   1. Function: `SpotMarketProxy.sell(marketId, synthAmount, minUsdAmount, referrer)`
+   2. Example: `sell(1, 1000000000000000000, 1000000000000000000, 0x0000000000000000000000000000000000000000)`
+3. Deposit sUSD
+   1. Function: `PerpsMarketProxy.modifyCollateral(accountId, synthMarketId, amountDelta)`
+   2. Example: `modifyCollateral(12345, 1, 1000000000000000000)`
+
+**Withdraw:**
+
+1. Withdraw sUSD
+   1. Function: `PerpsMarketProxy.modifyCollateral(accountId, synthMarketId, amountDelta)`
+   2. Example: `modifyCollateral(12345, 1, -1000000000000000000)`
+2. `sUSD -> sUSDC` - Buy sUSDC on the spot market
+   1. Function: `SpotMarketProxy.buy(marketId, usdAmount, minAmountReceived, referrer)`
+   2. Example: `buy(1, 1000000000000000000, 1000000000000000000, 0x0000000000000000000000000000000000000000)`
+3. `sUSDC -> USDC` - Unwrap sUSDC on the spot market
+   1. Function: `SpotMarketProxy.unwrap(marketId, unwrapAmount, minAmountReceived)`
+   2. Example: `unwrap(1, 1000000000000000000, 1000000000000000000)`
+
+**Sample Transactions**
+
+* [Deposit](https://goerli.basescan.org/tx/0x95461a5b05c40c91c952bc06b0d292ec16ffd0c750a7b708a8564183b9b08cf4)
+* [Withdraw](https://goerli.basescan.org/tx/0x4b6d29faaa75223fe1d690993c5e93ef316fc823385cbc52f505927f65702319)
 
 ### Notable changes from Testnet Competition
 
