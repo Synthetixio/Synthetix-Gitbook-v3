@@ -32,11 +32,9 @@ Perps V3 is in late stages of development, so minor changes and updates are poss
 function initializeFactory() external returns (uint128);
 ```
 
-*   Owner can set other global parameters that apply to all markets:
+* Owner can set other global parameters that apply to all markets:
 
-    * See:
-
-    [synthetix-v3/GlobalPerpsMarketConfiguration.sol at main · Synthetixio/synthetix-v3](https://github.com/Synthetixio/synthetix-v3/blob/main/markets/perps-market/contracts/storage/GlobalPerpsMarketConfiguration.sol)
+[synthetix-v3/GlobalPerpsMarketConfiguration.sol at main · Synthetixio/synthetix-v3](https://github.com/Synthetixio/synthetix-v3/blob/main/markets/perps-market/contracts/storage/GlobalPerpsMarketConfiguration.sol)
 
 #### Create perps market:
 
@@ -89,8 +87,6 @@ function getOrderFees(
 
 function getLockedOiRatio(uint128 marketId) external view returns (uint256 lockedOiRatioD18);
 ```
-
-* See:
 
 [synthetix-v3/PerpsMarketConfiguration.sol at main · Synthetixio/synthetix-v3](https://github.com/Synthetixio/synthetix-v3/blob/main/markets/perps-market/contracts/storage/PerpsMarketConfiguration.sol#L21)
 
