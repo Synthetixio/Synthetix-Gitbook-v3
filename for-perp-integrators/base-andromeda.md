@@ -4,6 +4,16 @@ description: An evolving reference for Perps V3 on Base
 
 # Base Andromeda
 
+## Introduction
+
+Andromeda is the combination of
+
+* Core V3&#x20;
+* Perps V3
+* USDC as collateral
+
+The Spot Market is included, but only to be used as a mechanism to exchange the assets brought by traders and LPs (USDC) for the internal accounting tokens (sUSDC and sUSD).
+
 ## Configuration
 
 * Unique to Andromeda Base is the use of a USDC wrapper, enabling USDC to appear to be used as collateral for LPs, and as margin as perp traders.
