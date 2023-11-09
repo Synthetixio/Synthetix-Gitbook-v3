@@ -1,5 +1,26 @@
 # Perps V3
 
+{% hint style="info" %}
+Perps V3 is in late stages of development, so minor changes and updates are possible
+{% endhint %}
+
+### Perps V3.0 features and updates
+
+* Cross margin: account margin can be used across multiple positions on markets
+* Only async (delayed offchain) orders: atomic orders can be gamed very easily by front runners; async orders seems to be the way forward in general.
+* No order cancellation: you couldn't cancel within settlement window anyway so it was pointless to add cancel after the order has expired. Removed one extra action for keepers to perform and LPs to pay for.
+* Accounts with Role Based Access Control for modifying collateral, opening/closing positions - enabling full extensibility and composability.
+* Improved liquidations and no more endorsed liquidators
+* Constraints to note
+  * Single position per market&#x20;
+  * Single pending order
+
+{% embed url="https://github.com/Synthetixio/synthetix-v3/tree/main/markets/perps-market" %}
+
+### Expected features for future versions
+
+* Multi collateral: accepts any synths configured in the system as margin for an account
+
 ## Workflow
 
 ### Factory Owner
