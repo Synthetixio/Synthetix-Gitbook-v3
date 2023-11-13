@@ -37,6 +37,8 @@ LPs can arrive with USDC to provide liquidity (LP). The contracts or integrators
 2. Deposit sUSDC to Pool
 3. Delegate sUSDC to Market
 
+// TODO: are fees in sUSD and need to be swapped back to USDC?
+
 When withdrawing, initial collateral plus any fees can be withdrawn, then unwrapped from sUSDC to USDC.
 
 ## For Traders/Integrators
