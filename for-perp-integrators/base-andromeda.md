@@ -29,11 +29,13 @@ The Spot Market is included, but only to be used as a mechanism to exchange the 
 
 ## For LPs
 
-LPs can arrive with USDC to LP:
+LPs can arrive with USDC to provide liquidity (LP). The contracts or integrators need to:
 
-1. Wrap USDC to sUSDC
-2. Deposit sUSDC
-3. Delegate sUSDC
+1. Wrap USDC to sUSDC on the Spot Market
+   1. Function: `SpotMarketProxy.wrap(marketId, wrapAmount, amountReceived)`
+   2. Example: `wrap(1, 1000000000000000000, 1000000000000000000)`
+2. Deposit sUSDC to Pool
+3. Delegate sUSDC to Market
 
 When withdrawing, initial collateral plus any fees can be withdrawn, then unwrapped from sUSDC to USDC.
 
