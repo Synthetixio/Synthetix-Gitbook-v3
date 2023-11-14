@@ -73,6 +73,21 @@ Chain ID: 420
 | Perps Market Account NFT | [0x01C2f64ABd46AF20950736f3C3e1a9cfc5c36c82](https://goerli-optimism.etherscan.io/address/0x01C2f64ABd46AF20950736f3C3e1a9cfc5c36c82) | [View/Download](./abis/420-main-PerpsAccountNFT.json) |
 | SNX Token                | [0x2E5ED97596a8368EB9E44B1f3F25B2E813845303](https://goerli-optimism.etherscan.io/address/0x2E5ED97596a8368EB9E44B1f3F25B2E813845303) | _ERC-20 compliant_                                    |
 
+## Dev on Optimism Goerli
+
+Chain ID: 420
+
+| System                   | Address                                                                                                                               | ABI                                                  |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
+| Synthetix Core           | [0x3f1faD3d8C531A5a3f7ae8d045c37e2075A241A0](https://goerli-optimism.etherscan.io/address/0x3f1faD3d8C531A5a3f7ae8d045c37e2075A241A0) | [View/Download](./abis/420-dev-SynthetixCore.json)   |
+| snxAccount NFT           | [0x1daA414B74A7581405e8B17bac5B29F31042B7C6](https://goerli-optimism.etherscan.io/address/0x1daA414B74A7581405e8B17bac5B29F31042B7C6) | [View/Download](./abis/420-dev-snxAccountNFT.json)   |
+| snxUSD Token             | [0xE0D30C1f189496388B0f5F1c32e75327135F26b8](https://goerli-optimism.etherscan.io/address/0xE0D30C1f189496388B0f5F1c32e75327135F26b8) | [View/Download](./abis/420-dev-snxUSDToken.json)     |
+| Oracle Manager           | [0x47b8f4EC2D0ef7ADfa97927A597d2C73B3A7e81d](https://goerli-optimism.etherscan.io/address/0x47b8f4EC2D0ef7ADfa97927A597d2C73B3A7e81d) | [View/Download](./abis/420-dev-OracleManager.json)   |
+| Spot Market              | [0x9bC0DD3436669Ab76C553214B1740CE5E6EbF18e](https://goerli-optimism.etherscan.io/address/0x9bC0DD3436669Ab76C553214B1740CE5E6EbF18e) | [View/Download](./abis/420-dev-SpotMarket.json)      |
+| Perps Market             | [0x8EdfbD5c6aB7167cf7dc7E62D9FeAA59720a2e7E](https://goerli-optimism.etherscan.io/address/0x8EdfbD5c6aB7167cf7dc7E62D9FeAA59720a2e7E) | [View/Download](./abis/420-dev-PerpsMarket.json)     |
+| Perps Market Account NFT | [0x6fBe7F0f515C2126638aAF60a351a98b27f62925](https://goerli-optimism.etherscan.io/address/0x6fBe7F0f515C2126638aAF60a351a98b27f62925) | [View/Download](./abis/420-dev-PerpsAccountNFT.json) |
+| SNX Token                | [0x2E5ED97596a8368EB9E44B1f3F25B2E813845303](https://goerli-optimism.etherscan.io/address/0x2E5ED97596a8368EB9E44B1f3F25B2E813845303) | _ERC-20 compliant_                                   |
+
 ## Polygon Mumbai
 
 Chain ID: 80001
@@ -100,14 +115,29 @@ Chain ID: 84531
 
 Chain ID: 84531
 
-| System                   | Address                                                                                                                      | ABI                                                            |
-| ------------------------ | ---------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
-| Synthetix Core           | [0xa53346A1684DAB73EFfd048fA40Fb1fA9327fDe9](https://goerli.basescan.org/address/0xa53346A1684DAB73EFfd048fA40Fb1fA9327fDe9) | [View/Download](./abis/84531-competition-SynthetixCore.json)   |
-| snxAccount NFT           | [0xdD066734028Cb1f07AC8CEdd054BA64Ea05b8461](https://goerli.basescan.org/address/0xdD066734028Cb1f07AC8CEdd054BA64Ea05b8461) | [View/Download](./abis/84531-competition-snxAccountNFT.json)   |
-| snxUSD Token             | [0x579c612E4Bf390f5504DB9f76b6F5759A3172279](https://goerli.basescan.org/address/0x579c612E4Bf390f5504DB9f76b6F5759A3172279) | [View/Download](./abis/84531-competition-snxUSDToken.json)     |
-| Oracle Manager           | [0xbAbfb6e9f914C1EfBBFFAdeE6cd86B23927434C8](https://goerli.basescan.org/address/0xbAbfb6e9f914C1EfBBFFAdeE6cd86B23927434C8) | [View/Download](./abis/84531-competition-OracleManager.json)   |
-| Spot Market              | [0x17633A63083dbd4941891F87Bdf31B896e91e2B9](https://goerli.basescan.org/address/0x17633A63083dbd4941891F87Bdf31B896e91e2B9) | [View/Download](./abis/84531-competition-SpotMarket.json)      |
-| Perps Market             | [0x9863Dae3f4b5F4Ffe3A841a21565d57F2BA10E87](https://goerli.basescan.org/address/0x9863Dae3f4b5F4Ffe3A841a21565d57F2BA10E87) | [View/Download](./abis/84531-competition-PerpsMarket.json)     |
-| Perps Market Account NFT | [0x518F2905b24AE298Ca06C1137b806DD5ACD493b6](https://goerli.basescan.org/address/0x518F2905b24AE298Ca06C1137b806DD5ACD493b6) | [View/Download](./abis/84531-competition-PerpsAccountNFT.json) |
-| Fake SNX Token           | [0xB2b425098CfEe7dc29d7c437f8578EC02c44A5Ed](https://goerli.basescan.org/address/0xB2b425098CfEe7dc29d7c437f8578EC02c44A5Ed) | _ERC-20 compliant_                                             |
+| System                         | Address                                                                                                                      | ABI                                                               |
+| ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
+| Synthetix Core                 | [0xa53346A1684DAB73EFfd048fA40Fb1fA9327fDe9](https://goerli.basescan.org/address/0xa53346A1684DAB73EFfd048fA40Fb1fA9327fDe9) | [View/Download](./abis/84531-competition-SynthetixCore.json)      |
+| snxAccount NFT                 | [0xdD066734028Cb1f07AC8CEdd054BA64Ea05b8461](https://goerli.basescan.org/address/0xdD066734028Cb1f07AC8CEdd054BA64Ea05b8461) | [View/Download](./abis/84531-competition-snxAccountNFT.json)      |
+| snxUSD Token                   | [0x579c612E4Bf390f5504DB9f76b6F5759A3172279](https://goerli.basescan.org/address/0x579c612E4Bf390f5504DB9f76b6F5759A3172279) | [View/Download](./abis/84531-competition-snxUSDToken.json)        |
+| Oracle Manager                 | [0xbAbfb6e9f914C1EfBBFFAdeE6cd86B23927434C8](https://goerli.basescan.org/address/0xbAbfb6e9f914C1EfBBFFAdeE6cd86B23927434C8) | [View/Download](./abis/84531-competition-OracleManager.json)      |
+| Spot Market                    | [0x17633A63083dbd4941891F87Bdf31B896e91e2B9](https://goerli.basescan.org/address/0x17633A63083dbd4941891F87Bdf31B896e91e2B9) | [View/Download](./abis/84531-competition-SpotMarket.json)         |
+| Perps Market                   | [0x9863Dae3f4b5F4Ffe3A841a21565d57F2BA10E87](https://goerli.basescan.org/address/0x9863Dae3f4b5F4Ffe3A841a21565d57F2BA10E87) | [View/Download](./abis/84531-competition-PerpsMarket.json)        |
+| Perps Market Account NFT       | [0x518F2905b24AE298Ca06C1137b806DD5ACD493b6](https://goerli.basescan.org/address/0x518F2905b24AE298Ca06C1137b806DD5ACD493b6) | [View/Download](./abis/84531-competition-PerpsAccountNFT.json)    |
+| Fake Collateral Fake SNX $fSNX | [0xB2b425098CfEe7dc29d7c437f8578EC02c44A5Ed](https://goerli.basescan.org/address/0xB2b425098CfEe7dc29d7c437f8578EC02c44A5Ed) | [View/Download](./abis/84531-competition-FakeCollateralfSNX.json) |
+
+## Andromeda on Base Goerli
+
+Chain ID: 84531
+
+| System                     | Address                                                                                                                      | ABI                                                            |
+| -------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
+| Synthetix Core             | [0xd7cFdcf6499896a1E15Db92629AAC8085af8B2ac](https://goerli.basescan.org/address/0xd7cFdcf6499896a1E15Db92629AAC8085af8B2ac) | [View/Download](./abis/84531-andromeda-SynthetixCore.json)     |
+| snxAccount NFT             | [0x09190c9Be3e79dF2Cb5DAEA6320f9A1129aD8e8c](https://goerli.basescan.org/address/0x09190c9Be3e79dF2Cb5DAEA6320f9A1129aD8e8c) | [View/Download](./abis/84531-andromeda-snxAccountNFT.json)     |
+| snxUSD Token               | [0xC9ee9628f23b14483EA413C28712690E8D2dC6a3](https://goerli.basescan.org/address/0xC9ee9628f23b14483EA413C28712690E8D2dC6a3) | [View/Download](./abis/84531-andromeda-snxUSDToken.json)       |
+| Oracle Manager             | [0xEC618B8994B76d89EfCD7051BA2D57Dcb6442E95](https://goerli.basescan.org/address/0xEC618B8994B76d89EfCD7051BA2D57Dcb6442E95) | [View/Download](./abis/84531-andromeda-OracleManager.json)     |
+| Spot Market                | [0x41A883a85b1AdE59F41d459Fa550b40fa56429DB](https://goerli.basescan.org/address/0x41A883a85b1AdE59F41d459Fa550b40fa56429DB) | [View/Download](./abis/84531-andromeda-SpotMarket.json)        |
+| Perps Market               | [0xEED61f0CB02f3B38923b1b6EAa939D5f04f431b6](https://goerli.basescan.org/address/0xEED61f0CB02f3B38923b1b6EAa939D5f04f431b6) | [View/Download](./abis/84531-andromeda-PerpsMarket.json)       |
+| Perps Market Account NFT   | [0xfBD08C515DedDa6DbE59611b4bAC2E0f4a250301](https://goerli.basescan.org/address/0xfBD08C515DedDa6DbE59611b4bAC2E0f4a250301) | [View/Download](./abis/84531-andromeda-PerpsAccountNFT.json)   |
+| Fake Collateral Token $TKN | [0x7056F16f58638253B8A1E5023d67a8CF98000681](https://goerli.basescan.org/address/0x7056F16f58638253B8A1E5023d67a8CF98000681) | [View/Download](./abis/84531-andromeda-FakeCollateralTKN.json) |
 
