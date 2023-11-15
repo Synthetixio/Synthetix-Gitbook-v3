@@ -4,6 +4,14 @@ description: An evolving reference for Perps V3 on Base
 
 # Base Andromeda
 
+{% hint style="info" %}
+### Interim timeline
+
+* Perps V3 in audit week beginning Nov 6th ✅
+* V3 Core Base mainnet release week beginning Nov 13th
+* (pending auditor feedback) Perps V3 on Base mainnet week beginning Nov 27th&#x20;
+{% endhint %}
+
 ## Introduction
 
 Andromeda is the combination of
@@ -102,10 +110,4 @@ All transactions should be prepared as a multicall and sent to the `TrustedMulti
 
 * Interface: [Staleness Tolerance](https://github.com/Synthetixio/synthetix-v3/pull/1860)
 * Keepers: [Gas based keeper rewards](https://github.com/Synthetixio/synthetix-v3/pull/1890)
-
-### Working timeline
-
-* Perps V3 in audit from Nov 6th
-* V3 Core mainnet release from Nov 13th
-* (pending auditor feedback) Perps V3 mainnet release from Nov 20th&#x20;
 
