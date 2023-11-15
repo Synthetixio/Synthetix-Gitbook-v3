@@ -1,5 +1,5 @@
 ---
-description: An evolving reference for Perps V3 on Base
+description: Evolving reference for Core V3 + Perps V3 on Base
 ---
 
 # Base Andromeda
@@ -35,6 +35,10 @@ The Spot Market is included, but only to be used as a mechanism to exchange the 
 * _Coming: Andromeda Base Sandbox - in the meantime see the more general_ [sandbox-with-perps.md](sandbox-with-perps.md "mention") _can be used once USDC is wrapped and swapped to sUSD_
 
 // TODO: [https://github.com/pyth-network/pyth-sdk-solidity/blob/main/MockPyth.sol](https://github.com/pyth-network/pyth-sdk-solidity/blob/main/MockPyth.sol)
+
+{% embed url="https://usecannon.com/packages/synthetix-omnibus/latest/84531-andromeda" %}
+Base Goerli Andromeda
+{% endembed %}
 
 ## For LPs
 
