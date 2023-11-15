@@ -91,13 +91,13 @@ All transactions should be prepared as a multicall and sent to the `TrustedMulti
    2. Example: `sell(1, 1000000000000000000, 1000000000000000000, 0x0000000000000000000000000000000000000000)`
 3. Deposit sUSD
    1. Function: `PerpsMarketProxy.modifyCollateral(accountId, synthMarketId, amountDelta)`
-   2. Example: `modifyCollateral(12345, 1, 1000000000000000000)`
+   2. Example: `modifyCollateral(12345, 0, 1000000000000000000)`
 
 **Withdraw:**
 
 1. Withdraw sUSD
    1. Function: `PerpsMarketProxy.modifyCollateral(accountId, synthMarketId, amountDelta)`
-   2. Example: `modifyCollateral(12345, 1, -1000000000000000000)`
+   2. Example: `modifyCollateral(12345, 0, -1000000000000000000)`
 2. `sUSD -> sUSDC` - Buy sUSDC on the spot market
    1. Function: `SpotMarketProxy.buy(marketId, usdAmount, minAmountReceived, referrer)`
    2. Example: `buy(1, 1000000000000000000, 1000000000000000000, 0x0000000000000000000000000000000000000000)`
