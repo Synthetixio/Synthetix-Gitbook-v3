@@ -12,6 +12,14 @@ description: Evolving reference for Core V3 + Perps V3 on Base
 * (pending auditor feedback) Perps V3 on Base mainnet week beginning Nov 27th&#x20;
 {% endhint %}
 
+{% hint style="info" %}
+#### **Deployment Status**
+
+[Base Goerli](https://usecannon.com/packages/synthetix-omnibus/latest/84531-andromeda) ✅
+
+Base Mainnet
+{% endhint %}
+
 ## Introduction
 
 Andromeda is the combination of
