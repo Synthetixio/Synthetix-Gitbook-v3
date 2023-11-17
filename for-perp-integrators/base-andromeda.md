@@ -5,22 +5,13 @@ description: Evolving reference for Core V3 + Perps V3 on Base
 # Base Andromeda
 
 {% hint style="info" %}
-### Interim timeline
+### INTERIM timeline&#x20;
 
-* Perps V3 in audit week beginning Nov 6th ✅
-* V3 Core Base mainnet release week beginning Nov 20th 🚧
-* (pending auditor feedback) Perps V3 on Base mainnet week beginning Dec 4th&#x20;
-{% endhint %}
-
-{% hint style="info" %}
-#### **Deployment Status**
-
-[Base Goerli](https://usecannon.com/packages/synthetix-omnibus/latest/84531-andromeda) ✅
-
-* Settlement keeper ✅
-* Liqidation keeper 🚧
-
-Base Mainnet
+* Week beginning Nov 6th: Perps V3 starting audit  ✅
+* Week beginning Nov 13th: V3 Core on [Base Goerli](https://usecannon.com/packages/synthetix-omnibus/latest/84531-andromeda) ✅
+* Week beginning Nov 20th: V3 Core on Base mainnet 🚧
+* Week beginning Dec 4th: (pending audits) Perps V3 on Base mainnet&#x20;
+* Public launch and announcements to follow
 {% endhint %}
 
 ## Introduction
