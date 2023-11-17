@@ -8,8 +8,8 @@ description: Evolving reference for Core V3 + Perps V3 on Base
 ### Interim timeline
 
 * Perps V3 in audit week beginning Nov 6th ✅
-* V3 Core Base mainnet release week beginning Nov 13th 🚧
-* (pending auditor feedback) Perps V3 on Base mainnet week beginning Nov 27th&#x20;
+* V3 Core Base mainnet release week beginning Nov 20th 🚧
+* (pending auditor feedback) Perps V3 on Base mainnet week beginning Dec 4th&#x20;
 {% endhint %}
 
 {% hint style="info" %}
