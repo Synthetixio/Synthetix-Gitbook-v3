@@ -88,12 +88,15 @@ Further as we transition to V3, there will be two non-fungible USD stablecoins t
 
 <summary>What will change in V3 Perps?</summary>
 
-**Answer:**
+**Answer:**\
+\
+Building on the successes of  Perps V2, V3 introduces several upgrades to improve the trading and developer experience:
 
-* Multi collateral: Perps V3 accepts any synths configured in the system as margin for an account. As an example, sUSD, sETH, sBTC could all possibly be collateral types.
-* Cross margin: account margin can be used across positions on markets natively rather than via smart wallets with the front end integrators.
-* Accounts with Role Based Access Control for modifying collateral, opening/closing positions
-* Improved liquidations and no more endorsed liquidators
+* Multi Collateral: Supports multiple collateral types, currently limited to synths registered with the V3 spot market; this is expected to include sUSD, sETH, sBTC, and other governance-approved spot synths.
+* Cross margin: account margin can be used across positions on markets natively rather than via smart wallets with front-end integrators.
+* Account-Based Access Controls: Enables delegation of account permissions, such as modifying collateral and managing positions, to additional addresses, enhancing extensibility and composability.
+* Liquidation Improvements: Implements gradual, non-sandwichable liquidation of large positions, with configurable delays between partial liquidations.
+* Deterministic Settlements: Improves the settlement process to ensure that the execution price is the earliest valid price post-commitment, minimizing the impact of network congestion.
 * Key limitations
   * Single position per market (same as v2)
   * Only async orders (no other order types) (delayed offchain orders)
