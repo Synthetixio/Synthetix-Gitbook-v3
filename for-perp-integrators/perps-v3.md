@@ -17,6 +17,8 @@ Perps V3 is in late stages of development, so minor changes and updates are poss
 
 {% embed url="https://github.com/Synthetixio/synthetix-v3/tree/main/markets/perps-market" %}
 
+### Changes from Perps v2
+
 ### Expected features for future versions
 
 * Multi collateral: accepts any synths configured in the system as margin for an account

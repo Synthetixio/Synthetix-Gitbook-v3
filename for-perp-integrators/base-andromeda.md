@@ -117,3 +117,7 @@ All transactions should be prepared as a multicall and sent to the `TrustedMulti
 * Interface: [Staleness Tolerance](https://github.com/Synthetixio/synthetix-v3/pull/1860)
 * Keepers: [Gas based keeper rewards](https://github.com/Synthetixio/synthetix-v3/pull/1890)
 
+### Notable recent changes
+
+{% embed url="https://rattle-ticket-183.notion.site/Perps-andromeda-branch-changes-512cf7a6c696463da0980907f00511ea?pvs=4" %}
+
