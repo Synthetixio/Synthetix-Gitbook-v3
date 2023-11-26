@@ -86,6 +86,18 @@ Further as we transition to V3, there will be two non-fungible USD stablecoins t
 
 <details>
 
+<summary>What incentive do projects have to build on Synthetix V3?</summary>
+
+**Answer:** The incentives for building on Synthetix V3 are numerous and impactful:
+
+1. **Infrastructure:** Synthetix V3 abstracts away the complexities of building your own infrastructure. This enables derivative developers to primarily focus on market design and innovation rather than backend complexities.
+2. **Liquidity:** A common challenge for most protocols is generating sufficient liquidity to support derivative traders effectively. Synthetix addresses this with a deep liquidity pool to back derivatives, ensuring that protocols can thrive.
+3. **Rewards:** The Partner Volume Rewards program rewards derivative developers and protocols for generating trading volume using Synthetix Perps.
+
+</details>
+
+<details>
+
 <summary>What will change in V3 Perps?</summary>
 
 **Answer:**\
