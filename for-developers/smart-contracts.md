@@ -23,7 +23,7 @@
   function createAccount(uint128 requestedAccountId) external
   ```
 
-  Mints an account token with id `requestedAccountId` to `msg.sender`.
+  Mints an account token with id `requestedAccountId` to `ERC2771Context._msgSender()`.
 
 **Parameters**
 * `requestedAccountId` (*uint128*) - The id requested for the account being created. Reverts if id already exists. Requirements: - `requestedAccountId` must not already be minted. - `requestedAccountId` must be less than type(uint128).max / 2 Emits a {AccountCreated} event.
@@ -34,7 +34,7 @@
   function createAccount() external returns (uint128 accountId)
   ```
 
-  Mints an account token with an available id to `msg.sender`.
+  Mints an account token with an available id to `ERC2771Context._msgSender()`.
 
 Emits a {AccountCreated} event.
 
@@ -50,7 +50,7 @@ Emits a {AccountCreated} event.
 
 **Parameters**
 * `to` (*address*) - The new holder of the account NFT.
-* `accountId` (*uint128*) - The id of the account that was just transferred. Requirements: - `msg.sender` must be the account token.
+* `accountId` (*uint128*) - The id of the account that was just transferred. Requirements: - `ERC2771Context._msgSender()` must be the account token.
 
 #### grantPermission
 
@@ -63,7 +63,7 @@ Emits a {AccountCreated} event.
 **Parameters**
 * `accountId` (*uint128*) - The id of the account that granted the permission.
 * `permission` (*bytes32*) - The bytes32 identifier of the permission.
-* `user` (*address*) - The target address that received the permission. Requirements: - `msg.sender` must own the account token with ID `accountId` or have the "admin" permission. Emits a {PermissionGranted} event.
+* `user` (*address*) - The target address that received the permission. Requirements: - `ERC2771Context._msgSender()` must own the account token with ID `accountId` or have the "admin" permission. Emits a {PermissionGranted} event.
 
 #### revokePermission
 
@@ -76,7 +76,7 @@ Emits a {AccountCreated} event.
 **Parameters**
 * `accountId` (*uint128*) - The id of the account that revoked the permission.
 * `permission` (*bytes32*) - The bytes32 identifier of the permission.
-* `user` (*address*) - The target address that no longer has the permission. Requirements: - `msg.sender` must own the account token with ID `accountId` or have the "admin" permission. Emits a {PermissionRevoked} event.
+* `user` (*address*) - The target address that no longer has the permission. Requirements: - `ERC2771Context._msgSender()` must own the account token with ID `accountId` or have the "admin" permission. Emits a {PermissionRevoked} event.
 
 #### renouncePermission
 
@@ -84,7 +84,7 @@ Emits a {AccountCreated} event.
   function renouncePermission(uint128 accountId, bytes32 permission) external
   ```
 
-  Revokes `permission` from `msg.sender` for account `accountId`.
+  Revokes `permission` from `ERC2771Context._msgSender()` for account `accountId`.
 
 **Parameters**
 * `accountId` (*uint128*) - The id of the account whose permission was renounced.
@@ -202,7 +202,7 @@ Emits a {AccountCreated} event.
 #### isInitialized
 
   ```solidity
-  function isInitialized() external returns (bool)
+  function isInitialized() external view returns (bool)
   ```
 
   Returns whether the token has been initialized.
@@ -523,7 +523,7 @@ other accounts would be left with no change to their debt, however.
   Creates or updates the configuration for the given `collateralType`.
 
 **Parameters**
-* `config` (*struct CollateralConfiguration.Data*) - The CollateralConfiguration object describing the new configuration. Requirements: - `msg.sender` must be the owner of the system. Emits a {CollateralConfigured} event.
+* `config` (*struct CollateralConfiguration.Data*) - The CollateralConfiguration object describing the new configuration. Requirements: - `ERC2771Context._msgSender()` must be the owner of the system. Emits a {CollateralConfigured} event.
 
 #### getCollateralConfigurations
 
@@ -607,7 +607,7 @@ other accounts would be left with no change to their debt, however.
 **Parameters**
 * `accountId` (*uint128*) - The id of the account that is making the withdrawal.
 * `collateralType` (*address*) - The address of the token to be withdrawn.
-* `tokenAmount` (*uint256*) - The amount being withdrawn, denominated in the token's native decimal representation. Requirements: - `msg.sender` must be the owner of the account, have the `ADMIN` permission, or have the `WITHDRAW` permission. Emits a {Withdrawn} event.
+* `tokenAmount` (*uint256*) - The amount being withdrawn, denominated in the token's native decimal representation. Requirements: - `ERC2771Context._msgSender()` must be the owner of the account, have the `ADMIN` permission, or have the `WITHDRAW` permission. Emits a {Withdrawn} event.
 
 #### getAccountCollateral
 
@@ -779,7 +779,7 @@ Collateral locks are initially intended for the Synthetix v2 to v3 migration, bu
 * `accountId` (*uint128*) - The id of the account that is minting snxUSD.
 * `poolId` (*uint128*) - The id of the pool whose collateral will be used to back up the mint.
 * `collateralType` (*address*) - The address of the collateral that will be used to back up the mint.
-* `amount` (*uint256*) - The amount of snxUSD to be minted, denominated with 18 decimals of precision. Requirements: - `msg.sender` must be the owner of the account, have the `ADMIN` permission, or have the `MINT` permission. - After minting, the collateralization ratio of the liquidity position must not be below the target collateralization ratio for the corresponding collateral type. Emits a {UsdMinted} event.
+* `amount` (*uint256*) - The amount of snxUSD to be minted, denominated with 18 decimals of precision. Requirements: - `ERC2771Context._msgSender()` must be the owner of the account, have the `ADMIN` permission, or have the `MINT` permission. - After minting, the collateralization ratio of the liquidity position must not be below the target collateralization ratio for the corresponding collateral type. Emits a {UsdMinted} event.
 
 #### burnUsd
 
@@ -974,7 +974,7 @@ Will only liquidate a portion of the debt for the vault if `maxUsd` is supplied.
 #### getMaximumMarketCollateral
 
   ```solidity
-  function getMaximumMarketCollateral(uint128 marketId, address collateralType) external returns (uint256 amountD18)
+  function getMaximumMarketCollateral(uint128 marketId, address collateralType) external view returns (uint256 amountD18)
   ```
 
   Return the total maximum amount of a given collateral type that a specified market is allowed to deposit.
@@ -1002,7 +1002,7 @@ Will only liquidate a portion of the debt for the vault if `maxUsd` is supplied.
 #### getMarketCollateralValue
 
   ```solidity
-  function getMarketCollateralValue(uint128 marketId) external returns (uint256 valueD18)
+  function getMarketCollateralValue(uint128 marketId) external view returns (uint256 valueD18)
   ```
 
   Return the total value of collateral that a specified market has deposited.
@@ -1016,7 +1016,7 @@ Will only liquidate a portion of the debt for the vault if `maxUsd` is supplied.
 #### MarketCollateralDeposited
 
   ```solidity
-  event MarketCollateralDeposited(uint128 marketId, address collateralType, uint256 tokenAmount, address sender)
+  event MarketCollateralDeposited(uint128 marketId, address collateralType, uint256 tokenAmount, address sender, int128 creditCapacity, int128 netIssuance, uint256 depositedCollateralValue, uint256 reportedDebt)
   ```
 
   Emitted when `amount` of collateral of type `collateralType` is deposited to market `marketId` by `sender`.
@@ -1026,11 +1026,15 @@ Will only liquidate a portion of the debt for the vault if `maxUsd` is supplied.
 * `collateralType` (*address*) - The address of the collateral that was directly deposited in the market.
 * `tokenAmount` (*uint256*) - The amount of tokens that were deposited, denominated in the token's native decimal representation.
 * `sender` (*address*) - The address that triggered the deposit.
+* `creditCapacity` (*int128*) - Updated credit capacity of the market after depositing collateral.
+* `netIssuance` (*int128*) - Updated net issuance.
+* `depositedCollateralValue` (*uint256*) - Updated deposited collateral value of the market.
+* `reportedDebt` (*uint256*) - Updated reported debt of the market after depositing collateral.
 
 #### MarketCollateralWithdrawn
 
   ```solidity
-  event MarketCollateralWithdrawn(uint128 marketId, address collateralType, uint256 tokenAmount, address sender)
+  event MarketCollateralWithdrawn(uint128 marketId, address collateralType, uint256 tokenAmount, address sender, int128 creditCapacity, int128 netIssuance, uint256 depositedCollateralValue, uint256 reportedDebt)
   ```
 
   Emitted when `amount` of collateral of type `collateralType` is withdrawn from market `marketId` by `sender`.
@@ -1040,6 +1044,10 @@ Will only liquidate a portion of the debt for the vault if `maxUsd` is supplied.
 * `collateralType` (*address*) - The address of the collateral that was withdrawn from the market.
 * `tokenAmount` (*uint256*) - The amount of tokens that were withdrawn, denominated in the token's native decimal representation.
 * `sender` (*address*) - The address that triggered the withdrawal.
+* `creditCapacity` (*int128*) - Updated credit capacity of the market after withdrawing.
+* `netIssuance` (*int128*) - Updated net issuance.
+* `depositedCollateralValue` (*uint256*) - Updated deposited collateral value of the market.
+* `reportedDebt` (*uint256*) - Updated reported debt of the market after withdrawing collateral.
 
 #### MaximumMarketCollateralConfigured
 
@@ -1339,7 +1347,7 @@ by limiting the frequency of `delegateCollateral` (or `setPoolConfiguration`) ca
 #### MarketUsdDeposited
 
   ```solidity
-  event MarketUsdDeposited(uint128 marketId, address target, uint256 amount, address market)
+  event MarketUsdDeposited(uint128 marketId, address target, uint256 amount, address market, int128 creditCapacity, int128 netIssuance, uint256 depositedCollateralValue, uint256 reportedDebt)
   ```
 
   Emitted when a market deposits snxUSD in the system.
@@ -1349,11 +1357,15 @@ by limiting the frequency of `delegateCollateral` (or `setPoolConfiguration`) ca
 * `target` (*address*) - The address of the account that provided the snxUSD in the deposit.
 * `amount` (*uint256*) - The amount of snxUSD deposited in the system, denominated with 18 decimals of precision.
 * `market` (*address*) - The address of the external market that is depositing.
+* `creditCapacity` (*int128*) - Updated credit capacity of the market after depositing.
+* `netIssuance` (*int128*) - Updated net issuance.
+* `depositedCollateralValue` (*uint256*) - Updated deposited collateral value of the market.
+* `reportedDebt` (*uint256*) - Updated reported debt of the market after depositing.
 
 #### MarketUsdWithdrawn
 
   ```solidity
-  event MarketUsdWithdrawn(uint128 marketId, address target, uint256 amount, address market)
+  event MarketUsdWithdrawn(uint128 marketId, address target, uint256 amount, address market, int128 creditCapacity, int128 netIssuance, uint256 depositedCollateralValue, uint256 reportedDebt)
   ```
 
   Emitted when a market withdraws snxUSD from the system.
@@ -1363,6 +1375,10 @@ by limiting the frequency of `delegateCollateral` (or `setPoolConfiguration`) ca
 * `target` (*address*) - The address of the account that received the snxUSD in the withdrawal.
 * `amount` (*uint256*) - The amount of snxUSD withdrawn from the system, denominated with 18 decimals of precision.
 * `market` (*address*) - The address of the external market that is withdrawing.
+* `creditCapacity` (*int128*) - Updated credit capacity of the market after withdrawing.
+* `netIssuance` (*int128*) - Updated net issuance.
+* `depositedCollateralValue` (*uint256*) - Updated deposited collateral value of the market.
+* `reportedDebt` (*uint256*) - Updated reported debt of the market after withdrawal.
 
 #### MarketSystemFeePaid
 
@@ -1393,60 +1409,6 @@ by limiting the frequency of `delegateCollateral` (or `setPoolConfiguration`) ca
 **Parameters**
 * `marketId` (*uint128*) - The id of the market that the setting is applied to
 * `minLiquidityRatio` (*uint256*) - The new market-specific minimum liquidity ratio
-
-### Multicall Module
-
-#### multicall
-
-  ```solidity
-  function multicall(bytes[] data) external returns (bytes[] results)
-  ```
-
-  Executes multiple transaction payloads in a single transaction.
-
-  Each transaction is executed using `delegatecall`, and targets the system address.
-
-**Parameters**
-* `data` (*bytes[]*) - Array of calldata objects, one for each function that is to be called in the system.
-
-**Returns**
-* `results` (*bytes[]*) - Array of each `delegatecall`'s response corresponding to the incoming calldata array.
-#### multicallThrough
-
-  ```solidity
-  function multicallThrough(address[] to, bytes[] data, uint256[] values) external payable returns (bytes[] results)
-  ```
-
-  Similar to `multicall`, but allows for transactions to be executed
-
-  If the address specified in `to` iteration is not the core system, it will call the contract with a regular "call". If it is the core system, it will be delegatecall.
-Target `to` contracts will need to support calling the below `getMessageSender` rather than regular `msg.sender` in order to allow for usage of permissioned calls with this function
-It is not possible to call this function recursively.
-Fails immediately on revert of any call.
-
-**Returns**
-* `results` (*bytes[]*) - Array of each call's response corresponding
-#### setAllowlistedMulticallTarget
-
-  ```solidity
-  function setAllowlistedMulticallTarget(address target, bool allowlisted) external
-  ```
-
-  Permit the given target to be called through `multicallThrough`.
-
-  This function can only be called by the system owner.
-
-**Parameters**
-* `target` (*address*) - The address of the contract to alter permissions
-* `allowlisted` (*bool*) - Whether or not the target is allowlisted
-
-#### getMessageSender
-
-  ```solidity
-  function getMessageSender() external view returns (address)
-  ```
-
-  When receiving a call from this contract through `multicallThrough`, the receiver can use this function to get the original caller.
 
 ### Pool Configuration Module
 
@@ -1583,6 +1545,20 @@ Incoming market ids need to be provided in ascending order.
 * `collateralType` (*address*) - The collate
 * `newConfig` (*struct PoolCollateralConfiguration.Data*) - The config to set
 
+#### getPoolCollateralConfiguration
+
+  ```solidity
+  function getPoolCollateralConfiguration(uint128 poolId, address collateralType) external view returns (struct PoolCollateralConfiguration.Data config)
+  ```
+
+  Retrieves the pool configuration of a specific collateral type.
+
+**Parameters**
+* `poolId` (*uint128*) - The id of the pool whose configuration is being returned.
+* `collateralType` (*address*) - The address of the collateral.
+
+**Returns**
+* `config` (*struct PoolCollateralConfiguration.Data*) - The PoolCollateralConfiguration object that describes the requested collateral configuration of the pool.
 #### setPoolCollateralDisabledByDefault
 
   ```solidity
@@ -1678,6 +1654,17 @@ Incoming market ids need to be provided in ascending order.
 **Parameters**
 * `poolId` (*uint128*) - The id of the pool for which the caller is renouncing ownership nomination.
 
+#### renouncePoolOwnership
+
+  ```solidity
+  function renouncePoolOwnership(uint128 poolId) external
+  ```
+
+  Allows the current owner to renounce his ownership.
+
+**Parameters**
+* `poolId` (*uint128*) - The id of the pool for which the caller is renouncing ownership nomination.
+
 #### getPoolOwner
 
   ```solidity
@@ -1718,7 +1705,7 @@ Incoming market ids need to be provided in ascending order.
 #### getPoolCollateralIssuanceRatio
 
   ```solidity
-  function getPoolCollateralIssuanceRatio(uint128 poolId, address collateral) external returns (uint256 issuanceRatioD18)
+  function getPoolCollateralIssuanceRatio(uint128 poolId, address collateral) external view returns (uint256 issuanceRatioD18)
   ```
 
   returns a pool minimum issuance ratio
@@ -1810,6 +1797,18 @@ Incoming market ids need to be provided in ascending order.
 **Parameters**
 * `poolId` (*uint128*) - The id of the pool for which the owner nomination was renounced.
 * `owner` (*address*) - The current owner of the pool.
+
+#### PoolOwnershipRenounced
+
+  ```solidity
+  event PoolOwnershipRenounced(uint128 poolId, address owner)
+  ```
+
+  Gets fired when pool owner renounces his own ownership.
+
+**Parameters**
+* `poolId` (*uint128*) - The id of the pool for which the owner nomination was renounced.
+* `owner` (*address*) - 
 
 #### PoolNameUpdated
 
@@ -1966,6 +1965,22 @@ rewards-over-time will be halted)
 
 **Returns**
 * `rateD18` (*uint256*) - The queried rewards rate.
+#### getAvailableRewards
+
+  ```solidity
+  function getAvailableRewards(uint128 accountId, uint128 poolId, address collateralType, address distributor) external view returns (uint256 rewardAmount)
+  ```
+
+  Returns the amount of claimable rewards for a given accountId for a vault distributor.
+
+**Parameters**
+* `accountId` (*uint128*) - The id of the account to look up rewards on.
+* `poolId` (*uint128*) - The id of the pool to claim rewards on.
+* `collateralType` (*address*) - The address of the collateral used in the pool's rewards.
+* `distributor` (*address*) - The address of the rewards distributor associated with the rewards being claimed.
+
+**Returns**
+* `rewardAmount` (*uint256*) - The amount of available rewards that are available for the provided account.
 
 #### RewardsDistributed
 
@@ -2053,7 +2068,7 @@ rewards-over-time will be halted)
 #### isInitialized
 
   ```solidity
-  function isInitialized() external returns (bool)
+  function isInitialized() external view returns (bool)
   ```
 
   Returns wether the token has been initialized.
@@ -2293,7 +2308,7 @@ Requirements:
 * `poolId` (*uint128*) - The id of the pool associated with the position.
 * `collateralType` (*address*) - The address of the collateral used in the position.
 * `amount` (*uint256*) - The new amount of collateral delegated in the position, denominated with 18 decimals of precision.
-* `leverage` (*uint256*) - The new leverage amount used in the position, denominated with 18 decimals of precision. Requirements: - `msg.sender` must be the owner of the account, have the `ADMIN` permission, or have the `DELEGATE` permission. - If increasing the amount delegated, it must not exceed the available collateral (`getAccountAvailableCollateral`) associated with the account. - If decreasing the amount delegated, the liquidity position must have a collateralization ratio greater than the target collateralization ratio for the corresponding collateral type. Emits a {DelegationUpdated} event.
+* `leverage` (*uint256*) - The new leverage amount used in the position, denominated with 18 decimals of precision. Requirements: - `ERC2771Context._msgSender()` must be the owner of the account, have the `ADMIN` permission, or have the `DELEGATE` permission. - If increasing the amount delegated, it must not exceed the available collateral (`getAccountAvailableCollateral`) associated with the account. - If decreasing the amount delegated, the liquidity position must have a collateralization ratio greater than the target collateralization ratio for the corresponding collateral type. Emits a {DelegationUpdated} event.
 
 #### getPositionCollateralRatio
 
@@ -2334,14 +2349,13 @@ Call this function using `callStatic` to treat it as a view function.
 #### getPositionCollateral
 
   ```solidity
-  function getPositionCollateral(uint128 accountId, uint128 poolId, address collateralType) external view returns (uint256 collateralAmountD18, uint256 collateralValueD18)
+  function getPositionCollateral(uint128 accountId, uint128 poolId, address collateralType) external view returns (uint256 collateralAmountD18)
   ```
 
-  Returns the amount and value of the collateral associated with the specified liquidity position.
+  Returns the amount of the collateral associated with the specified liquidity position.
 
   Call this function using `callStatic` to treat it as a view function.
 collateralAmount is represented as an integer with 18 decimals.
-collateralValue is represented as an integer with the number of decimals specified by the collateralType.
 
 **Parameters**
 * `accountId` (*uint128*) - The id of the account being queried.
@@ -2350,7 +2364,6 @@ collateralValue is represented as an integer with the number of decimals specifi
 
 **Returns**
 * `collateralAmountD18` (*uint256*) - The amount of collateral used in the position, denominated with 18 decimals of precision.
-* `collateralValueD18` (*uint256*) - The value of collateral used in the position, denominated with 18 decimals of precision.
 #### getPosition
 
   ```solidity
@@ -2389,7 +2402,7 @@ Call this function using `callStatic` to treat it as a view function.
 #### getVaultCollateral
 
   ```solidity
-  function getVaultCollateral(uint128 poolId, address collateralType) external returns (uint256 collateralAmountD18, uint256 collateralValueD18)
+  function getVaultCollateral(uint128 poolId, address collateralType) external view returns (uint256 collateralAmountD18, uint256 collateralValueD18)
   ```
 
   Returns the amount and value of the collateral held by the vault.
@@ -2472,6 +2485,21 @@ The return value is a percentage with 18 decimals places.
 * `strategyId` (*uint256*) - id of the strategy.
 * `enabled` (*bool*) - set enabled/disabled.
 
+#### setSettlementStrategy
+
+  ```solidity
+  function setSettlementStrategy(uint128 synthMarketId, uint256 strategyId, struct SettlementStrategy.Data strategy) external
+  ```
+
+  updates the strategy with the new strategy passed in.
+
+  THIS WILL OVERRIDE ANY SETTINGS FOR EXISTING ORDERS
+
+**Parameters**
+* `synthMarketId` (*uint128*) - Id of the market associated with the strategy.
+* `strategyId` (*uint256*) - id of the strategy.
+* `strategy` (*struct SettlementStrategy.Data*) - new strategy config
+
 #### getSettlementStrategy
 
   ```solidity
@@ -2499,10 +2527,10 @@ The return value is a percentage with 18 decimals places.
 * `synthMarketId` (*uint128*) - adds settlement strategy to this specific market.
 * `strategyId` (*uint256*) - the newly created settlement strategy id.
 
-#### SettlementStrategyUpdated
+#### SettlementStrategySet
 
   ```solidity
-  event SettlementStrategyUpdated(uint128 synthMarketId, uint256 strategyId, bool enabled)
+  event SettlementStrategySet(uint128 synthMarketId, uint256 strategyId, struct SettlementStrategy.Data strategy)
   ```
 
   Gets fired when settlement strategy is enabled/disabled.
@@ -2512,7 +2540,7 @@ The return value is a percentage with 18 decimals places.
 **Parameters**
 * `synthMarketId` (*uint128*) - adds settlement strategy to this specific market.
 * `strategyId` (*uint256*) - id of the strategy.
-* `enabled` (*bool*) - true/false.
+* `strategy` (*struct SettlementStrategy.Data*) - updated strategy
 
 ### Async Order Module
 
@@ -2617,27 +2645,6 @@ if the strategy is offchain, this function will revert with OffchainLookup error
 **Returns**
 * `finalOrderAmount` (*uint256*) - amount returned to trader after fees.
 * `[1]` (*struct OrderFees.Data*) - OrderFees.Data breakdown of all the fees incurred for the transaction.
-#### settlePythOrder
-
-  ```solidity
-  function settlePythOrder(bytes result, bytes extraData) external payable returns (uint256 finalOrderAmount, struct OrderFees.Data fees)
-  ```
-
-  Callback function for Pyth settlement strategy
-
-  This is the selector specified as callback when settlement strategy is pyth offchain.
-The data returned from the offchain lookup should be sent as "result"
-The extraData is the same as the one sent during the offchain lookup revert error. It is used to retrieve the commitment claim.
-this function expects ETH that is passed through to the Pyth contract for the fee it's charging.
-To determine the fee, the client should first call getUpdateFee() from Pyth's verifier contract.
-
-**Parameters**
-* `result` (*bytes*) - result returned from the offchain lookup.
-* `extraData` (*bytes*) - extra data sent during the offchain lookup revert error.
-
-**Returns**
-* `finalOrderAmount` (*uint256*) - amount returned to trader after fees.
-* `fees` (*struct OrderFees.Data*) - breakdown of all the fees incurred for the transaction.
 
 #### OrderSettled
 
@@ -2719,7 +2726,7 @@ Uses the buyFeedId configured for the market.
 #### quoteBuyExactIn
 
   ```solidity
-  function quoteBuyExactIn(uint128 synthMarketId, uint256 usdAmount) external view returns (uint256 synthAmount, struct OrderFees.Data fees)
+  function quoteBuyExactIn(uint128 synthMarketId, uint256 usdAmount, enum Price.Tolerance stalenessTolerance) external view returns (uint256 synthAmount, struct OrderFees.Data fees)
   ```
 
   quote for buyExactIn.  same parameters and return values as buyExactIn
@@ -2727,6 +2734,7 @@ Uses the buyFeedId configured for the market.
 **Parameters**
 * `synthMarketId` (*uint128*) - market id value
 * `usdAmount` (*uint256*) - amount of USD to use for the trade
+* `stalenessTolerance` (*enum Price.Tolerance*) - this enum determines what staleness tolerance to use
 
 **Returns**
 * `synthAmount` (*uint256*) - return amount of synth given the USD amount - fees
@@ -2734,7 +2742,7 @@ Uses the buyFeedId configured for the market.
 #### quoteBuyExactOut
 
   ```solidity
-  function quoteBuyExactOut(uint128 synthMarketId, uint256 synthAmount) external view returns (uint256 usdAmountCharged, struct OrderFees.Data)
+  function quoteBuyExactOut(uint128 synthMarketId, uint256 synthAmount, enum Price.Tolerance stalenessTolerance) external view returns (uint256 usdAmountCharged, struct OrderFees.Data)
   ```
 
   quote for buyExactOut.  same parameters and return values as buyExactOut
@@ -2742,6 +2750,7 @@ Uses the buyFeedId configured for the market.
 **Parameters**
 * `synthMarketId` (*uint128*) - market id value
 * `synthAmount` (*uint256*) - amount of synth requested
+* `stalenessTolerance` (*enum Price.Tolerance*) - this enum determines what staleness tolerance to use
 
 **Returns**
 * `usdAmountCharged` (*uint256*) - USD amount charged for the synth requested - fees
@@ -2805,7 +2814,7 @@ Leftover fees not collected get deposited into the market manager to improve mar
 #### quoteSellExactIn
 
   ```solidity
-  function quoteSellExactIn(uint128 marketId, uint256 synthAmount) external view returns (uint256 returnAmount, struct OrderFees.Data fees)
+  function quoteSellExactIn(uint128 marketId, uint256 synthAmount, enum Price.Tolerance stalenessTolerance) external view returns (uint256 returnAmount, struct OrderFees.Data fees)
   ```
 
   quote for sellExactIn
@@ -2815,6 +2824,7 @@ Leftover fees not collected get deposited into the market manager to improve mar
 **Parameters**
 * `marketId` (*uint128*) - synth market id
 * `synthAmount` (*uint256*) - synth amount trader is providing for the trade
+* `stalenessTolerance` (*enum Price.Tolerance*) - this enum determines what staleness tolerance to use
 
 **Returns**
 * `returnAmount` (*uint256*) - amount of USD expected back
@@ -2822,7 +2832,7 @@ Leftover fees not collected get deposited into the market manager to improve mar
 #### quoteSellExactOut
 
   ```solidity
-  function quoteSellExactOut(uint128 marketId, uint256 usdAmount) external view returns (uint256 synthToBurn, struct OrderFees.Data fees)
+  function quoteSellExactOut(uint128 marketId, uint256 usdAmount, enum Price.Tolerance stalenessTolerance) external view returns (uint256 synthToBurn, struct OrderFees.Data fees)
   ```
 
   quote for sellExactOut
@@ -2832,6 +2842,7 @@ Leftover fees not collected get deposited into the market manager to improve mar
 **Parameters**
 * `marketId` (*uint128*) - synth market id
 * `usdAmount` (*uint256*) - USD amount trader wants to receive
+* `stalenessTolerance` (*enum Price.Tolerance*) - this enum determines what staleness tolerance to use
 
 **Returns**
 * `synthToBurn` (*uint256*) - amount of synth expected from trader
@@ -2932,7 +2943,7 @@ Leftover fees not collected get deposited into the market manager to improve mar
 #### getMarketSkewScale
 
   ```solidity
-  function getMarketSkewScale(uint128 synthMarketId) external returns (uint256 skewScale)
+  function getMarketSkewScale(uint128 synthMarketId) external view returns (uint256 skewScale)
   ```
 
   gets the skew scale for a given market
@@ -2960,7 +2971,7 @@ Leftover fees not collected get deposited into the market manager to improve mar
 #### getMarketUtilizationFees
 
   ```solidity
-  function getMarketUtilizationFees(uint128 synthMarketId) external returns (uint256 utilizationFeeRate)
+  function getMarketUtilizationFees(uint128 synthMarketId) external view returns (uint256 utilizationFeeRate)
   ```
 
   gets the market utilization fee for a given market
@@ -2990,7 +3001,7 @@ this leverage value is a value applied to delegated collateral which is compared
 #### getCollateralLeverage
 
   ```solidity
-  function getCollateralLeverage(uint128 synthMarketId) external returns (uint256 collateralLeverage)
+  function getCollateralLeverage(uint128 synthMarketId) external view returns (uint256 collateralLeverage)
   ```
 
   gets the collateral leverage for a given market
@@ -3022,7 +3033,7 @@ especially useful for direct integrations where configured traders get a discoun
 #### getCustomTransactorFees
 
   ```solidity
-  function getCustomTransactorFees(uint128 synthMarketId, address transactor) external returns (uint256 fixedFeeAmount)
+  function getCustomTransactorFees(uint128 synthMarketId, address transactor) external view returns (uint256 fixedFeeAmount)
   ```
 
   gets the fixed fee for a given market and transactor
@@ -3055,7 +3066,7 @@ if fee collector is not set, the fees are deposited into the market manager.
 #### getFeeCollector
 
   ```solidity
-  function getFeeCollector(uint128 synthMarketId) external returns (address feeCollector)
+  function getFeeCollector(uint128 synthMarketId) external view returns (address feeCollector)
   ```
 
   gets a custom fee collector for a given market
@@ -3097,7 +3108,7 @@ fees can be negative.  this is a way to unwind the wrapper if needed by providin
 #### getReferrerShare
 
   ```solidity
-  function getReferrerShare(uint128 marketId, address referrer) external returns (uint256 sharePercentage)
+  function getReferrerShare(uint128 marketId, address referrer) external view returns (uint256 sharePercentage)
   ```
 
   get the referral share percentage for a given market
@@ -3300,7 +3311,7 @@ This address should not be used directly--use `getSynth` instead
 #### updatePriceData
 
   ```solidity
-  function updatePriceData(uint128 marketId, bytes32 buyFeedId, bytes32 sellFeedId) external
+  function updatePriceData(uint128 marketId, bytes32 buyFeedId, bytes32 sellFeedId, uint256 strictPriceStalenessTolerance) external
   ```
 
   Update the price data for a given market.
@@ -3311,6 +3322,7 @@ This address should not be used directly--use `getSynth` instead
 * `marketId` (*uint128*) - id of the market
 * `buyFeedId` (*bytes32*) - the oracle manager buy feed node id
 * `sellFeedId` (*bytes32*) - the oracle manager sell feed node id
+* `strictPriceStalenessTolerance` (*uint256*) - configurable price staleness tolerance used for transacting
 
 #### upgradeSynthImpl
 
@@ -3492,7 +3504,7 @@ Anyone who is willing and able to spend the gas can call this method.
 #### SynthPriceDataUpdated
 
   ```solidity
-  event SynthPriceDataUpdated(uint256 synthMarketId, bytes32 buyFeedId, bytes32 sellFeedId)
+  event SynthPriceDataUpdated(uint256 synthMarketId, bytes32 buyFeedId, bytes32 sellFeedId, uint256 strictStalenessTolerance)
   ```
 
   Gets fired when the market's price feeds are updated, compatible with oracle manager
@@ -3501,6 +3513,7 @@ Anyone who is willing and able to spend the gas can call this method.
 * `synthMarketId` (*uint256*) - 
 * `buyFeedId` (*bytes32*) - the oracle manager feed id for the buy price
 * `sellFeedId` (*bytes32*) - the oracle manager feed id for the sell price
+* `strictStalenessTolerance` (*uint256*) - 
 
 #### DecayRateUpdated
 
@@ -3567,7 +3580,7 @@ Anyone who is willing and able to spend the gas can call this method.
 #### decayRate
 
   ```solidity
-  function decayRate() external returns (uint256)
+  function decayRate() external view returns (uint256)
   ```
 
   get decay rate for a year
@@ -3583,7 +3596,7 @@ Anyone who is willing and able to spend the gas can call this method.
 #### isInitialized
 
   ```solidity
-  function isInitialized() external returns (bool)
+  function isInitialized() external view returns (bool)
   ```
 
   Returns wether the token has been initialized.
@@ -3906,6 +3919,52 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 
 ## Perps Market
 
+### IAccountEvents
+
+#### CollateralDeducted
+
+  ```solidity
+  event CollateralDeducted(uint256 account, uint128 synthMarketId, uint256 amount)
+  ```
+
+  Gets fired when some collateral is deducted from the account for paying fees or liquidations.
+
+**Parameters**
+* `account` (*uint256*) - Id of the account being deducted.
+* `synthMarketId` (*uint128*) - Id of the synth deducted.
+* `amount` (*uint256*) - Amount of synth market deducted from the account.
+
+### Async Order Cancel Module
+
+#### cancelOrder
+
+  ```solidity
+  function cancelOrder(uint128 accountId) external
+  ```
+
+  Cancels an order when price exceeds the acceptable price. Uses the onchain benchmark price at commitment time.
+
+**Parameters**
+* `accountId` (*uint128*) - Id of the account used for the trade.
+
+#### OrderCancelled
+
+  ```solidity
+  event OrderCancelled(uint128 marketId, uint128 accountId, uint256 desiredPrice, uint256 fillPrice, int128 sizeDelta, uint256 settlementReward, bytes32 trackingCode, address settler)
+  ```
+
+  Gets fired when an order is cancelled.
+
+**Parameters**
+* `marketId` (*uint128*) - Id of the market used for the trade.
+* `accountId` (*uint128*) - Id of the account used for the trade.
+* `desiredPrice` (*uint256*) - Price at which the order was cancelled.
+* `fillPrice` (*uint256*) - Price at which the order was cancelled.
+* `sizeDelta` (*int128*) - Size delta from order.
+* `settlementReward` (*uint256*) - Amount of fees collected by the settler.
+* `trackingCode` (*bytes32*) - Optional code for integrator tracking purposes.
+* `settler` (*address*) - address of the settler of the order.
+
 ### Async Order Module
 
 #### commitOrder
@@ -3925,7 +3984,7 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 #### getOrder
 
   ```solidity
-  function getOrder(uint128 accountId) external returns (struct AsyncOrder.Data order)
+  function getOrder(uint128 accountId) external view returns (struct AsyncOrder.Data order)
   ```
 
   Get async order claim details
@@ -3973,7 +4032,7 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 #### OrderCommitted
 
   ```solidity
-  event OrderCommitted(uint128 marketId, uint128 accountId, enum SettlementStrategy.Type orderType, int128 sizeDelta, uint256 acceptablePrice, uint256 settlementTime, uint256 expirationTime, bytes32 trackingCode, address sender)
+  event OrderCommitted(uint128 marketId, uint128 accountId, enum SettlementStrategy.Type orderType, int128 sizeDelta, uint256 acceptablePrice, uint256 commitmentTime, uint256 settlementTime, uint256 expirationTime, bytes32 trackingCode, address sender)
   ```
 
   Gets fired when a new order is committed.
@@ -3984,7 +4043,8 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 * `orderType` (*enum SettlementStrategy.Type*) - Should send 0 (at time of writing) that correlates to the transaction type enum defined in SettlementStrategy.Type.
 * `sizeDelta` (*int128*) - requested change in size of the order sent by the user.
 * `acceptablePrice` (*uint256*) - maximum or minimum, depending on the sizeDelta direction, accepted price to settle the order, set by the user.
-* `settlementTime` (*uint256*) - Time at which the order can be settled.
+* `commitmentTime` (*uint256*) - Time at which the order was committed.
+* `settlementTime` (*uint256*) - start time of the settlement window.
 * `expirationTime` (*uint256*) - Time at which the order expired.
 * `trackingCode` (*bytes32*) - Optional code for integrator tracking purposes.
 * `sender` (*address*) - address of the sender of the order. Authorized to commit by account owner.
@@ -3992,7 +4052,7 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 #### PreviousOrderExpired
 
   ```solidity
-  event PreviousOrderExpired(uint128 marketId, uint128 accountId, int128 sizeDelta, uint256 acceptablePrice, uint256 settlementTime, bytes32 trackingCode)
+  event PreviousOrderExpired(uint128 marketId, uint128 accountId, int128 sizeDelta, uint256 acceptablePrice, uint256 commitmentTime, bytes32 trackingCode)
   ```
 
   Gets fired when a new order is committed while a previous one was expired.
@@ -4002,33 +4062,21 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 * `accountId` (*uint128*) - Id of the account used for the trade.
 * `sizeDelta` (*int128*) - requested change in size of the order sent by the user.
 * `acceptablePrice` (*uint256*) - maximum or minimum, depending on the sizeDelta direction, accepted price to settle the order, set by the user.
-* `settlementTime` (*uint256*) - Time at which the order can be settled.
+* `commitmentTime` (*uint256*) - Time at which the order was committed.
 * `trackingCode` (*bytes32*) - Optional code for integrator tracking purposes.
 
-### Async Order Settlement Module
+### Async Order Settlement Pyth Module
 
-#### settle
-
-  ```solidity
-  function settle(uint128 accountId) external view
-  ```
-
-  Settles an offchain order. It's expected to revert with the OffchainLookup error with the data needed to perform the offchain lookup.
-
-**Parameters**
-* `accountId` (*uint128*) - Id of the account used for the trade.
-
-#### settlePythOrder
+#### settleOrder
 
   ```solidity
-  function settlePythOrder(bytes result, bytes extraData) external payable
+  function settleOrder(uint128 accountId) external
   ```
 
   Settles an offchain order using the offchain retrieved data from pyth.
 
 **Parameters**
-* `result` (*bytes*) - the blob of data retrieved offchain.
-* `extraData` (*bytes*) - Extra data from OffchainLookupData.
+* `accountId` (*uint128*) - The account id to settle the order
 
 #### OrderSettled
 
@@ -4055,18 +4103,6 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 
 ### Collateral Module
 
-#### setMaxCollateralAmount
-
-  ```solidity
-  function setMaxCollateralAmount(uint128 synthMarketId, uint256 collateralAmount) external
-  ```
-
-  Set the max collateral amoutn via this function
-
-**Parameters**
-* `synthMarketId` (*uint128*) - Synth market id, 0 for snxUSD.
-* `collateralAmount` (*uint256*) - max amount that for the synth
-
 #### MaxCollateralSet
 
   ```solidity
@@ -4081,22 +4117,22 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 
 ### Global Perps Market Module
 
-#### setMaxCollateralAmount
+#### setCollateralConfiguration
 
   ```solidity
-  function setMaxCollateralAmount(uint128 synthMarketId, uint256 collateralAmount) external
+  function setCollateralConfiguration(uint128 synthMarketId, uint256 maxCollateralAmount) external
   ```
 
   Sets the max collateral amount for a specific synth market.
 
 **Parameters**
 * `synthMarketId` (*uint128*) - Synth market id, 0 for snxUSD.
-* `collateralAmount` (*uint256*) - Max collateral amount to set for the synth market id.
+* `maxCollateralAmount` (*uint256*) - Max collateral amount to set for the synth market id.
 
-#### getMaxCollateralAmount
+#### getCollateralConfiguration
 
   ```solidity
-  function getMaxCollateralAmount(uint128 synthMarketId) external view returns (uint256)
+  function getCollateralConfiguration(uint128 synthMarketId) external view returns (uint256 maxCollateralAmount)
   ```
 
   Gets the max collateral amount for a specific synth market.
@@ -4105,7 +4141,17 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 * `synthMarketId` (*uint128*) - Synth market id, 0 for snxUSD.
 
 **Returns**
-* `[0]` (*uint256*) - maxCollateralAmount max collateral amount of the specified synth market id
+* `maxCollateralAmount` (*uint256*) - max collateral amount of the specified synth market id
+#### getSupportedCollaterals
+
+  ```solidity
+  function getSupportedCollaterals() external view returns (uint256[] supportedCollaterals)
+  ```
+
+  Gets the list of supported collaterals.
+
+**Returns**
+* `supportedCollaterals` (*uint256[]*) - list of supported collateral ids. By supported collateral we mean a collateral which max is greater than zero
 #### setSynthDeductionPriority
 
   ```solidity
@@ -4131,29 +4177,33 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 
 **Returns**
 * `[0]` (*uint128[]*) - synthDeductionPriority Ordered array of synth market ids for deduction priority.
-#### setLiquidationRewardGuards
+#### setKeeperRewardGuards
 
   ```solidity
-  function setLiquidationRewardGuards(uint256 minLiquidationRewardUsd, uint256 maxLiquidationRewardUsd) external
+  function setKeeperRewardGuards(uint256 minKeeperRewardUsd, uint256 minKeeperProfitRatioD18, uint256 maxKeeperRewardUsd, uint256 maxKeeperScalingRatioD18) external
   ```
 
-  Sets the liquidation reward guard (min and max).
+  Sets the keeper reward guard (min and max).
 
 **Parameters**
-* `minLiquidationRewardUsd` (*uint256*) - Minimum liquidation reward expressed as USD value.
-* `maxLiquidationRewardUsd` (*uint256*) - Maximum liquidation reward expressed as USD value.
+* `minKeeperRewardUsd` (*uint256*) - Minimum keeper reward expressed as USD value.
+* `minKeeperProfitRatioD18` (*uint256*) - Minimum keeper profit ratio used together with minKeeperRewardUsd to calculate the minimum.
+* `maxKeeperRewardUsd` (*uint256*) - Maximum keeper reward expressed as USD value.
+* `maxKeeperScalingRatioD18` (*uint256*) - Scaling used to calculate the Maximum keeper reward together with maxKeeperRewardUsd.
 
-#### getLiquidationRewardGuards
+#### getKeeperRewardGuards
 
   ```solidity
-  function getLiquidationRewardGuards() external view returns (uint256 minLiquidationRewardUsd, uint256 maxLiquidationRewardUsd)
+  function getKeeperRewardGuards() external view returns (uint256 minKeeperRewardUsd, uint256 minKeeperProfitRatioD18, uint256 maxKeeperRewardUsd, uint256 maxKeeperScalingRatioD18)
   ```
 
-  Gets the liquidation reward guard (min and max).
+  Gets the keeper reward guard (min and max).
 
 **Returns**
-* `minLiquidationRewardUsd` (*uint256*) - Minimum liquidation reward expressed as USD value.
-* `maxLiquidationRewardUsd` (*uint256*) - Maximum liquidation reward expressed as USD value.
+* `minKeeperRewardUsd` (*uint256*) - Minimum keeper reward expressed as USD value.
+* `minKeeperProfitRatioD18` (*uint256*) - Minimum keeper profit ratio used together with minKeeperRewardUsd to calculate the minimum.
+* `maxKeeperRewardUsd` (*uint256*) - Maximum keeper reward expressed as USD value.
+* `maxKeeperScalingRatioD18` (*uint256*) - Scaling used to calculate the Maximum keeper reward together with maxKeeperRewardUsd.
 #### totalGlobalCollateralValue
 
   ```solidity
@@ -4224,7 +4274,7 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 #### getReferrerShare
 
   ```solidity
-  function getReferrerShare(address referrer) external returns (uint256 shareRatioD18)
+  function getReferrerShare(address referrer) external view returns (uint256 shareRatioD18)
   ```
 
   get the referral share percentage for the specified referrer
@@ -4234,10 +4284,31 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 
 **Returns**
 * `shareRatioD18` (*uint256*) - The configured share percentage for the referrer
+#### updateKeeperCostNodeId
+
+  ```solidity
+  function updateKeeperCostNodeId(bytes32 keeperCostNodeId) external
+  ```
+
+  Set node id for keeper cost
+
+**Parameters**
+* `keeperCostNodeId` (*bytes32*) - the node id
+
+#### getKeeperCostNodeId
+
+  ```solidity
+  function getKeeperCostNodeId() external view returns (bytes32 keeperCostNodeId)
+  ```
+
+  Get the node id for keeper cost
+
+**Returns**
+* `keeperCostNodeId` (*bytes32*) - the node id
 #### getMarkets
 
   ```solidity
-  function getMarkets() external returns (uint256[] marketIds)
+  function getMarkets() external view returns (uint256[] marketIds)
   ```
 
   get all existing market ids
@@ -4245,17 +4316,17 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 **Returns**
 * `marketIds` (*uint256[]*) - an array of existing market ids
 
-#### MaxCollateralAmountSet
+#### CollateralConfigurationSet
 
   ```solidity
-  event MaxCollateralAmountSet(uint128 synthMarketId, uint256 collateralAmount)
+  event CollateralConfigurationSet(uint128 synthMarketId, uint256 maxCollateralAmount)
   ```
 
   Gets fired when max collateral amount for synth for all the markets is set by owner.
 
 **Parameters**
 * `synthMarketId` (*uint128*) - Synth market id, 0 for snxUSD.
-* `collateralAmount` (*uint256*) - max amount that was set for the synth
+* `maxCollateralAmount` (*uint256*) - max amount that was set for the synth
 
 #### SynthDeductionPrioritySet
 
@@ -4268,17 +4339,19 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 **Parameters**
 * `newSynthDeductionPriority` (*uint128[]*) - new synth id priority order for deductions.
 
-#### LiquidationRewardGuardsSet
+#### KeeperRewardGuardsSet
 
   ```solidity
-  event LiquidationRewardGuardsSet(uint256 minLiquidationRewardUsd, uint256 maxLiquidationRewardUsd)
+  event KeeperRewardGuardsSet(uint256 minKeeperRewardUsd, uint256 minKeeperProfitRatioD18, uint256 maxKeeperRewardUsd, uint256 maxKeeperScalingRatioD18)
   ```
 
-  Gets fired when liquidation reward guard is set or updated.
+  Gets fired when keeper reward guard is set or updated.
 
 **Parameters**
-* `minLiquidationRewardUsd` (*uint256*) - Minimum liquidation reward expressed as USD value.
-* `maxLiquidationRewardUsd` (*uint256*) - Maximum liquidation reward expressed as USD value.
+* `minKeeperRewardUsd` (*uint256*) - Minimum keeper reward expressed as USD value.
+* `minKeeperProfitRatioD18` (*uint256*) - Minimum keeper profit ratio used together with minKeeperRewardUsd to calculate the minimum.
+* `maxKeeperRewardUsd` (*uint256*) - Maximum keeper reward expressed as USD value.
+* `maxKeeperScalingRatioD18` (*uint256*) - Scaling used to calculate the Maximum keeper reward together with maxKeeperRewardUsd.
 
 #### FeeCollectorSet
 
@@ -4315,6 +4388,17 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 * `maxPositionsPerAccount` (*uint128*) - The max number of concurrent Positions per Account
 * `maxCollateralsPerAccount` (*uint128*) - The max number of concurrent Collaterals per Account
 
+#### KeeperCostNodeIdUpdated
+
+  ```solidity
+  event KeeperCostNodeIdUpdated(bytes32 keeperCostNodeId)
+  ```
+
+  Gets fired when feed id for keeper cost node id is updated.
+
+**Parameters**
+* `keeperCostNodeId` (*bytes32*) - oracle node id
+
 ### Liquidation Module
 
 #### liquidate
@@ -4335,13 +4419,41 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 #### liquidateFlagged
 
   ```solidity
-  function liquidateFlagged() external returns (uint256 liquidationReward)
+  function liquidateFlagged(uint256 maxNumberOfAccounts) external returns (uint256 liquidationReward)
   ```
 
-  Liquidates all flagged accounts.
+  Liquidates up to maxNumberOfAccounts flagged accounts.
+
+**Parameters**
+* `maxNumberOfAccounts` (*uint256*) - max number of accounts to liquidate.
 
 **Returns**
 * `liquidationReward` (*uint256*) - total reward sent to liquidator.
+#### liquidateFlaggedAccounts
+
+  ```solidity
+  function liquidateFlaggedAccounts(uint128[] accountIds) external returns (uint256 liquidationReward)
+  ```
+
+  Liquidates the listed flagged accounts.
+
+  if any of the accounts is not flagged for liquidation it will be skipped.
+
+**Parameters**
+* `accountIds` (*uint128[]*) - list of account ids to liquidate.
+
+**Returns**
+* `liquidationReward` (*uint256*) - total reward sent to liquidator.
+#### flaggedAccounts
+
+  ```solidity
+  function flaggedAccounts() external view returns (uint256[] accountIds)
+  ```
+
+  Returns the list of flagged accounts.
+
+**Returns**
+* `accountIds` (*uint256[]*) - list of flagged accounts.
 #### canLiquidate
 
   ```solidity
@@ -4352,6 +4464,18 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 
 **Returns**
 * `isEligible` (*bool*) - 
+#### liquidationCapacity
+
+  ```solidity
+  function liquidationCapacity(uint128 marketId) external view returns (uint256 capacity, uint256 maxLiquidationInWindow, uint256 latestLiquidationTimestamp)
+  ```
+
+  Current liquidation capacity for the market
+
+**Returns**
+* `capacity` (*uint256*) - market can liquidate up to this #
+* `maxLiquidationInWindow` (*uint256*) - max amount allowed to liquidate based on the current market configuration
+* `latestLiquidationTimestamp` (*uint256*) - timestamp of the last liquidation of the market
 
 #### PositionLiquidated
 
@@ -4367,10 +4491,10 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 * `amountLiquidated` (*uint256*) - amount liquidated.
 * `currentPositionSize` (*int128*) - position size after liquidation.
 
-#### AccountLiquidated
+#### AccountLiquidationAttempt
 
   ```solidity
-  event AccountLiquidated(uint128 accountId, uint256 reward, bool fullLiquidation)
+  event AccountLiquidationAttempt(uint128 accountId, uint256 reward, bool fullLiquidation)
   ```
 
   Gets fired when an account is liquidated.
@@ -4398,6 +4522,19 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 
 **Returns**
 * `strategyId` (*uint256*) - id of the new settlement strategy.
+#### setSettlementStrategy
+
+  ```solidity
+  function setSettlementStrategy(uint128 marketId, uint256 strategyId, struct SettlementStrategy.Data strategy) external
+  ```
+
+  updates a settlement strategy for a market with this function.
+
+**Parameters**
+* `marketId` (*uint128*) - id of the market.
+* `strategyId` (*uint256*) - the specific strategy id.
+* `strategy` (*struct SettlementStrategy.Data*) - strategy details (see SettlementStrategy.Data struct).
+
 #### setOrderFees
 
   ```solidity
@@ -4414,7 +4551,7 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 #### updatePriceData
 
   ```solidity
-  function updatePriceData(uint128 perpsMarketId, bytes32 feedId) external
+  function updatePriceData(uint128 perpsMarketId, bytes32 feedId, uint256 strictStalenessTolerance) external
   ```
 
   Set node id for perps market
@@ -4422,6 +4559,7 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 **Parameters**
 * `perpsMarketId` (*uint128*) - id of the market to set price feed.
 * `feedId` (*bytes32*) - the node feed id
+* `strictStalenessTolerance` (*uint256*) - strict price tolerance in seconds (used for liquidations primarily)
 
 #### setFundingParameters
 
@@ -4454,7 +4592,7 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 #### setLiquidationParameters
 
   ```solidity
-  function setLiquidationParameters(uint128 marketId, uint256 initialMarginRatioD18, uint256 minimumInitialMarginRatioD18, uint256 maintenanceMarginScalarD18, uint256 liquidationRewardRatioD18, uint256 minimumPositionMargin) external
+  function setLiquidationParameters(uint128 marketId, uint256 initialMarginRatioD18, uint256 minimumInitialMarginRatioD18, uint256 maintenanceMarginScalarD18, uint256 flagRewardRatioD18, uint256 minimumPositionMargin) external
   ```
 
   Set liquidation parameters for a market with this function.
@@ -4464,7 +4602,7 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 * `initialMarginRatioD18` (*uint256*) - the initial margin ratio (as decimal with 18 digits precision).
 * `minimumInitialMarginRatioD18` (*uint256*) - the minimum initial margin ratio (as decimal with 18 digits precision).
 * `maintenanceMarginScalarD18` (*uint256*) - the maintenance margin scalar relative to the initial margin ratio (as decimal with 18 digits precision).
-* `liquidationRewardRatioD18` (*uint256*) - the liquidation reward ratio (as decimal with 18 digits precision).
+* `flagRewardRatioD18` (*uint256*) - the flag reward ratio (as decimal with 18 digits precision).
 * `minimumPositionMargin` (*uint256*) - the minimum position margin.
 
 #### setMaxMarketSize
@@ -4539,7 +4677,7 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 #### getLiquidationParameters
 
   ```solidity
-  function getLiquidationParameters(uint128 marketId) external view returns (uint256 initialMarginRatioD18, uint256 minimumInitialMarginRatioD18, uint256 maintenanceMarginScalarD18, uint256 liquidationRewardRatioD18, uint256 minimumPositionMargin)
+  function getLiquidationParameters(uint128 marketId) external view returns (uint256 initialMarginRatioD18, uint256 minimumInitialMarginRatioD18, uint256 maintenanceMarginScalarD18, uint256 flagRewardRatioD18, uint256 minimumPositionMargin)
   ```
 
   Gets liquidation parameters details of a market.
@@ -4551,7 +4689,7 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 * `initialMarginRatioD18` (*uint256*) - the initial margin ratio (as decimal with 18 digits precision).
 * `minimumInitialMarginRatioD18` (*uint256*) - the minimum initial margin ratio (as decimal with 18 digits precision).
 * `maintenanceMarginScalarD18` (*uint256*) - the maintenance margin scalar relative to the initial margin ratio (as decimal with 18 digits precision).
-* `liquidationRewardRatioD18` (*uint256*) - the liquidation reward ratio (as decimal with 18 digits precision).
+* `flagRewardRatioD18` (*uint256*) - the flag reward ratio (as decimal with 18 digits precision).
 * `minimumPositionMargin` (*uint256*) - the minimum position margin.
 #### getFundingParameters
 
@@ -4607,6 +4745,20 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 
 **Returns**
 * `lockedOiRatioD18` (*uint256*) - the locked OI ratio skew scale (as decimal with 18 digits precision).
+#### getPriceData
+
+  ```solidity
+  function getPriceData(uint128 perpsMarketId) external view returns (bytes32 feedId, uint256 strictStalenessTolerance)
+  ```
+
+  Set node id for perps market
+
+**Parameters**
+* `perpsMarketId` (*uint128*) - id of the market to set price feed.
+
+**Returns**
+* `feedId` (*bytes32*) - the node feed id to get price
+* `strictStalenessTolerance` (*uint256*) - 
 
 #### SettlementStrategyAdded
 
@@ -4621,10 +4773,23 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 * `strategy` (*struct SettlementStrategy.Data*) - the strategy configuration.
 * `strategyId` (*uint256*) - the newly created settlement strategy id.
 
+#### SettlementStrategySet
+
+  ```solidity
+  event SettlementStrategySet(uint128 marketId, uint256 strategyId, struct SettlementStrategy.Data strategy)
+  ```
+
+  Gets fired when new settlement strategy is updated.
+
+**Parameters**
+* `marketId` (*uint128*) - adds settlement strategy to this specific market.
+* `strategyId` (*uint256*) - the newly created settlement strategy id.
+* `strategy` (*struct SettlementStrategy.Data*) - the strategy configuration.
+
 #### MarketPriceDataUpdated
 
   ```solidity
-  event MarketPriceDataUpdated(uint128 marketId, bytes32 feedId)
+  event MarketPriceDataUpdated(uint128 marketId, bytes32 feedId, uint256 strictStalenessTolerance)
   ```
 
   Gets fired when feed id for perps market is updated.
@@ -4632,6 +4797,7 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 **Parameters**
 * `marketId` (*uint128*) - id of perps market
 * `feedId` (*bytes32*) - oracle node id
+* `strictStalenessTolerance` (*uint256*) - strict price tolerance in seconds (used for liquidations primarily)
 
 #### OrderFeesSet
 
@@ -4677,7 +4843,7 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 #### LiquidationParametersSet
 
   ```solidity
-  event LiquidationParametersSet(uint128 marketId, uint256 initialMarginRatioD18, uint256 maintenanceMarginRatioD18, uint256 minimumInitialMarginRatioD18, uint256 liquidationRewardRatioD18, uint256 minimumPositionMargin)
+  event LiquidationParametersSet(uint128 marketId, uint256 initialMarginRatioD18, uint256 maintenanceMarginRatioD18, uint256 minimumInitialMarginRatioD18, uint256 flagRewardRatioD18, uint256 minimumPositionMargin)
   ```
 
   Gets fired when liquidation parameters are updated.
@@ -4687,7 +4853,7 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 * `initialMarginRatioD18` (*uint256*) - the initial margin ratio (as decimal with 18 digits precision).
 * `maintenanceMarginRatioD18` (*uint256*) - the maintenance margin ratio (as decimal with 18 digits precision).
 * `minimumInitialMarginRatioD18` (*uint256*) - 
-* `liquidationRewardRatioD18` (*uint256*) - the liquidation reward ratio (as decimal with 18 digits precision).
+* `flagRewardRatioD18` (*uint256*) - the flag reward ratio (as decimal with 18 digits precision).
 * `minimumPositionMargin` (*uint256*) - the minimum position margin.
 
 #### MaxMarketSizeSet
@@ -4713,19 +4879,6 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 **Parameters**
 * `marketId` (*uint128*) - udpates funding parameters to this specific market.
 * `lockedOiRatioD18` (*uint256*) - the locked OI ratio skew scale (as decimal with 18 digits precision).
-
-#### SettlementStrategyEnabled
-
-  ```solidity
-  event SettlementStrategyEnabled(uint128 marketId, uint256 strategyId, bool enabled)
-  ```
-
-  Gets fired when a settlement strategy is enabled or disabled.
-
-**Parameters**
-* `marketId` (*uint128*) - udpates funding parameters to this specific market.
-* `strategyId` (*uint256*) - the specific strategy.
-* `enabled` (*bool*) - whether the strategy is enabled or disabled.
 
 ### IMarketEvents
 
@@ -4775,6 +4928,28 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 
 **Returns**
 * `[0]` (*uint256*) - collateralValue collateral value of the account.
+#### getAccountCollateralIds
+
+  ```solidity
+  function getAccountCollateralIds(uint128 accountId) external view returns (uint256[])
+  ```
+
+  Gets the account's collaterals ids
+
+**Parameters**
+* `accountId` (*uint128*) - Id of the account.
+
+#### getAccountOpenPositions
+
+  ```solidity
+  function getAccountOpenPositions(uint128 accountId) external view returns (uint256[])
+  ```
+
+  Gets all markets that a given account id has a position in
+
+**Parameters**
+* `accountId` (*uint128*) - Id of the account.
+
 #### totalCollateralValue
 
   ```solidity
@@ -4846,7 +5021,7 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 #### getRequiredMargins
 
   ```solidity
-  function getRequiredMargins(uint128 accountId) external view returns (uint256 requiredInitialMargin, uint256 requiredMaintenanceMargin, uint256 totalAccumulatedLiquidationRewards, uint256 maxLiquidationReward)
+  function getRequiredMargins(uint128 accountId) external view returns (uint256 requiredInitialMargin, uint256 requiredMaintenanceMargin, uint256 maxLiquidationReward)
   ```
 
   Gets the initial/maintenance margins across all positions that an account has open.
@@ -4859,7 +5034,6 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 **Returns**
 * `requiredInitialMargin` (*uint256*) - initial margin req (used when withdrawing collateral).
 * `requiredMaintenanceMargin` (*uint256*) - maintenance margin req (used to determine liquidation threshold).
-* `totalAccumulatedLiquidationRewards` (*uint256*) - sum of all liquidation rewards of if all account open positions were to be liquidated fully.
 * `maxLiquidationReward` (*uint256*) - max liquidation reward the keeper would receive if account was fully liquidated. Note here that the accumulated rewards are checked against the global max/min configured liquidation rewards.
 
 #### CollateralModified
@@ -4881,7 +5055,7 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 #### initializeFactory
 
   ```solidity
-  function initializeFactory() external returns (uint128)
+  function initializeFactory(contract ISynthetixSystem synthetix, contract ISpotMarketSystem spotMarket, string marketName) external returns (uint128)
   ```
 
   Initializes the factory.
@@ -4890,27 +5064,16 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 
 **Returns**
 * `[0]` (*uint128*) - globalPerpsMarketId Id of the global perps market id.
-#### setSynthetix
+#### setPerpsMarketName
 
   ```solidity
-  function setSynthetix(contract ISynthetixSystem synthetix) external
+  function setPerpsMarketName(string marketName) external
   ```
 
-  Sets the synthetix system.
+  Sets the perps market name.
 
 **Parameters**
-* `synthetix` (*contract ISynthetixSystem*) - address of the main synthetix proxy.
-
-#### setSpotMarket
-
-  ```solidity
-  function setSpotMarket(contract ISpotMarketSystem spotMarket) external
-  ```
-
-  Sets the spot market system.
-
-**Parameters**
-* `spotMarket` (*contract ISpotMarketSystem*) - address of the spot market proxy.
+* `marketName` (*string*) - the new perps market name.
 
 #### createMarket
 
@@ -5086,7 +5249,7 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 #### fillPrice
 
   ```solidity
-  function fillPrice(uint128 marketId, int128 orderSize, uint256 price) external returns (uint256)
+  function fillPrice(uint128 marketId, int128 orderSize, uint256 price) external view returns (uint256)
   ```
 
   Gets a market's fill price for a specific order size and index price.
@@ -5432,7 +5595,7 @@ Requirements:
 1. collect all their SNX collateral and debt from v2x
 2. create a new staking account on v3 with the supplied {accountId}
 3. put the collateral and debt into this newly created staking account
-4. send the created staking account to the msg.sender.
+4. send the created staking account to the ERC2771Context._msgSender().
 
 **Parameters**
 * `accountId` (*uint128*) - the new account id that the user wants to have. can be any non-zero integer that is not already occupied.
@@ -5760,7 +5923,7 @@ Requirements:
 1. collect all their SNX collateral and debt from v2x
 2. create a new staking account on v3 with the supplied {accountId}
 3. put the collateral and debt into this newly created staking account
-4. send the created staking account to the msg.sender.
+4. send the created staking account to the ERC2771Context._msgSender().
 
 **Parameters**
 * `accountId` (*uint128*) - the new account id that the user wants to have. can be any non-zero integer that is not already occupied.
@@ -5818,6 +5981,12 @@ Requirements:
 
 **Parameters**
 * `paused` (*bool*) - whether or not `migrate` should be disable
+
+#### MarketRegistered
+
+  ```solidity
+  event MarketRegistered(address marketAddress, uint128 marketId, address sender)
+  ```
 
 #### Upgraded
 
@@ -5933,7 +6102,7 @@ Requirements:
 1. collect all their SNX collateral and debt from v2x
 2. create a new staking account on v3 with the supplied {accountId}
 3. put the collateral and debt into this newly created staking account
-4. send the created staking account to the msg.sender.
+4. send the created staking account to the ERC2771Context._msgSender().
 
 **Parameters**
 * `accountId` (*uint128*) - the new account id that the user wants to have. can be any non-zero integer that is not already occupied.
@@ -6049,7 +6218,7 @@ Requirements:
 #### isInitialized
 
   ```solidity
-  function isInitialized() external returns (bool)
+  function isInitialized() external view returns (bool)
   ```
 
   Returns whether the token has been initialized.
@@ -7183,7 +7352,7 @@ See {setApprovalForAll}
 #### getNodeId
 
   ```solidity
-  function getNodeId(enum NodeDefinition.NodeType nodeType, bytes parameters, bytes32[] parents) external returns (bytes32 nodeId)
+  function getNodeId(enum NodeDefinition.NodeType nodeType, bytes parameters, bytes32[] parents) external pure returns (bytes32 nodeId)
   ```
 
   Returns the ID of a node, whether or not it has been registered.
@@ -7319,20 +7488,6 @@ See {setApprovalForAll}
   function isValid(struct NodeDefinition.Data nodeDefinition) internal pure returns (bool valid)
   ```
 
-### PythNode
-
-#### process
-
-  ```solidity
-  function process(bytes parameters) internal view returns (struct NodeOutput.Data nodeOutput)
-  ```
-
-#### isValid
-
-  ```solidity
-  function isValid(struct NodeDefinition.Data nodeDefinition) internal view returns (bool valid)
-  ```
-
 ### ReducerNode
 
 #### process
@@ -7400,7 +7555,7 @@ See {setApprovalForAll}
 #### process
 
   ```solidity
-  function process(struct NodeOutput.Data[] parentNodeOutputs, bytes parameters) internal view returns (struct NodeOutput.Data nodeOutput)
+  function process(struct NodeDefinition.Data nodeDefinition, bytes32[] runtimeKeys, bytes32[] runtimeValues) internal view returns (struct NodeOutput.Data nodeOutput)
   ```
 
 #### isValid
@@ -7427,5 +7582,33 @@ See {setApprovalForAll}
 
   ```solidity
   function isValid(struct NodeDefinition.Data nodeDefinition) internal view returns (bool valid)
+  ```
+
+### PythNode
+
+#### process
+
+  ```solidity
+  function process(bytes parameters) internal view returns (struct NodeOutput.Data nodeOutput)
+  ```
+
+#### isValid
+
+  ```solidity
+  function isValid(struct NodeDefinition.Data nodeDefinition) internal view returns (bool valid)
+  ```
+
+### PythOffchainLookupNode
+
+#### process
+
+  ```solidity
+  function process(bytes parameters, bytes32[] runtimeKeys, bytes32[] runtimeValues) internal pure returns (struct NodeOutput.Data)
+  ```
+
+#### isValid
+
+  ```solidity
+  function isValid(struct NodeDefinition.Data nodeDefinition) internal pure returns (bool valid)
   ```
 
