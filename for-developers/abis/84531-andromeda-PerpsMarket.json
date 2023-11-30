@@ -1,5 +1,5 @@
 {
-  "address": "0xEED61f0CB02f3B38923b1b6EAa939D5f04f431b6",
+  "address": "0x75c43165ea38cB857C45216a37C5405A7656673c",
   "abi": [
     {
       "inputs": [
@@ -3146,11 +3146,6 @@
               "type": "bytes32"
             },
             {
-              "internalType": "string",
-              "name": "url",
-              "type": "string"
-            },
-            {
               "internalType": "uint256",
               "name": "settlementReward",
               "type": "uint256"
@@ -3219,11 +3214,6 @@
               "type": "bytes32"
             },
             {
-              "internalType": "string",
-              "name": "url",
-              "type": "string"
-            },
-            {
               "internalType": "uint256",
               "name": "settlementReward",
               "type": "uint256"
@@ -3276,11 +3266,6 @@
               "internalType": "bytes32",
               "name": "feedId",
               "type": "bytes32"
-            },
-            {
-              "internalType": "string",
-              "name": "url",
-              "type": "string"
             },
             {
               "internalType": "uint256",
@@ -3535,11 +3520,6 @@
               "type": "bytes32"
             },
             {
-              "internalType": "string",
-              "name": "url",
-              "type": "string"
-            },
-            {
               "internalType": "uint256",
               "name": "settlementReward",
               "type": "uint256"
@@ -3749,11 +3729,6 @@
               "internalType": "bytes32",
               "name": "feedId",
               "type": "bytes32"
-            },
-            {
-              "internalType": "string",
-              "name": "url",
-              "type": "string"
             },
             {
               "internalType": "uint256",
