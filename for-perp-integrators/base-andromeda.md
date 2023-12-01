@@ -9,7 +9,6 @@ description: Evolving reference for Core V3 + Perps V3 on Base
 
 * Week beginning Nov 6th: Perps V3 starting audit  ✅
 * Week beginning Nov 13th: Andromeda 3.3.3 on [Base Goerli](https://usecannon.com/packages/synthetix-omnibus/latest/84531-andromeda) ✅
-* Week beginning Nov 27th: Andromeda 3.3.3 on Base mainnet 🚧
 * Week beginning Dec 4th: Andromeda 3.4.0 on Base mainnet (pending Perp audit)&#x20;
 * TBC: Public launch of Andromeda on Base mainnet and announcements
 {% endhint %}
@@ -29,6 +28,7 @@ The Spot Market is included, but only to be used as a mechanism to exchange the 
 * Unique to Andromeda Base is the use of a USDC wrapper, enabling USDC to appear to be used as collateral for LPs, and as margin as perp traders.
 * Underneath, USDC is wrapped and or traded into sUSDC for LP collateral (and collecting fees), and sUSD as perp margin
 * The full configuration of Base Goerli can be seen [on Cannon](https://usecannon.com/packages/synthetix-omnibus/3.3.3-dev.e141cd8c/84531-andromeda)
+* See [#andromeda-on-base-goerli](../for-developers/addresses-+-abis.md#andromeda-on-base-goerli "mention") for Addresses and ABIs
 * Configuration explained:&#x20;
   * [this is the part](https://github.com/Synthetixio/synthetix-deployments/pull/66/files#diff-dc0e4e9b2b24d1fcf9c5a8ffd5b5548955777eff55c71dd0ab208dc04e84a89b) that deploys sUSDC (a USDC synth) and creates the spot market
   * &#x20;USDC <-> sUSDC can be wrapped/unwrapped on the spot market
