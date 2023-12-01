@@ -5,7 +5,7 @@ description: Evolving reference for Core V3 + Perps V3 on Base
 # Base Andromeda
 
 {% hint style="info" %}
-### INTERIM timeline&#x20;
+### Evolving timeline for Base Andromeda Alpha
 
 * Week beginning Nov 6th: Perps V3 starting audit  ✅
 * Week beginning Nov 13th: Andromeda 3.3.3 on [Base Goerli](https://usecannon.com/packages/synthetix-omnibus/latest/84531-andromeda) ✅
