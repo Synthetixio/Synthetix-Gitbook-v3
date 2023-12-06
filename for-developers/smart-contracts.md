@@ -4032,7 +4032,7 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 #### OrderCommitted
 
   ```solidity
-  event OrderCommitted(uint128 marketId, uint128 accountId, enum SettlementStrategy.Type orderType, int128 sizeDelta, uint256 acceptablePrice, uint256 commitmentTime, uint256 settlementTime, uint256 expirationTime, bytes32 trackingCode, address sender)
+  event OrderCommitted(uint128 marketId, uint128 accountId, enum SettlementStrategy.Type orderType, int128 sizeDelta, uint256 acceptablePrice, uint256 commitmentTime, uint256 expectedPriceTime, uint256 settlementTime, uint256 expirationTime, bytes32 trackingCode, address sender)
   ```
 
   Gets fired when a new order is committed.
@@ -4044,6 +4044,7 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 * `sizeDelta` (*int128*) - requested change in size of the order sent by the user.
 * `acceptablePrice` (*uint256*) - maximum or minimum, depending on the sizeDelta direction, accepted price to settle the order, set by the user.
 * `commitmentTime` (*uint256*) - Time at which the order was committed.
+* `expectedPriceTime` (*uint256*) - 
 * `settlementTime` (*uint256*) - start time of the settlement window.
 * `expirationTime` (*uint256*) - Time at which the order expired.
 * `trackingCode` (*bytes32*) - Optional code for integrator tracking purposes.
@@ -7536,6 +7537,18 @@ See {setApprovalForAll}
 
   ```solidity
   function div(struct NodeOutput.Data[] parentNodeOutputs) internal pure returns (struct NodeOutput.Data divPrice)
+  ```
+
+#### mulDecimal
+
+  ```solidity
+  function mulDecimal(struct NodeOutput.Data[] parentNodeOutputs) internal pure returns (struct NodeOutput.Data mulPrice)
+  ```
+
+#### divDecimal
+
+  ```solidity
+  function divDecimal(struct NodeOutput.Data[] parentNodeOutputs) internal pure returns (struct NodeOutput.Data divPrice)
   ```
 
 #### quickSort
