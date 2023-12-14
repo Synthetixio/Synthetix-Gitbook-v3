@@ -813,5 +813,6 @@
   "contractName": "",
   "deployedOn": "invoke.init_account",
   "gasUsed": 0,
-  "gasCost": "0"
+  "gasCost": "0",
+  "highlight": true
 }
