@@ -83,7 +83,7 @@ If you meet these requirements you can prepare a multicall to execute in a singl
 
 All transactions should be prepared as a multicall and sent to the `TrustedMulticallForwarder` contracts using `aggregate3Value`.
 
-**Deposit:**&#x20;
+**Deposit perp margin**
 
 1. `USDC -> sUSDC` - Wrap USDC on the spot market
    1. Function: `SpotMarketProxy.wrap(marketId, wrapAmount, amountReceived)`
@@ -95,7 +95,7 @@ All transactions should be prepared as a multicall and sent to the `TrustedMulti
    1. Function: `PerpsMarketProxy.modifyCollateral(accountId, synthMarketId, amountDelta)`
    2. Example: `modifyCollateral(12345, 0, 1000000000000000000)`
 
-**Withdraw:**
+**Withdraw perp margin**
 
 1. Withdraw sUSD
    1. Function: `PerpsMarketProxy.modifyCollateral(accountId, synthMarketId, amountDelta)`
@@ -115,7 +115,8 @@ All transactions should be prepared as a multicall and sent to the `TrustedMulti
 ### Useful links
 
 * Perp order settlement and liquidation keepers are running on Goerli, and you can run your own [perps-v3-keeper.md](perps-v3-keeper.md "mention")
-* Base Goerli keeper [https://goerli.basescan.org/address/0x4A58e0d29558111bfDc07Dc12Ca0fF7fcD0d0d75](https://goerli.basescan.org/address/0x4A58e0d29558111bfDc07Dc12Ca0fF7fcD0d0d75)
+* [Base Goerli keeper for order settlement and liquidation](https://goerli.basescan.org/address/0x4A58e0d29558111bfDc07Dc12Ca0fF7fcD0d0d75)&#x20;
+* [Base Goerli Perp trades](https://goerli.basescan.org/token/0xa89163A087fe38022690C313b5D4BBF12574637f)&#x20;
 
 #### Notable changes from Testnet Competition
 
