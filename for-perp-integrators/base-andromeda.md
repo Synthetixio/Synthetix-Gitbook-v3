@@ -9,7 +9,7 @@ description: Evolving reference for Core V3 + Perps V3 on Base
 
 * Week beginning Nov 6th: Perps V3 starting audit  ✅
 * Week beginning Nov 13th: Andromeda 3.3.3 on [Base Goerli](https://usecannon.com/packages/synthetix-omnibus/latest/84531-andromeda) ✅
-* Week beginning Dec 4th: Andromeda 3.4.0 on Base mainnet (pending Perp audit)&#x20;
+* Week beginning Dec 11th: Andromeda 3.3.5 on Base mainnet (pending Perp audit)&#x20;
 * TBC: Public launch of Andromeda on Base mainnet and announcements
 {% endhint %}
 
@@ -112,12 +112,14 @@ All transactions should be prepared as a multicall and sent to the `TrustedMulti
 * [Deposit](https://goerli.basescan.org/tx/0x95461a5b05c40c91c952bc06b0d292ec16ffd0c750a7b708a8564183b9b08cf4)
 * [Withdraw](https://goerli.basescan.org/tx/0x4b6d29faaa75223fe1d690993c5e93ef316fc823385cbc52f505927f65702319)
 
-### Notable changes from Testnet Competition
+### Useful links
+
+* Perp order settlement and liquidation keepers are running on Goerli, and you can run your own [perps-v3-keeper.md](perps-v3-keeper.md "mention")
+* Base Goerli keeper [https://goerli.basescan.org/address/0x4A58e0d29558111bfDc07Dc12Ca0fF7fcD0d0d75](https://goerli.basescan.org/address/0x4A58e0d29558111bfDc07Dc12Ca0fF7fcD0d0d75)
+
+#### Notable changes from Testnet Competition
 
 * Interface: [Staleness Tolerance](https://github.com/Synthetixio/synthetix-v3/pull/1860)
 * Keepers: [Gas based keeper rewards](https://github.com/Synthetixio/synthetix-v3/pull/1890)
 
-### Notable recent changes
-
 {% embed url="https://rattle-ticket-183.notion.site/Perps-andromeda-branch-changes-512cf7a6c696463da0980907f00511ea?pvs=4" %}
-
