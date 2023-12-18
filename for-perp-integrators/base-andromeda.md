@@ -5,12 +5,11 @@ description: Evolving reference for Core V3 + Perps V3 on Base
 # Base Andromeda
 
 {% hint style="info" %}
-### Evolving timeline for Base Andromeda Alpha
+### Evolving timeline
 
-* Week beginning Nov 6th: Perps V3 starting audit  ✅
-* Week beginning Nov 13th: Andromeda 3.3.3 on [Base Goerli](https://usecannon.com/packages/synthetix-omnibus/latest/84531-andromeda) ✅
-* Week beginning Dec 11th: Andromeda 3.3.5 on Base mainnet (pending Perp audit)&#x20;
-* TBC: Public launch of Andromeda on Base mainnet and announcements
+* Andromeda on [Base Goerli](https://usecannon.com/packages/synthetix-omnibus/latest/84531-andromeda)&#x20;
+* Andromeda on [Base Mainnet](https://usecannon.com/packages/synthetix-omnibus/latest/8453-andromeda)
+* TBC: Public launch and announcements
 {% endhint %}
 
 ## Introduction
