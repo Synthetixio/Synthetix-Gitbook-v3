@@ -30,8 +30,8 @@ The Spot Market is included, but only to be used as a mechanism to exchange the 
 * See [#andromeda-on-base-goerli](../for-developers/addresses-+-abis.md#andromeda-on-base-goerli "mention") for Addresses and ABIs
 * Configuration explained:&#x20;
   * [this is the part](https://github.com/Synthetixio/synthetix-deployments/pull/66/files#diff-dc0e4e9b2b24d1fcf9c5a8ffd5b5548955777eff55c71dd0ab208dc04e84a89b) that deploys sUSDC (a USDC synth) and creates the spot market
-  * &#x20;USDC <-> sUSDC can be wrapped/unwrapped on the spot market
-  * sUSD <-> sUSDC can be bought/sold on the spot market
+  * &#x20;USDC <--> sUSDC can be wrapped/unwrapped on the spot market
+  * sUSD <--> sUSDC can be bought/sold on the spot market
   * No fee on these, all atomic so can be composed with multicalls
 * _Coming: Andromeda Base Sandbox - in the meantime see the more general_ [sandbox-with-perps.md](sandbox-with-perps.md "mention") _can be used once USDC is wrapped and swapped to sUSD_
 
@@ -55,7 +55,7 @@ LPs can arrive with USDC to provide liquidity (LP). The contracts or integrators
 
 When withdrawing, initial collateral plus any fees can be withdrawn, then unwrapped from sUSDC to USDC.
 
-## For Traders/Integrators
+## For Perp Traders/Integrators
 
 Integrators can create a seamless trading experience using USDC by utilizing the wrapper and spot  market. Since `USDC-sUSDC` and `sUSDC-sUSD` exchanges are both 1:1 swaps, integrators can easily create a "zap" between USDC in their wallet and their account margin.
 
@@ -76,7 +76,7 @@ An account must meet the following requirements to execute USDC transfers betwee
 * Approve `SpotMarketProxy` to transfer sUSD
 * Approve `SpotMarketProxy` to transfer sUSDC
 
-### Preparing the Transactions
+### Preparing Margin Transactions
 
 If you meet these requirements you can prepare a multicall to execute in a single transaction. Use `marketId = 1` for `sUSDC`. Matching values like `wrapAmount` and `amountReceived` in the transactions will guarantee this 1:1 swap.
 
@@ -106,20 +106,15 @@ All transactions should be prepared as a multicall and sent to the `TrustedMulti
    1. Function: `SpotMarketProxy.unwrap(marketId, unwrapAmount, minAmountReceived)`
    2. Example: `unwrap(1, 1000000000000000000, 1000000000000000000)`
 
-**Sample Transactions**
+**Sample Margin Transactions**
 
 * [Deposit](https://goerli.basescan.org/tx/0x95461a5b05c40c91c952bc06b0d292ec16ffd0c750a7b708a8564183b9b08cf4)
 * [Withdraw](https://goerli.basescan.org/tx/0x4b6d29faaa75223fe1d690993c5e93ef316fc823385cbc52f505927f65702319)
+
+### // TODO: Trading Perps v3
 
 ### Useful links
 
 * Perp order settlement and liquidation keepers are running on Goerli, and you can run your own [perps-v3-keeper.md](perps-v3-keeper.md "mention")
 * [Base Goerli keeper for order settlement and liquidation](https://goerli.basescan.org/address/0x4A58e0d29558111bfDc07Dc12Ca0fF7fcD0d0d75)&#x20;
 * [Base Goerli Perp trades](https://goerli.basescan.org/token/0xa89163A087fe38022690C313b5D4BBF12574637f)&#x20;
-
-#### Notable changes from Testnet Competition
-
-* Interface: [Staleness Tolerance](https://github.com/Synthetixio/synthetix-v3/pull/1860)
-* Keepers: [Gas based keeper rewards](https://github.com/Synthetixio/synthetix-v3/pull/1890)
-
-{% embed url="https://rattle-ticket-183.notion.site/Perps-andromeda-branch-changes-512cf7a6c696463da0980907f00511ea?pvs=4" %}

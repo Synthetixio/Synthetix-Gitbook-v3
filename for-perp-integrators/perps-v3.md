@@ -1,7 +1,7 @@
 # Perps V3
 
 {% hint style="info" %}
-Perps V3 is in late stages of development, so minor changes and updates are possible
+Perps V3 is in late stages of development, so internal changes and updates are possible
 {% endhint %}
 
 ### Perps V3.0 features and updates
