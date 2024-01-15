@@ -57,6 +57,7 @@
 * [Data Dictionary](for-developers/data-dictionary.md)
 * [Addresses + ABIs](for-developers/addresses-+-abis.md)
 * [Smart Contract Audits](for-developers/smart-contract-audits.md)
+* [Deployment Info](for-developers/deployment-info.md)
 
 ## For Designers
 
