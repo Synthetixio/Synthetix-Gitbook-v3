@@ -59,6 +59,11 @@
 * [Smart Contract Audits](for-developers/smart-contract-audits.md)
 * [Deployment Info](for-developers/deployment-info.md)
 
+## Deployment info
+
+* [Base Mainnet Andromeda](deployment-info/8453-andromeda.md)
+* [Base Goerli Andromeda](deployment-info/84531-andromeda.md)
+
 ## For Designers
 
 * [Design Resources](for-designers/design-resources.md)
