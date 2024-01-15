@@ -58,17 +58,14 @@
 * [Addresses + ABIs](for-developers/addresses-+-abis.md)
 * [Smart Contract Audits](for-developers/smart-contract-audits.md)
 * [Deployment Info](for-developers/deployment-info.md)
-
-## Deployment info
-
-* [Mainnet](deployment-info/1-main.md)
-* [Goerli](deployment-info/5-main.md)
-* [Sepolia](deployment-info/11155111-main.md)
-* [Optimism Mainnet](deployment-info/10-main.md)
-* [Optimism Goerli](deployment-info/420-main.md)
-* [Base Mainnet Andromeda](deployment-info/8453-andromeda.md)
-* [Base Goerli Andromeda](deployment-info/84531-andromeda.md)
-* [Base Sepolia Andromeda](deployment-info/84532-andromeda.md)
+  * [Mainnet](deployment-info/1-main.md)
+  * [Goerli](deployment-info/5-main.md)
+  * [Sepolia](deployment-info/11155111-main.md)
+  * [Optimism Mainnet](deployment-info/10-main.md)
+  * [Optimism Goerli](deployment-info/420-main.md)
+  * [Base Mainnet Andromeda](deployment-info/8453-andromeda.md)
+  * [Base Goerli Andromeda](deployment-info/84531-andromeda.md)
+  * [Base Sepolia Andromeda](deployment-info/84532-andromeda.md)
 
 ## For Designers
 
