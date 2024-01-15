@@ -63,7 +63,7 @@
 
 * [Base Mainnet Andromeda](deployment-info/8453-andromeda.md)
 * [Base Goerli Andromeda](deployment-info/84531-andromeda.md)
-* [Base Sepolia Andromeda](deployment-info/base-sepolia-andromeda.md)
+* [Base Sepolia Andromeda](deployment-info/84532-andromeda.md)
 
 ## For Designers
 
