@@ -133,16 +133,16 @@ Chain ID: 84531
 
 Chain ID: 84532
 
-| System                               | Address                                                 | ABI                                                              |
-| ------------------------------------ | ------------------------------------------------------- | ---------------------------------------------------------------- |
-| Synthetix Core                       | [0xF4Df9Dd327Fd30695d478c3c8a2fffAddcdD0d31](undefined) | [View/Download](./abis/84532-andromeda-SynthetixCore.json)       |
-| snxAccount NFT                       | [0xa88694d0025dd96194D1B0237fDEbf7D1D34B02F](undefined) | [View/Download](./abis/84532-andromeda-snxAccountNFT.json)       |
-| snxUSD Token                         | [0xa89163A087fe38022690C313b5D4BBF12574637f](undefined) | [View/Download](./abis/84532-andromeda-snxUSDToken.json)         |
-| Oracle Manager                       | [0x439e6cbAaF61C63f406687907022960088801EC0](undefined) | [View/Download](./abis/84532-andromeda-OracleManager.json)       |
-| Spot Market                          | [0xA4fE63F8ea9657990eA8E05Ebfa5C19a7D4d7337](undefined) | [View/Download](./abis/84532-andromeda-SpotMarket.json)          |
-| Perps Market                         | [0xE6C5f05C415126E6b81FCc3619f65Db2fCAd58D0](undefined) | [View/Download](./abis/84532-andromeda-PerpsMarket.json)         |
-| Perps Market Account NFT             | [0x87f578681CDE29F0701E7274708E1A67Ee9eEf94](undefined) | [View/Download](./abis/84532-andromeda-PerpsAccountNFT.json)     |
-| Fake Collateral Fake USD Coin $fUSDC | [0x10e55D2110C71AfAb55244fcaFdA71D01B387F4c](undefined) | [View/Download](./abis/84532-andromeda-FakeCollateralfUSDC.json) |
+| System                                                                    | Address                                                 | ABI                                                                      |
+| ------------------------------------------------------------------------- | ------------------------------------------------------- | ------------------------------------------------------------------------ |
+| Synthetix Core                                                            | [0xF4Df9Dd327Fd30695d478c3c8a2fffAddcdD0d31](undefined) | [View/Download](./abis/84532-andromeda-SynthetixCore.json)               |
+| snxAccount NFT                                                            | [0xa88694d0025dd96194D1B0237fDEbf7D1D34B02F](undefined) | [View/Download](./abis/84532-andromeda-snxAccountNFT.json)               |
+| snxUSD Token                                                              | [0xa89163A087fe38022690C313b5D4BBF12574637f](undefined) | [View/Download](./abis/84532-andromeda-snxUSDToken.json)                 |
+| Oracle Manager                                                            | [0x439e6cbAaF61C63f406687907022960088801EC0](undefined) | [View/Download](./abis/84532-andromeda-OracleManager.json)               |
+| Spot Market                                                               | [0xA4fE63F8ea9657990eA8E05Ebfa5C19a7D4d7337](undefined) | [View/Download](./abis/84532-andromeda-SpotMarket.json)                  |
+| Perps Market                                                              | [0xE6C5f05C415126E6b81FCc3619f65Db2fCAd58D0](undefined) | [View/Download](./abis/84532-andromeda-PerpsMarket.json)                 |
+| Perps Market Account NFT                                                  | [0x87f578681CDE29F0701E7274708E1A67Ee9eEf94](undefined) | [View/Download](./abis/84532-andromeda-PerpsAccountNFT.json)             |
+| Fake Collateral 0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9 $Fake USD Coin | [0x69980C3296416820623b3e3b30703A74e2320bC8](undefined) | [View/Download](./abis/84532-andromeda-FakeCollateralFake USD Coin.json) |
 
 ## Polygon Mumbai
 
