@@ -1,4 +1,4 @@
-## Contracts ownership
+# Contracts owners
 
 <table data-full-width="true">
   <thead>
@@ -73,7 +73,7 @@
   </tbody>
 </table>
 
-## Pools ownership
+# Pools owners
 
 <table data-full-width="true">
   <thead>
@@ -98,7 +98,7 @@
   </tbody>
 </table>
 
-## Markets ownership
+# Markets owners
 
 <table data-full-width="true">
   <thead>
@@ -121,11 +121,9 @@
   </tbody>
 </table>
 
-## Perps Markets
+# Perps Market ETH / Ethereum
 
-### ETH / Ethereum
-
-Market ID: 100
+Market ID: <code>100</code>
 
 <table data-full-width="true">
   <thead>
@@ -283,9 +281,9 @@ Market ID: 100
   </tbody>
 </table>
 
-### BTC / Bitcoin
+# Perps Market BTC / Bitcoin
 
-Market ID: 200
+Market ID: <code>200</code>
 
 <table data-full-width="true">
   <thead>
