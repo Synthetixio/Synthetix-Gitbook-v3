@@ -24,21 +24,4 @@
 
 Try fullwidth multiline table
 
-<table data-full-width="true">
-    <thead>
-        <tr>
-            <th width="100">Market ID</th>
-            <th width="300">Market name</th>
-            <th width="500">Owner</th>
-            <th width="500">Nominated owner</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>1</td>
-            <td>Synthetic USD Coin Spot Market</td>
-            <td>[0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9](https://sepolia.basescan.org/address/0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9)</td>
-            <td>n/a</td>
-        </tr>
-    </tbody>
-</table>
+<table data-full-width="true"><thead><tr><th width="100" data-type="number">Market ID</th><th width="300">Market name</th><th width="476">Owner</th><th width="500">Nominated owner</th></tr></thead><tbody><tr><td>1</td><td>Synthetic USD Coin Spot Market</td><td><a href="https://sepolia.basescan.org/address/0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"><code>0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9</code></a></td><td>n/a</td></tr></tbody></table>
