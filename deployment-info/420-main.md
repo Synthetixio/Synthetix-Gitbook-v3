@@ -1,4 +1,4 @@
-## Contracts ownership
+# Contracts owners
 
 <table data-full-width="true">
   <thead>
@@ -73,7 +73,7 @@
   </tbody>
 </table>
 
-## Pools ownership
+# Pools owners
 
 <table data-full-width="true">
   <thead>
@@ -107,7 +107,7 @@
   </tbody>
 </table>
 
-## Markets ownership
+# Markets owners
 
 <table data-full-width="true">
   <thead>
