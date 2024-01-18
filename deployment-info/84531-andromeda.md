@@ -271,8 +271,8 @@ Market ID: 100
       <td><code>1000000000000000000</code></td>
     </tr>
     <tr>
-      <td>settlementStrategy.feedId</td>
-      <td></td>
+      <td>settlementStrategy.disabled</td>
+      <td>enabled</td>
       <td><code>false</code></td>
     </tr>
     <tr>
@@ -431,8 +431,8 @@ Market ID: 200
       <td><code>1000000000000000000</code></td>
     </tr>
     <tr>
-      <td>settlementStrategy.feedId</td>
-      <td></td>
+      <td>settlementStrategy.disabled</td>
+      <td>enabled</td>
       <td><code>false</code></td>
     </tr>
     <tr>
