@@ -118,31 +118,31 @@ Chain ID: 84531
 
 Chain ID: 84531
 
-| System                   | Address                                                                                                                      | ABI                                                              |
-| ------------------------ | ---------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
-| Synthetix Core           | [0xF4Df9Dd327Fd30695d478c3c8a2fffAddcdD0d31](https://goerli.basescan.org/address/0xF4Df9Dd327Fd30695d478c3c8a2fffAddcdD0d31) | [View/Download](./abis/84531-andromeda-SynthetixCore.json)       |
-| snxAccount NFT           | [0xa88694d0025dd96194D1B0237fDEbf7D1D34B02F](https://goerli.basescan.org/address/0xa88694d0025dd96194D1B0237fDEbf7D1D34B02F) | [View/Download](./abis/84531-andromeda-snxAccountNFT.json)       |
-| snxUSD Token             | [0xa89163A087fe38022690C313b5D4BBF12574637f](https://goerli.basescan.org/address/0xa89163A087fe38022690C313b5D4BBF12574637f) | [View/Download](./abis/84531-andromeda-snxUSDToken.json)         |
-| Oracle Manager           | [0x439e6cbAaF61C63f406687907022960088801EC0](https://goerli.basescan.org/address/0x439e6cbAaF61C63f406687907022960088801EC0) | [View/Download](./abis/84531-andromeda-OracleManager.json)       |
-| Spot Market              | [0x26f3EcFa0Aa924649cfd4b74C57637e910A983a4](https://goerli.basescan.org/address/0x26f3EcFa0Aa924649cfd4b74C57637e910A983a4) | [View/Download](./abis/84531-andromeda-SpotMarket.json)          |
-| Perps Market             | [0x75c43165ea38cB857C45216a37C5405A7656673c](https://goerli.basescan.org/address/0x75c43165ea38cB857C45216a37C5405A7656673c) | [View/Download](./abis/84531-andromeda-PerpsMarket.json)         |
-| Perps Market Account NFT | [0xD8FD25C1A4d90244699f5Eb1966dB07FbDE9dcFa](https://goerli.basescan.org/address/0xD8FD25C1A4d90244699f5Eb1966dB07FbDE9dcFa) | [View/Download](./abis/84531-andromeda-PerpsAccountNFT.json)     |
-| fUSDC / Fake USD Coin    | [0x4967d1987930b2CD183dAB4B6C40B8745DD2eba1](https://goerli.basescan.org/address/0x4967d1987930b2CD183dAB4B6C40B8745DD2eba1) | [View/Download](./abis/84531-andromeda-FakeCollateralfUSDC.json) |
+| System                               | Address                                                                                                                      | ABI                                                              |
+| ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| Synthetix Core                       | [0xF4Df9Dd327Fd30695d478c3c8a2fffAddcdD0d31](https://goerli.basescan.org/address/0xF4Df9Dd327Fd30695d478c3c8a2fffAddcdD0d31) | [View/Download](./abis/84531-andromeda-SynthetixCore.json)       |
+| snxAccount NFT                       | [0xa88694d0025dd96194D1B0237fDEbf7D1D34B02F](https://goerli.basescan.org/address/0xa88694d0025dd96194D1B0237fDEbf7D1D34B02F) | [View/Download](./abis/84531-andromeda-snxAccountNFT.json)       |
+| snxUSD Token                         | [0xa89163A087fe38022690C313b5D4BBF12574637f](https://goerli.basescan.org/address/0xa89163A087fe38022690C313b5D4BBF12574637f) | [View/Download](./abis/84531-andromeda-snxUSDToken.json)         |
+| Oracle Manager                       | [0x439e6cbAaF61C63f406687907022960088801EC0](https://goerli.basescan.org/address/0x439e6cbAaF61C63f406687907022960088801EC0) | [View/Download](./abis/84531-andromeda-OracleManager.json)       |
+| Spot Market                          | [0x26f3EcFa0Aa924649cfd4b74C57637e910A983a4](https://goerli.basescan.org/address/0x26f3EcFa0Aa924649cfd4b74C57637e910A983a4) | [View/Download](./abis/84531-andromeda-SpotMarket.json)          |
+| Perps Market                         | [0x75c43165ea38cB857C45216a37C5405A7656673c](https://goerli.basescan.org/address/0x75c43165ea38cB857C45216a37C5405A7656673c) | [View/Download](./abis/84531-andromeda-PerpsMarket.json)         |
+| Perps Market Account NFT             | [0xD8FD25C1A4d90244699f5Eb1966dB07FbDE9dcFa](https://goerli.basescan.org/address/0xD8FD25C1A4d90244699f5Eb1966dB07FbDE9dcFa) | [View/Download](./abis/84531-andromeda-PerpsAccountNFT.json)     |
+| Fake Collateral Fake USD Coin $fUSDC | [0x4967d1987930b2CD183dAB4B6C40B8745DD2eba1](https://goerli.basescan.org/address/0x4967d1987930b2CD183dAB4B6C40B8745DD2eba1) | [View/Download](./abis/84531-andromeda-FakeCollateralfUSDC.json) |
 
 ## Andromeda on Base Sepolia
 
 Chain ID: 84532
 
-| System                   | Address                                                                                                                       | ABI                                                              |
-| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
-| Synthetix Core           | [0xF4Df9Dd327Fd30695d478c3c8a2fffAddcdD0d31](https://sepolia.basescan.org/address/0xF4Df9Dd327Fd30695d478c3c8a2fffAddcdD0d31) | [View/Download](./abis/84532-andromeda-SynthetixCore.json)       |
-| snxAccount NFT           | [0xa88694d0025dd96194D1B0237fDEbf7D1D34B02F](https://sepolia.basescan.org/address/0xa88694d0025dd96194D1B0237fDEbf7D1D34B02F) | [View/Download](./abis/84532-andromeda-snxAccountNFT.json)       |
-| snxUSD Token             | [0xa89163A087fe38022690C313b5D4BBF12574637f](https://sepolia.basescan.org/address/0xa89163A087fe38022690C313b5D4BBF12574637f) | [View/Download](./abis/84532-andromeda-snxUSDToken.json)         |
-| Oracle Manager           | [0x439e6cbAaF61C63f406687907022960088801EC0](https://sepolia.basescan.org/address/0x439e6cbAaF61C63f406687907022960088801EC0) | [View/Download](./abis/84532-andromeda-OracleManager.json)       |
-| Spot Market              | [0xA4fE63F8ea9657990eA8E05Ebfa5C19a7D4d7337](https://sepolia.basescan.org/address/0xA4fE63F8ea9657990eA8E05Ebfa5C19a7D4d7337) | [View/Download](./abis/84532-andromeda-SpotMarket.json)          |
-| Perps Market             | [0xE6C5f05C415126E6b81FCc3619f65Db2fCAd58D0](https://sepolia.basescan.org/address/0xE6C5f05C415126E6b81FCc3619f65Db2fCAd58D0) | [View/Download](./abis/84532-andromeda-PerpsMarket.json)         |
-| Perps Market Account NFT | [0x87f578681CDE29F0701E7274708E1A67Ee9eEf94](https://sepolia.basescan.org/address/0x87f578681CDE29F0701E7274708E1A67Ee9eEf94) | [View/Download](./abis/84532-andromeda-PerpsAccountNFT.json)     |
-| fUSDC / Fake USD Coin    | [0x69980C3296416820623b3e3b30703A74e2320bC8](https://sepolia.basescan.org/address/0x69980C3296416820623b3e3b30703A74e2320bC8) | [View/Download](./abis/84532-andromeda-FakeCollateralfUSDC.json) |
+| System                                                                    | Address                                                 | ABI                                                                      |
+| ------------------------------------------------------------------------- | ------------------------------------------------------- | ------------------------------------------------------------------------ |
+| Synthetix Core                                                            | [0xF4Df9Dd327Fd30695d478c3c8a2fffAddcdD0d31](undefined) | [View/Download](./abis/84532-andromeda-SynthetixCore.json)               |
+| snxAccount NFT                                                            | [0xa88694d0025dd96194D1B0237fDEbf7D1D34B02F](undefined) | [View/Download](./abis/84532-andromeda-snxAccountNFT.json)               |
+| snxUSD Token                                                              | [0xa89163A087fe38022690C313b5D4BBF12574637f](undefined) | [View/Download](./abis/84532-andromeda-snxUSDToken.json)                 |
+| Oracle Manager                                                            | [0x439e6cbAaF61C63f406687907022960088801EC0](undefined) | [View/Download](./abis/84532-andromeda-OracleManager.json)               |
+| Spot Market                                                               | [0xA4fE63F8ea9657990eA8E05Ebfa5C19a7D4d7337](undefined) | [View/Download](./abis/84532-andromeda-SpotMarket.json)                  |
+| Perps Market                                                              | [0xE6C5f05C415126E6b81FCc3619f65Db2fCAd58D0](undefined) | [View/Download](./abis/84532-andromeda-PerpsMarket.json)                 |
+| Perps Market Account NFT                                                  | [0x87f578681CDE29F0701E7274708E1A67Ee9eEf94](undefined) | [View/Download](./abis/84532-andromeda-PerpsAccountNFT.json)             |
+| Fake Collateral 0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9 $Fake USD Coin | [0x69980C3296416820623b3e3b30703A74e2320bC8](undefined) | [View/Download](./abis/84532-andromeda-FakeCollateralFake USD Coin.json) |
 
 ## Polygon Mumbai
 
