@@ -22,9 +22,9 @@
 
 ### Markets ownership
 
-Try multiline table
+Try fullwidth multiline table
 
-<table data-full-width="false">
+<table data-full-width="true">
     <thead>
         <tr>
             <th width="100">Market ID</th>
@@ -37,7 +37,7 @@ Try multiline table
         <tr>
             <td>1</td>
             <td>Synthetic USD Coin Spot Market</td>
-            <td></td>
+            <td>[0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9](https://sepolia.basescan.org/address/0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9)</td>
             <td>n/a</td>
         </tr>
     </tbody>
