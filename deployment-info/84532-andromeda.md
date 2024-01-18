@@ -22,4 +22,23 @@
 
 ### Markets ownership
 
-<table data-full-width="false"><thead><tr><th>Market ID</th><th width="296">Market name</th><th width="467">Owner</th><th>Nominated owner</th></tr></thead><tbody><tr><td>1</td><td>Synthetic USD Coin Spot Market</td><td></td><td>n/a</td></tr></tbody></table>
+Try multiline table
+
+<table data-full-width="false">
+    <thead>
+        <tr>
+            <th width="100">Market ID</th>
+            <th width="300">Market name</th>
+            <th width="500">Owner</th>
+            <th width="500">Nominated owner</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Synthetic USD Coin Spot Market</td>
+            <td></td>
+            <td>n/a</td>
+        </tr>
+    </tbody>
+</table>
