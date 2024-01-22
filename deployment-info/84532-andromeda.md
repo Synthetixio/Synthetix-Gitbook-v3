@@ -1,6 +1,163 @@
 # Contracts
 
-See [Addresses + ABIs](../for-developers/addresses-+-abis.md) Page
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">System</th>
+      <th width="500">Address</th>
+      <th width="500">ABI</th>
+      <th width="500">Readable ABI</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CoreProxy</td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0xF4Df9Dd327Fd30695d478c3c8a2fffAddcdD0d31"><code>0xF4Df9Dd327Fd30695d478c3c8a2fffAddcdD0d31</code></a>
+      </td>
+      <td>
+        <a href="./84532-andromeda/CoreProxy.json"><code>CoreProxy.json</code></a>
+      </td>
+      <td>
+        <a href="./84532-andromeda/CoreProxy.readable.json"><code>CoreProxy.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>AccountProxy</td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0xa88694d0025dd96194D1B0237fDEbf7D1D34B02F"><code>0xa88694d0025dd96194D1B0237fDEbf7D1D34B02F</code></a>
+      </td>
+      <td>
+        <a href="./84532-andromeda/AccountProxy.json"><code>AccountProxy.json</code></a>
+      </td>
+      <td>
+        <a href="./84532-andromeda/AccountProxy.readable.json"><code>AccountProxy.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>USDProxy</td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0xa89163A087fe38022690C313b5D4BBF12574637f"><code>0xa89163A087fe38022690C313b5D4BBF12574637f</code></a>
+      </td>
+      <td>
+        <a href="./84532-andromeda/USDProxy.json"><code>USDProxy.json</code></a>
+      </td>
+      <td>
+        <a href="./84532-andromeda/USDProxy.readable.json"><code>USDProxy.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>OracleManagerProxy</td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0x439e6cbAaF61C63f406687907022960088801EC0"><code>0x439e6cbAaF61C63f406687907022960088801EC0</code></a>
+      </td>
+      <td>
+        <a href="./84532-andromeda/OracleManagerProxy.json"><code>OracleManagerProxy.json</code></a>
+      </td>
+      <td>
+        <a href="./84532-andromeda/OracleManagerProxy.readable.json"><code>OracleManagerProxy.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>TrustedMulticallForwarder</td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0xE2C5658cC5C448B48141168f3e475dF8f65A1e3e"><code>0xE2C5658cC5C448B48141168f3e475dF8f65A1e3e</code></a>
+      </td>
+      <td>
+        <a href="./84532-andromeda/TrustedMulticallForwarder.json"><code>TrustedMulticallForwarder.json</code></a>
+      </td>
+      <td>
+        <a href="./84532-andromeda/TrustedMulticallForwarder.readable.json"><code>TrustedMulticallForwarder.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>SpotMarketProxy</td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0xA4fE63F8ea9657990eA8E05Ebfa5C19a7D4d7337"><code>0xA4fE63F8ea9657990eA8E05Ebfa5C19a7D4d7337</code></a>
+      </td>
+      <td>
+        <a href="./84532-andromeda/SpotMarketProxy.json"><code>SpotMarketProxy.json</code></a>
+      </td>
+      <td>
+        <a href="./84532-andromeda/SpotMarketProxy.readable.json"><code>SpotMarketProxy.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>PerpsMarketProxy</td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0xE6C5f05C415126E6b81FCc3619f65Db2fCAd58D0"><code>0xE6C5f05C415126E6b81FCc3619f65Db2fCAd58D0</code></a>
+      </td>
+      <td>
+        <a href="./84532-andromeda/PerpsMarketProxy.json"><code>PerpsMarketProxy.json</code></a>
+      </td>
+      <td>
+        <a href="./84532-andromeda/PerpsMarketProxy.readable.json"><code>PerpsMarketProxy.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>PerpsAccountProxy</td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0x87f578681CDE29F0701E7274708E1A67Ee9eEf94"><code>0x87f578681CDE29F0701E7274708E1A67Ee9eEf94</code></a>
+      </td>
+      <td>
+        <a href="./84532-andromeda/PerpsAccountProxy.json"><code>PerpsAccountProxy.json</code></a>
+      </td>
+      <td>
+        <a href="./84532-andromeda/PerpsAccountProxy.readable.json"><code>PerpsAccountProxy.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>FakeCollateralfUSDC</td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0x69980C3296416820623b3e3b30703A74e2320bC8"><code>0x69980C3296416820623b3e3b30703A74e2320bC8</code></a>
+      </td>
+      <td>
+        <a href="./84532-andromeda/FakeCollateralfUSDC.json"><code>FakeCollateralfUSDC.json</code></a>
+      </td>
+      <td>
+        <a href="./84532-andromeda/FakeCollateralfUSDC.readable.json"><code>FakeCollateralfUSDC.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>AllErrors</td>
+      <td>n/a</td>
+      <td>
+        <a href="./84532-andromeda/AllErrors.json"><code>AllErrors.json</code></a>
+      </td>
+      <td>
+        <a href="./84532-andromeda/AllErrors.readable.json"><code>AllErrors.readable.json</code></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400"></th>
+      <th width="500">JSON</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Deployment meta</td>
+      <td>
+        <a href="./84532-andromeda/meta.json"><code>meta.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>Extra outputs</td>
+      <td>
+        <a href="./84532-andromeda/extras.json"><code>extras.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>Cannon state</td>
+      <td>
+        <a href="./84532-andromeda/cannon.json"><code>cannon.json</code></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 # Collateral fUSDC / Fake USD Coin
 
