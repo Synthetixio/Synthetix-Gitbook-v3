@@ -12,72 +12,84 @@
   <tbody>
     <tr>
       <td>CoreProxy</td>
-      <td>undefined</td>
       <td>
-        <a href="./undefined-main/CoreProxy.json"><code>CoreProxy.json</code></a>
+        <a href="https://optimistic.etherscan.io/address/0xffffffaEff0B96Ea8e4f94b2253f31abdD875847"><code>0xffffffaEff0B96Ea8e4f94b2253f31abdD875847</code></a>
       </td>
       <td>
-        <a href="./undefined-main/CoreProxy.readable.json"><code>CoreProxy.readable.json</code></a>
+        <a href="./10-main/CoreProxy.json"><code>CoreProxy.json</code></a>
+      </td>
+      <td>
+        <a href="./10-main/CoreProxy.readable.json"><code>CoreProxy.readable.json</code></a>
       </td>
     </tr>
     <tr>
       <td>AccountProxy</td>
-      <td>undefined</td>
       <td>
-        <a href="./undefined-main/AccountProxy.json"><code>AccountProxy.json</code></a>
+        <a href="https://optimistic.etherscan.io/address/0x0E429603D3Cb1DFae4E6F52Add5fE82d96d77Dac"><code>0x0E429603D3Cb1DFae4E6F52Add5fE82d96d77Dac</code></a>
       </td>
       <td>
-        <a href="./undefined-main/AccountProxy.readable.json"><code>AccountProxy.readable.json</code></a>
+        <a href="./10-main/AccountProxy.json"><code>AccountProxy.json</code></a>
+      </td>
+      <td>
+        <a href="./10-main/AccountProxy.readable.json"><code>AccountProxy.readable.json</code></a>
       </td>
     </tr>
     <tr>
       <td>USDProxy</td>
-      <td>undefined</td>
       <td>
-        <a href="./undefined-main/USDProxy.json"><code>USDProxy.json</code></a>
+        <a href="https://optimistic.etherscan.io/address/0xb2F30A7C980f052f02563fb518dcc39e6bf38175"><code>0xb2F30A7C980f052f02563fb518dcc39e6bf38175</code></a>
       </td>
       <td>
-        <a href="./undefined-main/USDProxy.readable.json"><code>USDProxy.readable.json</code></a>
+        <a href="./10-main/USDProxy.json"><code>USDProxy.json</code></a>
+      </td>
+      <td>
+        <a href="./10-main/USDProxy.readable.json"><code>USDProxy.readable.json</code></a>
       </td>
     </tr>
     <tr>
       <td>OracleManagerProxy</td>
-      <td>undefined</td>
       <td>
-        <a href="./undefined-main/OracleManagerProxy.json"><code>OracleManagerProxy.json</code></a>
+        <a href="https://optimistic.etherscan.io/address/0x0aaF300E148378489a8A471DD3e9E53E30cb42e3"><code>0x0aaF300E148378489a8A471DD3e9E53E30cb42e3</code></a>
       </td>
       <td>
-        <a href="./undefined-main/OracleManagerProxy.readable.json"><code>OracleManagerProxy.readable.json</code></a>
+        <a href="./10-main/OracleManagerProxy.json"><code>OracleManagerProxy.json</code></a>
+      </td>
+      <td>
+        <a href="./10-main/OracleManagerProxy.readable.json"><code>OracleManagerProxy.readable.json</code></a>
       </td>
     </tr>
     <tr>
       <td>SpotMarketProxy</td>
-      <td>undefined</td>
       <td>
-        <a href="./undefined-main/SpotMarketProxy.json"><code>SpotMarketProxy.json</code></a>
+        <a href="https://optimistic.etherscan.io/address/0x38908Ee087D7db73A1Bd1ecab9AAb8E8c9C74595"><code>0x38908Ee087D7db73A1Bd1ecab9AAb8E8c9C74595</code></a>
       </td>
       <td>
-        <a href="./undefined-main/SpotMarketProxy.readable.json"><code>SpotMarketProxy.readable.json</code></a>
+        <a href="./10-main/SpotMarketProxy.json"><code>SpotMarketProxy.json</code></a>
+      </td>
+      <td>
+        <a href="./10-main/SpotMarketProxy.readable.json"><code>SpotMarketProxy.readable.json</code></a>
       </td>
     </tr>
     <tr>
       <td>SNXToken</td>
-      <td>undefined</td>
       <td>
-        <a href="./undefined-main/SNXToken.json"><code>SNXToken.json</code></a>
+        <a href="https://optimistic.etherscan.io/address/0x8700dAec35aF8Ff88c16BdF0418774CB3D7599B4"><code>0x8700dAec35aF8Ff88c16BdF0418774CB3D7599B4</code></a>
       </td>
       <td>
-        <a href="./undefined-main/SNXToken.readable.json"><code>SNXToken.readable.json</code></a>
+        <a href="./10-main/SNXToken.json"><code>SNXToken.json</code></a>
+      </td>
+      <td>
+        <a href="./10-main/SNXToken.readable.json"><code>SNXToken.readable.json</code></a>
       </td>
     </tr>
     <tr>
       <td>AllErrors</td>
       <td>n/a</td>
       <td>
-        <a href="./undefined-main/AllErrors.json"><code>AllErrors.json</code></a>
+        <a href="./10-main/AllErrors.json"><code>AllErrors.json</code></a>
       </td>
       <td>
-        <a href="./undefined-main/AllErrors.readable.json"><code>AllErrors.readable.json</code></a>
+        <a href="./10-main/AllErrors.readable.json"><code>AllErrors.readable.json</code></a>
       </td>
     </tr>
   </tbody>
@@ -93,19 +105,19 @@
     <tr>
       <td>Deployment meta</td>
       <td>
-        <a href="./undefined-main/meta.json"><code>meta.json</code></a>
+        <a href="./10-main/meta.json"><code>meta.json</code></a>
       </td>
     </tr>
     <tr>
       <td>Extra outputs</td>
       <td>
-        <a href="./undefined-main/extras.json"><code>extras.json</code></a>
+        <a href="./10-main/extras.json"><code>extras.json</code></a>
       </td>
     </tr>
     <tr>
       <td>Cannon state</td>
       <td>
-        <a href="./undefined-main/cannon.json"><code>cannon.json</code></a>
+        <a href="./10-main/cannon.json"><code>cannon.json</code></a>
       </td>
     </tr>
   </tbody>
@@ -113,7 +125,7 @@
 
 # Collateral SNX / Synthetix Network Token
 
-Token address: undefined
+Token address: <a href="https://optimistic.etherscan.io/address/0x8700dAec35aF8Ff88c16BdF0418774CB3D7599B4"><code>0x8700dAec35aF8Ff88c16BdF0418774CB3D7599B4</code></a>
 
 <table data-full-width="true">
   <thead>
@@ -164,7 +176,7 @@ Token address: undefined
 
 # Collateral snxUSD / Synthetic USD Token v3
 
-Token address: undefined
+Token address: <a href="https://optimistic.etherscan.io/address/0xb2F30A7C980f052f02563fb518dcc39e6bf38175"><code>0xb2F30A7C980f052f02563fb518dcc39e6bf38175</code></a>
 
 <table data-full-width="true">
   <thead>
@@ -215,7 +227,7 @@ Token address: undefined
 
 # Collateral WETH / Wrapped Ether
 
-Token address: undefined
+Token address: <a href="https://optimistic.etherscan.io/address/0x4200000000000000000000000000000000000006"><code>0x4200000000000000000000000000000000000006</code></a>
 
 <table data-full-width="true">
   <thead>
@@ -277,32 +289,44 @@ Token address: undefined
   <tbody>
     <tr>
       <td>CoreProxy</td>
-      <td>undefined</td>
+      <td>
+        <a href="https://optimistic.etherscan.io/address/0x6cd3f878852769e04A723A5f66CA7DD4d9E38A6C"><code>0x6cd3f878852769e04A723A5f66CA7DD4d9E38A6C</code></a>
+      </td>
       <td>n/a</td>
     </tr>
     <tr>
       <td>AccountProxy</td>
-      <td>undefined</td>
+      <td>
+        <a href="https://optimistic.etherscan.io/address/0xffffffaEff0B96Ea8e4f94b2253f31abdD875847"><code>0xffffffaEff0B96Ea8e4f94b2253f31abdD875847</code></a>
+      </td>
       <td>n/a</td>
     </tr>
     <tr>
       <td>USDProxy</td>
-      <td>undefined</td>
+      <td>
+        <a href="https://optimistic.etherscan.io/address/0xffffffaEff0B96Ea8e4f94b2253f31abdD875847"><code>0xffffffaEff0B96Ea8e4f94b2253f31abdD875847</code></a>
+      </td>
       <td>n/a</td>
     </tr>
     <tr>
       <td>OracleManagerProxy</td>
-      <td>undefined</td>
+      <td>
+        <a href="https://optimistic.etherscan.io/address/0x6cd3f878852769e04A723A5f66CA7DD4d9E38A6C"><code>0x6cd3f878852769e04A723A5f66CA7DD4d9E38A6C</code></a>
+      </td>
       <td>n/a</td>
     </tr>
     <tr>
       <td>SpotMarketProxy</td>
-      <td>undefined</td>
+      <td>
+        <a href="https://optimistic.etherscan.io/address/0x6cd3f878852769e04A723A5f66CA7DD4d9E38A6C"><code>0x6cd3f878852769e04A723A5f66CA7DD4d9E38A6C</code></a>
+      </td>
       <td>n/a</td>
     </tr>
     <tr>
       <td>SNXToken</td>
-      <td>undefined</td>
+      <td>
+        <a href="https://optimistic.etherscan.io/address/0x6d4a64C57612841c2C6745dB2a4E4db34F002D20"><code>0x6d4a64C57612841c2C6745dB2a4E4db34F002D20</code></a>
+      </td>
       <td>n/a</td>
     </tr>
   </tbody>
@@ -319,7 +343,9 @@ Token address: undefined
   <tbody>
     <tr>
       <td><code>1</code> Spartan Council Pool <i>* preferred</i></td>
-      <td>undefined</td>
+      <td>
+        <a href="https://optimistic.etherscan.io/address/0x6cd3f878852769e04A723A5f66CA7DD4d9E38A6C"><code>0x6cd3f878852769e04A723A5f66CA7DD4d9E38A6C</code></a>
+      </td>
       <td>n/a</td>
     </tr>
   </tbody>
@@ -336,7 +362,9 @@ Token address: undefined
   <tbody>
     <tr>
       <td><code>1</code> Synthetic Ethereum Spot Market</td>
-      <td>undefined</td>
+      <td>
+        <a href="https://optimistic.etherscan.io/address/0x6cd3f878852769e04A723A5f66CA7DD4d9E38A6C"><code>0x6cd3f878852769e04A723A5f66CA7DD4d9E38A6C</code></a>
+      </td>
       <td>n/a</td>
     </tr>
   </tbody>
