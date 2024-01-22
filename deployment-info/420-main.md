@@ -1,6 +1,163 @@
 # Contracts
 
-See [Addresses + ABIs](../for-developers/addresses-+-abis.md) Page
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">System</th>
+      <th width="500">Address</th>
+      <th width="500">ABI</th>
+      <th width="500">Readable ABI</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CoreProxy</td>
+      <td>
+        <a href="https://goerli-optimism.etherscan.io/address/0x76490713314fCEC173f44e99346F54c6e92a8E42"><code>0x76490713314fCEC173f44e99346F54c6e92a8E42</code></a>
+      </td>
+      <td>
+        <a href="./420-main/CoreProxy.json"><code>CoreProxy.json</code></a>
+      </td>
+      <td>
+        <a href="./420-main/CoreProxy.readable.json"><code>CoreProxy.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>AccountProxy</td>
+      <td>
+        <a href="https://goerli-optimism.etherscan.io/address/0x1b791d05E437C78039424749243F5A79E747525e"><code>0x1b791d05E437C78039424749243F5A79E747525e</code></a>
+      </td>
+      <td>
+        <a href="./420-main/AccountProxy.json"><code>AccountProxy.json</code></a>
+      </td>
+      <td>
+        <a href="./420-main/AccountProxy.readable.json"><code>AccountProxy.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>USDProxy</td>
+      <td>
+        <a href="https://goerli-optimism.etherscan.io/address/0xe487Ad4291019b33e2230F8E2FB1fb6490325260"><code>0xe487Ad4291019b33e2230F8E2FB1fb6490325260</code></a>
+      </td>
+      <td>
+        <a href="./420-main/USDProxy.json"><code>USDProxy.json</code></a>
+      </td>
+      <td>
+        <a href="./420-main/USDProxy.readable.json"><code>USDProxy.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>OracleManagerProxy</td>
+      <td>
+        <a href="https://goerli-optimism.etherscan.io/address/0x12aE0D5CD26f212bFE242DA78139d463019f7a73"><code>0x12aE0D5CD26f212bFE242DA78139d463019f7a73</code></a>
+      </td>
+      <td>
+        <a href="./420-main/OracleManagerProxy.json"><code>OracleManagerProxy.json</code></a>
+      </td>
+      <td>
+        <a href="./420-main/OracleManagerProxy.readable.json"><code>OracleManagerProxy.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>TrustedMulticallForwarder</td>
+      <td>
+        <a href="https://goerli-optimism.etherscan.io/address/0xAE788aaf52780741E12BF79Ad684B91Bb0EF4D92"><code>0xAE788aaf52780741E12BF79Ad684B91Bb0EF4D92</code></a>
+      </td>
+      <td>
+        <a href="./420-main/TrustedMulticallForwarder.json"><code>TrustedMulticallForwarder.json</code></a>
+      </td>
+      <td>
+        <a href="./420-main/TrustedMulticallForwarder.readable.json"><code>TrustedMulticallForwarder.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>SpotMarketProxy</td>
+      <td>
+        <a href="https://goerli-optimism.etherscan.io/address/0x5FF4b3aacdeC86782d8c757FAa638d8790799E83"><code>0x5FF4b3aacdeC86782d8c757FAa638d8790799E83</code></a>
+      </td>
+      <td>
+        <a href="./420-main/SpotMarketProxy.json"><code>SpotMarketProxy.json</code></a>
+      </td>
+      <td>
+        <a href="./420-main/SpotMarketProxy.readable.json"><code>SpotMarketProxy.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>PerpsMarketProxy</td>
+      <td>
+        <a href="https://goerli-optimism.etherscan.io/address/0xf272382cB3BE898A8CdB1A23BE056fA2Fcf4513b"><code>0xf272382cB3BE898A8CdB1A23BE056fA2Fcf4513b</code></a>
+      </td>
+      <td>
+        <a href="./420-main/PerpsMarketProxy.json"><code>PerpsMarketProxy.json</code></a>
+      </td>
+      <td>
+        <a href="./420-main/PerpsMarketProxy.readable.json"><code>PerpsMarketProxy.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>PerpsAccountProxy</td>
+      <td>
+        <a href="https://goerli-optimism.etherscan.io/address/0x01C2f64ABd46AF20950736f3C3e1a9cfc5c36c82"><code>0x01C2f64ABd46AF20950736f3C3e1a9cfc5c36c82</code></a>
+      </td>
+      <td>
+        <a href="./420-main/PerpsAccountProxy.json"><code>PerpsAccountProxy.json</code></a>
+      </td>
+      <td>
+        <a href="./420-main/PerpsAccountProxy.readable.json"><code>PerpsAccountProxy.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>SNXToken</td>
+      <td>
+        <a href="https://goerli-optimism.etherscan.io/address/0x2E5ED97596a8368EB9E44B1f3F25B2E813845303"><code>0x2E5ED97596a8368EB9E44B1f3F25B2E813845303</code></a>
+      </td>
+      <td>
+        <a href="./420-main/SNXToken.json"><code>SNXToken.json</code></a>
+      </td>
+      <td>
+        <a href="./420-main/SNXToken.readable.json"><code>SNXToken.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>AllErrors</td>
+      <td>n/a</td>
+      <td>
+        <a href="./420-main/AllErrors.json"><code>AllErrors.json</code></a>
+      </td>
+      <td>
+        <a href="./420-main/AllErrors.readable.json"><code>AllErrors.readable.json</code></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400"></th>
+      <th width="500">JSON</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Deployment meta</td>
+      <td>
+        <a href="./420-main/meta.json"><code>meta.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>Extra outputs</td>
+      <td>
+        <a href="./420-main/extras.json"><code>extras.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>Cannon state</td>
+      <td>
+        <a href="./420-main/cannon.json"><code>cannon.json</code></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 # Collateral SNX / Synthetix Network Token
 
