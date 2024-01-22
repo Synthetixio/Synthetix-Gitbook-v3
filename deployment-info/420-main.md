@@ -569,28 +569,28 @@ Perps market ID: <code>100</code>
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://goerli-optimism.etherscan.io/address/180"><code>180</code></a>
+        <a href="https://goerli-optimism.etherscan.io/address/0xff1a0f4744e8582DF1aE09D5611b887B6a12925C"><code>0xff1a0f4744e8582DF1aE09D5611b887B6a12925C</code></a>
       </td>
     </tr>
     <tr>
       <td>feedId</td>
       <td></td>
-      <td><code>"0xff1a0f4744e8582DF1aE09D5611b887B6a12925C"</code></td>
+      <td><code>"0xca80ba6dc32e08d06f1aa886011eed1d77c77be9eb761cc10d72b7d0a2fd57a6"</code></td>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td><code>"0xca80ba6dc32e08d06f1aa886011eed1d77c77be9eb761cc10d72b7d0a2fd57a6"</code></td>
-      <td><code>"0xca80ba6dc32e08d06f1aa886011eed1d77c77be9eb761cc10d72b7d0a2fd57a6"</code></td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
     </tr>
     <tr>
       <td>disabled</td>
       <td>🚫 Disabled</td>
-      <td><code>"https://api.synthetix.io/pyth-testnet/api/get_vaa_ccip?data={data}"</code></td>
+      <td><code>true</code></td>
     </tr>
     <tr>
       <td>commitmentPriceDelay</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>NaN</td>
+      <td><code>undefined</code></td>
     </tr>
   </tbody>
 </table>
@@ -740,28 +740,28 @@ Perps market ID: <code>200</code>
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://goerli-optimism.etherscan.io/address/180"><code>180</code></a>
+        <a href="https://goerli-optimism.etherscan.io/address/0xff1a0f4744e8582DF1aE09D5611b887B6a12925C"><code>0xff1a0f4744e8582DF1aE09D5611b887B6a12925C</code></a>
       </td>
     </tr>
     <tr>
       <td>feedId</td>
       <td></td>
-      <td><code>"0xff1a0f4744e8582DF1aE09D5611b887B6a12925C"</code></td>
+      <td><code>"0xf9c0172ba10dfa4d19088d94f5bf61d3b54d5bd7483a322a982e1373ee8ea31b"</code></td>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td><code>"0xf9c0172ba10dfa4d19088d94f5bf61d3b54d5bd7483a322a982e1373ee8ea31b"</code></td>
-      <td><code>"0xf9c0172ba10dfa4d19088d94f5bf61d3b54d5bd7483a322a982e1373ee8ea31b"</code></td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
     </tr>
     <tr>
       <td>disabled</td>
       <td>🚫 Disabled</td>
-      <td><code>"https://api.synthetix.io/pyth-testnet/api/get_vaa_ccip?data={data}"</code></td>
+      <td><code>true</code></td>
     </tr>
     <tr>
       <td>commitmentPriceDelay</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>NaN</td>
+      <td><code>undefined</code></td>
     </tr>
   </tbody>
 </table>
