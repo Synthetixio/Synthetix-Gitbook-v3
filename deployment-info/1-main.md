@@ -12,62 +12,72 @@
   <tbody>
     <tr>
       <td>CoreProxy</td>
-      <td>undefined</td>
       <td>
-        <a href="./undefined-main/CoreProxy.json"><code>CoreProxy.json</code></a>
+        <a href="https://etherscan.io/address/0xffffffaEff0B96Ea8e4f94b2253f31abdD875847"><code>0xffffffaEff0B96Ea8e4f94b2253f31abdD875847</code></a>
       </td>
       <td>
-        <a href="./undefined-main/CoreProxy.readable.json"><code>CoreProxy.readable.json</code></a>
+        <a href="./1-main/CoreProxy.json"><code>CoreProxy.json</code></a>
+      </td>
+      <td>
+        <a href="./1-main/CoreProxy.readable.json"><code>CoreProxy.readable.json</code></a>
       </td>
     </tr>
     <tr>
       <td>AccountProxy</td>
-      <td>undefined</td>
       <td>
-        <a href="./undefined-main/AccountProxy.json"><code>AccountProxy.json</code></a>
+        <a href="https://etherscan.io/address/0x0E429603D3Cb1DFae4E6F52Add5fE82d96d77Dac"><code>0x0E429603D3Cb1DFae4E6F52Add5fE82d96d77Dac</code></a>
       </td>
       <td>
-        <a href="./undefined-main/AccountProxy.readable.json"><code>AccountProxy.readable.json</code></a>
+        <a href="./1-main/AccountProxy.json"><code>AccountProxy.json</code></a>
+      </td>
+      <td>
+        <a href="./1-main/AccountProxy.readable.json"><code>AccountProxy.readable.json</code></a>
       </td>
     </tr>
     <tr>
       <td>USDProxy</td>
-      <td>undefined</td>
       <td>
-        <a href="./undefined-main/USDProxy.json"><code>USDProxy.json</code></a>
+        <a href="https://etherscan.io/address/0xb2F30A7C980f052f02563fb518dcc39e6bf38175"><code>0xb2F30A7C980f052f02563fb518dcc39e6bf38175</code></a>
       </td>
       <td>
-        <a href="./undefined-main/USDProxy.readable.json"><code>USDProxy.readable.json</code></a>
+        <a href="./1-main/USDProxy.json"><code>USDProxy.json</code></a>
+      </td>
+      <td>
+        <a href="./1-main/USDProxy.readable.json"><code>USDProxy.readable.json</code></a>
       </td>
     </tr>
     <tr>
       <td>OracleManagerProxy</td>
-      <td>undefined</td>
       <td>
-        <a href="./undefined-main/OracleManagerProxy.json"><code>OracleManagerProxy.json</code></a>
+        <a href="https://etherscan.io/address/0x0aaF300E148378489a8A471DD3e9E53E30cb42e3"><code>0x0aaF300E148378489a8A471DD3e9E53E30cb42e3</code></a>
       </td>
       <td>
-        <a href="./undefined-main/OracleManagerProxy.readable.json"><code>OracleManagerProxy.readable.json</code></a>
+        <a href="./1-main/OracleManagerProxy.json"><code>OracleManagerProxy.json</code></a>
+      </td>
+      <td>
+        <a href="./1-main/OracleManagerProxy.readable.json"><code>OracleManagerProxy.readable.json</code></a>
       </td>
     </tr>
     <tr>
       <td>SNXToken</td>
-      <td>undefined</td>
       <td>
-        <a href="./undefined-main/SNXToken.json"><code>SNXToken.json</code></a>
+        <a href="https://etherscan.io/address/0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f"><code>0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f</code></a>
       </td>
       <td>
-        <a href="./undefined-main/SNXToken.readable.json"><code>SNXToken.readable.json</code></a>
+        <a href="./1-main/SNXToken.json"><code>SNXToken.json</code></a>
+      </td>
+      <td>
+        <a href="./1-main/SNXToken.readable.json"><code>SNXToken.readable.json</code></a>
       </td>
     </tr>
     <tr>
       <td>AllErrors</td>
       <td>n/a</td>
       <td>
-        <a href="./undefined-main/AllErrors.json"><code>AllErrors.json</code></a>
+        <a href="./1-main/AllErrors.json"><code>AllErrors.json</code></a>
       </td>
       <td>
-        <a href="./undefined-main/AllErrors.readable.json"><code>AllErrors.readable.json</code></a>
+        <a href="./1-main/AllErrors.readable.json"><code>AllErrors.readable.json</code></a>
       </td>
     </tr>
   </tbody>
@@ -83,19 +93,19 @@
     <tr>
       <td>Deployment meta</td>
       <td>
-        <a href="./undefined-main/meta.json"><code>meta.json</code></a>
+        <a href="./1-main/meta.json"><code>meta.json</code></a>
       </td>
     </tr>
     <tr>
       <td>Extra outputs</td>
       <td>
-        <a href="./undefined-main/extras.json"><code>extras.json</code></a>
+        <a href="./1-main/extras.json"><code>extras.json</code></a>
       </td>
     </tr>
     <tr>
       <td>Cannon state</td>
       <td>
-        <a href="./undefined-main/cannon.json"><code>cannon.json</code></a>
+        <a href="./1-main/cannon.json"><code>cannon.json</code></a>
       </td>
     </tr>
   </tbody>
@@ -103,7 +113,7 @@
 
 # Collateral SNX / Synthetix Network Token
 
-Token address: undefined
+Token address: <a href="https://etherscan.io/address/0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F"><code>0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F</code></a>
 
 <table data-full-width="true">
   <thead>
@@ -154,7 +164,7 @@ Token address: undefined
 
 # Collateral snxUSD / Synthetic USD Token v3
 
-Token address: undefined
+Token address: <a href="https://etherscan.io/address/0xb2F30A7C980f052f02563fb518dcc39e6bf38175"><code>0xb2F30A7C980f052f02563fb518dcc39e6bf38175</code></a>
 
 <table data-full-width="true">
   <thead>
@@ -216,27 +226,37 @@ Token address: undefined
   <tbody>
     <tr>
       <td>CoreProxy</td>
-      <td>undefined</td>
+      <td>
+        <a href="https://etherscan.io/address/0xEb3107117FEAd7de89Cd14D463D340A2E6917769"><code>0xEb3107117FEAd7de89Cd14D463D340A2E6917769</code></a>
+      </td>
       <td>n/a</td>
     </tr>
     <tr>
       <td>AccountProxy</td>
-      <td>undefined</td>
+      <td>
+        <a href="https://etherscan.io/address/0xffffffaEff0B96Ea8e4f94b2253f31abdD875847"><code>0xffffffaEff0B96Ea8e4f94b2253f31abdD875847</code></a>
+      </td>
       <td>n/a</td>
     </tr>
     <tr>
       <td>USDProxy</td>
-      <td>undefined</td>
+      <td>
+        <a href="https://etherscan.io/address/0xffffffaEff0B96Ea8e4f94b2253f31abdD875847"><code>0xffffffaEff0B96Ea8e4f94b2253f31abdD875847</code></a>
+      </td>
       <td>n/a</td>
     </tr>
     <tr>
       <td>OracleManagerProxy</td>
-      <td>undefined</td>
+      <td>
+        <a href="https://etherscan.io/address/0xEb3107117FEAd7de89Cd14D463D340A2E6917769"><code>0xEb3107117FEAd7de89Cd14D463D340A2E6917769</code></a>
+      </td>
       <td>n/a</td>
     </tr>
     <tr>
       <td>SNXToken</td>
-      <td>undefined</td>
+      <td>
+        <a href="https://etherscan.io/address/0xEb3107117FEAd7de89Cd14D463D340A2E6917769"><code>0xEb3107117FEAd7de89Cd14D463D340A2E6917769</code></a>
+      </td>
       <td>n/a</td>
     </tr>
   </tbody>
@@ -253,7 +273,9 @@ Token address: undefined
   <tbody>
     <tr>
       <td><code>1</code> Spartan Council Pool <i>* preferred</i></td>
-      <td>undefined</td>
+      <td>
+        <a href="https://etherscan.io/address/0xEb3107117FEAd7de89Cd14D463D340A2E6917769"><code>0xEb3107117FEAd7de89Cd14D463D340A2E6917769</code></a>
+      </td>
       <td>n/a</td>
     </tr>
   </tbody>
