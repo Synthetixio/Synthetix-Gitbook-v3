@@ -1,10 +1,109 @@
 # Contracts
 
-See [Addresses + ABIs](../for-developers/addresses-+-abis.md) Page
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">System</th>
+      <th width="500">Address</th>
+      <th width="500">ABI</th>
+      <th width="500">Readable ABI</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CoreProxy</td>
+      <td>undefined</td>
+      <td>
+        <a href="./undefined-main/CoreProxy.json"><code>CoreProxy.json</code></a>
+      </td>
+      <td>
+        <a href="./undefined-main/CoreProxy.readable.json"><code>CoreProxy.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>AccountProxy</td>
+      <td>undefined</td>
+      <td>
+        <a href="./undefined-main/AccountProxy.json"><code>AccountProxy.json</code></a>
+      </td>
+      <td>
+        <a href="./undefined-main/AccountProxy.readable.json"><code>AccountProxy.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>USDProxy</td>
+      <td>undefined</td>
+      <td>
+        <a href="./undefined-main/USDProxy.json"><code>USDProxy.json</code></a>
+      </td>
+      <td>
+        <a href="./undefined-main/USDProxy.readable.json"><code>USDProxy.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>OracleManagerProxy</td>
+      <td>undefined</td>
+      <td>
+        <a href="./undefined-main/OracleManagerProxy.json"><code>OracleManagerProxy.json</code></a>
+      </td>
+      <td>
+        <a href="./undefined-main/OracleManagerProxy.readable.json"><code>OracleManagerProxy.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>SNXToken</td>
+      <td>undefined</td>
+      <td>
+        <a href="./undefined-main/SNXToken.json"><code>SNXToken.json</code></a>
+      </td>
+      <td>
+        <a href="./undefined-main/SNXToken.readable.json"><code>SNXToken.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>AllErrors</td>
+      <td>n/a</td>
+      <td>
+        <a href="./undefined-main/AllErrors.json"><code>AllErrors.json</code></a>
+      </td>
+      <td>
+        <a href="./undefined-main/AllErrors.readable.json"><code>AllErrors.readable.json</code></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400"></th>
+      <th width="500">JSON</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Deployment meta</td>
+      <td>
+        <a href="./undefined-main/meta.json"><code>meta.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>Extra outputs</td>
+      <td>
+        <a href="./undefined-main/extras.json"><code>extras.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>Cannon state</td>
+      <td>
+        <a href="./undefined-main/cannon.json"><code>cannon.json</code></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 # Collateral SNX / Synthetix Network Token
 
-Token address: <a href="https://etherscan.io/address/0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F"><code>0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F</code></a>
+Token address: undefined
 
 <table data-full-width="true">
   <thead>
@@ -55,7 +154,7 @@ Token address: <a href="https://etherscan.io/address/0xC011a73ee8576Fb46F5E1c575
 
 # Collateral snxUSD / Synthetic USD Token v3
 
-Token address: <a href="https://etherscan.io/address/0xb2F30A7C980f052f02563fb518dcc39e6bf38175"><code>0xb2F30A7C980f052f02563fb518dcc39e6bf38175</code></a>
+Token address: undefined
 
 <table data-full-width="true">
   <thead>
@@ -117,37 +216,27 @@ Token address: <a href="https://etherscan.io/address/0xb2F30A7C980f052f02563fb51
   <tbody>
     <tr>
       <td>CoreProxy</td>
-      <td>
-        <a href="https://etherscan.io/address/0xEb3107117FEAd7de89Cd14D463D340A2E6917769"><code>0xEb3107117FEAd7de89Cd14D463D340A2E6917769</code></a>
-      </td>
+      <td>undefined</td>
       <td>n/a</td>
     </tr>
     <tr>
       <td>AccountProxy</td>
-      <td>
-        <a href="https://etherscan.io/address/0xffffffaEff0B96Ea8e4f94b2253f31abdD875847"><code>0xffffffaEff0B96Ea8e4f94b2253f31abdD875847</code></a>
-      </td>
+      <td>undefined</td>
       <td>n/a</td>
     </tr>
     <tr>
       <td>USDProxy</td>
-      <td>
-        <a href="https://etherscan.io/address/0xffffffaEff0B96Ea8e4f94b2253f31abdD875847"><code>0xffffffaEff0B96Ea8e4f94b2253f31abdD875847</code></a>
-      </td>
+      <td>undefined</td>
       <td>n/a</td>
     </tr>
     <tr>
       <td>OracleManagerProxy</td>
-      <td>
-        <a href="https://etherscan.io/address/0xEb3107117FEAd7de89Cd14D463D340A2E6917769"><code>0xEb3107117FEAd7de89Cd14D463D340A2E6917769</code></a>
-      </td>
+      <td>undefined</td>
       <td>n/a</td>
     </tr>
     <tr>
       <td>SNXToken</td>
-      <td>
-        <a href="https://etherscan.io/address/0xEb3107117FEAd7de89Cd14D463D340A2E6917769"><code>0xEb3107117FEAd7de89Cd14D463D340A2E6917769</code></a>
-      </td>
+      <td>undefined</td>
       <td>n/a</td>
     </tr>
   </tbody>
@@ -164,9 +253,7 @@ Token address: <a href="https://etherscan.io/address/0xb2F30A7C980f052f02563fb51
   <tbody>
     <tr>
       <td><code>1</code> Spartan Council Pool <i>* preferred</i></td>
-      <td>
-        <a href="https://etherscan.io/address/0xEb3107117FEAd7de89Cd14D463D340A2E6917769"><code>0xEb3107117FEAd7de89Cd14D463D340A2E6917769</code></a>
-      </td>
+      <td>undefined</td>
       <td>n/a</td>
     </tr>
   </tbody>
