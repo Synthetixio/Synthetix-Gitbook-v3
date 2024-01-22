@@ -1,120 +1,6 @@
-# Contracts owners
+# Contracts
 
-<table data-full-width="true">
-  <thead>
-    <tr>
-      <th width="400">System</th>
-      <th width="500">Owner</th>
-      <th width="500">Nominated owner</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>CoreProxy</td>
-      <td>
-        <a href="https://basescan.org/address/0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"><code>0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82</code></a>
-      </td>
-      <td>n/a</td>
-    </tr>
-    <tr>
-      <td>AccountProxy</td>
-      <td>
-        <a href="https://basescan.org/address/0x32C222A9A159782aFD7529c87FA34b96CA72C696"><code>0x32C222A9A159782aFD7529c87FA34b96CA72C696</code></a>
-      </td>
-      <td>n/a</td>
-    </tr>
-    <tr>
-      <td>USDProxy</td>
-      <td>
-        <a href="https://basescan.org/address/0x32C222A9A159782aFD7529c87FA34b96CA72C696"><code>0x32C222A9A159782aFD7529c87FA34b96CA72C696</code></a>
-      </td>
-      <td>n/a</td>
-    </tr>
-    <tr>
-      <td>OracleManagerProxy</td>
-      <td>
-        <a href="https://basescan.org/address/0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"><code>0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82</code></a>
-      </td>
-      <td>n/a</td>
-    </tr>
-    <tr>
-      <td>TrustedMulticallForwarder</td>
-      <td>n/a</td>
-      <td>n/a</td>
-    </tr>
-    <tr>
-      <td>SpotMarketProxy</td>
-      <td>
-        <a href="https://basescan.org/address/0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"><code>0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82</code></a>
-      </td>
-      <td>n/a</td>
-    </tr>
-    <tr>
-      <td>PerpsMarketProxy</td>
-      <td>
-        <a href="https://basescan.org/address/0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"><code>0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82</code></a>
-      </td>
-      <td>n/a</td>
-    </tr>
-    <tr>
-      <td>PerpsAccountProxy</td>
-      <td>
-        <a href="https://basescan.org/address/0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce"><code>0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce</code></a>
-      </td>
-      <td>n/a</td>
-    </tr>
-    <tr>
-      <td>USDCToken</td>
-      <td>
-        <a href="https://basescan.org/address/0x3ABd6f64A422225E61E435baE41db12096106df7"><code>0x3ABd6f64A422225E61E435baE41db12096106df7</code></a>
-      </td>
-      <td>n/a</td>
-    </tr>
-    <tr>
-      <td>SNXToken</td>
-      <td>n/a</td>
-      <td>n/a</td>
-    </tr>
-  </tbody>
-</table>
-
-<table data-full-width="true">
-  <thead>
-    <tr>
-      <th width="400">Pool</th>
-      <th width="500">Owner</th>
-      <th width="500">Nominated owner</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><code>1</code> Spartan Council Pool <i>* preferred</i></td>
-      <td>
-        <a href="https://basescan.org/address/0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"><code>0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82</code></a>
-      </td>
-      <td>n/a</td>
-    </tr>
-  </tbody>
-</table>
-
-<table data-full-width="true">
-  <thead>
-    <tr>
-      <th width="400">Synth Market</th>
-      <th width="500">Owner</th>
-      <th width="500">Nominated owner</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><code>1</code> Synthetic USD Coin Spot Market</td>
-      <td>
-        <a href="https://basescan.org/address/0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"><code>0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82</code></a>
-      </td>
-      <td>n/a</td>
-    </tr>
-  </tbody>
-</table>
+See [Addresses + ABIs](../for-developers/addresses-+-abis.md) Page
 
 # Collateral snxUSD / Synthetic USD Token v3
 
@@ -607,6 +493,124 @@ Perps market ID: <code>200</code>
       <td>commitmentPriceDelay</td>
       <td>2</td>
       <td><code>2</code> / <code>0x02</code></td>
+    </tr>
+  </tbody>
+</table>
+
+# Owners
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">System</th>
+      <th width="500">Owner</th>
+      <th width="500">Nominated owner</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CoreProxy</td>
+      <td>
+        <a href="https://basescan.org/address/0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"><code>0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>AccountProxy</td>
+      <td>
+        <a href="https://basescan.org/address/0x32C222A9A159782aFD7529c87FA34b96CA72C696"><code>0x32C222A9A159782aFD7529c87FA34b96CA72C696</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>USDProxy</td>
+      <td>
+        <a href="https://basescan.org/address/0x32C222A9A159782aFD7529c87FA34b96CA72C696"><code>0x32C222A9A159782aFD7529c87FA34b96CA72C696</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>OracleManagerProxy</td>
+      <td>
+        <a href="https://basescan.org/address/0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"><code>0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>TrustedMulticallForwarder</td>
+      <td>n/a</td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>SpotMarketProxy</td>
+      <td>
+        <a href="https://basescan.org/address/0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"><code>0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>PerpsMarketProxy</td>
+      <td>
+        <a href="https://basescan.org/address/0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"><code>0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>PerpsAccountProxy</td>
+      <td>
+        <a href="https://basescan.org/address/0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce"><code>0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>USDCToken</td>
+      <td>
+        <a href="https://basescan.org/address/0x3ABd6f64A422225E61E435baE41db12096106df7"><code>0x3ABd6f64A422225E61E435baE41db12096106df7</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>SNXToken</td>
+      <td>n/a</td>
+      <td>n/a</td>
+    </tr>
+  </tbody>
+</table>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Pool</th>
+      <th width="500">Owner</th>
+      <th width="500">Nominated owner</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>1</code> Spartan Council Pool <i>* preferred</i></td>
+      <td>
+        <a href="https://basescan.org/address/0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"><code>0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+  </tbody>
+</table>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Synth Market</th>
+      <th width="500">Owner</th>
+      <th width="500">Nominated owner</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>1</code> Synthetic USD Coin Spot Market</td>
+      <td>
+        <a href="https://basescan.org/address/0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"><code>0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82</code></a>
+      </td>
+      <td>n/a</td>
     </tr>
   </tbody>
 </table>
