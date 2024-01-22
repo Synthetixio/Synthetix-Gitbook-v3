@@ -12,112 +12,132 @@
   <tbody>
     <tr>
       <td>CoreProxy</td>
-      <td>undefined</td>
       <td>
-        <a href="./undefined-andromeda/CoreProxy.json"><code>CoreProxy.json</code></a>
+        <a href="https://basescan.org/address/0x32C222A9A159782aFD7529c87FA34b96CA72C696"><code>0x32C222A9A159782aFD7529c87FA34b96CA72C696</code></a>
       </td>
       <td>
-        <a href="./undefined-andromeda/CoreProxy.readable.json"><code>CoreProxy.readable.json</code></a>
+        <a href="./8453-andromeda/CoreProxy.json"><code>CoreProxy.json</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/CoreProxy.readable.json"><code>CoreProxy.readable.json</code></a>
       </td>
     </tr>
     <tr>
       <td>AccountProxy</td>
-      <td>undefined</td>
       <td>
-        <a href="./undefined-andromeda/AccountProxy.json"><code>AccountProxy.json</code></a>
+        <a href="https://basescan.org/address/0x63f4Dd0434BEB5baeCD27F3778a909278d8cf5b8"><code>0x63f4Dd0434BEB5baeCD27F3778a909278d8cf5b8</code></a>
       </td>
       <td>
-        <a href="./undefined-andromeda/AccountProxy.readable.json"><code>AccountProxy.readable.json</code></a>
+        <a href="./8453-andromeda/AccountProxy.json"><code>AccountProxy.json</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/AccountProxy.readable.json"><code>AccountProxy.readable.json</code></a>
       </td>
     </tr>
     <tr>
       <td>USDProxy</td>
-      <td>undefined</td>
       <td>
-        <a href="./undefined-andromeda/USDProxy.json"><code>USDProxy.json</code></a>
+        <a href="https://basescan.org/address/0x09d51516F38980035153a554c26Df3C6f51a23C3"><code>0x09d51516F38980035153a554c26Df3C6f51a23C3</code></a>
       </td>
       <td>
-        <a href="./undefined-andromeda/USDProxy.readable.json"><code>USDProxy.readable.json</code></a>
+        <a href="./8453-andromeda/USDProxy.json"><code>USDProxy.json</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/USDProxy.readable.json"><code>USDProxy.readable.json</code></a>
       </td>
     </tr>
     <tr>
       <td>OracleManagerProxy</td>
-      <td>undefined</td>
       <td>
-        <a href="./undefined-andromeda/OracleManagerProxy.json"><code>OracleManagerProxy.json</code></a>
+        <a href="https://basescan.org/address/0x3d07CBC5Cb9376A67E76C0655Fe239dDa8E2B264"><code>0x3d07CBC5Cb9376A67E76C0655Fe239dDa8E2B264</code></a>
       </td>
       <td>
-        <a href="./undefined-andromeda/OracleManagerProxy.readable.json"><code>OracleManagerProxy.readable.json</code></a>
+        <a href="./8453-andromeda/OracleManagerProxy.json"><code>OracleManagerProxy.json</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/OracleManagerProxy.readable.json"><code>OracleManagerProxy.readable.json</code></a>
       </td>
     </tr>
     <tr>
       <td>TrustedMulticallForwarder</td>
-      <td>undefined</td>
       <td>
-        <a href="./undefined-andromeda/TrustedMulticallForwarder.json"><code>TrustedMulticallForwarder.json</code></a>
+        <a href="https://basescan.org/address/0xE2C5658cC5C448B48141168f3e475dF8f65A1e3e"><code>0xE2C5658cC5C448B48141168f3e475dF8f65A1e3e</code></a>
       </td>
       <td>
-        <a href="./undefined-andromeda/TrustedMulticallForwarder.readable.json"><code>TrustedMulticallForwarder.readable.json</code></a>
+        <a href="./8453-andromeda/TrustedMulticallForwarder.json"><code>TrustedMulticallForwarder.json</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/TrustedMulticallForwarder.readable.json"><code>TrustedMulticallForwarder.readable.json</code></a>
       </td>
     </tr>
     <tr>
       <td>SpotMarketProxy</td>
-      <td>undefined</td>
       <td>
-        <a href="./undefined-andromeda/SpotMarketProxy.json"><code>SpotMarketProxy.json</code></a>
+        <a href="https://basescan.org/address/0x18141523403e2595D31b22604AcB8Fc06a4CaA61"><code>0x18141523403e2595D31b22604AcB8Fc06a4CaA61</code></a>
       </td>
       <td>
-        <a href="./undefined-andromeda/SpotMarketProxy.readable.json"><code>SpotMarketProxy.readable.json</code></a>
+        <a href="./8453-andromeda/SpotMarketProxy.json"><code>SpotMarketProxy.json</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/SpotMarketProxy.readable.json"><code>SpotMarketProxy.readable.json</code></a>
       </td>
     </tr>
     <tr>
       <td>PerpsMarketProxy</td>
-      <td>undefined</td>
       <td>
-        <a href="./undefined-andromeda/PerpsMarketProxy.json"><code>PerpsMarketProxy.json</code></a>
+        <a href="https://basescan.org/address/0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce"><code>0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce</code></a>
       </td>
       <td>
-        <a href="./undefined-andromeda/PerpsMarketProxy.readable.json"><code>PerpsMarketProxy.readable.json</code></a>
+        <a href="./8453-andromeda/PerpsMarketProxy.json"><code>PerpsMarketProxy.json</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/PerpsMarketProxy.readable.json"><code>PerpsMarketProxy.readable.json</code></a>
       </td>
     </tr>
     <tr>
       <td>PerpsAccountProxy</td>
-      <td>undefined</td>
       <td>
-        <a href="./undefined-andromeda/PerpsAccountProxy.json"><code>PerpsAccountProxy.json</code></a>
+        <a href="https://basescan.org/address/0xcb68b813210aFa0373F076239Ad4803f8809e8cf"><code>0xcb68b813210aFa0373F076239Ad4803f8809e8cf</code></a>
       </td>
       <td>
-        <a href="./undefined-andromeda/PerpsAccountProxy.readable.json"><code>PerpsAccountProxy.readable.json</code></a>
+        <a href="./8453-andromeda/PerpsAccountProxy.json"><code>PerpsAccountProxy.json</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/PerpsAccountProxy.readable.json"><code>PerpsAccountProxy.readable.json</code></a>
       </td>
     </tr>
     <tr>
       <td>USDCToken</td>
-      <td>undefined</td>
       <td>
-        <a href="./undefined-andromeda/USDCToken.json"><code>USDCToken.json</code></a>
+        <a href="https://basescan.org/address/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"><code>0x833589fcd6edb6e08f4c7c32d4f71b54bda02913</code></a>
       </td>
       <td>
-        <a href="./undefined-andromeda/USDCToken.readable.json"><code>USDCToken.readable.json</code></a>
+        <a href="./8453-andromeda/USDCToken.json"><code>USDCToken.json</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/USDCToken.readable.json"><code>USDCToken.readable.json</code></a>
       </td>
     </tr>
     <tr>
       <td>SNXToken</td>
-      <td>undefined</td>
       <td>
-        <a href="./undefined-andromeda/SNXToken.json"><code>SNXToken.json</code></a>
+        <a href="https://basescan.org/address/0x22e6966B799c4D5B13BE962E1D117b56327FDa66"><code>0x22e6966B799c4D5B13BE962E1D117b56327FDa66</code></a>
       </td>
       <td>
-        <a href="./undefined-andromeda/SNXToken.readable.json"><code>SNXToken.readable.json</code></a>
+        <a href="./8453-andromeda/SNXToken.json"><code>SNXToken.json</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/SNXToken.readable.json"><code>SNXToken.readable.json</code></a>
       </td>
     </tr>
     <tr>
       <td>AllErrors</td>
       <td>n/a</td>
       <td>
-        <a href="./undefined-andromeda/AllErrors.json"><code>AllErrors.json</code></a>
+        <a href="./8453-andromeda/AllErrors.json"><code>AllErrors.json</code></a>
       </td>
       <td>
-        <a href="./undefined-andromeda/AllErrors.readable.json"><code>AllErrors.readable.json</code></a>
+        <a href="./8453-andromeda/AllErrors.readable.json"><code>AllErrors.readable.json</code></a>
       </td>
     </tr>
   </tbody>
@@ -133,19 +153,19 @@
     <tr>
       <td>Deployment meta</td>
       <td>
-        <a href="./undefined-andromeda/meta.json"><code>meta.json</code></a>
+        <a href="./8453-andromeda/meta.json"><code>meta.json</code></a>
       </td>
     </tr>
     <tr>
       <td>Extra outputs</td>
       <td>
-        <a href="./undefined-andromeda/extras.json"><code>extras.json</code></a>
+        <a href="./8453-andromeda/extras.json"><code>extras.json</code></a>
       </td>
     </tr>
     <tr>
       <td>Cannon state</td>
       <td>
-        <a href="./undefined-andromeda/cannon.json"><code>cannon.json</code></a>
+        <a href="./8453-andromeda/cannon.json"><code>cannon.json</code></a>
       </td>
     </tr>
   </tbody>
@@ -153,7 +173,7 @@
 
 # Collateral snxUSD / Synthetic USD Token v3
 
-Token address: undefined
+Token address: <a href="https://basescan.org/address/0x09d51516F38980035153a554c26Df3C6f51a23C3"><code>0x09d51516F38980035153a554c26Df3C6f51a23C3</code></a>
 
 <table data-full-width="true">
   <thead>
@@ -204,7 +224,7 @@ Token address: undefined
 
 # Collateral sUSDC / Synthetic USD Coin
 
-Token address: undefined
+Token address: <a href="https://basescan.org/address/0xC74eA762cF06c9151cE074E6a569a5945b6302E7"><code>0xC74eA762cF06c9151cE074E6a569a5945b6302E7</code></a>
 
 <table data-full-width="true">
   <thead>
@@ -255,7 +275,7 @@ Token address: undefined
 
 # Collateral USDC / USD Coin
 
-Token address: undefined
+Token address: <a href="https://basescan.org/address/0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"><code>0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913</code></a>
 
 <table data-full-width="true">
   <thead>
@@ -410,7 +430,9 @@ Perps market ID: <code>100</code>
     <tr>
       <td>endorsedLiquidator</td>
       <td></td>
-      <td>undefined</td>
+      <td>
+        <a href="https://basescan.org/address/0x11233749514Ab8d00C0A5873DF7428b3db70030f"><code>0x11233749514Ab8d00C0A5873DF7428b3db70030f</code></a>
+      </td>
     </tr>
   </tbody>
 </table>
@@ -446,7 +468,9 @@ Perps market ID: <code>100</code>
     <tr>
       <td>priceVerificationContract</td>
       <td></td>
-      <td>undefined</td>
+      <td>
+        <a href="https://basescan.org/address/0xEb38e347F24ea04ffA945a475BdD949E0c383A0F"><code>0xEb38e347F24ea04ffA945a475BdD949E0c383A0F</code></a>
+      </td>
     </tr>
     <tr>
       <td>feedId</td>
@@ -577,7 +601,9 @@ Perps market ID: <code>200</code>
     <tr>
       <td>endorsedLiquidator</td>
       <td></td>
-      <td>undefined</td>
+      <td>
+        <a href="https://basescan.org/address/0x11233749514Ab8d00C0A5873DF7428b3db70030f"><code>0x11233749514Ab8d00C0A5873DF7428b3db70030f</code></a>
+      </td>
     </tr>
   </tbody>
 </table>
@@ -613,7 +639,9 @@ Perps market ID: <code>200</code>
     <tr>
       <td>priceVerificationContract</td>
       <td></td>
-      <td>undefined</td>
+      <td>
+        <a href="https://basescan.org/address/0xEb38e347F24ea04ffA945a475BdD949E0c383A0F"><code>0xEb38e347F24ea04ffA945a475BdD949E0c383A0F</code></a>
+      </td>
     </tr>
     <tr>
       <td>feedId</td>
@@ -651,22 +679,30 @@ Perps market ID: <code>200</code>
   <tbody>
     <tr>
       <td>CoreProxy</td>
-      <td>undefined</td>
+      <td>
+        <a href="https://basescan.org/address/0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"><code>0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82</code></a>
+      </td>
       <td>n/a</td>
     </tr>
     <tr>
       <td>AccountProxy</td>
-      <td>undefined</td>
+      <td>
+        <a href="https://basescan.org/address/0x32C222A9A159782aFD7529c87FA34b96CA72C696"><code>0x32C222A9A159782aFD7529c87FA34b96CA72C696</code></a>
+      </td>
       <td>n/a</td>
     </tr>
     <tr>
       <td>USDProxy</td>
-      <td>undefined</td>
+      <td>
+        <a href="https://basescan.org/address/0x32C222A9A159782aFD7529c87FA34b96CA72C696"><code>0x32C222A9A159782aFD7529c87FA34b96CA72C696</code></a>
+      </td>
       <td>n/a</td>
     </tr>
     <tr>
       <td>OracleManagerProxy</td>
-      <td>undefined</td>
+      <td>
+        <a href="https://basescan.org/address/0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"><code>0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82</code></a>
+      </td>
       <td>n/a</td>
     </tr>
     <tr>
@@ -676,22 +712,30 @@ Perps market ID: <code>200</code>
     </tr>
     <tr>
       <td>SpotMarketProxy</td>
-      <td>undefined</td>
+      <td>
+        <a href="https://basescan.org/address/0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"><code>0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82</code></a>
+      </td>
       <td>n/a</td>
     </tr>
     <tr>
       <td>PerpsMarketProxy</td>
-      <td>undefined</td>
+      <td>
+        <a href="https://basescan.org/address/0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"><code>0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82</code></a>
+      </td>
       <td>n/a</td>
     </tr>
     <tr>
       <td>PerpsAccountProxy</td>
-      <td>undefined</td>
+      <td>
+        <a href="https://basescan.org/address/0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce"><code>0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce</code></a>
+      </td>
       <td>n/a</td>
     </tr>
     <tr>
       <td>USDCToken</td>
-      <td>undefined</td>
+      <td>
+        <a href="https://basescan.org/address/0x3ABd6f64A422225E61E435baE41db12096106df7"><code>0x3ABd6f64A422225E61E435baE41db12096106df7</code></a>
+      </td>
       <td>n/a</td>
     </tr>
     <tr>
@@ -713,7 +757,9 @@ Perps market ID: <code>200</code>
   <tbody>
     <tr>
       <td><code>1</code> Spartan Council Pool <i>* preferred</i></td>
-      <td>undefined</td>
+      <td>
+        <a href="https://basescan.org/address/0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"><code>0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82</code></a>
+      </td>
       <td>n/a</td>
     </tr>
   </tbody>
@@ -730,7 +776,9 @@ Perps market ID: <code>200</code>
   <tbody>
     <tr>
       <td><code>1</code> Synthetic USD Coin Spot Market</td>
-      <td>undefined</td>
+      <td>
+        <a href="https://basescan.org/address/0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"><code>0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82</code></a>
+      </td>
       <td>n/a</td>
     </tr>
   </tbody>
