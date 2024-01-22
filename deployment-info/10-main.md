@@ -1,96 +1,6 @@
-# Contracts owners
+# Contracts
 
-<table data-full-width="true">
-  <thead>
-    <tr>
-      <th width="400">System</th>
-      <th width="500">Owner</th>
-      <th width="500">Nominated owner</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>CoreProxy</td>
-      <td>
-        <a href="https://optimistic.etherscan.io/address/0x6cd3f878852769e04A723A5f66CA7DD4d9E38A6C"><code>0x6cd3f878852769e04A723A5f66CA7DD4d9E38A6C</code></a>
-      </td>
-      <td>n/a</td>
-    </tr>
-    <tr>
-      <td>AccountProxy</td>
-      <td>
-        <a href="https://optimistic.etherscan.io/address/0xffffffaEff0B96Ea8e4f94b2253f31abdD875847"><code>0xffffffaEff0B96Ea8e4f94b2253f31abdD875847</code></a>
-      </td>
-      <td>n/a</td>
-    </tr>
-    <tr>
-      <td>USDProxy</td>
-      <td>
-        <a href="https://optimistic.etherscan.io/address/0xffffffaEff0B96Ea8e4f94b2253f31abdD875847"><code>0xffffffaEff0B96Ea8e4f94b2253f31abdD875847</code></a>
-      </td>
-      <td>n/a</td>
-    </tr>
-    <tr>
-      <td>OracleManagerProxy</td>
-      <td>
-        <a href="https://optimistic.etherscan.io/address/0x6cd3f878852769e04A723A5f66CA7DD4d9E38A6C"><code>0x6cd3f878852769e04A723A5f66CA7DD4d9E38A6C</code></a>
-      </td>
-      <td>n/a</td>
-    </tr>
-    <tr>
-      <td>SpotMarketProxy</td>
-      <td>
-        <a href="https://optimistic.etherscan.io/address/0x6cd3f878852769e04A723A5f66CA7DD4d9E38A6C"><code>0x6cd3f878852769e04A723A5f66CA7DD4d9E38A6C</code></a>
-      </td>
-      <td>n/a</td>
-    </tr>
-    <tr>
-      <td>SNXToken</td>
-      <td>
-        <a href="https://optimistic.etherscan.io/address/0x6d4a64C57612841c2C6745dB2a4E4db34F002D20"><code>0x6d4a64C57612841c2C6745dB2a4E4db34F002D20</code></a>
-      </td>
-      <td>n/a</td>
-    </tr>
-  </tbody>
-</table>
-
-<table data-full-width="true">
-  <thead>
-    <tr>
-      <th width="400">Pool</th>
-      <th width="500">Owner</th>
-      <th width="500">Nominated owner</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><code>1</code> Spartan Council Pool <i>* preferred</i></td>
-      <td>
-        <a href="https://optimistic.etherscan.io/address/0x6cd3f878852769e04A723A5f66CA7DD4d9E38A6C"><code>0x6cd3f878852769e04A723A5f66CA7DD4d9E38A6C</code></a>
-      </td>
-      <td>n/a</td>
-    </tr>
-  </tbody>
-</table>
-
-<table data-full-width="true">
-  <thead>
-    <tr>
-      <th width="400">Synth Market</th>
-      <th width="500">Owner</th>
-      <th width="500">Nominated owner</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><code>1</code> Synthetic Ethereum Spot Market</td>
-      <td>
-        <a href="https://optimistic.etherscan.io/address/0x6cd3f878852769e04A723A5f66CA7DD4d9E38A6C"><code>0x6cd3f878852769e04A723A5f66CA7DD4d9E38A6C</code></a>
-      </td>
-      <td>n/a</td>
-    </tr>
-  </tbody>
-</table>
+See [Addresses + ABIs](../for-developers/addresses-+-abis.md) Page
 
 # Collateral SNX / Synthetix Network Token
 
@@ -241,6 +151,100 @@ Token address: <a href="https://optimistic.etherscan.io/address/0x42000000000000
       <td>minDelegationD18</td>
       <td>0.01</td>
       <td><code>10000000000000000</code> / <code>0x2386f26fc10000</code></td>
+    </tr>
+  </tbody>
+</table>
+
+# Owners
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">System</th>
+      <th width="500">Owner</th>
+      <th width="500">Nominated owner</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CoreProxy</td>
+      <td>
+        <a href="https://optimistic.etherscan.io/address/0x6cd3f878852769e04A723A5f66CA7DD4d9E38A6C"><code>0x6cd3f878852769e04A723A5f66CA7DD4d9E38A6C</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>AccountProxy</td>
+      <td>
+        <a href="https://optimistic.etherscan.io/address/0xffffffaEff0B96Ea8e4f94b2253f31abdD875847"><code>0xffffffaEff0B96Ea8e4f94b2253f31abdD875847</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>USDProxy</td>
+      <td>
+        <a href="https://optimistic.etherscan.io/address/0xffffffaEff0B96Ea8e4f94b2253f31abdD875847"><code>0xffffffaEff0B96Ea8e4f94b2253f31abdD875847</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>OracleManagerProxy</td>
+      <td>
+        <a href="https://optimistic.etherscan.io/address/0x6cd3f878852769e04A723A5f66CA7DD4d9E38A6C"><code>0x6cd3f878852769e04A723A5f66CA7DD4d9E38A6C</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>SpotMarketProxy</td>
+      <td>
+        <a href="https://optimistic.etherscan.io/address/0x6cd3f878852769e04A723A5f66CA7DD4d9E38A6C"><code>0x6cd3f878852769e04A723A5f66CA7DD4d9E38A6C</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>SNXToken</td>
+      <td>
+        <a href="https://optimistic.etherscan.io/address/0x6d4a64C57612841c2C6745dB2a4E4db34F002D20"><code>0x6d4a64C57612841c2C6745dB2a4E4db34F002D20</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+  </tbody>
+</table>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Pool</th>
+      <th width="500">Owner</th>
+      <th width="500">Nominated owner</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>1</code> Spartan Council Pool <i>* preferred</i></td>
+      <td>
+        <a href="https://optimistic.etherscan.io/address/0x6cd3f878852769e04A723A5f66CA7DD4d9E38A6C"><code>0x6cd3f878852769e04A723A5f66CA7DD4d9E38A6C</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+  </tbody>
+</table>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Synth Market</th>
+      <th width="500">Owner</th>
+      <th width="500">Nominated owner</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>1</code> Synthetic Ethereum Spot Market</td>
+      <td>
+        <a href="https://optimistic.etherscan.io/address/0x6cd3f878852769e04A723A5f66CA7DD4d9E38A6C"><code>0x6cd3f878852769e04A723A5f66CA7DD4d9E38A6C</code></a>
+      </td>
+      <td>n/a</td>
     </tr>
   </tbody>
 </table>
