@@ -1,115 +1,6 @@
-# Contracts owners
+# Contracts
 
-<table data-full-width="true">
-  <thead>
-    <tr>
-      <th width="400">System</th>
-      <th width="500">Owner</th>
-      <th width="500">Nominated owner</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>CoreProxy</td>
-      <td>
-        <a href="https://sepolia.basescan.org/address/0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"><code>0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9</code></a>
-      </td>
-      <td>n/a</td>
-    </tr>
-    <tr>
-      <td>AccountProxy</td>
-      <td>
-        <a href="https://sepolia.basescan.org/address/0xF4Df9Dd327Fd30695d478c3c8a2fffAddcdD0d31"><code>0xF4Df9Dd327Fd30695d478c3c8a2fffAddcdD0d31</code></a>
-      </td>
-      <td>n/a</td>
-    </tr>
-    <tr>
-      <td>USDProxy</td>
-      <td>
-        <a href="https://sepolia.basescan.org/address/0xF4Df9Dd327Fd30695d478c3c8a2fffAddcdD0d31"><code>0xF4Df9Dd327Fd30695d478c3c8a2fffAddcdD0d31</code></a>
-      </td>
-      <td>n/a</td>
-    </tr>
-    <tr>
-      <td>OracleManagerProxy</td>
-      <td>
-        <a href="https://sepolia.basescan.org/address/0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"><code>0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9</code></a>
-      </td>
-      <td>n/a</td>
-    </tr>
-    <tr>
-      <td>TrustedMulticallForwarder</td>
-      <td>n/a</td>
-      <td>n/a</td>
-    </tr>
-    <tr>
-      <td>SpotMarketProxy</td>
-      <td>
-        <a href="https://sepolia.basescan.org/address/0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"><code>0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9</code></a>
-      </td>
-      <td>n/a</td>
-    </tr>
-    <tr>
-      <td>PerpsMarketProxy</td>
-      <td>
-        <a href="https://sepolia.basescan.org/address/0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"><code>0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9</code></a>
-      </td>
-      <td>n/a</td>
-    </tr>
-    <tr>
-      <td>PerpsAccountProxy</td>
-      <td>
-        <a href="https://sepolia.basescan.org/address/0xE6C5f05C415126E6b81FCc3619f65Db2fCAd58D0"><code>0xE6C5f05C415126E6b81FCc3619f65Db2fCAd58D0</code></a>
-      </td>
-      <td>n/a</td>
-    </tr>
-    <tr>
-      <td>FakeCollateralfUSDC</td>
-      <td>
-        <a href="https://sepolia.basescan.org/address/0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"><code>0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9</code></a>
-      </td>
-      <td>n/a</td>
-    </tr>
-  </tbody>
-</table>
-
-<table data-full-width="true">
-  <thead>
-    <tr>
-      <th width="400">Pool</th>
-      <th width="500">Owner</th>
-      <th width="500">Nominated owner</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><code>1</code> Spartan Council Pool <i>* preferred</i></td>
-      <td>
-        <a href="https://sepolia.basescan.org/address/0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"><code>0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9</code></a>
-      </td>
-      <td>n/a</td>
-    </tr>
-  </tbody>
-</table>
-
-<table data-full-width="true">
-  <thead>
-    <tr>
-      <th width="400">Synth Market</th>
-      <th width="500">Owner</th>
-      <th width="500">Nominated owner</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><code>1</code> Synthetic USD Coin Spot Market</td>
-      <td>
-        <a href="https://sepolia.basescan.org/address/0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"><code>0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9</code></a>
-      </td>
-      <td>n/a</td>
-    </tr>
-  </tbody>
-</table>
+See [Addresses + ABIs](../for-developers/addresses-+-abis.md) Page
 
 # Collateral fUSDC / Fake USD Coin
 
@@ -653,6 +544,119 @@ Perps market ID: <code>200</code>
       <td>commitmentPriceDelay</td>
       <td>2</td>
       <td><code>2</code> / <code>0x02</code></td>
+    </tr>
+  </tbody>
+</table>
+
+# Owners
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">System</th>
+      <th width="500">Owner</th>
+      <th width="500">Nominated owner</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CoreProxy</td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"><code>0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>AccountProxy</td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0xF4Df9Dd327Fd30695d478c3c8a2fffAddcdD0d31"><code>0xF4Df9Dd327Fd30695d478c3c8a2fffAddcdD0d31</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>USDProxy</td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0xF4Df9Dd327Fd30695d478c3c8a2fffAddcdD0d31"><code>0xF4Df9Dd327Fd30695d478c3c8a2fffAddcdD0d31</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>OracleManagerProxy</td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"><code>0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>TrustedMulticallForwarder</td>
+      <td>n/a</td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>SpotMarketProxy</td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"><code>0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>PerpsMarketProxy</td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"><code>0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>PerpsAccountProxy</td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0xE6C5f05C415126E6b81FCc3619f65Db2fCAd58D0"><code>0xE6C5f05C415126E6b81FCc3619f65Db2fCAd58D0</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>FakeCollateralfUSDC</td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"><code>0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+  </tbody>
+</table>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Pool</th>
+      <th width="500">Owner</th>
+      <th width="500">Nominated owner</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>1</code> Spartan Council Pool <i>* preferred</i></td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"><code>0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+  </tbody>
+</table>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Synth Market</th>
+      <th width="500">Owner</th>
+      <th width="500">Nominated owner</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>1</code> Synthetic USD Coin Spot Market</td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"><code>0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9</code></a>
+      </td>
+      <td>n/a</td>
     </tr>
   </tbody>
 </table>
