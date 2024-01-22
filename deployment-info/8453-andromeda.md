@@ -1,10 +1,159 @@
 # Contracts
 
-See [Addresses + ABIs](../for-developers/addresses-+-abis.md) Page
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">System</th>
+      <th width="500">Address</th>
+      <th width="500">ABI</th>
+      <th width="500">Readable ABI</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CoreProxy</td>
+      <td>undefined</td>
+      <td>
+        <a href="./undefined-andromeda/CoreProxy.json"><code>CoreProxy.json</code></a>
+      </td>
+      <td>
+        <a href="./undefined-andromeda/CoreProxy.readable.json"><code>CoreProxy.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>AccountProxy</td>
+      <td>undefined</td>
+      <td>
+        <a href="./undefined-andromeda/AccountProxy.json"><code>AccountProxy.json</code></a>
+      </td>
+      <td>
+        <a href="./undefined-andromeda/AccountProxy.readable.json"><code>AccountProxy.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>USDProxy</td>
+      <td>undefined</td>
+      <td>
+        <a href="./undefined-andromeda/USDProxy.json"><code>USDProxy.json</code></a>
+      </td>
+      <td>
+        <a href="./undefined-andromeda/USDProxy.readable.json"><code>USDProxy.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>OracleManagerProxy</td>
+      <td>undefined</td>
+      <td>
+        <a href="./undefined-andromeda/OracleManagerProxy.json"><code>OracleManagerProxy.json</code></a>
+      </td>
+      <td>
+        <a href="./undefined-andromeda/OracleManagerProxy.readable.json"><code>OracleManagerProxy.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>TrustedMulticallForwarder</td>
+      <td>undefined</td>
+      <td>
+        <a href="./undefined-andromeda/TrustedMulticallForwarder.json"><code>TrustedMulticallForwarder.json</code></a>
+      </td>
+      <td>
+        <a href="./undefined-andromeda/TrustedMulticallForwarder.readable.json"><code>TrustedMulticallForwarder.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>SpotMarketProxy</td>
+      <td>undefined</td>
+      <td>
+        <a href="./undefined-andromeda/SpotMarketProxy.json"><code>SpotMarketProxy.json</code></a>
+      </td>
+      <td>
+        <a href="./undefined-andromeda/SpotMarketProxy.readable.json"><code>SpotMarketProxy.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>PerpsMarketProxy</td>
+      <td>undefined</td>
+      <td>
+        <a href="./undefined-andromeda/PerpsMarketProxy.json"><code>PerpsMarketProxy.json</code></a>
+      </td>
+      <td>
+        <a href="./undefined-andromeda/PerpsMarketProxy.readable.json"><code>PerpsMarketProxy.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>PerpsAccountProxy</td>
+      <td>undefined</td>
+      <td>
+        <a href="./undefined-andromeda/PerpsAccountProxy.json"><code>PerpsAccountProxy.json</code></a>
+      </td>
+      <td>
+        <a href="./undefined-andromeda/PerpsAccountProxy.readable.json"><code>PerpsAccountProxy.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>USDCToken</td>
+      <td>undefined</td>
+      <td>
+        <a href="./undefined-andromeda/USDCToken.json"><code>USDCToken.json</code></a>
+      </td>
+      <td>
+        <a href="./undefined-andromeda/USDCToken.readable.json"><code>USDCToken.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>SNXToken</td>
+      <td>undefined</td>
+      <td>
+        <a href="./undefined-andromeda/SNXToken.json"><code>SNXToken.json</code></a>
+      </td>
+      <td>
+        <a href="./undefined-andromeda/SNXToken.readable.json"><code>SNXToken.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>AllErrors</td>
+      <td>n/a</td>
+      <td>
+        <a href="./undefined-andromeda/AllErrors.json"><code>AllErrors.json</code></a>
+      </td>
+      <td>
+        <a href="./undefined-andromeda/AllErrors.readable.json"><code>AllErrors.readable.json</code></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400"></th>
+      <th width="500">JSON</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Deployment meta</td>
+      <td>
+        <a href="./undefined-andromeda/meta.json"><code>meta.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>Extra outputs</td>
+      <td>
+        <a href="./undefined-andromeda/extras.json"><code>extras.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>Cannon state</td>
+      <td>
+        <a href="./undefined-andromeda/cannon.json"><code>cannon.json</code></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 # Collateral snxUSD / Synthetic USD Token v3
 
-Token address: <a href="https://basescan.org/address/0x09d51516F38980035153a554c26Df3C6f51a23C3"><code>0x09d51516F38980035153a554c26Df3C6f51a23C3</code></a>
+Token address: undefined
 
 <table data-full-width="true">
   <thead>
@@ -55,7 +204,7 @@ Token address: <a href="https://basescan.org/address/0x09d51516F38980035153a554c
 
 # Collateral sUSDC / Synthetic USD Coin
 
-Token address: <a href="https://basescan.org/address/0xC74eA762cF06c9151cE074E6a569a5945b6302E7"><code>0xC74eA762cF06c9151cE074E6a569a5945b6302E7</code></a>
+Token address: undefined
 
 <table data-full-width="true">
   <thead>
@@ -106,7 +255,7 @@ Token address: <a href="https://basescan.org/address/0xC74eA762cF06c9151cE074E6a
 
 # Collateral USDC / USD Coin
 
-Token address: <a href="https://basescan.org/address/0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"><code>0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913</code></a>
+Token address: undefined
 
 <table data-full-width="true">
   <thead>
@@ -261,9 +410,7 @@ Perps market ID: <code>100</code>
     <tr>
       <td>endorsedLiquidator</td>
       <td></td>
-      <td>
-        <a href="https://basescan.org/address/0x11233749514Ab8d00C0A5873DF7428b3db70030f"><code>0x11233749514Ab8d00C0A5873DF7428b3db70030f</code></a>
-      </td>
+      <td>undefined</td>
     </tr>
   </tbody>
 </table>
@@ -299,9 +446,7 @@ Perps market ID: <code>100</code>
     <tr>
       <td>priceVerificationContract</td>
       <td></td>
-      <td>
-        <a href="https://basescan.org/address/0xEb38e347F24ea04ffA945a475BdD949E0c383A0F"><code>0xEb38e347F24ea04ffA945a475BdD949E0c383A0F</code></a>
-      </td>
+      <td>undefined</td>
     </tr>
     <tr>
       <td>feedId</td>
@@ -432,9 +577,7 @@ Perps market ID: <code>200</code>
     <tr>
       <td>endorsedLiquidator</td>
       <td></td>
-      <td>
-        <a href="https://basescan.org/address/0x11233749514Ab8d00C0A5873DF7428b3db70030f"><code>0x11233749514Ab8d00C0A5873DF7428b3db70030f</code></a>
-      </td>
+      <td>undefined</td>
     </tr>
   </tbody>
 </table>
@@ -470,9 +613,7 @@ Perps market ID: <code>200</code>
     <tr>
       <td>priceVerificationContract</td>
       <td></td>
-      <td>
-        <a href="https://basescan.org/address/0xEb38e347F24ea04ffA945a475BdD949E0c383A0F"><code>0xEb38e347F24ea04ffA945a475BdD949E0c383A0F</code></a>
-      </td>
+      <td>undefined</td>
     </tr>
     <tr>
       <td>feedId</td>
@@ -510,30 +651,22 @@ Perps market ID: <code>200</code>
   <tbody>
     <tr>
       <td>CoreProxy</td>
-      <td>
-        <a href="https://basescan.org/address/0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"><code>0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82</code></a>
-      </td>
+      <td>undefined</td>
       <td>n/a</td>
     </tr>
     <tr>
       <td>AccountProxy</td>
-      <td>
-        <a href="https://basescan.org/address/0x32C222A9A159782aFD7529c87FA34b96CA72C696"><code>0x32C222A9A159782aFD7529c87FA34b96CA72C696</code></a>
-      </td>
+      <td>undefined</td>
       <td>n/a</td>
     </tr>
     <tr>
       <td>USDProxy</td>
-      <td>
-        <a href="https://basescan.org/address/0x32C222A9A159782aFD7529c87FA34b96CA72C696"><code>0x32C222A9A159782aFD7529c87FA34b96CA72C696</code></a>
-      </td>
+      <td>undefined</td>
       <td>n/a</td>
     </tr>
     <tr>
       <td>OracleManagerProxy</td>
-      <td>
-        <a href="https://basescan.org/address/0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"><code>0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82</code></a>
-      </td>
+      <td>undefined</td>
       <td>n/a</td>
     </tr>
     <tr>
@@ -543,30 +676,22 @@ Perps market ID: <code>200</code>
     </tr>
     <tr>
       <td>SpotMarketProxy</td>
-      <td>
-        <a href="https://basescan.org/address/0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"><code>0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82</code></a>
-      </td>
+      <td>undefined</td>
       <td>n/a</td>
     </tr>
     <tr>
       <td>PerpsMarketProxy</td>
-      <td>
-        <a href="https://basescan.org/address/0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"><code>0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82</code></a>
-      </td>
+      <td>undefined</td>
       <td>n/a</td>
     </tr>
     <tr>
       <td>PerpsAccountProxy</td>
-      <td>
-        <a href="https://basescan.org/address/0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce"><code>0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce</code></a>
-      </td>
+      <td>undefined</td>
       <td>n/a</td>
     </tr>
     <tr>
       <td>USDCToken</td>
-      <td>
-        <a href="https://basescan.org/address/0x3ABd6f64A422225E61E435baE41db12096106df7"><code>0x3ABd6f64A422225E61E435baE41db12096106df7</code></a>
-      </td>
+      <td>undefined</td>
       <td>n/a</td>
     </tr>
     <tr>
@@ -588,9 +713,7 @@ Perps market ID: <code>200</code>
   <tbody>
     <tr>
       <td><code>1</code> Spartan Council Pool <i>* preferred</i></td>
-      <td>
-        <a href="https://basescan.org/address/0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"><code>0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82</code></a>
-      </td>
+      <td>undefined</td>
       <td>n/a</td>
     </tr>
   </tbody>
@@ -607,9 +730,7 @@ Perps market ID: <code>200</code>
   <tbody>
     <tr>
       <td><code>1</code> Synthetic USD Coin Spot Market</td>
-      <td>
-        <a href="https://basescan.org/address/0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"><code>0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82</code></a>
-      </td>
+      <td>undefined</td>
       <td>n/a</td>
     </tr>
   </tbody>
