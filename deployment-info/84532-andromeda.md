@@ -83,7 +83,7 @@
   </thead>
   <tbody>
     <tr>
-      <td><code>1</code> Spartan Council Pool (_✅ Preferred_)</td>
+      <td><code>1</code> Spartan Council Pool <i>* preferred</i></td>
       <td>
         <a href="https://sepolia.basescan.org/address/0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"><code>0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9</code></a>
       </td>
@@ -476,7 +476,7 @@ Perps market ID: <code>100</code>
     <tr>
       <td>disabled</td>
       <td>✅ Enabled</td>
-      <td><code>"false"</code></td>
+      <td><code>false</code></td>
     </tr>
     <tr>
       <td>commitmentPriceDelay</td>
@@ -647,7 +647,7 @@ Perps market ID: <code>200</code>
     <tr>
       <td>disabled</td>
       <td>✅ Enabled</td>
-      <td><code>"false"</code></td>
+      <td><code>false</code></td>
     </tr>
     <tr>
       <td>commitmentPriceDelay</td>
