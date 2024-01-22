@@ -1,122 +1,6 @@
-# Contracts owners
+# Contracts
 
-<table data-full-width="true">
-  <thead>
-    <tr>
-      <th width="400">System</th>
-      <th width="500">Owner</th>
-      <th width="500">Nominated owner</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>CoreProxy</td>
-      <td>
-        <a href="https://goerli-optimism.etherscan.io/address/0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"><code>0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9</code></a>
-      </td>
-      <td>n/a</td>
-    </tr>
-    <tr>
-      <td>AccountProxy</td>
-      <td>
-        <a href="https://goerli-optimism.etherscan.io/address/0x76490713314fCEC173f44e99346F54c6e92a8E42"><code>0x76490713314fCEC173f44e99346F54c6e92a8E42</code></a>
-      </td>
-      <td>n/a</td>
-    </tr>
-    <tr>
-      <td>USDProxy</td>
-      <td>
-        <a href="https://goerli-optimism.etherscan.io/address/0x76490713314fCEC173f44e99346F54c6e92a8E42"><code>0x76490713314fCEC173f44e99346F54c6e92a8E42</code></a>
-      </td>
-      <td>n/a</td>
-    </tr>
-    <tr>
-      <td>OracleManagerProxy</td>
-      <td>
-        <a href="https://goerli-optimism.etherscan.io/address/0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"><code>0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9</code></a>
-      </td>
-      <td>n/a</td>
-    </tr>
-    <tr>
-      <td>TrustedMulticallForwarder</td>
-      <td>n/a</td>
-      <td>n/a</td>
-    </tr>
-    <tr>
-      <td>SpotMarketProxy</td>
-      <td>
-        <a href="https://goerli-optimism.etherscan.io/address/0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"><code>0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9</code></a>
-      </td>
-      <td>n/a</td>
-    </tr>
-    <tr>
-      <td>PerpsMarketProxy</td>
-      <td>
-        <a href="https://goerli-optimism.etherscan.io/address/0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"><code>0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9</code></a>
-      </td>
-      <td>n/a</td>
-    </tr>
-    <tr>
-      <td>PerpsAccountProxy</td>
-      <td>
-        <a href="https://goerli-optimism.etherscan.io/address/0xf272382cB3BE898A8CdB1A23BE056fA2Fcf4513b"><code>0xf272382cB3BE898A8CdB1A23BE056fA2Fcf4513b</code></a>
-      </td>
-      <td>n/a</td>
-    </tr>
-    <tr>
-      <td>SNXToken</td>
-      <td>
-        <a href="https://goerli-optimism.etherscan.io/address/0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"><code>0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9</code></a>
-      </td>
-      <td>n/a</td>
-    </tr>
-  </tbody>
-</table>
-
-<table data-full-width="true">
-  <thead>
-    <tr>
-      <th width="400">Pool</th>
-      <th width="500">Owner</th>
-      <th width="500">Nominated owner</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><code>1</code> Spartan Council Pool <i>* preferred</i></td>
-      <td>
-        <a href="https://goerli-optimism.etherscan.io/address/0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"><code>0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9</code></a>
-      </td>
-      <td>n/a</td>
-    </tr>
-    <tr>
-      <td><code>69</code> Passive SNX Pool</td>
-      <td>
-        <a href="https://goerli-optimism.etherscan.io/address/0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"><code>0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9</code></a>
-      </td>
-      <td>n/a</td>
-    </tr>
-  </tbody>
-</table>
-
-<table data-full-width="true">
-  <thead>
-    <tr>
-      <th width="400">Synth Market</th>
-      <th width="500">Owner</th>
-      <th width="500">Nominated owner</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><code>1</code> Synthetic Bitcoin Spot Market</td>
-      <td>
-        <a href="https://goerli-optimism.etherscan.io/address/0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"><code>0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9</code></a>
-      </td>
-      <td>n/a</td>
-    </tr>
-  </tbody>
-</table>
+See [Addresses + ABIs](../for-developers/addresses-+-abis.md) Page
 
 # Collateral SNX / Synthetix Network Token
 
@@ -762,6 +646,126 @@ Perps market ID: <code>200</code>
       <td>commitmentPriceDelay</td>
       <td>NaN</td>
       <td><code>undefined</code></td>
+    </tr>
+  </tbody>
+</table>
+
+# Owners
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">System</th>
+      <th width="500">Owner</th>
+      <th width="500">Nominated owner</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CoreProxy</td>
+      <td>
+        <a href="https://goerli-optimism.etherscan.io/address/0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"><code>0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>AccountProxy</td>
+      <td>
+        <a href="https://goerli-optimism.etherscan.io/address/0x76490713314fCEC173f44e99346F54c6e92a8E42"><code>0x76490713314fCEC173f44e99346F54c6e92a8E42</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>USDProxy</td>
+      <td>
+        <a href="https://goerli-optimism.etherscan.io/address/0x76490713314fCEC173f44e99346F54c6e92a8E42"><code>0x76490713314fCEC173f44e99346F54c6e92a8E42</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>OracleManagerProxy</td>
+      <td>
+        <a href="https://goerli-optimism.etherscan.io/address/0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"><code>0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>TrustedMulticallForwarder</td>
+      <td>n/a</td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>SpotMarketProxy</td>
+      <td>
+        <a href="https://goerli-optimism.etherscan.io/address/0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"><code>0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>PerpsMarketProxy</td>
+      <td>
+        <a href="https://goerli-optimism.etherscan.io/address/0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"><code>0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>PerpsAccountProxy</td>
+      <td>
+        <a href="https://goerli-optimism.etherscan.io/address/0xf272382cB3BE898A8CdB1A23BE056fA2Fcf4513b"><code>0xf272382cB3BE898A8CdB1A23BE056fA2Fcf4513b</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>SNXToken</td>
+      <td>
+        <a href="https://goerli-optimism.etherscan.io/address/0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"><code>0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+  </tbody>
+</table>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Pool</th>
+      <th width="500">Owner</th>
+      <th width="500">Nominated owner</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>1</code> Spartan Council Pool <i>* preferred</i></td>
+      <td>
+        <a href="https://goerli-optimism.etherscan.io/address/0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"><code>0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td><code>69</code> Passive SNX Pool</td>
+      <td>
+        <a href="https://goerli-optimism.etherscan.io/address/0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"><code>0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+  </tbody>
+</table>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Synth Market</th>
+      <th width="500">Owner</th>
+      <th width="500">Nominated owner</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>1</code> Synthetic Bitcoin Spot Market</td>
+      <td>
+        <a href="https://goerli-optimism.etherscan.io/address/0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"><code>0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9</code></a>
+      </td>
+      <td>n/a</td>
     </tr>
   </tbody>
 </table>
