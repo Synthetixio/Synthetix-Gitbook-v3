@@ -1,6 +1,115 @@
 # Contracts
 
-See [Addresses + ABIs](../for-developers/addresses-+-abis.md) Page
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">System</th>
+      <th width="500">Address</th>
+      <th width="500">ABI</th>
+      <th width="500">Readable ABI</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CoreProxy</td>
+      <td>
+        <a href="https://goerli.etherscan.io/address/0x895CE54BBA4f14FeFbF0624673DC303054De0652"><code>0x895CE54BBA4f14FeFbF0624673DC303054De0652</code></a>
+      </td>
+      <td>
+        <a href="./5-main/CoreProxy.json"><code>CoreProxy.json</code></a>
+      </td>
+      <td>
+        <a href="./5-main/CoreProxy.readable.json"><code>CoreProxy.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>AccountProxy</td>
+      <td>
+        <a href="https://goerli.etherscan.io/address/0xf19BdaE737d61A91cd0aeb3E32D0E11f9eF7aE5c"><code>0xf19BdaE737d61A91cd0aeb3E32D0E11f9eF7aE5c</code></a>
+      </td>
+      <td>
+        <a href="./5-main/AccountProxy.json"><code>AccountProxy.json</code></a>
+      </td>
+      <td>
+        <a href="./5-main/AccountProxy.readable.json"><code>AccountProxy.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>USDProxy</td>
+      <td>
+        <a href="https://goerli.etherscan.io/address/0x50f194b9949759510cE3700f759D64ac429dcC76"><code>0x50f194b9949759510cE3700f759D64ac429dcC76</code></a>
+      </td>
+      <td>
+        <a href="./5-main/USDProxy.json"><code>USDProxy.json</code></a>
+      </td>
+      <td>
+        <a href="./5-main/USDProxy.readable.json"><code>USDProxy.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>OracleManagerProxy</td>
+      <td>
+        <a href="https://goerli.etherscan.io/address/0x21a642c7b2B511f934DDD1250E2335899696ED0e"><code>0x21a642c7b2B511f934DDD1250E2335899696ED0e</code></a>
+      </td>
+      <td>
+        <a href="./5-main/OracleManagerProxy.json"><code>OracleManagerProxy.json</code></a>
+      </td>
+      <td>
+        <a href="./5-main/OracleManagerProxy.readable.json"><code>OracleManagerProxy.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>SNXToken</td>
+      <td>
+        <a href="https://goerli.etherscan.io/address/0x51f44ca59b867E005e48FA573Cb8df83FC7f7597"><code>0x51f44ca59b867E005e48FA573Cb8df83FC7f7597</code></a>
+      </td>
+      <td>
+        <a href="./5-main/SNXToken.json"><code>SNXToken.json</code></a>
+      </td>
+      <td>
+        <a href="./5-main/SNXToken.readable.json"><code>SNXToken.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>AllErrors</td>
+      <td>n/a</td>
+      <td>
+        <a href="./5-main/AllErrors.json"><code>AllErrors.json</code></a>
+      </td>
+      <td>
+        <a href="./5-main/AllErrors.readable.json"><code>AllErrors.readable.json</code></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400"></th>
+      <th width="500">JSON</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Deployment meta</td>
+      <td>
+        <a href="./5-main/meta.json"><code>meta.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>Extra outputs</td>
+      <td>
+        <a href="./5-main/extras.json"><code>extras.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>Cannon state</td>
+      <td>
+        <a href="./5-main/cannon.json"><code>cannon.json</code></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 # Collateral SNX / Synthetix Network Token
 
