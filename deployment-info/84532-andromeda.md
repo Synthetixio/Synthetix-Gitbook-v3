@@ -119,6 +119,18 @@
       </td>
     </tr>
     <tr>
+      <td>SynthUSDCToken</td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0x434Aa3FDb11798EDaB506D4a5e48F70845a66219"><code>0x434Aa3FDb11798EDaB506D4a5e48F70845a66219</code></a>
+      </td>
+      <td>
+        <a href="./84532-andromeda/SynthUSDCToken.json"><code>SynthUSDCToken.json</code></a>
+      </td>
+      <td>
+        <a href="./84532-andromeda/SynthUSDCToken.readable.json"><code>SynthUSDCToken.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
       <td>AllErrors</td>
       <td>n/a</td>
       <td>
@@ -159,7 +171,7 @@
   </tbody>
 </table>
 
-# Collateral fUSDC / Fake USD Coin
+# Collateral `fUSDC` Fake USD Coin
 
 Token address: <a href="https://sepolia.basescan.org/address/0x69980C3296416820623b3e3b30703A74e2320bC8"><code>0x69980C3296416820623b3e3b30703A74e2320bC8</code></a>
 
@@ -193,7 +205,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x69980C32964168206
       <td><code>1005000000000000000</code> / <code>0x0df27a2cdf448000</code></td>
     </tr>
     <tr>
-      <td>liquidationRatioD18</td>
+      <td>liquidationRewardD18</td>
       <td>0.005</td>
       <td><code>5000000000000000</code> / <code>0x11c37937e08000</code></td>
     </tr>
@@ -210,7 +222,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x69980C32964168206
   </tbody>
 </table>
 
-# Collateral snxUSD / Synthetic USD Token v3
+# Collateral `snxUSD` Synthetic USD Token v3
 
 Token address: <a href="https://sepolia.basescan.org/address/0xa89163A087fe38022690C313b5D4BBF12574637f"><code>0xa89163A087fe38022690C313b5D4BBF12574637f</code></a>
 
@@ -244,7 +256,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0xa89163A087fe38022
       <td><code>10000000000000000000</code> / <code>0x8ac7230489e80000</code></td>
     </tr>
     <tr>
-      <td>liquidationRatioD18</td>
+      <td>liquidationRewardD18</td>
       <td>0</td>
       <td><code>0</code> / <code>0x00</code></td>
     </tr>
@@ -261,7 +273,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0xa89163A087fe38022
   </tbody>
 </table>
 
-# Collateral sUSDC / Synthetic USD Coin
+# Collateral `sUSDC` Synthetic USD Coin
 
 Token address: <a href="https://sepolia.basescan.org/address/0x434Aa3FDb11798EDaB506D4a5e48F70845a66219"><code>0x434Aa3FDb11798EDaB506D4a5e48F70845a66219</code></a>
 
@@ -295,7 +307,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x434Aa3FDb11798EDa
       <td><code>1005000000000000000</code> / <code>0x0df27a2cdf448000</code></td>
     </tr>
     <tr>
-      <td>liquidationRatioD18</td>
+      <td>liquidationRewardD18</td>
       <td>1</td>
       <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
@@ -312,7 +324,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x434Aa3FDb11798EDa
   </tbody>
 </table>
 
-# Deprecated Collateral **DO NOT USE!** fUSDC / Fake USD Coin
+# Deprecated Collateral (DO NOT USE!) `fUSDC` Fake USD Coin
 
 Token address: <a href="https://sepolia.basescan.org/address/0x10e55D2110C71AfAb55244fcaFdA71D01B387F4c"><code>0x10e55D2110C71AfAb55244fcaFdA71D01B387F4c</code></a>
 
@@ -346,7 +358,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x10e55D2110C71AfAb
       <td><code>1005000000000000000</code> / <code>0x0df27a2cdf448000</code></td>
     </tr>
     <tr>
-      <td>liquidationRatioD18</td>
+      <td>liquidationRewardD18</td>
       <td>5</td>
       <td><code>5000000000000000000</code> / <code>0x4563918244f40000</code></td>
     </tr>
@@ -359,6 +371,106 @@ Token address: <a href="https://sepolia.basescan.org/address/0x10e55D2110C71AfAb
       <td>minDelegationD18</td>
       <td>100</td>
       <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+    </tr>
+  </tbody>
+</table>
+
+# Synth market `1` Synthetic USD Coin Spot Market
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Parameter name</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>synthMarketId</td>
+      <td>1</td>
+      <td><code>"1"</code></td>
+    </tr>
+    <tr>
+      <td>name</td>
+      <td></td>
+      <td><code>"Synthetic USD Coin Spot Market"</code></td>
+    </tr>
+    <tr>
+      <td>synthSymbol</td>
+      <td></td>
+      <td><code>"sUSDC"</code></td>
+    </tr>
+    <tr>
+      <td>synthName</td>
+      <td></td>
+      <td><code>"Synthetic USD Coin"</code></td>
+    </tr>
+    <tr>
+      <td>synthDecimals</td>
+      <td>18</td>
+      <td><code>18</code></td>
+    </tr>
+    <tr>
+      <td>synthAddress</td>
+      <td></td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0x434Aa3FDb11798EDaB506D4a5e48F70845a66219"><code>0x434Aa3FDb11798EDaB506D4a5e48F70845a66219</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>implementationAddress</td>
+      <td></td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0x82e9ADFCB8BB5D0213675023C4fA25c5EA3B1DA0"><code>0x82e9ADFCB8BB5D0213675023C4fA25c5EA3B1DA0</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>collateralLeverage</td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+    </tr>
+    <tr>
+      <td>minimumCredit</td>
+      <td>1 k</td>
+      <td><code>1000000000000000000000</code> / <code>0x3635c9adc5dea00000</code></td>
+    </tr>
+    <tr>
+      <td>feeCollector</td>
+      <td></td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0x0000000000000000000000000000000000000000"><code>0x0000000000000000000000000000000000000000</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>atomicFixedFee</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>asyncFixedFee</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>wrapFee</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>unwrapFee</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>utilizationFeeRate</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>skewScale</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
     </tr>
   </tbody>
 </table>
@@ -376,6 +488,11 @@ Perps market ID: <code>100</code>
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>maxCollateralAmount of snxUSD (market <code>0</code>)</td>
+      <td><code>MaxUint256</code></td>
+      <td><code>MaxUint256</code> / <code>0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</code></td>
+    </tr>
     <tr>
       <td>maxMarketSize</td>
       <td>5.25 k</td>
@@ -473,6 +590,26 @@ Perps market ID: <code>100</code>
         <a href="https://sepolia.basescan.org/address/0x95A61Fa7454CA5f6A3CE01724e306Cd14a22D306"><code>0x95A61Fa7454CA5f6A3CE01724e306Cd14a22D306</code></a>
       </td>
     </tr>
+    <tr>
+      <td>minKeeperRewardUsd</td>
+      <td>5</td>
+      <td><code>5000000000000000000</code> / <code>0x4563918244f40000</code></td>
+    </tr>
+    <tr>
+      <td>minKeeperProfitRatioD18</td>
+      <td>0.3</td>
+      <td><code>300000000000000000</code> / <code>0x0429d069189e0000</code></td>
+    </tr>
+    <tr>
+      <td>maxKeeperRewardUsd</td>
+      <td>100</td>
+      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+    </tr>
+    <tr>
+      <td>maxKeeperScalingRatioD18</td>
+      <td>0.3</td>
+      <td><code>300000000000000000</code> / <code>0x0429d069189e0000</code></td>
+    </tr>
   </tbody>
 </table>
 <table data-full-width="true">
@@ -547,6 +684,11 @@ Perps market ID: <code>200</code>
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>maxCollateralAmount of snxUSD (market <code>0</code>)</td>
+      <td><code>MaxUint256</code></td>
+      <td><code>MaxUint256</code> / <code>0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</code></td>
+    </tr>
     <tr>
       <td>maxMarketSize</td>
       <td>300</td>
@@ -643,6 +785,26 @@ Perps market ID: <code>200</code>
       <td>
         <a href="https://sepolia.basescan.org/address/0x95A61Fa7454CA5f6A3CE01724e306Cd14a22D306"><code>0x95A61Fa7454CA5f6A3CE01724e306Cd14a22D306</code></a>
       </td>
+    </tr>
+    <tr>
+      <td>minKeeperRewardUsd</td>
+      <td>5</td>
+      <td><code>5000000000000000000</code> / <code>0x4563918244f40000</code></td>
+    </tr>
+    <tr>
+      <td>minKeeperProfitRatioD18</td>
+      <td>0.3</td>
+      <td><code>300000000000000000</code> / <code>0x0429d069189e0000</code></td>
+    </tr>
+    <tr>
+      <td>maxKeeperRewardUsd</td>
+      <td>100</td>
+      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+    </tr>
+    <tr>
+      <td>maxKeeperScalingRatioD18</td>
+      <td>0.3</td>
+      <td><code>300000000000000000</code> / <code>0x0429d069189e0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -774,6 +936,13 @@ Perps market ID: <code>200</code>
       <td>FakeCollateralfUSDC</td>
       <td>
         <a href="https://sepolia.basescan.org/address/0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"><code>0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>SynthUSDCToken</td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0xA4fE63F8ea9657990eA8E05Ebfa5C19a7D4d7337"><code>0xA4fE63F8ea9657990eA8E05Ebfa5C19a7D4d7337</code></a>
       </td>
       <td>n/a</td>
     </tr>
