@@ -131,6 +131,18 @@
       </td>
     </tr>
     <tr>
+      <td>SynthUSDCToken</td>
+      <td>
+        <a href="https://basescan.org/address/0xC74eA762cF06c9151cE074E6a569a5945b6302E7"><code>0xC74eA762cF06c9151cE074E6a569a5945b6302E7</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/SynthUSDCToken.json"><code>SynthUSDCToken.json</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/SynthUSDCToken.readable.json"><code>SynthUSDCToken.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
       <td>AllErrors</td>
       <td>n/a</td>
       <td>
@@ -171,7 +183,7 @@
   </tbody>
 </table>
 
-# Collateral snxUSD / Synthetic USD Token v3
+# Collateral `snxUSD` Synthetic USD Token v3
 
 Token address: <a href="https://basescan.org/address/0x09d51516F38980035153a554c26Df3C6f51a23C3"><code>0x09d51516F38980035153a554c26Df3C6f51a23C3</code></a>
 
@@ -205,7 +217,7 @@ Token address: <a href="https://basescan.org/address/0x09d51516F38980035153a554c
       <td><code>10000000000000000000</code> / <code>0x8ac7230489e80000</code></td>
     </tr>
     <tr>
-      <td>liquidationRatioD18</td>
+      <td>liquidationRewardD18</td>
       <td>0</td>
       <td><code>0</code> / <code>0x00</code></td>
     </tr>
@@ -222,7 +234,7 @@ Token address: <a href="https://basescan.org/address/0x09d51516F38980035153a554c
   </tbody>
 </table>
 
-# Collateral sUSDC / Synthetic USD Coin
+# Collateral `sUSDC` Synthetic USD Coin
 
 Token address: <a href="https://basescan.org/address/0xC74eA762cF06c9151cE074E6a569a5945b6302E7"><code>0xC74eA762cF06c9151cE074E6a569a5945b6302E7</code></a>
 
@@ -256,7 +268,7 @@ Token address: <a href="https://basescan.org/address/0xC74eA762cF06c9151cE074E6a
       <td><code>1005000000000000000</code> / <code>0x0df27a2cdf448000</code></td>
     </tr>
     <tr>
-      <td>liquidationRatioD18</td>
+      <td>liquidationRewardD18</td>
       <td>1</td>
       <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
@@ -273,7 +285,7 @@ Token address: <a href="https://basescan.org/address/0xC74eA762cF06c9151cE074E6a
   </tbody>
 </table>
 
-# Collateral USDC / USD Coin
+# Collateral `USDC` USD Coin
 
 Token address: <a href="https://basescan.org/address/0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"><code>0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913</code></a>
 
@@ -307,7 +319,7 @@ Token address: <a href="https://basescan.org/address/0x833589fCD6eDb6E08f4c7C32D
       <td><code>1005000000000000000</code> / <code>0x0df27a2cdf448000</code></td>
     </tr>
     <tr>
-      <td>liquidationRatioD18</td>
+      <td>liquidationRewardD18</td>
       <td>0.005</td>
       <td><code>5000000000000000</code> / <code>0x11c37937e08000</code></td>
     </tr>
@@ -320,6 +332,106 @@ Token address: <a href="https://basescan.org/address/0x833589fCD6eDb6E08f4c7C32D
       <td>minDelegationD18</td>
       <td>100</td>
       <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+    </tr>
+  </tbody>
+</table>
+
+# Synth market `1` Synthetic USD Coin Spot Market
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Parameter name</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>synthMarketId</td>
+      <td>1</td>
+      <td><code>"1"</code></td>
+    </tr>
+    <tr>
+      <td>name</td>
+      <td></td>
+      <td><code>"Synthetic USD Coin Spot Market"</code></td>
+    </tr>
+    <tr>
+      <td>synthSymbol</td>
+      <td></td>
+      <td><code>"sUSDC"</code></td>
+    </tr>
+    <tr>
+      <td>synthName</td>
+      <td></td>
+      <td><code>"Synthetic USD Coin"</code></td>
+    </tr>
+    <tr>
+      <td>synthDecimals</td>
+      <td>18</td>
+      <td><code>18</code></td>
+    </tr>
+    <tr>
+      <td>synthAddress</td>
+      <td></td>
+      <td>
+        <a href="https://basescan.org/address/0xC74eA762cF06c9151cE074E6a569a5945b6302E7"><code>0xC74eA762cF06c9151cE074E6a569a5945b6302E7</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>implementationAddress</td>
+      <td></td>
+      <td>
+        <a href="https://basescan.org/address/0x5312175CC17Eb3502d73581055d12CE076aB00d1"><code>0x5312175CC17Eb3502d73581055d12CE076aB00d1</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>collateralLeverage</td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+    </tr>
+    <tr>
+      <td>minimumCredit</td>
+      <td>0.51 m</td>
+      <td><code>510965561027892965027844</code> / <code>0x6c337fa20f4cebf83004</code></td>
+    </tr>
+    <tr>
+      <td>feeCollector</td>
+      <td></td>
+      <td>
+        <a href="https://basescan.org/address/0x0000000000000000000000000000000000000000"><code>0x0000000000000000000000000000000000000000</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>atomicFixedFee</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>asyncFixedFee</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>wrapFee</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>unwrapFee</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>utilizationFeeRate</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>skewScale</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
     </tr>
   </tbody>
 </table>
@@ -337,6 +449,11 @@ Perps market ID: <code>100</code>
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>maxCollateralAmount of snxUSD (market <code>0</code>)</td>
+      <td><code>MaxUint256</code></td>
+      <td><code>MaxUint256</code> / <code>0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</code></td>
+    </tr>
     <tr>
       <td>maxMarketSize</td>
       <td>4.5</td>
@@ -434,6 +551,26 @@ Perps market ID: <code>100</code>
         <a href="https://basescan.org/address/0x11233749514Ab8d00C0A5873DF7428b3db70030f"><code>0x11233749514Ab8d00C0A5873DF7428b3db70030f</code></a>
       </td>
     </tr>
+    <tr>
+      <td>minKeeperRewardUsd</td>
+      <td>5</td>
+      <td><code>5000000000000000000</code> / <code>0x4563918244f40000</code></td>
+    </tr>
+    <tr>
+      <td>minKeeperProfitRatioD18</td>
+      <td>0.3</td>
+      <td><code>300000000000000000</code> / <code>0x0429d069189e0000</code></td>
+    </tr>
+    <tr>
+      <td>maxKeeperRewardUsd</td>
+      <td>100</td>
+      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+    </tr>
+    <tr>
+      <td>maxKeeperScalingRatioD18</td>
+      <td>0.3</td>
+      <td><code>300000000000000000</code> / <code>0x0429d069189e0000</code></td>
+    </tr>
   </tbody>
 </table>
 <table data-full-width="true">
@@ -508,6 +645,11 @@ Perps market ID: <code>200</code>
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>maxCollateralAmount of snxUSD (market <code>0</code>)</td>
+      <td><code>MaxUint256</code></td>
+      <td><code>MaxUint256</code> / <code>0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</code></td>
+    </tr>
     <tr>
       <td>maxMarketSize</td>
       <td>0.25</td>
@@ -604,6 +746,26 @@ Perps market ID: <code>200</code>
       <td>
         <a href="https://basescan.org/address/0x11233749514Ab8d00C0A5873DF7428b3db70030f"><code>0x11233749514Ab8d00C0A5873DF7428b3db70030f</code></a>
       </td>
+    </tr>
+    <tr>
+      <td>minKeeperRewardUsd</td>
+      <td>5</td>
+      <td><code>5000000000000000000</code> / <code>0x4563918244f40000</code></td>
+    </tr>
+    <tr>
+      <td>minKeeperProfitRatioD18</td>
+      <td>0.3</td>
+      <td><code>300000000000000000</code> / <code>0x0429d069189e0000</code></td>
+    </tr>
+    <tr>
+      <td>maxKeeperRewardUsd</td>
+      <td>100</td>
+      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+    </tr>
+    <tr>
+      <td>maxKeeperScalingRatioD18</td>
+      <td>0.3</td>
+      <td><code>300000000000000000</code> / <code>0x0429d069189e0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -741,6 +903,13 @@ Perps market ID: <code>200</code>
     <tr>
       <td>SNXToken</td>
       <td>n/a</td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>SynthUSDCToken</td>
+      <td>
+        <a href="https://basescan.org/address/0x18141523403e2595D31b22604AcB8Fc06a4CaA61"><code>0x18141523403e2595D31b22604AcB8Fc06a4CaA61</code></a>
+      </td>
       <td>n/a</td>
     </tr>
   </tbody>
