@@ -133,7 +133,7 @@
     <tr>
       <td>SynthUSDCToken</td>
       <td>
-        <a href="https://basescan.org/address/0xC74eA762cF06c9151cE074E6a569a5945b6302E7"><code>0xC74eA762cF06c9151cE074E6a569a5945b6302E7</code></a>
+        <a href="https://basescan.org/address/1"><code>1</code></a>
       </td>
       <td>
         <a href="./8453-andromeda/SynthUSDCToken.json"><code>SynthUSDCToken.json</code></a>
@@ -907,9 +907,7 @@ Perps market ID: <code>200</code>
     </tr>
     <tr>
       <td>SynthUSDCToken</td>
-      <td>
-        <a href="https://basescan.org/address/0x18141523403e2595D31b22604AcB8Fc06a4CaA61"><code>0x18141523403e2595D31b22604AcB8Fc06a4CaA61</code></a>
-      </td>
+      <td>n/a</td>
       <td>n/a</td>
     </tr>
   </tbody>
