@@ -123,7 +123,7 @@
   </tbody>
 </table>
 
-# Collateral SNX / Synthetix Network Token
+# Collateral `SNX` Synthetix Network Token
 
 Token address: <a href="https://optimistic.etherscan.io/address/0x8700dAec35aF8Ff88c16BdF0418774CB3D7599B4"><code>0x8700dAec35aF8Ff88c16BdF0418774CB3D7599B4</code></a>
 
@@ -157,7 +157,7 @@ Token address: <a href="https://optimistic.etherscan.io/address/0x8700dAec35aF8F
       <td><code>1500000000000000000</code> / <code>0x14d1120d7b160000</code></td>
     </tr>
     <tr>
-      <td>liquidationRatioD18</td>
+      <td>liquidationRewardD18</td>
       <td>10</td>
       <td><code>10000000000000000000</code> / <code>0x8ac7230489e80000</code></td>
     </tr>
@@ -174,7 +174,7 @@ Token address: <a href="https://optimistic.etherscan.io/address/0x8700dAec35aF8F
   </tbody>
 </table>
 
-# Collateral snxUSD / Synthetic USD Token v3
+# Collateral `snxUSD` Synthetic USD Token v3
 
 Token address: <a href="https://optimistic.etherscan.io/address/0xb2F30A7C980f052f02563fb518dcc39e6bf38175"><code>0xb2F30A7C980f052f02563fb518dcc39e6bf38175</code></a>
 
@@ -208,7 +208,7 @@ Token address: <a href="https://optimistic.etherscan.io/address/0xb2F30A7C980f05
       <td><code>10000000000000000000</code> / <code>0x8ac7230489e80000</code></td>
     </tr>
     <tr>
-      <td>liquidationRatioD18</td>
+      <td>liquidationRewardD18</td>
       <td>0</td>
       <td><code>0</code> / <code>0x00</code></td>
     </tr>
@@ -225,7 +225,7 @@ Token address: <a href="https://optimistic.etherscan.io/address/0xb2F30A7C980f05
   </tbody>
 </table>
 
-# Collateral WETH / Wrapped Ether
+# Collateral `WETH` Wrapped Ether
 
 Token address: <a href="https://optimistic.etherscan.io/address/0x4200000000000000000000000000000000000006"><code>0x4200000000000000000000000000000000000006</code></a>
 
@@ -259,7 +259,7 @@ Token address: <a href="https://optimistic.etherscan.io/address/0x42000000000000
       <td><code>1500000000000000000</code> / <code>0x14d1120d7b160000</code></td>
     </tr>
     <tr>
-      <td>liquidationRatioD18</td>
+      <td>liquidationRewardD18</td>
       <td>0.01</td>
       <td><code>10000000000000000</code> / <code>0x2386f26fc10000</code></td>
     </tr>
@@ -272,6 +272,106 @@ Token address: <a href="https://optimistic.etherscan.io/address/0x42000000000000
       <td>minDelegationD18</td>
       <td>0.01</td>
       <td><code>10000000000000000</code> / <code>0x2386f26fc10000</code></td>
+    </tr>
+  </tbody>
+</table>
+
+# Synth market `1` Synthetic Ethereum Spot Market
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Parameter name</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>synthMarketId</td>
+      <td>1</td>
+      <td><code>"1"</code></td>
+    </tr>
+    <tr>
+      <td>name</td>
+      <td></td>
+      <td><code>"Synthetic Ethereum Spot Market"</code></td>
+    </tr>
+    <tr>
+      <td>synthSymbol</td>
+      <td></td>
+      <td><code>"snxETH"</code></td>
+    </tr>
+    <tr>
+      <td>synthName</td>
+      <td></td>
+      <td><code>"Synthetic Ethereum"</code></td>
+    </tr>
+    <tr>
+      <td>synthDecimals</td>
+      <td>18</td>
+      <td><code>18</code></td>
+    </tr>
+    <tr>
+      <td>synthAddress</td>
+      <td></td>
+      <td>
+        <a href="https://optimistic.etherscan.io/address/0x08b2A7e830258F28c9c04501447a8bc83DCE42bE"><code>0x08b2A7e830258F28c9c04501447a8bc83DCE42bE</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>implementationAddress</td>
+      <td></td>
+      <td>
+        <a href="https://optimistic.etherscan.io/address/0xd2d3AcE5C69b0460ec202f83daFcE14766f6EF74"><code>0xd2d3AcE5C69b0460ec202f83daFcE14766f6EF74</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>collateralLeverage</td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+    </tr>
+    <tr>
+      <td>minimumCredit</td>
+      <td>23.43</td>
+      <td><code>23433246197850389877</code> / <code>0x0145339d4325253d75</code></td>
+    </tr>
+    <tr>
+      <td>feeCollector</td>
+      <td></td>
+      <td>
+        <a href="https://optimistic.etherscan.io/address/0x0000000000000000000000000000000000000000"><code>0x0000000000000000000000000000000000000000</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>atomicFixedFee</td>
+      <td><code>MaxUint256</code></td>
+      <td><code>MaxUint256</code> / <code>0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</code></td>
+    </tr>
+    <tr>
+      <td>asyncFixedFee</td>
+      <td>0.001</td>
+      <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
+    </tr>
+    <tr>
+      <td>wrapFee</td>
+      <td>0.0001</td>
+      <td><code>100000000000000</code> / <code>0x5af3107a4000</code></td>
+    </tr>
+    <tr>
+      <td>unwrapFee</td>
+      <td>0.0001</td>
+      <td><code>100000000000000</code> / <code>0x5af3107a4000</code></td>
+    </tr>
+    <tr>
+      <td>utilizationFeeRate</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>skewScale</td>
+      <td>100 k</td>
+      <td><code>100000000000000000000000</code> / <code>0x152d02c7e14af6800000</code></td>
     </tr>
   </tbody>
 </table>
