@@ -333,8 +333,8 @@ Token address: <a href="https://optimistic.etherscan.io/address/0x42000000000000
     </tr>
     <tr>
       <td>minimumCredit</td>
-      <td>23.43</td>
-      <td><code>23433246197850389877</code> / <code>0x0145339d4325253d75</code></td>
+      <td>23.42</td>
+      <td><code>23416981217756752105</code> / <code>0x0144f9d4595c62a8e9</code></td>
     </tr>
     <tr>
       <td>feeCollector</td>
