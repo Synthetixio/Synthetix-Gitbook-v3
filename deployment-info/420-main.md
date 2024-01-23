@@ -159,7 +159,7 @@
   </tbody>
 </table>
 
-# Collateral SNX / Synthetix Network Token
+# Collateral `SNX` Synthetix Network Token
 
 Token address: <a href="https://goerli-optimism.etherscan.io/address/0x2E5ED97596a8368EB9E44B1f3F25B2E813845303"><code>0x2E5ED97596a8368EB9E44B1f3F25B2E813845303</code></a>
 
@@ -193,7 +193,7 @@ Token address: <a href="https://goerli-optimism.etherscan.io/address/0x2E5ED9759
       <td><code>1500000000000000000</code> / <code>0x14d1120d7b160000</code></td>
     </tr>
     <tr>
-      <td>liquidationRatioD18</td>
+      <td>liquidationRewardD18</td>
       <td>10</td>
       <td><code>10000000000000000000</code> / <code>0x8ac7230489e80000</code></td>
     </tr>
@@ -210,7 +210,7 @@ Token address: <a href="https://goerli-optimism.etherscan.io/address/0x2E5ED9759
   </tbody>
 </table>
 
-# Collateral snxBTC / Synthetic Bitcoin
+# Collateral `snxBTC` Synthetic Bitcoin
 
 Token address: <a href="https://goerli-optimism.etherscan.io/address/0x4bC137c51c21bFf2A78073809605C2CEA80A06A1"><code>0x4bC137c51c21bFf2A78073809605C2CEA80A06A1</code></a>
 
@@ -244,7 +244,7 @@ Token address: <a href="https://goerli-optimism.etherscan.io/address/0x4bC137c51
       <td><code>1100000000000000000</code> / <code>0x0f43fc2c04ee0000</code></td>
     </tr>
     <tr>
-      <td>liquidationRatioD18</td>
+      <td>liquidationRewardD18</td>
       <td>0.5</td>
       <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
     </tr>
@@ -261,7 +261,7 @@ Token address: <a href="https://goerli-optimism.etherscan.io/address/0x4bC137c51
   </tbody>
 </table>
 
-# Collateral snxETH / Synthetic Ethereum
+# Collateral `snxETH` Synthetic Ethereum
 
 Token address: <a href="https://goerli-optimism.etherscan.io/address/0xDc6cad7F32cE7249f6f77a06bdcF143684Af61D4"><code>0xDc6cad7F32cE7249f6f77a06bdcF143684Af61D4</code></a>
 
@@ -295,7 +295,7 @@ Token address: <a href="https://goerli-optimism.etherscan.io/address/0xDc6cad7F3
       <td><code>1100000000000000000</code> / <code>0x0f43fc2c04ee0000</code></td>
     </tr>
     <tr>
-      <td>liquidationRatioD18</td>
+      <td>liquidationRewardD18</td>
       <td>1</td>
       <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
@@ -312,7 +312,7 @@ Token address: <a href="https://goerli-optimism.etherscan.io/address/0xDc6cad7F3
   </tbody>
 </table>
 
-# Collateral snxLINK / Synthetic Chainlink Token
+# Collateral `snxLINK` Synthetic Chainlink Token
 
 Token address: <a href="https://goerli-optimism.etherscan.io/address/0xA0D02A908A3fd216B45596f9b50655a055e8b2AE"><code>0xA0D02A908A3fd216B45596f9b50655a055e8b2AE</code></a>
 
@@ -346,7 +346,7 @@ Token address: <a href="https://goerli-optimism.etherscan.io/address/0xA0D02A908
       <td><code>1100000000000000000</code> / <code>0x0f43fc2c04ee0000</code></td>
     </tr>
     <tr>
-      <td>liquidationRatioD18</td>
+      <td>liquidationRewardD18</td>
       <td>0.5</td>
       <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
     </tr>
@@ -363,7 +363,7 @@ Token address: <a href="https://goerli-optimism.etherscan.io/address/0xA0D02A908
   </tbody>
 </table>
 
-# Collateral snxUSD / Synthetic USD Token v3
+# Collateral `snxUSD` Synthetic USD Token v3
 
 Token address: <a href="https://goerli-optimism.etherscan.io/address/0xe487Ad4291019b33e2230F8E2FB1fb6490325260"><code>0xe487Ad4291019b33e2230F8E2FB1fb6490325260</code></a>
 
@@ -397,7 +397,7 @@ Token address: <a href="https://goerli-optimism.etherscan.io/address/0xe487Ad429
       <td><code>10000000000000000000</code> / <code>0x8ac7230489e80000</code></td>
     </tr>
     <tr>
-      <td>liquidationRatioD18</td>
+      <td>liquidationRewardD18</td>
       <td>0</td>
       <td><code>0</code> / <code>0x00</code></td>
     </tr>
@@ -414,7 +414,7 @@ Token address: <a href="https://goerli-optimism.etherscan.io/address/0xe487Ad429
   </tbody>
 </table>
 
-# Collateral WETH / Wrapped Ether
+# Collateral `WETH` Wrapped Ether
 
 Token address: <a href="https://goerli-optimism.etherscan.io/address/0x4200000000000000000000000000000000000006"><code>0x4200000000000000000000000000000000000006</code></a>
 
@@ -448,7 +448,7 @@ Token address: <a href="https://goerli-optimism.etherscan.io/address/0x420000000
       <td><code>1500000000000000000</code> / <code>0x14d1120d7b160000</code></td>
     </tr>
     <tr>
-      <td>liquidationRatioD18</td>
+      <td>liquidationRewardD18</td>
       <td>0.01</td>
       <td><code>10000000000000000</code> / <code>0x2386f26fc10000</code></td>
     </tr>
@@ -461,6 +461,306 @@ Token address: <a href="https://goerli-optimism.etherscan.io/address/0x420000000
       <td>minDelegationD18</td>
       <td>0.01</td>
       <td><code>10000000000000000</code> / <code>0x2386f26fc10000</code></td>
+    </tr>
+  </tbody>
+</table>
+
+# Synth market `1` Synthetic Bitcoin Spot Market
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Parameter name</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>synthMarketId</td>
+      <td>1</td>
+      <td><code>"1"</code></td>
+    </tr>
+    <tr>
+      <td>name</td>
+      <td></td>
+      <td><code>"Synthetic Bitcoin Spot Market"</code></td>
+    </tr>
+    <tr>
+      <td>synthSymbol</td>
+      <td></td>
+      <td><code>"snxBTC"</code></td>
+    </tr>
+    <tr>
+      <td>synthName</td>
+      <td></td>
+      <td><code>"Synthetic Bitcoin"</code></td>
+    </tr>
+    <tr>
+      <td>synthDecimals</td>
+      <td>18</td>
+      <td><code>18</code></td>
+    </tr>
+    <tr>
+      <td>synthAddress</td>
+      <td></td>
+      <td>
+        <a href="https://goerli-optimism.etherscan.io/address/0x4bC137c51c21bFf2A78073809605C2CEA80A06A1"><code>0x4bC137c51c21bFf2A78073809605C2CEA80A06A1</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>implementationAddress</td>
+      <td></td>
+      <td>
+        <a href="https://goerli-optimism.etherscan.io/address/0x16184E5499fa09Ea3A81Dd55D3812f8396DCE0cc"><code>0x16184E5499fa09Ea3A81Dd55D3812f8396DCE0cc</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>collateralLeverage</td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+    </tr>
+    <tr>
+      <td>minimumCredit</td>
+      <td>165.91</td>
+      <td><code>165911296834617329765</code> / <code>0x08fe7b556f73c1c865</code></td>
+    </tr>
+    <tr>
+      <td>feeCollector</td>
+      <td></td>
+      <td>
+        <a href="https://goerli-optimism.etherscan.io/address/0x0000000000000000000000000000000000000000"><code>0x0000000000000000000000000000000000000000</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>atomicFixedFee</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>asyncFixedFee</td>
+      <td>0.0005</td>
+      <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
+    </tr>
+    <tr>
+      <td>wrapFee</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>unwrapFee</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>utilizationFeeRate</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>skewScale</td>
+      <td>100 k</td>
+      <td><code>100000000000000000000000</code> / <code>0x152d02c7e14af6800000</code></td>
+    </tr>
+  </tbody>
+</table>
+
+# Synth market `2` Synthetic Ethereum Spot Market
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Parameter name</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>synthMarketId</td>
+      <td>2</td>
+      <td><code>"2"</code></td>
+    </tr>
+    <tr>
+      <td>name</td>
+      <td></td>
+      <td><code>"Synthetic Ethereum Spot Market"</code></td>
+    </tr>
+    <tr>
+      <td>synthSymbol</td>
+      <td></td>
+      <td><code>"snxETH"</code></td>
+    </tr>
+    <tr>
+      <td>synthName</td>
+      <td></td>
+      <td><code>"Synthetic Ethereum"</code></td>
+    </tr>
+    <tr>
+      <td>synthDecimals</td>
+      <td>18</td>
+      <td><code>18</code></td>
+    </tr>
+    <tr>
+      <td>synthAddress</td>
+      <td></td>
+      <td>
+        <a href="https://goerli-optimism.etherscan.io/address/0xDc6cad7F32cE7249f6f77a06bdcF143684Af61D4"><code>0xDc6cad7F32cE7249f6f77a06bdcF143684Af61D4</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>implementationAddress</td>
+      <td></td>
+      <td>
+        <a href="https://goerli-optimism.etherscan.io/address/0x16184E5499fa09Ea3A81Dd55D3812f8396DCE0cc"><code>0x16184E5499fa09Ea3A81Dd55D3812f8396DCE0cc</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>collateralLeverage</td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+    </tr>
+    <tr>
+      <td>minimumCredit</td>
+      <td>36.34 k</td>
+      <td><code>36336738214797984458523</code> / <code>0x07b1d18ae611938ce71b</code></td>
+    </tr>
+    <tr>
+      <td>feeCollector</td>
+      <td></td>
+      <td>
+        <a href="https://goerli-optimism.etherscan.io/address/0x0000000000000000000000000000000000000000"><code>0x0000000000000000000000000000000000000000</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>atomicFixedFee</td>
+      <td><code>MaxUint256</code></td>
+      <td><code>MaxUint256</code> / <code>0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</code></td>
+    </tr>
+    <tr>
+      <td>asyncFixedFee</td>
+      <td>0.0005</td>
+      <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
+    </tr>
+    <tr>
+      <td>wrapFee</td>
+      <td>0.0001</td>
+      <td><code>100000000000000</code> / <code>0x5af3107a4000</code></td>
+    </tr>
+    <tr>
+      <td>unwrapFee</td>
+      <td>0.0001</td>
+      <td><code>100000000000000</code> / <code>0x5af3107a4000</code></td>
+    </tr>
+    <tr>
+      <td>utilizationFeeRate</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>skewScale</td>
+      <td>1 m</td>
+      <td><code>1000000000000000000000000</code> / <code>0xd3c21bcecceda1000000</code></td>
+    </tr>
+  </tbody>
+</table>
+
+# Synth market `3` Synthetic Chainlink Token Spot Market
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Parameter name</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>synthMarketId</td>
+      <td>3</td>
+      <td><code>"3"</code></td>
+    </tr>
+    <tr>
+      <td>name</td>
+      <td></td>
+      <td><code>"Synthetic Chainlink Token Spot Market"</code></td>
+    </tr>
+    <tr>
+      <td>synthSymbol</td>
+      <td></td>
+      <td><code>"snxLINK"</code></td>
+    </tr>
+    <tr>
+      <td>synthName</td>
+      <td></td>
+      <td><code>"Synthetic Chainlink Token"</code></td>
+    </tr>
+    <tr>
+      <td>synthDecimals</td>
+      <td>18</td>
+      <td><code>18</code></td>
+    </tr>
+    <tr>
+      <td>synthAddress</td>
+      <td></td>
+      <td>
+        <a href="https://goerli-optimism.etherscan.io/address/0xA0D02A908A3fd216B45596f9b50655a055e8b2AE"><code>0xA0D02A908A3fd216B45596f9b50655a055e8b2AE</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>implementationAddress</td>
+      <td></td>
+      <td>
+        <a href="https://goerli-optimism.etherscan.io/address/0x16184E5499fa09Ea3A81Dd55D3812f8396DCE0cc"><code>0x16184E5499fa09Ea3A81Dd55D3812f8396DCE0cc</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>collateralLeverage</td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+    </tr>
+    <tr>
+      <td>minimumCredit</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>feeCollector</td>
+      <td></td>
+      <td>
+        <a href="https://goerli-optimism.etherscan.io/address/0x0000000000000000000000000000000000000000"><code>0x0000000000000000000000000000000000000000</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>atomicFixedFee</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>asyncFixedFee</td>
+      <td>0.001</td>
+      <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
+    </tr>
+    <tr>
+      <td>wrapFee</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>unwrapFee</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>utilizationFeeRate</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>skewScale</td>
+      <td>20 m</td>
+      <td><code>20000000000000000000000000</code> / <code>0x108b2a2c28029094000000</code></td>
     </tr>
   </tbody>
 </table>
@@ -478,6 +778,11 @@ Perps market ID: <code>100</code>
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>maxCollateralAmount of snxUSD (market <code>0</code>)</td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
+    </tr>
     <tr>
       <td>maxMarketSize</td>
       <td>100 k</td>
@@ -540,7 +845,7 @@ Perps market ID: <code>100</code>
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td><code>undefined</code></td>
+      <td>n/a</td>
       <td><code>undefined</code></td>
     </tr>
     <tr>
@@ -574,6 +879,26 @@ Perps market ID: <code>100</code>
       <td>
         <a href="https://goerli-optimism.etherscan.io/address/0xae2Fc483527B8EF99EB5D9B44875F005ba1FaE13"><code>0xae2Fc483527B8EF99EB5D9B44875F005ba1FaE13</code></a>
       </td>
+    </tr>
+    <tr>
+      <td>minKeeperRewardUsd</td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
+    </tr>
+    <tr>
+      <td>minKeeperProfitRatioD18</td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
+    </tr>
+    <tr>
+      <td>maxKeeperRewardUsd</td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
+    </tr>
+    <tr>
+      <td>maxKeeperScalingRatioD18</td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
   </tbody>
 </table>
@@ -630,7 +955,7 @@ Perps market ID: <code>100</code>
     </tr>
     <tr>
       <td>commitmentPriceDelay</td>
-      <td>NaN</td>
+      <td>n/a</td>
       <td><code>undefined</code></td>
     </tr>
   </tbody>
@@ -649,6 +974,11 @@ Perps market ID: <code>200</code>
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>maxCollateralAmount of snxUSD (market <code>0</code>)</td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
+    </tr>
     <tr>
       <td>maxMarketSize</td>
       <td>100 k</td>
@@ -711,7 +1041,7 @@ Perps market ID: <code>200</code>
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td><code>undefined</code></td>
+      <td>n/a</td>
       <td><code>undefined</code></td>
     </tr>
     <tr>
@@ -745,6 +1075,26 @@ Perps market ID: <code>200</code>
       <td>
         <a href="https://goerli-optimism.etherscan.io/address/0xae2Fc483527B8EF99EB5D9B44875F005ba1FaE13"><code>0xae2Fc483527B8EF99EB5D9B44875F005ba1FaE13</code></a>
       </td>
+    </tr>
+    <tr>
+      <td>minKeeperRewardUsd</td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
+    </tr>
+    <tr>
+      <td>minKeeperProfitRatioD18</td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
+    </tr>
+    <tr>
+      <td>maxKeeperRewardUsd</td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
+    </tr>
+    <tr>
+      <td>maxKeeperScalingRatioD18</td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
   </tbody>
 </table>
@@ -801,7 +1151,7 @@ Perps market ID: <code>200</code>
     </tr>
     <tr>
       <td>commitmentPriceDelay</td>
-      <td>NaN</td>
+      <td>n/a</td>
       <td><code>undefined</code></td>
     </tr>
   </tbody>
@@ -919,6 +1269,20 @@ Perps market ID: <code>200</code>
   <tbody>
     <tr>
       <td><code>1</code> Synthetic Bitcoin Spot Market</td>
+      <td>
+        <a href="https://goerli-optimism.etherscan.io/address/0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"><code>0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td><code>2</code> Synthetic Ethereum Spot Market</td>
+      <td>
+        <a href="https://goerli-optimism.etherscan.io/address/0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"><code>0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td><code>3</code> Synthetic Chainlink Token Spot Market</td>
       <td>
         <a href="https://goerli-optimism.etherscan.io/address/0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"><code>0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9</code></a>
       </td>
