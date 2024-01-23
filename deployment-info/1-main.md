@@ -111,7 +111,7 @@
   </tbody>
 </table>
 
-# Collateral SNX / Synthetix Network Token
+# Collateral `SNX` Synthetix Network Token
 
 Token address: <a href="https://etherscan.io/address/0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F"><code>0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F</code></a>
 
@@ -145,7 +145,7 @@ Token address: <a href="https://etherscan.io/address/0xC011a73ee8576Fb46F5E1c575
       <td><code>1500000000000000000</code> / <code>0x14d1120d7b160000</code></td>
     </tr>
     <tr>
-      <td>liquidationRatioD18</td>
+      <td>liquidationRewardD18</td>
       <td>10</td>
       <td><code>10000000000000000000</code> / <code>0x8ac7230489e80000</code></td>
     </tr>
@@ -162,7 +162,7 @@ Token address: <a href="https://etherscan.io/address/0xC011a73ee8576Fb46F5E1c575
   </tbody>
 </table>
 
-# Collateral snxUSD / Synthetic USD Token v3
+# Collateral `snxUSD` Synthetic USD Token v3
 
 Token address: <a href="https://etherscan.io/address/0xb2F30A7C980f052f02563fb518dcc39e6bf38175"><code>0xb2F30A7C980f052f02563fb518dcc39e6bf38175</code></a>
 
@@ -196,7 +196,7 @@ Token address: <a href="https://etherscan.io/address/0xb2F30A7C980f052f02563fb51
       <td><code>10000000000000000000</code> / <code>0x8ac7230489e80000</code></td>
     </tr>
     <tr>
-      <td>liquidationRatioD18</td>
+      <td>liquidationRewardD18</td>
       <td>0</td>
       <td><code>0</code> / <code>0x00</code></td>
     </tr>
