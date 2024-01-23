@@ -121,7 +121,7 @@
     <tr>
       <td>SynthUSDCToken</td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0x434Aa3FDb11798EDaB506D4a5e48F70845a66219"><code>0x434Aa3FDb11798EDaB506D4a5e48F70845a66219</code></a>
+        <a href="https://sepolia.basescan.org/address/1"><code>1</code></a>
       </td>
       <td>
         <a href="./84532-andromeda/SynthUSDCToken.json"><code>SynthUSDCToken.json</code></a>
@@ -941,9 +941,7 @@ Perps market ID: <code>200</code>
     </tr>
     <tr>
       <td>SynthUSDCToken</td>
-      <td>
-        <a href="https://sepolia.basescan.org/address/0xA4fE63F8ea9657990eA8E05Ebfa5C19a7D4d7337"><code>0xA4fE63F8ea9657990eA8E05Ebfa5C19a7D4d7337</code></a>
-      </td>
+      <td>n/a</td>
       <td>n/a</td>
     </tr>
   </tbody>
