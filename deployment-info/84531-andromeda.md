@@ -121,7 +121,7 @@
     <tr>
       <td>SynthUSDCToken</td>
       <td>
-        <a href="https://goerli.basescan.org/address/0x367Fed42283FeBC9D8A6D78c5ab62F78B6022e27"><code>0x367Fed42283FeBC9D8A6D78c5ab62F78B6022e27</code></a>
+        <a href="https://goerli.basescan.org/address/1"><code>1</code></a>
       </td>
       <td>
         <a href="./84531-andromeda/SynthUSDCToken.json"><code>SynthUSDCToken.json</code></a>
@@ -890,9 +890,7 @@ Perps market ID: <code>200</code>
     </tr>
     <tr>
       <td>SynthUSDCToken</td>
-      <td>
-        <a href="https://goerli.basescan.org/address/0x26f3EcFa0Aa924649cfd4b74C57637e910A983a4"><code>0x26f3EcFa0Aa924649cfd4b74C57637e910A983a4</code></a>
-      </td>
+      <td>n/a</td>
       <td>n/a</td>
     </tr>
   </tbody>

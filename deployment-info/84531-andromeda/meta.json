@@ -13,6 +13,6 @@
     "PerpsMarketProxy": "0x75c43165ea38cB857C45216a37C5405A7656673c",
     "PerpsAccountProxy": "0xD8FD25C1A4d90244699f5Eb1966dB07FbDE9dcFa",
     "FakeCollateralfUSDC": "0x4967d1987930b2CD183dAB4B6C40B8745DD2eba1",
-    "SynthUSDCToken": "0x367Fed42283FeBC9D8A6D78c5ab62F78B6022e27"
+    "SynthUSDCToken": "1"
   }
 }
