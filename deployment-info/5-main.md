@@ -111,7 +111,7 @@
   </tbody>
 </table>
 
-# Collateral SNX / Synthetix Network Token
+# Collateral `SNX` Synthetix Network Token
 
 Token address: <a href="https://goerli.etherscan.io/address/0x51f44ca59b867E005e48FA573Cb8df83FC7f7597"><code>0x51f44ca59b867E005e48FA573Cb8df83FC7f7597</code></a>
 
@@ -145,7 +145,7 @@ Token address: <a href="https://goerli.etherscan.io/address/0x51f44ca59b867E005e
       <td><code>1500000000000000000</code> / <code>0x14d1120d7b160000</code></td>
     </tr>
     <tr>
-      <td>liquidationRatioD18</td>
+      <td>liquidationRewardD18</td>
       <td>10</td>
       <td><code>10000000000000000000</code> / <code>0x8ac7230489e80000</code></td>
     </tr>
@@ -162,7 +162,7 @@ Token address: <a href="https://goerli.etherscan.io/address/0x51f44ca59b867E005e
   </tbody>
 </table>
 
-# Collateral snxUSD / Synthetic USD Token v3
+# Collateral `snxUSD` Synthetic USD Token v3
 
 Token address: <a href="https://goerli.etherscan.io/address/0x50f194b9949759510cE3700f759D64ac429dcC76"><code>0x50f194b9949759510cE3700f759D64ac429dcC76</code></a>
 
@@ -196,7 +196,7 @@ Token address: <a href="https://goerli.etherscan.io/address/0x50f194b9949759510c
       <td><code>10000000000000000000</code> / <code>0x8ac7230489e80000</code></td>
     </tr>
     <tr>
-      <td>liquidationRatioD18</td>
+      <td>liquidationRewardD18</td>
       <td>0</td>
       <td><code>0</code> / <code>0x00</code></td>
     </tr>
