@@ -559,6 +559,79 @@ Token address: <a href="https://goerli-optimism.etherscan.io/address/0x420000000
     </tr>
   </tbody>
 </table>
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Settlement strategy parameter</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>settlementStrategyId</td>
+      <td>0</td>
+      <td><code>0</code></td>
+    </tr>
+    <tr>
+      <td>strategyType</td>
+      <td>PYTH</td>
+      <td><code>1</code></td>
+    </tr>
+    <tr>
+      <td>settlementDelay</td>
+      <td>15</td>
+      <td><code>15</code> / <code>0x0f</code></td>
+    </tr>
+    <tr>
+      <td>settlementWindowDuration</td>
+      <td>60</td>
+      <td><code>60</code> / <code>0x3c</code></td>
+    </tr>
+    <tr>
+      <td>priceVerificationContract</td>
+      <td></td>
+      <td>
+        <a href="https://goerli-optimism.etherscan.io/address/0xff1a0f4744e8582DF1aE09D5611b887B6a12925C"><code>0xff1a0f4744e8582DF1aE09D5611b887B6a12925C</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>feedId</td>
+      <td></td>
+      <td><code>"0xf9c0172ba10dfa4d19088d94f5bf61d3b54d5bd7483a322a982e1373ee8ea31b"</code></td>
+    </tr>
+    <tr>
+      <td>url</td>
+      <td></td>
+      <td><code>"https://api.synthetix.io/pyth-testnet/api/get_vaa_ccip?data={data}"</code></td>
+    </tr>
+    <tr>
+      <td>settlementReward</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>priceDeviationTolerance</td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
+    </tr>
+    <tr>
+      <td>minimumUsdExchangeAmount</td>
+      <td>0.05</td>
+      <td><code>50000000000000000</code> / <code>0xb1a2bc2ec50000</code></td>
+    </tr>
+    <tr>
+      <td>maxRoundingLoss</td>
+      <td>0.000001</td>
+      <td><code>1000000000000</code> / <code>0xe8d4a51000</code></td>
+    </tr>
+    <tr>
+      <td>disabled</td>
+      <td>✅ Enabled</td>
+      <td><code>false</code></td>
+    </tr>
+  </tbody>
+</table>
 
 # Synth market `2` Synthetic Ethereum Spot Market
 
@@ -654,6 +727,79 @@ Token address: <a href="https://goerli-optimism.etherscan.io/address/0x420000000
     </tr>
   </tbody>
 </table>
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Settlement strategy parameter</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>settlementStrategyId</td>
+      <td>0</td>
+      <td><code>0</code></td>
+    </tr>
+    <tr>
+      <td>strategyType</td>
+      <td>PYTH</td>
+      <td><code>1</code></td>
+    </tr>
+    <tr>
+      <td>settlementDelay</td>
+      <td>15</td>
+      <td><code>15</code> / <code>0x0f</code></td>
+    </tr>
+    <tr>
+      <td>settlementWindowDuration</td>
+      <td>60</td>
+      <td><code>60</code> / <code>0x3c</code></td>
+    </tr>
+    <tr>
+      <td>priceVerificationContract</td>
+      <td></td>
+      <td>
+        <a href="https://goerli-optimism.etherscan.io/address/0xff1a0f4744e8582DF1aE09D5611b887B6a12925C"><code>0xff1a0f4744e8582DF1aE09D5611b887B6a12925C</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>feedId</td>
+      <td></td>
+      <td><code>"0xff61491a931112ddf1bd8147cd1b641375f79f5825126d665480874634fd0ace"</code></td>
+    </tr>
+    <tr>
+      <td>url</td>
+      <td></td>
+      <td><code>"https://api.synthetix.io/pyth-mainnet/api/get_vaa_ccip?data={data}"</code></td>
+    </tr>
+    <tr>
+      <td>settlementReward</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>priceDeviationTolerance</td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
+    </tr>
+    <tr>
+      <td>minimumUsdExchangeAmount</td>
+      <td>0.05</td>
+      <td><code>50000000000000000</code> / <code>0xb1a2bc2ec50000</code></td>
+    </tr>
+    <tr>
+      <td>maxRoundingLoss</td>
+      <td>0.000001</td>
+      <td><code>1000000000000</code> / <code>0xe8d4a51000</code></td>
+    </tr>
+    <tr>
+      <td>disabled</td>
+      <td>✅ Enabled</td>
+      <td><code>false</code></td>
+    </tr>
+  </tbody>
+</table>
 
 # Synth market `3` Synthetic Chainlink Token Spot Market
 
@@ -746,6 +892,79 @@ Token address: <a href="https://goerli-optimism.etherscan.io/address/0x420000000
       <td>skewScale</td>
       <td>20 m</td>
       <td><code>20000000000000000000000000</code> / <code>0x108b2a2c28029094000000</code></td>
+    </tr>
+  </tbody>
+</table>
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Settlement strategy parameter</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>settlementStrategyId</td>
+      <td>0</td>
+      <td><code>0</code></td>
+    </tr>
+    <tr>
+      <td>strategyType</td>
+      <td>PYTH</td>
+      <td><code>1</code></td>
+    </tr>
+    <tr>
+      <td>settlementDelay</td>
+      <td>15</td>
+      <td><code>15</code> / <code>0x0f</code></td>
+    </tr>
+    <tr>
+      <td>settlementWindowDuration</td>
+      <td>60</td>
+      <td><code>60</code> / <code>0x3c</code></td>
+    </tr>
+    <tr>
+      <td>priceVerificationContract</td>
+      <td></td>
+      <td>
+        <a href="https://goerli-optimism.etherscan.io/address/0xff1a0f4744e8582DF1aE09D5611b887B6a12925C"><code>0xff1a0f4744e8582DF1aE09D5611b887B6a12925C</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>feedId</td>
+      <td></td>
+      <td><code>"0x83be4ed61dd8a3518d198098ce37240c494710a7b9d85e35d9fceac21df08994"</code></td>
+    </tr>
+    <tr>
+      <td>url</td>
+      <td></td>
+      <td><code>"https://api.synthetix.io/pyth-testnet/api/get_vaa_ccip?data={data}"</code></td>
+    </tr>
+    <tr>
+      <td>settlementReward</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>priceDeviationTolerance</td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
+    </tr>
+    <tr>
+      <td>minimumUsdExchangeAmount</td>
+      <td>0.05</td>
+      <td><code>50000000000000000</code> / <code>0xb1a2bc2ec50000</code></td>
+    </tr>
+    <tr>
+      <td>maxRoundingLoss</td>
+      <td>0.000001</td>
+      <td><code>1000000000000</code> / <code>0xe8d4a51000</code></td>
+    </tr>
+    <tr>
+      <td>disabled</td>
+      <td>✅ Enabled</td>
+      <td><code>false</code></td>
     </tr>
   </tbody>
 </table>
