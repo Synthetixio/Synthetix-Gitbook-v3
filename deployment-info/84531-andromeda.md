@@ -380,11 +380,6 @@ Token address: <a href="https://goerli.basescan.org/address/0x367Fed42283FeBC9D8
       <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
-      <td>minimumCredit</td>
-      <td>182.37 k</td>
-      <td><code>182369170365381226080915</code> / <code>0x269e40a62609eae52a93</code></td>
-    </tr>
-    <tr>
       <td>feeCollector</td>
       <td></td>
       <td>
