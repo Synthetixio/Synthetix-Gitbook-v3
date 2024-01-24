@@ -431,11 +431,6 @@ Token address: <a href="https://sepolia.basescan.org/address/0x10e55D2110C71AfAb
       <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
-      <td>minimumCredit</td>
-      <td>1 k</td>
-      <td><code>1000000000000000000000</code> / <code>0x3635c9adc5dea00000</code></td>
-    </tr>
-    <tr>
       <td>feeCollector</td>
       <td></td>
       <td>
