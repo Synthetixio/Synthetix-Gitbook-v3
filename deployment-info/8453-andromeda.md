@@ -392,11 +392,6 @@ Token address: <a href="https://basescan.org/address/0x833589fCD6eDb6E08f4c7C32D
       <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
-      <td>minimumCredit</td>
-      <td>0.51 m</td>
-      <td><code>510965561027892965027844</code> / <code>0x6c337fa20f4cebf83004</code></td>
-    </tr>
-    <tr>
       <td>feeCollector</td>
       <td></td>
       <td>
