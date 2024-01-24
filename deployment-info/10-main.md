@@ -370,6 +370,79 @@ Token address: <a href="https://optimistic.etherscan.io/address/0x42000000000000
     </tr>
   </tbody>
 </table>
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Settlement strategy parameter</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>settlementStrategyId</td>
+      <td>0</td>
+      <td><code>0</code></td>
+    </tr>
+    <tr>
+      <td>strategyType</td>
+      <td>PYTH</td>
+      <td><code>1</code></td>
+    </tr>
+    <tr>
+      <td>settlementDelay</td>
+      <td>15</td>
+      <td><code>15</code> / <code>0x0f</code></td>
+    </tr>
+    <tr>
+      <td>settlementWindowDuration</td>
+      <td>60</td>
+      <td><code>60</code> / <code>0x3c</code></td>
+    </tr>
+    <tr>
+      <td>priceVerificationContract</td>
+      <td></td>
+      <td>
+        <a href="https://optimistic.etherscan.io/address/0xff1a0f4744e8582DF1aE09D5611b887B6a12925C"><code>0xff1a0f4744e8582DF1aE09D5611b887B6a12925C</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>feedId</td>
+      <td></td>
+      <td><code>"0xff61491a931112ddf1bd8147cd1b641375f79f5825126d665480874634fd0ace"</code></td>
+    </tr>
+    <tr>
+      <td>url</td>
+      <td></td>
+      <td><code>"https://api.synthetix.io/pyth-mainnet/api/get_vaa_ccip?data={data}"</code></td>
+    </tr>
+    <tr>
+      <td>settlementReward</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>priceDeviationTolerance</td>
+      <td>0.05</td>
+      <td><code>50000000000000000</code> / <code>0xb1a2bc2ec50000</code></td>
+    </tr>
+    <tr>
+      <td>minimumUsdExchangeAmount</td>
+      <td>0.000001</td>
+      <td><code>1000000000000</code> / <code>0xe8d4a51000</code></td>
+    </tr>
+    <tr>
+      <td>maxRoundingLoss</td>
+      <td>0.000001</td>
+      <td><code>1000000000000</code> / <code>0xe8d4a51000</code></td>
+    </tr>
+    <tr>
+      <td>disabled</td>
+      <td>✅ Enabled</td>
+      <td><code>false</code></td>
+    </tr>
+  </tbody>
+</table>
 
 # Owners
 
