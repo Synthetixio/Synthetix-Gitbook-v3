@@ -521,11 +521,6 @@ Token address: <a href="https://goerli-optimism.etherscan.io/address/0x420000000
       <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
-      <td>minimumCredit</td>
-      <td>165.91</td>
-      <td><code>165911296834617329765</code> / <code>0x08fe7b556f73c1c865</code></td>
-    </tr>
-    <tr>
       <td>feeCollector</td>
       <td></td>
       <td>
@@ -621,11 +616,6 @@ Token address: <a href="https://goerli-optimism.etherscan.io/address/0x420000000
       <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
-      <td>minimumCredit</td>
-      <td>36.34 k</td>
-      <td><code>36336738214797984458523</code> / <code>0x07b1d18ae611938ce71b</code></td>
-    </tr>
-    <tr>
       <td>feeCollector</td>
       <td></td>
       <td>
@@ -719,11 +709,6 @@ Token address: <a href="https://goerli-optimism.etherscan.io/address/0x420000000
       <td>collateralLeverage</td>
       <td>1</td>
       <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
-    </tr>
-    <tr>
-      <td>minimumCredit</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
     </tr>
     <tr>
       <td>feeCollector</td>
