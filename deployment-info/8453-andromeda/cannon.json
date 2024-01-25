@@ -152,7 +152,7 @@
         "defaultValue": "0.0005"
       },
       "perpsBtcMaxMarketSize": {
-        "defaultValue": "0.25"
+        "defaultValue": "22"
       },
       "perpsBtcInitialMarginRatio": {
         "defaultValue": "13.35"
@@ -205,7 +205,7 @@
         "defaultValue": "0.0005"
       },
       "perpsEthMaxMarketSize": {
-        "defaultValue": "4.5"
+        "defaultValue": "385"
       },
       "perpsEthInitialMarginRatio": {
         "defaultValue": "8.92"
@@ -1615,7 +1615,7 @@
       }
     },
     "name": "synthetix-omnibus",
-    "version": "3.3.5-1",
+    "version": "3.3.5-2",
     "description": "Andromeda deployment",
     "preset": "andromeda"
   },
@@ -14893,7 +14893,7 @@
         "contracts": {},
         "txns": {
           "setPerpsBtcMaxMarketSize": {
-            "hash": "0x9e7ffb3ffc5a38e4abaf445f50d36a0b63e5a6a0cf18ac75a3f8d63eb06d5b7d",
+            "hash": "0xd23d31c88174f8b378244fe2fc463ea24a56c969b3ea5886b25e4e4b3499b992",
             "events": {
               "MaxMarketSizeSet": [
                 {
@@ -14905,21 +14905,21 @@
                     },
                     {
                       "type": "BigNumber",
-                      "hex": "0x03782dace9d90000"
+                      "hex": "0x01314fb37062980000"
                     }
                   ]
                 }
               ]
             },
             "deployedOn": "invoke.setPerpsBtcMaxMarketSize",
-            "gasUsed": 56599,
-            "gasCost": "1500000050",
-            "signer": "0xEde8a407913A874Dd7e3d5B731AFcA135D30375E"
+            "gasUsed": 39511,
+            "gasCost": "796",
+            "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
         "extras": {}
       },
-      "hash": "9d66fcd877d847c69d144cb1a6585932",
+      "hash": "bc173f770e62eb87a1d69077bcd868dc",
       "version": 6
     },
     "invoke.setPerpsBtcOrderFees": {
@@ -15130,7 +15130,7 @@
         "contracts": {},
         "txns": {
           "setPerpsEthMaxMarketSize": {
-            "hash": "0xf463a4c8fb6788bea118cacc019f2675fabac5f952939c4483eea9490cc9d10b",
+            "hash": "0xa4a71ee213a4032962b848842efa09ff6c131ee14595f0bc986b58738530967e",
             "events": {
               "MaxMarketSizeSet": [
                 {
@@ -15142,21 +15142,21 @@
                     },
                     {
                       "type": "BigNumber",
-                      "hex": "0x3e73362871420000"
+                      "hex": "0x14def2c42ebd640000"
                     }
                   ]
                 }
               ]
             },
             "deployedOn": "invoke.setPerpsEthMaxMarketSize",
-            "gasUsed": 56599,
-            "gasCost": "1500000051",
-            "signer": "0xEde8a407913A874Dd7e3d5B731AFcA135D30375E"
+            "gasUsed": 39511,
+            "gasCost": "698",
+            "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
         "extras": {}
       },
-      "hash": "0fc4a4f7ecc598fa409809332ddf2e8b",
+      "hash": "b6a921d200fb68b748a6dafb5b2bc586",
       "version": 6
     },
     "invoke.setPerpsEthOrderFees": {
