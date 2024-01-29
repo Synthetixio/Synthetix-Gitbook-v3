@@ -33,6 +33,7 @@
 
 * [Spot Market](for-traders/spot-market.md)
 * [Perps Market](for-traders/perps-market.md)
+* [Perps Market SDK](for-traders/perps-market-sdk.md)
 
 ## For Governance Participants
 
