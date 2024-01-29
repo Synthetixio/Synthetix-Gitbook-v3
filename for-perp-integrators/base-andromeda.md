@@ -113,6 +113,12 @@ All transactions should be prepared as a multicall and sent to the `TrustedMulti
 
 ### // TODO: Trading Perps v3
 
+1. create account
+2. deposit margin
+3. modify collateral
+4. commit order
+5. wait for keepr to settle, or settle yourself
+
 ### Useful links
 
 * Perp order settlement and liquidation keepers are running on Goerli, and you can run your own [perps-v3-keeper.md](perps-v3-keeper.md "mention")
