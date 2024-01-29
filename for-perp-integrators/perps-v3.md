@@ -25,6 +25,12 @@ Perps V3 is live on Base, but (predominantly internal) updates are planned
 
 * Multi collateral: accepts any synths configured in the system as margin for an account
 
+## SDK
+
+To better understand how to trade perps, see
+
+[perps-market-sdk.md](../for-traders/perps-market-sdk.md "mention")
+
 ## Workflow
 
 ### Factory Owner
