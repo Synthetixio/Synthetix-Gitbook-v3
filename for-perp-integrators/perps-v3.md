@@ -29,7 +29,7 @@ Perps V3 is live on Base, but (predominantly internal) updates are planned
 
 To better understand how to trade perps, see
 
-[perps-market-sdk.md](../for-traders/perps-market-sdk.md "mention")
+[perps-sdk.md](perps-sdk.md "mention")
 
 ## Workflow
 

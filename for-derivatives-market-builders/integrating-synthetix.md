@@ -16,7 +16,7 @@ This functionality helps mitigate the front-running of liquidity providers. For 
 
 ## Market-Provided Collateral
 
-Governance may permit specific markets to deposit collateral. Markets are able to use the value of the collateral directly towards their credit capacity. An example use case for this is the wrapper functionality in the [Spot Market implementation](../for-traders/spot-market.md) where, for example, one ETH could be deposited to issue one snxETH.
+Governance may permit specific markets to deposit collateral. Markets are able to use the value of the collateral directly towards their credit capacity. An example use case for this is the wrapper functionality in the [Spot Market implementation](../for-developers/spot-market.md) where, for example, one ETH could be deposited to issue one snxETH.
 
 Market-provided collateral opens up new market design mechanisms to support scalability of the stablecoin, as this collateral can be minted against at it's full value. Allowing any market to take advantage of the functionality would introduce significant risk to the protocol, as there isn't a liquidations mechanism for this collateral. Accordingly, governance is able to permit specific markets to utilize this feature, up to a cap, after assessing that the market implementation introduces sufficient risk mitigation in its design.
 

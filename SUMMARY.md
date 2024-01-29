@@ -29,12 +29,6 @@
 * [Operating a Market](for-derivatives-market-builders/integrating-synthetix.md)
 * [Registering a Market](for-derivatives-market-builders/registering-a-market.md)
 
-## For Traders
-
-* [Spot Market](for-traders/spot-market.md)
-* [Perps Market](for-traders/perps-market.md)
-* [Perps Market SDK](for-traders/perps-market-sdk.md)
-
 ## For Governance Participants
 
 * [Synthetix Governance](for-governance-participants/synthetix-governance.md)
@@ -46,6 +40,7 @@
 * [Sandbox with Perps](for-perp-integrators/sandbox-with-perps.md)
 * [Base Andromeda](for-perp-integrators/base-andromeda.md)
 * [Perps V3 Keeper](for-perp-integrators/perps-v3-keeper.md)
+* [Perps SDK](for-perp-integrators/perps-sdk.md)
 
 ## For Developers
 
@@ -67,6 +62,8 @@
   * [Base Mainnet Andromeda](deployment-info/8453-andromeda.md)
   * [Base Goerli Andromeda](deployment-info/84531-andromeda.md)
   * [Base Sepolia Andromeda](deployment-info/84532-andromeda.md)
+* [Perps Market](for-developers/perps-market.md)
+* [Spot Market](for-developers/spot-market.md)
 
 ## For Designers
 
