@@ -35,6 +35,10 @@ To better understand how to trade perps, see
 
 ### Factory Owner
 
+{% hint style="info" %}
+This is permissioned
+{% endhint %}
+
 * Each proxy is considered to be one “supermarket”, and is initialized with the factory owner as the owner of this supermarket. The supermarket consists of a set of markets that it controls for which cross margin is applied. Each account that’s created is scoped to the supermarket and cannot be used on other supermarkets.
 * Supermarkets can only be initialized once which registers them with the Core system using the following call (returns the registered market id with core system):
 
@@ -112,6 +116,10 @@ function getLockedOiRatio(uint128 marketId) external view returns (uint256 locke
 * A strategy has been added on OP goerli. You can always query `getSettlementStrategy` to get the details.
 
 ## Trader
+
+{% hint style="info" %}
+This is how integrators or front ends
+{% endhint %}
 
 #### Create account:
 
