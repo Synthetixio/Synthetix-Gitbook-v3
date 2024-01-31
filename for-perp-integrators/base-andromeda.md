@@ -8,6 +8,7 @@ description: Evolving reference for Core V3 + Perps V3 on Base
 ### Evolving timeline
 
 * Andromeda on [Base Goerli](https://usecannon.com/packages/synthetix-omnibus/latest/84531-andromeda)&#x20;
+* Andromeda on [Base Sepolia](https://usecannon.com/packages/synthetix-omnibus/latest/84532-andromeda)
 * Andromeda on [Base Mainnet](https://usecannon.com/packages/synthetix-omnibus/latest/8453-andromeda)
 * TBC: Public launch and announcements
 {% endhint %}
@@ -57,15 +58,50 @@ When withdrawing, initial collateral plus any fees can be withdrawn, then unwrap
 
 ## For Perp Traders/Integrators
 
-Integrators can create a seamless trading experience using USDC by utilizing the wrapper and spot  market. Since `USDC-sUSDC` and `sUSDC-sUSD` exchanges are both 1:1 swaps, integrators can easily create a "zap" between USDC in their wallet and their account margin.
+**Traders** can take the following actions:
 
-### **Prerequisites**
+* Create an account
+* Manage margin balances
+* Commit orders
+
+**Keepers** can take the following actions:
+
+* Settle orders committed by traders
+* Liquidate accounts
+
+Additionally, integrators can create a seamless trading experience using USDC by utilizing the wrapper and spot market. Since `USDC-sUSDC` and `sUSDC-sUSD` exchanges are both 1:1 swaps, integrators can easily prepare a multicall to "zap" between USDC in their wallet and their account margin.
+
+### **Create an Account**
+
+To deposit margin , you must specify an accountId.
+
+* Call `PerpsMarketProxy.createAccount()` to create an account with a random `accountId`
+* You can also specify an `accountId`, which will revert if the account already exists
+
+See [creating accounts](perps-v3.md#create-account) for more technical docs.
+
+### **Managing Margin Balances**
+
+Each perps account holds assets to use as margin for their positions. Currently Andromeda supports USDC collateral through the use of a token wrapper. Fetch margin balances using these functions on the `PerpsMarketProxy` contract:
+
+* `totalCollateralValue(accountId)`: Get the USD value of all collateral in the account
+* `getAvailableMargin(accountId)`: Get the USD value of the margin available to use as collateral for future positions
+* `getWithdrawableMargin(accountId)`: Get the USD value of the margin you can withdraw immediately
+* `getRequiredMargins(accountId)`: Get USD values of the margin requirements for the specified account, given their open positions
+
+### Preparing Margin Transactions
+
+Integrators can directly deposit and withdraw USDC by preparing a multicall to execute in a single transaction. These transactions interact with the `SpotMarketProxy` to wrap and swap USDC for sUSD. Use `marketId = 1` for `sUSDC`. Matching values like `wrapAmount` and `amountReceived` in the transactions will guarantee this 1:1 swap.
+
+All transactions should be prepared as a multicall and sent to the `TrustedMulticallForwarder` contracts using `aggregate3Value`.
+
+#### **Prerequisites**
 
 An account must meet the following requirements to execute USDC transfers between their wallet and a perps account.
 
 **Deposit:**
 
-* Holds an account NFT for perps
+* Holds an account NFT for perps. See [creating an account](perps-v3.md#create-account).
 * Approve `SpotMarketProxy` to transfer USDC
 * Approve `SpotMarketProxy` to transfer sUSDC
 * Approve `PerpsMarketProxy` to transfer sUSD
@@ -75,12 +111,6 @@ An account must meet the following requirements to execute USDC transfers betwee
 * Account NFT has some withdrawable margin
 * Approve `SpotMarketProxy` to transfer sUSD
 * Approve `SpotMarketProxy` to transfer sUSDC
-
-### Preparing Margin Transactions
-
-If you meet these requirements you can prepare a multicall to execute in a single transaction. Use `marketId = 1` for `sUSDC`. Matching values like `wrapAmount` and `amountReceived` in the transactions will guarantee this 1:1 swap.
-
-All transactions should be prepared as a multicall and sent to the `TrustedMulticallForwarder` contracts using `aggregate3Value`.
 
 **Deposit perp margin**
 
@@ -111,13 +141,31 @@ All transactions should be prepared as a multicall and sent to the `TrustedMulti
 * [Deposit](https://goerli.basescan.org/tx/0x95461a5b05c40c91c952bc06b0d292ec16ffd0c750a7b708a8564183b9b08cf4)
 * [Withdraw](https://goerli.basescan.org/tx/0x4b6d29faaa75223fe1d690993c5e93ef316fc823385cbc52f505927f65702319)
 
-### // TODO: Trading Perps v3
+### Trading
 
-1. create account
-2. deposit margin
-3. modify collateral
-4. commit order
-5. wait for keepr to settle, or settle yourself
+Given an account with some available margin, a trader can commit orders to a perps market. That order will be settled by a keeper according to the specified `settlementStrategyId`. The Andromeda deployment uses Pyth oracles to settle your order at a future price after a short delay.
+
+See more technical details about preparing orders on [this page](perps-v3.md#commit-order).
+
+**Committing Orders**
+
+Call PerpsMarketProxy.commitOrder(commitment) to commit an order. The input commitment is a tuple configuring the order. Here are some recommendations for those inputs:
+
+1. `marketId`: Call `getMarkets()` and `metadata` to get more info about the markets
+2. `accountId`: The `accountId` that has available margin
+3. `sizeDelta`: A wei value of the size in units of the asset being traded
+4. `settlementStrategyId`: Recommended `0` for Pyth settlement. Call `getSettlementStrategy` for more details
+5. `acceptablePrice`: Minimum fill price for longs, maximum fill price for shorts
+6. `trackingCode`: A bytes32 encoded value for tracking integrator volume
+7. `referrer`: An address for configured integrators to receive a share of fees.
+
+See a sample order commitment transaction [here](https://sepolia.basescan.org/tx/0x18e8a3314775b4a0f95da7c36b8a4e3d74f5284c2ba2597e2127d4fe99dfad49).
+
+**Order Settlement**
+
+Orders will typically be settled by a keeper who fetches the price data from Pyth and fills orders for a fee. You can check `getOrder(accountId)` for a given account to view the status of the order. The `sizeDelta` will be set to 0 when the order is filled, otherwise it will expire and can be replaced with another order.
+
+See a sample order settlement transaction [here](https://sepolia.basescan.org/tx/0xca9b5eaa1853bbb449a30ad93d54364fb6395dc65d92c1686381e29562ca22a0).
 
 ### Useful links
 
