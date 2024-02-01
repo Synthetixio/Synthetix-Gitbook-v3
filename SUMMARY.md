@@ -36,11 +36,11 @@
 
 ## FOR PERP INTEGRATORS
 
+* [Base Andromeda](for-perp-integrators/base-andromeda.md)
 * [Perps V3](for-perp-integrators/perps-v3.md)
 * [Sandbox with Perps](for-perp-integrators/sandbox-with-perps.md)
-* [Base Andromeda](for-perp-integrators/base-andromeda.md)
-* [Perps V3 Keeper](for-perp-integrators/perps-v3-keeper.md)
-* [Perps SDK](for-perp-integrators/perps-sdk.md)
+* [Perps Python SDK](for-perp-integrators/perps-python-sdk.md)
+* [Perps V3 Keepers](for-perp-integrators/perps-v3-keeper.md)
 
 ## For Developers
 

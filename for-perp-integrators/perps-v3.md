@@ -29,7 +29,7 @@ Perps V3 is live on Base, but (predominantly internal) updates are planned
 
 To better understand how to trade perps, see
 
-[perps-sdk.md](perps-sdk.md "mention")
+[perps-python-sdk.md](perps-python-sdk.md "mention")
 
 ## Workflow
 
