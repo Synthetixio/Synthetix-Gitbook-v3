@@ -36,11 +36,13 @@ The Spot Market is included, but only to be used as a mechanism to exchange the 
   * No fee on these, all atomic so can be composed with multicalls
 * _Coming: Andromeda Base Sandbox - in the meantime see the more general_ [sandbox-with-perps.md](sandbox-with-perps.md "mention") _can be used once USDC is wrapped and swapped to sUSD_
 
-// TODO: [https://github.com/pyth-network/pyth-sdk-solidity/blob/main/MockPyth.sol](https://github.com/pyth-network/pyth-sdk-solidity/blob/main/MockPyth.sol)
-
 {% embed url="https://usecannon.com/packages/synthetix-omnibus/latest/84531-andromeda" %}
 Base Goerli Andromeda
 {% endembed %}
+
+{% hint style="info" %}
+The Andromeda Release is configured to use oracle contracts which comply with [ERC-7412](https://eips.ethereum.org/EIPS/eip-7412). Use [the client library](https://erc7412.synthetix.io/) when building off-chain integrations like UIs and bots.
+{% endhint %}
 
 ## For LPs
 
@@ -51,8 +53,6 @@ LPs can arrive with USDC to provide liquidity (LP). The contracts or integrators
    2. Example: `wrap(1, 1000000000000000000, 1000000000000000000)`
 2. Deposit sUSDC to Pool
 3. Delegate sUSDC to Market
-
-// TODO: are fees in sUSD and need to be swapped back to USDC?
 
 When withdrawing, initial collateral plus any fees can be withdrawn, then unwrapped from sUSDC to USDC.
 
