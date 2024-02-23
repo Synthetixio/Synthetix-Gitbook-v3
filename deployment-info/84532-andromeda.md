@@ -1,3 +1,5 @@
+duplicate definition - InsufficientAccountCollateral(uint256)
+duplicate definition - InsufficientAccountCollateral(uint256)
 # Contracts
 
 <table data-full-width="true">
@@ -490,8 +492,8 @@ Perps market ID: <code>100</code>
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>5.25 k</td>
-      <td><code>5250000000000000000000</code> / <code>0x011c9a62d04ed0c80000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>maxOpenInterest</td>
@@ -640,7 +642,7 @@ Perps market ID: <code>100</code>
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xBf01fE835b3315968bbc094f50AE3164e6d3D969"><code>0xBf01fE835b3315968bbc094f50AE3164e6d3D969</code></a>
+        <a href="https://sepolia.basescan.org/address/0xF9e9e905d3745F5E0B803a179E17328CFe03B56d"><code>0xF9e9e905d3745F5E0B803a179E17328CFe03B56d</code></a>
       </td>
     </tr>
     <tr>
@@ -686,8 +688,8 @@ Perps market ID: <code>200</code>
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>300</td>
-      <td><code>300000000000000000000</code> / <code>0x1043561a8829300000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>maxOpenInterest</td>
@@ -836,7 +838,7 @@ Perps market ID: <code>200</code>
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xBf01fE835b3315968bbc094f50AE3164e6d3D969"><code>0xBf01fE835b3315968bbc094f50AE3164e6d3D969</code></a>
+        <a href="https://sepolia.basescan.org/address/0xF9e9e905d3745F5E0B803a179E17328CFe03B56d"><code>0xF9e9e905d3745F5E0B803a179E17328CFe03B56d</code></a>
       </td>
     </tr>
     <tr>
