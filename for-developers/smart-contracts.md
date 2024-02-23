@@ -5212,7 +5212,7 @@ InterestRateUpdated event is emitted
 #### initializeFactory
 
   ```solidity
-  function initializeFactory(contract ISynthetixSystem synthetix, contract ISpotMarketSystem spotMarket, string marketName) external returns (uint128)
+  function initializeFactory(contract ISynthetixSystem synthetix, contract ISpotMarketSystem spotMarket) external returns (uint128)
   ```
 
   Initializes the factory.
