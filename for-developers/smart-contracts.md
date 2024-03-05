@@ -1347,7 +1347,7 @@ by limiting the frequency of `delegateCollateral` (or `setPoolConfiguration`) ca
 #### MarketUsdDeposited
 
   ```solidity
-  event MarketUsdDeposited(uint128 marketId, address target, uint256 amount, address market, int128 creditCapacity, int128 netIssuance, uint256 depositedCollateralValue, uint256 reportedDebt)
+  event MarketUsdDeposited(uint128 marketId, address target, uint256 amount, address market, int128 creditCapacity, int128 netIssuance, uint256 depositedCollateralValue)
   ```
 
   Emitted when a market deposits snxUSD in the system.
@@ -1360,12 +1360,11 @@ by limiting the frequency of `delegateCollateral` (or `setPoolConfiguration`) ca
 * `creditCapacity` (*int128*) - Updated credit capacity of the market after depositing.
 * `netIssuance` (*int128*) - Updated net issuance.
 * `depositedCollateralValue` (*uint256*) - Updated deposited collateral value of the market.
-* `reportedDebt` (*uint256*) - Updated reported debt of the market after depositing.
 
 #### MarketUsdWithdrawn
 
   ```solidity
-  event MarketUsdWithdrawn(uint128 marketId, address target, uint256 amount, address market, int128 creditCapacity, int128 netIssuance, uint256 depositedCollateralValue, uint256 reportedDebt)
+  event MarketUsdWithdrawn(uint128 marketId, address target, uint256 amount, address market, int128 creditCapacity, int128 netIssuance, uint256 depositedCollateralValue)
   ```
 
   Emitted when a market withdraws snxUSD from the system.
@@ -1377,8 +1376,7 @@ by limiting the frequency of `delegateCollateral` (or `setPoolConfiguration`) ca
 * `market` (*address*) - The address of the external market that is withdrawing.
 * `creditCapacity` (*int128*) - Updated credit capacity of the market after withdrawing.
 * `netIssuance` (*int128*) - Updated net issuance.
-* `depositedCollateralValue` (*uint256*) - Updated deposited collateral value of the market.
-* `reportedDebt` (*uint256*) - Updated reported debt of the market after withdrawal.
+* `depositedCollateralValue` (*uint256*) - Updated deposited collateral value of the market
 
 #### MarketSystemFeePaid
 
@@ -4084,6 +4082,20 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 **Returns**
 * `orderFees` (*uint256*) - incurred fees.
 * `fillPrice` (*uint256*) - price at which the order would be filled.
+#### getSettlementRewardCost
+
+  ```solidity
+  function getSettlementRewardCost(uint128 marketId, uint128 settlementStrategyId) external view returns (uint256)
+  ```
+
+  Gets the settlement cost including keeper rewards and keeper costs.
+
+**Parameters**
+* `marketId` (*uint128*) - Id of the market.
+* `settlementStrategyId` (*uint128*) - Order size.
+
+**Returns**
+* `[0]` (*uint256*) - settlement cost.
 #### requiredMarginForOrder
 
   ```solidity
@@ -4643,6 +4655,21 @@ InterestRateUpdated event is emitted
 * `amountLiquidated` (*uint256*) - amount liquidated.
 * `currentPositionSize` (*int128*) - position size after liquidation.
 
+#### AccountFlaggedForLiquidation
+
+  ```solidity
+  event AccountFlaggedForLiquidation(uint128 accountId, int256 availableMargin, uint256 requiredMaintenanceMargin, uint256 liquidationReward, uint256 flagReward)
+  ```
+
+  Gets fired when an account is flagged for liquidation.
+
+**Parameters**
+* `accountId` (*uint128*) - Id of the account flagged.
+* `availableMargin` (*int256*) - available margin after flagging.
+* `requiredMaintenanceMargin` (*uint256*) - required maintenance margin which caused the flagging.
+* `liquidationReward` (*uint256*) - reward for fully liquidating account paid when liquidation occurs.
+* `flagReward` (*uint256*) - reward to keeper for flagging the account
+
 #### AccountLiquidationAttempt
 
   ```solidity
@@ -4757,10 +4784,10 @@ InterestRateUpdated event is emitted
 * `flagRewardRatioD18` (*uint256*) - the flag reward ratio (as decimal with 18 digits precision).
 * `minimumPositionMargin` (*uint256*) - the minimum position margin.
 
-#### setMaxMarketSizes
+#### setMaxMarketSize
 
   ```solidity
-  function setMaxMarketSizes(uint128 marketId, uint256 maxMarketSize, uint256 maxMarketValue) external
+  function setMaxMarketSize(uint128 marketId, uint256 maxMarketSize, uint256 maxMarketValue) external
   ```
 
   Set the max size of an specific market with this function.
@@ -4858,10 +4885,10 @@ InterestRateUpdated event is emitted
 **Returns**
 * `skewScale` (*uint256*) - the skew scale.
 * `maxFundingVelocity` (*uint256*) - the max funding velocity.
-#### getMaxMarketSizes
+#### getMaxMarketSize
 
   ```solidity
-  function getMaxMarketSizes(uint128 marketId) external view returns (uint256 maxMarketSize, uint256 maxMarketValue)
+  function getMaxMarketSize(uint128 marketId) external view returns (uint256 maxMarketSize, uint256 maxMarketValue)
   ```
 
   Gets the max size of an specific market.
@@ -5010,10 +5037,10 @@ InterestRateUpdated event is emitted
 * `flagRewardRatioD18` (*uint256*) - the flag reward ratio (as decimal with 18 digits precision).
 * `minimumPositionMargin` (*uint256*) - the minimum position margin.
 
-#### MaxMarketSizesSet
+#### MaxMarketSizeSet
 
   ```solidity
-  event MaxMarketSizesSet(uint128 marketId, uint256 maxMarketSize, uint256 maxMarketValue)
+  event MaxMarketSizeSet(uint128 marketId, uint256 maxMarketSize, uint256 maxMarketValue)
   ```
 
   Gets fired when max market value is updated.
@@ -5149,6 +5176,19 @@ InterestRateUpdated event is emitted
 * `accruedFunding` (*int256*) - accrued funding of the position.
 * `positionSize` (*int128*) - size of the position.
 * `owedInterest` (*uint256*) - interest owed due to open position.
+#### getOpenPositionSize
+
+  ```solidity
+  function getOpenPositionSize(uint128 accountId, uint128 marketId) external view returns (int128 positionSize)
+  ```
+
+  Gets an account open position data for a given account id and market id
+this function doesn't have any price staleness requirement
+
+**Parameters**
+* `accountId` (*uint128*) - Id of the account.
+* `marketId` (*uint128*) - Id of the position market.
+
 #### getAvailableMargin
 
   ```solidity
