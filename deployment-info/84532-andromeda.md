@@ -1,5 +1,3 @@
-duplicate definition - InsufficientAccountCollateral(uint256)
-duplicate definition - InsufficientAccountCollateral(uint256)
 # Contracts
 
 <table data-full-width="true">
@@ -492,8 +490,8 @@ Perps market ID: <code>100</code>
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>n/a</td>
-      <td><code>undefined</code></td>
+      <td><code>[{"type":"BigNumber","hex":"0x011c9a62d04ed0c80000"},{"type":"BigNumber","hex":"0x0ee3a5f48a68b552000000"}]</code></td>
+      <td><code>[{"type":"BigNumber","hex":"0x011c9a62d04ed0c80000"},{"type":"BigNumber","hex":"0x0ee3a5f48a68b552000000"}]</code></td>
     </tr>
     <tr>
       <td>maxOpenInterest</td>
@@ -688,8 +686,8 @@ Perps market ID: <code>200</code>
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>n/a</td>
-      <td><code>undefined</code></td>
+      <td><code>[{"type":"BigNumber","hex":"0x1043561a8829300000"},{"type":"BigNumber","hex":"0x0ee3a5f48a68b552000000"}]</code></td>
+      <td><code>[{"type":"BigNumber","hex":"0x1043561a8829300000"},{"type":"BigNumber","hex":"0x0ee3a5f48a68b552000000"}]</code></td>
     </tr>
     <tr>
       <td>maxOpenInterest</td>
