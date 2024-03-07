@@ -490,8 +490,8 @@ Perps market ID: <code>100</code>
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td><code>[{"type":"BigNumber","hex":"0x011c9a62d04ed0c80000"},{"type":"BigNumber","hex":"0x0ee3a5f48a68b552000000"}]</code></td>
-      <td><code>[{"type":"BigNumber","hex":"0x011c9a62d04ed0c80000"},{"type":"BigNumber","hex":"0x0ee3a5f48a68b552000000"}]</code></td>
+      <td>5.25 k</td>
+      <td><code>5250000000000000000000</code> / <code>0x011c9a62d04ed0c80000</code></td>
     </tr>
     <tr>
       <td>maxOpenInterest</td>
@@ -686,8 +686,8 @@ Perps market ID: <code>200</code>
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td><code>[{"type":"BigNumber","hex":"0x1043561a8829300000"},{"type":"BigNumber","hex":"0x0ee3a5f48a68b552000000"}]</code></td>
-      <td><code>[{"type":"BigNumber","hex":"0x1043561a8829300000"},{"type":"BigNumber","hex":"0x0ee3a5f48a68b552000000"}]</code></td>
+      <td>300</td>
+      <td><code>300000000000000000000</code> / <code>0x1043561a8829300000</code></td>
     </tr>
     <tr>
       <td>maxOpenInterest</td>
