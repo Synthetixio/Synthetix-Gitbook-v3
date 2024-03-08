@@ -640,7 +640,7 @@ Perps market ID: <code>100</code>
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xBf01fE835b3315968bbc094f50AE3164e6d3D969"><code>0xBf01fE835b3315968bbc094f50AE3164e6d3D969</code></a>
+        <a href="https://sepolia.basescan.org/address/0xF9e9e905d3745F5E0B803a179E17328CFe03B56d"><code>0xF9e9e905d3745F5E0B803a179E17328CFe03B56d</code></a>
       </td>
     </tr>
     <tr>
@@ -836,7 +836,7 @@ Perps market ID: <code>200</code>
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xBf01fE835b3315968bbc094f50AE3164e6d3D969"><code>0xBf01fE835b3315968bbc094f50AE3164e6d3D969</code></a>
+        <a href="https://sepolia.basescan.org/address/0xF9e9e905d3745F5E0B803a179E17328CFe03B56d"><code>0xF9e9e905d3745F5E0B803a179E17328CFe03B56d</code></a>
       </td>
     </tr>
     <tr>
