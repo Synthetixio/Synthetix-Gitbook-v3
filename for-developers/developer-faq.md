@@ -11,6 +11,7 @@ Where can I get assets on OP Goerli?&#x20;
 * `ETH`: Optimism Goerli ETH is available from various faucets. We recommend the official [Optimism faucet](https://app.optimism.io/faucet) but there are also [other faucets](https://community.optimism.io/docs/useful-tools/faucets/) available.
 * `snxETH`: You can wrap OP Goerli ETH into snxETH on "Spot" tab of [the market prototype](https://synthetix-markets-prototype.vercel.app/). This is the easiest way to get assets for testing if you have testnet ETH.
 * `snxUSD`: snxETH acquired through wrapping can be sold for snxUSD on the spot market prototype.
+* Alternatively testnet stablecoins can be acquired on Base Sepolia with a [helper contract](https://sepolia.basescan.org/address/0xa1ae612e07511a947783c629295678c07748bc7a). Use the function deposit\_eth, specify the address of the stablecoin (snxUSD,fUSDC,sUSDC) and send some ETH to receive stable coins. Note that for perp integrators, you can use snxUSD as margin.
 
 ## Smart Contracts
 
