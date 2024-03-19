@@ -152,7 +152,7 @@ Token address: <a href="https://etherscan.io/address/0xC011a73ee8576Fb46F5E1c575
     <tr>
       <td>oracleNodeId</td>
       <td></td>
-      <td><code>"0x050be821f7e92c7ca8366e2fe01eee313272231d436c5deaed75b978d78f7116"</code></td>
+      <td><code>"0xe68abf6ddc460cb9989f6cfd808b3af937f896a38dd4a271b81c2b60c3511516"</code></td>
     </tr>
     <tr>
       <td>minDelegationD18</td>
