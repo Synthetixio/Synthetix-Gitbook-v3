@@ -107,6 +107,30 @@
       </td>
     </tr>
     <tr>
+      <td>RewardsDistributorForSpartanCouncilPool</td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0x6B2554A8349319597D1a8a36DeeD07Fb7c70400d"><code>0x6B2554A8349319597D1a8a36DeeD07Fb7c70400d</code></a>
+      </td>
+      <td>
+        <a href="./84532-andromeda/RewardsDistributorForSpartanCouncilPool.json"><code>RewardsDistributorForSpartanCouncilPool.json</code></a>
+      </td>
+      <td>
+        <a href="./84532-andromeda/RewardsDistributorForSpartanCouncilPool.readable.json"><code>RewardsDistributorForSpartanCouncilPool.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>FakeCollateralfwSNX</td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0x2aa3cBB35161F33b113c849349D345d1807738de"><code>0x2aa3cBB35161F33b113c849349D345d1807738de</code></a>
+      </td>
+      <td>
+        <a href="./84532-andromeda/FakeCollateralfwSNX.json"><code>FakeCollateralfwSNX.json</code></a>
+      </td>
+      <td>
+        <a href="./84532-andromeda/FakeCollateralfwSNX.readable.json"><code>FakeCollateralfwSNX.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
       <td>FakeCollateralfUSDC</td>
       <td>
         <a href="https://sepolia.basescan.org/address/0x69980C3296416820623b3e3b30703A74e2320bC8"><code>0x69980C3296416820623b3e3b30703A74e2320bC8</code></a>
@@ -925,6 +949,16 @@ Perps market ID: <code>200</code>
       <td>
         <a href="https://sepolia.basescan.org/address/0xE6C5f05C415126E6b81FCc3619f65Db2fCAd58D0"><code>0xE6C5f05C415126E6b81FCc3619f65Db2fCAd58D0</code></a>
       </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>RewardsDistributorForSpartanCouncilPool</td>
+      <td>n/a</td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>FakeCollateralfwSNX</td>
+      <td>n/a</td>
       <td>n/a</td>
     </tr>
     <tr>
