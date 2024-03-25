@@ -107,15 +107,15 @@
       </td>
     </tr>
     <tr>
-      <td>RewardsDistributorForSpartanCouncilPool</td>
+      <td>RewardsDistributorForSpartanCouncilPoolSNX</td>
       <td>
         <a href="https://sepolia.basescan.org/address/0x6B2554A8349319597D1a8a36DeeD07Fb7c70400d"><code>0x6B2554A8349319597D1a8a36DeeD07Fb7c70400d</code></a>
       </td>
       <td>
-        <a href="./84532-andromeda/RewardsDistributorForSpartanCouncilPool.json"><code>RewardsDistributorForSpartanCouncilPool.json</code></a>
+        <a href="./84532-andromeda/RewardsDistributorForSpartanCouncilPoolSNX.json"><code>RewardsDistributorForSpartanCouncilPoolSNX.json</code></a>
       </td>
       <td>
-        <a href="./84532-andromeda/RewardsDistributorForSpartanCouncilPool.readable.json"><code>RewardsDistributorForSpartanCouncilPool.readable.json</code></a>
+        <a href="./84532-andromeda/RewardsDistributorForSpartanCouncilPoolSNX.readable.json"><code>RewardsDistributorForSpartanCouncilPoolSNX.readable.json</code></a>
       </td>
     </tr>
     <tr>
@@ -952,7 +952,7 @@ Perps market ID: <code>200</code>
       <td>n/a</td>
     </tr>
     <tr>
-      <td>RewardsDistributorForSpartanCouncilPool</td>
+      <td>RewardsDistributorForSpartanCouncilPoolSNX</td>
       <td>n/a</td>
       <td>n/a</td>
     </tr>
