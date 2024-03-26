@@ -107,6 +107,18 @@
       </td>
     </tr>
     <tr>
+      <td>RewardsDistributorForSpartanCouncilPoolUSDC</td>
+      <td>
+        <a href="https://basescan.org/address/0xe92bcD40849BE5a5eb90065402e508aF4b28263b"><code>0xe92bcD40849BE5a5eb90065402e508aF4b28263b</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/RewardsDistributorForSpartanCouncilPoolUSDC.json"><code>RewardsDistributorForSpartanCouncilPoolUSDC.json</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/RewardsDistributorForSpartanCouncilPoolUSDC.readable.json"><code>RewardsDistributorForSpartanCouncilPoolUSDC.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
       <td>USDCToken</td>
       <td>
         <a href="https://basescan.org/address/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"><code>0x833589fcd6edb6e08f4c7c32d4f71b54bda02913</code></a>
@@ -886,6 +898,11 @@ Perps market ID: <code>200</code>
       <td>
         <a href="https://basescan.org/address/0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce"><code>0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce</code></a>
       </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>RewardsDistributorForSpartanCouncilPoolUSDC</td>
+      <td>n/a</td>
       <td>n/a</td>
     </tr>
     <tr>
