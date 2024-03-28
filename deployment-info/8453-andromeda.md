@@ -625,7 +625,7 @@ Perps market ID: <code>100</code>
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0xEb38e347F24ea04ffA945a475BdD949E0c383A0F"><code>0xEb38e347F24ea04ffA945a475BdD949E0c383A0F</code></a>
+        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
       </td>
     </tr>
     <tr>
@@ -821,7 +821,7 @@ Perps market ID: <code>200</code>
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0xEb38e347F24ea04ffA945a475BdD949E0c383A0F"><code>0xEb38e347F24ea04ffA945a475BdD949E0c383A0F</code></a>
+        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
       </td>
     </tr>
     <tr>
