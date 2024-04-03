@@ -13,7 +13,7 @@
     <tr>
       <td>CoreProxy</td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xF4Df9Dd327Fd30695d478c3c8a2fffAddcdD0d31"><code>0xF4Df9Dd327Fd30695d478c3c8a2fffAddcdD0d31</code></a>
+        <a href="https://sepolia.basescan.org/address/0x764F4C95FDA0D6f8114faC54f6709b1B45f919a1"><code>0x764F4C95FDA0D6f8114faC54f6709b1B45f919a1</code></a>
       </td>
       <td>
         <a href="./84532-andromeda/CoreProxy.json"><code>CoreProxy.json</code></a>
@@ -25,7 +25,7 @@
     <tr>
       <td>AccountProxy</td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xa88694d0025dd96194D1B0237fDEbf7D1D34B02F"><code>0xa88694d0025dd96194D1B0237fDEbf7D1D34B02F</code></a>
+        <a href="https://sepolia.basescan.org/address/0x9EB560Cc26c2766929A41F8e46E87bd4b8b145d9"><code>0x9EB560Cc26c2766929A41F8e46E87bd4b8b145d9</code></a>
       </td>
       <td>
         <a href="./84532-andromeda/AccountProxy.json"><code>AccountProxy.json</code></a>
@@ -37,7 +37,7 @@
     <tr>
       <td>USDProxy</td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xa89163A087fe38022690C313b5D4BBF12574637f"><code>0xa89163A087fe38022690C313b5D4BBF12574637f</code></a>
+        <a href="https://sepolia.basescan.org/address/0x682f0d17feDC62b2a0B91f8992243Bf44cAfeaaE"><code>0x682f0d17feDC62b2a0B91f8992243Bf44cAfeaaE</code></a>
       </td>
       <td>
         <a href="./84532-andromeda/USDProxy.json"><code>USDProxy.json</code></a>
@@ -49,7 +49,7 @@
     <tr>
       <td>OracleManagerProxy</td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0x439e6cbAaF61C63f406687907022960088801EC0"><code>0x439e6cbAaF61C63f406687907022960088801EC0</code></a>
+        <a href="https://sepolia.basescan.org/address/0xD4E93f8a0aBc321ECC5b4bFBb501cb968e121F21"><code>0xD4E93f8a0aBc321ECC5b4bFBb501cb968e121F21</code></a>
       </td>
       <td>
         <a href="./84532-andromeda/OracleManagerProxy.json"><code>OracleManagerProxy.json</code></a>
@@ -73,7 +73,7 @@
     <tr>
       <td>SpotMarketProxy</td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xA4fE63F8ea9657990eA8E05Ebfa5C19a7D4d7337"><code>0xA4fE63F8ea9657990eA8E05Ebfa5C19a7D4d7337</code></a>
+        <a href="https://sepolia.basescan.org/address/0xaD2fE7cd224c58871f541DAE01202F93928FEF72"><code>0xaD2fE7cd224c58871f541DAE01202F93928FEF72</code></a>
       </td>
       <td>
         <a href="./84532-andromeda/SpotMarketProxy.json"><code>SpotMarketProxy.json</code></a>
@@ -85,7 +85,7 @@
     <tr>
       <td>PerpsMarketProxy</td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xE6C5f05C415126E6b81FCc3619f65Db2fCAd58D0"><code>0xE6C5f05C415126E6b81FCc3619f65Db2fCAd58D0</code></a>
+        <a href="https://sepolia.basescan.org/address/0xf53Ca60F031FAf0E347D44FbaA4870da68250c8d"><code>0xf53Ca60F031FAf0E347D44FbaA4870da68250c8d</code></a>
       </td>
       <td>
         <a href="./84532-andromeda/PerpsMarketProxy.json"><code>PerpsMarketProxy.json</code></a>
@@ -97,7 +97,7 @@
     <tr>
       <td>PerpsAccountProxy</td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0x87f578681CDE29F0701E7274708E1A67Ee9eEf94"><code>0x87f578681CDE29F0701E7274708E1A67Ee9eEf94</code></a>
+        <a href="https://sepolia.basescan.org/address/0xc8eE218577545D5b38443C0eB5d7B9E4140085F2"><code>0xc8eE218577545D5b38443C0eB5d7B9E4140085F2</code></a>
       </td>
       <td>
         <a href="./84532-andromeda/PerpsAccountProxy.json"><code>PerpsAccountProxy.json</code></a>
@@ -109,7 +109,7 @@
     <tr>
       <td>RewardsDistributorForSpartanCouncilPoolSNX</td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0x6B2554A8349319597D1a8a36DeeD07Fb7c70400d"><code>0x6B2554A8349319597D1a8a36DeeD07Fb7c70400d</code></a>
+        <a href="https://sepolia.basescan.org/address/0x8fc43B07ae70c29d423c27d0e8028366854144C7"><code>0x8fc43B07ae70c29d423c27d0e8028366854144C7</code></a>
       </td>
       <td>
         <a href="./84532-andromeda/RewardsDistributorForSpartanCouncilPoolSNX.json"><code>RewardsDistributorForSpartanCouncilPoolSNX.json</code></a>
@@ -121,7 +121,7 @@
     <tr>
       <td>RewardsDistributorForSpartanCouncilPoolUSDC</td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xFba808B1d7D283bE822aB9af880Cb37B16194410"><code>0xFba808B1d7D283bE822aB9af880Cb37B16194410</code></a>
+        <a href="https://sepolia.basescan.org/address/0xA28719DDDa6e129d5E8fd470A17Cd075cEf5d25A"><code>0xA28719DDDa6e129d5E8fd470A17Cd075cEf5d25A</code></a>
       </td>
       <td>
         <a href="./84532-andromeda/RewardsDistributorForSpartanCouncilPoolUSDC.json"><code>RewardsDistributorForSpartanCouncilPoolUSDC.json</code></a>
@@ -133,7 +133,7 @@
     <tr>
       <td>FakeCollateralfwSNX</td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0x2aa3cBB35161F33b113c849349D345d1807738de"><code>0x2aa3cBB35161F33b113c849349D345d1807738de</code></a>
+        <a href="https://sepolia.basescan.org/address/0x8F4b425597A70001E255d067626e4860E2543f22"><code>0x8F4b425597A70001E255d067626e4860E2543f22</code></a>
       </td>
       <td>
         <a href="./84532-andromeda/FakeCollateralfwSNX.json"><code>FakeCollateralfwSNX.json</code></a>
@@ -145,7 +145,7 @@
     <tr>
       <td>FakeCollateralfUSDC</td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0x69980C3296416820623b3e3b30703A74e2320bC8"><code>0x69980C3296416820623b3e3b30703A74e2320bC8</code></a>
+        <a href="https://sepolia.basescan.org/address/0xc43708f8987Df3f3681801e5e640667D86Ce3C30"><code>0xc43708f8987Df3f3681801e5e640667D86Ce3C30</code></a>
       </td>
       <td>
         <a href="./84532-andromeda/FakeCollateralfUSDC.json"><code>FakeCollateralfUSDC.json</code></a>
@@ -157,7 +157,7 @@
     <tr>
       <td>SynthUSDCToken</td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0x434Aa3FDb11798EDaB506D4a5e48F70845a66219"><code>0x434Aa3FDb11798EDaB506D4a5e48F70845a66219</code></a>
+        <a href="https://sepolia.basescan.org/address/0x8069c44244e72443722cfb22DcE5492cba239d39"><code>0x8069c44244e72443722cfb22DcE5492cba239d39</code></a>
       </td>
       <td>
         <a href="./84532-andromeda/SynthUSDCToken.json"><code>SynthUSDCToken.json</code></a>
@@ -209,7 +209,7 @@
 
 # Collateral `fUSDC` Fake USD Coin
 
-Token address: <a href="https://sepolia.basescan.org/address/0x69980C3296416820623b3e3b30703A74e2320bC8"><code>0x69980C3296416820623b3e3b30703A74e2320bC8</code></a>
+Token address: <a href="https://sepolia.basescan.org/address/0xc43708f8987Df3f3681801e5e640667D86Ce3C30"><code>0xc43708f8987Df3f3681801e5e640667D86Ce3C30</code></a>
 
 <table data-full-width="true">
   <thead>
@@ -260,7 +260,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x69980C32964168206
 
 # Collateral `snxUSD` Synthetic USD Token v3
 
-Token address: <a href="https://sepolia.basescan.org/address/0xa89163A087fe38022690C313b5D4BBF12574637f"><code>0xa89163A087fe38022690C313b5D4BBF12574637f</code></a>
+Token address: <a href="https://sepolia.basescan.org/address/0x682f0d17feDC62b2a0B91f8992243Bf44cAfeaaE"><code>0x682f0d17feDC62b2a0B91f8992243Bf44cAfeaaE</code></a>
 
 <table data-full-width="true">
   <thead>
@@ -311,7 +311,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0xa89163A087fe38022
 
 # Collateral `sUSDC` Synthetic USD Coin
 
-Token address: <a href="https://sepolia.basescan.org/address/0x434Aa3FDb11798EDaB506D4a5e48F70845a66219"><code>0x434Aa3FDb11798EDaB506D4a5e48F70845a66219</code></a>
+Token address: <a href="https://sepolia.basescan.org/address/0x8069c44244e72443722cfb22DcE5492cba239d39"><code>0x8069c44244e72443722cfb22DcE5492cba239d39</code></a>
 
 <table data-full-width="true">
   <thead>
@@ -362,7 +362,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x434Aa3FDb11798EDa
 
 # Deprecated Collateral (DO NOT USE!) `fUSDC` Fake USD Coin
 
-Token address: <a href="https://sepolia.basescan.org/address/0x10e55D2110C71AfAb55244fcaFdA71D01B387F4c"><code>0x10e55D2110C71AfAb55244fcaFdA71D01B387F4c</code></a>
+Token address: <a href="https://sepolia.basescan.org/address/0x69980C3296416820623b3e3b30703A74e2320bC8"><code>0x69980C3296416820623b3e3b30703A74e2320bC8</code></a>
 
 <table data-full-width="true">
   <thead>
@@ -395,8 +395,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x10e55D2110C71AfAb
     </tr>
     <tr>
       <td>liquidationRewardD18</td>
-      <td>5</td>
-      <td><code>5000000000000000000</code> / <code>0x4563918244f40000</code></td>
+      <td>0.005</td>
+      <td><code>5000000000000000</code> / <code>0x11c37937e08000</code></td>
     </tr>
     <tr>
       <td>oracleNodeId</td>
@@ -451,14 +451,14 @@ Token address: <a href="https://sepolia.basescan.org/address/0x10e55D2110C71AfAb
       <td>synthAddress</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0x434Aa3FDb11798EDaB506D4a5e48F70845a66219"><code>0x434Aa3FDb11798EDaB506D4a5e48F70845a66219</code></a>
+        <a href="https://sepolia.basescan.org/address/0x8069c44244e72443722cfb22DcE5492cba239d39"><code>0x8069c44244e72443722cfb22DcE5492cba239d39</code></a>
       </td>
     </tr>
     <tr>
       <td>implementationAddress</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0x82e9ADFCB8BB5D0213675023C4fA25c5EA3B1DA0"><code>0x82e9ADFCB8BB5D0213675023C4fA25c5EA3B1DA0</code></a>
+        <a href="https://sepolia.basescan.org/address/0x3b1D0009899067D7DB5e859c182410714caf8725"><code>0x3b1D0009899067D7DB5e859c182410714caf8725</code></a>
       </td>
     </tr>
     <tr>
@@ -919,14 +919,14 @@ Perps market ID: <code>200</code>
     <tr>
       <td>AccountProxy</td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xF4Df9Dd327Fd30695d478c3c8a2fffAddcdD0d31"><code>0xF4Df9Dd327Fd30695d478c3c8a2fffAddcdD0d31</code></a>
+        <a href="https://sepolia.basescan.org/address/0x764F4C95FDA0D6f8114faC54f6709b1B45f919a1"><code>0x764F4C95FDA0D6f8114faC54f6709b1B45f919a1</code></a>
       </td>
       <td>n/a</td>
     </tr>
     <tr>
       <td>USDProxy</td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xF4Df9Dd327Fd30695d478c3c8a2fffAddcdD0d31"><code>0xF4Df9Dd327Fd30695d478c3c8a2fffAddcdD0d31</code></a>
+        <a href="https://sepolia.basescan.org/address/0x764F4C95FDA0D6f8114faC54f6709b1B45f919a1"><code>0x764F4C95FDA0D6f8114faC54f6709b1B45f919a1</code></a>
       </td>
       <td>n/a</td>
     </tr>
@@ -959,7 +959,7 @@ Perps market ID: <code>200</code>
     <tr>
       <td>PerpsAccountProxy</td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xE6C5f05C415126E6b81FCc3619f65Db2fCAd58D0"><code>0xE6C5f05C415126E6b81FCc3619f65Db2fCAd58D0</code></a>
+        <a href="https://sepolia.basescan.org/address/0xf53Ca60F031FAf0E347D44FbaA4870da68250c8d"><code>0xf53Ca60F031FAf0E347D44FbaA4870da68250c8d</code></a>
       </td>
       <td>n/a</td>
     </tr>
@@ -988,7 +988,7 @@ Perps market ID: <code>200</code>
     <tr>
       <td>SynthUSDCToken</td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xA4fE63F8ea9657990eA8E05Ebfa5C19a7D4d7337"><code>0xA4fE63F8ea9657990eA8E05Ebfa5C19a7D4d7337</code></a>
+        <a href="https://sepolia.basescan.org/address/0xaD2fE7cd224c58871f541DAE01202F93928FEF72"><code>0xaD2fE7cd224c58871f541DAE01202F93928FEF72</code></a>
       </td>
       <td>n/a</td>
     </tr>
