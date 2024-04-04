@@ -8,9 +8,13 @@
 
 3\.  Connect your wallet, then click 'Create Account'
 
+<figure><img src="../.gitbook/assets/CleanShot 2024-04-04 at 06.46.10@2x.png" alt=""><figcaption></figcaption></figure>
+
 4\.  Click "Deposit" on the USDC tab within the Spartan Council Pool
 
 5\.  Deposit your USDC collateral
+
+<figure><img src="../.gitbook/assets/CleanShot 2024-04-04 at 06.46.42@2x.png" alt=""><figcaption></figcaption></figure>
 
 6\.  You're now an LP and eligible for perps trading fees + USDC/SNX LP incentives
 
