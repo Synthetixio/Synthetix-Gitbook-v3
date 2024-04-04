@@ -12,6 +12,7 @@
 * [Liquidity Positions](for-liquidity-providers/liquidity-positions/README.md)
   * [Minting and Burning snxUSD](for-liquidity-providers/liquidity-positions/minting-and-burning-snxusd.md)
   * [Position Liquidations](for-liquidity-providers/liquidity-positions/position-liquidations.md)
+* [Base LP Guide](for-liquidity-providers/base-lp-guide.md)
 
 ## For Liquidity Pool Managers
 
