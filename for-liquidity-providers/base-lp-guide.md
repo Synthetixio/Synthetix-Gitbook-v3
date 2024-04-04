@@ -6,7 +6,7 @@
 
 2\.  Go to the [Synthetix V3 LP app](https://liquidity.synthetix.eth.limo/)
 
-3\.  Connect your wallet, then click 'Create Account'
+3\.  Connect your wallet, switch network to Base, then click 'Create Account'
 
 <figure><img src="../.gitbook/assets/CleanShot 2024-04-04 at 06.46.10@2x.png" alt=""><figcaption></figcaption></figure>
 
