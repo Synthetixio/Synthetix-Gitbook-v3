@@ -1,6 +1,6 @@
 # Base LP Guide
 
-**Steps to Get Started:**
+### **Steps to LP on Base:**
 
 1\.  Bridge or obtain USDC on Base
 
@@ -27,10 +27,15 @@
 * Fee split: 40% to LPs, 40% to SNX buyback and burn, 20% to integrators.&#x20;
 * Reference other blog posts for incentive program details and timelines.
 
-**Risks of LPing:**
+### **Risks of LPing:**
 
-* ⚠️ Skew or poor market performance can increase debt
-* ⚠️ Smart contract vulnerabilities
-* ⚠️ Collateral depeg (USDC)
+⚠️ Skew or poor market performance can increase debt
+
+* In the first few weeks after launch, debt levels may fluctuate based on trader performance and market conditions.
+* As Open Interest caps are increased, arbitrageurs are expected to balance any skew in the perps markets, neutralizing its impact on debt.
+
+⚠️ Smart contract vulnerabilities
+
+⚠️ Collateral depeg (USDC)
 
 As always, do your own research and only deposit what you can afford to lose. Understanding the risks is crucial before participating as a liquidity provider.
