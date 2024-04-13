@@ -334,8 +334,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x8069c44244e724437
     </tr>
     <tr>
       <td>issuanceRatioD18</td>
-      <td><code>MaxUint256</code></td>
-      <td><code>MaxUint256</code> / <code>0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</code></td>
+      <td>1.01</td>
+      <td><code>1005000000000000000</code> / <code>0x0df27a2cdf448000</code></td>
     </tr>
     <tr>
       <td>liquidationRatioD18</td>
