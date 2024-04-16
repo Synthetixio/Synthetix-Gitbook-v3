@@ -490,8 +490,8 @@ Perps market ID: <code>100</code>
     </tr>
     <tr>
       <td>skewScale</td>
-      <td>0.5 m</td>
-      <td><code>500000000000000000000000</code> / <code>0x69e10de76676d0800000</code></td>
+      <td>350 k</td>
+      <td><code>350000000000000000000000</code> / <code>0x4a1d89bb94865ec00000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
@@ -505,8 +505,8 @@ Perps market ID: <code>100</code>
     </tr>
     <tr>
       <td>makerFee</td>
-      <td>0.0002</td>
-      <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
+      <td>0.000001</td>
+      <td><code>1000000000000</code> / <code>0xe8d4a51000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
@@ -701,8 +701,8 @@ Perps market ID: <code>200</code>
     </tr>
     <tr>
       <td>makerFee</td>
-      <td>0.0002</td>
-      <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
+      <td>0.000001</td>
+      <td><code>1000000000000</code> / <code>0xe8d4a51000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
@@ -1470,8 +1470,8 @@ Perps market ID: <code>600</code>
     </tr>
     <tr>
       <td>skewScale</td>
-      <td>8.75 m</td>
-      <td><code>8750000000000000000000000</code> / <code>0x073ce27351811f40c00000</code></td>
+      <td>26.25 m</td>
+      <td><code>26250000000000000000000000</code> / <code>0x15b6a759f4835dc2400000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
