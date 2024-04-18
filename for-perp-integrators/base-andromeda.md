@@ -1,16 +1,13 @@
 ---
-description: Evolving reference for Core V3 + Perps V3 on Base
+description: Reference for Core V3 + Perps V3 on Base
 ---
 
 # Base Andromeda
 
 {% hint style="info" %}
-### Evolving timeline
+### Evolving configuration
 
-* Andromeda on [Base Goerli](https://usecannon.com/packages/synthetix-omnibus/latest/84531-andromeda)&#x20;
-* Andromeda on [Base Sepolia](https://usecannon.com/packages/synthetix-omnibus/latest/84532-andromeda)
-* Andromeda on [Base Mainnet](https://usecannon.com/packages/synthetix-omnibus/latest/8453-andromeda)
-* TBC: Public launch and announcements
+* See [deployment-info.md](../for-developers/deployment-info.md "mention")
 {% endhint %}
 
 ## Introduction

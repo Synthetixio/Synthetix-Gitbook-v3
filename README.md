@@ -5,7 +5,7 @@ description: Synthetix, the derivatives liquidity protocol
 # Overview
 
 {% hint style="info" %}
-**Synthetix V3 is currently in alpha**
+**Synthetix V3 is live**
 
 * Some v3 functions are yet to be enabled, see [development-progress.md](development-progress.md "mention")
 * If you were looking for V2, visit the V2 documentation [here](https://docs.synthetix.io/synthetix-protocol).
