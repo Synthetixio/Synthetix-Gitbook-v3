@@ -24,6 +24,6 @@ A number of services are required to create a complete view of the historical da
 
 These services are relatively lightweight and do not require massive amounts of storage. It is possible to run the entire service locally on most modern consumer hardware, given you have access to archive RPC nodes for each blockchain.
 
-The repo has a Docker compose file detailing these services and their configurations. Users can choose to comment out certain services.
+The repo has a Docker compose file detailing these services and their configurations. Users can choose to comment out certain services. For example, a user may choose to disable indexers for certain chains, or disable the dashboard to simply run a historical database as the backend for an API.
 
 For more details or to ask more questions about running an instance, you can ask in the #dev-portal channel in the Synthetix discord.
