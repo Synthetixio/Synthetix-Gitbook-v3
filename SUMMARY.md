@@ -51,6 +51,7 @@
 * [Technical Architecture](for-developers/technical-architecture.md)
 * [Smart Contracts](for-developers/smart-contracts.md)
 * [Subgraphs](for-developers/subgraphs.md)
+* [Data Platform](for-developers/data-platform.md)
 * [Data Dictionary](for-developers/data-dictionary.md)
 * [Addresses + ABIs](for-developers/addresses-+-abis.md)
 * [Smart Contract Audits](for-developers/smart-contract-audits.md)
