@@ -122,7 +122,7 @@
     <tr>
       <td>system</td>
       <td><a href="https://usecannon.com/packages/synthetix/3.3.15/8453-andromeda">synthetix:3.3.15@andromeda</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/Qmda81DAUrctJ8Wjeg6ZwVYHpSDUQMvGdu58vNK91KNSvq">Qmda81DAUrctJ8Wjeg6ZwVYHpSDUQMvGdu58vNK91KNSvq</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmTpKda7VabTzBqsg4SoWCdAupcA7KD3hv8zRJ287GN7tL">QmTpKda7VabTzBqsg4SoWCdAupcA7KD3hv8zRJ287GN7tL</a></td>
       <td>
         bundleSalt: main<br />oracle_manager_source: oracle-manager:3.3.15<br />owner: <a href="https://basescan.org/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />salt: main
@@ -131,7 +131,7 @@
     <tr>
       <td>spotFactory</td>
       <td><a href="https://usecannon.com/packages/synthetix-spot-market/3.3.15/8453-andromeda">synthetix-spot-market:3.3.15@andromeda</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmS44EV4aeQrFy4EQoYNAidyaEpYyZkauhgirW8nkpWAPD">QmS44EV4aeQrFy4EQoYNAidyaEpYyZkauhgirW8nkpWAPD</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmPsMj8DWgzqtFZokVTpHNgk4Hyi9RnMR8dqMnAzk1QN4c">QmPsMj8DWgzqtFZokVTpHNgk4Hyi9RnMR8dqMnAzk1QN4c</a></td>
       <td>
         owner: <a href="https://basescan.org/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />salt: snax<br />synthetixPackage: synthetix:3.3.15<br />synthetixPreset: main
@@ -140,7 +140,7 @@
     <tr>
       <td>perpsFactory</td>
       <td><a href="https://usecannon.com/packages/synthetix-perps-market/3.3.19/8453-andromeda">synthetix-perps-market:3.3.19@andromeda</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/Qmc5SpEAd1kWRvLvh56WAYbmonpSmtAe2nKnJhYYXrQMW7">Qmc5SpEAd1kWRvLvh56WAYbmonpSmtAe2nKnJhYYXrQMW7</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmQczPLqWAdrFs74xEph6VJXdT5wAob4ZvtGUZvZsKcqgJ">QmQczPLqWAdrFs74xEph6VJXdT5wAob4ZvtGUZvZsKcqgJ</a></td>
       <td>
         coreProxyOwner: <a href="https://basescan.org/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />owner: <a href="https://basescan.org/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
