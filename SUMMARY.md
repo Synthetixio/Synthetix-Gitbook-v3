@@ -61,6 +61,7 @@
   * [Optimism Mainnet](deployment-info/10-main.md)
   * [Base Mainnet Andromeda](deployment-info/8453-andromeda.md)
   * [Base Sepolia Andromeda](deployment-info/84532-andromeda.md)
+  * [Arbitrum Sepolia](deployment-info/421614-main.md)
 * [Perps Market](for-developers/perps-market.md)
 * [Spot Market](for-developers/spot-market.md)
 
