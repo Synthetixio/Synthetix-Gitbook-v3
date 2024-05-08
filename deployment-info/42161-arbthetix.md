@@ -12,7 +12,9 @@
   <tbody>
     <tr>
       <td>CoreProxy</td>
-      <td>undefined</td>
+      <td>
+        <a href="https://arbiscan.io/address/0x4Ab09F627fa9706f33178129005300Fd4c00EDF1"><code>0x4Ab09F627fa9706f33178129005300Fd4c00EDF1</code></a>
+      </td>
       <td>
         <a href="./42161-arbthetix/CoreProxy.json"><code>CoreProxy.json</code></a>
       </td>
@@ -22,7 +24,9 @@
     </tr>
     <tr>
       <td>AccountProxy</td>
-      <td>undefined</td>
+      <td>
+        <a href="https://arbiscan.io/address/0x6e29bE5d3772f9eEeE9a5FEa5DEDDA7F81292b5a"><code>0x6e29bE5d3772f9eEeE9a5FEa5DEDDA7F81292b5a</code></a>
+      </td>
       <td>
         <a href="./42161-arbthetix/AccountProxy.json"><code>AccountProxy.json</code></a>
       </td>
@@ -32,7 +36,9 @@
     </tr>
     <tr>
       <td>USDProxy</td>
-      <td>undefined</td>
+      <td>
+        <a href="https://arbiscan.io/address/0x574036F5926AA5dD34d16c245e5992f4F2299BB2"><code>0x574036F5926AA5dD34d16c245e5992f4F2299BB2</code></a>
+      </td>
       <td>
         <a href="./42161-arbthetix/USDProxy.json"><code>USDProxy.json</code></a>
       </td>
@@ -42,7 +48,9 @@
     </tr>
     <tr>
       <td>OracleManagerProxy</td>
-      <td>undefined</td>
+      <td>
+        <a href="https://arbiscan.io/address/0xCD4cbBe3a36D145072cDDB89B0AE966761E416F9"><code>0xCD4cbBe3a36D145072cDDB89B0AE966761E416F9</code></a>
+      </td>
       <td>
         <a href="./42161-arbthetix/OracleManagerProxy.json"><code>OracleManagerProxy.json</code></a>
       </td>
@@ -52,7 +60,9 @@
     </tr>
     <tr>
       <td>TrustedMulticallForwarder</td>
-      <td>undefined</td>
+      <td>
+        <a href="https://arbiscan.io/address/0xE2C5658cC5C448B48141168f3e475dF8f65A1e3e"><code>0xE2C5658cC5C448B48141168f3e475dF8f65A1e3e</code></a>
+      </td>
       <td>
         <a href="./42161-arbthetix/TrustedMulticallForwarder.json"><code>TrustedMulticallForwarder.json</code></a>
       </td>
@@ -62,7 +72,9 @@
     </tr>
     <tr>
       <td>SpotMarketProxy</td>
-      <td>undefined</td>
+      <td>
+        <a href="https://arbiscan.io/address/0x4BeadB0CaC85b4E3F2F3E71bDc0624FA60260a74"><code>0x4BeadB0CaC85b4E3F2F3E71bDc0624FA60260a74</code></a>
+      </td>
       <td>
         <a href="./42161-arbthetix/SpotMarketProxy.json"><code>SpotMarketProxy.json</code></a>
       </td>
@@ -72,7 +84,9 @@
     </tr>
     <tr>
       <td>PerpsMarketProxy</td>
-      <td>undefined</td>
+      <td>
+        <a href="https://arbiscan.io/address/0x1174e8895D4302bbEdd8F97beC298735D9F7F65e"><code>0x1174e8895D4302bbEdd8F97beC298735D9F7F65e</code></a>
+      </td>
       <td>
         <a href="./42161-arbthetix/PerpsMarketProxy.json"><code>PerpsMarketProxy.json</code></a>
       </td>
@@ -82,7 +96,9 @@
     </tr>
     <tr>
       <td>PerpsAccountProxy</td>
-      <td>undefined</td>
+      <td>
+        <a href="https://arbiscan.io/address/0x40c37a2956e1D34E685d43D721597f028403304B"><code>0x40c37a2956e1D34E685d43D721597f028403304B</code></a>
+      </td>
       <td>
         <a href="./42161-arbthetix/PerpsAccountProxy.json"><code>PerpsAccountProxy.json</code></a>
       </td>
@@ -92,7 +108,9 @@
     </tr>
     <tr>
       <td>USDCToken</td>
-      <td>undefined</td>
+      <td>
+        <a href="https://arbiscan.io/address/0xaf88d065e77c8cC2239327C5EDb3A432268e5831"><code>0xaf88d065e77c8cC2239327C5EDb3A432268e5831</code></a>
+      </td>
       <td>
         <a href="./42161-arbthetix/USDCToken.json"><code>USDCToken.json</code></a>
       </td>
@@ -143,7 +161,7 @@
 
 # Collateral `ARB` Arbitrum
 
-Token address: undefined
+Token address: <a href="https://arbiscan.io/address/0x912CE59144191C1204E64559FE8253a0e49E6548"><code>0x912CE59144191C1204E64559FE8253a0e49E6548</code></a>
 
 <table data-full-width="true">
   <thead>
@@ -194,7 +212,7 @@ Token address: undefined
 
 # Collateral `USDh` DollarWifHat
 
-Token address: undefined
+Token address: <a href="https://arbiscan.io/address/0x574036F5926AA5dD34d16c245e5992f4F2299BB2"><code>0x574036F5926AA5dD34d16c245e5992f4F2299BB2</code></a>
 
 <table data-full-width="true">
   <thead>
@@ -245,7 +263,7 @@ Token address: undefined
 
 # Collateral `WETH` Wrapped Ether
 
-Token address: undefined
+Token address: <a href="https://arbiscan.io/address/0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"><code>0x82aF49447D8a07e3bd95BD0d56f35241523fBab1</code></a>
 
 <table data-full-width="true">
   <thead>
@@ -405,7 +423,9 @@ Perps market ID: <code>100</code>
     <tr>
       <td>endorsedLiquidator</td>
       <td></td>
-      <td>undefined</td>
+      <td>
+        <a href="https://arbiscan.io/address/0x95A61Fa7454CA5f6A3CE01724e306Cd14a22D306"><code>0x95A61Fa7454CA5f6A3CE01724e306Cd14a22D306</code></a>
+      </td>
     </tr>
     <tr>
       <td>minKeeperRewardUsd</td>
@@ -461,7 +481,9 @@ Perps market ID: <code>100</code>
     <tr>
       <td>priceVerificationContract</td>
       <td></td>
-      <td>undefined</td>
+      <td>
+        <a href="https://arbiscan.io/address/0x7b118596be900f3c0feB2f23758d9798965B72a3"><code>0x7b118596be900f3c0feB2f23758d9798965B72a3</code></a>
+      </td>
     </tr>
     <tr>
       <td>feedId</td>
@@ -597,7 +619,9 @@ Perps market ID: <code>200</code>
     <tr>
       <td>endorsedLiquidator</td>
       <td></td>
-      <td>undefined</td>
+      <td>
+        <a href="https://arbiscan.io/address/0x95A61Fa7454CA5f6A3CE01724e306Cd14a22D306"><code>0x95A61Fa7454CA5f6A3CE01724e306Cd14a22D306</code></a>
+      </td>
     </tr>
     <tr>
       <td>minKeeperRewardUsd</td>
@@ -653,7 +677,9 @@ Perps market ID: <code>200</code>
     <tr>
       <td>priceVerificationContract</td>
       <td></td>
-      <td>undefined</td>
+      <td>
+        <a href="https://arbiscan.io/address/0x7b118596be900f3c0feB2f23758d9798965B72a3"><code>0x7b118596be900f3c0feB2f23758d9798965B72a3</code></a>
+      </td>
     </tr>
     <tr>
       <td>feedId</td>
@@ -691,22 +717,30 @@ Perps market ID: <code>200</code>
   <tbody>
     <tr>
       <td>CoreProxy</td>
-      <td>undefined</td>
+      <td>
+        <a href="https://arbiscan.io/address/0xEde8a407913A874Dd7e3d5B731AFcA135D30375E"><code>0xEde8a407913A874Dd7e3d5B731AFcA135D30375E</code></a>
+      </td>
       <td>n/a</td>
     </tr>
     <tr>
       <td>AccountProxy</td>
-      <td>undefined</td>
+      <td>
+        <a href="https://arbiscan.io/address/0x4Ab09F627fa9706f33178129005300Fd4c00EDF1"><code>0x4Ab09F627fa9706f33178129005300Fd4c00EDF1</code></a>
+      </td>
       <td>n/a</td>
     </tr>
     <tr>
       <td>USDProxy</td>
-      <td>undefined</td>
+      <td>
+        <a href="https://arbiscan.io/address/0x4Ab09F627fa9706f33178129005300Fd4c00EDF1"><code>0x4Ab09F627fa9706f33178129005300Fd4c00EDF1</code></a>
+      </td>
       <td>n/a</td>
     </tr>
     <tr>
       <td>OracleManagerProxy</td>
-      <td>undefined</td>
+      <td>
+        <a href="https://arbiscan.io/address/0xEde8a407913A874Dd7e3d5B731AFcA135D30375E"><code>0xEde8a407913A874Dd7e3d5B731AFcA135D30375E</code></a>
+      </td>
       <td>n/a</td>
     </tr>
     <tr>
@@ -716,22 +750,30 @@ Perps market ID: <code>200</code>
     </tr>
     <tr>
       <td>SpotMarketProxy</td>
-      <td>undefined</td>
+      <td>
+        <a href="https://arbiscan.io/address/0xEde8a407913A874Dd7e3d5B731AFcA135D30375E"><code>0xEde8a407913A874Dd7e3d5B731AFcA135D30375E</code></a>
+      </td>
       <td>n/a</td>
     </tr>
     <tr>
       <td>PerpsMarketProxy</td>
-      <td>undefined</td>
+      <td>
+        <a href="https://arbiscan.io/address/0xEde8a407913A874Dd7e3d5B731AFcA135D30375E"><code>0xEde8a407913A874Dd7e3d5B731AFcA135D30375E</code></a>
+      </td>
       <td>n/a</td>
     </tr>
     <tr>
       <td>PerpsAccountProxy</td>
-      <td>undefined</td>
+      <td>
+        <a href="https://arbiscan.io/address/0x1174e8895D4302bbEdd8F97beC298735D9F7F65e"><code>0x1174e8895D4302bbEdd8F97beC298735D9F7F65e</code></a>
+      </td>
       <td>n/a</td>
     </tr>
     <tr>
       <td>USDCToken</td>
-      <td>undefined</td>
+      <td>
+        <a href="https://arbiscan.io/address/0xc7a599037fDa4Ff8029df9a042Af6053d061ebc9"><code>0xc7a599037fDa4Ff8029df9a042Af6053d061ebc9</code></a>
+      </td>
       <td>n/a</td>
     </tr>
   </tbody>
@@ -748,7 +790,9 @@ Perps market ID: <code>200</code>
   <tbody>
     <tr>
       <td><code>1</code> Spartan Council Pool <i>* preferred</i></td>
-      <td>undefined</td>
+      <td>
+        <a href="https://arbiscan.io/address/0xEde8a407913A874Dd7e3d5B731AFcA135D30375E"><code>0xEde8a407913A874Dd7e3d5B731AFcA135D30375E</code></a>
+      </td>
       <td>n/a</td>
     </tr>
   </tbody>
