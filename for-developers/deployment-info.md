@@ -107,37 +107,55 @@
       <td>arb_mock_collateral</td>
       <td><a href="https://usecannon.com/packages/mintable-token/1.8/421614-main">mintable-token:1.8@main</a></td>
       <td><a href="https://ipfs.synthetix.io/ipfs/QmfLFMtEhXTpE99Q11YNvTfteczbGPALegwmo5XC1QCRhV">QmfLFMtEhXTpE99Q11YNvTfteczbGPALegwmo5XC1QCRhV</a></td>
-      <td>decimals: 18<br />initialSupply: 0<br />name: Token<br />owner: undefined<br />salt: <br />symbol: TKN</td>
+      <td>
+        decimals: 18<br />initialSupply: 0<br />name: Token<br />owner: <a href="https://sepolia.arbiscan.io/address/0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"><code>0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9</code></a
+        ><br />salt: <br />symbol: TKN
+      </td>
     </tr>
     <tr>
       <td>dai_mock_collateral</td>
       <td><a href="https://usecannon.com/packages/mintable-token/1.8/421614-main">mintable-token:1.8@main</a></td>
       <td><a href="https://ipfs.synthetix.io/ipfs/QmaysZfLnr6DXWyYP3XfS3FxRhz6XoFvkVZc6NubuHRbBz">QmaysZfLnr6DXWyYP3XfS3FxRhz6XoFvkVZc6NubuHRbBz</a></td>
-      <td>decimals: 18<br />initialSupply: 0<br />name: Token<br />owner: undefined<br />salt: <br />symbol: TKN</td>
+      <td>
+        decimals: 18<br />initialSupply: 0<br />name: Token<br />owner: <a href="https://sepolia.arbiscan.io/address/0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"><code>0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9</code></a
+        ><br />salt: <br />symbol: TKN
+      </td>
     </tr>
     <tr>
       <td>pyth_erc7412_wrapper</td>
       <td><a href="https://usecannon.com/packages/pyth-erc7412-wrapper/3.3.15/421614-main">pyth-erc7412-wrapper:3.3.15@main</a></td>
       <td><a href="https://ipfs.synthetix.io/ipfs/QmUCeV91jQWH5quzNc2HFfKCrdokTapDYX7jEbqqeVb9my">QmUCeV91jQWH5quzNc2HFfKCrdokTapDYX7jEbqqeVb9my</a></td>
-      <td>pythAddress: undefined</td>
+      <td>
+        pythAddress: <a href="https://sepolia.arbiscan.io/address/0x420000000000000000000000000000000000000F"><code>0x420000000000000000000000000000000000000F</code></a>
+      </td>
     </tr>
     <tr>
       <td>system</td>
       <td><a href="https://usecannon.com/packages/synthetix/3.3.15/421614-main">synthetix:3.3.15@main</a></td>
       <td><a href="https://ipfs.synthetix.io/ipfs/QmNbzNykgmSx3NkPNYs4X5AVmDUMS3ShoR6qdZF1Ne17Pz">QmNbzNykgmSx3NkPNYs4X5AVmDUMS3ShoR6qdZF1Ne17Pz</a></td>
-      <td>bundleSalt: main<br />oracle_manager_source: oracle-manager:3.3.15<br />owner: undefined<br />salt: main<br />const_one_oracle_id: 0x066ef68c9d9ca51eee861aeb5bce51a12e61f06f10bf62243c563671ae3a9733</td>
+      <td>
+        bundleSalt: main<br />oracle_manager_source: oracle-manager:3.3.15<br />owner: <a href="https://sepolia.arbiscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
+        ><br />salt: main<br />const_one_oracle_id: 0x066ef68c9d9ca51eee861aeb5bce51a12e61f06f10bf62243c563671ae3a9733
+      </td>
     </tr>
     <tr>
       <td>spotFactory</td>
       <td><a href="https://usecannon.com/packages/synthetix-spot-market/3.3.15/421614-main">synthetix-spot-market:3.3.15@main</a></td>
       <td><a href="https://ipfs.synthetix.io/ipfs/QmfBvkhJjJDF8otpFgjmnUJtqyn8K6UAyqaQSB7HCM3ZWj">QmfBvkhJjJDF8otpFgjmnUJtqyn8K6UAyqaQSB7HCM3ZWj</a></td>
-      <td>owner: undefined<br />salt: snax<br />synthetixPackage: synthetix:3.3.15<br />synthetixPreset: main</td>
+      <td>
+        owner: <a href="https://sepolia.arbiscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
+        ><br />salt: snax<br />synthetixPackage: synthetix:3.3.15<br />synthetixPreset: main
+      </td>
     </tr>
     <tr>
       <td>perpsFactory</td>
       <td><a href="https://usecannon.com/packages/synthetix-perps-market/3.3.19/421614-main">synthetix-perps-market:3.3.19@main</a></td>
       <td><a href="https://ipfs.synthetix.io/ipfs/QmcNEvcENwv7k7ujE2L6gBaN2bmDSq6NaDZ9zFxAQaYC7G">QmcNEvcENwv7k7ujE2L6gBaN2bmDSq6NaDZ9zFxAQaYC7G</a></td>
-      <td>coreProxyOwner: undefined<br />owner: undefined<br />salt: snax<br />spotMarketPackage: synthetix-spot-market:latest<br />spotMarketPreset: main<br />synthetixPackage: synthetix:latest<br />synthetixPreset: main<br />superMarketId: 3</td>
+      <td>
+        coreProxyOwner: <a href="https://sepolia.arbiscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
+        ><br />owner: <a href="https://sepolia.arbiscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
+        ><br />salt: snax<br />spotMarketPackage: synthetix-spot-market:latest<br />spotMarketPreset: main<br />synthetixPackage: synthetix:latest<br />synthetixPreset: main<br />superMarketId: 3
+      </td>
     </tr>
   </tbody>
 </table>
