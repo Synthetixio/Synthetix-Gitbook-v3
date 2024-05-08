@@ -7,6 +7,7 @@ Find all the deployment details in the [deployment-info.md](deployment-info.md "
 * [10-main.md](../deployment-info/10-main.md "mention")
 * [8453-andromeda.md](../deployment-info/8453-andromeda.md "mention")
 * [84532-andromeda.md](../deployment-info/84532-andromeda.md "mention")
+* [421614-main.md](../deployment-info/421614-main.md "mention")
 
 The code for deployments can be found in the [synthetix-deployments](https://github.com/synthetixio/synthetix-deployments) GitOps repository.
 
