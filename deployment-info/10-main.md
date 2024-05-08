@@ -71,18 +71,6 @@
       </td>
     </tr>
     <tr>
-      <td>SNXToken</td>
-      <td>
-        <a href="https://optimistic.etherscan.io/address/0x8700dAec35aF8Ff88c16BdF0418774CB3D7599B4"><code>0x8700dAec35aF8Ff88c16BdF0418774CB3D7599B4</code></a>
-      </td>
-      <td>
-        <a href="./10-main/SNXToken.json"><code>SNXToken.json</code></a>
-      </td>
-      <td>
-        <a href="./10-main/SNXToken.readable.json"><code>SNXToken.readable.json</code></a>
-      </td>
-    </tr>
-    <tr>
       <td>AllErrors</td>
       <td>n/a</td>
       <td>
@@ -487,13 +475,6 @@ Token address: <a href="https://optimistic.etherscan.io/address/0x42000000000000
       <td>SpotMarketProxy</td>
       <td>
         <a href="https://optimistic.etherscan.io/address/0x6cd3f878852769e04A723A5f66CA7DD4d9E38A6C"><code>0x6cd3f878852769e04A723A5f66CA7DD4d9E38A6C</code></a>
-      </td>
-      <td>n/a</td>
-    </tr>
-    <tr>
-      <td>SNXToken</td>
-      <td>
-        <a href="https://optimistic.etherscan.io/address/0x6d4a64C57612841c2C6745dB2a4E4db34F002D20"><code>0x6d4a64C57612841c2C6745dB2a4E4db34F002D20</code></a>
       </td>
       <td>n/a</td>
     </tr>
