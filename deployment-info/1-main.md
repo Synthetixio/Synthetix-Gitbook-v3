@@ -59,18 +59,6 @@
       </td>
     </tr>
     <tr>
-      <td>SNXToken</td>
-      <td>
-        <a href="https://etherscan.io/address/0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f"><code>0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f</code></a>
-      </td>
-      <td>
-        <a href="./1-main/SNXToken.json"><code>SNXToken.json</code></a>
-      </td>
-      <td>
-        <a href="./1-main/SNXToken.readable.json"><code>SNXToken.readable.json</code></a>
-      </td>
-    </tr>
-    <tr>
       <td>AllErrors</td>
       <td>n/a</td>
       <td>
@@ -247,13 +235,6 @@ Token address: <a href="https://etherscan.io/address/0xb2F30A7C980f052f02563fb51
     </tr>
     <tr>
       <td>OracleManagerProxy</td>
-      <td>
-        <a href="https://etherscan.io/address/0xEb3107117FEAd7de89Cd14D463D340A2E6917769"><code>0xEb3107117FEAd7de89Cd14D463D340A2E6917769</code></a>
-      </td>
-      <td>n/a</td>
-    </tr>
-    <tr>
-      <td>SNXToken</td>
       <td>
         <a href="https://etherscan.io/address/0xEb3107117FEAd7de89Cd14D463D340A2E6917769"><code>0xEb3107117FEAd7de89Cd14D463D340A2E6917769</code></a>
       </td>
