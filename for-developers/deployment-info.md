@@ -61,32 +61,46 @@
     <tr>
       <td>perps_gas_oracle_node</td>
       <td><a href="https://usecannon.com/packages/arbitrum-gas-price-oracle/3.3.16/42161-arbthetix">arbitrum-gas-price-oracle:3.3.16@arbthetix</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/Qme1ctHMvbukUGWG78bkbCACGh1TBMH7f5Qp1WAoXSMYxM">Qme1ctHMvbukUGWG78bkbCACGh1TBMH7f5Qp1WAoXSMYxM</a></td>
-      <td>n/a</td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/Qmb98dFK5ttLob1nM4KgUGGhaQkenkeV86CEbuGg1t2GCT">Qmb98dFK5ttLob1nM4KgUGGhaQkenkeV86CEbuGg1t2GCT</a></td>
+      <td>
+        arbGasPriceOracleAddress: <a href="https://arbiscan.io/address/0x000000000000000000000000000000000000006C"><code>0x000000000000000000000000000000000000006C</code></a>
+      </td>
     </tr>
     <tr>
       <td>pyth_erc7412_wrapper</td>
       <td><a href="https://usecannon.com/packages/pyth-erc7412-wrapper/3.3.14/42161-arbthetix">pyth-erc7412-wrapper:3.3.14@arbthetix</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmQ7z4EJWTkdUuk57rtBiBHX8WfKsdUeuMpmngWP6DRs6t">QmQ7z4EJWTkdUuk57rtBiBHX8WfKsdUeuMpmngWP6DRs6t</a></td>
-      <td>n/a</td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmeTApUAPsQsgo3JMeafDLYxDgaNT2ZBV2YAKGr66oxFrF">QmeTApUAPsQsgo3JMeafDLYxDgaNT2ZBV2YAKGr66oxFrF</a></td>
+      <td>
+        pythAddress: <a href="https://arbiscan.io/address/0x420000000000000000000000000000000000000F"><code>0x420000000000000000000000000000000000000F</code></a>
+      </td>
     </tr>
     <tr>
       <td>system</td>
       <td><a href="https://usecannon.com/packages/synthetix/3.3.15/42161-arbthetix">synthetix:3.3.15@arbthetix</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmQgBJxBPDJ3hfFex2SKSihRSdBBomUmaL3r7ja24Ap8Go">QmQgBJxBPDJ3hfFex2SKSihRSdBBomUmaL3r7ja24Ap8Go</a></td>
-      <td>n/a</td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmToLQRVQ1KMNqCebKX6B4Yth6MkSeegxPWAgfE7iqvjGF">QmToLQRVQ1KMNqCebKX6B4Yth6MkSeegxPWAgfE7iqvjGF</a></td>
+      <td>
+        bundleSalt: main<br />oracle_manager_source: oracle-manager:3.3.15<br />owner: <a href="https://arbiscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
+        ><br />salt: main
+      </td>
     </tr>
     <tr>
       <td>perpsFactory</td>
       <td><a href="https://usecannon.com/packages/synthetix-perps-market/3.3.17/42161-arbthetix">synthetix-perps-market:3.3.17@arbthetix</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmZL5ozhWGLBf5nMCS12H5fCiGsyrSGg2ZQQZYzYzq3pQd">QmZL5ozhWGLBf5nMCS12H5fCiGsyrSGg2ZQQZYzYzq3pQd</a></td>
-      <td>n/a</td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmcxSts9kVnfkz63KfGniJ4DQD67syi8iT26MiGMS8NYYr">QmcxSts9kVnfkz63KfGniJ4DQD67syi8iT26MiGMS8NYYr</a></td>
+      <td>
+        coreProxyOwner: <a href="https://arbiscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
+        ><br />owner: <a href="https://arbiscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
+        ><br />salt: snax<br />spotMarketPackage: synthetix-spot-market:latest<br />spotMarketPreset: main<br />synthetixPackage: synthetix:latest<br />synthetixPreset: main
+      </td>
     </tr>
     <tr>
       <td>spotFactory</td>
       <td><a href="https://usecannon.com/packages/synthetix-spot-market/3.3.15/42161-arbthetix">synthetix-spot-market:3.3.15@arbthetix</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmWN2TuwDLdUUqby15XF86PjyG1pRtkstyPXaCgCMVXBq7">QmWN2TuwDLdUUqby15XF86PjyG1pRtkstyPXaCgCMVXBq7</a></td>
-      <td>n/a</td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmTJwP3dvcfscATWArQFZxoVYsWH18vsv9AvBgcMciEHMs">QmTJwP3dvcfscATWArQFZxoVYsWH18vsv9AvBgcMciEHMs</a></td>
+      <td>
+        owner: <a href="https://arbiscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
+        ><br />salt: snax<br />synthetixPackage: synthetix:3.3.15<br />synthetixPreset: main
+      </td>
     </tr>
   </tbody>
 </table>
