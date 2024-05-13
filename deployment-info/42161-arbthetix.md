@@ -119,6 +119,42 @@
       </td>
     </tr>
     <tr>
+      <td>ARBToken</td>
+      <td>
+        <a href="https://arbiscan.io/address/0x912CE59144191C1204E64559FE8253a0e49E6548"><code>0x912CE59144191C1204E64559FE8253a0e49E6548</code></a>
+      </td>
+      <td>
+        <a href="./42161-arbthetix/ARBToken.json"><code>ARBToken.json</code></a>
+      </td>
+      <td>
+        <a href="./42161-arbthetix/ARBToken.readable.json"><code>ARBToken.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>DAIToken</td>
+      <td>
+        <a href="https://arbiscan.io/address/0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1"><code>0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1</code></a>
+      </td>
+      <td>
+        <a href="./42161-arbthetix/DAIToken.json"><code>DAIToken.json</code></a>
+      </td>
+      <td>
+        <a href="./42161-arbthetix/DAIToken.readable.json"><code>DAIToken.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>WETHToken</td>
+      <td>
+        <a href="https://arbiscan.io/address/0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"><code>0x82aF49447D8a07e3bd95BD0d56f35241523fBab1</code></a>
+      </td>
+      <td>
+        <a href="./42161-arbthetix/WETHToken.json"><code>WETHToken.json</code></a>
+      </td>
+      <td>
+        <a href="./42161-arbthetix/WETHToken.readable.json"><code>WETHToken.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
       <td>AllErrors</td>
       <td>n/a</td>
       <td>
@@ -774,6 +810,23 @@ Perps market ID: <code>200</code>
       <td>
         <a href="https://arbiscan.io/address/0xc7a599037fDa4Ff8029df9a042Af6053d061ebc9"><code>0xc7a599037fDa4Ff8029df9a042Af6053d061ebc9</code></a>
       </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>ARBToken</td>
+      <td>
+        <a href="https://arbiscan.io/address/0xCF57572261c7c2BCF21ffD220ea7d1a27D40A827"><code>0xCF57572261c7c2BCF21ffD220ea7d1a27D40A827</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>DAIToken</td>
+      <td>n/a</td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>WETHToken</td>
+      <td>n/a</td>
       <td>n/a</td>
     </tr>
   </tbody>
