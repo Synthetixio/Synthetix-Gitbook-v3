@@ -1916,6 +1916,27 @@ rewards-over-time will be halted)
 * `start` (*uint64*) - The date at which the rewards will begin to be claimable.
 * `duration` (*uint32*) - The period after which all distributed rewards will be claimable.
 
+#### distributeRewardsByOwner
+
+  ```solidity
+  function distributeRewardsByOwner(uint128 poolId, address collateralType, address rewardsDistributor, uint256 amount, uint64 start, uint32 duration) external
+  ```
+
+  Called by owner of a pool to set rewards for vault participants. This method
+of reward setting is generally intended to only be used to recover from a case where the
+distributor state is out of sync with the core system state, or if the distributor is only
+able to payout and not capable of distributing its own rewards.
+
+  Will revert if the caller is not the owner of the pool.
+
+**Parameters**
+* `poolId` (*uint128*) - The id of the pool to distribute rewards to.
+* `collateralType` (*address*) - The address of the collateral used in the pool's rewards.
+* `rewardsDistributor` (*address*) - The address of the reward distributor which pays out the tokens.
+* `amount` (*uint256*) - The amount of rewards to be distributed.
+* `start` (*uint64*) - The date at which the rewards will begin to be claimable.
+* `duration` (*uint32*) - The period after which all distributed rewards will be claimable.
+
 #### claimRewards
 
   ```solidity
@@ -4787,7 +4808,7 @@ InterestRateUpdated event is emitted
 #### setMaxMarketSize
 
   ```solidity
-  function setMaxMarketSize(uint128 marketId, uint256 maxMarketSize, uint256 maxMarketValue) external
+  function setMaxMarketSize(uint128 marketId, uint256 maxMarketSize) external
   ```
 
   Set the max size of an specific market with this function.
@@ -4797,6 +4818,17 @@ InterestRateUpdated event is emitted
 **Parameters**
 * `marketId` (*uint128*) - id of the market to set the max market value.
 * `maxMarketSize` (*uint256*) - the max market size in market asset units.
+
+#### setMaxMarketValue
+
+  ```solidity
+  function setMaxMarketValue(uint128 marketId, uint256 maxMarketValue) external
+  ```
+
+  Set the max value in USD of an specific market with this function.
+
+**Parameters**
+* `marketId` (*uint128*) - id of the market to set the max market value.
 * `maxMarketValue` (*uint256*) - the max market size in market USD value.
 
 #### setLockedOiRatio
@@ -4888,7 +4920,7 @@ InterestRateUpdated event is emitted
 #### getMaxMarketSize
 
   ```solidity
-  function getMaxMarketSize(uint128 marketId) external view returns (uint256 maxMarketSize, uint256 maxMarketValue)
+  function getMaxMarketSize(uint128 marketId) external view returns (uint256 maxMarketSize)
   ```
 
   Gets the max size of an specific market.
@@ -4898,6 +4930,18 @@ InterestRateUpdated event is emitted
 
 **Returns**
 * `maxMarketSize` (*uint256*) - the max market size in market asset units.
+#### getMaxMarketValue
+
+  ```solidity
+  function getMaxMarketValue(uint128 marketId) external view returns (uint256 maxMarketValue)
+  ```
+
+  Gets the max size (in value) of an specific market.
+
+**Parameters**
+* `marketId` (*uint128*) - id of the market.
+
+**Returns**
 * `maxMarketValue` (*uint256*) - the max market size in market USD value.
 #### getOrderFees
 
@@ -5040,15 +5084,26 @@ InterestRateUpdated event is emitted
 #### MaxMarketSizeSet
 
   ```solidity
-  event MaxMarketSizeSet(uint128 marketId, uint256 maxMarketSize, uint256 maxMarketValue)
+  event MaxMarketSizeSet(uint128 marketId, uint256 maxMarketSize)
   ```
 
   Gets fired when max market value is updated.
 
 **Parameters**
 * `marketId` (*uint128*) - udpates funding parameters to this specific market.
-* `maxMarketSize` (*uint256*) - the max market value in units.
-* `maxMarketValue` (*uint256*) - the max market value USD denominated.
+* `maxMarketSize` (*uint256*) - the max market size in units.
+
+#### MaxMarketValueSet
+
+  ```solidity
+  event MaxMarketValueSet(uint128 marketId, uint256 maxMarketValue)
+  ```
+
+  Gets fired when max market value is updated.
+
+**Parameters**
+* `marketId` (*uint128*) - udpates funding parameters to this specific market.
+* `maxMarketValue` (*uint256*) - the max market value in USD.
 
 #### LockedOiRatioSet
 
@@ -5750,7 +5805,7 @@ The implementation of this function needs to be protected by some sort of access
 #### setSystemAddresses
 
   ```solidity
-  function setSystemAddresses(contract IAddressResolver v2xResolverAddress, contract IV3CoreProxy v3SystemAddress) external returns (bool didInitialize)
+  function setSystemAddresses(contract IAddressResolver v2xResolverAddress, contract IV3CoreProxy v3SystemAddress, contract ISNXDistributor snxDistributor) external returns (bool didInitialize)
   ```
 
   called by the owner to set the addresses of the v3 and v2x systems which are needed for calls in `migrate` and `convertUSD`
@@ -5758,6 +5813,7 @@ The implementation of this function needs to be protected by some sort of access
 **Parameters**
 * `v2xResolverAddress` (*contract IAddressResolver*) - the v2x `AddressResolver` contract address. LegacyMarket can use AddressResolver to get the address of any other v2x contract.
 * `v3SystemAddress` (*contract IV3CoreProxy*) - the v3 core proxy address
+* `snxDistributor` (*contract ISNXDistributor*) - the SNXDistributor which should be used if an account is liquidated
 
 #### registerMarket
 
@@ -5900,6 +5956,30 @@ Requirements:
   function upgradeTo(address to) external
   ```
 
+#### onERC721Received
+
+  ```solidity
+  function onERC721Received(address operator, address, uint256, bytes) external view returns (bytes4)
+  ```
+
+#### onERC721Received
+
+  ```solidity
+  function onERC721Received(address operator, address from, uint256 tokenId, bytes data) external returns (bytes4)
+  ```
+
+  Function that will be called by ERC721 tokens implementing the `safeTransferFrom` function.
+
+  The contract transferring the token will revert if the receiving contract does not implement this function.
+
+**Parameters**
+* `operator` (*address*) - The address that is executing the transfer.
+* `from` (*address*) - The address whose token is being transferred.
+* `tokenId` (*uint256*) - The numeric id of the token being transferred.
+* `data` (*bytes*) - Optional additional data that may be passed by the operator, and could be used by the implementing contract.
+
+**Returns**
+* `[0]` (*bytes4*) - The selector of this function (IERC721Receiver.onERC721Received.selector). Caller will revert if not returned.
 #### name
 
   ```solidity
@@ -6119,6 +6199,24 @@ The implementation of this function needs to be protected by some sort of access
 
   Only one address can be nominated at a time.
 
+#### v2xResolver
+
+  ```solidity
+  function v2xResolver() external view returns (contract IAddressResolver)
+  ```
+
+#### v3System
+
+  ```solidity
+  function v3System() external view returns (contract IV3CoreProxy)
+  ```
+
+#### rewardsDistributor
+
+  ```solidity
+  function rewardsDistributor() external view returns (contract ISNXDistributor)
+  ```
+
 #### convertUSD
 
   ```solidity
@@ -6174,7 +6272,7 @@ Requirements:
 #### setSystemAddresses
 
   ```solidity
-  function setSystemAddresses(contract IAddressResolver v2xResolverAddress, contract IV3CoreProxy v3SystemAddress) external returns (bool didInitialize)
+  function setSystemAddresses(contract IAddressResolver v2xResolverAddress, contract IV3CoreProxy v3SystemAddress, contract ISNXDistributor snxDistributor) external returns (bool didInitialize)
   ```
 
   called by the owner to set the addresses of the v3 and v2x systems which are needed for calls in `migrate` and `convertUSD`
@@ -6182,6 +6280,7 @@ Requirements:
 **Parameters**
 * `v2xResolverAddress` (*contract IAddressResolver*) - the v2x `AddressResolver` contract address. LegacyMarket can use AddressResolver to get the address of any other v2x contract.
 * `v3SystemAddress` (*contract IV3CoreProxy*) - the v3 core proxy address
+* `snxDistributor` (*contract ISNXDistributor*) - the SNXDistributor which should be used if an account is liquidated
 
 #### setPauseStablecoinConversion
 
@@ -6260,6 +6359,20 @@ Requirements:
 * `collateralAmount` (*uint256*) - the amount of SNX migrated to v3
 * `debtAmount` (*uint256*) - the value of new debt now managed by v3
 
+#### AccountLiquidatedInMigration
+
+  ```solidity
+  event AccountLiquidatedInMigration(address staker, uint256 collateralAmount, uint256 debtAmount, uint256 cratio)
+  ```
+
+  Emitted if an account was migrated but its c-ratioi was insufficient for assigning debt in v3
+
+**Parameters**
+* `staker` (*address*) - the address of the v2x staker that migrated
+* `collateralAmount` (*uint256*) - the amount of SNX migrated to v3
+* `debtAmount` (*uint256*) - the value of new debt now managed by v3
+* `cratio` (*uint256*) - the calculated c-ratio of the account
+
 #### ConvertedUSD
 
   ```solidity
@@ -6296,7 +6409,142 @@ Requirements:
 * `sender` (*address*) - the address setting the migration pause status
 * `paused` (*bool*) - whether migration is being paused or unpaused
 
+### SNXDistributor
+
+#### constructor
+
+  ```solidity
+  constructor(contract ILegacyMarket lm) public
+  ```
+
+#### payout
+
+  ```solidity
+  function payout(uint128, uint128, address, address sender, uint256 amount) external returns (bool)
+  ```
+
+#### onPositionUpdated
+
+  ```solidity
+  function onPositionUpdated(uint128 accountId, uint128 poolId, address collateralType, uint256 newShares) external
+  ```
+
+  This function is called by the Synthetix Core Proxy whenever
+a position is updated on a pool which this distributor is registered
+
+#### token
+
+  ```solidity
+  function token() external view returns (address)
+  ```
+
+  Address to ERC-20 token distributed by this distributor, for display purposes only
+
+  Return address(0) if providing non ERC-20 rewards
+
+#### supportsInterface
+
+  ```solidity
+  function supportsInterface(bytes4 interfaceID) external pure returns (bool)
+  ```
+
+  Determines if the contract in question supports the specified interface.
+
+**Parameters**
+* `interfaceID` (*bytes4*) - XOR of all selectors in the contract.
+
+**Returns**
+* `[0]` (*bool*) - True if the contract supports the specified interface.
+#### name
+
+  ```solidity
+  function name() external pure returns (string)
+  ```
+
+  Returns a human-readable name for the reward distributor
+
+#### notifyRewardAmount
+
+  ```solidity
+  function notifyRewardAmount(uint256 reward) external
+  ```
+
+#### notifyRewardAmount
+
+  ```solidity
+  function notifyRewardAmount(uint256 reward) external
+  ```
+
+#### name
+
+  ```solidity
+  function name() external view returns (string)
+  ```
+
+  Returns a human-readable name for the reward distributor
+
+#### payout
+
+  ```solidity
+  function payout(uint128 accountId, uint128 poolId, address collateralType, address sender, uint256 amount) external returns (bool)
+  ```
+
+  This function should revert if ERC2771Context._msgSender() is not the Synthetix CoreProxy address.
+
+**Returns**
+* `[0]` (*bool*) - whether or not the payout was executed
+#### onPositionUpdated
+
+  ```solidity
+  function onPositionUpdated(uint128 accountId, uint128 poolId, address collateralType, uint256 newShares) external
+  ```
+
+  This function is called by the Synthetix Core Proxy whenever
+a position is updated on a pool which this distributor is registered
+
+#### token
+
+  ```solidity
+  function token() external view returns (address)
+  ```
+
+  Address to ERC-20 token distributed by this distributor, for display purposes only
+
+  Return address(0) if providing non ERC-20 rewards
+
+#### supportsInterface
+
+  ```solidity
+  function supportsInterface(bytes4 interfaceID) external view returns (bool)
+  ```
+
+  Determines if the contract in question supports the specified interface.
+
+**Parameters**
+* `interfaceID` (*bytes4*) - XOR of all selectors in the contract.
+
+**Returns**
+* `[0]` (*bool*) - True if the contract supports the specified interface.
+
 ### ILegacyMarket
+
+#### v2xResolver
+
+  ```solidity
+  function v2xResolver() external view returns (contract IAddressResolver)
+  ```
+
+#### v3System
+
+  ```solidity
+  function v3System() external view returns (contract IV3CoreProxy)
+  ```
+
+#### rewardsDistributor
+
+  ```solidity
+  function rewardsDistributor() external view returns (contract ISNXDistributor)
+  ```
 
 #### convertUSD
 
@@ -6353,7 +6601,7 @@ Requirements:
 #### setSystemAddresses
 
   ```solidity
-  function setSystemAddresses(contract IAddressResolver v2xResolverAddress, contract IV3CoreProxy v3SystemAddress) external returns (bool didInitialize)
+  function setSystemAddresses(contract IAddressResolver v2xResolverAddress, contract IV3CoreProxy v3SystemAddress, contract ISNXDistributor snxDistributor) external returns (bool didInitialize)
   ```
 
   called by the owner to set the addresses of the v3 and v2x systems which are needed for calls in `migrate` and `convertUSD`
@@ -6361,6 +6609,7 @@ Requirements:
 **Parameters**
 * `v2xResolverAddress` (*contract IAddressResolver*) - the v2x `AddressResolver` contract address. LegacyMarket can use AddressResolver to get the address of any other v2x contract.
 * `v3SystemAddress` (*contract IV3CoreProxy*) - the v3 core proxy address
+* `snxDistributor` (*contract ISNXDistributor*) - the SNXDistributor which should be used if an account is liquidated
 
 #### setPauseStablecoinConversion
 
@@ -6398,6 +6647,20 @@ Requirements:
 * `collateralAmount` (*uint256*) - the amount of SNX migrated to v3
 * `debtAmount` (*uint256*) - the value of new debt now managed by v3
 
+#### AccountLiquidatedInMigration
+
+  ```solidity
+  event AccountLiquidatedInMigration(address staker, uint256 collateralAmount, uint256 debtAmount, uint256 cratio)
+  ```
+
+  Emitted if an account was migrated but its c-ratioi was insufficient for assigning debt in v3
+
+**Parameters**
+* `staker` (*address*) - the address of the v2x staker that migrated
+* `collateralAmount` (*uint256*) - the amount of SNX migrated to v3
+* `debtAmount` (*uint256*) - the value of new debt now managed by v3
+* `cratio` (*uint256*) - the calculated c-ratio of the account
+
 #### ConvertedUSD
 
   ```solidity
@@ -6433,6 +6696,14 @@ Requirements:
 **Parameters**
 * `sender` (*address*) - the address setting the migration pause status
 * `paused` (*bool*) - whether migration is being paused or unpaused
+
+### ISNXDistributor
+
+#### notifyRewardAmount
+
+  ```solidity
+  function notifyRewardAmount(uint256 reward) external
+  ```
 
 ## Governance
 
