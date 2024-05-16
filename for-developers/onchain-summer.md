@@ -7,6 +7,12 @@ description: >-
 
 # Onchain Summer
 
+
+
+### _More Resources Coming Soon_
+
+
+
 Most of the resources you need will already be available here in the Synthetix V3 Developers Docs. You can navigate to the relevant sections in the left-hand nav menu to explore more. For reference, Andromeda refers to the Synthetix V3 package on Base.&#x20;
 
 ### Builder Tracks
