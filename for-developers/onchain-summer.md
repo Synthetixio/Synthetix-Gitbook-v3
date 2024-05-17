@@ -19,7 +19,18 @@ Most of the resources you need will already be available here in the Synthetix V
 
 If you are interested in building an integration with Synthetix Perps, check out: [Broken link](broken-reference "mention")
 
+
+
 If you are interested in building new derivatives markets on Synthetix, check out: [Broken link](broken-reference "mention")
+
+
+
+If you are interested in building bots or scripts using the **Python SDK**, check out the [playground](https://github.com/Synthetixio/sdk-playground) or [read the docs](../for-perp-integrators/perps-python-sdk.md). Some ideas for builders interested in the Python SDK are:
+
+* Execute trading strategies similar to the [funding rate arbitrage bot](https://github.com/50shadesofgwei/SynthetixFundingRateArbitrage). Consider simplified strategies like price triggers, or triggers based on market conditions.
+* Automate functions around the contracts similar to the sample [liquidation or order keepers](https://github.com/Synthetixio/sample-v3-keeper).
+* Build Telegram or Discord bots for tracking market conditions, traders, and market activity.
+* Build a command line interface for the SDK, improving the user experience.
 
 
 
