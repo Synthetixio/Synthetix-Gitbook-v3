@@ -131,6 +131,18 @@
       </td>
     </tr>
     <tr>
+      <td>PythERC7412Wrapper</td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0xF9e9e905d3745F5E0B803a179E17328CFe03B56d"><code>0xF9e9e905d3745F5E0B803a179E17328CFe03B56d</code></a>
+      </td>
+      <td>
+        <a href="./84532-andromeda/PythERC7412Wrapper.json"><code>PythERC7412Wrapper.json</code></a>
+      </td>
+      <td>
+        <a href="./84532-andromeda/PythERC7412Wrapper.readable.json"><code>PythERC7412Wrapper.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
       <td>FakeCollateralfwSNX</td>
       <td>
         <a href="https://sepolia.basescan.org/address/0x8F4b425597A70001E255d067626e4860E2543f22"><code>0x8F4b425597A70001E255d067626e4860E2543f22</code></a>
@@ -6850,6 +6862,11 @@ Perps market ID: <code>900</code>
     </tr>
     <tr>
       <td>RewardsDistributorForSpartanCouncilPoolUSDC</td>
+      <td>n/a</td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>PythERC7412Wrapper</td>
       <td>n/a</td>
       <td>n/a</td>
     </tr>
