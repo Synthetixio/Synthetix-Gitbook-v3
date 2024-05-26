@@ -2,12 +2,13 @@
 
 Find all the deployment details in the [deployment-info.md](deployment-info.md "mention") section.&#x20;
 
-* [1-main.md](../deployment-info/1-main.md "mention")
-* [11155111-main.md](../deployment-info/11155111-main.md "mention")
-* [10-main.md](../deployment-info/10-main.md "mention")
-* [8453-andromeda.md](../deployment-info/8453-andromeda.md "mention")
-* [84532-andromeda.md](../deployment-info/84532-andromeda.md "mention")
-* [421614-main.md](../deployment-info/421614-main.md "mention")
+* [Mainnet: 1-main](../deployment-info/1-main.md "mention")
+* [Sepolia: 11155111-main](../deployment-info/11155111-main.md "mention")
+* [Sepolia Carina: 11155111-carina](../deployment-info/11155111-carina.md "mention")
+* [Optimism Mainnet: 10-main](../deployment-info/10-main.md "mention")
+* [Base Mainnet Andromeda: 8453-andromeda](../deployment-info/8453-andromeda.md "mention")
+* [Base Sepolia Andromeda: 84532-andromeda](../deployment-info/84532-andromeda.md "mention")
+* [Arbitrum Sepolia: 421614-main](../deployment-info/421614-main.md "mention")
 
 The code for deployments can be found in the [synthetix-deployments](https://github.com/synthetixio/synthetix-deployments) GitOps repository.
 
