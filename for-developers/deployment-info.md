@@ -46,6 +46,108 @@
   </tbody>
 </table>
 
+# Sepolia (11155111, Carina)
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="200">Import name</th>
+      <th width="400">Provisioned package</th>
+      <th width="500">IPFS (zlib compressed)</th>
+      <th width="500">Settings</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>system</td>
+      <td><a href="https://usecannon.com/packages/synthetix/3.3.18/11155111-carina">synthetix:3.3.18@carina</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/Qmbkqqhsm3RbsCdCuwQ2GTX7UmnHMkaoW7EYPRoYoovsej">Qmbkqqhsm3RbsCdCuwQ2GTX7UmnHMkaoW7EYPRoYoovsej</a></td>
+      <td>
+        bundleSalt: main<br />oracle_manager_source: oracle-manager<br />owner: <a href="https://sepolia.etherscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
+        ><br />salt: main<br />const_one_oracle_id: 0x066ef68c9d9ca51eee861aeb5bce51a12e61f06f10bf62243c563671ae3a9733
+      </td>
+    </tr>
+    <tr>
+      <td>wbtc_mock_collateral</td>
+      <td><a href="https://usecannon.com/packages/mintable-token/1.8/11155111-carina">mintable-token:1.8@carina</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmesLpm7trz18t6pjtY9dn9Bz7cKCyf7sKtHVCi8co8Pc5">QmesLpm7trz18t6pjtY9dn9Bz7cKCyf7sKtHVCi8co8Pc5</a></td>
+      <td>
+        decimals: 18<br />initialSupply: 0<br />name: Token<br />owner: <a href="https://sepolia.etherscan.io/address/0x431D454Bd4d352A0b1f45AE11EF1182bBEec6a7B"><code>0x431D454Bd4d352A0b1f45AE11EF1182bBEec6a7B</code></a
+        ><br />salt: <br />symbol: TKN
+      </td>
+    </tr>
+    <tr>
+      <td>weth_mock_collateral</td>
+      <td><a href="https://usecannon.com/packages/mintable-token/1.8/11155111-carina">mintable-token:1.8@carina</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/Qmd9ceWmPPh9mNzvaYwULc6tBMfHb2meVN1kKqsj5WruzW">Qmd9ceWmPPh9mNzvaYwULc6tBMfHb2meVN1kKqsj5WruzW</a></td>
+      <td>
+        decimals: 18<br />initialSupply: 0<br />name: Token<br />owner: <a href="https://sepolia.etherscan.io/address/0x431D454Bd4d352A0b1f45AE11EF1182bBEec6a7B"><code>0x431D454Bd4d352A0b1f45AE11EF1182bBEec6a7B</code></a
+        ><br />salt: <br />symbol: TKN
+      </td>
+    </tr>
+    <tr>
+      <td>bfp_market_factory</td>
+      <td><a href="https://usecannon.com/packages/synthetix-bfp-market/1.0.0-alpha.2/11155111-carina">synthetix-bfp-market:1.0.0-alpha.2@carina</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmccnCgrpA4nZqdzsT4eXvDYF73h5J5piL4vf2janoU7st">QmccnCgrpA4nZqdzsT4eXvDYF73h5J5piL4vf2janoU7st</a></td>
+      <td>
+        owner: <a href="https://sepolia.etherscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
+        ><br />salt: snax<br />synthetixPackage: synthetix:latest<br />synthetixPreset: main
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+# Sepolia (11155111, Main)
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="200">Import name</th>
+      <th width="400">Provisioned package</th>
+      <th width="500">IPFS (zlib compressed)</th>
+      <th width="500">Settings</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>system</td>
+      <td><a href="https://usecannon.com/packages/synthetix/3.3.4/11155111-main">synthetix:3.3.4@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmYQs6jFSeT49MjmRotSdyfWS7RSh6Q4FRT4s3xxuEqqQp">QmYQs6jFSeT49MjmRotSdyfWS7RSh6Q4FRT4s3xxuEqqQp</a></td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>ambassador_council</td>
+      <td><a href="https://usecannon.com/packages/synthetix-governance/3.0.3/11155111-main">synthetix-governance:3.0.3@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmdN6ZCgMD6rbDEuwruDqzF8Amf9WLsPVfAapadZFLh4m9">QmdN6ZCgMD6rbDEuwruDqzF8Amf9WLsPVfAapadZFLh4m9</a></td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>grants_council</td>
+      <td><a href="https://usecannon.com/packages/synthetix-governance/3.0.3/11155111-main">synthetix-governance:3.0.3@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmczyYvP7c2VGHj4xKEdiD7NCrdL9KnHuD3ettnGUywnDS">QmczyYvP7c2VGHj4xKEdiD7NCrdL9KnHuD3ettnGUywnDS</a></td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>snapshot_record_mock</td>
+      <td><a href="https://usecannon.com/packages/synthetix-snapshot-record-mock/3.0.0/11155111-main">synthetix-snapshot-record-mock:3.0.0@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmcZPNntqA1eL8uqmj3ZDAFUDre4xehNAgZubQMaoyjAfa">QmcZPNntqA1eL8uqmj3ZDAFUDre4xehNAgZubQMaoyjAfa</a></td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>spartan_council</td>
+      <td><a href="https://usecannon.com/packages/synthetix-governance/3.0.3/11155111-main">synthetix-governance:3.0.3@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmVAR8KuedCc5cS8kJGVfryRLskYvto6FPCKYL1b5kDRr1">QmVAR8KuedCc5cS8kJGVfryRLskYvto6FPCKYL1b5kDRr1</a></td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>treasury_council</td>
+      <td><a href="https://usecannon.com/packages/synthetix-governance/3.0.3/11155111-main">synthetix-governance:3.0.3@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmPSXnVvHpXbJBvfms8HPfCJ3MVMonWDK9CtoHiYhn5PWy">QmPSXnVvHpXbJBvfms8HPfCJ3MVMonWDK9CtoHiYhn5PWy</a></td>
+      <td>n/a</td>
+    </tr>
+  </tbody>
+</table>
+
 # Arbitrum One (42161, Arbthetix)
 
 <table data-full-width="true">
