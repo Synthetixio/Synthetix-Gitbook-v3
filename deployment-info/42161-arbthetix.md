@@ -107,6 +107,18 @@
       </td>
     </tr>
     <tr>
+      <td>PythERC7412Wrapper</td>
+      <td>
+        <a href="https://arbiscan.io/address/0x7b118596be900f3c0feB2f23758d9798965B72a3"><code>0x7b118596be900f3c0feB2f23758d9798965B72a3</code></a>
+      </td>
+      <td>
+        <a href="./42161-arbthetix/PythERC7412Wrapper.json"><code>PythERC7412Wrapper.json</code></a>
+      </td>
+      <td>
+        <a href="./42161-arbthetix/PythERC7412Wrapper.readable.json"><code>PythERC7412Wrapper.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
       <td>USDCToken</td>
       <td>
         <a href="https://arbiscan.io/address/0xaf88d065e77c8cC2239327C5EDb3A432268e5831"><code>0xaf88d065e77c8cC2239327C5EDb3A432268e5831</code></a>
@@ -803,6 +815,11 @@ Perps market ID: <code>200</code>
       <td>
         <a href="https://arbiscan.io/address/0x1174e8895D4302bbEdd8F97beC298735D9F7F65e"><code>0x1174e8895D4302bbEdd8F97beC298735D9F7F65e</code></a>
       </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>PythERC7412Wrapper</td>
+      <td>n/a</td>
       <td>n/a</td>
     </tr>
     <tr>
