@@ -131,18 +131,6 @@
       </td>
     </tr>
     <tr>
-      <td>PythERC7412Wrapper</td>
-      <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
-      </td>
-      <td>
-        <a href="./8453-andromeda/PythERC7412Wrapper.json"><code>PythERC7412Wrapper.json</code></a>
-      </td>
-      <td>
-        <a href="./8453-andromeda/PythERC7412Wrapper.readable.json"><code>PythERC7412Wrapper.readable.json</code></a>
-      </td>
-    </tr>
-    <tr>
       <td>USDCToken</td>
       <td>
         <a href="https://basescan.org/address/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"><code>0x833589fcd6edb6e08f4c7c32d4f71b54bda02913</code></a>
@@ -6811,11 +6799,6 @@ Perps market ID: <code>900</code>
     </tr>
     <tr>
       <td>RewardsDistributorForSpartanCouncilPoolUSDC</td>
-      <td>n/a</td>
-      <td>n/a</td>
-    </tr>
-    <tr>
-      <td>PythERC7412Wrapper</td>
       <td>n/a</td>
       <td>n/a</td>
     </tr>
