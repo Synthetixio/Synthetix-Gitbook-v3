@@ -61,7 +61,7 @@
     <tr>
       <td>system</td>
       <td><a href="https://usecannon.com/packages/synthetix/3.3.18/11155111-carina">synthetix:3.3.18@carina</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/Qmbkqqhsm3RbsCdCuwQ2GTX7UmnHMkaoW7EYPRoYoovsej">Qmbkqqhsm3RbsCdCuwQ2GTX7UmnHMkaoW7EYPRoYoovsej</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmfWpM9UxApK2deXLU81VDF5rZz7FyU4ntt3JqWDNJSALf">QmfWpM9UxApK2deXLU81VDF5rZz7FyU4ntt3JqWDNJSALf</a></td>
       <td>
         bundleSalt: main<br />oracle_manager_source: oracle-manager<br />owner: <a href="https://sepolia.etherscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />salt: main<br />const_one_oracle_id: 0x066ef68c9d9ca51eee861aeb5bce51a12e61f06f10bf62243c563671ae3a9733
@@ -88,7 +88,7 @@
     <tr>
       <td>bfp_market_factory</td>
       <td><a href="https://usecannon.com/packages/synthetix-bfp-market/1.0.0-alpha.2/11155111-carina">synthetix-bfp-market:1.0.0-alpha.2@carina</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmccnCgrpA4nZqdzsT4eXvDYF73h5J5piL4vf2janoU7st">QmccnCgrpA4nZqdzsT4eXvDYF73h5J5piL4vf2janoU7st</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmdGx5Wg7SJDtLQfxbxk3W6G84WUJDxq8XNdcK1dgTRwjG">QmdGx5Wg7SJDtLQfxbxk3W6G84WUJDxq8XNdcK1dgTRwjG</a></td>
       <td>
         owner: <a href="https://sepolia.etherscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />salt: snax<br />synthetixPackage: synthetix:latest<br />synthetixPreset: main
