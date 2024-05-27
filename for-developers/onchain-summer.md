@@ -29,7 +29,7 @@ If you can't find what you need please join us in the [Synthetix discord server]
 To start a local node with running with the same configuration as the Base deployment and retrieve the addresses/ABIs:
 
 ```
-npm i @usecannon/cli
+npm i -g @usecannon/cli
 cannon inspect synthetix-omnibus@andromeda --write-deployments ./deployment
 cannon synthetix-omnibus@andromeda
 ```
