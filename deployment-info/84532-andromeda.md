@@ -321,6 +321,57 @@ Token address: <a href="https://sepolia.basescan.org/address/0x682f0d17feDC62b2a
   </tbody>
 </table>
 
+# Collateral `sStataUSDC` Synthetic Static aUSDC
+
+Token address: <a href="https://sepolia.basescan.org/address/0xB94c6E4f5162717c6fAb1Eeab8f0296307F91528"><code>0xB94c6E4f5162717c6fAb1Eeab8f0296307F91528</code></a>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Parameter name</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>depositingEnabled</td>
+      <td>✅ Enabled</td>
+      <td><code>true</code></td>
+    </tr>
+    <tr>
+      <td>decimals</td>
+      <td>18</td>
+      <td><code>18</code></td>
+    </tr>
+    <tr>
+      <td>issuanceRatioD18</td>
+      <td><code>MaxUint256</code></td>
+      <td><code>MaxUint256</code> / <code>0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</code></td>
+    </tr>
+    <tr>
+      <td>liquidationRatioD18</td>
+      <td>1.1</td>
+      <td><code>1100000000000000000</code> / <code>0x0f43fc2c04ee0000</code></td>
+    </tr>
+    <tr>
+      <td>liquidationRewardD18</td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+    </tr>
+    <tr>
+      <td>oracleNodeId</td>
+      <td></td>
+      <td><code>"0xd0e59ba4704879569c980c7d0aed32aeb87dca0a6ab154e9eeca3a2252fcef1a"</code></td>
+    </tr>
+    <tr>
+      <td>minDelegationD18</td>
+      <td>100</td>
+      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+    </tr>
+  </tbody>
+</table>
+
 # Collateral `sUSDC` Synthetic USD Coin
 
 Token address: <a href="https://sepolia.basescan.org/address/0x8069c44244e72443722cfb22DcE5492cba239d39"><code>0x8069c44244e72443722cfb22DcE5492cba239d39</code></a>
@@ -414,6 +465,57 @@ Token address: <a href="https://sepolia.basescan.org/address/0x69980C32964168206
       <td>oracleNodeId</td>
       <td></td>
       <td><code>"0x066ef68c9d9ca51eee861aeb5bce51a12e61f06f10bf62243c563671ae3a9733"</code></td>
+    </tr>
+    <tr>
+      <td>minDelegationD18</td>
+      <td>100</td>
+      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+    </tr>
+  </tbody>
+</table>
+
+# Deprecated Collateral (DO NOT USE!) `sStataUSDC` Synthetic Static aUSDC
+
+Token address: <a href="https://sepolia.basescan.org/address/0xFE1C48476ed2983A9Bcf9B316e0EfeF00529256f"><code>0xFE1C48476ed2983A9Bcf9B316e0EfeF00529256f</code></a>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Parameter name</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>depositingEnabled</td>
+      <td>✅ Enabled</td>
+      <td><code>true</code></td>
+    </tr>
+    <tr>
+      <td>decimals</td>
+      <td>18</td>
+      <td><code>18</code></td>
+    </tr>
+    <tr>
+      <td>issuanceRatioD18</td>
+      <td><code>MaxUint256</code></td>
+      <td><code>MaxUint256</code> / <code>0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</code></td>
+    </tr>
+    <tr>
+      <td>liquidationRatioD18</td>
+      <td>1.1</td>
+      <td><code>1100000000000000000</code> / <code>0x0f43fc2c04ee0000</code></td>
+    </tr>
+    <tr>
+      <td>liquidationRewardD18</td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+    </tr>
+    <tr>
+      <td>oracleNodeId</td>
+      <td></td>
+      <td><code>"0x38ccb43035b67fe7a2d116444ab74a933c05245990f7899d273d967105ac7f0f"</code></td>
     </tr>
     <tr>
       <td>minDelegationD18</td>
