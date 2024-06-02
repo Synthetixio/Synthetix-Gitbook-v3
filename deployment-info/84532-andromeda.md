@@ -362,7 +362,58 @@ Token address: <a href="https://sepolia.basescan.org/address/0xB94c6E4f5162717c6
     <tr>
       <td>oracleNodeId</td>
       <td></td>
-      <td><code>"0xd0e59ba4704879569c980c7d0aed32aeb87dca0a6ab154e9eeca3a2252fcef1a"</code></td>
+      <td><code>"0xadc7928aa839fc0877a96509de2b19ec77e85b48999ac5d9d3cad40ffc5281ad"</code></td>
+    </tr>
+    <tr>
+      <td>minDelegationD18</td>
+      <td>100</td>
+      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+    </tr>
+  </tbody>
+</table>
+
+# Collateral `stataUSDC` stataUSDC Mock
+
+Token address: <a href="https://sepolia.basescan.org/address/0xB3f05d39504dA95876EA0174D25Ae51Ac2422a70"><code>0xB3f05d39504dA95876EA0174D25Ae51Ac2422a70</code></a>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Parameter name</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>depositingEnabled</td>
+      <td>🚫 Disabled</td>
+      <td><code>false</code></td>
+    </tr>
+    <tr>
+      <td>decimals</td>
+      <td>6</td>
+      <td><code>6</code></td>
+    </tr>
+    <tr>
+      <td>issuanceRatioD18</td>
+      <td><code>MaxUint256</code></td>
+      <td><code>MaxUint256</code> / <code>0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</code></td>
+    </tr>
+    <tr>
+      <td>liquidationRatioD18</td>
+      <td>1.1</td>
+      <td><code>1100000000000000000</code> / <code>0x0f43fc2c04ee0000</code></td>
+    </tr>
+    <tr>
+      <td>liquidationRewardD18</td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+    </tr>
+    <tr>
+      <td>oracleNodeId</td>
+      <td></td>
+      <td><code>"0xadc7928aa839fc0877a96509de2b19ec77e85b48999ac5d9d3cad40ffc5281ad"</code></td>
     </tr>
     <tr>
       <td>minDelegationD18</td>
