@@ -8,6 +8,7 @@ Find all the deployment details in the [deployment-info.md](deployment-info.md "
 * [Optimism Mainnet: 10-main](../deployment-info/10-main.md "mention")
 * [Base Mainnet Andromeda: 8453-andromeda](../deployment-info/8453-andromeda.md "mention")
 * [Base Sepolia Andromeda: 84532-andromeda](../deployment-info/84532-andromeda.md "mention")
+* [Arbitrum Mainnet: 42161-main](../deployment-info/42161-main.md "mention")
 * [Arbitrum Sepolia: 421614-main](../deployment-info/421614-main.md "mention")
 
 The code for deployments can be found in the [synthetix-deployments](https://github.com/synthetixio/synthetix-deployments) GitOps repository.
