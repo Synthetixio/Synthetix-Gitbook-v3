@@ -207,57 +207,6 @@
   </tbody>
 </table>
 
-# Arbitrum One (42161, Main)
-
-<table data-full-width="true">
-  <thead>
-    <tr>
-      <th width="200">Import name</th>
-      <th width="400">Provisioned package</th>
-      <th width="500">IPFS (zlib compressed)</th>
-      <th width="500">Settings</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>pyth_erc7412_wrapper</td>
-      <td><a href="https://usecannon.com/packages/pyth-erc7412-wrapper/3.3.15/42161-main">pyth-erc7412-wrapper:3.3.15@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmVyQrEq4MZMmixTNof5XUxR5qQrXbQ2MLFR4K3PsHJ5D7">QmVyQrEq4MZMmixTNof5XUxR5qQrXbQ2MLFR4K3PsHJ5D7</a></td>
-      <td>
-        pythAddress: <a href="https://arbiscan.io/address/0x420000000000000000000000000000000000000F"><code>0x420000000000000000000000000000000000000F</code></a>
-      </td>
-    </tr>
-    <tr>
-      <td>system</td>
-      <td><a href="https://usecannon.com/packages/synthetix/3.3.18/42161-main">synthetix:3.3.18@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmezoFmwuLYEsh8oueyUq3312S5kPXjMFr78fwo4yanENh">QmezoFmwuLYEsh8oueyUq3312S5kPXjMFr78fwo4yanENh</a></td>
-      <td>
-        bundleSalt: main<br />oracle_manager_source: oracle-manager<br />owner: <a href="https://arbiscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
-        ><br />salt: main<br />const_one_oracle_id: 0x066ef68c9d9ca51eee861aeb5bce51a12e61f06f10bf62243c563671ae3a9733
-      </td>
-    </tr>
-    <tr>
-      <td>spotFactory</td>
-      <td><a href="https://usecannon.com/packages/synthetix-spot-market/3.3.15/42161-main">synthetix-spot-market:3.3.15@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmeVY3DL3bVDYS1dXPwLHM3kXRhsySmLUJRAUTK5433veW">QmeVY3DL3bVDYS1dXPwLHM3kXRhsySmLUJRAUTK5433veW</a></td>
-      <td>
-        owner: <a href="https://arbiscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
-        ><br />salt: snax<br />synthetixPackage: synthetix:3.3.15<br />synthetixPreset: main
-      </td>
-    </tr>
-    <tr>
-      <td>perpsFactory</td>
-      <td><a href="https://usecannon.com/packages/synthetix-perps-market/3.3.19/42161-main">synthetix-perps-market:3.3.19@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/Qmd5KnJsLM75LmXdkUDWZD9kCKGyVEdF4tkvegd7kgAKHb">Qmd5KnJsLM75LmXdkUDWZD9kCKGyVEdF4tkvegd7kgAKHb</a></td>
-      <td>
-        coreProxyOwner: <a href="https://arbiscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
-        ><br />owner: <a href="https://arbiscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
-        ><br />salt: snax<br />spotMarketPackage: synthetix-spot-market:latest<br />spotMarketPreset: main<br />synthetixPackage: synthetix:latest<br />synthetixPreset: main<br />superMarketId: 1
-      </td>
-    </tr>
-  </tbody>
-</table>
-
 # Arbitrum Sepolia (421614, Main)
 
 <table data-full-width="true">
