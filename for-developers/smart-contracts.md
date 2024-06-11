@@ -4337,6 +4337,19 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 
 **Returns**
 * `totalCollateralValue` (*uint256*) - value of all collateral
+#### globalCollateralValue
+
+  ```solidity
+  function globalCollateralValue(uint128 collateralId) external view returns (uint256 collateralValue)
+  ```
+
+  Gets the total collateral value of all deposited collateral from all traders.
+
+**Parameters**
+* `collateralId` (*uint128*) - the id of the collateral (0 for snxUSD)
+
+**Returns**
+* `collateralValue` (*uint256*) - value of all collateral for collateral id
 #### setFeeCollector
 
   ```solidity
