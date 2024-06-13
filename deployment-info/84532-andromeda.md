@@ -540,8 +540,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0xFE1C48476ed2983A9
   <tbody>
     <tr>
       <td>depositingEnabled</td>
-      <td>✅ Enabled</td>
-      <td><code>true</code></td>
+      <td>🚫 Disabled</td>
+      <td><code>false</code></td>
     </tr>
     <tr>
       <td>decimals</td>
