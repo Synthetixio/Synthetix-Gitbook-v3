@@ -230,7 +230,7 @@
     <tr>
       <td>system</td>
       <td><a href="https://usecannon.com/packages/synthetix/3.3.18/42161-main">synthetix:3.3.18@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmezoFmwuLYEsh8oueyUq3312S5kPXjMFr78fwo4yanENh">QmezoFmwuLYEsh8oueyUq3312S5kPXjMFr78fwo4yanENh</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmVsTCzb5pqdBQFYcL2MbmawjiAqj6qZNrgnSRFSzcK1B1">QmVsTCzb5pqdBQFYcL2MbmawjiAqj6qZNrgnSRFSzcK1B1</a></td>
       <td>
         bundleSalt: main<br />oracle_manager_source: oracle-manager<br />owner: <a href="https://arbiscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />salt: main<br />const_one_oracle_id: 0x066ef68c9d9ca51eee861aeb5bce51a12e61f06f10bf62243c563671ae3a9733
@@ -239,7 +239,7 @@
     <tr>
       <td>spotFactory</td>
       <td><a href="https://usecannon.com/packages/synthetix-spot-market/3.3.15/42161-main">synthetix-spot-market:3.3.15@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmeVY3DL3bVDYS1dXPwLHM3kXRhsySmLUJRAUTK5433veW">QmeVY3DL3bVDYS1dXPwLHM3kXRhsySmLUJRAUTK5433veW</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmT2sSZ77wY5xvYPwrEwMnqwf1GxAmYAyBtwegyvQ4rwfv">QmT2sSZ77wY5xvYPwrEwMnqwf1GxAmYAyBtwegyvQ4rwfv</a></td>
       <td>
         owner: <a href="https://arbiscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />salt: snax<br />synthetixPackage: synthetix:3.3.15<br />synthetixPreset: main
@@ -253,6 +253,39 @@
         coreProxyOwner: <a href="https://arbiscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />owner: <a href="https://arbiscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />salt: snax<br />spotMarketPackage: synthetix-spot-market:latest<br />spotMarketPreset: main<br />synthetixPackage: synthetix:latest<br />synthetixPreset: main<br />superMarketId: 1
+      </td>
+    </tr>
+    <tr>
+      <td>RewardsDistributor_SpartanCouncilPool_ARB_rewards_for_ARB_lp</td>
+      <td><a href="https://usecannon.com/packages/synthetix-rewards-distributor/0.0.2/42161-main">synthetix-rewards-distributor:0.0.2@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmZXLmxBoj6pbJcj8oaeu9WoP1MZR9iCCpLhiRdH8Bovhx">QmZXLmxBoj6pbJcj8oaeu9WoP1MZR9iCCpLhiRdH8Bovhx</a></td>
+      <td>
+        collateralType: <a href="https://arbiscan.io/address/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"><code>0x833589fcd6edb6e08f4c7c32d4f71b54bda02913</code></a
+        ><br />name: Rewards Distributor V3<br />payoutToken: <a href="https://arbiscan.io/address/0x22e6966B799c4D5B13BE962E1D117b56327FDa66"><code>0x22e6966B799c4D5B13BE962E1D117b56327FDa66</code></a
+        ><br />payoutTokenDecimals: 18<br />poolId: 1<br />rewardManager: <a href="https://arbiscan.io/address/0x32C222A9A159782aFD7529c87FA34b96CA72C696"><code>0x32C222A9A159782aFD7529c87FA34b96CA72C696</code></a
+        ><br />salt: rewards
+      </td>
+    </tr>
+    <tr>
+      <td>RewardsDistributor_SpartanCouncilPool_ARB_rewards_for_USDC_lp</td>
+      <td><a href="https://usecannon.com/packages/synthetix-rewards-distributor/0.0.2/42161-main">synthetix-rewards-distributor:0.0.2@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmYSRJSSiqfTiqKQ1V1pDC9QKtqiApXxfZ22Z1rGUj9Jmj">QmYSRJSSiqfTiqKQ1V1pDC9QKtqiApXxfZ22Z1rGUj9Jmj</a></td>
+      <td>
+        collateralType: <a href="https://arbiscan.io/address/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"><code>0x833589fcd6edb6e08f4c7c32d4f71b54bda02913</code></a
+        ><br />name: Rewards Distributor V3<br />payoutToken: <a href="https://arbiscan.io/address/0x22e6966B799c4D5B13BE962E1D117b56327FDa66"><code>0x22e6966B799c4D5B13BE962E1D117b56327FDa66</code></a
+        ><br />payoutTokenDecimals: 18<br />poolId: 1<br />rewardManager: <a href="https://arbiscan.io/address/0x32C222A9A159782aFD7529c87FA34b96CA72C696"><code>0x32C222A9A159782aFD7529c87FA34b96CA72C696</code></a
+        ><br />salt: rewards
+      </td>
+    </tr>
+    <tr>
+      <td>RewardsDistributor_SpartanCouncilPool_ARB_rewards_for_WETH_lp</td>
+      <td><a href="https://usecannon.com/packages/synthetix-rewards-distributor/0.0.2/42161-main">synthetix-rewards-distributor:0.0.2@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmQFn63bd6684cm99aYedZGhT7kHuZGRUnSF2xvoyfiTbR">QmQFn63bd6684cm99aYedZGhT7kHuZGRUnSF2xvoyfiTbR</a></td>
+      <td>
+        collateralType: <a href="https://arbiscan.io/address/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"><code>0x833589fcd6edb6e08f4c7c32d4f71b54bda02913</code></a
+        ><br />name: Rewards Distributor V3<br />payoutToken: <a href="https://arbiscan.io/address/0x22e6966B799c4D5B13BE962E1D117b56327FDa66"><code>0x22e6966B799c4D5B13BE962E1D117b56327FDa66</code></a
+        ><br />payoutTokenDecimals: 18<br />poolId: 1<br />rewardManager: <a href="https://arbiscan.io/address/0x32C222A9A159782aFD7529c87FA34b96CA72C696"><code>0x32C222A9A159782aFD7529c87FA34b96CA72C696</code></a
+        ><br />salt: rewards
       </td>
     </tr>
   </tbody>
