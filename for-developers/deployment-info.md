@@ -239,7 +239,7 @@
     <tr>
       <td>spotFactory</td>
       <td><a href="https://usecannon.com/packages/synthetix-spot-market/3.3.15/42161-main">synthetix-spot-market:3.3.15@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmT2sSZ77wY5xvYPwrEwMnqwf1GxAmYAyBtwegyvQ4rwfv">QmT2sSZ77wY5xvYPwrEwMnqwf1GxAmYAyBtwegyvQ4rwfv</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmZxDq752MfD4mAhyZRYXxBmBNJHScYh5QpRnfEEHkXQxt">QmZxDq752MfD4mAhyZRYXxBmBNJHScYh5QpRnfEEHkXQxt</a></td>
       <td>
         owner: <a href="https://arbiscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />salt: snax<br />synthetixPackage: synthetix:3.3.15<br />synthetixPreset: main
