@@ -110,40 +110,40 @@
   </thead>
   <tbody>
     <tr>
+      <td>pyth_erc7412_wrapper</td>
+      <td><a href="https://usecannon.com/packages/pyth-erc7412-wrapper/3.3.15/11155111-main">pyth-erc7412-wrapper:3.3.15@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmUmxoFqS1Kexr5ozGofi9LGHPEb9auref7Fyf1h7qPQCv">QmUmxoFqS1Kexr5ozGofi9LGHPEb9auref7Fyf1h7qPQCv</a></td>
+      <td>
+        pythAddress: <a href="https://sepolia.etherscan.io/address/0x420000000000000000000000000000000000000F"><code>0x420000000000000000000000000000000000000F</code></a>
+      </td>
+    </tr>
+    <tr>
       <td>system</td>
-      <td><a href="https://usecannon.com/packages/synthetix/3.3.4/11155111-main">synthetix:3.3.4@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmYQs6jFSeT49MjmRotSdyfWS7RSh6Q4FRT4s3xxuEqqQp">QmYQs6jFSeT49MjmRotSdyfWS7RSh6Q4FRT4s3xxuEqqQp</a></td>
-      <td>n/a</td>
+      <td><a href="https://usecannon.com/packages/synthetix/3.3.15/11155111-main">synthetix:3.3.15@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/Qmdq9164UBG1hrdUeh1YtPVg9Gq8wwQYA7CT5156sPApxg">Qmdq9164UBG1hrdUeh1YtPVg9Gq8wwQYA7CT5156sPApxg</a></td>
+      <td>
+        bundleSalt: main<br />oracle_manager_source: oracle-manager:3.3.15<br />owner: <a href="https://sepolia.etherscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
+        ><br />salt: main<br />const_one_oracle_id: 0x066ef68c9d9ca51eee861aeb5bce51a12e61f06f10bf62243c563671ae3a9733
+      </td>
     </tr>
     <tr>
-      <td>ambassador_council</td>
-      <td><a href="https://usecannon.com/packages/synthetix-governance/3.0.3/11155111-main">synthetix-governance:3.0.3@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmdN6ZCgMD6rbDEuwruDqzF8Amf9WLsPVfAapadZFLh4m9">QmdN6ZCgMD6rbDEuwruDqzF8Amf9WLsPVfAapadZFLh4m9</a></td>
-      <td>n/a</td>
+      <td>legacyMarket</td>
+      <td><a href="https://usecannon.com/packages/synthetix-legacy-market/3.3.4/11155111-main">synthetix-legacy-market:3.3.4@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmPPYzHKgM3dCpgDTtieWFakbSdHC5gxuhS5DzATYDDVnE">QmPPYzHKgM3dCpgDTtieWFakbSdHC5gxuhS5DzATYDDVnE</a></td>
+      <td>
+        market_id: 1<br />owner: <a href="https://sepolia.etherscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
+        ><br />pool_owner: <a href="https://sepolia.etherscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
+        ><br />sc_pool_id: 1<br />v2x_package: synthetix:2.100.0<br />v3_package: synthetix:3.3.15<br />marketId: 1
+      </td>
     </tr>
     <tr>
-      <td>grants_council</td>
-      <td><a href="https://usecannon.com/packages/synthetix-governance/3.0.3/11155111-main">synthetix-governance:3.0.3@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmczyYvP7c2VGHj4xKEdiD7NCrdL9KnHuD3ettnGUywnDS">QmczyYvP7c2VGHj4xKEdiD7NCrdL9KnHuD3ettnGUywnDS</a></td>
-      <td>n/a</td>
-    </tr>
-    <tr>
-      <td>snapshot_record_mock</td>
-      <td><a href="https://usecannon.com/packages/synthetix-snapshot-record-mock/3.0.0/11155111-main">synthetix-snapshot-record-mock:3.0.0@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmcZPNntqA1eL8uqmj3ZDAFUDre4xehNAgZubQMaoyjAfa">QmcZPNntqA1eL8uqmj3ZDAFUDre4xehNAgZubQMaoyjAfa</a></td>
-      <td>n/a</td>
-    </tr>
-    <tr>
-      <td>spartan_council</td>
-      <td><a href="https://usecannon.com/packages/synthetix-governance/3.0.3/11155111-main">synthetix-governance:3.0.3@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmVAR8KuedCc5cS8kJGVfryRLskYvto6FPCKYL1b5kDRr1">QmVAR8KuedCc5cS8kJGVfryRLskYvto6FPCKYL1b5kDRr1</a></td>
-      <td>n/a</td>
-    </tr>
-    <tr>
-      <td>treasury_council</td>
-      <td><a href="https://usecannon.com/packages/synthetix-governance/3.0.3/11155111-main">synthetix-governance:3.0.3@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmPSXnVvHpXbJBvfms8HPfCJ3MVMonWDK9CtoHiYhn5PWy">QmPSXnVvHpXbJBvfms8HPfCJ3MVMonWDK9CtoHiYhn5PWy</a></td>
-      <td>n/a</td>
+      <td>spotFactory</td>
+      <td><a href="https://usecannon.com/packages/synthetix-spot-market/3.3.15/11155111-main">synthetix-spot-market:3.3.15@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmRBqPghxFx4TYKZDzx95XNxJhWzF1Xm5yAzQu9GmPKkAf">QmRBqPghxFx4TYKZDzx95XNxJhWzF1Xm5yAzQu9GmPKkAf</a></td>
+      <td>
+        owner: <a href="https://sepolia.etherscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
+        ><br />salt: snax<br />synthetixPackage: synthetix:3.3.15<br />synthetixPreset: main
+      </td>
     </tr>
   </tbody>
 </table>
