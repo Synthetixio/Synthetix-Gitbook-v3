@@ -290,7 +290,7 @@ Token address: <a href="https://optimistic.etherscan.io/address/0x42000000000000
     <tr>
       <td>synthMarketId</td>
       <td>1</td>
-      <td><code>1</code></td>
+      <td><code>"1"</code></td>
     </tr>
     <tr>
       <td>name</td>
@@ -511,25 +511,6 @@ Token address: <a href="https://optimistic.etherscan.io/address/0x42000000000000
   <tbody>
     <tr>
       <td><code>1</code> Spartan Council Pool <i>* preferred</i></td>
-      <td>
-        <a href="https://optimistic.etherscan.io/address/0x6cd3f878852769e04A723A5f66CA7DD4d9E38A6C"><code>0x6cd3f878852769e04A723A5f66CA7DD4d9E38A6C</code></a>
-      </td>
-      <td>n/a</td>
-    </tr>
-  </tbody>
-</table>
-
-<table data-full-width="true">
-  <thead>
-    <tr>
-      <th width="400">Synth Market</th>
-      <th width="500">Owner</th>
-      <th width="500">Nominated owner</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><code>1</code> Synthetic Ethereum Spot Market</td>
       <td>
         <a href="https://optimistic.etherscan.io/address/0x6cd3f878852769e04A723A5f66CA7DD4d9E38A6C"><code>0x6cd3f878852769e04A723A5f66CA7DD4d9E38A6C</code></a>
       </td>
