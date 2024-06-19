@@ -587,6 +587,16 @@
         ><br />salt: rewards
       </td>
     </tr>
+    <tr>
+      <td>perpsLowCapFactory</td>
+      <td><a href="https://usecannon.com/packages/synthetix-perps-market/3.3.19/84532-andromeda">synthetix-perps-market:3.3.19@andromeda</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmY6n9FbQxiZSWzz2hW4tVnfmexrCzBvUZ6axPu5HAW22s">QmY6n9FbQxiZSWzz2hW4tVnfmexrCzBvUZ6axPu5HAW22s</a></td>
+      <td>
+        coreProxyOwner: <a href="https://sepolia.basescan.org/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
+        ><br />owner: <a href="https://sepolia.basescan.org/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
+        ><br />salt: snax<br />spotMarketPackage: synthetix-spot-market:latest<br />spotMarketPreset: main<br />synthetixPackage: synthetix:latest<br />synthetixPreset: main<br />superMarketId: 5
+      </td>
+    </tr>
   </tbody>
 </table>
 
