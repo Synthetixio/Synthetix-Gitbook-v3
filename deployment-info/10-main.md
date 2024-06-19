@@ -290,7 +290,7 @@ Token address: <a href="https://optimistic.etherscan.io/address/0x42000000000000
     <tr>
       <td>synthMarketId</td>
       <td>1</td>
-      <td><code>"1"</code></td>
+      <td><code>1</code></td>
     </tr>
     <tr>
       <td>name</td>
