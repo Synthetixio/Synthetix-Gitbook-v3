@@ -386,7 +386,7 @@ Token address: <a href="https://basescan.org/address/0x833589fCD6eDb6E08f4c7C32D
     <tr>
       <td>synthMarketId</td>
       <td>1</td>
-      <td><code>1</code></td>
+      <td><code>"1"</code></td>
     </tr>
     <tr>
       <td>name</td>
@@ -6735,134 +6735,6 @@ Perps market ID: <code>900</code>
       <td>commitmentPriceDelay</td>
       <td>2</td>
       <td><code>2</code> / <code>0x02</code></td>
-    </tr>
-  </tbody>
-</table>
-
-# Rewards Distributor: Spartan Council Pool USDC Rewards
-
-<table data-full-width="true">
-  <thead>
-    <tr>
-      <th width="400">Parameter name</th>
-      <th width="100">Value</th>
-      <th width="800">Raw value</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>name</td>
-      <td></td>
-      <td><code>"synthetix-omnibus"</code></td>
-    </tr>
-    <tr>
-      <td>address</td>
-      <td></td>
-      <td>
-        <a href="https://basescan.org/address/0xe92bcD40849BE5a5eb90065402e508aF4b28263b"><code>0xe92bcD40849BE5a5eb90065402e508aF4b28263b</code></a>
-      </td>
-    </tr>
-    <tr>
-      <td>deployTxn</td>
-      <td></td>
-      <td>
-        <a href="https://basescan.org/tx/0x0bf21cec966271d80cc6d0efffdca1bf2e685440cc6bba5ef4f406855409ff2e"><code>0x0bf21cec966271d80cc6d0efffdca1bf2e685440cc6bba5ef4f406855409ff2e</code></a>
-      </td>
-    </tr>
-    <tr>
-      <td>registered</td>
-      <td>✅ Registered</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>poolId</td>
-      <td>1</td>
-      <td><code>"1"</code></td>
-    </tr>
-    <tr>
-      <td>collateralType</td>
-      <td>sUSDC <code>18</code></td>
-      <td>
-        <a href="https://basescan.org/address/0xC74eA762cF06c9151cE074E6a569a5945b6302E7"><code>0xC74eA762cF06c9151cE074E6a569a5945b6302E7</code></a>
-      </td>
-    </tr>
-    <tr>
-      <td>payoutToken</td>
-      <td>USDC <code>6</code></td>
-      <td>
-        <a href="https://basescan.org/address/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"><code>0x833589fcd6edb6e08f4c7c32d4f71b54bda02913</code></a>
-      </td>
-    </tr>
-    <tr>
-      <td>rewardManager</td>
-      <td></td>
-      <td>
-        <a href="https://basescan.org/address/0x32C222A9A159782aFD7529c87FA34b96CA72C696"><code>0x32C222A9A159782aFD7529c87FA34b96CA72C696</code></a>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-# Rewards Distributor: Spartan Council Pool Rewards
-
-<table data-full-width="true">
-  <thead>
-    <tr>
-      <th width="400">Parameter name</th>
-      <th width="100">Value</th>
-      <th width="800">Raw value</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>name</td>
-      <td></td>
-      <td><code>"synthetix-omnibus"</code></td>
-    </tr>
-    <tr>
-      <td>address</td>
-      <td></td>
-      <td>
-        <a href="https://basescan.org/address/0x45063DCd92f56138686810eacB1B510C941d6593"><code>0x45063DCd92f56138686810eacB1B510C941d6593</code></a>
-      </td>
-    </tr>
-    <tr>
-      <td>deployTxn</td>
-      <td></td>
-      <td>
-        <a href="https://basescan.org/tx/0x24fcb3cb30485bfcedd7da639c8a559d2dd7ac8b3852dc6c8a18f11136900e16"><code>0x24fcb3cb30485bfcedd7da639c8a559d2dd7ac8b3852dc6c8a18f11136900e16</code></a>
-      </td>
-    </tr>
-    <tr>
-      <td>registered</td>
-      <td>✅ Registered</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>poolId</td>
-      <td>1</td>
-      <td><code>"1"</code></td>
-    </tr>
-    <tr>
-      <td>collateralType</td>
-      <td>sUSDC <code>18</code></td>
-      <td>
-        <a href="https://basescan.org/address/0xC74eA762cF06c9151cE074E6a569a5945b6302E7"><code>0xC74eA762cF06c9151cE074E6a569a5945b6302E7</code></a>
-      </td>
-    </tr>
-    <tr>
-      <td>payoutToken</td>
-      <td>SNX <code>18</code></td>
-      <td>
-        <a href="https://basescan.org/address/0x22e6966B799c4D5B13BE962E1D117b56327FDa66"><code>0x22e6966B799c4D5B13BE962E1D117b56327FDa66</code></a>
-      </td>
-    </tr>
-    <tr>
-      <td>rewardManager</td>
-      <td></td>
-      <td>
-        <a href="https://basescan.org/address/0x32C222A9A159782aFD7529c87FA34b96CA72C696"><code>0x32C222A9A159782aFD7529c87FA34b96CA72C696</code></a>
-      </td>
     </tr>
   </tbody>
 </table>
