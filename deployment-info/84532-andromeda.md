@@ -7038,6 +7038,134 @@ Perps market ID: <code>900</code>
   </tbody>
 </table>
 
+# Rewards Distributor: Spartan Council Pool USDC Rewards
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Parameter name</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>name</td>
+      <td></td>
+      <td><code>"synthetix-omnibus"</code></td>
+    </tr>
+    <tr>
+      <td>address</td>
+      <td></td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0xA28719DDDa6e129d5E8fd470A17Cd075cEf5d25A"><code>0xA28719DDDa6e129d5E8fd470A17Cd075cEf5d25A</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>deployTxn</td>
+      <td></td>
+      <td>
+        <a href="https://sepolia.basescan.org/tx/0x50b6affe4dcea0ca0a501beedc458e52099620d06d947b0d3ddb4804d9796f5d"><code>0x50b6affe4dcea0ca0a501beedc458e52099620d06d947b0d3ddb4804d9796f5d</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>registered</td>
+      <td>✅ Registered</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>poolId</td>
+      <td>1</td>
+      <td><code>"1"</code></td>
+    </tr>
+    <tr>
+      <td>collateralType</td>
+      <td>sUSDC <code>18</code></td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0x8069c44244e72443722cfb22DcE5492cba239d39"><code>0x8069c44244e72443722cfb22DcE5492cba239d39</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>payoutToken</td>
+      <td>fUSDC <code>6</code></td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0xc43708f8987Df3f3681801e5e640667D86Ce3C30"><code>0xc43708f8987Df3f3681801e5e640667D86Ce3C30</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>rewardManager</td>
+      <td></td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0x764F4C95FDA0D6f8114faC54f6709b1B45f919a1"><code>0x764F4C95FDA0D6f8114faC54f6709b1B45f919a1</code></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+# Rewards Distributor: Spartan Council Pool Rewards
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Parameter name</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>name</td>
+      <td></td>
+      <td><code>"synthetix-omnibus"</code></td>
+    </tr>
+    <tr>
+      <td>address</td>
+      <td></td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0x477010BEe49e5c88989138A4f0D7176E5741eb84"><code>0x477010BEe49e5c88989138A4f0D7176E5741eb84</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>deployTxn</td>
+      <td></td>
+      <td>
+        <a href="https://sepolia.basescan.org/tx/0x075851ba1bc7630b0786671a3f6679fd0db64f4dc82037cdad84e825cfbfaf94"><code>0x075851ba1bc7630b0786671a3f6679fd0db64f4dc82037cdad84e825cfbfaf94</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>registered</td>
+      <td>✅ Registered</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>poolId</td>
+      <td>1</td>
+      <td><code>"1"</code></td>
+    </tr>
+    <tr>
+      <td>collateralType</td>
+      <td>sUSDC <code>18</code></td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0x8069c44244e72443722cfb22DcE5492cba239d39"><code>0x8069c44244e72443722cfb22DcE5492cba239d39</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>payoutToken</td>
+      <td>fwSNX <code>18</code></td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0x8F4b425597A70001E255d067626e4860E2543f22"><code>0x8F4b425597A70001E255d067626e4860E2543f22</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>rewardManager</td>
+      <td></td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0x764F4C95FDA0D6f8114faC54f6709b1B45f919a1"><code>0x764F4C95FDA0D6f8114faC54f6709b1B45f919a1</code></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 # Owners
 
 <table data-full-width="true">
