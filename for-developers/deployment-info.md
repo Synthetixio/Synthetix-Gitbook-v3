@@ -390,6 +390,46 @@
         ><br />salt: rewards
       </td>
     </tr>
+    <tr>
+      <td>USDe_mock_collateral</td>
+      <td><a href="https://usecannon.com/packages/synthetix-mock-tokens/1.8/421614-main">synthetix-mock-tokens:1.8@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/Qmbvq6Ydf5yVgzetPpycfLkAin2nC3bBwYnLr8Ngt17Qmy">Qmbvq6Ydf5yVgzetPpycfLkAin2nC3bBwYnLr8Ngt17Qmy</a></td>
+      <td>
+        decimals: 18<br />initialSupply: 0<br />name: Token<br />owner: <a href="https://sepolia.arbiscan.io/address/0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"><code>0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9</code></a
+        ><br />salt: <br />symbol: TKN
+      </td>
+    </tr>
+    <tr>
+      <td>sUSDe_mock_collateral</td>
+      <td><a href="https://usecannon.com/packages/synthetix-mock-tokens/1.8/421614-main">synthetix-mock-tokens:1.8@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmfLr5gbNJ1bB8YTLNY6xrhjdvnKACTxU6wxkU7Gtcn6QU">QmfLr5gbNJ1bB8YTLNY6xrhjdvnKACTxU6wxkU7Gtcn6QU</a></td>
+      <td>
+        decimals: 18<br />initialSupply: 0<br />name: Token<br />owner: <a href="https://sepolia.arbiscan.io/address/0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"><code>0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9</code></a
+        ><br />salt: <br />symbol: TKN
+      </td>
+    </tr>
+    <tr>
+      <td>RewardsDistributor_SpartanCouncilPool_ARB_rewards_for_USDe_lp</td>
+      <td><a href="https://usecannon.com/packages/synthetix-rewards-distributor/0.0.2/421614-main">synthetix-rewards-distributor:0.0.2@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmabSsmSWMwaZrYRimxcKwpZswYPRTksZoKkjAcCFfM1CG">QmabSsmSWMwaZrYRimxcKwpZswYPRTksZoKkjAcCFfM1CG</a></td>
+      <td>
+        collateralType: <a href="https://sepolia.arbiscan.io/address/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"><code>0x833589fcd6edb6e08f4c7c32d4f71b54bda02913</code></a
+        ><br />name: Rewards Distributor V3<br />payoutToken: <a href="https://sepolia.arbiscan.io/address/0x22e6966B799c4D5B13BE962E1D117b56327FDa66"><code>0x22e6966B799c4D5B13BE962E1D117b56327FDa66</code></a
+        ><br />payoutTokenDecimals: 18<br />poolId: 1<br />rewardManager: <a href="https://sepolia.arbiscan.io/address/0x32C222A9A159782aFD7529c87FA34b96CA72C696"><code>0x32C222A9A159782aFD7529c87FA34b96CA72C696</code></a
+        ><br />salt: rewards
+      </td>
+    </tr>
+    <tr>
+      <td>RewardsDistributor_SpartanCouncilPool_ARB_rewards_for_sUSDe_lp</td>
+      <td><a href="https://usecannon.com/packages/synthetix-rewards-distributor/0.0.2/421614-main">synthetix-rewards-distributor:0.0.2@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmQUtayMsUa3yBLj45fNXXZvpBH2hM3zD9syy7Pz2Tq3re">QmQUtayMsUa3yBLj45fNXXZvpBH2hM3zD9syy7Pz2Tq3re</a></td>
+      <td>
+        collateralType: <a href="https://sepolia.arbiscan.io/address/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"><code>0x833589fcd6edb6e08f4c7c32d4f71b54bda02913</code></a
+        ><br />name: Rewards Distributor V3<br />payoutToken: <a href="https://sepolia.arbiscan.io/address/0x22e6966B799c4D5B13BE962E1D117b56327FDa66"><code>0x22e6966B799c4D5B13BE962E1D117b56327FDa66</code></a
+        ><br />payoutTokenDecimals: 18<br />poolId: 1<br />rewardManager: <a href="https://sepolia.arbiscan.io/address/0x32C222A9A159782aFD7529c87FA34b96CA72C696"><code>0x32C222A9A159782aFD7529c87FA34b96CA72C696</code></a
+        ><br />salt: rewards
+      </td>
+    </tr>
   </tbody>
 </table>
 
