@@ -590,7 +590,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0xFE1C48476ed2983A9
     <tr>
       <td>synthMarketId</td>
       <td>1</td>
-      <td><code>"1"</code></td>
+      <td><code>1</code></td>
     </tr>
     <tr>
       <td>name</td>
@@ -617,6 +617,101 @@ Token address: <a href="https://sepolia.basescan.org/address/0xFE1C48476ed2983A9
       <td></td>
       <td>
         <a href="https://sepolia.basescan.org/address/0x8069c44244e72443722cfb22DcE5492cba239d39"><code>0x8069c44244e72443722cfb22DcE5492cba239d39</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>implementationAddress</td>
+      <td></td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0x3b1D0009899067D7DB5e859c182410714caf8725"><code>0x3b1D0009899067D7DB5e859c182410714caf8725</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>collateralLeverage</td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+    </tr>
+    <tr>
+      <td>feeCollector</td>
+      <td></td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0x0000000000000000000000000000000000000000"><code>0x0000000000000000000000000000000000000000</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>atomicFixedFee</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>asyncFixedFee</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>wrapFee</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>unwrapFee</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>utilizationFeeRate</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>skewScale</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+  </tbody>
+</table>
+
+# Synth market `4` Synthetic Static aUSDC Spot Market
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Parameter name</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>synthMarketId</td>
+      <td>4</td>
+      <td><code>4</code></td>
+    </tr>
+    <tr>
+      <td>name</td>
+      <td></td>
+      <td><code>"Synthetic Static aUSDC Spot Market"</code></td>
+    </tr>
+    <tr>
+      <td>synthSymbol</td>
+      <td></td>
+      <td><code>"sStataUSDC"</code></td>
+    </tr>
+    <tr>
+      <td>synthName</td>
+      <td></td>
+      <td><code>"Synthetic Static aUSDC"</code></td>
+    </tr>
+    <tr>
+      <td>synthDecimals</td>
+      <td>18</td>
+      <td><code>18</code></td>
+    </tr>
+    <tr>
+      <td>synthAddress</td>
+      <td></td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0xB94c6E4f5162717c6fAb1Eeab8f0296307F91528"><code>0xB94c6E4f5162717c6fAb1Eeab8f0296307F91528</code></a>
       </td>
     </tr>
     <tr>
@@ -7075,6 +7170,13 @@ Perps market ID: <code>900</code>
   <tbody>
     <tr>
       <td><code>1</code> Synthetic USD Coin Spot Market</td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"><code>0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td><code>4</code> Synthetic Static aUSDC Spot Market</td>
       <td>
         <a href="https://sepolia.basescan.org/address/0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"><code>0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9</code></a>
       </td>
