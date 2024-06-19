@@ -386,7 +386,7 @@ Token address: <a href="https://basescan.org/address/0x833589fCD6eDb6E08f4c7C32D
     <tr>
       <td>synthMarketId</td>
       <td>1</td>
-      <td><code>"1"</code></td>
+      <td><code>1</code></td>
     </tr>
     <tr>
       <td>name</td>
