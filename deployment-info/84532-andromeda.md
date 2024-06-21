@@ -107,30 +107,6 @@
       </td>
     </tr>
     <tr>
-      <td>RewardsDistributorForSpartanCouncilPoolSNX</td>
-      <td>
-        <a href="https://sepolia.basescan.org/address/0x477010BEe49e5c88989138A4f0D7176E5741eb84"><code>0x477010BEe49e5c88989138A4f0D7176E5741eb84</code></a>
-      </td>
-      <td>
-        <a href="./84532-andromeda/RewardsDistributorForSpartanCouncilPoolSNX.json"><code>RewardsDistributorForSpartanCouncilPoolSNX.json</code></a>
-      </td>
-      <td>
-        <a href="./84532-andromeda/RewardsDistributorForSpartanCouncilPoolSNX.readable.json"><code>RewardsDistributorForSpartanCouncilPoolSNX.readable.json</code></a>
-      </td>
-    </tr>
-    <tr>
-      <td>RewardsDistributorForSpartanCouncilPoolUSDC</td>
-      <td>
-        <a href="https://sepolia.basescan.org/address/0xA28719DDDa6e129d5E8fd470A17Cd075cEf5d25A"><code>0xA28719DDDa6e129d5E8fd470A17Cd075cEf5d25A</code></a>
-      </td>
-      <td>
-        <a href="./84532-andromeda/RewardsDistributorForSpartanCouncilPoolUSDC.json"><code>RewardsDistributorForSpartanCouncilPoolUSDC.json</code></a>
-      </td>
-      <td>
-        <a href="./84532-andromeda/RewardsDistributorForSpartanCouncilPoolUSDC.readable.json"><code>RewardsDistributorForSpartanCouncilPoolUSDC.readable.json</code></a>
-      </td>
-    </tr>
-    <tr>
       <td>PythERC7412Wrapper</td>
       <td>
         <a href="https://sepolia.basescan.org/address/0xF9e9e905d3745F5E0B803a179E17328CFe03B56d"><code>0xF9e9e905d3745F5E0B803a179E17328CFe03B56d</code></a>
@@ -143,39 +119,99 @@
       </td>
     </tr>
     <tr>
-      <td>FakeCollateralfwSNX</td>
+      <td>MintableToken_fwSNX</td>
       <td>
         <a href="https://sepolia.basescan.org/address/0x8F4b425597A70001E255d067626e4860E2543f22"><code>0x8F4b425597A70001E255d067626e4860E2543f22</code></a>
       </td>
       <td>
-        <a href="./84532-andromeda/FakeCollateralfwSNX.json"><code>FakeCollateralfwSNX.json</code></a>
+        <a href="./84532-andromeda/MintableToken_fwSNX.json"><code>MintableToken_fwSNX.json</code></a>
       </td>
       <td>
-        <a href="./84532-andromeda/FakeCollateralfwSNX.readable.json"><code>FakeCollateralfwSNX.readable.json</code></a>
+        <a href="./84532-andromeda/MintableToken_fwSNX.readable.json"><code>MintableToken_fwSNX.readable.json</code></a>
       </td>
     </tr>
     <tr>
-      <td>FakeCollateralfUSDC</td>
+      <td>MintableToken_fUSDC</td>
       <td>
         <a href="https://sepolia.basescan.org/address/0xc43708f8987Df3f3681801e5e640667D86Ce3C30"><code>0xc43708f8987Df3f3681801e5e640667D86Ce3C30</code></a>
       </td>
       <td>
-        <a href="./84532-andromeda/FakeCollateralfUSDC.json"><code>FakeCollateralfUSDC.json</code></a>
+        <a href="./84532-andromeda/MintableToken_fUSDC.json"><code>MintableToken_fUSDC.json</code></a>
       </td>
       <td>
-        <a href="./84532-andromeda/FakeCollateralfUSDC.readable.json"><code>FakeCollateralfUSDC.readable.json</code></a>
+        <a href="./84532-andromeda/MintableToken_fUSDC.readable.json"><code>MintableToken_fUSDC.readable.json</code></a>
       </td>
     </tr>
     <tr>
-      <td>SynthUSDCToken</td>
+      <td>CollateralToken_fUSDC</td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0xc43708f8987Df3f3681801e5e640667D86Ce3C30"><code>0xc43708f8987Df3f3681801e5e640667D86Ce3C30</code></a>
+      </td>
+      <td>
+        <a href="./84532-andromeda/CollateralToken_fUSDC.json"><code>CollateralToken_fUSDC.json</code></a>
+      </td>
+      <td>
+        <a href="./84532-andromeda/CollateralToken_fUSDC.readable.json"><code>CollateralToken_fUSDC.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>CollateralToken_sUSDC</td>
       <td>
         <a href="https://sepolia.basescan.org/address/0x8069c44244e72443722cfb22DcE5492cba239d39"><code>0x8069c44244e72443722cfb22DcE5492cba239d39</code></a>
       </td>
       <td>
-        <a href="./84532-andromeda/SynthUSDCToken.json"><code>SynthUSDCToken.json</code></a>
+        <a href="./84532-andromeda/CollateralToken_sUSDC.json"><code>CollateralToken_sUSDC.json</code></a>
       </td>
       <td>
-        <a href="./84532-andromeda/SynthUSDCToken.readable.json"><code>SynthUSDCToken.readable.json</code></a>
+        <a href="./84532-andromeda/CollateralToken_sUSDC.readable.json"><code>CollateralToken_sUSDC.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>CollateralToken_stataUSDC</td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0xB3f05d39504dA95876EA0174D25Ae51Ac2422a70"><code>0xB3f05d39504dA95876EA0174D25Ae51Ac2422a70</code></a>
+      </td>
+      <td>
+        <a href="./84532-andromeda/CollateralToken_stataUSDC.json"><code>CollateralToken_stataUSDC.json</code></a>
+      </td>
+      <td>
+        <a href="./84532-andromeda/CollateralToken_stataUSDC.readable.json"><code>CollateralToken_stataUSDC.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>CollateralToken_sStataUSDC</td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0xB94c6E4f5162717c6fAb1Eeab8f0296307F91528"><code>0xB94c6E4f5162717c6fAb1Eeab8f0296307F91528</code></a>
+      </td>
+      <td>
+        <a href="./84532-andromeda/CollateralToken_sStataUSDC.json"><code>CollateralToken_sStataUSDC.json</code></a>
+      </td>
+      <td>
+        <a href="./84532-andromeda/CollateralToken_sStataUSDC.readable.json"><code>CollateralToken_sStataUSDC.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>SynthToken_sUSDC</td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0x8069c44244e72443722cfb22DcE5492cba239d39"><code>0x8069c44244e72443722cfb22DcE5492cba239d39</code></a>
+      </td>
+      <td>
+        <a href="./84532-andromeda/SynthToken_sUSDC.json"><code>SynthToken_sUSDC.json</code></a>
+      </td>
+      <td>
+        <a href="./84532-andromeda/SynthToken_sUSDC.readable.json"><code>SynthToken_sUSDC.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>SynthToken_sStataUSDC</td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0xB94c6E4f5162717c6fAb1Eeab8f0296307F91528"><code>0xB94c6E4f5162717c6fAb1Eeab8f0296307F91528</code></a>
+      </td>
+      <td>
+        <a href="./84532-andromeda/SynthToken_sStataUSDC.json"><code>SynthToken_sStataUSDC.json</code></a>
+      </td>
+      <td>
+        <a href="./84532-andromeda/SynthToken_sStataUSDC.readable.json"><code>SynthToken_sStataUSDC.readable.json</code></a>
       </td>
     </tr>
     <tr>
@@ -7038,134 +7074,6 @@ Perps market ID: <code>900</code>
   </tbody>
 </table>
 
-# Rewards Distributor: Spartan Council Pool USDC Rewards
-
-<table data-full-width="true">
-  <thead>
-    <tr>
-      <th width="400">Parameter name</th>
-      <th width="100">Value</th>
-      <th width="800">Raw value</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>name</td>
-      <td></td>
-      <td><code>"synthetix-omnibus"</code></td>
-    </tr>
-    <tr>
-      <td>address</td>
-      <td></td>
-      <td>
-        <a href="https://sepolia.basescan.org/address/0xA28719DDDa6e129d5E8fd470A17Cd075cEf5d25A"><code>0xA28719DDDa6e129d5E8fd470A17Cd075cEf5d25A</code></a>
-      </td>
-    </tr>
-    <tr>
-      <td>deployTxn</td>
-      <td></td>
-      <td>
-        <a href="https://sepolia.basescan.org/tx/0x50b6affe4dcea0ca0a501beedc458e52099620d06d947b0d3ddb4804d9796f5d"><code>0x50b6affe4dcea0ca0a501beedc458e52099620d06d947b0d3ddb4804d9796f5d</code></a>
-      </td>
-    </tr>
-    <tr>
-      <td>registered</td>
-      <td>✅ Registered</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>poolId</td>
-      <td>1</td>
-      <td><code>"1"</code></td>
-    </tr>
-    <tr>
-      <td>collateralType</td>
-      <td>sUSDC <code>18</code></td>
-      <td>
-        <a href="https://sepolia.basescan.org/address/0x8069c44244e72443722cfb22DcE5492cba239d39"><code>0x8069c44244e72443722cfb22DcE5492cba239d39</code></a>
-      </td>
-    </tr>
-    <tr>
-      <td>payoutToken</td>
-      <td>fUSDC <code>6</code></td>
-      <td>
-        <a href="https://sepolia.basescan.org/address/0xc43708f8987Df3f3681801e5e640667D86Ce3C30"><code>0xc43708f8987Df3f3681801e5e640667D86Ce3C30</code></a>
-      </td>
-    </tr>
-    <tr>
-      <td>rewardManager</td>
-      <td></td>
-      <td>
-        <a href="https://sepolia.basescan.org/address/0x764F4C95FDA0D6f8114faC54f6709b1B45f919a1"><code>0x764F4C95FDA0D6f8114faC54f6709b1B45f919a1</code></a>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-# Rewards Distributor: Spartan Council Pool Rewards
-
-<table data-full-width="true">
-  <thead>
-    <tr>
-      <th width="400">Parameter name</th>
-      <th width="100">Value</th>
-      <th width="800">Raw value</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>name</td>
-      <td></td>
-      <td><code>"synthetix-omnibus"</code></td>
-    </tr>
-    <tr>
-      <td>address</td>
-      <td></td>
-      <td>
-        <a href="https://sepolia.basescan.org/address/0x477010BEe49e5c88989138A4f0D7176E5741eb84"><code>0x477010BEe49e5c88989138A4f0D7176E5741eb84</code></a>
-      </td>
-    </tr>
-    <tr>
-      <td>deployTxn</td>
-      <td></td>
-      <td>
-        <a href="https://sepolia.basescan.org/tx/0x075851ba1bc7630b0786671a3f6679fd0db64f4dc82037cdad84e825cfbfaf94"><code>0x075851ba1bc7630b0786671a3f6679fd0db64f4dc82037cdad84e825cfbfaf94</code></a>
-      </td>
-    </tr>
-    <tr>
-      <td>registered</td>
-      <td>✅ Registered</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>poolId</td>
-      <td>1</td>
-      <td><code>"1"</code></td>
-    </tr>
-    <tr>
-      <td>collateralType</td>
-      <td>sUSDC <code>18</code></td>
-      <td>
-        <a href="https://sepolia.basescan.org/address/0x8069c44244e72443722cfb22DcE5492cba239d39"><code>0x8069c44244e72443722cfb22DcE5492cba239d39</code></a>
-      </td>
-    </tr>
-    <tr>
-      <td>payoutToken</td>
-      <td>fwSNX <code>18</code></td>
-      <td>
-        <a href="https://sepolia.basescan.org/address/0x8F4b425597A70001E255d067626e4860E2543f22"><code>0x8F4b425597A70001E255d067626e4860E2543f22</code></a>
-      </td>
-    </tr>
-    <tr>
-      <td>rewardManager</td>
-      <td></td>
-      <td>
-        <a href="https://sepolia.basescan.org/address/0x764F4C95FDA0D6f8114faC54f6709b1B45f919a1"><code>0x764F4C95FDA0D6f8114faC54f6709b1B45f919a1</code></a>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
 # Owners
 
 <table data-full-width="true">
@@ -7232,34 +7140,57 @@ Perps market ID: <code>900</code>
       <td>n/a</td>
     </tr>
     <tr>
-      <td>RewardsDistributorForSpartanCouncilPoolSNX</td>
-      <td>n/a</td>
-      <td>n/a</td>
-    </tr>
-    <tr>
-      <td>RewardsDistributorForSpartanCouncilPoolUSDC</td>
-      <td>n/a</td>
-      <td>n/a</td>
-    </tr>
-    <tr>
       <td>PythERC7412Wrapper</td>
       <td>n/a</td>
       <td>n/a</td>
     </tr>
     <tr>
-      <td>FakeCollateralfwSNX</td>
+      <td>MintableToken_fwSNX</td>
       <td>n/a</td>
       <td>n/a</td>
     </tr>
     <tr>
-      <td>FakeCollateralfUSDC</td>
+      <td>MintableToken_fUSDC</td>
       <td>
         <a href="https://sepolia.basescan.org/address/0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"><code>0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9</code></a>
       </td>
       <td>n/a</td>
     </tr>
     <tr>
-      <td>SynthUSDCToken</td>
+      <td>CollateralToken_fUSDC</td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"><code>0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>CollateralToken_sUSDC</td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0xaD2fE7cd224c58871f541DAE01202F93928FEF72"><code>0xaD2fE7cd224c58871f541DAE01202F93928FEF72</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>CollateralToken_stataUSDC</td>
+      <td>n/a</td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>CollateralToken_sStataUSDC</td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0xaD2fE7cd224c58871f541DAE01202F93928FEF72"><code>0xaD2fE7cd224c58871f541DAE01202F93928FEF72</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>SynthToken_sUSDC</td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0xaD2fE7cd224c58871f541DAE01202F93928FEF72"><code>0xaD2fE7cd224c58871f541DAE01202F93928FEF72</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>SynthToken_sStataUSDC</td>
       <td>
         <a href="https://sepolia.basescan.org/address/0xaD2fE7cd224c58871f541DAE01202F93928FEF72"><code>0xaD2fE7cd224c58871f541DAE01202F93928FEF72</code></a>
       </td>
