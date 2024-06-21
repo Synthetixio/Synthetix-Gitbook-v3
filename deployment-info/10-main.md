@@ -71,15 +71,39 @@
       </td>
     </tr>
     <tr>
-      <td>SNXToken</td>
+      <td>CollateralToken_SNX</td>
       <td>
         <a href="https://optimistic.etherscan.io/address/0x8700dAec35aF8Ff88c16BdF0418774CB3D7599B4"><code>0x8700dAec35aF8Ff88c16BdF0418774CB3D7599B4</code></a>
       </td>
       <td>
-        <a href="./10-main/SNXToken.json"><code>SNXToken.json</code></a>
+        <a href="./10-main/CollateralToken_SNX.json"><code>CollateralToken_SNX.json</code></a>
       </td>
       <td>
-        <a href="./10-main/SNXToken.readable.json"><code>SNXToken.readable.json</code></a>
+        <a href="./10-main/CollateralToken_SNX.readable.json"><code>CollateralToken_SNX.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>CollateralToken_WETH</td>
+      <td>
+        <a href="https://optimistic.etherscan.io/address/0x4200000000000000000000000000000000000006"><code>0x4200000000000000000000000000000000000006</code></a>
+      </td>
+      <td>
+        <a href="./10-main/CollateralToken_WETH.json"><code>CollateralToken_WETH.json</code></a>
+      </td>
+      <td>
+        <a href="./10-main/CollateralToken_WETH.readable.json"><code>CollateralToken_WETH.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>SynthToken_snxETH</td>
+      <td>
+        <a href="https://optimistic.etherscan.io/address/0x08b2A7e830258F28c9c04501447a8bc83DCE42bE"><code>0x08b2A7e830258F28c9c04501447a8bc83DCE42bE</code></a>
+      </td>
+      <td>
+        <a href="./10-main/SynthToken_snxETH.json"><code>SynthToken_snxETH.json</code></a>
+      </td>
+      <td>
+        <a href="./10-main/SynthToken_snxETH.readable.json"><code>SynthToken_snxETH.readable.json</code></a>
       </td>
     </tr>
     <tr>
@@ -491,9 +515,21 @@ Token address: <a href="https://optimistic.etherscan.io/address/0x42000000000000
       <td>n/a</td>
     </tr>
     <tr>
-      <td>SNXToken</td>
+      <td>CollateralToken_SNX</td>
       <td>
         <a href="https://optimistic.etherscan.io/address/0x6d4a64C57612841c2C6745dB2a4E4db34F002D20"><code>0x6d4a64C57612841c2C6745dB2a4E4db34F002D20</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>CollateralToken_WETH</td>
+      <td>n/a</td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>SynthToken_snxETH</td>
+      <td>
+        <a href="https://optimistic.etherscan.io/address/0x38908Ee087D7db73A1Bd1ecab9AAb8E8c9C74595"><code>0x38908Ee087D7db73A1Bd1ecab9AAb8E8c9C74595</code></a>
       </td>
       <td>n/a</td>
     </tr>
