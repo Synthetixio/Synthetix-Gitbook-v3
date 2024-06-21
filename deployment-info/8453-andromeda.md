@@ -107,30 +107,6 @@
       </td>
     </tr>
     <tr>
-      <td>RewardsDistributorForSpartanCouncilPoolSNX</td>
-      <td>
-        <a href="https://basescan.org/address/0x45063DCd92f56138686810eacB1B510C941d6593"><code>0x45063DCd92f56138686810eacB1B510C941d6593</code></a>
-      </td>
-      <td>
-        <a href="./8453-andromeda/RewardsDistributorForSpartanCouncilPoolSNX.json"><code>RewardsDistributorForSpartanCouncilPoolSNX.json</code></a>
-      </td>
-      <td>
-        <a href="./8453-andromeda/RewardsDistributorForSpartanCouncilPoolSNX.readable.json"><code>RewardsDistributorForSpartanCouncilPoolSNX.readable.json</code></a>
-      </td>
-    </tr>
-    <tr>
-      <td>RewardsDistributorForSpartanCouncilPoolUSDC</td>
-      <td>
-        <a href="https://basescan.org/address/0xe92bcD40849BE5a5eb90065402e508aF4b28263b"><code>0xe92bcD40849BE5a5eb90065402e508aF4b28263b</code></a>
-      </td>
-      <td>
-        <a href="./8453-andromeda/RewardsDistributorForSpartanCouncilPoolUSDC.json"><code>RewardsDistributorForSpartanCouncilPoolUSDC.json</code></a>
-      </td>
-      <td>
-        <a href="./8453-andromeda/RewardsDistributorForSpartanCouncilPoolUSDC.readable.json"><code>RewardsDistributorForSpartanCouncilPoolUSDC.readable.json</code></a>
-      </td>
-    </tr>
-    <tr>
       <td>PythERC7412Wrapper</td>
       <td>
         <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
@@ -143,39 +119,39 @@
       </td>
     </tr>
     <tr>
-      <td>USDCToken</td>
+      <td>CollateralToken_USDC</td>
       <td>
-        <a href="https://basescan.org/address/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"><code>0x833589fcd6edb6e08f4c7c32d4f71b54bda02913</code></a>
+        <a href="https://basescan.org/address/0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"><code>0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913</code></a>
       </td>
       <td>
-        <a href="./8453-andromeda/USDCToken.json"><code>USDCToken.json</code></a>
+        <a href="./8453-andromeda/CollateralToken_USDC.json"><code>CollateralToken_USDC.json</code></a>
       </td>
       <td>
-        <a href="./8453-andromeda/USDCToken.readable.json"><code>USDCToken.readable.json</code></a>
-      </td>
-    </tr>
-    <tr>
-      <td>SNXToken</td>
-      <td>
-        <a href="https://basescan.org/address/0x22e6966B799c4D5B13BE962E1D117b56327FDa66"><code>0x22e6966B799c4D5B13BE962E1D117b56327FDa66</code></a>
-      </td>
-      <td>
-        <a href="./8453-andromeda/SNXToken.json"><code>SNXToken.json</code></a>
-      </td>
-      <td>
-        <a href="./8453-andromeda/SNXToken.readable.json"><code>SNXToken.readable.json</code></a>
+        <a href="./8453-andromeda/CollateralToken_USDC.readable.json"><code>CollateralToken_USDC.readable.json</code></a>
       </td>
     </tr>
     <tr>
-      <td>SynthUSDCToken</td>
+      <td>CollateralToken_sUSDC</td>
       <td>
         <a href="https://basescan.org/address/0xC74eA762cF06c9151cE074E6a569a5945b6302E7"><code>0xC74eA762cF06c9151cE074E6a569a5945b6302E7</code></a>
       </td>
       <td>
-        <a href="./8453-andromeda/SynthUSDCToken.json"><code>SynthUSDCToken.json</code></a>
+        <a href="./8453-andromeda/CollateralToken_sUSDC.json"><code>CollateralToken_sUSDC.json</code></a>
       </td>
       <td>
-        <a href="./8453-andromeda/SynthUSDCToken.readable.json"><code>SynthUSDCToken.readable.json</code></a>
+        <a href="./8453-andromeda/CollateralToken_sUSDC.readable.json"><code>CollateralToken_sUSDC.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>SynthToken_sUSDC</td>
+      <td>
+        <a href="https://basescan.org/address/0xC74eA762cF06c9151cE074E6a569a5945b6302E7"><code>0xC74eA762cF06c9151cE074E6a569a5945b6302E7</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/SynthToken_sUSDC.json"><code>SynthToken_sUSDC.json</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/SynthToken_sUSDC.readable.json"><code>SynthToken_sUSDC.readable.json</code></a>
       </td>
     </tr>
     <tr>
@@ -6739,134 +6715,6 @@ Perps market ID: <code>900</code>
   </tbody>
 </table>
 
-# Rewards Distributor: Spartan Council Pool USDC Rewards
-
-<table data-full-width="true">
-  <thead>
-    <tr>
-      <th width="400">Parameter name</th>
-      <th width="100">Value</th>
-      <th width="800">Raw value</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>name</td>
-      <td></td>
-      <td><code>"synthetix-omnibus"</code></td>
-    </tr>
-    <tr>
-      <td>address</td>
-      <td></td>
-      <td>
-        <a href="https://basescan.org/address/0xe92bcD40849BE5a5eb90065402e508aF4b28263b"><code>0xe92bcD40849BE5a5eb90065402e508aF4b28263b</code></a>
-      </td>
-    </tr>
-    <tr>
-      <td>deployTxn</td>
-      <td></td>
-      <td>
-        <a href="https://basescan.org/tx/0x0bf21cec966271d80cc6d0efffdca1bf2e685440cc6bba5ef4f406855409ff2e"><code>0x0bf21cec966271d80cc6d0efffdca1bf2e685440cc6bba5ef4f406855409ff2e</code></a>
-      </td>
-    </tr>
-    <tr>
-      <td>registered</td>
-      <td>✅ Registered</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>poolId</td>
-      <td>1</td>
-      <td><code>"1"</code></td>
-    </tr>
-    <tr>
-      <td>collateralType</td>
-      <td>sUSDC <code>18</code></td>
-      <td>
-        <a href="https://basescan.org/address/0xC74eA762cF06c9151cE074E6a569a5945b6302E7"><code>0xC74eA762cF06c9151cE074E6a569a5945b6302E7</code></a>
-      </td>
-    </tr>
-    <tr>
-      <td>payoutToken</td>
-      <td>USDC <code>6</code></td>
-      <td>
-        <a href="https://basescan.org/address/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"><code>0x833589fcd6edb6e08f4c7c32d4f71b54bda02913</code></a>
-      </td>
-    </tr>
-    <tr>
-      <td>rewardManager</td>
-      <td></td>
-      <td>
-        <a href="https://basescan.org/address/0x32C222A9A159782aFD7529c87FA34b96CA72C696"><code>0x32C222A9A159782aFD7529c87FA34b96CA72C696</code></a>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-# Rewards Distributor: Spartan Council Pool Rewards
-
-<table data-full-width="true">
-  <thead>
-    <tr>
-      <th width="400">Parameter name</th>
-      <th width="100">Value</th>
-      <th width="800">Raw value</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>name</td>
-      <td></td>
-      <td><code>"synthetix-omnibus"</code></td>
-    </tr>
-    <tr>
-      <td>address</td>
-      <td></td>
-      <td>
-        <a href="https://basescan.org/address/0x45063DCd92f56138686810eacB1B510C941d6593"><code>0x45063DCd92f56138686810eacB1B510C941d6593</code></a>
-      </td>
-    </tr>
-    <tr>
-      <td>deployTxn</td>
-      <td></td>
-      <td>
-        <a href="https://basescan.org/tx/0x24fcb3cb30485bfcedd7da639c8a559d2dd7ac8b3852dc6c8a18f11136900e16"><code>0x24fcb3cb30485bfcedd7da639c8a559d2dd7ac8b3852dc6c8a18f11136900e16</code></a>
-      </td>
-    </tr>
-    <tr>
-      <td>registered</td>
-      <td>✅ Registered</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>poolId</td>
-      <td>1</td>
-      <td><code>"1"</code></td>
-    </tr>
-    <tr>
-      <td>collateralType</td>
-      <td>sUSDC <code>18</code></td>
-      <td>
-        <a href="https://basescan.org/address/0xC74eA762cF06c9151cE074E6a569a5945b6302E7"><code>0xC74eA762cF06c9151cE074E6a569a5945b6302E7</code></a>
-      </td>
-    </tr>
-    <tr>
-      <td>payoutToken</td>
-      <td>SNX <code>18</code></td>
-      <td>
-        <a href="https://basescan.org/address/0x22e6966B799c4D5B13BE962E1D117b56327FDa66"><code>0x22e6966B799c4D5B13BE962E1D117b56327FDa66</code></a>
-      </td>
-    </tr>
-    <tr>
-      <td>rewardManager</td>
-      <td></td>
-      <td>
-        <a href="https://basescan.org/address/0x32C222A9A159782aFD7529c87FA34b96CA72C696"><code>0x32C222A9A159782aFD7529c87FA34b96CA72C696</code></a>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
 # Owners
 
 <table data-full-width="true">
@@ -6933,34 +6781,26 @@ Perps market ID: <code>900</code>
       <td>n/a</td>
     </tr>
     <tr>
-      <td>RewardsDistributorForSpartanCouncilPoolSNX</td>
-      <td>n/a</td>
-      <td>n/a</td>
-    </tr>
-    <tr>
-      <td>RewardsDistributorForSpartanCouncilPoolUSDC</td>
-      <td>n/a</td>
-      <td>n/a</td>
-    </tr>
-    <tr>
       <td>PythERC7412Wrapper</td>
       <td>n/a</td>
       <td>n/a</td>
     </tr>
     <tr>
-      <td>USDCToken</td>
+      <td>CollateralToken_USDC</td>
       <td>
         <a href="https://basescan.org/address/0x3ABd6f64A422225E61E435baE41db12096106df7"><code>0x3ABd6f64A422225E61E435baE41db12096106df7</code></a>
       </td>
       <td>n/a</td>
     </tr>
     <tr>
-      <td>SNXToken</td>
-      <td>n/a</td>
+      <td>CollateralToken_sUSDC</td>
+      <td>
+        <a href="https://basescan.org/address/0x18141523403e2595D31b22604AcB8Fc06a4CaA61"><code>0x18141523403e2595D31b22604AcB8Fc06a4CaA61</code></a>
+      </td>
       <td>n/a</td>
     </tr>
     <tr>
-      <td>SynthUSDCToken</td>
+      <td>SynthToken_sUSDC</td>
       <td>
         <a href="https://basescan.org/address/0x18141523403e2595D31b22604AcB8Fc06a4CaA61"><code>0x18141523403e2595D31b22604AcB8Fc06a4CaA61</code></a>
       </td>
