@@ -215,6 +215,30 @@
       </td>
     </tr>
     <tr>
+      <td>RewardsDistributor_1_sUSDC_fUSDC</td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0xA28719DDDa6e129d5E8fd470A17Cd075cEf5d25A"><code>0xA28719DDDa6e129d5E8fd470A17Cd075cEf5d25A</code></a>
+      </td>
+      <td>
+        <a href="./84532-andromeda/RewardsDistributor_1_sUSDC_fUSDC.json"><code>RewardsDistributor_1_sUSDC_fUSDC.json</code></a>
+      </td>
+      <td>
+        <a href="./84532-andromeda/RewardsDistributor_1_sUSDC_fUSDC.readable.json"><code>RewardsDistributor_1_sUSDC_fUSDC.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>RewardsDistributor_1_sUSDC_fwSNX</td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0x477010BEe49e5c88989138A4f0D7176E5741eb84"><code>0x477010BEe49e5c88989138A4f0D7176E5741eb84</code></a>
+      </td>
+      <td>
+        <a href="./84532-andromeda/RewardsDistributor_1_sUSDC_fwSNX.json"><code>RewardsDistributor_1_sUSDC_fwSNX.json</code></a>
+      </td>
+      <td>
+        <a href="./84532-andromeda/RewardsDistributor_1_sUSDC_fwSNX.readable.json"><code>RewardsDistributor_1_sUSDC_fwSNX.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
       <td>AllErrors</td>
       <td>n/a</td>
       <td>
@@ -7074,6 +7098,134 @@ Perps market ID: <code>900</code>
   </tbody>
 </table>
 
+# Rewards Distributor: Spartan Council Pool USDC Rewards
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Parameter name</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>name</td>
+      <td></td>
+      <td><code>"synthetix-omnibus"</code></td>
+    </tr>
+    <tr>
+      <td>address</td>
+      <td></td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0xA28719DDDa6e129d5E8fd470A17Cd075cEf5d25A"><code>0xA28719DDDa6e129d5E8fd470A17Cd075cEf5d25A</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>deployTxn</td>
+      <td></td>
+      <td>
+        <a href="https://sepolia.basescan.org/tx/undefined"><code>undefined</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>registered</td>
+      <td>✅ Registered</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>poolId</td>
+      <td>1</td>
+      <td><code>"1"</code></td>
+    </tr>
+    <tr>
+      <td>collateralType</td>
+      <td>sUSDC <code>18</code></td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0x8069c44244e72443722cfb22DcE5492cba239d39"><code>0x8069c44244e72443722cfb22DcE5492cba239d39</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>payoutToken</td>
+      <td>fUSDC <code>6</code></td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0xc43708f8987Df3f3681801e5e640667D86Ce3C30"><code>0xc43708f8987Df3f3681801e5e640667D86Ce3C30</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>rewardManager</td>
+      <td></td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0x764F4C95FDA0D6f8114faC54f6709b1B45f919a1"><code>0x764F4C95FDA0D6f8114faC54f6709b1B45f919a1</code></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+# Rewards Distributor: Spartan Council Pool Rewards
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Parameter name</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>name</td>
+      <td></td>
+      <td><code>"synthetix-omnibus"</code></td>
+    </tr>
+    <tr>
+      <td>address</td>
+      <td></td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0x477010BEe49e5c88989138A4f0D7176E5741eb84"><code>0x477010BEe49e5c88989138A4f0D7176E5741eb84</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>deployTxn</td>
+      <td></td>
+      <td>
+        <a href="https://sepolia.basescan.org/tx/undefined"><code>undefined</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>registered</td>
+      <td>✅ Registered</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>poolId</td>
+      <td>1</td>
+      <td><code>"1"</code></td>
+    </tr>
+    <tr>
+      <td>collateralType</td>
+      <td>sUSDC <code>18</code></td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0x8069c44244e72443722cfb22DcE5492cba239d39"><code>0x8069c44244e72443722cfb22DcE5492cba239d39</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>payoutToken</td>
+      <td>fwSNX <code>18</code></td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0x8F4b425597A70001E255d067626e4860E2543f22"><code>0x8F4b425597A70001E255d067626e4860E2543f22</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>rewardManager</td>
+      <td></td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0x764F4C95FDA0D6f8114faC54f6709b1B45f919a1"><code>0x764F4C95FDA0D6f8114faC54f6709b1B45f919a1</code></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 # Owners
 
 <table data-full-width="true">
@@ -7194,6 +7346,16 @@ Perps market ID: <code>900</code>
       <td>
         <a href="https://sepolia.basescan.org/address/0xaD2fE7cd224c58871f541DAE01202F93928FEF72"><code>0xaD2fE7cd224c58871f541DAE01202F93928FEF72</code></a>
       </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>RewardsDistributor_1_sUSDC_fUSDC</td>
+      <td>n/a</td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>RewardsDistributor_1_sUSDC_fwSNX</td>
+      <td>n/a</td>
       <td>n/a</td>
     </tr>
   </tbody>
