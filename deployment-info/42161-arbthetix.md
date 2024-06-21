@@ -119,51 +119,27 @@
       </td>
     </tr>
     <tr>
-      <td>USDCToken</td>
-      <td>
-        <a href="https://arbiscan.io/address/0xaf88d065e77c8cC2239327C5EDb3A432268e5831"><code>0xaf88d065e77c8cC2239327C5EDb3A432268e5831</code></a>
-      </td>
-      <td>
-        <a href="./42161-arbthetix/USDCToken.json"><code>USDCToken.json</code></a>
-      </td>
-      <td>
-        <a href="./42161-arbthetix/USDCToken.readable.json"><code>USDCToken.readable.json</code></a>
-      </td>
-    </tr>
-    <tr>
-      <td>ARBToken</td>
+      <td>CollateralToken_ARB</td>
       <td>
         <a href="https://arbiscan.io/address/0x912CE59144191C1204E64559FE8253a0e49E6548"><code>0x912CE59144191C1204E64559FE8253a0e49E6548</code></a>
       </td>
       <td>
-        <a href="./42161-arbthetix/ARBToken.json"><code>ARBToken.json</code></a>
+        <a href="./42161-arbthetix/CollateralToken_ARB.json"><code>CollateralToken_ARB.json</code></a>
       </td>
       <td>
-        <a href="./42161-arbthetix/ARBToken.readable.json"><code>ARBToken.readable.json</code></a>
+        <a href="./42161-arbthetix/CollateralToken_ARB.readable.json"><code>CollateralToken_ARB.readable.json</code></a>
       </td>
     </tr>
     <tr>
-      <td>DAIToken</td>
-      <td>
-        <a href="https://arbiscan.io/address/0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1"><code>0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1</code></a>
-      </td>
-      <td>
-        <a href="./42161-arbthetix/DAIToken.json"><code>DAIToken.json</code></a>
-      </td>
-      <td>
-        <a href="./42161-arbthetix/DAIToken.readable.json"><code>DAIToken.readable.json</code></a>
-      </td>
-    </tr>
-    <tr>
-      <td>WETHToken</td>
+      <td>CollateralToken_WETH</td>
       <td>
         <a href="https://arbiscan.io/address/0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"><code>0x82aF49447D8a07e3bd95BD0d56f35241523fBab1</code></a>
       </td>
       <td>
-        <a href="./42161-arbthetix/WETHToken.json"><code>WETHToken.json</code></a>
+        <a href="./42161-arbthetix/CollateralToken_WETH.json"><code>CollateralToken_WETH.json</code></a>
       </td>
       <td>
-        <a href="./42161-arbthetix/WETHToken.readable.json"><code>WETHToken.readable.json</code></a>
+        <a href="./42161-arbthetix/CollateralToken_WETH.readable.json"><code>CollateralToken_WETH.readable.json</code></a>
       </td>
     </tr>
     <tr>
@@ -823,26 +799,14 @@ Perps market ID: <code>200</code>
       <td>n/a</td>
     </tr>
     <tr>
-      <td>USDCToken</td>
-      <td>
-        <a href="https://arbiscan.io/address/0xc7a599037fDa4Ff8029df9a042Af6053d061ebc9"><code>0xc7a599037fDa4Ff8029df9a042Af6053d061ebc9</code></a>
-      </td>
-      <td>n/a</td>
-    </tr>
-    <tr>
-      <td>ARBToken</td>
+      <td>CollateralToken_ARB</td>
       <td>
         <a href="https://arbiscan.io/address/0xCF57572261c7c2BCF21ffD220ea7d1a27D40A827"><code>0xCF57572261c7c2BCF21ffD220ea7d1a27D40A827</code></a>
       </td>
       <td>n/a</td>
     </tr>
     <tr>
-      <td>DAIToken</td>
-      <td>n/a</td>
-      <td>n/a</td>
-    </tr>
-    <tr>
-      <td>WETHToken</td>
+      <td>CollateralToken_WETH</td>
       <td>n/a</td>
       <td>n/a</td>
     </tr>
