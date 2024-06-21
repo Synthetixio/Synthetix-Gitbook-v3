@@ -59,15 +59,15 @@
       </td>
     </tr>
     <tr>
-      <td>SNXToken</td>
+      <td>CollateralToken_SNX</td>
       <td>
-        <a href="https://etherscan.io/address/0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f"><code>0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f</code></a>
+        <a href="https://etherscan.io/address/0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F"><code>0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F</code></a>
       </td>
       <td>
-        <a href="./1-main/SNXToken.json"><code>SNXToken.json</code></a>
+        <a href="./1-main/CollateralToken_SNX.json"><code>CollateralToken_SNX.json</code></a>
       </td>
       <td>
-        <a href="./1-main/SNXToken.readable.json"><code>SNXToken.readable.json</code></a>
+        <a href="./1-main/CollateralToken_SNX.readable.json"><code>CollateralToken_SNX.readable.json</code></a>
       </td>
     </tr>
     <tr>
@@ -253,7 +253,7 @@ Token address: <a href="https://etherscan.io/address/0xb2F30A7C980f052f02563fb51
       <td>n/a</td>
     </tr>
     <tr>
-      <td>SNXToken</td>
+      <td>CollateralToken_SNX</td>
       <td>
         <a href="https://etherscan.io/address/0xEb3107117FEAd7de89Cd14D463D340A2E6917769"><code>0xEb3107117FEAd7de89Cd14D463D340A2E6917769</code></a>
       </td>
