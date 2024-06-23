@@ -473,7 +473,7 @@
     <tr>
       <td>spotFactory</td>
       <td><a href="https://usecannon.com/packages/synthetix-spot-market/3.3.15/8453-andromeda">synthetix-spot-market:3.3.15@andromeda</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmQHgZwQQuBH77d4D2KVmnHUcTgezHmRedDiAjstieiodK">QmQHgZwQQuBH77d4D2KVmnHUcTgezHmRedDiAjstieiodK</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmQSTV86RcN1mvKcVwe6F4dsEobdXbMFU1jye8pfxfG3nW">QmQSTV86RcN1mvKcVwe6F4dsEobdXbMFU1jye8pfxfG3nW</a></td>
       <td>
         owner: <a href="https://basescan.org/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />salt: snax<br />synthetixPackage: synthetix:3.3.15<br />synthetixPreset: main
@@ -482,7 +482,7 @@
     <tr>
       <td>perpsFactory</td>
       <td><a href="https://usecannon.com/packages/synthetix-perps-market/3.3.19/8453-andromeda">synthetix-perps-market:3.3.19@andromeda</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmaCax8jfTwEtsgXqJEKRt4d6WR1uJ6KB4WLdTkpMZMT8u">QmaCax8jfTwEtsgXqJEKRt4d6WR1uJ6KB4WLdTkpMZMT8u</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmRcAw2z53v2aTtwQkFwNrxqzGgVEjPhtwLa8kZmZoVTzq">QmRcAw2z53v2aTtwQkFwNrxqzGgVEjPhtwLa8kZmZoVTzq</a></td>
       <td>
         coreProxyOwner: <a href="https://basescan.org/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />owner: <a href="https://basescan.org/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
