@@ -288,6 +288,17 @@
         ><br />salt: rewards
       </td>
     </tr>
+    <tr>
+      <td>RewardsDistributor_SpartanCouncilPool_ARB_rewards_for_USDe_lp</td>
+      <td><a href="https://usecannon.com/packages/synthetix-rewards-distributor/0.0.2/42161-main">synthetix-rewards-distributor:0.0.2@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmTsj7QhRc9SaDPKkb6CMmuPiH4VEcSroYuZADFFzLHGuj">QmTsj7QhRc9SaDPKkb6CMmuPiH4VEcSroYuZADFFzLHGuj</a></td>
+      <td>
+        collateralType: <a href="https://arbiscan.io/address/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"><code>0x833589fcd6edb6e08f4c7c32d4f71b54bda02913</code></a
+        ><br />name: Rewards Distributor V3<br />payoutToken: <a href="https://arbiscan.io/address/0x22e6966B799c4D5B13BE962E1D117b56327FDa66"><code>0x22e6966B799c4D5B13BE962E1D117b56327FDa66</code></a
+        ><br />payoutTokenDecimals: 18<br />poolId: 1<br />rewardManager: <a href="https://arbiscan.io/address/0x32C222A9A159782aFD7529c87FA34b96CA72C696"><code>0x32C222A9A159782aFD7529c87FA34b96CA72C696</code></a
+        ><br />salt: rewards
+      </td>
+    </tr>
   </tbody>
 </table>
 
