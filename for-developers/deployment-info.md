@@ -46,57 +46,6 @@
   </tbody>
 </table>
 
-# Sepolia (11155111, Carina)
-
-<table data-full-width="true">
-  <thead>
-    <tr>
-      <th width="200">Import name</th>
-      <th width="400">Provisioned package</th>
-      <th width="500">IPFS (zlib compressed)</th>
-      <th width="500">Settings</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>system</td>
-      <td><a href="https://usecannon.com/packages/synthetix/3.3.18/11155111-carina">synthetix:3.3.18@carina</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmfWpM9UxApK2deXLU81VDF5rZz7FyU4ntt3JqWDNJSALf">QmfWpM9UxApK2deXLU81VDF5rZz7FyU4ntt3JqWDNJSALf</a></td>
-      <td>
-        bundleSalt: main<br />oracle_manager_source: oracle-manager<br />owner: <a href="https://sepolia.etherscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
-        ><br />salt: main<br />const_one_oracle_id: 0x066ef68c9d9ca51eee861aeb5bce51a12e61f06f10bf62243c563671ae3a9733
-      </td>
-    </tr>
-    <tr>
-      <td>wbtc_mock_collateral</td>
-      <td><a href="https://usecannon.com/packages/mintable-token/1.8/11155111-carina">mintable-token:1.8@carina</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmesLpm7trz18t6pjtY9dn9Bz7cKCyf7sKtHVCi8co8Pc5">QmesLpm7trz18t6pjtY9dn9Bz7cKCyf7sKtHVCi8co8Pc5</a></td>
-      <td>
-        decimals: 18<br />initialSupply: 0<br />name: Token<br />owner: <a href="https://sepolia.etherscan.io/address/0x431D454Bd4d352A0b1f45AE11EF1182bBEec6a7B"><code>0x431D454Bd4d352A0b1f45AE11EF1182bBEec6a7B</code></a
-        ><br />salt: <br />symbol: TKN
-      </td>
-    </tr>
-    <tr>
-      <td>weth_mock_collateral</td>
-      <td><a href="https://usecannon.com/packages/mintable-token/1.8/11155111-carina">mintable-token:1.8@carina</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/Qmd9ceWmPPh9mNzvaYwULc6tBMfHb2meVN1kKqsj5WruzW">Qmd9ceWmPPh9mNzvaYwULc6tBMfHb2meVN1kKqsj5WruzW</a></td>
-      <td>
-        decimals: 18<br />initialSupply: 0<br />name: Token<br />owner: <a href="https://sepolia.etherscan.io/address/0x431D454Bd4d352A0b1f45AE11EF1182bBEec6a7B"><code>0x431D454Bd4d352A0b1f45AE11EF1182bBEec6a7B</code></a
-        ><br />salt: <br />symbol: TKN
-      </td>
-    </tr>
-    <tr>
-      <td>bfp_market_factory</td>
-      <td><a href="https://usecannon.com/packages/synthetix-bfp-market/1.0.0-alpha.2/11155111-carina">synthetix-bfp-market:1.0.0-alpha.2@carina</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmdGx5Wg7SJDtLQfxbxk3W6G84WUJDxq8XNdcK1dgTRwjG">QmdGx5Wg7SJDtLQfxbxk3W6G84WUJDxq8XNdcK1dgTRwjG</a></td>
-      <td>
-        owner: <a href="https://sepolia.etherscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
-        ><br />salt: snax<br />synthetixPackage: synthetix:latest<br />synthetixPreset: main
-      </td>
-    </tr>
-  </tbody>
-</table>
-
 # Sepolia (11155111, Main)
 
 <table data-full-width="true">
