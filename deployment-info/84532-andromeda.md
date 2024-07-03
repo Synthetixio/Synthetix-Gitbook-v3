@@ -5942,13 +5942,13 @@ Perps market ID: <code>3300</code>
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>0.97 k</td>
-      <td><code>973000000000000000000</code> / <code>0x34bf1668d337140000</code></td>
+      <td>2.02 k</td>
+      <td><code>2022000000000000000000</code> / <code>0x6d9ce30efc1fd80000</code></td>
     </tr>
     <tr>
       <td>maxOpenInterest</td>
-      <td>0.97 k</td>
-      <td><code>973000000000000000000</code> / <code>0x34bf1668d337140000</code></td>
+      <td>2.02 k</td>
+      <td><code>2022000000000000000000</code> / <code>0x6d9ce30efc1fd80000</code></td>
     </tr>
     <tr>
       <td></td>
@@ -6138,13 +6138,13 @@ Perps market ID: <code>3400</code>
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>216.7 k</td>
-      <td><code>216704000000000000000000</code> / <code>0x2de38c210d002a000000</code></td>
+      <td>499.98 k</td>
+      <td><code>499984000000000000000000</code> / <code>0x69e02fdbfb3c5a400000</code></td>
     </tr>
     <tr>
       <td>maxOpenInterest</td>
-      <td>216.7 k</td>
-      <td><code>216704000000000000000000</code> / <code>0x2de38c210d002a000000</code></td>
+      <td>499.98 k</td>
+      <td><code>499984000000000000000000</code> / <code>0x69e02fdbfb3c5a400000</code></td>
     </tr>
     <tr>
       <td></td>
@@ -6334,13 +6334,13 @@ Perps market ID: <code>3500</code>
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>0.54 m</td>
-      <td><code>536900000000000000000000</code> / <code>0x71b1684625e29a900000</code></td>
+      <td>1.36 m</td>
+      <td><code>1360068000000000000000000</code> / <code>0x0120016f1bb2e728900000</code></td>
     </tr>
     <tr>
       <td>maxOpenInterest</td>
-      <td>0.54 m</td>
-      <td><code>536900000000000000000000</code> / <code>0x71b1684625e29a900000</code></td>
+      <td>1.36 m</td>
+      <td><code>1360068000000000000000000</code> / <code>0x0120016f1bb2e728900000</code></td>
     </tr>
     <tr>
       <td></td>
@@ -6530,13 +6530,13 @@ Perps market ID: <code>3600</code>
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>10.95 k</td>
-      <td><code>10946000000000000000000</code> / <code>0x02516243ed9b41c80000</code></td>
+      <td>14.06 k</td>
+      <td><code>14055000000000000000000</code> / <code>0x02f9ec4ec16b233c0000</code></td>
     </tr>
     <tr>
       <td>maxOpenInterest</td>
-      <td>10.95 k</td>
-      <td><code>10946000000000000000000</code> / <code>0x02516243ed9b41c80000</code></td>
+      <td>14.06 k</td>
+      <td><code>14055000000000000000000</code> / <code>0x02f9ec4ec16b233c0000</code></td>
     </tr>
     <tr>
       <td></td>
@@ -6726,13 +6726,13 @@ Perps market ID: <code>3700</code>
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>11.74 k</td>
-      <td><code>11736000000000000000000</code> / <code>0x027c35b7bc01d0600000</code></td>
+      <td>14.72 k</td>
+      <td><code>14718000000000000000000</code> / <code>0x031ddd47ecb1a7380000</code></td>
     </tr>
     <tr>
       <td>maxOpenInterest</td>
-      <td>11.74 k</td>
-      <td><code>11736000000000000000000</code> / <code>0x027c35b7bc01d0600000</code></td>
+      <td>14.72 k</td>
+      <td><code>14718000000000000000000</code> / <code>0x031ddd47ecb1a7380000</code></td>
     </tr>
     <tr>
       <td></td>
@@ -6922,13 +6922,13 @@ Perps market ID: <code>3800</code>
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>12.29 k</td>
-      <td><code>12285000000000000000000</code> / <code>0x0299f89f8b47c9d40000</code></td>
+      <td>16.49 k</td>
+      <td><code>16488000000000000000000</code> / <code>0x037dd0f722d500a00000</code></td>
     </tr>
     <tr>
       <td>maxOpenInterest</td>
-      <td>12.29 k</td>
-      <td><code>12285000000000000000000</code> / <code>0x0299f89f8b47c9d40000</code></td>
+      <td>16.49 k</td>
+      <td><code>16488000000000000000000</code> / <code>0x037dd0f722d500a00000</code></td>
     </tr>
     <tr>
       <td></td>
@@ -7118,13 +7118,13 @@ Perps market ID: <code>3900</code>
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>24.71 k</td>
-      <td><code>24706000000000000000000</code> / <code>0x053b50a0260080c80000</code></td>
+      <td>33.62 k</td>
+      <td><code>33624000000000000000000</code> / <code>0x071ec2bcbc69b6600000</code></td>
     </tr>
     <tr>
       <td>maxOpenInterest</td>
-      <td>24.71 k</td>
-      <td><code>24706000000000000000000</code> / <code>0x053b50a0260080c80000</code></td>
+      <td>33.62 k</td>
+      <td><code>33624000000000000000000</code> / <code>0x071ec2bcbc69b6600000</code></td>
     </tr>
     <tr>
       <td></td>
@@ -7510,13 +7510,13 @@ Perps market ID: <code>4000</code>
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>209</td>
-      <td><code>209000000000000000000</code> / <code>0x0b547528aba8a40000</code></td>
+      <td>256</td>
+      <td><code>256000000000000000000</code> / <code>0x0de0b6b3a764000000</code></td>
     </tr>
     <tr>
       <td>maxOpenInterest</td>
-      <td>209</td>
-      <td><code>209000000000000000000</code> / <code>0x0b547528aba8a40000</code></td>
+      <td>256</td>
+      <td><code>256000000000000000000</code> / <code>0x0de0b6b3a764000000</code></td>
     </tr>
     <tr>
       <td></td>
@@ -7706,13 +7706,13 @@ Perps market ID: <code>4100</code>
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>247.03 k</td>
-      <td><code>247028000000000000000000</code> / <code>0x344f6a2aa5901b500000</code></td>
+      <td>496.68 k</td>
+      <td><code>496684000000000000000000</code> / <code>0x692d4b28d76295300000</code></td>
     </tr>
     <tr>
       <td>maxOpenInterest</td>
-      <td>247.03 k</td>
-      <td><code>247028000000000000000000</code> / <code>0x344f6a2aa5901b500000</code></td>
+      <td>496.68 k</td>
+      <td><code>496684000000000000000000</code> / <code>0x692d4b28d76295300000</code></td>
     </tr>
     <tr>
       <td></td>
@@ -7721,8 +7721,8 @@ Perps market ID: <code>4100</code>
     </tr>
     <tr>
       <td>skewScale</td>
-      <td>25 m</td>
-      <td><code>25000000000000000000000000</code> / <code>0x14adf4b7320334b9000000</code></td>
+      <td>50 m</td>
+      <td><code>50000000000000000000000000</code> / <code>0x295be96e64066972000000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
@@ -7902,13 +7902,13 @@ Perps market ID: <code>4200</code>
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>1.68 k</td>
-      <td><code>1677000000000000000000</code> / <code>0x5ae90cd6df8a140000</code></td>
+      <td>2 k</td>
+      <td><code>2003000000000000000000</code> / <code>0x6c95357fa6b36c0000</code></td>
     </tr>
     <tr>
       <td>maxOpenInterest</td>
-      <td>1.68 k</td>
-      <td><code>1677000000000000000000</code> / <code>0x5ae90cd6df8a140000</code></td>
+      <td>2 k</td>
+      <td><code>2003000000000000000000</code> / <code>0x6c95357fa6b36c0000</code></td>
     </tr>
     <tr>
       <td></td>
@@ -8098,13 +8098,13 @@ Perps market ID: <code>4300</code>
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>215.09 k</td>
-      <td><code>215088000000000000000000</code> / <code>0x2d8bf19fbeef82c00000</code></td>
+      <td>3 m</td>
+      <td><code>3000000000000000000000000</code> / <code>0x027b46536c66c8e3000000</code></td>
     </tr>
     <tr>
       <td>maxOpenInterest</td>
-      <td>215.09 k</td>
-      <td><code>215088000000000000000000</code> / <code>0x2d8bf19fbeef82c00000</code></td>
+      <td>3 m</td>
+      <td><code>3000000000000000000000000</code> / <code>0x027b46536c66c8e3000000</code></td>
     </tr>
     <tr>
       <td></td>
@@ -8113,8 +8113,8 @@ Perps market ID: <code>4300</code>
     </tr>
     <tr>
       <td>skewScale</td>
-      <td>37.5 m</td>
-      <td><code>37500000000000000000000000</code> / <code>0x1f04ef12cb04cf15800000</code></td>
+      <td>120 m</td>
+      <td><code>120000000000000000000000000</code> / <code>0x6342fd08f00f6378000000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
@@ -8294,13 +8294,13 @@ Perps market ID: <code>4400</code>
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>13.85 k</td>
-      <td><code>13851000000000000000000</code> / <code>0x02eedd3d2a41bf8c0000</code></td>
+      <td>15.79 k</td>
+      <td><code>15793000000000000000000</code> / <code>0x035823e7211990240000</code></td>
     </tr>
     <tr>
       <td>maxOpenInterest</td>
-      <td>13.85 k</td>
-      <td><code>13851000000000000000000</code> / <code>0x02eedd3d2a41bf8c0000</code></td>
+      <td>15.79 k</td>
+      <td><code>15793000000000000000000</code> / <code>0x035823e7211990240000</code></td>
     </tr>
     <tr>
       <td></td>
@@ -8490,13 +8490,13 @@ Perps market ID: <code>4500</code>
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>48.89 k</td>
-      <td><code>48888000000000000000000</code> / <code>0x0a5a394a544660e00000</code></td>
+      <td>72.86 k</td>
+      <td><code>72860000000000000000000</code> / <code>0x0f6dbf9ea32cf0f00000</code></td>
     </tr>
     <tr>
       <td>maxOpenInterest</td>
-      <td>48.89 k</td>
-      <td><code>48888000000000000000000</code> / <code>0x0a5a394a544660e00000</code></td>
+      <td>72.86 k</td>
+      <td><code>72860000000000000000000</code> / <code>0x0f6dbf9ea32cf0f00000</code></td>
     </tr>
     <tr>
       <td></td>
@@ -8505,8 +8505,8 @@ Perps market ID: <code>4500</code>
     </tr>
     <tr>
       <td>skewScale</td>
-      <td>9 m</td>
-      <td><code>9000000000000000000000000</code> / <code>0x0771d2fa45345aa9000000</code></td>
+      <td>18 m</td>
+      <td><code>18000000000000000000000000</code> / <code>0x0ee3a5f48a68b552000000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
@@ -8686,13 +8686,13 @@ Perps market ID: <code>4600</code>
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>123.19 k</td>
-      <td><code>123193000000000000000000</code> / <code>0x1a164e503b8329440000</code></td>
+      <td>172.85 k</td>
+      <td><code>172851000000000000000000</code> / <code>0x249a4580182704ec0000</code></td>
     </tr>
     <tr>
       <td>maxOpenInterest</td>
-      <td>123.19 k</td>
-      <td><code>123193000000000000000000</code> / <code>0x1a164e503b8329440000</code></td>
+      <td>172.85 k</td>
+      <td><code>172851000000000000000000</code> / <code>0x249a4580182704ec0000</code></td>
     </tr>
     <tr>
       <td></td>
@@ -8882,13 +8882,13 @@ Perps market ID: <code>4700</code>
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>3.37 k</td>
-      <td><code>3373000000000000000000</code> / <code>0xb6d9c73d1480940000</code></td>
+      <td>4.2 k</td>
+      <td><code>4200000000000000000000</code> / <code>0xe3aeb5737240a00000</code></td>
     </tr>
     <tr>
       <td>maxOpenInterest</td>
-      <td>3.37 k</td>
-      <td><code>3373000000000000000000</code> / <code>0xb6d9c73d1480940000</code></td>
+      <td>4.2 k</td>
+      <td><code>4200000000000000000000</code> / <code>0xe3aeb5737240a00000</code></td>
     </tr>
     <tr>
       <td></td>
@@ -9078,13 +9078,13 @@ Perps market ID: <code>4800</code>
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>100 k</td>
-      <td><code>100000000000000000000000</code> / <code>0x152d02c7e14af6800000</code></td>
+      <td>72.23 m</td>
+      <td><code>72226506000000000000000000</code> / <code>0x3bbe8ebc5e2a9cace80000</code></td>
     </tr>
     <tr>
       <td>maxOpenInterest</td>
-      <td>100 k</td>
-      <td><code>100000000000000000000000</code> / <code>0x152d02c7e14af6800000</code></td>
+      <td>72.23 m</td>
+      <td><code>72226506000000000000000000</code> / <code>0x3bbe8ebc5e2a9cace80000</code></td>
     </tr>
     <tr>
       <td></td>
@@ -9093,13 +9093,13 @@ Perps market ID: <code>4800</code>
     </tr>
     <tr>
       <td>skewScale</td>
-      <td>0.85 b</td>
-      <td><code>850000000000000000000000000</code> / <code>0x02bf1a8054a46d0092000000</code></td>
+      <td>1.7 b</td>
+      <td><code>1700000000000000000000000000</code> / <code>0x057e3500a948da0124000000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
-      <td>36</td>
-      <td><code>36000000000000000000</code> / <code>0x01f399b1438a100000</code></td>
+      <td>9</td>
+      <td><code>9000000000000000000</code> / <code>0x7ce66c50e2840000</code></td>
     </tr>
     <tr>
       <td></td>
@@ -9108,13 +9108,13 @@ Perps market ID: <code>4800</code>
     </tr>
     <tr>
       <td>makerFee</td>
-      <td>0.0002</td>
-      <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
+      <td>1,e-7</td>
+      <td><code>100000000000</code> / <code>0x174876e800</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0.001</td>
-      <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
+      <td>0.0005</td>
+      <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
       <td></td>
@@ -9274,13 +9274,13 @@ Perps market ID: <code>4900</code>
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>16.76 k</td>
-      <td><code>16763000000000000000000</code> / <code>0x038cb95b65d1d10c0000</code></td>
+      <td>22.38 k</td>
+      <td><code>22379000000000000000000</code> / <code>0x04bd2b036af9f2cc0000</code></td>
     </tr>
     <tr>
       <td>maxOpenInterest</td>
-      <td>16.76 k</td>
-      <td><code>16763000000000000000000</code> / <code>0x038cb95b65d1d10c0000</code></td>
+      <td>22.38 k</td>
+      <td><code>22379000000000000000000</code> / <code>0x04bd2b036af9f2cc0000</code></td>
     </tr>
     <tr>
       <td></td>
@@ -9666,13 +9666,13 @@ Perps market ID: <code>5000</code>
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>109.95 k</td>
-      <td><code>109950000000000000000000</code> / <code>0x174866c4fbeef7380000</code></td>
+      <td>159.4 k</td>
+      <td><code>159395000000000000000000</code> / <code>0x21c0d1fcd5188cac0000</code></td>
     </tr>
     <tr>
       <td>maxOpenInterest</td>
-      <td>109.95 k</td>
-      <td><code>109950000000000000000000</code> / <code>0x174866c4fbeef7380000</code></td>
+      <td>159.4 k</td>
+      <td><code>159395000000000000000000</code> / <code>0x21c0d1fcd5188cac0000</code></td>
     </tr>
     <tr>
       <td></td>
@@ -9862,13 +9862,13 @@ Perps market ID: <code>5100</code>
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>21.2 k</td>
-      <td><code>21199000000000000000000</code> / <code>0x047d333946e261dc0000</code></td>
+      <td>33.03 k</td>
+      <td><code>33029000000000000000000</code> / <code>0x06fe817418dba8f40000</code></td>
     </tr>
     <tr>
       <td>maxOpenInterest</td>
-      <td>21.2 k</td>
-      <td><code>21199000000000000000000</code> / <code>0x047d333946e261dc0000</code></td>
+      <td>33.03 k</td>
+      <td><code>33029000000000000000000</code> / <code>0x06fe817418dba8f40000</code></td>
     </tr>
     <tr>
       <td></td>
@@ -9877,8 +9877,8 @@ Perps market ID: <code>5100</code>
     </tr>
     <tr>
       <td>skewScale</td>
-      <td>0.7 m</td>
-      <td><code>703125000000000000000000</code> / <code>0x94e47b8d681715340000</code></td>
+      <td>1.4 m</td>
+      <td><code>1403125000000000000000000</code> / <code>0x01291f8f049123d2b40000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
@@ -10058,13 +10058,13 @@ Perps market ID: <code>5200</code>
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>332.17 k</td>
-      <td><code>332170000000000000000000</code> / <code>0x4656f8c6afe9dfe80000</code></td>
+      <td>472.04 k</td>
+      <td><code>472043000000000000000000</code> / <code>0x63f5809714ff94cc0000</code></td>
     </tr>
     <tr>
       <td>maxOpenInterest</td>
-      <td>332.17 k</td>
-      <td><code>332170000000000000000000</code> / <code>0x4656f8c6afe9dfe80000</code></td>
+      <td>472.04 k</td>
+      <td><code>472043000000000000000000</code> / <code>0x63f5809714ff94cc0000</code></td>
     </tr>
     <tr>
       <td></td>
@@ -10254,13 +10254,13 @@ Perps market ID: <code>5300</code>
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>8.18 k</td>
-      <td><code>8183000000000000000000</code> / <code>0x01bb99f0089b9d7c0000</code></td>
+      <td>12.12 k</td>
+      <td><code>12122000000000000000000</code> / <code>0x0291228b36e435280000</code></td>
     </tr>
     <tr>
       <td>maxOpenInterest</td>
-      <td>8.18 k</td>
-      <td><code>8183000000000000000000</code> / <code>0x01bb99f0089b9d7c0000</code></td>
+      <td>12.12 k</td>
+      <td><code>12122000000000000000000</code> / <code>0x0291228b36e435280000</code></td>
     </tr>
     <tr>
       <td></td>
@@ -10269,8 +10269,8 @@ Perps market ID: <code>5300</code>
     </tr>
     <tr>
       <td>skewScale</td>
-      <td>1 m</td>
-      <td><code>1000000000000000000000000</code> / <code>0xd3c21bcecceda1000000</code></td>
+      <td>2 m</td>
+      <td><code>2000000000000000000000000</code> / <code>0x01a784379d99db42000000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
@@ -10450,13 +10450,13 @@ Perps market ID: <code>5400</code>
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>43.32 k</td>
-      <td><code>43322000000000000000000</code> / <code>0x092c7d85fe34f0a80000</code></td>
+      <td>63.42 k</td>
+      <td><code>63418000000000000000000</code> / <code>0x0d6de58c15091aa80000</code></td>
     </tr>
     <tr>
       <td>maxOpenInterest</td>
-      <td>43.32 k</td>
-      <td><code>43322000000000000000000</code> / <code>0x092c7d85fe34f0a80000</code></td>
+      <td>63.42 k</td>
+      <td><code>63418000000000000000000</code> / <code>0x0d6de58c15091aa80000</code></td>
     </tr>
     <tr>
       <td></td>
@@ -10646,13 +10646,13 @@ Perps market ID: <code>5500</code>
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>27.25 k</td>
-      <td><code>27247000000000000000000</code> / <code>0x05c510159b34fc5c0000</code></td>
+      <td>41.44 k</td>
+      <td><code>41441000000000000000000</code> / <code>0x08c68567902c02e40000</code></td>
     </tr>
     <tr>
       <td>maxOpenInterest</td>
-      <td>27.25 k</td>
-      <td><code>27247000000000000000000</code> / <code>0x05c510159b34fc5c0000</code></td>
+      <td>41.44 k</td>
+      <td><code>41441000000000000000000</code> / <code>0x08c68567902c02e40000</code></td>
     </tr>
     <tr>
       <td></td>
@@ -10842,13 +10842,13 @@ Perps market ID: <code>5600</code>
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>88.67 k</td>
-      <td><code>88666000000000000000000</code> / <code>0x12c697ef0b6601280000</code></td>
+      <td>121.57 k</td>
+      <td><code>121567000000000000000000</code> / <code>0x19be2907ca6df81c0000</code></td>
     </tr>
     <tr>
       <td>maxOpenInterest</td>
-      <td>88.67 k</td>
-      <td><code>88666000000000000000000</code> / <code>0x12c697ef0b6601280000</code></td>
+      <td>121.57 k</td>
+      <td><code>121567000000000000000000</code> / <code>0x19be2907ca6df81c0000</code></td>
     </tr>
     <tr>
       <td></td>
@@ -11038,13 +11038,13 @@ Perps market ID: <code>5700</code>
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>42.91 k</td>
-      <td><code>42909000000000000000000</code> / <code>0x091619ff3e5fe4540000</code></td>
+      <td>200.34 k</td>
+      <td><code>200340000000000000000000</code> / <code>0x2a6c740269303dd00000</code></td>
     </tr>
     <tr>
       <td>maxOpenInterest</td>
-      <td>42.91 k</td>
-      <td><code>42909000000000000000000</code> / <code>0x091619ff3e5fe4540000</code></td>
+      <td>200.34 k</td>
+      <td><code>200340000000000000000000</code> / <code>0x2a6c740269303dd00000</code></td>
     </tr>
     <tr>
       <td></td>
@@ -11053,8 +11053,8 @@ Perps market ID: <code>5700</code>
     </tr>
     <tr>
       <td>skewScale</td>
-      <td>7.13 m</td>
-      <td><code>7125000000000000000000000</code> / <code>0x05e4c70621741d1b200000</code></td>
+      <td>14 m</td>
+      <td><code>14000000000000000000000000</code> / <code>0x0b949d854f34fece000000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
@@ -11234,13 +11234,13 @@ Perps market ID: <code>5800</code>
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>1.2 k</td>
-      <td><code>1197000000000000000000</code> / <code>0x40e3b64605ae940000</code></td>
+      <td>1.33 k</td>
+      <td><code>1330000000000000000000</code> / <code>0x481975315ba5880000</code></td>
     </tr>
     <tr>
       <td>maxOpenInterest</td>
-      <td>1.2 k</td>
-      <td><code>1197000000000000000000</code> / <code>0x40e3b64605ae940000</code></td>
+      <td>1.33 k</td>
+      <td><code>1330000000000000000000</code> / <code>0x481975315ba5880000</code></td>
     </tr>
     <tr>
       <td></td>
@@ -11626,13 +11626,13 @@ Perps market ID: <code>6000</code>
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>3.45 m</td>
-      <td><code>3446410000000000000000000</code> / <code>0x02d9ce42adc13cd3e80000</code></td>
+      <td>5.34 m</td>
+      <td><code>5336179000000000000000000</code> / <code>0x0469fad7ddd3f661ec0000</code></td>
     </tr>
     <tr>
       <td>maxOpenInterest</td>
-      <td>3.45 m</td>
-      <td><code>3446410000000000000000000</code> / <code>0x02d9ce42adc13cd3e80000</code></td>
+      <td>5.34 m</td>
+      <td><code>5336179000000000000000000</code> / <code>0x0469fad7ddd3f661ec0000</code></td>
     </tr>
     <tr>
       <td></td>
@@ -11822,13 +11822,13 @@ Perps market ID: <code>6100</code>
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>13.49 k</td>
-      <td><code>13494000000000000000000</code> / <code>0x02db82de61b951180000</code></td>
+      <td>18.9 k</td>
+      <td><code>18900000000000000000000</code> / <code>0x04009230878222d00000</code></td>
     </tr>
     <tr>
       <td>maxOpenInterest</td>
-      <td>13.49 k</td>
-      <td><code>13494000000000000000000</code> / <code>0x02db82de61b951180000</code></td>
+      <td>18.9 k</td>
+      <td><code>18900000000000000000000</code> / <code>0x04009230878222d00000</code></td>
     </tr>
     <tr>
       <td></td>
@@ -12018,13 +12018,13 @@ Perps market ID: <code>6200</code>
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>224.81 k</td>
-      <td><code>224807000000000000000000</code> / <code>0x2f9acfd7fd77783c0000</code></td>
+      <td>0.62 m</td>
+      <td><code>617717000000000000000000</code> / <code>0x82ce8173871162b40000</code></td>
     </tr>
     <tr>
       <td>maxOpenInterest</td>
-      <td>224.81 k</td>
-      <td><code>224807000000000000000000</code> / <code>0x2f9acfd7fd77783c0000</code></td>
+      <td>0.62 m</td>
+      <td><code>617717000000000000000000</code> / <code>0x82ce8173871162b40000</code></td>
     </tr>
     <tr>
       <td></td>
@@ -12033,8 +12033,8 @@ Perps market ID: <code>6200</code>
     </tr>
     <tr>
       <td>skewScale</td>
-      <td>14.44 m</td>
-      <td><code>14437500000000000000000000</code> / <code>0x0bf1427179aea6c4700000</code></td>
+      <td>30 m</td>
+      <td><code>30000000000000000000000000</code> / <code>0x18d0bf423c03d8de000000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
@@ -12214,13 +12214,13 @@ Perps market ID: <code>6300</code>
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>9.7 k</td>
-      <td><code>9701000000000000000000</code> / <code>0x020de46b65e630740000</code></td>
+      <td>65.02 k</td>
+      <td><code>65023000000000000000000</code> / <code>0x0dc4e7658961909c0000</code></td>
     </tr>
     <tr>
       <td>maxOpenInterest</td>
-      <td>9.7 k</td>
-      <td><code>9701000000000000000000</code> / <code>0x020de46b65e630740000</code></td>
+      <td>65.02 k</td>
+      <td><code>65023000000000000000000</code> / <code>0x0dc4e7658961909c0000</code></td>
     </tr>
     <tr>
       <td></td>
@@ -12410,13 +12410,13 @@ Perps market ID: <code>6400</code>
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>192.64 k</td>
-      <td><code>192641000000000000000000</code> / <code>0x28cb16ebcc3d19640000</code></td>
+      <td>293.32 k</td>
+      <td><code>293317000000000000000000</code> / <code>0x3e1cbf161fee13f40000</code></td>
     </tr>
     <tr>
       <td>maxOpenInterest</td>
-      <td>192.64 k</td>
-      <td><code>192641000000000000000000</code> / <code>0x28cb16ebcc3d19640000</code></td>
+      <td>293.32 k</td>
+      <td><code>293317000000000000000000</code> / <code>0x3e1cbf161fee13f40000</code></td>
     </tr>
     <tr>
       <td></td>
@@ -12606,13 +12606,13 @@ Perps market ID: <code>6500</code>
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>4.1 b</td>
-      <td><code>4100461301000000000000000000</code> / <code>0x0d3fd274896ecc543ab40000</code></td>
+      <td>5.81 b</td>
+      <td><code>5813953488000000000000000000</code> / <code>0x12c9308a1ef77be9ad400000</code></td>
     </tr>
     <tr>
       <td>maxOpenInterest</td>
-      <td>4.1 b</td>
-      <td><code>4100461301000000000000000000</code> / <code>0x0d3fd274896ecc543ab40000</code></td>
+      <td>5.81 b</td>
+      <td><code>5813953488000000000000000000</code> / <code>0x12c9308a1ef77be9ad400000</code></td>
     </tr>
     <tr>
       <td></td>
@@ -12802,13 +12802,13 @@ Perps market ID: <code>6600</code>
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>74.99 k</td>
-      <td><code>74989000000000000000000</code> / <code>0x0fe1296e0f4007940000</code></td>
+      <td>144.74 k</td>
+      <td><code>144743000000000000000000</code> / <code>0x1ea688a402b80d3c0000</code></td>
     </tr>
     <tr>
       <td>maxOpenInterest</td>
-      <td>74.99 k</td>
-      <td><code>74989000000000000000000</code> / <code>0x0fe1296e0f4007940000</code></td>
+      <td>144.74 k</td>
+      <td><code>144743000000000000000000</code> / <code>0x1ea688a402b80d3c0000</code></td>
     </tr>
     <tr>
       <td></td>
@@ -12817,8 +12817,8 @@ Perps market ID: <code>6600</code>
     </tr>
     <tr>
       <td>skewScale</td>
-      <td>5.4 m</td>
-      <td><code>5400000000000000000000000</code> / <code>0x04777e962985cfff000000</code></td>
+      <td>20 m</td>
+      <td><code>20000000000000000000000000</code> / <code>0x108b2a2c28029094000000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
@@ -12998,13 +12998,13 @@ Perps market ID: <code>6700</code>
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>84.78 k</td>
-      <td><code>84779000000000000000000</code> / <code>0x11f3e0f8f99b69cc0000</code></td>
+      <td>117.96 k</td>
+      <td><code>117960000000000000000000</code> / <code>0x18fa9fd98d2276200000</code></td>
     </tr>
     <tr>
       <td>maxOpenInterest</td>
-      <td>84.78 k</td>
-      <td><code>84779000000000000000000</code> / <code>0x11f3e0f8f99b69cc0000</code></td>
+      <td>117.96 k</td>
+      <td><code>117960000000000000000000</code> / <code>0x18fa9fd98d2276200000</code></td>
     </tr>
     <tr>
       <td></td>
@@ -13013,8 +13013,8 @@ Perps market ID: <code>6700</code>
     </tr>
     <tr>
       <td>skewScale</td>
-      <td>7.88 m</td>
-      <td><code>7875000000000000000000000</code> / <code>0x0683989afc8dcf53e00000</code></td>
+      <td>8 m</td>
+      <td><code>8000000000000000000000000</code> / <code>0x069e10de76676d08000000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
@@ -13194,13 +13194,13 @@ Perps market ID: <code>6800</code>
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>0.87 m</td>
-      <td><code>874565000000000000000000</code> / <code>0xb932437e800a7df40000</code></td>
+      <td>0.8 m</td>
+      <td><code>796481000000000000000000</code> / <code>0xa8a9524f9acdbc640000</code></td>
     </tr>
     <tr>
       <td>maxOpenInterest</td>
-      <td>0.87 m</td>
-      <td><code>874565000000000000000000</code> / <code>0xb932437e800a7df40000</code></td>
+      <td>0.8 m</td>
+      <td><code>796481000000000000000000</code> / <code>0xa8a9524f9acdbc640000</code></td>
     </tr>
     <tr>
       <td></td>
@@ -13390,13 +13390,13 @@ Perps market ID: <code>6900</code>
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>8.75 k</td>
-      <td><code>8753000000000000000000</code> / <code>0x01da8046d49e52240000</code></td>
+      <td>21.42 k</td>
+      <td><code>21419000000000000000000</code> / <code>0x0489205649463bcc0000</code></td>
     </tr>
     <tr>
       <td>maxOpenInterest</td>
-      <td>8.75 k</td>
-      <td><code>8753000000000000000000</code> / <code>0x01da8046d49e52240000</code></td>
+      <td>21.42 k</td>
+      <td><code>21419000000000000000000</code> / <code>0x0489205649463bcc0000</code></td>
     </tr>
     <tr>
       <td></td>
@@ -13782,13 +13782,13 @@ Perps market ID: <code>7000</code>
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>0.94 m</td>
-      <td><code>936746000000000000000000</code> / <code>0xc65d1a37c2fbc2680000</code></td>
+      <td>1.09 m</td>
+      <td><code>1090425000000000000000000</code> / <code>0xe6e80ec534beca440000</code></td>
     </tr>
     <tr>
       <td>maxOpenInterest</td>
-      <td>0.94 m</td>
-      <td><code>936746000000000000000000</code> / <code>0xc65d1a37c2fbc2680000</code></td>
+      <td>1.09 m</td>
+      <td><code>1090425000000000000000000</code> / <code>0xe6e80ec534beca440000</code></td>
     </tr>
     <tr>
       <td></td>
@@ -13978,13 +13978,13 @@ Perps market ID: <code>7100</code>
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>190.13 k</td>
-      <td><code>190128000000000000000000</code> / <code>0x2842dc0a52aeecc00000</code></td>
+      <td>208.25 k</td>
+      <td><code>208249000000000000000000</code> / <code>0x2c19336ee582b2440000</code></td>
     </tr>
     <tr>
       <td>maxOpenInterest</td>
-      <td>190.13 k</td>
-      <td><code>190128000000000000000000</code> / <code>0x2842dc0a52aeecc00000</code></td>
+      <td>208.25 k</td>
+      <td><code>208249000000000000000000</code> / <code>0x2c19336ee582b2440000</code></td>
     </tr>
     <tr>
       <td></td>
@@ -13993,8 +13993,8 @@ Perps market ID: <code>7100</code>
     </tr>
     <tr>
       <td>skewScale</td>
-      <td>187.5 m</td>
-      <td><code>187500000000000000000000000</code> / <code>0x9b18ab5df7180b6b800000</code></td>
+      <td>400 m</td>
+      <td><code>400000000000000000000000000</code> / <code>0x014adf4b7320334b90000000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
@@ -14174,13 +14174,13 @@ Perps market ID: <code>7200</code>
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>14</td>
-      <td><code>14000000000000000000</code> / <code>0xc249fdd327780000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxOpenInterest</td>
-      <td>14</td>
-      <td><code>14000000000000000000</code> / <code>0xc249fdd327780000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td></td>
@@ -14189,8 +14189,8 @@ Perps market ID: <code>7200</code>
     </tr>
     <tr>
       <td>skewScale</td>
-      <td>1.13 k</td>
-      <td><code>1125000000000000000000</code> / <code>0x3cfc82e37e9a740000</code></td>
+      <td>2.13 k</td>
+      <td><code>2125000000000000000000</code> / <code>0x73324c914479140000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
