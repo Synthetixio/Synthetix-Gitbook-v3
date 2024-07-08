@@ -498,8 +498,8 @@
   <tbody>
     <tr>
       <td>perps_gas_oracle_node</td>
-      <td><a href="https://usecannon.com/packages/op-gas-price-oracle/3.3.15/84532-andromeda">op-gas-price-oracle:3.3.15@andromeda</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmXUoQosX5LC86vNpzhuVgjTkW4AQrTKhFT3ywEhWDwnou">QmXUoQosX5LC86vNpzhuVgjTkW4AQrTKhFT3ywEhWDwnou</a></td>
+      <td><a href="https://usecannon.com/packages/op-gas-price-oracle/3.4.0/84532-andromeda">op-gas-price-oracle:3.4.0@andromeda</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmcRRswVqq6Vqgm6a4iNbABxubTTQwbVEYfnnK1khrWVz6">QmcRRswVqq6Vqgm6a4iNbABxubTTQwbVEYfnnK1khrWVz6</a></td>
       <td>
         ovmGasPriceOracleAddress: <a href="https://sepolia.basescan.org/address/0x420000000000000000000000000000000000000F"><code>0x420000000000000000000000000000000000000F</code></a>
       </td>
