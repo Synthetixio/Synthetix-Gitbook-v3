@@ -422,7 +422,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0xB94c6E4f5162717c6
     <tr>
       <td>oracleNodeId</td>
       <td></td>
-      <td><code>"0xadc7928aa839fc0877a96509de2b19ec77e85b48999ac5d9d3cad40ffc5281ad"</code></td>
+      <td><code>"0x8b974cb78abe3bd48345687ac68dd934dcad3229e07dfe23c0f378bddefc7be4"</code></td>
     </tr>
     <tr>
       <td>minDelegationD18</td>
@@ -473,7 +473,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0xB3f05d39504dA9587
     <tr>
       <td>oracleNodeId</td>
       <td></td>
-      <td><code>"0xadc7928aa839fc0877a96509de2b19ec77e85b48999ac5d9d3cad40ffc5281ad"</code></td>
+      <td><code>"0x8b974cb78abe3bd48345687ac68dd934dcad3229e07dfe23c0f378bddefc7be4"</code></td>
     </tr>
     <tr>
       <td>minDelegationD18</td>
