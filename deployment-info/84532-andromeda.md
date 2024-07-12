@@ -12214,13 +12214,13 @@ Perps market ID: <code>6300</code>
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>65.02 k</td>
-      <td><code>65023000000000000000000</code> / <code>0x0dc4e7658961909c0000</code></td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
     </tr>
     <tr>
       <td>maxOpenInterest</td>
-      <td>65.02 k</td>
-      <td><code>65023000000000000000000</code> / <code>0x0dc4e7658961909c0000</code></td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
     </tr>
     <tr>
       <td></td>
