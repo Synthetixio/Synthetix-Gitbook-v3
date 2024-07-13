@@ -825,12 +825,6 @@ Collateral locks are initially intended for the Synthetix v2 to v3 migration, bu
 * `amount` (*uint256*) - The amount of snxUSD burned, denominated with 18 decimals of precision.
 * `sender` (*address*) - The address that triggered the operation.
 
-#### IssuanceFeePaid
-
-  ```solidity
-  event IssuanceFeePaid(uint128 accountId, uint128 poolId, address collateralType, uint256 feeAmount)
-  ```
-
 ### Liquidation Module
 
 #### liquidate
@@ -1097,7 +1091,7 @@ See `IMarket`.
 * `amount` (*uint256*) - The amount of snxUSD to be deposited, denominated with 18 decimals of precision.
 
 **Returns**
-* `feeAmount` (*uint256*) - the amount of fees paid (billed as additional debt towards liquidity providers)
+* `feeAmount` (*uint256*) - Fee collected by the core system. Always 0 in the current implementation.
 #### withdrawMarketUsd
 
   ```solidity
@@ -1115,7 +1109,7 @@ See `IMarket`.
 * `amount` (*uint256*) - The amount of snxUSD to be withdraw, denominated with 18 decimals of precision.
 
 **Returns**
-* `feeAmount` (*uint256*) - the amount of fees paid (billed as additional debt towards liquidity providers)
+* `feeAmount` (*uint256*) - Fee collected by the core system. Always 0 in the current implementation.
 #### getMarketFees
 
   ```solidity
@@ -1129,8 +1123,8 @@ See `IMarket`.
 * `amount` (*uint256*) - The amount deposited or withdrawn in USD
 
 **Returns**
-* `depositFeeAmount` (*uint256*) - the amount of USD paid for a call to `depositMarketUsd`
-* `withdrawFeeAmount` (*uint256*) - the amount of USD paid for a call to `withdrawMarketUsd`
+* `depositFeeAmount` (*uint256*) - the amount of USD paid for a call to `depositMarketUsd`, always 0
+* `withdrawFeeAmount` (*uint256*) - the amount of USD paid for a call to `withdrawMarketUsd`, always 0
 #### getWithdrawableMarketUsd
 
   ```solidity
@@ -1377,12 +1371,6 @@ by limiting the frequency of `delegateCollateral` (or `setPoolConfiguration`) ca
 * `creditCapacity` (*int128*) - Updated credit capacity of the market after withdrawing.
 * `netIssuance` (*int128*) - Updated net issuance.
 * `depositedCollateralValue` (*uint256*) - Updated deposited collateral value of the market
-
-#### MarketSystemFeePaid
-
-  ```solidity
-  event MarketSystemFeePaid(uint128 marketId, uint256 feeAmount)
-  ```
 
 #### SetMinDelegateTime
 
