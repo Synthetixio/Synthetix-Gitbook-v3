@@ -69,7 +69,7 @@
     <tr>
       <td>system</td>
       <td><a href="https://usecannon.com/packages/synthetix/3.3.18/11155111-main">synthetix:3.3.18@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmWZEVVSrcWKsZsL7jKwsQtmYe2fzo3tQWQEjsweDzD7on">QmWZEVVSrcWKsZsL7jKwsQtmYe2fzo3tQWQEjsweDzD7on</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmT4k2dJqjcDyKcBb9BPMvsv1h5LaFAfmCKgfmNb2Jsfd9">QmT4k2dJqjcDyKcBb9BPMvsv1h5LaFAfmCKgfmNb2Jsfd9</a></td>
       <td>
         bundleSalt: main<br />oracle_manager_source: oracle-manager<br />owner: <a href="https://sepolia.etherscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />salt: main<br />const_one_oracle_id: 0x066ef68c9d9ca51eee861aeb5bce51a12e61f06f10bf62243c563671ae3a9733
@@ -78,7 +78,7 @@
     <tr>
       <td>legacyMarket</td>
       <td><a href="https://usecannon.com/packages/synthetix-legacy-market/3.3.5/11155111-main">synthetix-legacy-market:3.3.5@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmfM9Fou1XFk1hRNodQQcSdLbeZKoTSxiSoZrABA9qR89f">QmfM9Fou1XFk1hRNodQQcSdLbeZKoTSxiSoZrABA9qR89f</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmR3a62c1LMfh76shM96cgPhbQWH5A8HU8icp6LHMfMu85">QmR3a62c1LMfh76shM96cgPhbQWH5A8HU8icp6LHMfMu85</a></td>
       <td>
         market_id: 1<br />owner: <a href="https://sepolia.etherscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />pool_owner: <a href="https://sepolia.etherscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
@@ -88,7 +88,7 @@
     <tr>
       <td>spotFactory</td>
       <td><a href="https://usecannon.com/packages/synthetix-spot-market/3.3.15/11155111-main">synthetix-spot-market:3.3.15@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmPWHatdx1NUaHTRxZ383HkANMqQ2orMqQQw5Bw5rdhe6Q">QmPWHatdx1NUaHTRxZ383HkANMqQ2orMqQQw5Bw5rdhe6Q</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmYCmCYvCohRxtu252yBWjaNxwJC3sd64JoZbQkBdCb9WD">QmYCmCYvCohRxtu252yBWjaNxwJC3sd64JoZbQkBdCb9WD</a></td>
       <td>
         owner: <a href="https://sepolia.etherscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />salt: snax<br />synthetixPackage: synthetix:3.3.15<br />synthetixPreset: main
