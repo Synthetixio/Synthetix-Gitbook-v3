@@ -12,9 +12,31 @@
   <tbody>
     <tr>
       <td>system</td>
-      <td><a href="https://usecannon.com/packages/synthetix/3.3.4/1-main">synthetix:3.3.4@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmUtELWtepNn1ByaFUF8YAgLMtdvy6GGe2P9ex48EVit4H">QmUtELWtepNn1ByaFUF8YAgLMtdvy6GGe2P9ex48EVit4H</a></td>
-      <td>n/a</td>
+      <td><a href="https://usecannon.com/packages/synthetix/3.3.18/1-main">synthetix:3.3.18@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmTVxHGnXqe4TyN8h6kTFtPBeKzmn2zENu5sjmZVhZyGxQ">QmTVxHGnXqe4TyN8h6kTFtPBeKzmn2zENu5sjmZVhZyGxQ</a></td>
+      <td>
+        bundleSalt: main<br />oracle_manager_source: oracle-manager<br />owner: <a href="https://etherscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
+        ><br />salt: main
+      </td>
+    </tr>
+    <tr>
+      <td>legacyMarket</td>
+      <td><a href="https://usecannon.com/packages/synthetix-legacy-market/3.3.6/1-main">synthetix-legacy-market:3.3.6@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmV8h8yR6mZtyVnSZuyCHid5jQhduGW5qNbuRwte9Nunqc">QmV8h8yR6mZtyVnSZuyCHid5jQhduGW5qNbuRwte9Nunqc</a></td>
+      <td>
+        market_id: 1<br />owner: <a href="https://etherscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
+        ><br />pool_owner: <a href="https://etherscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
+        ><br />sc_pool_id: 1<br />v2x_package: synthetix:2.101.2<br />v3_package: synthetix:3.3.15
+      </td>
+    </tr>
+    <tr>
+      <td>spotFactory</td>
+      <td><a href="https://usecannon.com/packages/synthetix-spot-market/3.3.15/1-main">synthetix-spot-market:3.3.15@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmYFV4KQTYHvMPiyP59GAPGskPPfTZMMgwFEhswo8B89Mp">QmYFV4KQTYHvMPiyP59GAPGskPPfTZMMgwFEhswo8B89Mp</a></td>
+      <td>
+        owner: <a href="https://etherscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
+        ><br />salt: snax<br />synthetixPackage: synthetix:3.3.15<br />synthetixPreset: main
+      </td>
     </tr>
   </tbody>
 </table>
