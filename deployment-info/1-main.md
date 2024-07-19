@@ -59,6 +59,66 @@
       </td>
     </tr>
     <tr>
+      <td>LegacyMarketProxy</td>
+      <td>
+        <a href="https://etherscan.io/address/0x3AcF163B9E6a384D539e10dAc7e11213c638b2f5"><code>0x3AcF163B9E6a384D539e10dAc7e11213c638b2f5</code></a>
+      </td>
+      <td>
+        <a href="./1-main/LegacyMarketProxy.json"><code>LegacyMarketProxy.json</code></a>
+      </td>
+      <td>
+        <a href="./1-main/LegacyMarketProxy.readable.json"><code>LegacyMarketProxy.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>V2x</td>
+      <td>
+        <a href="https://etherscan.io/address/0xd711709eFc452152B7ad11DbD01ed4B69c9421B3"><code>0xd711709eFc452152B7ad11DbD01ed4B69c9421B3</code></a>
+      </td>
+      <td>
+        <a href="./1-main/V2x.json"><code>V2x.json</code></a>
+      </td>
+      <td>
+        <a href="./1-main/V2x.readable.json"><code>V2x.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>V2xUsd</td>
+      <td>
+        <a href="https://etherscan.io/address/0x10A5F7D9D65bCc2734763444D4940a31b109275f"><code>0x10A5F7D9D65bCc2734763444D4940a31b109275f</code></a>
+      </td>
+      <td>
+        <a href="./1-main/V2xUsd.json"><code>V2xUsd.json</code></a>
+      </td>
+      <td>
+        <a href="./1-main/V2xUsd.readable.json"><code>V2xUsd.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>TrustedMulticallForwarder</td>
+      <td>
+        <a href="https://etherscan.io/address/0xE2C5658cC5C448B48141168f3e475dF8f65A1e3e"><code>0xE2C5658cC5C448B48141168f3e475dF8f65A1e3e</code></a>
+      </td>
+      <td>
+        <a href="./1-main/TrustedMulticallForwarder.json"><code>TrustedMulticallForwarder.json</code></a>
+      </td>
+      <td>
+        <a href="./1-main/TrustedMulticallForwarder.readable.json"><code>TrustedMulticallForwarder.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>SpotMarketProxy</td>
+      <td>
+        <a href="https://etherscan.io/address/0x2CD12CcAc6F869650bA88a220b2eb91a937FA5c0"><code>0x2CD12CcAc6F869650bA88a220b2eb91a937FA5c0</code></a>
+      </td>
+      <td>
+        <a href="./1-main/SpotMarketProxy.json"><code>SpotMarketProxy.json</code></a>
+      </td>
+      <td>
+        <a href="./1-main/SpotMarketProxy.readable.json"><code>SpotMarketProxy.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
       <td>CollateralToken_SNX</td>
       <td>
         <a href="https://etherscan.io/address/0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F"><code>0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F</code></a>
@@ -136,18 +196,18 @@ Token address: <a href="https://etherscan.io/address/0xC011a73ee8576Fb46F5E1c575
     </tr>
     <tr>
       <td>issuanceRatioD18</td>
-      <td>4</td>
-      <td><code>4000000000000000000</code> / <code>0x3782dace9d900000</code></td>
+      <td>5</td>
+      <td><code>5000000000000000000</code> / <code>0x4563918244f40000</code></td>
     </tr>
     <tr>
       <td>liquidationRatioD18</td>
-      <td>1.5</td>
-      <td><code>1500000000000000000</code> / <code>0x14d1120d7b160000</code></td>
+      <td>1.6</td>
+      <td><code>1600000000000000000</code> / <code>0x16345785d8a00000</code></td>
     </tr>
     <tr>
       <td>liquidationRewardD18</td>
-      <td>10</td>
-      <td><code>10000000000000000000</code> / <code>0x8ac7230489e80000</code></td>
+      <td>50</td>
+      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
     </tr>
     <tr>
       <td>oracleNodeId</td>
@@ -156,8 +216,8 @@ Token address: <a href="https://etherscan.io/address/0xC011a73ee8576Fb46F5E1c575
     </tr>
     <tr>
       <td>minDelegationD18</td>
-      <td>10</td>
-      <td><code>10000000000000000000</code> / <code>0x8ac7230489e80000</code></td>
+      <td>100</td>
+      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
     </tr>
   </tbody>
 </table>
@@ -247,6 +307,39 @@ Token address: <a href="https://etherscan.io/address/0xb2F30A7C980f052f02563fb51
     </tr>
     <tr>
       <td>OracleManagerProxy</td>
+      <td>
+        <a href="https://etherscan.io/address/0xEb3107117FEAd7de89Cd14D463D340A2E6917769"><code>0xEb3107117FEAd7de89Cd14D463D340A2E6917769</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>LegacyMarketProxy</td>
+      <td>
+        <a href="https://etherscan.io/address/0xEb3107117FEAd7de89Cd14D463D340A2E6917769"><code>0xEb3107117FEAd7de89Cd14D463D340A2E6917769</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>V2x</td>
+      <td>
+        <a href="https://etherscan.io/address/0xEb3107117FEAd7de89Cd14D463D340A2E6917769"><code>0xEb3107117FEAd7de89Cd14D463D340A2E6917769</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>V2xUsd</td>
+      <td>
+        <a href="https://etherscan.io/address/0xEb3107117FEAd7de89Cd14D463D340A2E6917769"><code>0xEb3107117FEAd7de89Cd14D463D340A2E6917769</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>TrustedMulticallForwarder</td>
+      <td>n/a</td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>SpotMarketProxy</td>
       <td>
         <a href="https://etherscan.io/address/0xEb3107117FEAd7de89Cd14D463D340A2E6917769"><code>0xEb3107117FEAd7de89Cd14D463D340A2E6917769</code></a>
       </td>
