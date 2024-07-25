@@ -22,11 +22,11 @@
     <tr>
       <td>legacyMarket</td>
       <td><a href="https://usecannon.com/packages/synthetix-legacy-market/3.3.6/1-main">synthetix-legacy-market:3.3.6@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmV8h8yR6mZtyVnSZuyCHid5jQhduGW5qNbuRwte9Nunqc">QmV8h8yR6mZtyVnSZuyCHid5jQhduGW5qNbuRwte9Nunqc</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmXq1jXQVQLzt6oos1iwnuyzdk7firghVEHM6jRN83XnRJ">QmXq1jXQVQLzt6oos1iwnuyzdk7firghVEHM6jRN83XnRJ</a></td>
       <td>
         market_id: 1<br />owner: <a href="https://etherscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />pool_owner: <a href="https://etherscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
-        ><br />sc_pool_id: 1<br />v2x_package: synthetix:2.101.2<br />v3_package: synthetix:3.3.15
+        ><br />sc_pool_id: 1<br />v2x_package: synthetix:2.101.2<br />v3_package: synthetix:3.3.15<br />marketId: 1
       </td>
     </tr>
     <tr>
