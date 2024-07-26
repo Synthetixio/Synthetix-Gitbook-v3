@@ -131,6 +131,18 @@
       </td>
     </tr>
     <tr>
+      <td>SynthToken_snxUSDe</td>
+      <td>
+        <a href="https://etherscan.io/address/0x3f3eD1002F55121b8213182f09d4BE544E08B9F9"><code>0x3f3eD1002F55121b8213182f09d4BE544E08B9F9</code></a>
+      </td>
+      <td>
+        <a href="./1-main/SynthToken_snxUSDe.json"><code>SynthToken_snxUSDe.json</code></a>
+      </td>
+      <td>
+        <a href="./1-main/SynthToken_snxUSDe.readable.json"><code>SynthToken_snxUSDe.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
       <td>AllErrors</td>
       <td>n/a</td>
       <td>
@@ -201,8 +213,8 @@ Token address: <a href="https://etherscan.io/address/0xC011a73ee8576Fb46F5E1c575
     </tr>
     <tr>
       <td>liquidationRatioD18</td>
-      <td>1.6</td>
-      <td><code>1600000000000000000</code> / <code>0x16345785d8a00000</code></td>
+      <td>1.2</td>
+      <td><code>1200000000000000000</code> / <code>0x10a741a462780000</code></td>
     </tr>
     <tr>
       <td>liquidationRewardD18</td>
@@ -269,6 +281,101 @@ Token address: <a href="https://etherscan.io/address/0xb2F30A7C980f052f02563fb51
       <td>minDelegationD18</td>
       <td><code>MaxUint256</code></td>
       <td><code>MaxUint256</code> / <code>0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</code></td>
+    </tr>
+  </tbody>
+</table>
+
+# Synth market `2` Synthetic Ethena USD Spot Market
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Parameter name</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>synthMarketId</td>
+      <td>2</td>
+      <td><code>2</code></td>
+    </tr>
+    <tr>
+      <td>name</td>
+      <td></td>
+      <td><code>"Synthetic Ethena USD Spot Market"</code></td>
+    </tr>
+    <tr>
+      <td>synthSymbol</td>
+      <td></td>
+      <td><code>"snxUSDe"</code></td>
+    </tr>
+    <tr>
+      <td>synthName</td>
+      <td></td>
+      <td><code>"Synthetic Ethena USD"</code></td>
+    </tr>
+    <tr>
+      <td>synthDecimals</td>
+      <td>18</td>
+      <td><code>18</code></td>
+    </tr>
+    <tr>
+      <td>synthAddress</td>
+      <td></td>
+      <td>
+        <a href="https://etherscan.io/address/0x3f3eD1002F55121b8213182f09d4BE544E08B9F9"><code>0x3f3eD1002F55121b8213182f09d4BE544E08B9F9</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>implementationAddress</td>
+      <td></td>
+      <td>
+        <a href="https://etherscan.io/address/0xD485Ae5977B85dd7a4Df73ca2A524be61Eb80e65"><code>0xD485Ae5977B85dd7a4Df73ca2A524be61Eb80e65</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>collateralLeverage</td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+    </tr>
+    <tr>
+      <td>feeCollector</td>
+      <td></td>
+      <td>
+        <a href="https://etherscan.io/address/0x0000000000000000000000000000000000000000"><code>0x0000000000000000000000000000000000000000</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>atomicFixedFee</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>asyncFixedFee</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>wrapFee</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>unwrapFee</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>utilizationFeeRate</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>skewScale</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
     </tr>
   </tbody>
 </table>
@@ -352,6 +459,13 @@ Token address: <a href="https://etherscan.io/address/0xb2F30A7C980f052f02563fb51
       </td>
       <td>n/a</td>
     </tr>
+    <tr>
+      <td>SynthToken_snxUSDe</td>
+      <td>
+        <a href="https://etherscan.io/address/0x2CD12CcAc6F869650bA88a220b2eb91a937FA5c0"><code>0x2CD12CcAc6F869650bA88a220b2eb91a937FA5c0</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
   </tbody>
 </table>
 
@@ -368,6 +482,25 @@ Token address: <a href="https://etherscan.io/address/0xb2F30A7C980f052f02563fb51
       <td><code>1</code> Spartan Council Pool <i>* preferred</i></td>
       <td>
         <a href="https://etherscan.io/address/0xEb3107117FEAd7de89Cd14D463D340A2E6917769"><code>0xEb3107117FEAd7de89Cd14D463D340A2E6917769</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+  </tbody>
+</table>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Synth Market</th>
+      <th width="500">Owner</th>
+      <th width="500">Nominated owner</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>2</code> Synthetic Ethena USD Spot Market</td>
+      <td>
+        <a href="https://etherscan.io/address/0x6E1613B5c68B4Cf2A58400D8019a97849A678139"><code>0x6E1613B5c68B4Cf2A58400D8019a97849A678139</code></a>
       </td>
       <td>n/a</td>
     </tr>
