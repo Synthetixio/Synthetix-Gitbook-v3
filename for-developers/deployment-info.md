@@ -119,65 +119,6 @@
   </tbody>
 </table>
 
-# Arbitrum One (42161, Arbthetix)
-
-<table data-full-width="true">
-  <thead>
-    <tr>
-      <th width="200">Import name</th>
-      <th width="400">Provisioned package</th>
-      <th width="500">IPFS (zlib compressed)</th>
-      <th width="500">Settings</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>perps_gas_oracle_node</td>
-      <td><a href="https://usecannon.com/packages/arbitrum-gas-price-oracle/3.3.16/42161-arbthetix">arbitrum-gas-price-oracle:3.3.16@arbthetix</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/Qmb98dFK5ttLob1nM4KgUGGhaQkenkeV86CEbuGg1t2GCT">Qmb98dFK5ttLob1nM4KgUGGhaQkenkeV86CEbuGg1t2GCT</a></td>
-      <td>
-        arbGasPriceOracleAddress: <a href="https://arbiscan.io/address/0x000000000000000000000000000000000000006C"><code>0x000000000000000000000000000000000000006C</code></a>
-      </td>
-    </tr>
-    <tr>
-      <td>pyth_erc7412_wrapper</td>
-      <td><a href="https://usecannon.com/packages/pyth-erc7412-wrapper/3.3.14/42161-arbthetix">pyth-erc7412-wrapper:3.3.14@arbthetix</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmeTApUAPsQsgo3JMeafDLYxDgaNT2ZBV2YAKGr66oxFrF">QmeTApUAPsQsgo3JMeafDLYxDgaNT2ZBV2YAKGr66oxFrF</a></td>
-      <td>
-        pythAddress: <a href="https://arbiscan.io/address/0x420000000000000000000000000000000000000F"><code>0x420000000000000000000000000000000000000F</code></a>
-      </td>
-    </tr>
-    <tr>
-      <td>system</td>
-      <td><a href="https://usecannon.com/packages/synthetix/3.3.15/42161-arbthetix">synthetix:3.3.15@arbthetix</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmToLQRVQ1KMNqCebKX6B4Yth6MkSeegxPWAgfE7iqvjGF">QmToLQRVQ1KMNqCebKX6B4Yth6MkSeegxPWAgfE7iqvjGF</a></td>
-      <td>
-        bundleSalt: main<br />oracle_manager_source: oracle-manager:3.3.15<br />owner: <a href="https://arbiscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
-        ><br />salt: main
-      </td>
-    </tr>
-    <tr>
-      <td>perpsFactory</td>
-      <td><a href="https://usecannon.com/packages/synthetix-perps-market/3.3.17/42161-arbthetix">synthetix-perps-market:3.3.17@arbthetix</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmcxSts9kVnfkz63KfGniJ4DQD67syi8iT26MiGMS8NYYr">QmcxSts9kVnfkz63KfGniJ4DQD67syi8iT26MiGMS8NYYr</a></td>
-      <td>
-        coreProxyOwner: <a href="https://arbiscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
-        ><br />owner: <a href="https://arbiscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
-        ><br />salt: snax<br />spotMarketPackage: synthetix-spot-market:latest<br />spotMarketPreset: main<br />synthetixPackage: synthetix:latest<br />synthetixPreset: main
-      </td>
-    </tr>
-    <tr>
-      <td>spotFactory</td>
-      <td><a href="https://usecannon.com/packages/synthetix-spot-market/3.3.15/42161-arbthetix">synthetix-spot-market:3.3.15@arbthetix</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmTJwP3dvcfscATWArQFZxoVYsWH18vsv9AvBgcMciEHMs">QmTJwP3dvcfscATWArQFZxoVYsWH18vsv9AvBgcMciEHMs</a></td>
-      <td>
-        owner: <a href="https://arbiscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
-        ><br />salt: snax<br />synthetixPackage: synthetix:3.3.15<br />synthetixPreset: main
-      </td>
-    </tr>
-  </tbody>
-</table>
-
 # Arbitrum One (42161, Main)
 
 <table data-full-width="true">
@@ -314,7 +255,7 @@
     <tr>
       <td>system</td>
       <td><a href="https://usecannon.com/packages/synthetix/3.3.18/421614-main">synthetix:3.3.18@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmYV9ykXLEESFo9Ga6pkHfHHY9zmdSWRQeDPaGERK5d8PK">QmYV9ykXLEESFo9Ga6pkHfHHY9zmdSWRQeDPaGERK5d8PK</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmSgHhNgePb527rtjuEvzJGAyTYpHv3yWE7PsR87BMaX2u">QmSgHhNgePb527rtjuEvzJGAyTYpHv3yWE7PsR87BMaX2u</a></td>
       <td>
         bundleSalt: main<br />oracle_manager_source: oracle-manager<br />owner: <a href="https://sepolia.arbiscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />salt: main<br />const_one_oracle_id: 0x066ef68c9d9ca51eee861aeb5bce51a12e61f06f10bf62243c563671ae3a9733
@@ -323,7 +264,7 @@
     <tr>
       <td>spotFactory</td>
       <td><a href="https://usecannon.com/packages/synthetix-spot-market/3.3.15/421614-main">synthetix-spot-market:3.3.15@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmTBALvZL7CVPJyvuzyaAZpoTxiZmAE5bHcceFQnasaqaV">QmTBALvZL7CVPJyvuzyaAZpoTxiZmAE5bHcceFQnasaqaV</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmabUcXBqc1yTTwbw8QkK7kj5YTd3xavxrkmQNy8qEHTHS">QmabUcXBqc1yTTwbw8QkK7kj5YTd3xavxrkmQNy8qEHTHS</a></td>
       <td>
         owner: <a href="https://sepolia.arbiscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />salt: snax<br />synthetixPackage: synthetix:3.3.15<br />synthetixPreset: main
@@ -332,7 +273,7 @@
     <tr>
       <td>perpsFactory</td>
       <td><a href="https://usecannon.com/packages/synthetix-perps-market/3.3.19/421614-main">synthetix-perps-market:3.3.19@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmWMZ4yisHBUGHGCNGdAarCumhzCB4bxspiH5Tw8gF6NDX">QmWMZ4yisHBUGHGCNGdAarCumhzCB4bxspiH5Tw8gF6NDX</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmXQ7jXenq8VK3XBhv1yoxGAaeRh8hThNrJK7vpzkyheWL">QmXQ7jXenq8VK3XBhv1yoxGAaeRh8hThNrJK7vpzkyheWL</a></td>
       <td>
         coreProxyOwner: <a href="https://sepolia.arbiscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />owner: <a href="https://sepolia.arbiscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
