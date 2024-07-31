@@ -1,6 +1,6 @@
 {
   "generator": "cannon website 2.15.5",
-  "timestamp": 1722264506,
+  "timestamp": 1722365175,
   "def": {
     "setting": {
       "snx_package": {
@@ -2019,10 +2019,10 @@
         "defaultValue": "0.0010000000"
       },
       "perpsAaveMaxMarketSize": {
-        "defaultValue": "<%=String(2_022) %>"
+        "defaultValue": "<%=String(15_000) %>"
       },
       "perpsAaveMaxMarketValue": {
-        "defaultValue": "<%=String(100_000) %>"
+        "defaultValue": "<%=String(1_000_000) %>"
       },
       "perpsAaveInitialMarginRatio": {
         "defaultValue": "3.38"
@@ -25158,7 +25158,7 @@
       }
     },
     "name": "synthetix-omnibus",
-    "version": "44",
+    "version": "45",
     "description": "Andromeda deployment",
     "preset": "andromeda"
   },
@@ -27926,7 +27926,7 @@
       "artifacts": {
         "imports": {
           "spotFactory": {
-            "url": "ipfs://QmbVMsTyGTcHkCQiQBRLC3C6PmXTeuokm95ZKeVNZjPvzx",
+            "url": "ipfs://Qmaub6JBeqEFTeNgi3PL8BApVnXk12tkMw9WSTNCwcCtp6",
             "tags": [
               "latest"
             ],
@@ -28709,7 +28709,7 @@
             },
             "imports": {
               "synthetix": {
-                "url": "ipfs://QmWC9jGGGWfuTYgr2pUrGeijJVUyhfWxoLW47TfKWV7JqF",
+                "url": "ipfs://QmbPxv1dAmi95kSHRXnnV8BDxcPGRDT29BjWcsLzAbMNtW",
                 "contracts": {
                   "AccountModule": {
                     "address": "0xB19c1D84c7c14e50E408f132459D724EB3367526",
@@ -30271,7 +30271,7 @@
                     }
                   },
                   "oracle_manager": {
-                    "url": "ipfs://QmVjwRYZ3gUbVhxKXJMeoZe8fYuHUe2aR6zp9HtGJ9ei8X",
+                    "url": "ipfs://QmTGpm3QMyrkM8NC37dErD9S25FopUFitrmgz2JaQKt2tS",
                     "tags": [
                       "latest"
                     ],
@@ -30556,8 +30556,8 @@
                     "txns": {
                       "upgrade_proxy": {
                         "hash": "",
-                        "blockNumber": "17737472",
-                        "timestamp": "1722264349",
+                        "blockNumber": "17787797",
+                        "timestamp": "1722364951",
                         "events": {
                           "Upgraded": [
                             {
@@ -30571,7 +30571,7 @@
                         },
                         "deployedOn": "invoke.upgrade_proxy",
                         "gasUsed": 55346,
-                        "gasCost": "1015226907",
+                        "gasCost": "1004234079",
                         "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
                       }
                     },
@@ -31264,7 +31264,7 @@
       "artifacts": {
         "imports": {
           "perpsFactory": {
-            "url": "ipfs://QmbairBApQNFmiDwf8Zqar57gozrsz2ziUSQviFCVwcpSg",
+            "url": "ipfs://QmVXzYkqUfecy1UzzcR5j6MhEmArHBop29NxA7jtL58AqP",
             "tags": [
               "latest"
             ],
@@ -32270,7 +32270,7 @@
             },
             "imports": {
               "spotMarket": {
-                "url": "ipfs://QmbVMsTyGTcHkCQiQBRLC3C6PmXTeuokm95ZKeVNZjPvzx",
+                "url": "ipfs://Qmaub6JBeqEFTeNgi3PL8BApVnXk12tkMw9WSTNCwcCtp6",
                 "contracts": {
                   "AsyncOrderConfigurationModule": {
                     "address": "0x72054FBDaDBa5B8619dE02BfE8BCA34276e1B940",
@@ -33048,7 +33048,7 @@
                 },
                 "imports": {
                   "synthetix": {
-                    "url": "ipfs://QmWC9jGGGWfuTYgr2pUrGeijJVUyhfWxoLW47TfKWV7JqF",
+                    "url": "ipfs://QmbPxv1dAmi95kSHRXnnV8BDxcPGRDT29BjWcsLzAbMNtW",
                     "contracts": {
                       "AccountModule": {
                         "address": "0xB19c1D84c7c14e50E408f132459D724EB3367526",
@@ -34610,7 +34610,7 @@
                         }
                       },
                       "oracle_manager": {
-                        "url": "ipfs://QmVjwRYZ3gUbVhxKXJMeoZe8fYuHUe2aR6zp9HtGJ9ei8X",
+                        "url": "ipfs://QmTGpm3QMyrkM8NC37dErD9S25FopUFitrmgz2JaQKt2tS",
                         "tags": [
                           "latest"
                         ],
@@ -34895,8 +34895,8 @@
                         "txns": {
                           "upgrade_proxy": {
                             "hash": "",
-                            "blockNumber": "17737472",
-                            "timestamp": "1722264349",
+                            "blockNumber": "17787797",
+                            "timestamp": "1722364951",
                             "events": {
                               "Upgraded": [
                                 {
@@ -34910,7 +34910,7 @@
                             },
                             "deployedOn": "invoke.upgrade_proxy",
                             "gasUsed": 55346,
-                            "gasCost": "1015226907",
+                            "gasCost": "1004234079",
                             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
                           }
                         },
@@ -35413,7 +35413,7 @@
                 }
               },
               "synthetix": {
-                "url": "ipfs://QmWC9jGGGWfuTYgr2pUrGeijJVUyhfWxoLW47TfKWV7JqF",
+                "url": "ipfs://QmbPxv1dAmi95kSHRXnnV8BDxcPGRDT29BjWcsLzAbMNtW",
                 "contracts": {
                   "AccountModule": {
                     "address": "0xB19c1D84c7c14e50E408f132459D724EB3367526",
@@ -36975,7 +36975,7 @@
                     }
                   },
                   "oracle_manager": {
-                    "url": "ipfs://QmVjwRYZ3gUbVhxKXJMeoZe8fYuHUe2aR6zp9HtGJ9ei8X",
+                    "url": "ipfs://QmTGpm3QMyrkM8NC37dErD9S25FopUFitrmgz2JaQKt2tS",
                     "tags": [
                       "latest"
                     ],
@@ -37260,8 +37260,8 @@
                     "txns": {
                       "upgrade_proxy": {
                         "hash": "",
-                        "blockNumber": "17737472",
-                        "timestamp": "1722264349",
+                        "blockNumber": "17787797",
+                        "timestamp": "1722364951",
                         "events": {
                           "Upgraded": [
                             {
@@ -37275,7 +37275,7 @@
                         },
                         "deployedOn": "invoke.upgrade_proxy",
                         "gasUsed": 55346,
-                        "gasCost": "1015226907",
+                        "gasCost": "1004234079",
                         "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
                       }
                     },
@@ -59124,19 +59124,19 @@
     "setting.perpsAaveMaxMarketSize": {
       "artifacts": {
         "settings": {
-          "perpsAaveMaxMarketSize": "2022"
+          "perpsAaveMaxMarketSize": "15000"
         }
       },
-      "hash": "a92feb72277757c5974dd95c65920f69",
+      "hash": "7157948b45b9c824d8a4d5b7519f7c9f",
       "version": 7
     },
     "setting.perpsAaveMaxMarketValue": {
       "artifacts": {
         "settings": {
-          "perpsAaveMaxMarketValue": "100000"
+          "perpsAaveMaxMarketValue": "1000000"
         }
       },
-      "hash": "03ecac3251dd9772a2b1d1f2a18fc1aa",
+      "hash": "4dc06aaec2772a58aef72e6d42392002",
       "version": 7
     },
     "setting.perpsAaveMaxSecondsInLiquidationWindow": {
@@ -62655,28 +62655,28 @@
         "txns": {
           "setPerpsAaveMaxMarketSize": {
             "hash": "",
-            "blockNumber": "16659618",
-            "timestamp": "1720108592",
+            "blockNumber": "17787890",
+            "timestamp": "1722365160",
             "events": {
               "MaxMarketSizeSet": [
                 {
                   "name": "MaxMarketSizeSet",
                   "args": [
                     "3300",
-                    "2022000000000000000000"
+                    "15000000000000000000000"
                   ]
                 }
               ]
             },
             "deployedOn": "invoke.setPerpsAaveMaxMarketSize",
-            "gasUsed": 56601,
-            "gasCost": "1000004267",
+            "gasUsed": 39513,
+            "gasCost": "1004288190",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
         "settings": {}
       },
-      "hash": "b5cdaf84036b75807595a1e93cdc684e",
+      "hash": "caae0419cb5af7c3b77a9169a381ce7f",
       "version": 7
     },
     "invoke.setPerpsAaveMaxMarketValue": {
@@ -62685,28 +62685,28 @@
         "txns": {
           "setPerpsAaveMaxMarketValue": {
             "hash": "",
-            "blockNumber": "16659619",
-            "timestamp": "1720108592",
+            "blockNumber": "17787891",
+            "timestamp": "1722365160",
             "events": {
               "MaxMarketValueSet": [
                 {
                   "name": "MaxMarketValueSet",
                   "args": [
                     "3300",
-                    "100000000000000000000000"
+                    "1000000000000000000000000"
                   ]
                 }
               ]
             },
             "deployedOn": "invoke.setPerpsAaveMaxMarketValue",
-            "gasUsed": 56636,
-            "gasCost": "1000003736",
+            "gasUsed": 39524,
+            "gasCost": "1003753579",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
         "settings": {}
       },
-      "hash": "170f681353a930757f2514e8d1475168",
+      "hash": "8dea4f4191531eff416cd306aaf91ef3",
       "version": 7
     },
     "invoke.setPerpsAaveOrderFees": {
