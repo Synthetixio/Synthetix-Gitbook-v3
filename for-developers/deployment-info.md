@@ -142,7 +142,7 @@
     <tr>
       <td>system</td>
       <td><a href="https://usecannon.com/packages/synthetix/3.3.18/42161-main">synthetix:3.3.18@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmVsTCzb5pqdBQFYcL2MbmawjiAqj6qZNrgnSRFSzcK1B1">QmVsTCzb5pqdBQFYcL2MbmawjiAqj6qZNrgnSRFSzcK1B1</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/Qme2D8keKzT7sDX1r2J55eVLF4ou5PQUfLKJavkJMUbF3Y">Qme2D8keKzT7sDX1r2J55eVLF4ou5PQUfLKJavkJMUbF3Y</a></td>
       <td>
         bundleSalt: main<br />oracle_manager_source: oracle-manager<br />owner: <a href="https://arbiscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />salt: main<br />const_one_oracle_id: 0x066ef68c9d9ca51eee861aeb5bce51a12e61f06f10bf62243c563671ae3a9733
@@ -151,7 +151,7 @@
     <tr>
       <td>spotFactory</td>
       <td><a href="https://usecannon.com/packages/synthetix-spot-market/3.3.15/42161-main">synthetix-spot-market:3.3.15@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmZxDq752MfD4mAhyZRYXxBmBNJHScYh5QpRnfEEHkXQxt">QmZxDq752MfD4mAhyZRYXxBmBNJHScYh5QpRnfEEHkXQxt</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmYQzEZLpwS6A5q1FeKsMfgCrCWo9Wh4dRcS4KZvYxVcsB">QmYQzEZLpwS6A5q1FeKsMfgCrCWo9Wh4dRcS4KZvYxVcsB</a></td>
       <td>
         owner: <a href="https://arbiscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />salt: snax<br />synthetixPackage: synthetix:3.3.15<br />synthetixPreset: main
