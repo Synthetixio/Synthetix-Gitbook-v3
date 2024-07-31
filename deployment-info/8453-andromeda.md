@@ -143,6 +143,30 @@
       </td>
     </tr>
     <tr>
+      <td>CollateralToken_stataBasUSDC</td>
+      <td>
+        <a href="https://basescan.org/address/0x4EA71A20e655794051D1eE8b6e4A3269B13ccaCc"><code>0x4EA71A20e655794051D1eE8b6e4A3269B13ccaCc</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/CollateralToken_stataBasUSDC.json"><code>CollateralToken_stataBasUSDC.json</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/CollateralToken_stataBasUSDC.readable.json"><code>CollateralToken_stataBasUSDC.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>CollateralToken_sStataUSDC</td>
+      <td>
+        <a href="https://basescan.org/address/0x729Ef31D86d31440ecBF49f27F7cD7c16c6616d2"><code>0x729Ef31D86d31440ecBF49f27F7cD7c16c6616d2</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/CollateralToken_sStataUSDC.json"><code>CollateralToken_sStataUSDC.json</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/CollateralToken_sStataUSDC.readable.json"><code>CollateralToken_sStataUSDC.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
       <td>SynthToken_sUSDC</td>
       <td>
         <a href="https://basescan.org/address/0xC74eA762cF06c9151cE074E6a569a5945b6302E7"><code>0xC74eA762cF06c9151cE074E6a569a5945b6302E7</code></a>
@@ -152,6 +176,18 @@
       </td>
       <td>
         <a href="./8453-andromeda/SynthToken_sUSDC.readable.json"><code>SynthToken_sUSDC.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>SynthToken_sStataUSDC</td>
+      <td>
+        <a href="https://basescan.org/address/0x729Ef31D86d31440ecBF49f27F7cD7c16c6616d2"><code>0x729Ef31D86d31440ecBF49f27F7cD7c16c6616d2</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/SynthToken_sStataUSDC.json"><code>SynthToken_sStataUSDC.json</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/SynthToken_sStataUSDC.readable.json"><code>SynthToken_sStataUSDC.readable.json</code></a>
       </td>
     </tr>
     <tr>
@@ -270,6 +306,108 @@ Token address: <a href="https://basescan.org/address/0x09d51516F38980035153a554c
   </tbody>
 </table>
 
+# Collateral `sStataUSDC` Synthetic Static aUSDC
+
+Token address: <a href="https://basescan.org/address/0x729Ef31D86d31440ecBF49f27F7cD7c16c6616d2"><code>0x729Ef31D86d31440ecBF49f27F7cD7c16c6616d2</code></a>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Parameter name</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>depositingEnabled</td>
+      <td>✅ Enabled</td>
+      <td><code>true</code></td>
+    </tr>
+    <tr>
+      <td>decimals</td>
+      <td>18</td>
+      <td><code>18</code></td>
+    </tr>
+    <tr>
+      <td>issuanceRatioD18</td>
+      <td><code>MaxUint256</code></td>
+      <td><code>MaxUint256</code> / <code>0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</code></td>
+    </tr>
+    <tr>
+      <td>liquidationRatioD18</td>
+      <td>1.1</td>
+      <td><code>1100000000000000000</code> / <code>0x0f43fc2c04ee0000</code></td>
+    </tr>
+    <tr>
+      <td>liquidationRewardD18</td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+    </tr>
+    <tr>
+      <td>oracleNodeId</td>
+      <td></td>
+      <td><code>"0x9eb2d8eee0f6f1ac71474963e2ed5fae48bd598dfb2fd695f0194381b133d54a"</code></td>
+    </tr>
+    <tr>
+      <td>minDelegationD18</td>
+      <td>100</td>
+      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+    </tr>
+  </tbody>
+</table>
+
+# Collateral `stataBasUSDC` Static Aave Base USDC
+
+Token address: <a href="https://basescan.org/address/0x4EA71A20e655794051D1eE8b6e4A3269B13ccaCc"><code>0x4EA71A20e655794051D1eE8b6e4A3269B13ccaCc</code></a>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Parameter name</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>depositingEnabled</td>
+      <td>🚫 Disabled</td>
+      <td><code>false</code></td>
+    </tr>
+    <tr>
+      <td>decimals</td>
+      <td>6</td>
+      <td><code>6</code></td>
+    </tr>
+    <tr>
+      <td>issuanceRatioD18</td>
+      <td><code>MaxUint256</code></td>
+      <td><code>MaxUint256</code> / <code>0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</code></td>
+    </tr>
+    <tr>
+      <td>liquidationRatioD18</td>
+      <td>1.1</td>
+      <td><code>1100000000000000000</code> / <code>0x0f43fc2c04ee0000</code></td>
+    </tr>
+    <tr>
+      <td>liquidationRewardD18</td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+    </tr>
+    <tr>
+      <td>oracleNodeId</td>
+      <td></td>
+      <td><code>"0x9eb2d8eee0f6f1ac71474963e2ed5fae48bd598dfb2fd695f0194381b133d54a"</code></td>
+    </tr>
+    <tr>
+      <td>minDelegationD18</td>
+      <td>100</td>
+      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+    </tr>
+  </tbody>
+</table>
+
 # Collateral `sUSDC` Synthetic USD Coin
 
 Token address: <a href="https://basescan.org/address/0xC74eA762cF06c9151cE074E6a569a5945b6302E7"><code>0xC74eA762cF06c9151cE074E6a569a5945b6302E7</code></a>
@@ -356,8 +494,8 @@ Token address: <a href="https://basescan.org/address/0x833589fCD6eDb6E08f4c7C32D
     </tr>
     <tr>
       <td>liquidationRewardD18</td>
-      <td>0.005</td>
-      <td><code>5000000000000000</code> / <code>0x11c37937e08000</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>oracleNodeId</td>
@@ -420,6 +558,101 @@ Token address: <a href="https://basescan.org/address/0x833589fCD6eDb6E08f4c7C32D
       <td></td>
       <td>
         <a href="https://basescan.org/address/0x5312175CC17Eb3502d73581055d12CE076aB00d1"><code>0x5312175CC17Eb3502d73581055d12CE076aB00d1</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>collateralLeverage</td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+    </tr>
+    <tr>
+      <td>feeCollector</td>
+      <td></td>
+      <td>
+        <a href="https://basescan.org/address/0x0000000000000000000000000000000000000000"><code>0x0000000000000000000000000000000000000000</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>atomicFixedFee</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>asyncFixedFee</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>wrapFee</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>unwrapFee</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>utilizationFeeRate</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>skewScale</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+  </tbody>
+</table>
+
+# Synth market `3` Synthetic Static aUSDC Spot Market
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Parameter name</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>synthMarketId</td>
+      <td>3</td>
+      <td><code>3</code></td>
+    </tr>
+    <tr>
+      <td>name</td>
+      <td></td>
+      <td><code>"Synthetic Static aUSDC Spot Market"</code></td>
+    </tr>
+    <tr>
+      <td>synthSymbol</td>
+      <td></td>
+      <td><code>"sStataUSDC"</code></td>
+    </tr>
+    <tr>
+      <td>synthName</td>
+      <td></td>
+      <td><code>"Synthetic Static aUSDC"</code></td>
+    </tr>
+    <tr>
+      <td>synthDecimals</td>
+      <td>18</td>
+      <td><code>18</code></td>
+    </tr>
+    <tr>
+      <td>synthAddress</td>
+      <td></td>
+      <td>
+        <a href="https://basescan.org/address/0x729Ef31D86d31440ecBF49f27F7cD7c16c6616d2"><code>0x729Ef31D86d31440ecBF49f27F7cD7c16c6616d2</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>implementationAddress</td>
+      <td></td>
+      <td>
+        <a href="https://basescan.org/address/0x6D200dd8eE1f619FEfD43a5FA08B27C465D44415"><code>0x6D200dd8eE1f619FEfD43a5FA08B27C465D44415</code></a>
       </td>
     </tr>
     <tr>
@@ -14596,7 +14829,26 @@ Perps market ID: <code>900</code>
       <td>n/a</td>
     </tr>
     <tr>
+      <td>CollateralToken_stataBasUSDC</td>
+      <td>n/a</td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>CollateralToken_sStataUSDC</td>
+      <td>
+        <a href="https://basescan.org/address/0x18141523403e2595D31b22604AcB8Fc06a4CaA61"><code>0x18141523403e2595D31b22604AcB8Fc06a4CaA61</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
       <td>SynthToken_sUSDC</td>
+      <td>
+        <a href="https://basescan.org/address/0x18141523403e2595D31b22604AcB8Fc06a4CaA61"><code>0x18141523403e2595D31b22604AcB8Fc06a4CaA61</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>SynthToken_sStataUSDC</td>
       <td>
         <a href="https://basescan.org/address/0x18141523403e2595D31b22604AcB8Fc06a4CaA61"><code>0x18141523403e2595D31b22604AcB8Fc06a4CaA61</code></a>
       </td>
@@ -14645,6 +14897,13 @@ Perps market ID: <code>900</code>
   <tbody>
     <tr>
       <td><code>1</code> Synthetic USD Coin Spot Market</td>
+      <td>
+        <a href="https://basescan.org/address/0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"><code>0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td><code>3</code> Synthetic Static aUSDC Spot Market</td>
       <td>
         <a href="https://basescan.org/address/0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"><code>0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82</code></a>
       </td>
