@@ -263,21 +263,21 @@
     </tr>
     <tr>
       <td>spotFactory</td>
-      <td><a href="https://usecannon.com/packages/synthetix-spot-market/3.3.15/421614-main">synthetix-spot-market:3.3.15@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmabUcXBqc1yTTwbw8QkK7kj5YTd3xavxrkmQNy8qEHTHS">QmabUcXBqc1yTTwbw8QkK7kj5YTd3xavxrkmQNy8qEHTHS</a></td>
+      <td><a href="https://usecannon.com/packages/synthetix-spot-market/3.3.21-dev.fd4c5628/421614-main">synthetix-spot-market:3.3.21-dev.fd4c5628@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmcwZbXNZoBVNtoLNaPHSjg1aT6eaGBoKVJc7gb1pwqJ8M">QmcwZbXNZoBVNtoLNaPHSjg1aT6eaGBoKVJc7gb1pwqJ8M</a></td>
       <td>
         owner: <a href="https://sepolia.arbiscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
-        ><br />salt: snax<br />synthetixPackage: synthetix:3.3.15<br />synthetixPreset: main
+        ><br />salt: snax<br />synthetixPackage: synthetix<br />synthetixPreset: main
       </td>
     </tr>
     <tr>
       <td>perpsFactory</td>
-      <td><a href="https://usecannon.com/packages/synthetix-perps-market/3.3.19/421614-main">synthetix-perps-market:3.3.19@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmXQ7jXenq8VK3XBhv1yoxGAaeRh8hThNrJK7vpzkyheWL">QmXQ7jXenq8VK3XBhv1yoxGAaeRh8hThNrJK7vpzkyheWL</a></td>
+      <td><a href="https://usecannon.com/packages/synthetix-perps-market/3.4.1/421614-main">synthetix-perps-market:3.4.1@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmZWhTFwBaiNxMukR8hWiuaefdezkTVP7ocpSKcwwH3w43">QmZWhTFwBaiNxMukR8hWiuaefdezkTVP7ocpSKcwwH3w43</a></td>
       <td>
         coreProxyOwner: <a href="https://sepolia.arbiscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />owner: <a href="https://sepolia.arbiscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
-        ><br />salt: snax<br />spotMarketPackage: synthetix-spot-market:latest<br />spotMarketPreset: main<br />synthetixPackage: synthetix:latest<br />synthetixPreset: main<br />superMarketId: 3
+        ><br />salt: snax<br />spotMarketPackage: synthetix-spot-market:latest<br />spotMarketPreset: main<br />synthetixPackage: synthetix:latest<br />synthetixPreset: main<br />superMarketId: 6
       </td>
     </tr>
     <tr>
@@ -353,6 +353,167 @@
         ><br />salt: rewards
       </td>
     </tr>
+    <tr>
+      <td>btc_mock_collateral</td>
+      <td><a href="https://usecannon.com/packages/synthetix-mock-tokens/1.8/421614-main">synthetix-mock-tokens:1.8@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmfXCrUCXHp8dBoNpv4Y4y2zKktzEK5JSzz7ZvZHELGr4h">QmfXCrUCXHp8dBoNpv4Y4y2zKktzEK5JSzz7ZvZHELGr4h</a></td>
+      <td>
+        decimals: 18<br />initialSupply: 0<br />name: Token<br />owner: <a href="https://sepolia.arbiscan.io/address/0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"><code>0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9</code></a
+        ><br />salt: <br />symbol: TKN
+      </td>
+    </tr>
+    <tr>
+      <td>RewardsDistributor_PerpsCollateral_sBTC_ARB_liquidation_rewards</td>
+      <td><a href="https://usecannon.com/packages/synthetix-rewards-dist-ext/3.3.21-dev.fd4c5628/421614-main">synthetix-rewards-dist-ext:3.3.21-dev.fd4c5628@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmPWohysGyr8f2n5gC2dVxzfR5HyHkgyt4MM9Kehj6z5xR">QmPWohysGyr8f2n5gC2dVxzfR5HyHkgyt4MM9Kehj6z5xR</a></td>
+      <td>
+        authorizedDistributor: <a href="https://sepolia.arbiscan.io/address/0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce"><code>0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce</code></a
+        ><br />collateralType: <a href="https://sepolia.arbiscan.io/address/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"><code>0x833589fcd6edb6e08f4c7c32d4f71b54bda02913</code></a
+        ><br />name: Rewards Distributor (External) V3<br />payoutToken: <a href="https://sepolia.arbiscan.io/address/0x22e6966B799c4D5B13BE962E1D117b56327FDa66"><code>0x22e6966B799c4D5B13BE962E1D117b56327FDa66</code></a
+        ><br />payoutTokenDecimals: 18<br />poolId: 1<br />rewardManager: <a href="https://sepolia.arbiscan.io/address/0x32C222A9A159782aFD7529c87FA34b96CA72C696"><code>0x32C222A9A159782aFD7529c87FA34b96CA72C696</code></a
+        ><br />salt: rewards
+      </td>
+    </tr>
+    <tr>
+      <td>RewardsDistributor_PerpsCollateral_sBTC_DAI_liquidation_rewards</td>
+      <td><a href="https://usecannon.com/packages/synthetix-rewards-dist-ext/3.3.21-dev.fd4c5628/421614-main">synthetix-rewards-dist-ext:3.3.21-dev.fd4c5628@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmZcEmvFxUztjN5NVoVeE8owMgfGsdy29oPauzna7r4hR1">QmZcEmvFxUztjN5NVoVeE8owMgfGsdy29oPauzna7r4hR1</a></td>
+      <td>
+        authorizedDistributor: <a href="https://sepolia.arbiscan.io/address/0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce"><code>0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce</code></a
+        ><br />collateralType: <a href="https://sepolia.arbiscan.io/address/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"><code>0x833589fcd6edb6e08f4c7c32d4f71b54bda02913</code></a
+        ><br />name: Rewards Distributor (External) V3<br />payoutToken: <a href="https://sepolia.arbiscan.io/address/0x22e6966B799c4D5B13BE962E1D117b56327FDa66"><code>0x22e6966B799c4D5B13BE962E1D117b56327FDa66</code></a
+        ><br />payoutTokenDecimals: 18<br />poolId: 1<br />rewardManager: <a href="https://sepolia.arbiscan.io/address/0x32C222A9A159782aFD7529c87FA34b96CA72C696"><code>0x32C222A9A159782aFD7529c87FA34b96CA72C696</code></a
+        ><br />salt: rewards
+      </td>
+    </tr>
+    <tr>
+      <td>RewardsDistributor_PerpsCollateral_sBTC_USDC_liquidation_rewards</td>
+      <td><a href="https://usecannon.com/packages/synthetix-rewards-dist-ext/3.3.21-dev.fd4c5628/421614-main">synthetix-rewards-dist-ext:3.3.21-dev.fd4c5628@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/Qmb6QBTSc7ERrXjRbBH3HC7LCLVGhVvKPWHZFyqb9ZRDex">Qmb6QBTSc7ERrXjRbBH3HC7LCLVGhVvKPWHZFyqb9ZRDex</a></td>
+      <td>
+        authorizedDistributor: <a href="https://sepolia.arbiscan.io/address/0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce"><code>0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce</code></a
+        ><br />collateralType: <a href="https://sepolia.arbiscan.io/address/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"><code>0x833589fcd6edb6e08f4c7c32d4f71b54bda02913</code></a
+        ><br />name: Rewards Distributor (External) V3<br />payoutToken: <a href="https://sepolia.arbiscan.io/address/0x22e6966B799c4D5B13BE962E1D117b56327FDa66"><code>0x22e6966B799c4D5B13BE962E1D117b56327FDa66</code></a
+        ><br />payoutTokenDecimals: 18<br />poolId: 1<br />rewardManager: <a href="https://sepolia.arbiscan.io/address/0x32C222A9A159782aFD7529c87FA34b96CA72C696"><code>0x32C222A9A159782aFD7529c87FA34b96CA72C696</code></a
+        ><br />salt: rewards
+      </td>
+    </tr>
+    <tr>
+      <td>RewardsDistributor_PerpsCollateral_sBTC_USDe_liquidation_rewards</td>
+      <td><a href="https://usecannon.com/packages/synthetix-rewards-dist-ext/3.3.21-dev.fd4c5628/421614-main">synthetix-rewards-dist-ext:3.3.21-dev.fd4c5628@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmP9bwHq4MrKVr8Ma1qSdT6KLQ89VUxfBQTt6UiaZvxidG">QmP9bwHq4MrKVr8Ma1qSdT6KLQ89VUxfBQTt6UiaZvxidG</a></td>
+      <td>
+        authorizedDistributor: <a href="https://sepolia.arbiscan.io/address/0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce"><code>0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce</code></a
+        ><br />collateralType: <a href="https://sepolia.arbiscan.io/address/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"><code>0x833589fcd6edb6e08f4c7c32d4f71b54bda02913</code></a
+        ><br />name: Rewards Distributor (External) V3<br />payoutToken: <a href="https://sepolia.arbiscan.io/address/0x22e6966B799c4D5B13BE962E1D117b56327FDa66"><code>0x22e6966B799c4D5B13BE962E1D117b56327FDa66</code></a
+        ><br />payoutTokenDecimals: 18<br />poolId: 1<br />rewardManager: <a href="https://sepolia.arbiscan.io/address/0x32C222A9A159782aFD7529c87FA34b96CA72C696"><code>0x32C222A9A159782aFD7529c87FA34b96CA72C696</code></a
+        ><br />salt: rewards
+      </td>
+    </tr>
+    <tr>
+      <td>RewardsDistributor_PerpsCollateral_sBTC_sUSDE_liquidation_rewards</td>
+      <td><a href="https://usecannon.com/packages/synthetix-rewards-dist-ext/3.3.21-dev.fd4c5628/421614-main">synthetix-rewards-dist-ext:3.3.21-dev.fd4c5628@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmVyhnYmH4Fhkv4SxZ4VPZCW3kDebVZzGVUX7WtDNJnaVB">QmVyhnYmH4Fhkv4SxZ4VPZCW3kDebVZzGVUX7WtDNJnaVB</a></td>
+      <td>
+        authorizedDistributor: <a href="https://sepolia.arbiscan.io/address/0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce"><code>0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce</code></a
+        ><br />collateralType: <a href="https://sepolia.arbiscan.io/address/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"><code>0x833589fcd6edb6e08f4c7c32d4f71b54bda02913</code></a
+        ><br />name: Rewards Distributor (External) V3<br />payoutToken: <a href="https://sepolia.arbiscan.io/address/0x22e6966B799c4D5B13BE962E1D117b56327FDa66"><code>0x22e6966B799c4D5B13BE962E1D117b56327FDa66</code></a
+        ><br />payoutTokenDecimals: 18<br />poolId: 1<br />rewardManager: <a href="https://sepolia.arbiscan.io/address/0x32C222A9A159782aFD7529c87FA34b96CA72C696"><code>0x32C222A9A159782aFD7529c87FA34b96CA72C696</code></a
+        ><br />salt: rewards
+      </td>
+    </tr>
+    <tr>
+      <td>RewardsDistributor_PerpsCollateral_sBTC_wETH_liquidation_rewards</td>
+      <td><a href="https://usecannon.com/packages/synthetix-rewards-dist-ext/3.3.21-dev.fd4c5628/421614-main">synthetix-rewards-dist-ext:3.3.21-dev.fd4c5628@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmYFeQXANYa91aCAvgq3XB4ui3Kiz9hWJH4w1T6kDn415q">QmYFeQXANYa91aCAvgq3XB4ui3Kiz9hWJH4w1T6kDn415q</a></td>
+      <td>
+        authorizedDistributor: <a href="https://sepolia.arbiscan.io/address/0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce"><code>0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce</code></a
+        ><br />collateralType: <a href="https://sepolia.arbiscan.io/address/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"><code>0x833589fcd6edb6e08f4c7c32d4f71b54bda02913</code></a
+        ><br />name: Rewards Distributor (External) V3<br />payoutToken: <a href="https://sepolia.arbiscan.io/address/0x22e6966B799c4D5B13BE962E1D117b56327FDa66"><code>0x22e6966B799c4D5B13BE962E1D117b56327FDa66</code></a
+        ><br />payoutTokenDecimals: 18<br />poolId: 1<br />rewardManager: <a href="https://sepolia.arbiscan.io/address/0x32C222A9A159782aFD7529c87FA34b96CA72C696"><code>0x32C222A9A159782aFD7529c87FA34b96CA72C696</code></a
+        ><br />salt: rewards
+      </td>
+    </tr>
+    <tr>
+      <td>RewardsDistributor_PerpsCollateral_sETH_ARB_liquidation_rewards</td>
+      <td><a href="https://usecannon.com/packages/synthetix-rewards-dist-ext/3.3.21-dev.fd4c5628/421614-main">synthetix-rewards-dist-ext:3.3.21-dev.fd4c5628@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/Qmbw5wa2jt3Ur7wzJ3bT6KJC3MA8JDP5nxN8WTUT2BDwnA">Qmbw5wa2jt3Ur7wzJ3bT6KJC3MA8JDP5nxN8WTUT2BDwnA</a></td>
+      <td>
+        authorizedDistributor: <a href="https://sepolia.arbiscan.io/address/0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce"><code>0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce</code></a
+        ><br />collateralType: <a href="https://sepolia.arbiscan.io/address/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"><code>0x833589fcd6edb6e08f4c7c32d4f71b54bda02913</code></a
+        ><br />name: Rewards Distributor (External) V3<br />payoutToken: <a href="https://sepolia.arbiscan.io/address/0x22e6966B799c4D5B13BE962E1D117b56327FDa66"><code>0x22e6966B799c4D5B13BE962E1D117b56327FDa66</code></a
+        ><br />payoutTokenDecimals: 18<br />poolId: 1<br />rewardManager: <a href="https://sepolia.arbiscan.io/address/0x32C222A9A159782aFD7529c87FA34b96CA72C696"><code>0x32C222A9A159782aFD7529c87FA34b96CA72C696</code></a
+        ><br />salt: rewards
+      </td>
+    </tr>
+    <tr>
+      <td>RewardsDistributor_PerpsCollateral_sETH_DAI_liquidation_rewards</td>
+      <td><a href="https://usecannon.com/packages/synthetix-rewards-dist-ext/3.3.21-dev.fd4c5628/421614-main">synthetix-rewards-dist-ext:3.3.21-dev.fd4c5628@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmNYQbcwa6u11nnBQULQT6QTCpEUHjfZtLtNNJBMmNLiZK">QmNYQbcwa6u11nnBQULQT6QTCpEUHjfZtLtNNJBMmNLiZK</a></td>
+      <td>
+        authorizedDistributor: <a href="https://sepolia.arbiscan.io/address/0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce"><code>0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce</code></a
+        ><br />collateralType: <a href="https://sepolia.arbiscan.io/address/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"><code>0x833589fcd6edb6e08f4c7c32d4f71b54bda02913</code></a
+        ><br />name: Rewards Distributor (External) V3<br />payoutToken: <a href="https://sepolia.arbiscan.io/address/0x22e6966B799c4D5B13BE962E1D117b56327FDa66"><code>0x22e6966B799c4D5B13BE962E1D117b56327FDa66</code></a
+        ><br />payoutTokenDecimals: 18<br />poolId: 1<br />rewardManager: <a href="https://sepolia.arbiscan.io/address/0x32C222A9A159782aFD7529c87FA34b96CA72C696"><code>0x32C222A9A159782aFD7529c87FA34b96CA72C696</code></a
+        ><br />salt: rewards
+      </td>
+    </tr>
+    <tr>
+      <td>RewardsDistributor_PerpsCollateral_sETH_USDC_liquidation_rewards</td>
+      <td><a href="https://usecannon.com/packages/synthetix-rewards-dist-ext/3.3.21-dev.fd4c5628/421614-main">synthetix-rewards-dist-ext:3.3.21-dev.fd4c5628@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmPR9dpJRLiY7eeZRHsFD4vdqX8LLuBgw9bUGj3THEBvWk">QmPR9dpJRLiY7eeZRHsFD4vdqX8LLuBgw9bUGj3THEBvWk</a></td>
+      <td>
+        authorizedDistributor: <a href="https://sepolia.arbiscan.io/address/0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce"><code>0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce</code></a
+        ><br />collateralType: <a href="https://sepolia.arbiscan.io/address/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"><code>0x833589fcd6edb6e08f4c7c32d4f71b54bda02913</code></a
+        ><br />name: Rewards Distributor (External) V3<br />payoutToken: <a href="https://sepolia.arbiscan.io/address/0x22e6966B799c4D5B13BE962E1D117b56327FDa66"><code>0x22e6966B799c4D5B13BE962E1D117b56327FDa66</code></a
+        ><br />payoutTokenDecimals: 18<br />poolId: 1<br />rewardManager: <a href="https://sepolia.arbiscan.io/address/0x32C222A9A159782aFD7529c87FA34b96CA72C696"><code>0x32C222A9A159782aFD7529c87FA34b96CA72C696</code></a
+        ><br />salt: rewards
+      </td>
+    </tr>
+    <tr>
+      <td>RewardsDistributor_PerpsCollateral_sETH_USDe_liquidation_rewards</td>
+      <td><a href="https://usecannon.com/packages/synthetix-rewards-dist-ext/3.3.21-dev.fd4c5628/421614-main">synthetix-rewards-dist-ext:3.3.21-dev.fd4c5628@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmfSeZo33rUcjAEKDtHAuQfVvxyne58cfFstfcBgPAu2MT">QmfSeZo33rUcjAEKDtHAuQfVvxyne58cfFstfcBgPAu2MT</a></td>
+      <td>
+        authorizedDistributor: <a href="https://sepolia.arbiscan.io/address/0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce"><code>0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce</code></a
+        ><br />collateralType: <a href="https://sepolia.arbiscan.io/address/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"><code>0x833589fcd6edb6e08f4c7c32d4f71b54bda02913</code></a
+        ><br />name: Rewards Distributor (External) V3<br />payoutToken: <a href="https://sepolia.arbiscan.io/address/0x22e6966B799c4D5B13BE962E1D117b56327FDa66"><code>0x22e6966B799c4D5B13BE962E1D117b56327FDa66</code></a
+        ><br />payoutTokenDecimals: 18<br />poolId: 1<br />rewardManager: <a href="https://sepolia.arbiscan.io/address/0x32C222A9A159782aFD7529c87FA34b96CA72C696"><code>0x32C222A9A159782aFD7529c87FA34b96CA72C696</code></a
+        ><br />salt: rewards
+      </td>
+    </tr>
+    <tr>
+      <td>RewardsDistributor_PerpsCollateral_sETH_sUSDE_liquidation_rewards</td>
+      <td><a href="https://usecannon.com/packages/synthetix-rewards-dist-ext/3.3.21-dev.fd4c5628/421614-main">synthetix-rewards-dist-ext:3.3.21-dev.fd4c5628@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmdVKabREDVpCCa1YnhePmy549RcZkcmCQXW79GAfvBTX4">QmdVKabREDVpCCa1YnhePmy549RcZkcmCQXW79GAfvBTX4</a></td>
+      <td>
+        authorizedDistributor: <a href="https://sepolia.arbiscan.io/address/0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce"><code>0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce</code></a
+        ><br />collateralType: <a href="https://sepolia.arbiscan.io/address/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"><code>0x833589fcd6edb6e08f4c7c32d4f71b54bda02913</code></a
+        ><br />name: Rewards Distributor (External) V3<br />payoutToken: <a href="https://sepolia.arbiscan.io/address/0x22e6966B799c4D5B13BE962E1D117b56327FDa66"><code>0x22e6966B799c4D5B13BE962E1D117b56327FDa66</code></a
+        ><br />payoutTokenDecimals: 18<br />poolId: 1<br />rewardManager: <a href="https://sepolia.arbiscan.io/address/0x32C222A9A159782aFD7529c87FA34b96CA72C696"><code>0x32C222A9A159782aFD7529c87FA34b96CA72C696</code></a
+        ><br />salt: rewards
+      </td>
+    </tr>
+    <tr>
+      <td>RewardsDistributor_PerpsCollateral_sETH_wETH_liquidation_rewards</td>
+      <td><a href="https://usecannon.com/packages/synthetix-rewards-dist-ext/3.3.21-dev.fd4c5628/421614-main">synthetix-rewards-dist-ext:3.3.21-dev.fd4c5628@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmUBe3o5bojMVnFhrpWazSvA5PUz8nYbXuVbMVeNqaPW7S">QmUBe3o5bojMVnFhrpWazSvA5PUz8nYbXuVbMVeNqaPW7S</a></td>
+      <td>
+        authorizedDistributor: <a href="https://sepolia.arbiscan.io/address/0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce"><code>0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce</code></a
+        ><br />collateralType: <a href="https://sepolia.arbiscan.io/address/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"><code>0x833589fcd6edb6e08f4c7c32d4f71b54bda02913</code></a
+        ><br />name: Rewards Distributor (External) V3<br />payoutToken: <a href="https://sepolia.arbiscan.io/address/0x22e6966B799c4D5B13BE962E1D117b56327FDa66"><code>0x22e6966B799c4D5B13BE962E1D117b56327FDa66</code></a
+        ><br />payoutTokenDecimals: 18<br />poolId: 1<br />rewardManager: <a href="https://sepolia.arbiscan.io/address/0x32C222A9A159782aFD7529c87FA34b96CA72C696"><code>0x32C222A9A159782aFD7529c87FA34b96CA72C696</code></a
+        ><br />salt: rewards
+      </td>
+    </tr>
+    <tr>
+      <td>perps_gas_oracle_node</td>
+      <td><a href="https://usecannon.com/packages/arbitrum-gas-price-oracle/3.3.16/421614-main">arbitrum-gas-price-oracle:3.3.16@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmQaUGLJD8A5mR43PMdRiM3kPiMP4FAv97RPEBFifEpe3v">QmQaUGLJD8A5mR43PMdRiM3kPiMP4FAv97RPEBFifEpe3v</a></td>
+      <td>
+        arbGasPriceOracleAddress: <a href="https://sepolia.arbiscan.io/address/0x000000000000000000000000000000000000006C"><code>0x000000000000000000000000000000000000006C</code></a>
+      </td>
+    </tr>
   </tbody>
 </table>
 
@@ -396,7 +557,7 @@
     <tr>
       <td>spotFactory</td>
       <td><a href="https://usecannon.com/packages/synthetix-spot-market/3.3.15/8453-andromeda">synthetix-spot-market:3.3.15@andromeda</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/Qmaub6JBeqEFTeNgi3PL8BApVnXk12tkMw9WSTNCwcCtp6">Qmaub6JBeqEFTeNgi3PL8BApVnXk12tkMw9WSTNCwcCtp6</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmULsmBK2hULvw3KdyJjiDbo1JHHQPY6f14MJKA6KitCsP">QmULsmBK2hULvw3KdyJjiDbo1JHHQPY6f14MJKA6KitCsP</a></td>
       <td>
         owner: <a href="https://basescan.org/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />salt: snax<br />synthetixPackage: synthetix:3.3.15<br />synthetixPreset: main
@@ -405,7 +566,7 @@
     <tr>
       <td>perpsFactory</td>
       <td><a href="https://usecannon.com/packages/synthetix-perps-market/3.3.19/8453-andromeda">synthetix-perps-market:3.3.19@andromeda</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmVXzYkqUfecy1UzzcR5j6MhEmArHBop29NxA7jtL58AqP">QmVXzYkqUfecy1UzzcR5j6MhEmArHBop29NxA7jtL58AqP</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmfEejk8fsujKA3Tm47JMyZXBd934P7mYq2rM56qoT5AQf">QmfEejk8fsujKA3Tm47JMyZXBd934P7mYq2rM56qoT5AQf</a></td>
       <td>
         coreProxyOwner: <a href="https://basescan.org/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />owner: <a href="https://basescan.org/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
