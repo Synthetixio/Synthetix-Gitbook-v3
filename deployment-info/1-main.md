@@ -213,8 +213,8 @@ Token address: <a href="https://etherscan.io/address/0xC011a73ee8576Fb46F5E1c575
     </tr>
     <tr>
       <td>liquidationRatioD18</td>
-      <td>1.2</td>
-      <td><code>1200000000000000000</code> / <code>0x10a741a462780000</code></td>
+      <td>1.05</td>
+      <td><code>1050000000000000000</code> / <code>0x0e92596fd6290000</code></td>
     </tr>
     <tr>
       <td>liquidationRewardD18</td>
