@@ -1890,7 +1890,7 @@ rewards-over-time will be halted)
 #### distributeRewards
 
   ```solidity
-  function distributeRewards(uint128 poolId, address collateralType, uint256 amount, uint64 start, uint32 duration) external
+  function distributeRewards(uint128 poolId, address collateralType, uint256 amount, uint64 start, uint32 duration) external returns (int256 cancelledAmount)
   ```
 
   Called by a registered distributor to set up rewards for vault participants.
@@ -1904,10 +1904,12 @@ rewards-over-time will be halted)
 * `start` (*uint64*) - The date at which the rewards will begin to be claimable.
 * `duration` (*uint32*) - The period after which all distributed rewards will be claimable.
 
+**Returns**
+* `cancelledAmount` (*int256*) - the amount of reward which was previously issued on a call to `distributeRewards`, but will ultimately not be distributed due to the duration period being interrupted by the start of this new distribution
 #### distributeRewardsByOwner
 
   ```solidity
-  function distributeRewardsByOwner(uint128 poolId, address collateralType, address rewardsDistributor, uint256 amount, uint64 start, uint32 duration) external
+  function distributeRewardsByOwner(uint128 poolId, address collateralType, address rewardsDistributor, uint256 amount, uint64 start, uint32 duration) external returns (int256 cancelledAmount)
   ```
 
   Called by owner of a pool to set rewards for vault participants. This method
@@ -1941,10 +1943,26 @@ able to payout and not capable of distributing its own rewards.
 
 **Returns**
 * `amountClaimedD18` (*uint256*) - The amount of rewards that were available for the account and thus claimed.
+#### claimPoolRewards
+
+  ```solidity
+  function claimPoolRewards(uint128 accountId, uint128 poolId, address collateralType, address distributor) external returns (uint256 amountClaimedD18)
+  ```
+
+  Allows a user with appropriate permissions to claim rewards associated with a position for rewards issued at the pool level.
+
+**Parameters**
+* `accountId` (*uint128*) - The id of the account that is to claim the rewards.
+* `poolId` (*uint128*) - The id of the pool to claim rewards on.
+* `collateralType` (*address*) - The address of the collateral used by the user to gain rewards from the pool level.
+* `distributor` (*address*) - The address of the rewards distributor associated with the rewards being claimed.
+
+**Returns**
+* `amountClaimedD18` (*uint256*) - The amount of rewards that were available for the account and thus claimed.
 #### updateRewards
 
   ```solidity
-  function updateRewards(uint128 poolId, address collateralType, uint128 accountId) external returns (uint256[] claimableD18, address[] distributors)
+  function updateRewards(uint128 poolId, address collateralType, uint128 accountId) external returns (uint256[] claimableD18, address[] distributors, uint256 numPoolRewards)
   ```
 
   For a given position, return the rewards that can currently be claimed.
@@ -1957,6 +1975,7 @@ able to payout and not capable of distributing its own rewards.
 **Returns**
 * `claimableD18` (*uint256[]*) - An array of ids of the reward entries that are claimable by the position.
 * `distributors` (*address[]*) - An array with the addresses of the reward distributors associated with the claimable rewards.
+* `numPoolRewards` (*uint256*) - Returns how many of the first returned rewards are pool level rewards (the rest are vault)
 #### getRewardRate
 
   ```solidity
@@ -1975,10 +1994,26 @@ able to payout and not capable of distributing its own rewards.
 #### getAvailableRewards
 
   ```solidity
-  function getAvailableRewards(uint128 accountId, uint128 poolId, address collateralType, address distributor) external view returns (uint256 rewardAmount)
+  function getAvailableRewards(uint128 accountId, uint128 poolId, address collateralType, address distributor) external returns (uint256 rewardAmount)
   ```
 
-  Returns the amount of claimable rewards for a given accountId for a vault distributor.
+  Returns the amount of claimable rewards for a given account position for a vault distributor.
+
+**Parameters**
+* `accountId` (*uint128*) - The id of the account to look up rewards on.
+* `poolId` (*uint128*) - The id of the pool to claim rewards on.
+* `collateralType` (*address*) - The address of the collateral used in the pool's rewards.
+* `distributor` (*address*) - The address of the rewards distributor associated with the rewards being claimed.
+
+**Returns**
+* `rewardAmount` (*uint256*) - The amount of available rewards that are available for the provided account.
+#### getAvailablePoolRewards
+
+  ```solidity
+  function getAvailablePoolRewards(uint128 accountId, uint128 poolId, address collateralType, address distributor) external returns (uint256 rewardAmount)
+  ```
+
+  Returns the amount of claimable rewards for a given account position for a pool level distributor.
 
 **Parameters**
 * `accountId` (*uint128*) - The id of the account to look up rewards on.
