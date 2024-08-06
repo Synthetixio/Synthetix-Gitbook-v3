@@ -12370,7 +12370,7 @@ Perps market ID: <code>6300</code>
     <tr>
       <td>feedId</td>
       <td></td>
-      <td><code>"0xab7347771135fc733f8f38db462ba085ed3309955f42554a14fa13e855ac0e2f"</code></td>
+      <td><code>"0x3d4a2bd9535be6ce8059d75eadeba507b043257321aa544717c56fa19b49e35d"</code></td>
     </tr>
     <tr>
       <td>settlementReward</td>
