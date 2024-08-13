@@ -14,7 +14,7 @@ Where can I get assets on OP Goerli?&#x20;
 
 Where can I get assets on Base Goerli?&#x20;
 
-* Alternatively testnet stablecoins can be acquired on Base Sepolia with a [helper contract](https://sepolia.basescan.org/address/0xa1ae612e07511a947783c629295678c07748bc7a). Use the function deposit\_eth, specify the address of the stablecoin (snxUSD,fUSDC,sUSDC) and send some ETH to receive stable coins. Note that for perp integrators, you can use snxUSD as margin.
+* Alternatively testnet stablecoins can be acquired on [Base Sepolia](https://sepolia.basescan.org/address/0xa1ae612e07511a947783c629295678c07748bc7a) or [Arbitrum Seplia](https://sepolia.arbiscan.io/address/0xdfe41770267faa60832c39dd9819a5fb030b3b3b)  . Use the function deposit\_eth, specify the address of the stablecoin (snxUSD,fUSDC,sUSDC) and send some ETH to receive stable coins. Note that for perp integrators, you can use snxUSD as margin. If you want to have sETH for using as margin sUSD can easily be swapped to sETH with the spot market.
 
 ## Smart Contracts
 
