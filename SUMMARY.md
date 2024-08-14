@@ -33,6 +33,7 @@
 ## For Perp Integrators
 
 * [Perps V3](for-perp-integrators/perps-v3.md)
+* [BFP (Big Freaking Perp)](for-perp-integrators/bfp-big-freaking-perp.md)
 * [Perps V3 FAQ](for-perp-integrators/perps-v3-faq.md)
 * [Base Andromeda](for-perp-integrators/base-andromeda.md)
 * [Perps Python SDK](for-perp-integrators/perps-python-sdk.md)
