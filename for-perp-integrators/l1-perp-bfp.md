@@ -1,4 +1,4 @@
-# BFP (Big Freaking Perp)
+# L1 Perp (BFP)
 
 This document aims to be an introductory guide for frontend trading, vault builders, bot builders, market makers, and traders with technical knowledge to integrate with the bfp market contracts.
 
