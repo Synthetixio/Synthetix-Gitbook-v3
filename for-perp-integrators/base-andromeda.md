@@ -31,7 +31,7 @@ The Spot Market is included, but only to be used as a mechanism to exchange the 
   * &#x20;USDC <--> sUSDC can be wrapped/unwrapped on the spot market
   * sUSD <--> sUSDC can be bought/sold on the spot market
   * No fee on these, all atomic so can be composed with multicalls
-* _Coming: Andromeda Base Sandbox - in the meantime see the more general_ [Broken link](broken-reference "mention") _can be used once USDC is wrapped and swapped to sUSD_
+* _Coming: Andromeda Base Sandbox, but in the meant time see Cannon config_
 
 {% embed url="https://usecannon.com/packages/synthetix-omnibus/latest/84531-andromeda" %}
 Base Goerli Andromeda
