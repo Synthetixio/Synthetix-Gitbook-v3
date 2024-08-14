@@ -4,8 +4,8 @@ description: What will you build on v3?
 
 # Build on v3
 
-{% hint style="info" %}
-v3 is in alpha, but now is the time to start building
+{% hint style="warning" %}
+This is a permissioned function and only Synthetix governance can currently enabled new Markets
 {% endhint %}
 
 <figure><img src="../.gitbook/assets/Twitter_post_-_4 (1).png" alt=""><figcaption></figcaption></figure>
@@ -35,7 +35,7 @@ Synthetix v3 solves the cold-start and scaling liquidity problems for derivate p
 
 ## Playbook for building on v3
 
-1. **Create your Market:** Create a new derivatives Market, or adapt your existing product, following [market-development-guide.md](../for-developers/market-development-guide.md "mention"), and conforming to the `IMarket` interface in [integrating-synthetix.md](integrating-synthetix.md "mention")
+1. **Create your Market:** Create a new derivatives Market, or adapt your existing product, following [market-development-guide.md](market-development-guide.md "mention"), and conforming to the `IMarket` interface in [integrating-synthetix.md](integrating-synthetix.md "mention")
 2. **Register your Market:** Propose an [SCCP](https://docs.synthetix.io/dao/how-to-write-sip-sccps) to Synthetix governance for your Market to be registered _(this governance requirement goes away once permissionless Markets are enabled by Spartan Council)_
 3. **Get collateral:** Request some of the existing $500m+ LP collateral in the Synthetix system for your Market
    1. request collateral from an existing Pool OR

@@ -10,7 +10,7 @@ As outlined in the [Configuring Pools​](creating-and-configuring-pools.md#conf
 
 The value of the collateral (and the resulting available credit capacity) assigned to each market is a cached value in the protocol, ensuring that traders are able to interact with markets without encountering scaling issues pertaining to gas usage. This automatically called when liquidity providers delegate collateral to a pool, when a pool's configuration is updated, or liquidations are processed. This can also be executed by anyone by using the external function `rebalancePool`.
 
-Note that if this value becomes stale and price action (for example) is not taken into account, it does not risk insolvency for the stablecoin. Markets' issuance is limited by the minimum liquidity ratio and if too much debt is accrued relative to collateral value, liquidators will still have an opportunity to liquidate [positions](../for-liquidity-providers/liquidity-positions/position-liquidations.md) and [vaults](collateral-vaults/vault-liquidations.md).
+Note that if this value becomes stale and price action (for example) is not taken into account, it does not risk insolvency for the stablecoin. Markets' issuance is limited by the minimum liquidity ratio and if too much debt is accrued relative to collateral value, liquidators will still have an opportunity to liquidate [positions](../for-liquidity-integrators/liquidity-positions/position-liquidations.md) and [vaults](collateral-vaults/vault-liquidations.md).
 
 ## The Debt Distribution Chain
 

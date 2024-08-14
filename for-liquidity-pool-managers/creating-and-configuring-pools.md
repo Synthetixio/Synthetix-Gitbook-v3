@@ -1,11 +1,11 @@
-# Creating and Configuring Pools
+# Creating and Configuring Pools and Vaults
 
 **Liquidity Pools** distribute credit and debt between liquidity providers and derivatives markets. A pool's manager (i.e. owner) can decide which market to provide with liquidity and set relevant configuration values.
 
 ## Creating Pools[​](https://snx-v3-docs.vercel.app/pools-markets/delegating-credit-and-debt#creating-pools) <a href="#creating-pools" id="creating-pools"></a>
 
-{% hint style="info" %}
-**Synthetix V3 is currently in alpha.** Only governance can create pools until an SCCP alters the feature flag.
+{% hint style="warning" %}
+This is a permissioned function and only Synthetix governance can currently create or configure Pools and Vaults
 {% endhint %}
 
 Pools may be created using the `createPool` function. Ownership can then be transferred with the `nominatePoolOwner` and `acceptPoolOwnership` functions. Ownership nomination may also be renounced with the `renouncePoolNomination`.

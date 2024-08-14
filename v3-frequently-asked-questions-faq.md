@@ -1,4 +1,4 @@
-# V3 Frequently Asked Questions (FAQ)
+# V3 FAQ
 
 Welcome to the V3 Frequently Asked Questions (FAQ) section. This guide is designed to address common questions regarding the V3 release of Synthetix. As the platform evolves, expect this section to see regular updates and revisions to ensure clarity and up-to-date information for our community.
 
@@ -19,7 +19,7 @@ LPs will have greater flexibility to allocate collateral to markets based on the
 
 <details>
 
-<summary>How is SNX staking evolving with V3?</summary>
+<summary>How is staking evolving with V3?</summary>
 
 **Answer:** The power is with stakers in V3, thanks to multi-collateral staking and permissionless pools. V3 creates a generalized system agnostic to collateral type. Liquidity providers can deposit any governance-approved collateral into Pools, which is then used to provide liquidity to derivative markets. In the future, the creation of markets and vaults will be permissionless, giving liquidity providers fine-tune control of their market exposure.
 
@@ -34,21 +34,9 @@ Stakers have an increasing range of Pools to allocate their capital. This gives 
 
 <details>
 
-<summary>What types of collateral will there be outside of SNX?</summary>
-
-**Answer:** The V3 system is created to be entirely agnostic to collateral; any ERC-20 with sufficient price feed can be added as collateral. Synthetix governance will determine which assets to support in addition to SNX.
-
-Synthetix V3 features a generalized collateral vault system that is agnostic to collateral types. Over time, Synthetix Governance will determine which assets to support as collateral in addition to the current SNX (staking) and ETH (wrappers). Multi-collateral staking will increase sUSD liquidity and the markets supported by Synthetix. Collateral options will have adjustable variables, such as collateral requirements and rewards, which can be adjusted by governance.
-
-</details>
-
-<details>
-
 <summary>What is the cross-chain vision for Synthetix?</summary>
 
 **Answer**: The endstate goal of cross-chain Synthetix is to power derivative markets on any governance-approved EVM chain with a fully interoperable system. This will allow Synthetix-powered protocols to onboard traders on any chain and deliver the same low-fee deep liquidity trading experience to new users.
-
-As of Oct 2023, Governance is exploring an initial deployment plan on Base Network to experiment with new collateral types, fee sharing, and V3 markets.
 
 </details>
 
@@ -69,18 +57,6 @@ The liquidity-as-a-service model appeals to new DeFi protocols seeking increased
 <summary>Why should projects integrate with Synthetix Liquidity?</summary>
 
 **Answer:** Launching a derivatives protocol can be challenging, with teams often faced with the cold-start problem – not enough liquidity to attract users, and not enough users to attract liquidity providers. With Synthetix, developers can create new markets and seamlessly attract liquidity. In this way, almost any derivative protocol can be built on top of Synthetix V3, as opposed to building from the ground up. Learn more on how protocols can integrate with Synthetix V3 [here](https://docs.synthetix.io/v/v3/).
-
-</details>
-
-<details>
-
-<summary>What are the main challenges for users Synthetix foresees as the protocol transitions from V2 to V3?</summary>
-
-**Answer:** The transition from V2 to V3 is intended to improve the user experience with Synthetix by giving more flexibility in how LPs allocate their collateral and which derivatives markets builders can integrate with the system.
-
-In the beginning of the transition, Synthetix will set up the Spartan Council Pool, which will include all legacy positions from V2 and will back Perps V3 and Spot Synths. The liquidity provisioning experience in this period should remain similar to what users currently experience on V2. As V3 becomes more built out, with permissionless markets tapping into permissionless liquidity pools, users will have a greater selection of how and where to allocate their collateral.
-
-Further as we transition to V3, there will be two non-fungible USD stablecoins that will be live at the same time. Users should be aware that any markets built on the V3 system will be using the new stablecoin and that external pools or integrations may require an update to the new version.
 
 </details>
 
@@ -123,7 +99,7 @@ Building on the successes of  Perps V2, V3 introduces several upgrades to improv
 
 **Answer:** Synthetix will offer a variety of resources for builders looking to integrate with the V3 system. To start, all builders should review our documentation here: [https://docs.synthetix.io/v/v3/](https://docs.synthetix.io/v/v3/). This repository should contain all the relevant contracts, guides, and FAQs for building on top of Synthetix.
 
-Developers can use [Cannon](https://t.co/hcGnoDWtND), a tool for managing protocol deployments that is built and maintained by Synthetix core contributors.\
+Developers can use [Cannon](https://usecannon.com/), a tool for managing protocol deployments that is built and maintained by Synthetix core contributors.\
 \
 SDKs are also being developed to interface with Synthetix Perps.
 
