@@ -213,29 +213,19 @@ How can I tell if an account has an open position?
 * Fetch position using the `getOpenPosition(marketId, accountId)` function.
 * The return will include the position size as well as any funding and pnl accrued since the position was opened.
 
-###
-
-
-
-
-
-
-
-**Order Settlement**
-
 ## Settlement Keepers
 
 * Keepers settle orders after the `settlementTime` has been reached. You can get this time from the `OrderCommitted` event or by calling `getOrder` for an account.
 * The `settle` function reverts with information for retrieving the offchain price data (`url` and `data`)
 * The `settlePythOrder` function take this price data as well as an argument with encoded `accountId` and `marketId` parameters. Review [this transaction](https://goerli-optimism.etherscan.io/tx/0x83cab229af206b4f76921b3abe99e590a77a4300d31736ce8d4a165221461071) to see sample inputs.
 
-More info at [perps-v3-keeper.md](perps-v3-keeper.md "mention")
-
 ```solidity
 function settle(uint128 marketId, uint128 accountId) external
 ```
 
 If the order is valid and within settlement window, this function will settle the order and update its accounting of the new position.
+
+More info at [perps-v3-keeper.md](perps-v3-keeper.md "mention")
 
 ## Liquidation Keepers
 
@@ -258,7 +248,7 @@ function liquidateFlagged() external
 
 ## Other Notes
 
-#### Liquidation Margins
+### Liquidation Margins
 
 An account is subject to margin requirements as determined by the following values configurable for each market:
 
@@ -304,7 +294,7 @@ function getRequiredMargins(
 ```
 {% endcode %}
 
-#### Estimate Order Validity
+### Estimate Order Validity
 
 There are some functions you can call initially to determine if an order will go through:
 
@@ -323,7 +313,7 @@ function computeOrderFees(
     ) external view returns (uint256 orderFees, uint256 fillPrice);
 ```
 
-#### Max Liquidatable Amount
+### Max Liquidatable Amount
 
 Each market has parameters that dictate how much can be liquidated at any given point.
 
@@ -360,7 +350,7 @@ In this scenario, a max of `500 ETH`can be liquidated in a 5 second window.
 Below functions are permissioned to Synthetix governance
 {% endhint %}
 
-### Factory Owner
+## Factory Owner
 
 Each proxy is considered to be one “supermarket”, and is initialized with the factory owner as the owner of this supermarket. The supermarket consists of a set of markets that it controls for which cross margin is applied. Each account that’s created is scoped to the supermarket and cannot be used on other supermarkets.
 
@@ -374,7 +364,7 @@ Owner can set other global parameters that apply to all markets:
 
 [synthetix-v3/GlobalPerpsMarketConfiguration.sol at main · Synthetixio/synthetix-v3](https://github.com/Synthetixio/synthetix-v3/blob/main/markets/perps-market/contracts/storage/GlobalPerpsMarketConfiguration.sol)
 
-#### Create perps market:
+### Create perps market:
 
 ```solidity
     function createMarket(
@@ -389,7 +379,7 @@ Two markets have been created on OP Goerli so far:
 * `100`: ETH market
 * `200`: BTC market
 
-#### Set configuration parameters
+### Set configuration parameters
 
 If you need the configuration of any of the above created markets, here are the functions you can call:
 
@@ -429,7 +419,7 @@ function getLockedOiRatio(uint128 marketId) external view returns (uint256 locke
 
 [synthetix-v3/PerpsMarketConfiguration.sol at main · Synthetixio/synthetix-v3](https://github.com/Synthetixio/synthetix-v3/blob/main/markets/perps-market/contracts/storage/PerpsMarketConfiguration.sol#L21)
 
-#### Add settlement strategy for async orders
+### Add settlement strategy for async orders
 
 ```solidity
     function addSettlementStrategy(
@@ -438,4 +428,4 @@ function getLockedOiRatio(uint128 marketId) external view returns (uint256 locke
     ) external returns (uint256 strategyId);
 ```
 
-A strategy has been added on OP goerli. You can always query `getSettlementStrategy` to get the details.
+You can always query `getSettlementStrategy` to get the details.
