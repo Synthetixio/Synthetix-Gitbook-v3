@@ -48,6 +48,98 @@ Contract addresses can also be found in the cannon registry.
 
 Below we describe the differences between bfp-market and Perps V3. It's important you familiarise yourself with Perps V3 before reading this. However, there is enough context that you can read through and grok majority of bfp-market.
 
+### How do I modify margin?
+
+Before you can open positions, you must first deposit margin. This is done with the `modifyCollateral` function.
+
+```solidity
+struct ConfiguredCollateral {
+    /// Address of the collateral asset.
+    address collateralAddress;
+    /// The underlying spot market synth sell oracle node id.
+    bytes32 oracleNodeId;
+    /// Maximum allowable deposited amount.
+    uint128 maxAllowable;
+    /// Skew skewScale for the collateral.
+    uint128 skewScale;
+    /// Address of the associated reward distributor.
+    address rewardDistributor;
+}
+
+function modifyCollateral(
+    uint128 accountId,
+    uint128 marketId,
+    address collateralAddress,
+    int256 amountDelta
+) external;
+```
+
+{% hint style="info" %}
+Account margin is isolated by `marketId`. When you deposit a supported collateral into a trader’s margin account, that collateral can only be used by positions in that market.
+{% endhint %}
+
+{% hint style="info" %}
+`amountDelta` when positive is deposit whereas a negative is withdraw.
+{% endhint %}
+
+{% hint style="info" %}
+Note the subtle difference in `collateralAddress` vs `synthMarketId` and the lack of `marketId` in perps-market but present in bfp-market.&#x20;
+{% endhint %}
+
+bfp-market supports native multi-collateral margin. At launch we’re expecting to have support for `snxUSD` and `WETH` with LSTs such as `wstETH` to come later. The design of account margin is mostly similar to perps-market except for one subjective significance: **Native assets vs. spot-market issued synth assets.**
+
+bfp-market, unlike perps-market, does not require non-USD collateral to be wrapped into a synth before it can be used for trading perps. That is, there is zero reliance on the spot-market and WETH for e.g. can be directly deposited. For builders this means integration should be a little simpler as you don’t need to call `wrap(marketId, wrapAmount, minAmountReceived)` and `unwrap(marketId, unwrapAmount, minAmountReceived)` before/after.
+
+To see what margin is accepted, call:
+
+```solidity
+// See ConfiguredCollateral definition above.
+
+function getMarginCollateralConfiguration()
+    external
+    view
+    returns (ConfiguredCollateral[] memory);
+```
+
+There are also a variety of quality of life functions you can call against the account margin such as:
+
+```solidity
+function getWithdrawableMargin(
+    uint128 accountId,
+    uint128 marketId
+) external view returns (uint256);
+
+function getNetAssetValue(
+    uint128 accountId,
+    uint128 marketId,
+    uint256 oraclePrice
+) external view returns (uint256);
+
+function withdrawAllCollateral(uint128 accountId, uint128 marketId) external;
+```
+
+All of these with docs and more can be found in `IMarginModule.sol`.
+
+Finally, after depositing/withdrawing you can track the breakdown of deposited collateral and their value through `getAccountDigest`:
+
+```solidity
+struct AccountDigest {
+    /// Array of collateral deposited into account as margin.
+    IPerpAccountModule.DepositedCollateral[] depositedCollaterals;
+    /// USD value of deposited collateral.
+    uint256 collateralUsd;
+    /// Debt of account in USD.
+    uint128 debtUsd;
+    /// Struct of `PositionDigest` if a position is open, default values if none.
+    PositionDigest position;
+}
+
+function getAccountDigest(
+    uint128 accountId,
+    uint128 marketId
+) external view returns (IPerpAccountModule.AccountDigest memory);
+```
+
 ### How do I open, close, or modify a position?
 
 To open a position, a call to commit an order for settlement must first be made. Positions are manipulated through orders, which are committed at time `t` and then settled at a later time (either by a keeper or the trader) at `t + n`, where `n` is defined as the `orderMinAge`, the minimum amount of time to wait before an order can be settled.
@@ -163,7 +255,7 @@ Another subtle difference is how fees are paid to keepers for settlement. Upon s
 
 ### What price should I be using to settle?
 
-As mentioned before, position modification occurs in two steps: commit, settlement. However, the time between commit and settle can vary depending on chain congestion. If we assume block production is 12s and settlement occurs at the block immediately after settlement then this allows the caller of `settleOrder` to choose a price between commitment time `t` and `t + 12`.
+Position modification occurs in two steps: commit, settlement. However, the time between commit and settle can vary depending on chain congestion. If we assume block production is 12s and settlement occurs at the block immediately after settlement then this allows the caller of `settleOrder` to choose a price between commitment time `t` and `t + 12`.
 
 To eliminate keeper settlement optionality, the earliest price available in Pythnet between `t` and `t + 12` must be used as the `priceUpdateDate`. This is validated onchain during settlement and a revert will be thrown if the earliest price isn't provided.&#x20;
 
@@ -211,7 +303,7 @@ function getPositionDigest(
 
 ### How do I cancel an order?
 
-Often, after an order is committed, it is rarely ever cancellable. However, sometimes orders cannot settlement for a combination of reasons. The most common are:
+After an order is committed, it is rarely ever cancellable. However, sometimes orders cannot settle for a combination of reasons. The most common are:
 
 1. The `fillPrice` deviated too far from the `limitPrice` on commitment
 2. Keepers took too long to settle and order is now stale
@@ -238,98 +330,6 @@ Lingering stale orders can potentially lead to market ddos where malicious order
 The `cancelOrder` function provided with a Pyth price update VAA in `priceUpdateData`, allows a keeper (or anyone) to cancel an order before `maxOrderAge` has been met so long as the `limitPrice` has been exceeded. This prevents the build up of orders with egregious `limitPrices` to stay stale, potentially clogging up keepers. Keepers are incentivised to cancel such orders as penalties from the trader’s margin are rewarded to keepers. Conversely traders are disincentivised as they pay a fee for doing so.
 
 `cancelStaleOrder`, similar to perps-market, simply cancels a stale order. This is often not necessary assuming keepers are functioning but can sometimes occur (for the reasons above).
-
-### How do I modify margin?
-
-As mentioned earlier, before you can open positions, you must first deposit margin. This is done with the `modifyCollateral` function.
-
-```solidity
-struct ConfiguredCollateral {
-    /// Address of the collateral asset.
-    address collateralAddress;
-    /// The underlying spot market synth sell oracle node id.
-    bytes32 oracleNodeId;
-    /// Maximum allowable deposited amount.
-    uint128 maxAllowable;
-    /// Skew skewScale for the collateral.
-    uint128 skewScale;
-    /// Address of the associated reward distributor.
-    address rewardDistributor;
-}
-
-function modifyCollateral(
-    uint128 accountId,
-    uint128 marketId,
-    address collateralAddress,
-    int256 amountDelta
-) external;
-```
-
-{% hint style="info" %}
-Account margin is isolated by `marketId`. When you deposit a supported collateral into a trader’s margin account, that collateral can only be used by positions in that market.
-{% endhint %}
-
-{% hint style="info" %}
-`amountDelta` when positive is deposit whereas a negative is withdraw.
-{% endhint %}
-
-{% hint style="info" %}
-Note the subtle difference in `collateralAddress` vs `synthMarketId` and the lack of `marketId` in perps-market but present in bfp-market.&#x20;
-{% endhint %}
-
-bfp-market supports native multi-collateral margin. At launch we’re expecting to have support for `snxUSD` and `WETH` with LSTs such as `wstETH` to come later. The design of account margin is mostly similar to perps-market except for one subjective significance: **Native assets vs. spot-market issued synth assets.**
-
-bfp-market, unlike perps-market, does not require non-USD collateral to be wrapped into a synth before it can be used for trading perps. That is, there is zero reliance on the spot-market and WETH for e.g. can be directly deposited. For builders this means integration should be a little simpler as you don’t need to call `wrap(marketId, wrapAmount, minAmountReceived)` and `unwrap(marketId, unwrapAmount, minAmountReceived)` before/after.
-
-To see what margin is accepted, call:
-
-```solidity
-// See ConfiguredCollateral definition above.
-
-function getMarginCollateralConfiguration()
-    external
-    view
-    returns (ConfiguredCollateral[] memory);
-```
-
-There are also a variety of quality of life functions you can call against the account margin such as:
-
-```solidity
-function getWithdrawableMargin(
-    uint128 accountId,
-    uint128 marketId
-) external view returns (uint256);
-
-function getNetAssetValue(
-    uint128 accountId,
-    uint128 marketId,
-    uint256 oraclePrice
-) external view returns (uint256);
-
-function withdrawAllCollateral(uint128 accountId, uint128 marketId) external;
-```
-
-All of these with docs and more can be found in `IMarginModule.sol`.
-
-Finally, after depositing/withdrawing you can track the breakdown of deposited collateral and their value through `getAccountDigest`:
-
-```solidity
-struct AccountDigest {
-    /// Array of collateral deposited into account as margin.
-    IPerpAccountModule.DepositedCollateral[] depositedCollaterals;
-    /// USD value of deposited collateral.
-    uint256 collateralUsd;
-    /// Debt of account in USD.
-    uint128 debtUsd;
-    /// Struct of `PositionDigest` if a position is open, default values if none.
-    PositionDigest position;
-}
-
-function getAccountDigest(
-    uint128 accountId,
-    uint128 marketId
-) external view returns (IPerpAccountModule.AccountDigest memory);
-```
 
 ## Advanced features
 
@@ -372,9 +372,9 @@ function getMarginDigest(
 
 Although collateral discounts are present in perps-market, bfp-market puts a stronger emphasis on collateral discounts. This is because native multi-collateral is core to creating delta neutral positions (e.g. ETH margin 1x ETH short on ETHPERP market).
 
-### What is collateral utilisation?
+### What is collateral utilization?
 
-In bfp-market, we call this collateral utilisation but it’s called “asymmetric funding” or “interest rates” in perps-market.
+In bfp-market, we call this collateral utilization but it’s called “asymmetric funding” or “interest rates” in perps-market.
 
 {% hint style="info" %}
 Collateral utilisation are the same feature as described in SIP-354 ([https://sips.synthetix.io/sips/sip-354/](https://sips.synthetix.io/sips/sip-354/)).
@@ -528,7 +528,7 @@ An estimate of fees required upon liquidation (plus buffer) is deducted from the
 
 ### What are settlement hooks?
 
-Settlement hooks are unique to bfp-market. They allow an external contract, which adheres to the `ISettlementHook` ([https://github.com/Synthetixio/synthetix-v3/tree/main/markets/bfp-market/contracts/interfaces/hooks](https://github.com/Synthetixio/synthetix-v3/tree/main/markets/bfp-market/contracts/interfaces/hooks)) interface, to be called after an order has been settled within the same transaction.
+Settlement hooks are unique to bfp-market. They allow an external contract, which adheres to the [`ISettlementHook`](https://github.com/Synthetixio/synthetix-v3/tree/main/markets/bfp-market/contracts/interfaces/hooks) interface, to be called after an order has been settled within the same transaction.
 
 During commitment, up to `k` hook contract addresses can be specified where `k` is configured by `maxHooksPerOrder`, expected to be set to 3 on launch.
 
