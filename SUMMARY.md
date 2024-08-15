@@ -11,7 +11,6 @@
 * [Quick Start](for-developers/quick-start/README.md)
   * [Base Quickstart](for-developers/quick-start/base-quickstart.md)
 * [Smart Contracts](for-developers/smart-contracts.md)
-* [Subgraphs](for-developers/subgraphs.md)
 * [Data Platform](for-developers/data-platform.md)
 * [Data Dictionary](for-developers/data-dictionary.md)
 * [Addresses + ABIs](for-developers/addresses-+-abis.md)
