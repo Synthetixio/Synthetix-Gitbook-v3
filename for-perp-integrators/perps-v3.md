@@ -10,6 +10,7 @@ Perps v3 is the latest iteration of Synthetix' composable perpetual future marke
   * Create an account
   * Manage margin balances
   * Commit orders
+  * Delegate access
 * **Keepers** can take the following actions:
   * Settle orders committed by traders
   * Liquidate accounts
