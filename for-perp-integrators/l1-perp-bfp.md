@@ -3,7 +3,7 @@
 This document aims to be an introductory guide for frontend trading, vault builders, bot builders, market makers, and traders with technical knowledge to integrate with the bfp market contracts.
 
 {% hint style="info" %}
-The project is open source and you can find all source on GitHub [https://github.com/Synthetixio/synthetix-v3/tree/main/markets/perps-market](https://github.com/Synthetixio/synthetix-v3/tree/main/markets/perps-market). Note contract interfaces mentioned here may be out of date. Please refer to the source code on GitHub or better, inspect the contracts directly on etherscan.
+The project is open source and you can find all source on GitHub [https://github.com/Synthetixio/synthetix-v3/tree/main/markets/bfp-market](https://github.com/Synthetixio/synthetix-v3/tree/main/markets/bfp-market). Note contract interfaces mentioned here may be out of date. Please refer to the source code on GitHub or better, inspect the contracts directly on cannon or Etherscan.
 {% endhint %}
 
 ## What is bfp?
