@@ -1,10 +1,8 @@
 # Perps V3
 
-Perps v3 is the latest iteration of Synthetix' composable perpetual future market.&#x20;
+Perps v3 is designed for onchain perpetual futures trading of a wide range of assets, on optimistic EVM rollups.
 
 {% embed url="https://github.com/Synthetixio/synthetix-v3/tree/main/markets/perps-market" %}
-
-## Overview
 
 * **Traders** can take the following actions:
   * Create an account
