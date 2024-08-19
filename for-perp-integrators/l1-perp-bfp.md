@@ -586,3 +586,15 @@ When you merge an account, you merge the position from account A (`fromId`) into
 4. `settleOrder` invokes `YourSettlementHook.onSettle` to merge your settled position into the `YourVault` position
 5. `YourSettlementHook` calls `YourVault.mint(…)` based on the post settlement net asset value of the resulting merged position
 6. Then, on withdraw the vault can call `splitPosition` with a proportion equal to size withdrawn into `toId` and give the user optionality to settle the order with their own `limitPrice`.
+
+## Audits
+
+{% file src="../.gitbook/assets/2024-04-18_Synthetix_BFP_Market.pdf" %}
+Guardian audit
+{% endfile %}
+
+{% file src="../.gitbook/assets/OpenZeppelin Audit Report.pdf" %}
+OZ audit
+{% endfile %}
+
+[https://iosiro.com/audits/synthetix-bfp-market-carina-smart-contract-audit](https://iosiro.com/audits/synthetix-bfp-market-carina-smart-contract-audit)
