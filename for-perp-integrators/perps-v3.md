@@ -34,9 +34,20 @@ Perps v3 is designed for onchain perpetual futures trading of a wide range of as
 * **Cross margin -** All positions in a perps account are cross-margined against the provided collateral. If the account's collateral drops below their maintenance margin, all positions will be closed and all collateral in the account will be liquidated.
 * **Alternate collateral** **-** Perps accounts can now contain more collateral types than sUSD. These collaterals will increase your available margin based on the latest oracle price. If the total USD value of these collaterals drops below your maintenance margin, all collateral types will be liquidated.&#x20;
 
-## SDK
+## Start here
+
+### Trading SDK
 
 To better understand how to trade perps, see [perps-python-sdk.md](perps-python-sdk.md "mention")
+
+### End to End Tests
+
+{% hint style="success" %}
+To best understand the process of building a perp trading integration, see the below tests:
+
+* [Perp trading with USDC margin on Base Sepolia](https://github.com/Synthetixio/synthetix-deployments/blob/main/e2e/tests/omnibus-base-sepolia-andromeda.toml/Perps\_Trading.e2e.js)
+* [Perp trading with multicollateral margin on Arbitrum Sepolia](https://github.com/Synthetixio/synthetix-deployments/blob/main/e2e/tests/omnibus-arbitrum-sepolia.toml/Perps\_trading.e2e.js)
+{% endhint %}
 
 ## Requirements
 
