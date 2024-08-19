@@ -153,8 +153,9 @@ function commitOrder(
     int128 sizeDelta,
     uint256 limitPrice,
     uint128 keeperFeeBufferUsd,
-    address[] memory hooks
-);
+    address[] memory hooks,
+    bytes32 trackingCode
+) external;
 ```
 
 {% hint style="info" %}
@@ -193,6 +194,14 @@ function getOrderFees(
 
 {% hint style="info" %}
 `keeperFeeBufferUsd` is an additional tip that's paid keepers as incentive to execute this order. This is paid out of the account's margin. Set this to 0 to only spend what is necessary.
+{% endhint %}
+
+{% hint style="info" %}
+Marker/taker fees incurred here, along with fees from liquidation and cancellation are capped by a `maxKeeperFee`.
+{% endhint %}
+
+{% hint style="info" %}
+Fees have a dynamic component based on `block.basefee` meaning during times of high chain activity, fees will spike which could lead to intermittent failures and/or degraded performance.
 {% endhint %}
 
 ### How do I accessing my pending order?
@@ -525,6 +534,44 @@ function getLiquidationFees(
 ```
 
 An estimate of fees required upon liquidation (plus buffer) is deducted from the trader’s remaining margin when determining their health factor.
+
+{% hint style="info" %}
+LPs need to monitor their position during times of high volatility due to liquidations of non-USD margin positions. Upon liquidation, margin is withdrawn from the core system for distribution, reducing credit capacity hence lowering the health ratio.
+{% endhint %}
+
+### Feature flags
+
+bfp-market uses feature flags to enable/disable features. When a market is deployed, features are initially disabled until markets are ready to accept deposits and trade. You can see a full set list of features in `Flag.sol`.&#x20;
+
+```solidity
+//SPDX-License-Identifier: MIT
+pragma solidity >=0.8.11 <0.9.0;
+
+library Flags {
+    bytes32 public constant CREATE_ACCOUNT = "createAccount";
+    bytes32 public constant DEPOSIT = "deposit";
+    bytes32 public constant WITHDRAW = "withdraw";
+    bytes32 public constant COMMIT_ORDER = "commitOrder";
+    bytes32 public constant SETTLE_ORDER = "settleOrder";
+    bytes32 public constant CANCEL_ORDER = "cancelOrder";
+    bytes32 public constant FLAG_POSITION = "flagPosition";
+    bytes32 public constant LIQUIDATE_POSITION = "liquidatePosition";
+    bytes32 public constant PAY_DEBT = "payDebt";
+    bytes32 public constant LIQUIDATE_MARGIN_ONLY = "liquidateMarginOnly";
+    bytes32 public constant MERGE_ACCOUNT = "mergeAccount";
+    bytes32 public constant SPLIT_ACCOUNT = "splitAccount";
+}
+```
+
+Functions then call `ensureAccessToFeature(<feature>)` to assert if a feature is enabled, otherwise a revert is thrown.
+
+{% hint style="info" %}
+Note feature flags can only be enabled/disabled via governance (see [SCCP](../for-governance-participants/synthetix-governance.md)) and they may be used to disable features during certain times of extreme volatility or simply general operations.
+
+As such, there may be scenarios where say for example, the `DEPOSIT` feature is disabled but `LIQUIDATE_POSITION` is enabled. If there are existing positions that are close to liquidation, the trader may not be able to deposit more collateral until `DEPOSIT` is re-enabled. This can lead to a liquidation.
+
+These events are extremely rare however, it's important to raise that this is a potential risk to consider for those interacting with the protocol.
+{% endhint %}
 
 ### What are settlement hooks?
 
