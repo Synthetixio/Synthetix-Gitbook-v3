@@ -86,6 +86,10 @@ Account margin is isolated by `marketId`. When you deposit a supported collatera
 Note the subtle difference in `collateralAddress` vs `synthMarketId` and the lack of `marketId` in perps-market but present in bfp-market.&#x20;
 {% endhint %}
 
+{% hint style="info" %}
+bfp-market has global deposit caps on supported collaterals. This can be found by reading `maxAllowable` on `ConfiguredCollateral`. This also includes capacities on snxUSD, the native stablecoin. snxUSD is special as profits are distributed in snxUSD and deposit capacities can increase due to settled profitable trades. As such, it is likely the snxUSD `maxAllowable` will be substantially larger than other collaterals (or no have no caps) to take this into consideration.
+{% endhint %}
+
 bfp-market supports native multi-collateral margin. At launch we’re expecting to have support for `snxUSD` and `WETH` with LSTs such as `wstETH` to come later. The design of account margin is mostly similar to perps-market except for one subjective significance: **Native assets vs. spot-market issued synth assets.**
 
 bfp-market, unlike perps-market, does not require non-USD collateral to be wrapped into a synth before it can be used for trading perps. That is, there is zero reliance on the spot-market and WETH for e.g. can be directly deposited. For builders this means integration should be a little simpler as you don’t need to call `wrap(marketId, wrapAmount, minAmountReceived)` and `unwrap(marketId, unwrapAmount, minAmountReceived)` before/after.
