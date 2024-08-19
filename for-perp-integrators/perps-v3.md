@@ -57,7 +57,7 @@ Perps v3 configured to use oracle contracts which comply with [ERC-7412](https:/
 
 ## Get started
 
-* There is a single proxy for all interactions with perps. You can find the proxy address and ABI [here](../for-developers/addresses-+-abis.md)
+* There is a single proxy for all interactions with perps. You can find the proxy address and ABI [here](https://github.com/Synthetixio/v3-contracts) or [here](../for-developers/addresses-+-abis.md)
 * Call the `getMarkets` function to retrieve the list of `marketIds` the list of available markets.
 * Additional market info call be retrieved by calling `getMarketSummary` with those market ids and reviewing the `MarketCreated` events.
 * Fetch other market settings using the `marketId` using functions like `getFundingParameters` and `getLiquidationParameters`
