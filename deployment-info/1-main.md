@@ -234,7 +234,7 @@ Token address: <a href="https://etherscan.io/address/0xC011a73ee8576Fb46F5E1c575
   </tbody>
 </table>
 
-# Collateral `snxUSD` Synthetic USD Token v3
+# Collateral `sUSD` Synthetic USD Token v3
 
 Token address: <a href="https://etherscan.io/address/0xb2F30A7C980f052f02563fb518dcc39e6bf38175"><code>0xb2F30A7C980f052f02563fb518dcc39e6bf38175</code></a>
 
