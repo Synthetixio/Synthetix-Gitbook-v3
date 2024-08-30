@@ -162,8 +162,8 @@ Token address: <a href="https://optimistic.etherscan.io/address/0x8700dAec35aF8F
   <tbody>
     <tr>
       <td>depositingEnabled</td>
-      <td>✅ Enabled</td>
-      <td><code>true</code></td>
+      <td>🚫 Disabled</td>
+      <td><code>false</code></td>
     </tr>
     <tr>
       <td>decimals</td>
@@ -172,13 +172,13 @@ Token address: <a href="https://optimistic.etherscan.io/address/0x8700dAec35aF8F
     </tr>
     <tr>
       <td>issuanceRatioD18</td>
-      <td>4</td>
-      <td><code>4000000000000000000</code> / <code>0x3782dace9d900000</code></td>
+      <td>5</td>
+      <td><code>5000000000000000000</code> / <code>0x4563918244f40000</code></td>
     </tr>
     <tr>
       <td>liquidationRatioD18</td>
-      <td>1.5</td>
-      <td><code>1500000000000000000</code> / <code>0x14d1120d7b160000</code></td>
+      <td>1.05</td>
+      <td><code>1050000000000000000</code> / <code>0x0e92596fd6290000</code></td>
     </tr>
     <tr>
       <td>liquidationRewardD18</td>
@@ -188,17 +188,17 @@ Token address: <a href="https://optimistic.etherscan.io/address/0x8700dAec35aF8F
     <tr>
       <td>oracleNodeId</td>
       <td></td>
-      <td><code>"0x3d59ebf7a9cd7026092f678fe481d6b8f1de017487a645c18217ee3ea3df03e4"</code></td>
+      <td><code>"0x3e81d8c3caef426ef71cff427e79242336819a23e1e844262071b30b0ed5a609"</code></td>
     </tr>
     <tr>
       <td>minDelegationD18</td>
-      <td>10</td>
-      <td><code>10000000000000000000</code> / <code>0x8ac7230489e80000</code></td>
+      <td>20</td>
+      <td><code>20000000000000000000</code> / <code>0x01158e460913d00000</code></td>
     </tr>
   </tbody>
 </table>
 
-# Collateral `snxUSD` Synthetic USD Token v3
+# Collateral `sUSD` Synthetic USD Token v3
 
 Token address: <a href="https://optimistic.etherscan.io/address/0xb2F30A7C980f052f02563fb518dcc39e6bf38175"><code>0xb2F30A7C980f052f02563fb518dcc39e6bf38175</code></a>
 
@@ -415,8 +415,8 @@ Token address: <a href="https://optimistic.etherscan.io/address/0x42000000000000
     </tr>
     <tr>
       <td>settlementDelay</td>
-      <td>15</td>
-      <td><code>15</code> / <code>0x0f</code></td>
+      <td>2</td>
+      <td><code>2</code> / <code>0x02</code></td>
     </tr>
     <tr>
       <td>settlementWindowDuration</td>
@@ -447,8 +447,8 @@ Token address: <a href="https://optimistic.etherscan.io/address/0x42000000000000
     </tr>
     <tr>
       <td>priceDeviationTolerance</td>
-      <td>0.05</td>
-      <td><code>50000000000000000</code> / <code>0xb1a2bc2ec50000</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>minimumUsdExchangeAmount</td>
