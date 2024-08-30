@@ -59,6 +59,18 @@
       </td>
     </tr>
     <tr>
+      <td>TrustedMulticallForwarder</td>
+      <td>
+        <a href="https://optimistic.etherscan.io/address/0xE2C5658cC5C448B48141168f3e475dF8f65A1e3e"><code>0xE2C5658cC5C448B48141168f3e475dF8f65A1e3e</code></a>
+      </td>
+      <td>
+        <a href="./10-main/TrustedMulticallForwarder.json"><code>TrustedMulticallForwarder.json</code></a>
+      </td>
+      <td>
+        <a href="./10-main/TrustedMulticallForwarder.readable.json"><code>TrustedMulticallForwarder.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
       <td>SpotMarketProxy</td>
       <td>
         <a href="https://optimistic.etherscan.io/address/0x38908Ee087D7db73A1Bd1ecab9AAb8E8c9C74595"><code>0x38908Ee087D7db73A1Bd1ecab9AAb8E8c9C74595</code></a>
@@ -505,6 +517,11 @@ Token address: <a href="https://optimistic.etherscan.io/address/0x42000000000000
       <td>
         <a href="https://optimistic.etherscan.io/address/0x6cd3f878852769e04A723A5f66CA7DD4d9E38A6C"><code>0x6cd3f878852769e04A723A5f66CA7DD4d9E38A6C</code></a>
       </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>TrustedMulticallForwarder</td>
+      <td>n/a</td>
       <td>n/a</td>
     </tr>
     <tr>
