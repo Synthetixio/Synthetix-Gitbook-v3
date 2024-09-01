@@ -2444,7 +2444,7 @@ Perps market ID: <code>1700</code>
     <tr>
       <td>feedId</td>
       <td></td>
-      <td><code>"0x5de33a9112c2b700b8d30b8a3402c103578ccfa2765696471cc672bd5cf6ac52"</code></td>
+      <td><code>"0xffd11c5a1cfd42f80afb2df4d9f264c15f956d68153335374ec10722edd70472"</code></td>
     </tr>
     <tr>
       <td>settlementReward</td>
