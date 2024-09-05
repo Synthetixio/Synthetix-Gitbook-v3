@@ -500,11 +500,9 @@ Token address: <a href="https://etherscan.io/address/0xb2F30A7C980f052f02563fb51
     <tr>
       <td><code>2</code> Synthetic Ethena USD Spot Market</td>
       <td>
-        <a href="https://etherscan.io/address/0x6E1613B5c68B4Cf2A58400D8019a97849A678139"><code>0x6E1613B5c68B4Cf2A58400D8019a97849A678139</code></a>
-      </td>
-      <td>
         <a href="https://etherscan.io/address/0xEb3107117FEAd7de89Cd14D463D340A2E6917769"><code>0xEb3107117FEAd7de89Cd14D463D340A2E6917769</code></a>
       </td>
+      <td>n/a</td>
     </tr>
   </tbody>
 </table>
