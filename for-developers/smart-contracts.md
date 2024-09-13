@@ -10658,6 +10658,11 @@ Keeper fees are fees paid to the keeper to settle an order. The fee is based on 
 
   Returns a digest of an existing market given the `marketId`.
 
+**Parameters**
+* `marketId` (*uint128*) - Market to query against
+
+**Returns**
+* `[0]` (*struct IPerpMarketFactoryModule.MarketDigest*) - getMarketDigest Market digest struct
 #### getUtilizationDigest
 
   ```solidity
@@ -11467,6 +11472,12 @@ See {setApprovalForAll}
 * `newVotingPeriodStartDate` (*uint64*) - new start date for the voting period
 * `newEpochEndDate` (*uint64*) - new end date for the epoch
 
+#### setCurrentEpochSeatCountAndMinimumActiveMembers
+
+  ```solidity
+  function setCurrentEpochSeatCountAndMinimumActiveMembers(uint8 epochSeatCount, uint8 minimumActiveMembers) external
+  ```
+
 #### setNextElectionSettings
 
   ```solidity
@@ -11548,46 +11559,6 @@ See {setApprovalForAll}
 
   Burns previous NFTs and mints new ones
 
-#### getEpochSchedule
-
-  ```solidity
-  function getEpochSchedule() external view returns (struct Epoch.Data epoch)
-  ```
-
-  Shows the current epoch schedule dates
-
-#### getElectionSettings
-
-  ```solidity
-  function getElectionSettings() external view returns (struct ElectionSettings.Data settings)
-  ```
-
-  Shows the settings for the current election
-
-#### getNextElectionSettings
-
-  ```solidity
-  function getNextElectionSettings() external view returns (struct ElectionSettings.Data settings)
-  ```
-
-  Shows the settings for the next election
-
-#### getEpochIndex
-
-  ```solidity
-  function getEpochIndex() external view returns (uint256)
-  ```
-
-  Returns the index of the current epoch. The first epoch's index is 1
-
-#### getCurrentPeriod
-
-  ```solidity
-  function getCurrentPeriod() external view returns (uint256)
-  ```
-
-  Returns the current period type: Administration, Nomination, Voting, Evaluation
-
 #### isNominated
 
   ```solidity
@@ -11640,6 +11611,14 @@ See {setApprovalForAll}
 
   ```solidity
   function getBallot(address voter, uint256 chainId, uint256 electionId) external pure returns (struct Ballot.Data)
+  ```
+
+  Returns the number of ballots in the current election
+
+#### getNumOfBallots
+
+  ```solidity
+  function getNumOfBallots() external view returns (uint256)
   ```
 
   Returns the number of ballots in the current election
@@ -11725,6 +11704,46 @@ See {setApprovalForAll}
   ```
 
   Allows to withdraw a casted vote on the current network
+
+#### getCurrentPeriod
+
+  ```solidity
+  function getCurrentPeriod() external view returns (uint256)
+  ```
+
+  Returns the current period type: Administration, Nomination, Voting, Evaluation
+
+#### getEpochSchedule
+
+  ```solidity
+  function getEpochSchedule() external view returns (struct Epoch.Data epoch)
+  ```
+
+  Shows the current epoch schedule dates
+
+#### getElectionSettings
+
+  ```solidity
+  function getElectionSettings() external view returns (struct ElectionSettings.Data settings)
+  ```
+
+  Shows the settings for the current election
+
+#### getNextElectionSettings
+
+  ```solidity
+  function getNextElectionSettings() external view returns (struct ElectionSettings.Data settings)
+  ```
+
+  Shows the settings for the next election
+
+#### getEpochIndex
+
+  ```solidity
+  function getEpochIndex() external view returns (uint256)
+  ```
+
+  Returns the index of the current epoch. The first epoch's index is 1
 
 #### _recvDismissMembers
 
@@ -11898,6 +11917,46 @@ See {setApprovalForAll}
 
   Allows to withdraw a casted vote on the current network
 
+#### getCurrentPeriod
+
+  ```solidity
+  function getCurrentPeriod() external view returns (uint256)
+  ```
+
+  Returns the current period type: Administration, Nomination, Voting, Evaluation
+
+#### getEpochSchedule
+
+  ```solidity
+  function getEpochSchedule() external view returns (struct Epoch.Data epoch)
+  ```
+
+  Shows the current epoch schedule dates
+
+#### getElectionSettings
+
+  ```solidity
+  function getElectionSettings() external view returns (struct ElectionSettings.Data settings)
+  ```
+
+  Shows the settings for the current election
+
+#### getNextElectionSettings
+
+  ```solidity
+  function getNextElectionSettings() external view returns (struct ElectionSettings.Data settings)
+  ```
+
+  Shows the settings for the next election
+
+#### getEpochIndex
+
+  ```solidity
+  function getEpochIndex() external view returns (uint256)
+  ```
+
+  Returns the index of the current epoch. The first epoch's index is 1
+
 #### _recvDismissMembers
 
   ```solidity
@@ -11982,6 +12041,12 @@ See {setApprovalForAll}
 
   ```solidity
   function getPreparedBallot(address voter) external view returns (uint256 power)
+  ```
+
+#### getVotingPowerForUser
+
+  ```solidity
+  function getVotingPowerForUser(address snapshotContract, address voter, uint256 periodId) external view returns (uint256)
   ```
 
 ### Synthetix Election Module
@@ -12115,6 +12180,12 @@ See {setApprovalForAll}
 * `newVotingPeriodStartDate` (*uint64*) - new start date for the voting period
 * `newEpochEndDate` (*uint64*) - new end date for the epoch
 
+#### setCurrentEpochSeatCountAndMinimumActiveMembers
+
+  ```solidity
+  function setCurrentEpochSeatCountAndMinimumActiveMembers(uint8 epochSeatCount, uint8 minimumActiveMembers) external
+  ```
+
 #### setNextElectionSettings
 
   ```solidity
@@ -12196,46 +12267,6 @@ See {setApprovalForAll}
 
   Burns previous NFTs and mints new ones
 
-#### getEpochSchedule
-
-  ```solidity
-  function getEpochSchedule() external view returns (struct Epoch.Data epoch)
-  ```
-
-  Shows the current epoch schedule dates
-
-#### getElectionSettings
-
-  ```solidity
-  function getElectionSettings() external view returns (struct ElectionSettings.Data settings)
-  ```
-
-  Shows the settings for the current election
-
-#### getNextElectionSettings
-
-  ```solidity
-  function getNextElectionSettings() external view returns (struct ElectionSettings.Data settings)
-  ```
-
-  Shows the settings for the next election
-
-#### getEpochIndex
-
-  ```solidity
-  function getEpochIndex() external view returns (uint256)
-  ```
-
-  Returns the index of the current epoch. The first epoch's index is 1
-
-#### getCurrentPeriod
-
-  ```solidity
-  function getCurrentPeriod() external view returns (uint256)
-  ```
-
-  Returns the current period type: Administration, Nomination, Voting, Evaluation
-
 #### isNominated
 
   ```solidity
@@ -12288,6 +12319,14 @@ See {setApprovalForAll}
 
   ```solidity
   function getBallot(address voter, uint256 chainId, uint256 electionId) external pure returns (struct Ballot.Data)
+  ```
+
+  Returns the number of ballots in the current election
+
+#### getNumOfBallots
+
+  ```solidity
+  function getNumOfBallots() external view returns (uint256)
   ```
 
   Returns the number of ballots in the current election
@@ -12373,6 +12412,46 @@ See {setApprovalForAll}
   ```
 
   Allows to withdraw a casted vote on the current network
+
+#### getCurrentPeriod
+
+  ```solidity
+  function getCurrentPeriod() external view returns (uint256)
+  ```
+
+  Returns the current period type: Administration, Nomination, Voting, Evaluation
+
+#### getEpochSchedule
+
+  ```solidity
+  function getEpochSchedule() external view returns (struct Epoch.Data epoch)
+  ```
+
+  Shows the current epoch schedule dates
+
+#### getElectionSettings
+
+  ```solidity
+  function getElectionSettings() external view returns (struct ElectionSettings.Data settings)
+  ```
+
+  Shows the settings for the current election
+
+#### getNextElectionSettings
+
+  ```solidity
+  function getNextElectionSettings() external view returns (struct ElectionSettings.Data settings)
+  ```
+
+  Shows the settings for the next election
+
+#### getEpochIndex
+
+  ```solidity
+  function getEpochIndex() external view returns (uint256)
+  ```
+
+  Returns the index of the current epoch. The first epoch's index is 1
 
 #### _recvDismissMembers
 
@@ -12577,6 +12656,11 @@ See {setApprovalForAll}
 
 **Returns**
 * `node` (*struct NodeOutput.Data*) - The node's output data
+#### processManyWithRuntime
+
+  ```solidity
+  function processManyWithRuntime(bytes32[] nodeIds, bytes32[] runtimeKeys, bytes32[] runtimeValues) external view returns (struct NodeOutput.Data[] nodes)
+  ```
 
 #### NodeRegistered
 
@@ -12597,7 +12681,7 @@ See {setApprovalForAll}
 #### process
 
   ```solidity
-  function process(bytes parameters) internal view returns (struct NodeOutput.Data nodeOutput)
+  function process(bytes parameters) internal view returns (struct NodeOutput.Data nodeOutput, bytes possibleError)
   ```
 
 #### getTwapPrice
@@ -12617,7 +12701,7 @@ See {setApprovalForAll}
 #### process
 
   ```solidity
-  function process(bytes parameters) internal view returns (struct NodeOutput.Data nodeOutput)
+  function process(bytes parameters) internal view returns (struct NodeOutput.Data nodeOutput, bytes possibleError)
   ```
 
 #### isValid
@@ -12631,7 +12715,7 @@ See {setApprovalForAll}
 #### process
 
   ```solidity
-  function process(struct NodeOutput.Data[] prices, bytes parameters, bytes32[] runtimeKeys, bytes32[] runtimeValues) internal view returns (struct NodeOutput.Data nodeOutput)
+  function process(struct NodeOutput.Data[] prices, bytes parameters, bytes32[] runtimeKeys, bytes32[] runtimeValues) internal view returns (struct NodeOutput.Data nodeOutput, bytes possibleError)
   ```
 
 #### isValid
@@ -12645,7 +12729,7 @@ See {setApprovalForAll}
 #### process
 
   ```solidity
-  function process(struct NodeOutput.Data[] parentNodeOutputs, bytes parameters) internal pure returns (struct NodeOutput.Data nodeOutput)
+  function process(struct NodeOutput.Data[] parentNodeOutputs, bytes parameters) internal pure returns (struct NodeOutput.Data nodeOutput, bytes possibleError)
   ```
 
 #### abs
@@ -12665,7 +12749,7 @@ See {setApprovalForAll}
 #### process
 
   ```solidity
-  function process(struct NodeOutput.Data[] parentNodeOutputs, bytes parameters) internal pure returns (struct NodeOutput.Data nodeOutput)
+  function process(struct NodeOutput.Data[] parentNodeOutputs, bytes parameters) internal pure returns (struct NodeOutput.Data nodeOutput, bytes possibleError)
   ```
 
 #### median
@@ -12739,7 +12823,7 @@ See {setApprovalForAll}
 #### process
 
   ```solidity
-  function process(struct NodeDefinition.Data nodeDefinition, bytes32[] runtimeKeys, bytes32[] runtimeValues) internal view returns (struct NodeOutput.Data nodeOutput)
+  function process(struct NodeDefinition.Data nodeDefinition, bytes32[] runtimeKeys, bytes32[] runtimeValues) internal view returns (struct NodeOutput.Data nodeOutput, bytes possibleError)
   ```
 
 #### isValid
@@ -12753,7 +12837,7 @@ See {setApprovalForAll}
 #### process
 
   ```solidity
-  function process(bytes parameters) internal view returns (struct NodeOutput.Data nodeOutput)
+  function process(bytes parameters) internal view returns (struct NodeOutput.Data nodeOutput, bytes possibleError)
   ```
 
 #### getQuoteAtTick
@@ -12773,7 +12857,7 @@ See {setApprovalForAll}
 #### process
 
   ```solidity
-  function process(bytes parameters) internal view returns (struct NodeOutput.Data nodeOutput)
+  function process(bytes parameters) internal view returns (struct NodeOutput.Data nodeOutput, bytes possibleError)
   ```
 
 #### isValid
@@ -12787,7 +12871,7 @@ See {setApprovalForAll}
 #### process
 
   ```solidity
-  function process(bytes parameters, bytes32[] runtimeKeys, bytes32[] runtimeValues) internal pure returns (struct NodeOutput.Data)
+  function process(bytes parameters, bytes32[] runtimeKeys, bytes32[] runtimeValues) internal pure returns (struct NodeOutput.Data nodeOutput, bytes possibleError)
   ```
 
 #### isValid
@@ -13204,6 +13288,190 @@ Available in ArbOS version 20
   ```solidity
   event BuybackProcessed(address buyer, uint256 snx, uint256 usd)
   ```
+
+### OwnedFeeCollector
+
+#### constructor
+
+  ```solidity
+  constructor(address _owner, uint256 _ownerFeeShare, address _feeToken) public
+  ```
+
+#### quoteFees
+
+  ```solidity
+  function quoteFees(uint128 marketId, uint256 feeAmount, address sender) external view returns (uint256)
+  ```
+
+#### claimFees
+
+  ```solidity
+  function claimFees() external
+  ```
+
+#### supportsInterface
+
+  ```solidity
+  function supportsInterface(bytes4 interfaceId) public view virtual returns (bool)
+  ```
+
+#### constructor
+
+  ```solidity
+  constructor(address initialOwner) public
+  ```
+
+#### acceptOwnership
+
+  ```solidity
+  function acceptOwnership() public
+  ```
+
+  Allows a nominated address to accept ownership of the contract.
+
+  Reverts if the caller is not nominated.
+
+#### nominateNewOwner
+
+  ```solidity
+  function nominateNewOwner(address newNominatedOwner) public
+  ```
+
+  Allows the current owner to nominate a new owner.
+
+  The nominated owner will have to call `acceptOwnership` in a separate transaction in order to finalize the action and become the new contract owner.
+
+**Parameters**
+* `newNominatedOwner` (*address*) - The address that is to become nominated.
+
+#### renounceNomination
+
+  ```solidity
+  function renounceNomination() external
+  ```
+
+  Allows a nominated owner to reject the nomination.
+
+#### owner
+
+  ```solidity
+  function owner() external view returns (address)
+  ```
+
+  Returns the current owner of the contract.
+
+#### nominatedOwner
+
+  ```solidity
+  function nominatedOwner() external view returns (address)
+  ```
+
+  Returns the current nominated owner of the contract.
+
+  Only one address can be nominated at a time.
+
+#### acceptOwnership
+
+  ```solidity
+  function acceptOwnership() external
+  ```
+
+  Allows a nominated address to accept ownership of the contract.
+
+  Reverts if the caller is not nominated.
+
+#### nominateNewOwner
+
+  ```solidity
+  function nominateNewOwner(address newNominatedOwner) external
+  ```
+
+  Allows the current owner to nominate a new owner.
+
+  The nominated owner will have to call `acceptOwnership` in a separate transaction in order to finalize the action and become the new contract owner.
+
+**Parameters**
+* `newNominatedOwner` (*address*) - The address that is to become nominated.
+
+#### renounceNomination
+
+  ```solidity
+  function renounceNomination() external
+  ```
+
+  Allows a nominated owner to reject the nomination.
+
+#### owner
+
+  ```solidity
+  function owner() external view returns (address)
+  ```
+
+  Returns the current owner of the contract.
+
+#### nominatedOwner
+
+  ```solidity
+  function nominatedOwner() external view returns (address)
+  ```
+
+  Returns the current nominated owner of the contract.
+
+  Only one address can be nominated at a time.
+
+#### quoteFees
+
+  ```solidity
+  function quoteFees(uint128 marketId, uint256 feeAmount, address transactor) external returns (uint256 feeAmountToCollect)
+  ```
+
+  .This function is called by the spot market proxy to get the fee amount to be collected.
+
+  .The quoted fee amount is then transferred directly to the fee collector.
+
+**Parameters**
+* `marketId` (*uint128*) - .synth market id value
+* `feeAmount` (*uint256*) - .max fee amount that can be collected
+* `transactor` (*address*) - .the trader the fee was collected from
+
+**Returns**
+* `feeAmountToCollect` (*uint256*) - .quoted fee amount
+#### supportsInterface
+
+  ```solidity
+  function supportsInterface(bytes4 interfaceID) external view returns (bool)
+  ```
+
+  Determines if the contract in question supports the specified interface.
+
+**Parameters**
+* `interfaceID` (*bytes4*) - XOR of all selectors in the contract.
+
+**Returns**
+* `[0]` (*bool*) - True if the contract supports the specified interface.
+
+#### OwnerNominated
+
+  ```solidity
+  event OwnerNominated(address newOwner)
+  ```
+
+  Emitted when an address has been nominated.
+
+**Parameters**
+* `newOwner` (*address*) - The address that has been nominated.
+
+#### OwnerChanged
+
+  ```solidity
+  event OwnerChanged(address oldOwner, address newOwner)
+  ```
+
+  Emitted when the owner of the contract has changed.
+
+**Parameters**
+* `oldOwner` (*address*) - The previous owner of the contract.
+* `newOwner` (*address*) - The new owner of the contract.
 
 ### ERC4626ToAssetsRatioOracle
 
