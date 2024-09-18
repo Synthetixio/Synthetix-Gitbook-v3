@@ -12656,11 +12656,6 @@ See {setApprovalForAll}
 
 **Returns**
 * `node` (*struct NodeOutput.Data*) - The node's output data
-#### processManyWithRuntime
-
-  ```solidity
-  function processManyWithRuntime(bytes32[] nodeIds, bytes32[] runtimeKeys, bytes32[] runtimeValues) external view returns (struct NodeOutput.Data[] nodes)
-  ```
 
 #### NodeRegistered
 
@@ -12681,7 +12676,7 @@ See {setApprovalForAll}
 #### process
 
   ```solidity
-  function process(bytes parameters) internal view returns (struct NodeOutput.Data nodeOutput, bytes possibleError)
+  function process(bytes parameters) internal view returns (struct NodeOutput.Data nodeOutput)
   ```
 
 #### getTwapPrice
@@ -12701,7 +12696,7 @@ See {setApprovalForAll}
 #### process
 
   ```solidity
-  function process(bytes parameters) internal view returns (struct NodeOutput.Data nodeOutput, bytes possibleError)
+  function process(bytes parameters) internal view returns (struct NodeOutput.Data nodeOutput)
   ```
 
 #### isValid
@@ -12715,7 +12710,7 @@ See {setApprovalForAll}
 #### process
 
   ```solidity
-  function process(struct NodeOutput.Data[] prices, bytes parameters, bytes32[] runtimeKeys, bytes32[] runtimeValues) internal view returns (struct NodeOutput.Data nodeOutput, bytes possibleError)
+  function process(struct NodeOutput.Data[] prices, bytes parameters, bytes32[] runtimeKeys, bytes32[] runtimeValues) internal view returns (struct NodeOutput.Data nodeOutput)
   ```
 
 #### isValid
@@ -12729,7 +12724,7 @@ See {setApprovalForAll}
 #### process
 
   ```solidity
-  function process(struct NodeOutput.Data[] parentNodeOutputs, bytes parameters) internal pure returns (struct NodeOutput.Data nodeOutput, bytes possibleError)
+  function process(struct NodeOutput.Data[] parentNodeOutputs, bytes parameters) internal pure returns (struct NodeOutput.Data nodeOutput)
   ```
 
 #### abs
@@ -12749,7 +12744,7 @@ See {setApprovalForAll}
 #### process
 
   ```solidity
-  function process(struct NodeOutput.Data[] parentNodeOutputs, bytes parameters) internal pure returns (struct NodeOutput.Data nodeOutput, bytes possibleError)
+  function process(struct NodeOutput.Data[] parentNodeOutputs, bytes parameters) internal pure returns (struct NodeOutput.Data nodeOutput)
   ```
 
 #### median
@@ -12823,7 +12818,7 @@ See {setApprovalForAll}
 #### process
 
   ```solidity
-  function process(struct NodeDefinition.Data nodeDefinition, bytes32[] runtimeKeys, bytes32[] runtimeValues) internal view returns (struct NodeOutput.Data nodeOutput, bytes possibleError)
+  function process(struct NodeDefinition.Data nodeDefinition, bytes32[] runtimeKeys, bytes32[] runtimeValues) internal view returns (struct NodeOutput.Data nodeOutput)
   ```
 
 #### isValid
@@ -12837,7 +12832,7 @@ See {setApprovalForAll}
 #### process
 
   ```solidity
-  function process(bytes parameters) internal view returns (struct NodeOutput.Data nodeOutput, bytes possibleError)
+  function process(bytes parameters) internal view returns (struct NodeOutput.Data nodeOutput)
   ```
 
 #### getQuoteAtTick
@@ -12857,7 +12852,7 @@ See {setApprovalForAll}
 #### process
 
   ```solidity
-  function process(bytes parameters) internal view returns (struct NodeOutput.Data nodeOutput, bytes possibleError)
+  function process(bytes parameters) internal view returns (struct NodeOutput.Data nodeOutput)
   ```
 
 #### isValid
@@ -12871,7 +12866,7 @@ See {setApprovalForAll}
 #### process
 
   ```solidity
-  function process(bytes parameters, bytes32[] runtimeKeys, bytes32[] runtimeValues) internal pure returns (struct NodeOutput.Data nodeOutput, bytes possibleError)
+  function process(bytes parameters, bytes32[] runtimeKeys, bytes32[] runtimeValues) internal pure returns (struct NodeOutput.Data)
   ```
 
 #### isValid
