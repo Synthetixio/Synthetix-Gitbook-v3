@@ -1006,8 +1006,8 @@ Perps market ID: <code>100</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -1202,8 +1202,8 @@ Perps market ID: <code>1000</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -1398,8 +1398,8 @@ Perps market ID: <code>1100</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -1594,8 +1594,8 @@ Perps market ID: <code>1200</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -1790,8 +1790,8 @@ Perps market ID: <code>1300</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -1986,8 +1986,8 @@ Perps market ID: <code>1400</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -2182,8 +2182,8 @@ Perps market ID: <code>1500</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -2378,8 +2378,8 @@ Perps market ID: <code>1600</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -2574,8 +2574,8 @@ Perps market ID: <code>1700</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -2770,8 +2770,8 @@ Perps market ID: <code>1800</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -2966,8 +2966,8 @@ Perps market ID: <code>1900</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -3162,8 +3162,8 @@ Perps market ID: <code>200</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -3358,8 +3358,8 @@ Perps market ID: <code>2000</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -3554,8 +3554,8 @@ Perps market ID: <code>2100</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -3750,8 +3750,8 @@ Perps market ID: <code>2200</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -3946,8 +3946,8 @@ Perps market ID: <code>2300</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -4142,8 +4142,8 @@ Perps market ID: <code>2400</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -4338,8 +4338,8 @@ Perps market ID: <code>2500</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -4534,8 +4534,8 @@ Perps market ID: <code>2600</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -4730,8 +4730,8 @@ Perps market ID: <code>2700</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -4926,8 +4926,8 @@ Perps market ID: <code>2800</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -5122,8 +5122,8 @@ Perps market ID: <code>2900</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -5318,8 +5318,8 @@ Perps market ID: <code>300</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -5514,8 +5514,8 @@ Perps market ID: <code>3000</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -5710,8 +5710,8 @@ Perps market ID: <code>3100</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -5906,8 +5906,8 @@ Perps market ID: <code>3200</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -6102,8 +6102,8 @@ Perps market ID: <code>3300</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -6298,8 +6298,8 @@ Perps market ID: <code>3400</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -6494,8 +6494,8 @@ Perps market ID: <code>3500</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -6690,8 +6690,8 @@ Perps market ID: <code>3600</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -6886,8 +6886,8 @@ Perps market ID: <code>3700</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -7082,8 +7082,8 @@ Perps market ID: <code>3800</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -7278,8 +7278,8 @@ Perps market ID: <code>3900</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -7474,8 +7474,8 @@ Perps market ID: <code>400</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -7670,8 +7670,8 @@ Perps market ID: <code>4000</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -7866,8 +7866,8 @@ Perps market ID: <code>4100</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -8062,8 +8062,8 @@ Perps market ID: <code>4200</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -8258,8 +8258,8 @@ Perps market ID: <code>4300</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -8454,8 +8454,8 @@ Perps market ID: <code>4400</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -8650,8 +8650,8 @@ Perps market ID: <code>4500</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -8846,8 +8846,8 @@ Perps market ID: <code>4600</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -9042,8 +9042,8 @@ Perps market ID: <code>4700</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -9108,8 +9108,8 @@ Perps market ID: <code>4800</code>
     </tr>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>0.000001</td>
+      <td><code>1000000000000</code> / <code>0xe8d4a51000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
@@ -9238,8 +9238,8 @@ Perps market ID: <code>4800</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -9434,8 +9434,8 @@ Perps market ID: <code>4900</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -9630,8 +9630,8 @@ Perps market ID: <code>500</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -9826,8 +9826,8 @@ Perps market ID: <code>5000</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -10022,8 +10022,8 @@ Perps market ID: <code>5100</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -10218,8 +10218,8 @@ Perps market ID: <code>5200</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -10414,8 +10414,8 @@ Perps market ID: <code>5300</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -10610,8 +10610,8 @@ Perps market ID: <code>5400</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -10806,8 +10806,8 @@ Perps market ID: <code>5500</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -11002,8 +11002,8 @@ Perps market ID: <code>5600</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -11198,8 +11198,8 @@ Perps market ID: <code>5700</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -11394,8 +11394,8 @@ Perps market ID: <code>5800</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -11786,8 +11786,8 @@ Perps market ID: <code>6000</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -11982,8 +11982,8 @@ Perps market ID: <code>6100</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -12178,8 +12178,8 @@ Perps market ID: <code>6200</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -12374,8 +12374,8 @@ Perps market ID: <code>6300</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -12570,8 +12570,8 @@ Perps market ID: <code>6400</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -12766,8 +12766,8 @@ Perps market ID: <code>6500</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -12962,8 +12962,8 @@ Perps market ID: <code>6600</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -13158,8 +13158,8 @@ Perps market ID: <code>6700</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -13354,8 +13354,8 @@ Perps market ID: <code>6800</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -13550,8 +13550,8 @@ Perps market ID: <code>6900</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -13746,8 +13746,8 @@ Perps market ID: <code>700</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -13942,8 +13942,8 @@ Perps market ID: <code>7000</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -14138,8 +14138,8 @@ Perps market ID: <code>7100</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -14334,8 +14334,8 @@ Perps market ID: <code>7200</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -14530,8 +14530,8 @@ Perps market ID: <code>800</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -14726,8 +14726,8 @@ Perps market ID: <code>900</code>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
