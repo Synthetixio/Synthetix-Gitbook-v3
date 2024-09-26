@@ -12,8 +12,8 @@
   <tbody>
     <tr>
       <td>system</td>
-      <td><a href="https://usecannon.com/packages/synthetix/3.3.18/1-main">synthetix:3.3.18@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmTVxHGnXqe4TyN8h6kTFtPBeKzmn2zENu5sjmZVhZyGxQ">QmTVxHGnXqe4TyN8h6kTFtPBeKzmn2zENu5sjmZVhZyGxQ</a></td>
+      <td><a href="https://usecannon.com/packages/synthetix/3.5.0/1-main">synthetix:3.5.0@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmT5oRcjCiJrjfBgnm6AVZhqtc8988GYoTpBUAZv3boyWj">QmT5oRcjCiJrjfBgnm6AVZhqtc8988GYoTpBUAZv3boyWj</a></td>
       <td>
         bundleSalt: main<br />oracle_manager_source: oracle-manager<br />owner: <a href="https://etherscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />salt: main
@@ -21,10 +21,10 @@
     </tr>
     <tr>
       <td>legacyMarket</td>
-      <td><a href="https://usecannon.com/packages/synthetix-legacy-market/3.3.6/1-main">synthetix-legacy-market:3.3.6@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmX81mr9tqpbQeYzwFzfJBVmWgiLnce9yRfDGpgXgytKYz">QmX81mr9tqpbQeYzwFzfJBVmWgiLnce9yRfDGpgXgytKYz</a></td>
+      <td><a href="https://usecannon.com/packages/synthetix-legacy-market/3.5.0/1-main">synthetix-legacy-market:3.5.0@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/Qmcspbnzwp6CfduArWWkTbD4FXdMpcZtLWyjEhGN9wqfnh">Qmcspbnzwp6CfduArWWkTbD4FXdMpcZtLWyjEhGN9wqfnh</a></td>
       <td>
-        market_id: 1<br />owner: <a href="https://etherscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
+        owner: <a href="https://etherscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />pool_owner: <a href="https://etherscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />sc_pool_id: 1<br />v2x_package: synthetix:2.101.2<br />v3_package: synthetix:3.3.15<br />marketId: 1
       </td>
@@ -32,7 +32,7 @@
     <tr>
       <td>spotFactory</td>
       <td><a href="https://usecannon.com/packages/synthetix-spot-market/3.3.15/1-main">synthetix-spot-market:3.3.15@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmYFV4KQTYHvMPiyP59GAPGskPPfTZMMgwFEhswo8B89Mp">QmYFV4KQTYHvMPiyP59GAPGskPPfTZMMgwFEhswo8B89Mp</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmTdEmGeKqJ8qiuTgEQP1cbyjnkJULWEB81qJe4eqtHbkn">QmTdEmGeKqJ8qiuTgEQP1cbyjnkJULWEB81qJe4eqtHbkn</a></td>
       <td>
         owner: <a href="https://etherscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />salt: snax<br />synthetixPackage: synthetix:3.3.15<br />synthetixPreset: main
@@ -55,15 +55,21 @@
   <tbody>
     <tr>
       <td>system</td>
-      <td><a href="https://usecannon.com/packages/synthetix/3.3.4/10-main">synthetix:3.3.4@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmR9K49D2FoSLsuzRzny5w3kD5xBGMJzNdvKKh8e5oFbrA">QmR9K49D2FoSLsuzRzny5w3kD5xBGMJzNdvKKh8e5oFbrA</a></td>
-      <td>n/a</td>
+      <td><a href="https://usecannon.com/packages/synthetix/3.6.0/10-main">synthetix:3.6.0@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmNmNZ8cNuudZy1Zi6nY2EK1AAQHgisXkxC1dQLmpPstN1">QmNmNZ8cNuudZy1Zi6nY2EK1AAQHgisXkxC1dQLmpPstN1</a></td>
+      <td>
+        account_token_name: Synthetix Account<br />account_token_symbol: SACCT<br />bundleSalt: main<br />oracle_manager_source: oracle-manager<br />owner: <a href="https://optimistic.etherscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
+        ><br />salt: main<br />usd_token_name: Synthetic USD Token v3<br />usd_token_symbol: sUSD
+      </td>
     </tr>
     <tr>
       <td>spotFactory</td>
-      <td><a href="https://usecannon.com/packages/synthetix-spot-market/3.3.4/10-main">synthetix-spot-market:3.3.4@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmSenAcPJXx6tG9ZUGL6DGgwHZsDiAmjbk3YqZQHxhkC8G">QmSenAcPJXx6tG9ZUGL6DGgwHZsDiAmjbk3YqZQHxhkC8G</a></td>
-      <td>n/a</td>
+      <td><a href="https://usecannon.com/packages/synthetix-spot-market/3.6.0/10-main">synthetix-spot-market:3.6.0@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/Qmd5KYqCPTd9J1iR6HuNvxN9NmoWBycbyUALEnPznN1ZLT">Qmd5KYqCPTd9J1iR6HuNvxN9NmoWBycbyUALEnPznN1ZLT</a></td>
+      <td>
+        owner: <a href="https://optimistic.etherscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
+        ><br />salt: snax<br />synthetixPackage: synthetix<br />synthetixPreset: main
+      </td>
     </tr>
   </tbody>
 </table>
@@ -82,25 +88,25 @@
   <tbody>
     <tr>
       <td>pyth_erc7412_wrapper</td>
-      <td><a href="https://usecannon.com/packages/pyth-erc7412-wrapper/3.3.15/11155111-main">pyth-erc7412-wrapper:3.3.15@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmUmxoFqS1Kexr5ozGofi9LGHPEb9auref7Fyf1h7qPQCv">QmUmxoFqS1Kexr5ozGofi9LGHPEb9auref7Fyf1h7qPQCv</a></td>
+      <td><a href="https://usecannon.com/packages/pyth-erc7412-wrapper/3.5.0/11155111-main">pyth-erc7412-wrapper:3.5.0@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmUFQV4A2hVxfAFNrpBBQjJ4dAReyvXrF1U3mo6sLEnXLW">QmUFQV4A2hVxfAFNrpBBQjJ4dAReyvXrF1U3mo6sLEnXLW</a></td>
       <td>
         pythAddress: <a href="https://sepolia.etherscan.io/address/0x420000000000000000000000000000000000000F"><code>0x420000000000000000000000000000000000000F</code></a>
       </td>
     </tr>
     <tr>
       <td>system</td>
-      <td><a href="https://usecannon.com/packages/synthetix/3.5.0/11155111-main">synthetix:3.5.0@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmWLaBjCXdpRgUVaHpBpC7mKHY3t5F7x8Aknz6YhmajG95">QmWLaBjCXdpRgUVaHpBpC7mKHY3t5F7x8Aknz6YhmajG95</a></td>
+      <td><a href="https://usecannon.com/packages/synthetix/3.6.0/11155111-main">synthetix:3.6.0@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmPxqsi9bHvnajYa1rToEtDuAH7Ddsbuq8fcV5K4egV36K">QmPxqsi9bHvnajYa1rToEtDuAH7Ddsbuq8fcV5K4egV36K</a></td>
       <td>
-        bundleSalt: main<br />oracle_manager_source: oracle-manager<br />owner: <a href="https://sepolia.etherscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
-        ><br />salt: main<br />const_one_oracle_id: 0x066ef68c9d9ca51eee861aeb5bce51a12e61f06f10bf62243c563671ae3a9733
+        account_token_name: Synthetix Account<br />account_token_symbol: SACCT<br />bundleSalt: main<br />oracle_manager_source: oracle-manager<br />owner: <a href="https://sepolia.etherscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
+        ><br />salt: main<br />usd_token_name: Synthetic USD Token v3<br />usd_token_symbol: sUSD<br />const_one_oracle_id: 0x066ef68c9d9ca51eee861aeb5bce51a12e61f06f10bf62243c563671ae3a9733
       </td>
     </tr>
     <tr>
       <td>legacyMarket</td>
       <td><a href="https://usecannon.com/packages/synthetix-legacy-market/3.5.0/11155111-main">synthetix-legacy-market:3.5.0@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmYyKUN759UMqwPrWXr66mC2SpC12hW6XEmyBW6nMm2p5N">QmYyKUN759UMqwPrWXr66mC2SpC12hW6XEmyBW6nMm2p5N</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmafsvRuiGKMye4kaNyyxt7Q2BcZywjK3vDJUhuXy7i96K">QmafsvRuiGKMye4kaNyyxt7Q2BcZywjK3vDJUhuXy7i96K</a></td>
       <td>
         owner: <a href="https://sepolia.etherscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />pool_owner: <a href="https://sepolia.etherscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
@@ -109,14 +115,60 @@
     </tr>
     <tr>
       <td>spotFactory</td>
-      <td><a href="https://usecannon.com/packages/synthetix-spot-market/3.3.15/11155111-main">synthetix-spot-market:3.3.15@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmYCdPnnKWmwxNRqDE84P4q3Dz6QgeA62AEFrLveHtxybP">QmYCdPnnKWmwxNRqDE84P4q3Dz6QgeA62AEFrLveHtxybP</a></td>
+      <td><a href="https://usecannon.com/packages/synthetix-spot-market/3.6.0/11155111-main">synthetix-spot-market:3.6.0@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmRQjeCtsLjcMCygPKsvfAzbdy3boxoU1N7o7VbvUUTXYs">QmRQjeCtsLjcMCygPKsvfAzbdy3boxoU1N7o7VbvUUTXYs</a></td>
       <td>
         owner: <a href="https://sepolia.etherscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
-        ><br />salt: snax<br />synthetixPackage: synthetix:3.3.15<br />synthetixPreset: main
+        ><br />salt: snax<br />synthetixPackage: synthetix<br />synthetixPreset: main
+      </td>
+    </tr>
+    <tr>
+      <td>weth_mock_collateral</td>
+      <td><a href="https://usecannon.com/packages/mintable-token/1.8/11155111-main">mintable-token:1.8@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmU4e4FDv9JYxavbZBCL4hjknpRGWB1FhY1z1WdLGeQhfX">QmU4e4FDv9JYxavbZBCL4hjknpRGWB1FhY1z1WdLGeQhfX</a></td>
+      <td>
+        decimals: 18<br />initialSupply: 0<br />name: Token<br />owner: <a href="https://sepolia.etherscan.io/address/0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"><code>0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9</code></a
+        ><br />salt: <br />symbol: TKN
+      </td>
+    </tr>
+    <tr>
+      <td>bfp_market_factory</td>
+      <td><a href="https://usecannon.com/packages/synthetix-bfp-market/3.6.0/11155111-main">synthetix-bfp-market:3.6.0@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmPyZM9fofuhXUe7WG6hYqGAYvcZC6mxAM2nks7WMb5BMm">QmPyZM9fofuhXUe7WG6hYqGAYvcZC6mxAM2nks7WMb5BMm</a></td>
+      <td>
+        owner: <a href="https://sepolia.etherscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
+        ><br />salt: snax<br />synthetixPackage: synthetix:latest<br />synthetixPreset: main
       </td>
     </tr>
   </tbody>
+</table>
+
+# SnaxChain Testnet (13001, Main)
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="200">Import name</th>
+      <th width="400">Provisioned package</th>
+      <th width="500">IPFS (zlib compressed)</th>
+      <th width="500">Settings</th>
+    </tr>
+  </thead>
+  <tbody></tbody>
+</table>
+
+# SnaxChain (2192, Main)
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="200">Import name</th>
+      <th width="400">Provisioned package</th>
+      <th width="500">IPFS (zlib compressed)</th>
+      <th width="500">Settings</th>
+    </tr>
+  </thead>
+  <tbody></tbody>
 </table>
 
 # Arbitrum One (42161, Main)
@@ -141,8 +193,8 @@
     </tr>
     <tr>
       <td>system</td>
-      <td><a href="https://usecannon.com/packages/synthetix/3.3.18/42161-main">synthetix:3.3.18@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/Qme2D8keKzT7sDX1r2J55eVLF4ou5PQUfLKJavkJMUbF3Y">Qme2D8keKzT7sDX1r2J55eVLF4ou5PQUfLKJavkJMUbF3Y</a></td>
+      <td><a href="https://usecannon.com/packages/synthetix/3.5.0/42161-main">synthetix:3.5.0@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/Qmef7TJy9QhCHpLoYoUnZXWcHyNdJttTQAKxEJjtmYJ3Q7">Qmef7TJy9QhCHpLoYoUnZXWcHyNdJttTQAKxEJjtmYJ3Q7</a></td>
       <td>
         bundleSalt: main<br />oracle_manager_source: oracle-manager<br />owner: <a href="https://arbiscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />salt: main<br />const_one_oracle_id: 0x066ef68c9d9ca51eee861aeb5bce51a12e61f06f10bf62243c563671ae3a9733
@@ -150,17 +202,17 @@
     </tr>
     <tr>
       <td>spotFactory</td>
-      <td><a href="https://usecannon.com/packages/synthetix-spot-market/3.3.15/42161-main">synthetix-spot-market:3.3.15@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmYQzEZLpwS6A5q1FeKsMfgCrCWo9Wh4dRcS4KZvYxVcsB">QmYQzEZLpwS6A5q1FeKsMfgCrCWo9Wh4dRcS4KZvYxVcsB</a></td>
+      <td><a href="https://usecannon.com/packages/synthetix-spot-market/3.6.0/42161-main">synthetix-spot-market:3.6.0@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/Qmc9F2QCJyY7VEM2L9jGxhXv9PfBm81hYFkRogVfZT7Cvz">Qmc9F2QCJyY7VEM2L9jGxhXv9PfBm81hYFkRogVfZT7Cvz</a></td>
       <td>
         owner: <a href="https://arbiscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
-        ><br />salt: snax<br />synthetixPackage: synthetix:3.3.15<br />synthetixPreset: main
+        ><br />salt: snax<br />synthetixPackage: synthetix<br />synthetixPreset: main
       </td>
     </tr>
     <tr>
       <td>perpsFactory</td>
-      <td><a href="https://usecannon.com/packages/synthetix-perps-market/3.3.19/42161-main">synthetix-perps-market:3.3.19@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/Qmd5KnJsLM75LmXdkUDWZD9kCKGyVEdF4tkvegd7kgAKHb">Qmd5KnJsLM75LmXdkUDWZD9kCKGyVEdF4tkvegd7kgAKHb</a></td>
+      <td><a href="https://usecannon.com/packages/synthetix-perps-market/3.6.4/42161-main">synthetix-perps-market:3.6.4@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmPXGz55UC3k4vYuKWfbJgcpDaX1LKohJ3EhgQSL4cnKG3">QmPXGz55UC3k4vYuKWfbJgcpDaX1LKohJ3EhgQSL4cnKG3</a></td>
       <td>
         coreProxyOwner: <a href="https://arbiscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />owner: <a href="https://arbiscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
@@ -211,6 +263,58 @@
         ><br />salt: rewards
       </td>
     </tr>
+    <tr>
+      <td>perps_gas_oracle_node</td>
+      <td><a href="https://usecannon.com/packages/arbitrum-gas-price-oracle/3.3.16/42161-main">arbitrum-gas-price-oracle:3.3.16@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmbBUsd555B968KuyiSMW9i6RuMd2LdvAsbLU99bunHyDT">QmbBUsd555B968KuyiSMW9i6RuMd2LdvAsbLU99bunHyDT</a></td>
+      <td>
+        arbGasPriceOracleAddress: <a href="https://arbiscan.io/address/0x000000000000000000000000000000000000006C"><code>0x000000000000000000000000000000000000006C</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>RewardsDistributor_sBTC_liquidation_rewards</td>
+      <td><a href="https://usecannon.com/packages/synthetix-rewards-dist-ext/3.6.0/42161-main">synthetix-rewards-dist-ext:3.6.0@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmQn7Hu3BePPBaDnRohCgjFZsCtrMGe6GwTedwgVTxkJ4F">QmQn7Hu3BePPBaDnRohCgjFZsCtrMGe6GwTedwgVTxkJ4F</a></td>
+      <td>
+        authorizedDistributor: <a href="https://arbiscan.io/address/0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce"><code>0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce</code></a
+        ><br />name: Rewards Distributor (External) V3<br />payoutToken: <a href="https://arbiscan.io/address/0x22e6966B799c4D5B13BE962E1D117b56327FDa66"><code>0x22e6966B799c4D5B13BE962E1D117b56327FDa66</code></a
+        ><br />payoutTokenDecimals: 18<br />poolId: 1<br />rewardManager: <a href="https://arbiscan.io/address/0x32C222A9A159782aFD7529c87FA34b96CA72C696"><code>0x32C222A9A159782aFD7529c87FA34b96CA72C696</code></a
+        ><br />salt: rewards
+      </td>
+    </tr>
+    <tr>
+      <td>RewardsDistributor_sETH_liquidation_rewards</td>
+      <td><a href="https://usecannon.com/packages/synthetix-rewards-dist-ext/3.6.0/42161-main">synthetix-rewards-dist-ext:3.6.0@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmX4bBtWoGdFTM4Ht8wMuDW3Z3QuJErwLW1YKzd4jh6vRe">QmX4bBtWoGdFTM4Ht8wMuDW3Z3QuJErwLW1YKzd4jh6vRe</a></td>
+      <td>
+        authorizedDistributor: <a href="https://arbiscan.io/address/0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce"><code>0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce</code></a
+        ><br />name: Rewards Distributor (External) V3<br />payoutToken: <a href="https://arbiscan.io/address/0x22e6966B799c4D5B13BE962E1D117b56327FDa66"><code>0x22e6966B799c4D5B13BE962E1D117b56327FDa66</code></a
+        ><br />payoutTokenDecimals: 18<br />poolId: 1<br />rewardManager: <a href="https://arbiscan.io/address/0x32C222A9A159782aFD7529c87FA34b96CA72C696"><code>0x32C222A9A159782aFD7529c87FA34b96CA72C696</code></a
+        ><br />salt: rewards
+      </td>
+    </tr>
+    <tr>
+      <td>RewardsDistributor_swsol_liquidation_rewards</td>
+      <td><a href="https://usecannon.com/packages/synthetix-rewards-dist-ext/3.6.0/42161-main">synthetix-rewards-dist-ext:3.6.0@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmTkmz5ivrRVBtFy7ed5AcSJ2p8pQCjpdSSnc66e9z4ry3">QmTkmz5ivrRVBtFy7ed5AcSJ2p8pQCjpdSSnc66e9z4ry3</a></td>
+      <td>
+        authorizedDistributor: <a href="https://arbiscan.io/address/0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce"><code>0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce</code></a
+        ><br />name: Rewards Distributor (External) V3<br />payoutToken: <a href="https://arbiscan.io/address/0x22e6966B799c4D5B13BE962E1D117b56327FDa66"><code>0x22e6966B799c4D5B13BE962E1D117b56327FDa66</code></a
+        ><br />payoutTokenDecimals: 18<br />poolId: 1<br />rewardManager: <a href="https://arbiscan.io/address/0x32C222A9A159782aFD7529c87FA34b96CA72C696"><code>0x32C222A9A159782aFD7529c87FA34b96CA72C696</code></a
+        ><br />salt: rewards
+      </td>
+    </tr>
+    <tr>
+      <td>RewardsDistributor_synth_usde_liquidation_rewards</td>
+      <td><a href="https://usecannon.com/packages/synthetix-rewards-dist-ext/3.6.0/42161-main">synthetix-rewards-dist-ext:3.6.0@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmXXcY89RUbncZZb73VMzmLXg1DtJmrmpV18EE65xNr58L">QmXXcY89RUbncZZb73VMzmLXg1DtJmrmpV18EE65xNr58L</a></td>
+      <td>
+        authorizedDistributor: <a href="https://arbiscan.io/address/0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce"><code>0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce</code></a
+        ><br />name: Rewards Distributor (External) V3<br />payoutToken: <a href="https://arbiscan.io/address/0x22e6966B799c4D5B13BE962E1D117b56327FDa66"><code>0x22e6966B799c4D5B13BE962E1D117b56327FDa66</code></a
+        ><br />payoutTokenDecimals: 18<br />poolId: 1<br />rewardManager: <a href="https://arbiscan.io/address/0x32C222A9A159782aFD7529c87FA34b96CA72C696"><code>0x32C222A9A159782aFD7529c87FA34b96CA72C696</code></a
+        ><br />salt: rewards
+      </td>
+    </tr>
   </tbody>
 </table>
 
@@ -254,17 +358,17 @@
     </tr>
     <tr>
       <td>system</td>
-      <td><a href="https://usecannon.com/packages/synthetix/3.5.0/421614-main">synthetix:3.5.0@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmeSr3VngWFnjNjnxMhuZVeg14HLffFfbXLd1DHmFgrtPo">QmeSr3VngWFnjNjnxMhuZVeg14HLffFfbXLd1DHmFgrtPo</a></td>
+      <td><a href="https://usecannon.com/packages/synthetix/3.7.1/421614-main">synthetix:3.7.1@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/Qman1dVbP5U2wRzCSQAxd7f1m8qoJXzhrSjAGx4pk76Zyf">Qman1dVbP5U2wRzCSQAxd7f1m8qoJXzhrSjAGx4pk76Zyf</a></td>
       <td>
-        bundleSalt: main<br />oracle_manager_source: oracle-manager<br />owner: <a href="https://sepolia.arbiscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
-        ><br />salt: main<br />const_one_oracle_id: 0x066ef68c9d9ca51eee861aeb5bce51a12e61f06f10bf62243c563671ae3a9733
+        account_token_name: Synthetix Account<br />account_token_symbol: SACCT<br />bundleSalt: main<br />oracle_manager_package: oracle-manager<br />owner: <a href="https://sepolia.arbiscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
+        ><br />salt: main<br />usd_token_name: Synthetic USD Token v3<br />usd_token_symbol: sUSD<br />const_one_oracle_id: 0x066ef68c9d9ca51eee861aeb5bce51a12e61f06f10bf62243c563671ae3a9733
       </td>
     </tr>
     <tr>
       <td>spotFactory</td>
-      <td><a href="https://usecannon.com/packages/synthetix-spot-market/3.3.21-dev.fd4c5628/421614-main">synthetix-spot-market:3.3.21-dev.fd4c5628@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmbWUq5AggyaTs6LymmM7bUYZ3AbmJgVdv9bMaqPG8fMo9">QmbWUq5AggyaTs6LymmM7bUYZ3AbmJgVdv9bMaqPG8fMo9</a></td>
+      <td><a href="https://usecannon.com/packages/synthetix-spot-market/3.7.1/421614-main">synthetix-spot-market:3.7.1@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmNeRuch2sUTBhHmzAYv9wuYUN9R4QKjEAeqCFW1oBi3QH">QmNeRuch2sUTBhHmzAYv9wuYUN9R4QKjEAeqCFW1oBi3QH</a></td>
       <td>
         owner: <a href="https://sepolia.arbiscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />salt: snax<br />synthetixPackage: synthetix<br />synthetixPreset: main
@@ -272,8 +376,8 @@
     </tr>
     <tr>
       <td>perpsFactory</td>
-      <td><a href="https://usecannon.com/packages/synthetix-perps-market/3.4.1/421614-main">synthetix-perps-market:3.4.1@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmP4Cpwh5TmGuyDf7hZnSLsyHhYykoZvLp5YQP94HEvPud">QmP4Cpwh5TmGuyDf7hZnSLsyHhYykoZvLp5YQP94HEvPud</a></td>
+      <td><a href="https://usecannon.com/packages/synthetix-perps-market/3.7.1/421614-main">synthetix-perps-market:3.7.1@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmeT5zVTHLtXYBKqvQJh4he1VyDRQLPNb8HHN1bHc6Xpvx">QmeT5zVTHLtXYBKqvQJh4he1VyDRQLPNb8HHN1bHc6Xpvx</a></td>
       <td>
         coreProxyOwner: <a href="https://sepolia.arbiscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />owner: <a href="https://sepolia.arbiscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
@@ -524,6 +628,77 @@
         ><br />salt: rewards
       </td>
     </tr>
+    <tr>
+      <td>RewardsDistributor_sBTC_liquidation_rewards</td>
+      <td><a href="https://usecannon.com/packages/synthetix-rewards-dist-ext/3.6.0/421614-main">synthetix-rewards-dist-ext:3.6.0@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmUBkrayZHDtsKPeD7STuDotqLWD7fVxiYYyGbGYmH1qVR">QmUBkrayZHDtsKPeD7STuDotqLWD7fVxiYYyGbGYmH1qVR</a></td>
+      <td>
+        authorizedDistributor: <a href="https://sepolia.arbiscan.io/address/0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce"><code>0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce</code></a
+        ><br />name: Rewards Distributor (External) V3<br />payoutToken: <a href="https://sepolia.arbiscan.io/address/0x22e6966B799c4D5B13BE962E1D117b56327FDa66"><code>0x22e6966B799c4D5B13BE962E1D117b56327FDa66</code></a
+        ><br />payoutTokenDecimals: 18<br />poolId: 1<br />rewardManager: <a href="https://sepolia.arbiscan.io/address/0x32C222A9A159782aFD7529c87FA34b96CA72C696"><code>0x32C222A9A159782aFD7529c87FA34b96CA72C696</code></a
+        ><br />salt: rewards
+      </td>
+    </tr>
+    <tr>
+      <td>RewardsDistributor_sETH_liquidation_rewards</td>
+      <td><a href="https://usecannon.com/packages/synthetix-rewards-dist-ext/3.6.0/421614-main">synthetix-rewards-dist-ext:3.6.0@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmZV8jUgBPD1owS5BFtqEA8f4APru3DSsaE2iGagBjHkgC">QmZV8jUgBPD1owS5BFtqEA8f4APru3DSsaE2iGagBjHkgC</a></td>
+      <td>
+        authorizedDistributor: <a href="https://sepolia.arbiscan.io/address/0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce"><code>0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce</code></a
+        ><br />name: Rewards Distributor (External) V3<br />payoutToken: <a href="https://sepolia.arbiscan.io/address/0x22e6966B799c4D5B13BE962E1D117b56327FDa66"><code>0x22e6966B799c4D5B13BE962E1D117b56327FDa66</code></a
+        ><br />payoutTokenDecimals: 18<br />poolId: 1<br />rewardManager: <a href="https://sepolia.arbiscan.io/address/0x32C222A9A159782aFD7529c87FA34b96CA72C696"><code>0x32C222A9A159782aFD7529c87FA34b96CA72C696</code></a
+        ><br />salt: rewards
+      </td>
+    </tr>
+    <tr>
+      <td>SOL_mock_collateral</td>
+      <td><a href="https://usecannon.com/packages/synthetix-mock-tokens/1.8/421614-main">synthetix-mock-tokens:1.8@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmeDXCKBL2UcC5CD1wLDFZFuLa6WrHRnifQsqFTQXtxqV2">QmeDXCKBL2UcC5CD1wLDFZFuLa6WrHRnifQsqFTQXtxqV2</a></td>
+      <td>
+        decimals: 18<br />initialSupply: 0<br />name: Token<br />owner: <a href="https://sepolia.arbiscan.io/address/0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"><code>0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9</code></a
+        ><br />salt: <br />symbol: TKN
+      </td>
+    </tr>
+    <tr>
+      <td>RewardsDistributor_sSOL_liquidation_rewards</td>
+      <td><a href="https://usecannon.com/packages/synthetix-rewards-dist-ext/3.6.0/421614-main">synthetix-rewards-dist-ext:3.6.0@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmX55zHr4nZFumz7DA3jEC6FV7dFuDb7Ru6afuDxYrVWys">QmX55zHr4nZFumz7DA3jEC6FV7dFuDb7Ru6afuDxYrVWys</a></td>
+      <td>
+        authorizedDistributor: <a href="https://sepolia.arbiscan.io/address/0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce"><code>0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce</code></a
+        ><br />name: Rewards Distributor (External) V3<br />payoutToken: <a href="https://sepolia.arbiscan.io/address/0x22e6966B799c4D5B13BE962E1D117b56327FDa66"><code>0x22e6966B799c4D5B13BE962E1D117b56327FDa66</code></a
+        ><br />payoutTokenDecimals: 18<br />poolId: 1<br />rewardManager: <a href="https://sepolia.arbiscan.io/address/0x32C222A9A159782aFD7529c87FA34b96CA72C696"><code>0x32C222A9A159782aFD7529c87FA34b96CA72C696</code></a
+        ><br />salt: rewards
+      </td>
+    </tr>
+    <tr>
+      <td>RewardsDistributor_sUSDe_liquidation_rewards</td>
+      <td><a href="https://usecannon.com/packages/synthetix-rewards-dist-ext/3.6.0/421614-main">synthetix-rewards-dist-ext:3.6.0@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmSkvBUV27DoQYyiu3Co14SUR3dkuBRQyYjF9SxCcGNX62">QmSkvBUV27DoQYyiu3Co14SUR3dkuBRQyYjF9SxCcGNX62</a></td>
+      <td>
+        authorizedDistributor: <a href="https://sepolia.arbiscan.io/address/0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce"><code>0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce</code></a
+        ><br />name: Rewards Distributor (External) V3<br />payoutToken: <a href="https://sepolia.arbiscan.io/address/0x22e6966B799c4D5B13BE962E1D117b56327FDa66"><code>0x22e6966B799c4D5B13BE962E1D117b56327FDa66</code></a
+        ><br />payoutTokenDecimals: 18<br />poolId: 1<br />rewardManager: <a href="https://sepolia.arbiscan.io/address/0x32C222A9A159782aFD7529c87FA34b96CA72C696"><code>0x32C222A9A159782aFD7529c87FA34b96CA72C696</code></a
+        ><br />salt: rewards
+      </td>
+    </tr>
+    <tr>
+      <td>weeth_mock_collateral</td>
+      <td><a href="https://usecannon.com/packages/synthetix-mock-tokens/1.8/421614-main">synthetix-mock-tokens:1.8@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmZ1YzgSLTYt8zEdhLSp9aj3evbaqU94ea3YwwHJJb1YUP">QmZ1YzgSLTYt8zEdhLSp9aj3evbaqU94ea3YwwHJJb1YUP</a></td>
+      <td>
+        decimals: 18<br />initialSupply: 0<br />name: Token<br />owner: <a href="https://sepolia.arbiscan.io/address/0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"><code>0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9</code></a
+        ><br />salt: <br />symbol: TKN
+      </td>
+    </tr>
+    <tr>
+      <td>wsteth_mock_collateral</td>
+      <td><a href="https://usecannon.com/packages/synthetix-mock-tokens/1.8/421614-main">synthetix-mock-tokens:1.8@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmRNJfpeLyDFDh1xtf155YqKAQHcgAC3wKPdRiYYuUZkqy">QmRNJfpeLyDFDh1xtf155YqKAQHcgAC3wKPdRiYYuUZkqy</a></td>
+      <td>
+        decimals: 18<br />initialSupply: 0<br />name: Token<br />owner: <a href="https://sepolia.arbiscan.io/address/0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"><code>0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9</code></a
+        ><br />salt: <br />symbol: TKN
+      </td>
+    </tr>
   </tbody>
 </table>
 
@@ -558,7 +733,7 @@
     <tr>
       <td>system</td>
       <td><a href="https://usecannon.com/packages/synthetix/3.3.18/8453-andromeda">synthetix:3.3.18@andromeda</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmWC9jGGGWfuTYgr2pUrGeijJVUyhfWxoLW47TfKWV7JqF">QmWC9jGGGWfuTYgr2pUrGeijJVUyhfWxoLW47TfKWV7JqF</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmfDMVx6PpjK91d76BM14fPyyZwD4rZZSpGh8A1BDGy9XN">QmfDMVx6PpjK91d76BM14fPyyZwD4rZZSpGh8A1BDGy9XN</a></td>
       <td>
         bundleSalt: main<br />oracle_manager_source: oracle-manager<br />owner: <a href="https://basescan.org/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />salt: main
@@ -567,7 +742,7 @@
     <tr>
       <td>spotFactory</td>
       <td><a href="https://usecannon.com/packages/synthetix-spot-market/3.3.15/8453-andromeda">synthetix-spot-market:3.3.15@andromeda</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmULsmBK2hULvw3KdyJjiDbo1JHHQPY6f14MJKA6KitCsP">QmULsmBK2hULvw3KdyJjiDbo1JHHQPY6f14MJKA6KitCsP</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmNjjJRgazUm6WH7a28ystCPidfJSpc5dqJEtwnhFqKKxo">QmNjjJRgazUm6WH7a28ystCPidfJSpc5dqJEtwnhFqKKxo</a></td>
       <td>
         owner: <a href="https://basescan.org/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />salt: snax<br />synthetixPackage: synthetix:3.3.15<br />synthetixPreset: main
@@ -576,7 +751,7 @@
     <tr>
       <td>perpsFactory</td>
       <td><a href="https://usecannon.com/packages/synthetix-perps-market/3.3.19/8453-andromeda">synthetix-perps-market:3.3.19@andromeda</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmfEejk8fsujKA3Tm47JMyZXBd934P7mYq2rM56qoT5AQf">QmfEejk8fsujKA3Tm47JMyZXBd934P7mYq2rM56qoT5AQf</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmaXY9WoMMY6uMEYdCWgzYH4KYz3ZqwcNKMs1eS3EmzNQX">QmaXY9WoMMY6uMEYdCWgzYH4KYz3ZqwcNKMs1eS3EmzNQX</a></td>
       <td>
         coreProxyOwner: <a href="https://basescan.org/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />owner: <a href="https://basescan.org/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
@@ -681,8 +856,8 @@
     </tr>
     <tr>
       <td>perpsFactory</td>
-      <td><a href="https://usecannon.com/packages/synthetix-perps-market/3.3.19/84532-andromeda">synthetix-perps-market:3.3.19@andromeda</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmfWTzMvd6Sa4mhptEdSAhDZbBBxiukoKUnT9Cy4pxvxQe">QmfWTzMvd6Sa4mhptEdSAhDZbBBxiukoKUnT9Cy4pxvxQe</a></td>
+      <td><a href="https://usecannon.com/packages/synthetix-perps-market/3.6.4/84532-andromeda">synthetix-perps-market:3.6.4@andromeda</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/Qmc8KKfRLSpeLsWfkvMqu9zENkw21GQhFBjWircGo7arGd">Qmc8KKfRLSpeLsWfkvMqu9zENkw21GQhFBjWircGo7arGd</a></td>
       <td>
         coreProxyOwner: <a href="https://sepolia.basescan.org/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />owner: <a href="https://sepolia.basescan.org/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
@@ -723,8 +898,8 @@
     </tr>
     <tr>
       <td>perpsLowCapFactory</td>
-      <td><a href="https://usecannon.com/packages/synthetix-perps-market/3.3.19/84532-andromeda">synthetix-perps-market:3.3.19@andromeda</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmfWTzMvd6Sa4mhptEdSAhDZbBBxiukoKUnT9Cy4pxvxQe">QmfWTzMvd6Sa4mhptEdSAhDZbBBxiukoKUnT9Cy4pxvxQe</a></td>
+      <td><a href="https://usecannon.com/packages/synthetix-perps-market/3.6.4/84532-andromeda">synthetix-perps-market:3.6.4@andromeda</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmWwF7W3m5ijwEgdf3ZDZ4WvpXaAhidx35wfNwNhpc7WmV">QmWwF7W3m5ijwEgdf3ZDZ4WvpXaAhidx35wfNwNhpc7WmV</a></td>
       <td>
         coreProxyOwner: <a href="https://sepolia.basescan.org/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />owner: <a href="https://sepolia.basescan.org/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
