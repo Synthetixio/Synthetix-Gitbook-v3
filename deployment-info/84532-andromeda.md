@@ -938,7 +938,7 @@ Perps market ID: <code>100</code>
       <td>endorsedLiquidator</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0x95A61Fa7454CA5f6A3CE01724e306Cd14a22D306"><code>0x95A61Fa7454CA5f6A3CE01724e306Cd14a22D306</code></a>
+        <a href="https://sepolia.basescan.org/address/0x11233749514Ab8d00C0A5873DF7428b3db70030f"><code>0x11233749514Ab8d00C0A5873DF7428b3db70030f</code></a>
       </td>
     </tr>
     <tr>
@@ -3094,7 +3094,7 @@ Perps market ID: <code>200</code>
       <td>endorsedLiquidator</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0x95A61Fa7454CA5f6A3CE01724e306Cd14a22D306"><code>0x95A61Fa7454CA5f6A3CE01724e306Cd14a22D306</code></a>
+        <a href="https://sepolia.basescan.org/address/0x11233749514Ab8d00C0A5873DF7428b3db70030f"><code>0x11233749514Ab8d00C0A5873DF7428b3db70030f</code></a>
       </td>
     </tr>
     <tr>
@@ -5250,7 +5250,7 @@ Perps market ID: <code>300</code>
       <td>endorsedLiquidator</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0x95A61Fa7454CA5f6A3CE01724e306Cd14a22D306"><code>0x95A61Fa7454CA5f6A3CE01724e306Cd14a22D306</code></a>
+        <a href="https://sepolia.basescan.org/address/0x11233749514Ab8d00C0A5873DF7428b3db70030f"><code>0x11233749514Ab8d00C0A5873DF7428b3db70030f</code></a>
       </td>
     </tr>
     <tr>
@@ -7406,7 +7406,7 @@ Perps market ID: <code>400</code>
       <td>endorsedLiquidator</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0x95A61Fa7454CA5f6A3CE01724e306Cd14a22D306"><code>0x95A61Fa7454CA5f6A3CE01724e306Cd14a22D306</code></a>
+        <a href="https://sepolia.basescan.org/address/0x11233749514Ab8d00C0A5873DF7428b3db70030f"><code>0x11233749514Ab8d00C0A5873DF7428b3db70030f</code></a>
       </td>
     </tr>
     <tr>
@@ -9108,8 +9108,8 @@ Perps market ID: <code>4800</code>
     </tr>
     <tr>
       <td>makerFee</td>
-      <td>1,e-7</td>
-      <td><code>100000000000</code> / <code>0x174876e800</code></td>
+      <td>0.000001</td>
+      <td><code>1000000000000</code> / <code>0xe8d4a51000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
@@ -9562,7 +9562,7 @@ Perps market ID: <code>500</code>
       <td>endorsedLiquidator</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0x95A61Fa7454CA5f6A3CE01724e306Cd14a22D306"><code>0x95A61Fa7454CA5f6A3CE01724e306Cd14a22D306</code></a>
+        <a href="https://sepolia.basescan.org/address/0x11233749514Ab8d00C0A5873DF7428b3db70030f"><code>0x11233749514Ab8d00C0A5873DF7428b3db70030f</code></a>
       </td>
     </tr>
     <tr>
