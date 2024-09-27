@@ -590,6 +590,9 @@ other accounts would be left with no change to their debt, however.
   Deposits `tokenAmount` of collateral of type `collateralType` into account `accountId`.
 
   Anyone can deposit into anyone's active account without restriction.
+Depositing to account will automatically clear expired locks on a user's account. If there are an
+extremely large number of locks to process, it may not be possible to call `deposit` due to the block gas
+limit. In cases such as these, `cleanExpiredLocks` must be called first to clear any outstanding locks.
 
 **Parameters**
 * `accountId` (*uint128*) - The id of the account that is making the deposit.
@@ -642,7 +645,7 @@ other accounts would be left with no change to their debt, however.
 #### cleanExpiredLocks
 
   ```solidity
-  function cleanExpiredLocks(uint128 accountId, address collateralType, uint256 offset, uint256 count) external returns (uint256 cleared)
+  function cleanExpiredLocks(uint128 accountId, address collateralType, uint256 offset, uint256 count) external returns (uint256 cleared, uint256 remainingLockAmountD18)
   ```
 
   Clean expired locks from locked collateral arrays for an account/collateral type. It includes offset and items to prevent gas exhaustion. If both, offset and items, are 0 it will traverse the whole array (unlimited).
@@ -655,6 +658,7 @@ other accounts would be left with no change to their debt, however.
 
 **Returns**
 * `cleared` (*uint256*) - the number of locks that were actually expired (and therefore cleared)
+* `remainingLockAmountD18` (*uint256*) - 
 #### getLocks
 
   ```solidity
@@ -717,14 +721,12 @@ Collateral locks are initially intended for the Synthetix v2 to v3 migration, bu
 #### CollateralLockExpired
 
   ```solidity
-  event CollateralLockExpired(uint128 accountId, address collateralType, uint256 tokenAmount, uint64 expireTimestamp)
+  event CollateralLockExpired(uint256 tokenAmount, uint64 expireTimestamp)
   ```
 
   Emitted when a lock is cleared from an account due to expiration
 
 **Parameters**
-* `accountId` (*uint128*) - The id of the account that has the expired lock
-* `collateralType` (*address*) - The address of the collateral type that was unlocked
 * `tokenAmount` (*uint256*) - The amount of collateral that was unlocked, demoninated in system units (1e18)
 * `expireTimestamp` (*uint64*) - unix timestamp at which the unlock is due to expire
 
