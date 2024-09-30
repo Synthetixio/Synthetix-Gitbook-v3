@@ -96,17 +96,17 @@
     </tr>
     <tr>
       <td>system</td>
-      <td><a href="https://usecannon.com/packages/synthetix/3.6.0/11155111-main">synthetix:3.6.0@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmPxqsi9bHvnajYa1rToEtDuAH7Ddsbuq8fcV5K4egV36K">QmPxqsi9bHvnajYa1rToEtDuAH7Ddsbuq8fcV5K4egV36K</a></td>
+      <td><a href="https://usecannon.com/packages/synthetix/3.8.0/11155111-main">synthetix:3.8.0@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmRiigZMPUVnFPhLMmLEMbTuX5vvMU99QdAfRoDvzMRQno">QmRiigZMPUVnFPhLMmLEMbTuX5vvMU99QdAfRoDvzMRQno</a></td>
       <td>
-        account_token_name: Synthetix Account<br />account_token_symbol: SACCT<br />bundleSalt: main<br />oracle_manager_source: oracle-manager<br />owner: <a href="https://sepolia.etherscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
+        account_token_name: Synthetix Account<br />account_token_symbol: SACCT<br />bundleSalt: main<br />oracle_manager_package: oracle-manager<br />owner: <a href="https://sepolia.etherscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />salt: main<br />usd_token_name: Synthetic USD Token v3<br />usd_token_symbol: sUSD<br />const_one_oracle_id: 0x066ef68c9d9ca51eee861aeb5bce51a12e61f06f10bf62243c563671ae3a9733
       </td>
     </tr>
     <tr>
       <td>legacyMarket</td>
-      <td><a href="https://usecannon.com/packages/synthetix-legacy-market/3.5.0/11155111-main">synthetix-legacy-market:3.5.0@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmafsvRuiGKMye4kaNyyxt7Q2BcZywjK3vDJUhuXy7i96K">QmafsvRuiGKMye4kaNyyxt7Q2BcZywjK3vDJUhuXy7i96K</a></td>
+      <td><a href="https://usecannon.com/packages/synthetix-legacy-market/3.8.0/11155111-main">synthetix-legacy-market:3.8.0@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmddoHXXGo69a7uC2Xo1nJKEni1LbWf17kX4h59ZGDcEYq">QmddoHXXGo69a7uC2Xo1nJKEni1LbWf17kX4h59ZGDcEYq</a></td>
       <td>
         owner: <a href="https://sepolia.etherscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />pool_owner: <a href="https://sepolia.etherscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
@@ -116,7 +116,7 @@
     <tr>
       <td>spotFactory</td>
       <td><a href="https://usecannon.com/packages/synthetix-spot-market/3.6.0/11155111-main">synthetix-spot-market:3.6.0@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmRQjeCtsLjcMCygPKsvfAzbdy3boxoU1N7o7VbvUUTXYs">QmRQjeCtsLjcMCygPKsvfAzbdy3boxoU1N7o7VbvUUTXYs</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/Qmdc3zt1UjJCazvCWVZag14u4aw8c83JaqP9bXHCDwiRdT">Qmdc3zt1UjJCazvCWVZag14u4aw8c83JaqP9bXHCDwiRdT</a></td>
       <td>
         owner: <a href="https://sepolia.etherscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />salt: snax<br />synthetixPackage: synthetix<br />synthetixPreset: main
@@ -134,7 +134,7 @@
     <tr>
       <td>bfp_market_factory</td>
       <td><a href="https://usecannon.com/packages/synthetix-bfp-market/3.6.0/11155111-main">synthetix-bfp-market:3.6.0@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmPyZM9fofuhXUe7WG6hYqGAYvcZC6mxAM2nks7WMb5BMm">QmPyZM9fofuhXUe7WG6hYqGAYvcZC6mxAM2nks7WMb5BMm</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmRqyvBtXP5DzbWQXwqWSkYUa3CcnY94sbYBRRNgpqJAzy">QmRqyvBtXP5DzbWQXwqWSkYUa3CcnY94sbYBRRNgpqJAzy</a></td>
       <td>
         owner: <a href="https://sepolia.etherscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />salt: snax<br />synthetixPackage: synthetix:latest<br />synthetixPreset: main
