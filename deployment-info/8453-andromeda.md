@@ -8982,8 +8982,8 @@ Perps market ID: <code>4800</code>
     </tr>
     <tr>
       <td>makerFee</td>
-      <td>1,e-7</td>
-      <td><code>100000000000</code> / <code>0x174876e800</code></td>
+      <td>0.000001</td>
+      <td><code>1000000000000</code> / <code>0xe8d4a51000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
