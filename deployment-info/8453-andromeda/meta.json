@@ -4,7 +4,7 @@
   "preset": "andromeda",
   "version": "52",
   "generator": "cannon cli 2.17.4",
-  "timestamp": 1727871799,
+  "timestamp": 1727954778,
   "miscUrl": "ipfs://QmeSt2mnJKE8qmRhLyYbHQQxDKpsFbcWnw5e7JF4xVbN6k",
   "contracts": {
     "CoreProxy": "0x32C222A9A159782aFD7529c87FA34b96CA72C696",

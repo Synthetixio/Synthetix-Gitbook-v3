@@ -1,6 +1,6 @@
 {
   "generator": "cannon cli 2.17.4",
-  "timestamp": 1727871799,
+  "timestamp": 1727954778,
   "def": {
     "setting": {
       "snx_package": {
@@ -19142,7 +19142,7 @@
       "artifacts": {
         "imports": {
           "system": {
-            "url": "ipfs://Qma8EML4Ur29XLPF4THKv4CVv21y464hS2qWsCvxARbi4W",
+            "url": "ipfs://QmfDMVx6PpjK91d76BM14fPyyZwD4rZZSpGh8A1BDGy9XN",
             "tags": [
               "latest"
             ],
@@ -20709,7 +20709,7 @@
                 }
               },
               "oracle_manager": {
-                "url": "ipfs://Qmbo2rRkfwDR9mfgokEBquTWTLQunvtQpkgNG6HhyEDcbL",
+                "url": "ipfs://QmfV2dfjqtgUPexGSZhFTTFsG1DeiS2NqTpWY4dE8tAoX2",
                 "tags": [
                   "latest"
                 ],
@@ -20717,10 +20717,12 @@
                 "preset": "with-synthetix",
                 "contracts": {
                   "NodeModule": {
-                    "address": "0x5e6CB7E728E1C320855587E1D9C6F7972ebdD6D5",
+                    "address": "0xB2505D6EA571639C9902ecCa70A1f93a0D321e39",
                     "abi": [
-                      "error Errors(bytes[] revertReasons)",
+                      "error DeviationToleranceExceeded(int256 deviation)",
+                      "error InvalidInputPrice()",
                       "error InvalidNodeDefinition(tuple(uint8 nodeType, bytes parameters, bytes32[] parents) nodeType)",
+                      "error InvalidParameter(string parameter, string reason)",
                       "error InvalidPrice(int256 price)",
                       "error NodeNotRegistered(bytes32 nodeId)",
                       "error OracleDataRequired(address oracleContract, bytes oracleQuery)",
@@ -20729,24 +20731,26 @@
                       "error OverflowUint256ToInt256()",
                       "error OverflowUint256ToUint160()",
                       "error OverflowUint56ToInt56()",
+                      "error StalenessToleranceExceeded(bytes32 parentId, int256 price, uint256 staleTimestamp)",
+                      "error UnprocessableNode(bytes32 nodeId)",
+                      "error UnsupportedOperation(uint8 operation)",
                       "event NodeRegistered(bytes32 nodeId, uint8 nodeType, bytes parameters, bytes32[] parents)",
                       "function getNode(bytes32 nodeId) pure returns (tuple(uint8 nodeType, bytes parameters, bytes32[] parents) node)",
                       "function getNodeId(uint8 nodeType, bytes parameters, bytes32[] parents) pure returns (bytes32 nodeId)",
                       "function process(bytes32 nodeId) view returns (tuple(int256 price, uint256 timestamp, uint256 __slotAvailableForFutureUse1, uint256 __slotAvailableForFutureUse2) node)",
-                      "function processManyWithRuntime(bytes32[] nodeIds, bytes32[] runtimeKeys, bytes32[] runtimeValues) view returns (tuple(int256 price, uint256 timestamp, uint256 __slotAvailableForFutureUse1, uint256 __slotAvailableForFutureUse2)[] nodes)",
                       "function processWithRuntime(bytes32 nodeId, bytes32[] runtimeKeys, bytes32[] runtimeValues) view returns (tuple(int256 price, uint256 timestamp, uint256 __slotAvailableForFutureUse1, uint256 __slotAvailableForFutureUse2) node)",
                       "function registerNode(uint8 nodeType, bytes parameters, bytes32[] parents) returns (bytes32 nodeId)"
                     ],
                     "constructorArgs": [],
                     "linkedLibraries": {},
-                    "deployTxnHash": "0x0e8ba90c866247f1bdaa0761ea8b93db145b57030be47fba40b10f9548b9c8b8",
-                    "deployTxnBlockNumber": "20541173",
-                    "deployTimestamp": "1727871701",
+                    "deployTxnHash": "0xf1dc0a0da4103ddecacbd7de516046682d9b031497ba9785641ae6bc75cc464d",
+                    "deployTxnBlockNumber": "19119881",
+                    "deployTimestamp": "1725029109",
                     "sourceName": "contracts/modules/NodeModule.sol",
                     "contractName": "NodeModule",
                     "deployedOn": "contract.NodeModule",
-                    "gasUsed": 4539095,
-                    "gasCost": "1006855253"
+                    "gasUsed": 4106509,
+                    "gasCost": "14134099"
                   },
                   "CoreModule": {
                     "address": "0xef0E3210A07A803527ed20B87E0F5A204cdc653f",
@@ -20814,7 +20818,7 @@
                     "gasCost": "1500000057"
                   },
                   "OracleRouter": {
-                    "address": "0x79e8ab29ff79805025c9462a2f2f12e9a496f81d",
+                    "address": "0x9d2e092fd18f3bf7dc6a11124ab8365116fc46e2",
                     "abi": [
                       "error ImplementationIsSterile(address implementation)",
                       "error NoChange()",
@@ -20834,8 +20838,10 @@
                       "function renounceNomination()",
                       "function simulateUpgradeTo(address newImplementation)",
                       "function upgradeTo(address newImplementation)",
-                      "error Errors(bytes[] revertReasons)",
+                      "error DeviationToleranceExceeded(int256 deviation)",
+                      "error InvalidInputPrice()",
                       "error InvalidNodeDefinition(tuple(uint8 nodeType, bytes parameters, bytes32[] parents) nodeType)",
+                      "error InvalidParameter(string parameter, string reason)",
                       "error InvalidPrice(int256 price)",
                       "error NodeNotRegistered(bytes32 nodeId)",
                       "error OracleDataRequired(address oracleContract, bytes oracleQuery)",
@@ -20844,22 +20850,24 @@
                       "error OverflowUint256ToInt256()",
                       "error OverflowUint256ToUint160()",
                       "error OverflowUint56ToInt56()",
+                      "error StalenessToleranceExceeded(bytes32 parentId, int256 price, uint256 staleTimestamp)",
+                      "error UnprocessableNode(bytes32 nodeId)",
+                      "error UnsupportedOperation(uint8 operation)",
                       "event NodeRegistered(bytes32 nodeId, uint8 nodeType, bytes parameters, bytes32[] parents)",
                       "function getNode(bytes32 nodeId) pure returns (tuple(uint8 nodeType, bytes parameters, bytes32[] parents) node)",
                       "function getNodeId(uint8 nodeType, bytes parameters, bytes32[] parents) pure returns (bytes32 nodeId)",
                       "function process(bytes32 nodeId) view returns (tuple(int256 price, uint256 timestamp, uint256 __slotAvailableForFutureUse1, uint256 __slotAvailableForFutureUse2) node)",
-                      "function processManyWithRuntime(bytes32[] nodeIds, bytes32[] runtimeKeys, bytes32[] runtimeValues) view returns (tuple(int256 price, uint256 timestamp, uint256 __slotAvailableForFutureUse1, uint256 __slotAvailableForFutureUse2)[] nodes)",
                       "function processWithRuntime(bytes32 nodeId, bytes32[] runtimeKeys, bytes32[] runtimeValues) view returns (tuple(int256 price, uint256 timestamp, uint256 __slotAvailableForFutureUse1, uint256 __slotAvailableForFutureUse2) node)",
                       "function registerNode(uint8 nodeType, bytes parameters, bytes32[] parents) returns (bytes32 nodeId)"
                     ],
                     "deployedOn": "router.OracleRouter",
-                    "deployTxnHash": "0xce426a78d1eb7627de74f133f0d5a108350f900643537cf1c671cf5821d26616",
-                    "deployTxnBlockNumber": "20541174",
-                    "deployTimestamp": "1727871702",
+                    "deployTxnHash": "0x2dddbf892660b422bc89b80dcfd8f378ff51a3bffbdb26cc3713dc4c298f8f8d",
+                    "deployTxnBlockNumber": "19119884",
+                    "deployTimestamp": "1725029115",
                     "contractName": "OracleRouter",
                     "sourceName": "OracleRouter.sol",
-                    "gasUsed": 254434,
-                    "gasCost": "1006057280"
+                    "gasUsed": 246006,
+                    "gasCost": "14139829"
                   },
                   "Proxy": {
                     "address": "0x3d07CBC5Cb9376A67E76C0655Fe239dDa8E2B264",
@@ -20882,8 +20890,10 @@
                       "function renounceNomination()",
                       "function simulateUpgradeTo(address newImplementation)",
                       "function upgradeTo(address newImplementation)",
-                      "error Errors(bytes[] revertReasons)",
+                      "error DeviationToleranceExceeded(int256 deviation)",
+                      "error InvalidInputPrice()",
                       "error InvalidNodeDefinition(tuple(uint8 nodeType, bytes parameters, bytes32[] parents) nodeType)",
+                      "error InvalidParameter(string parameter, string reason)",
                       "error InvalidPrice(int256 price)",
                       "error NodeNotRegistered(bytes32 nodeId)",
                       "error OracleDataRequired(address oracleContract, bytes oracleQuery)",
@@ -20892,11 +20902,13 @@
                       "error OverflowUint256ToInt256()",
                       "error OverflowUint256ToUint160()",
                       "error OverflowUint56ToInt56()",
+                      "error StalenessToleranceExceeded(bytes32 parentId, int256 price, uint256 staleTimestamp)",
+                      "error UnprocessableNode(bytes32 nodeId)",
+                      "error UnsupportedOperation(uint8 operation)",
                       "event NodeRegistered(bytes32 nodeId, uint8 nodeType, bytes parameters, bytes32[] parents)",
                       "function getNode(bytes32 nodeId) pure returns (tuple(uint8 nodeType, bytes parameters, bytes32[] parents) node)",
                       "function getNodeId(uint8 nodeType, bytes parameters, bytes32[] parents) pure returns (bytes32 nodeId)",
                       "function process(bytes32 nodeId) view returns (tuple(int256 price, uint256 timestamp, uint256 __slotAvailableForFutureUse1, uint256 __slotAvailableForFutureUse2) node)",
-                      "function processManyWithRuntime(bytes32[] nodeIds, bytes32[] runtimeKeys, bytes32[] runtimeValues) view returns (tuple(int256 price, uint256 timestamp, uint256 __slotAvailableForFutureUse1, uint256 __slotAvailableForFutureUse2)[] nodes)",
                       "function processWithRuntime(bytes32 nodeId, bytes32[] runtimeKeys, bytes32[] runtimeValues) view returns (tuple(int256 price, uint256 timestamp, uint256 __slotAvailableForFutureUse1, uint256 __slotAvailableForFutureUse2) node)",
                       "function registerNode(uint8 nodeType, bytes parameters, bytes32[] parents) returns (bytes32 nodeId)"
                     ],
@@ -20981,23 +20993,23 @@
                 },
                 "txns": {
                   "upgrade_proxy": {
-                    "hash": "0x37b28aef04795afec13686decc1052df7553e1a5cb7df567d784ef95d7f3b241",
-                    "blockNumber": "20541175",
-                    "timestamp": "1727871704",
+                    "hash": "",
+                    "blockNumber": "19120596",
+                    "timestamp": "1725030574",
                     "events": {
                       "Upgraded": [
                         {
                           "name": "Upgraded",
                           "args": [
                             "0x3d07CBC5Cb9376A67E76C0655Fe239dDa8E2B264",
-                            "0x79E8AB29Ff79805025c9462a2f2F12e9A496f81d"
+                            "0x9D2e092fd18F3bf7Dc6A11124ab8365116FC46E2"
                           ]
                         }
                       ]
                     },
                     "deployedOn": "invoke.upgrade_proxy",
-                    "gasUsed": 55368,
-                    "gasCost": "1005303039",
+                    "gasUsed": 55346,
+                    "gasCost": "1012317208",
                     "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
                   }
                 },
@@ -21787,7 +21799,7 @@
       "artifacts": {
         "imports": {
           "spotFactory": {
-            "url": "ipfs://QmdLmGuMFCjo4mPH6ebnkMU7byUWFQ8BVkJA45CfWWdAuR",
+            "url": "ipfs://QmNjjJRgazUm6WH7a28ystCPidfJSpc5dqJEtwnhFqKKxo",
             "tags": [
               "latest"
             ],
@@ -22570,7 +22582,7 @@
             },
             "imports": {
               "synthetix": {
-                "url": "ipfs://Qma8EML4Ur29XLPF4THKv4CVv21y464hS2qWsCvxARbi4W",
+                "url": "ipfs://QmfDMVx6PpjK91d76BM14fPyyZwD4rZZSpGh8A1BDGy9XN",
                 "contracts": {
                   "AccountModule": {
                     "address": "0xB19c1D84c7c14e50E408f132459D724EB3367526",
@@ -24132,7 +24144,7 @@
                     }
                   },
                   "oracle_manager": {
-                    "url": "ipfs://Qmbo2rRkfwDR9mfgokEBquTWTLQunvtQpkgNG6HhyEDcbL",
+                    "url": "ipfs://QmfV2dfjqtgUPexGSZhFTTFsG1DeiS2NqTpWY4dE8tAoX2",
                     "tags": [
                       "latest"
                     ],
@@ -24140,10 +24152,12 @@
                     "preset": "with-synthetix",
                     "contracts": {
                       "NodeModule": {
-                        "address": "0x5e6CB7E728E1C320855587E1D9C6F7972ebdD6D5",
+                        "address": "0xB2505D6EA571639C9902ecCa70A1f93a0D321e39",
                         "abi": [
-                          "error Errors(bytes[] revertReasons)",
+                          "error DeviationToleranceExceeded(int256 deviation)",
+                          "error InvalidInputPrice()",
                           "error InvalidNodeDefinition(tuple(uint8 nodeType, bytes parameters, bytes32[] parents) nodeType)",
+                          "error InvalidParameter(string parameter, string reason)",
                           "error InvalidPrice(int256 price)",
                           "error NodeNotRegistered(bytes32 nodeId)",
                           "error OracleDataRequired(address oracleContract, bytes oracleQuery)",
@@ -24152,24 +24166,26 @@
                           "error OverflowUint256ToInt256()",
                           "error OverflowUint256ToUint160()",
                           "error OverflowUint56ToInt56()",
+                          "error StalenessToleranceExceeded(bytes32 parentId, int256 price, uint256 staleTimestamp)",
+                          "error UnprocessableNode(bytes32 nodeId)",
+                          "error UnsupportedOperation(uint8 operation)",
                           "event NodeRegistered(bytes32 nodeId, uint8 nodeType, bytes parameters, bytes32[] parents)",
                           "function getNode(bytes32 nodeId) pure returns (tuple(uint8 nodeType, bytes parameters, bytes32[] parents) node)",
                           "function getNodeId(uint8 nodeType, bytes parameters, bytes32[] parents) pure returns (bytes32 nodeId)",
                           "function process(bytes32 nodeId) view returns (tuple(int256 price, uint256 timestamp, uint256 __slotAvailableForFutureUse1, uint256 __slotAvailableForFutureUse2) node)",
-                          "function processManyWithRuntime(bytes32[] nodeIds, bytes32[] runtimeKeys, bytes32[] runtimeValues) view returns (tuple(int256 price, uint256 timestamp, uint256 __slotAvailableForFutureUse1, uint256 __slotAvailableForFutureUse2)[] nodes)",
                           "function processWithRuntime(bytes32 nodeId, bytes32[] runtimeKeys, bytes32[] runtimeValues) view returns (tuple(int256 price, uint256 timestamp, uint256 __slotAvailableForFutureUse1, uint256 __slotAvailableForFutureUse2) node)",
                           "function registerNode(uint8 nodeType, bytes parameters, bytes32[] parents) returns (bytes32 nodeId)"
                         ],
                         "constructorArgs": [],
                         "linkedLibraries": {},
-                        "deployTxnHash": "0x0e8ba90c866247f1bdaa0761ea8b93db145b57030be47fba40b10f9548b9c8b8",
-                        "deployTxnBlockNumber": "20541173",
-                        "deployTimestamp": "1727871701",
+                        "deployTxnHash": "0xf1dc0a0da4103ddecacbd7de516046682d9b031497ba9785641ae6bc75cc464d",
+                        "deployTxnBlockNumber": "19119881",
+                        "deployTimestamp": "1725029109",
                         "sourceName": "contracts/modules/NodeModule.sol",
                         "contractName": "NodeModule",
                         "deployedOn": "contract.NodeModule",
-                        "gasUsed": 4539095,
-                        "gasCost": "1006855253"
+                        "gasUsed": 4106509,
+                        "gasCost": "14134099"
                       },
                       "CoreModule": {
                         "address": "0xef0E3210A07A803527ed20B87E0F5A204cdc653f",
@@ -24237,7 +24253,7 @@
                         "gasCost": "1500000057"
                       },
                       "OracleRouter": {
-                        "address": "0x79e8ab29ff79805025c9462a2f2f12e9a496f81d",
+                        "address": "0x9d2e092fd18f3bf7dc6a11124ab8365116fc46e2",
                         "abi": [
                           "error ImplementationIsSterile(address implementation)",
                           "error NoChange()",
@@ -24257,8 +24273,10 @@
                           "function renounceNomination()",
                           "function simulateUpgradeTo(address newImplementation)",
                           "function upgradeTo(address newImplementation)",
-                          "error Errors(bytes[] revertReasons)",
+                          "error DeviationToleranceExceeded(int256 deviation)",
+                          "error InvalidInputPrice()",
                           "error InvalidNodeDefinition(tuple(uint8 nodeType, bytes parameters, bytes32[] parents) nodeType)",
+                          "error InvalidParameter(string parameter, string reason)",
                           "error InvalidPrice(int256 price)",
                           "error NodeNotRegistered(bytes32 nodeId)",
                           "error OracleDataRequired(address oracleContract, bytes oracleQuery)",
@@ -24267,22 +24285,24 @@
                           "error OverflowUint256ToInt256()",
                           "error OverflowUint256ToUint160()",
                           "error OverflowUint56ToInt56()",
+                          "error StalenessToleranceExceeded(bytes32 parentId, int256 price, uint256 staleTimestamp)",
+                          "error UnprocessableNode(bytes32 nodeId)",
+                          "error UnsupportedOperation(uint8 operation)",
                           "event NodeRegistered(bytes32 nodeId, uint8 nodeType, bytes parameters, bytes32[] parents)",
                           "function getNode(bytes32 nodeId) pure returns (tuple(uint8 nodeType, bytes parameters, bytes32[] parents) node)",
                           "function getNodeId(uint8 nodeType, bytes parameters, bytes32[] parents) pure returns (bytes32 nodeId)",
                           "function process(bytes32 nodeId) view returns (tuple(int256 price, uint256 timestamp, uint256 __slotAvailableForFutureUse1, uint256 __slotAvailableForFutureUse2) node)",
-                          "function processManyWithRuntime(bytes32[] nodeIds, bytes32[] runtimeKeys, bytes32[] runtimeValues) view returns (tuple(int256 price, uint256 timestamp, uint256 __slotAvailableForFutureUse1, uint256 __slotAvailableForFutureUse2)[] nodes)",
                           "function processWithRuntime(bytes32 nodeId, bytes32[] runtimeKeys, bytes32[] runtimeValues) view returns (tuple(int256 price, uint256 timestamp, uint256 __slotAvailableForFutureUse1, uint256 __slotAvailableForFutureUse2) node)",
                           "function registerNode(uint8 nodeType, bytes parameters, bytes32[] parents) returns (bytes32 nodeId)"
                         ],
                         "deployedOn": "router.OracleRouter",
-                        "deployTxnHash": "0xce426a78d1eb7627de74f133f0d5a108350f900643537cf1c671cf5821d26616",
-                        "deployTxnBlockNumber": "20541174",
-                        "deployTimestamp": "1727871702",
+                        "deployTxnHash": "0x2dddbf892660b422bc89b80dcfd8f378ff51a3bffbdb26cc3713dc4c298f8f8d",
+                        "deployTxnBlockNumber": "19119884",
+                        "deployTimestamp": "1725029115",
                         "contractName": "OracleRouter",
                         "sourceName": "OracleRouter.sol",
-                        "gasUsed": 254434,
-                        "gasCost": "1006057280"
+                        "gasUsed": 246006,
+                        "gasCost": "14139829"
                       },
                       "Proxy": {
                         "address": "0x3d07CBC5Cb9376A67E76C0655Fe239dDa8E2B264",
@@ -24305,8 +24325,10 @@
                           "function renounceNomination()",
                           "function simulateUpgradeTo(address newImplementation)",
                           "function upgradeTo(address newImplementation)",
-                          "error Errors(bytes[] revertReasons)",
+                          "error DeviationToleranceExceeded(int256 deviation)",
+                          "error InvalidInputPrice()",
                           "error InvalidNodeDefinition(tuple(uint8 nodeType, bytes parameters, bytes32[] parents) nodeType)",
+                          "error InvalidParameter(string parameter, string reason)",
                           "error InvalidPrice(int256 price)",
                           "error NodeNotRegistered(bytes32 nodeId)",
                           "error OracleDataRequired(address oracleContract, bytes oracleQuery)",
@@ -24315,11 +24337,13 @@
                           "error OverflowUint256ToInt256()",
                           "error OverflowUint256ToUint160()",
                           "error OverflowUint56ToInt56()",
+                          "error StalenessToleranceExceeded(bytes32 parentId, int256 price, uint256 staleTimestamp)",
+                          "error UnprocessableNode(bytes32 nodeId)",
+                          "error UnsupportedOperation(uint8 operation)",
                           "event NodeRegistered(bytes32 nodeId, uint8 nodeType, bytes parameters, bytes32[] parents)",
                           "function getNode(bytes32 nodeId) pure returns (tuple(uint8 nodeType, bytes parameters, bytes32[] parents) node)",
                           "function getNodeId(uint8 nodeType, bytes parameters, bytes32[] parents) pure returns (bytes32 nodeId)",
                           "function process(bytes32 nodeId) view returns (tuple(int256 price, uint256 timestamp, uint256 __slotAvailableForFutureUse1, uint256 __slotAvailableForFutureUse2) node)",
-                          "function processManyWithRuntime(bytes32[] nodeIds, bytes32[] runtimeKeys, bytes32[] runtimeValues) view returns (tuple(int256 price, uint256 timestamp, uint256 __slotAvailableForFutureUse1, uint256 __slotAvailableForFutureUse2)[] nodes)",
                           "function processWithRuntime(bytes32 nodeId, bytes32[] runtimeKeys, bytes32[] runtimeValues) view returns (tuple(int256 price, uint256 timestamp, uint256 __slotAvailableForFutureUse1, uint256 __slotAvailableForFutureUse2) node)",
                           "function registerNode(uint8 nodeType, bytes parameters, bytes32[] parents) returns (bytes32 nodeId)"
                         ],
@@ -24404,23 +24428,23 @@
                     },
                     "txns": {
                       "upgrade_proxy": {
-                        "hash": "0x37b28aef04795afec13686decc1052df7553e1a5cb7df567d784ef95d7f3b241",
-                        "blockNumber": "20541175",
-                        "timestamp": "1727871704",
+                        "hash": "",
+                        "blockNumber": "19120596",
+                        "timestamp": "1725030574",
                         "events": {
                           "Upgraded": [
                             {
                               "name": "Upgraded",
                               "args": [
                                 "0x3d07CBC5Cb9376A67E76C0655Fe239dDa8E2B264",
-                                "0x79E8AB29Ff79805025c9462a2f2F12e9A496f81d"
+                                "0x9D2e092fd18F3bf7Dc6A11124ab8365116FC46E2"
                               ]
                             }
                           ]
                         },
                         "deployedOn": "invoke.upgrade_proxy",
-                        "gasUsed": 55368,
-                        "gasCost": "1005303039",
+                        "gasUsed": 55346,
+                        "gasCost": "1012317208",
                         "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
                       }
                     },
@@ -25113,7 +25137,7 @@
       "artifacts": {
         "imports": {
           "perpsFactory": {
-            "url": "ipfs://QmU75WhJJQu5hq7ohJZcxBAguuUkcZgKeDAiJAE9AjKvHG",
+            "url": "ipfs://QmWRCGCHFGvhgCCi1x5iwJWdfk1FqiXE58eY9e2213noJp",
             "tags": [
               "latest"
             ],
@@ -25121,7 +25145,7 @@
             "preset": "andromeda",
             "contracts": {
               "AsyncOrderCancelModule": {
-                "address": "0x0Dd99d9f56A14E9D53b2DdC62D9f0bAbe806647A",
+                "address": "0x5e6CB7E728E1C320855587E1D9C6F7972ebdD6D5",
                 "abi": [
                   "error AcceptablePriceNotExceeded(uint256 fillPrice, uint256 acceptablePrice)",
                   "error AccountLiquidatable(uint128 accountId)",
@@ -25143,17 +25167,17 @@
                 ],
                 "constructorArgs": [],
                 "linkedLibraries": {},
-                "deployTxnHash": "0xe0a8c80af156c65022339fbd03f2eb1a71e228215ea682906bb3a59707a5c53d",
-                "deployTxnBlockNumber": "20541176",
-                "deployTimestamp": "1727871717",
+                "deployTxnHash": "0x0918fefbb2ecf725c6e640ab5d12b4097783a47b3aebe993f799bbebb562dac4",
+                "deployTxnBlockNumber": "20582668",
+                "deployTimestamp": "1727954694",
                 "sourceName": "contracts/modules/AsyncOrderCancelModule.sol",
                 "contractName": "AsyncOrderCancelModule",
                 "deployedOn": "contract.AsyncOrderCancelModule",
                 "gasUsed": 1062951,
-                "gasCost": "1004640716"
+                "gasCost": "1003225212"
               },
               "AsyncOrderModule": {
-                "address": "0xeAd789bd8Ce8b9E94F5D0FCa99F8787c7e758817",
+                "address": "0x79E8AB29Ff79805025c9462a2f2F12e9A496f81d",
                 "abi": [
                   "error AccountLiquidatable(uint128 accountId)",
                   "error AccountNotFound(uint128 accountId)",
@@ -25188,17 +25212,17 @@
                 ],
                 "constructorArgs": [],
                 "linkedLibraries": {},
-                "deployTxnHash": "0x24cdc5b016c0d93dddf38403dc6905cd6462d6205a6415911d13d1282e602690",
-                "deployTxnBlockNumber": "20541177",
-                "deployTimestamp": "1727871718",
+                "deployTxnHash": "0xc139248a8e8c6bdf02d599ad7f90ab895727bb17cafd7e45b4cad30d4573e23f",
+                "deployTxnBlockNumber": "20582669",
+                "deployTimestamp": "1727954695",
                 "sourceName": "contracts/modules/AsyncOrderModule.sol",
                 "contractName": "AsyncOrderModule",
                 "deployedOn": "contract.AsyncOrderModule",
                 "gasUsed": 3127471,
-                "gasCost": "1004069970"
+                "gasCost": "1002828013"
               },
               "AsyncOrderSettlementPythModule": {
-                "address": "0x95775fD3Afb1F4072794CA4ddA27F2444BCf8Ac3",
+                "address": "0x0Dd99d9f56A14E9D53b2DdC62D9f0bAbe806647A",
                 "abi": [
                   "error AcceptablePriceExceeded(uint256 fillPrice, uint256 acceptablePrice)",
                   "error AccountLiquidatable(uint128 accountId)",
@@ -25234,17 +25258,17 @@
                 ],
                 "constructorArgs": [],
                 "linkedLibraries": {},
-                "deployTxnHash": "0x4e8526e5b9b2db45383afac360cfbaf56be75e7240710b85626b6b86a4188eb2",
-                "deployTxnBlockNumber": "20541178",
-                "deployTimestamp": "1727871719",
+                "deployTxnHash": "0xfa64f0f3949e5d72a8f0e18e1e1b56e6fb68138da8f34addc6cb0f5713a52806",
+                "deployTxnBlockNumber": "20582670",
+                "deployTimestamp": "1727954696",
                 "sourceName": "contracts/modules/AsyncOrderSettlementPythModule.sol",
                 "contractName": "AsyncOrderSettlementPythModule",
                 "deployedOn": "contract.AsyncOrderSettlementPythModule",
                 "gasUsed": 3548841,
-                "gasCost": "1003585332"
+                "gasCost": "1002489867"
               },
               "CollateralConfigurationModule": {
-                "address": "0xd9fEc8238711935D6c8d79Bef2B9546ef23FC046",
+                "address": "0xeAd789bd8Ce8b9E94F5D0FCa99F8787c7e758817",
                 "abi": [
                   "error InvalidDistributor(uint128 id, address distributor)",
                   "error InvalidDistributorContract(address distributor)",
@@ -25268,14 +25292,14 @@
                 ],
                 "constructorArgs": [],
                 "linkedLibraries": {},
-                "deployTxnHash": "0xfd96a74c1d2facc0ae1393180f7937bf2222bb785174c5819ae956e98a6aa5a6",
-                "deployTxnBlockNumber": "20541179",
-                "deployTimestamp": "1727871720",
+                "deployTxnHash": "0xe8dc0148ce0c191508c3994cdd34bd1a82d8757876861c9853d7e5d97e1808de",
+                "deployTxnBlockNumber": "20582671",
+                "deployTimestamp": "1727954697",
                 "sourceName": "contracts/modules/CollateralConfigurationModule.sol",
                 "contractName": "CollateralConfigurationModule",
                 "deployedOn": "contract.CollateralConfigurationModule",
                 "gasUsed": 904043,
-                "gasCost": "1003161264"
+                "gasCost": "1002193975"
               },
               "CoreModule": {
                 "address": "0x7BC5ECeD96aeC561012C5274BC7fce49e1C8414B",
@@ -25309,7 +25333,7 @@
                 "gasCost": "1500000051"
               },
               "FeatureFlagModule": {
-                "address": "0xd3FFD73C53F139cEBB80b6A524bE280955b3f4db",
+                "address": "0x95775fD3Afb1F4072794CA4ddA27F2444BCf8Ac3",
                 "abi": [
                   "error Unauthorized(address addr)",
                   "error ValueAlreadyInSet()",
@@ -25332,17 +25356,17 @@
                 ],
                 "constructorArgs": [],
                 "linkedLibraries": {},
-                "deployTxnHash": "0x7ac7357dc01644c75af1e7421be93dd9cc8a3f114a54115b7856b7b624b19c82",
-                "deployTxnBlockNumber": "20541180",
-                "deployTimestamp": "1727871721",
+                "deployTxnHash": "0x44497a58c4cee880d71120d2677f900d75097154774ea55fe8013acdb5a8834d",
+                "deployTxnBlockNumber": "20582672",
+                "deployTimestamp": "1727954698",
                 "sourceName": "contracts/modules/FeatureFlagModule.sol",
                 "contractName": "FeatureFlagModule",
                 "deployedOn": "contract.FeatureFlagModule",
                 "gasUsed": 765166,
-                "gasCost": "1002771519"
+                "gasCost": "1001923172"
               },
               "GlobalPerpsMarketModule": {
-                "address": "0x512F7469BcC83089497506b5df64c6E246B39925",
+                "address": "0xd9fEc8238711935D6c8d79Bef2B9546ef23FC046",
                 "abi": [
                   "error InvalidFeeCollectorInterface(address invalidFeeCollector)",
                   "error InvalidInterestRateParameters(uint128 lowUtilizationInterestRateGradient, uint128 highUtilizationInterestRateGradient)",
@@ -25381,17 +25405,17 @@
                 ],
                 "constructorArgs": [],
                 "linkedLibraries": {},
-                "deployTxnHash": "0x9533218d17c72471f19db76cbab9db6c985d6ee94547191feab9db3e64fb948a",
-                "deployTxnBlockNumber": "20541181",
-                "deployTimestamp": "1727871722",
+                "deployTxnHash": "0x4183c61d6992519ffe95953f56cb76764920aa6f6c732264ec924e379bf9e3c4",
+                "deployTxnBlockNumber": "20582673",
+                "deployTimestamp": "1727954699",
                 "sourceName": "contracts/modules/GlobalPerpsMarketModule.sol",
                 "contractName": "GlobalPerpsMarketModule",
                 "deployedOn": "contract.GlobalPerpsMarketModule",
                 "gasUsed": 1627490,
-                "gasCost": "1002429096"
+                "gasCost": "1001685331"
               },
               "LiquidationModule": {
-                "address": "0x9fD16eA9E31233279975D99D5e8Fc91dd214c7Da",
+                "address": "0xd3FFD73C53F139cEBB80b6A524bE280955b3f4db",
                 "abi": [
                   "error AccountHasOpenPositions(uint128 accountId)",
                   "error FeatureUnavailable(bytes32 which)",
@@ -25425,17 +25449,17 @@
                 ],
                 "constructorArgs": [],
                 "linkedLibraries": {},
-                "deployTxnHash": "0x45cf485c5d90389e8df7303218de8dc91bdb8b544805d9c29d1e7c1be13a71fe",
-                "deployTxnBlockNumber": "20541182",
-                "deployTimestamp": "1727871723",
+                "deployTxnHash": "0x4ec37bacaf894ea16e62b190a507b79e2c308e302649219b1276e4819f250e7f",
+                "deployTxnBlockNumber": "20582674",
+                "deployTimestamp": "1727954700",
                 "sourceName": "contracts/modules/LiquidationModule.sol",
                 "contractName": "LiquidationModule",
                 "deployedOn": "contract.LiquidationModule",
                 "gasUsed": 3751150,
-                "gasCost": "1002132947"
+                "gasCost": "1001479427"
               },
               "MarketConfigurationModule": {
-                "address": "0xCBBe2A5c3A22BE749D5DDF24e9534f98951983e2",
+                "address": "0x512F7469BcC83089497506b5df64c6E246B39925",
                 "abi": [
                   "error InvalidSettlementStrategy(uint256 settlementStrategyId)",
                   "error InvalidSettlementWindowDuration(uint256 duration)",
@@ -25473,17 +25497,17 @@
                 ],
                 "constructorArgs": [],
                 "linkedLibraries": {},
-                "deployTxnHash": "0x3dd932fc7fabb893fc249b624be4eb30d2850cab52840dcc25887479ccec164e",
-                "deployTxnBlockNumber": "20541183",
-                "deployTimestamp": "1727871724",
+                "deployTxnHash": "0xc6a8515dcf499c1623293bb6cb281161bf2d5f519b611dfdeb1dc44c3c28dddf",
+                "deployTxnBlockNumber": "20582675",
+                "deployTimestamp": "1727954701",
                 "sourceName": "contracts/modules/MarketConfigurationModule.sol",
                 "contractName": "MarketConfigurationModule",
                 "deployedOn": "contract.MarketConfigurationModule",
                 "gasUsed": 1064187,
-                "gasCost": "1001881483"
+                "gasCost": "1001304134"
               },
               "PerpsAccountModule": {
-                "address": "0x987e855776C03A4682639eEb14e65b3089EE6310",
+                "address": "0x9fD16eA9E31233279975D99D5e8Fc91dd214c7Da",
                 "abi": [
                   "error AccountLiquidatable(uint128 accountId)",
                   "error AccountNotFound(uint128 accountId)",
@@ -25528,17 +25552,17 @@
                 ],
                 "constructorArgs": [],
                 "linkedLibraries": {},
-                "deployTxnHash": "0x000e93d5214ca36dc2dbbe17a33b64b934ff395e7411350c13ed89d3850afe29",
-                "deployTxnBlockNumber": "20541184",
-                "deployTimestamp": "1727871725",
+                "deployTxnHash": "0x59948f48328ba28f6c94235de3a7b5ba1e96a4bc8dac59b9d4d7f76facb3f85e",
+                "deployTxnBlockNumber": "20582676",
+                "deployTimestamp": "1727954702",
                 "sourceName": "contracts/modules/PerpsAccountModule.sol",
                 "contractName": "PerpsAccountModule",
                 "deployedOn": "contract.PerpsAccountModule",
                 "gasUsed": 3231812,
-                "gasCost": "1001650090"
+                "gasCost": "1001143527"
               },
               "PerpsMarketFactoryModule": {
-                "address": "0xb932C8342106776E73E39D695F3FFC3A9624eCE0",
+                "address": "0xCBBe2A5c3A22BE749D5DDF24e9534f98951983e2",
                 "abi": [
                   "error FeatureUnavailable(bytes32 which)",
                   "error InvalidMarket(uint128 marketId)",
@@ -25565,17 +25589,17 @@
                 ],
                 "constructorArgs": [],
                 "linkedLibraries": {},
-                "deployTxnHash": "0x4d5d2aaeb8fd8b380e3209e600aa33360268c9d5ccd33ee0c7c0ad4d9e5d6330",
-                "deployTxnBlockNumber": "20541185",
-                "deployTimestamp": "1727871726",
+                "deployTxnHash": "0x54258b877593e68eca0b226b8cbfe9d6562d4b096103a2f9ce98722d09ddcab3",
+                "deployTxnBlockNumber": "20582677",
+                "deployTimestamp": "1727954703",
                 "sourceName": "contracts/modules/PerpsMarketFactoryModule.sol",
                 "contractName": "PerpsMarketFactoryModule",
                 "deployedOn": "contract.PerpsMarketFactoryModule",
                 "gasUsed": 1800970,
-                "gasCost": "1001453929"
+                "gasCost": "1001007003"
               },
               "PerpsMarketModule": {
-                "address": "0xE8F7d98bE6722d42F29b50500B0E318EF2be4fc8",
+                "address": "0x987e855776C03A4682639eEb14e65b3089EE6310",
                 "abi": [
                   "error OverflowInt256ToUint256()",
                   "error OverflowUint256ToInt256()",
@@ -25591,14 +25615,14 @@
                 ],
                 "constructorArgs": [],
                 "linkedLibraries": {},
-                "deployTxnHash": "0xd114e4e8fb4d387ea1ed02f36b2532ae072f62dc586753ec5db1a0657e52ac9f",
-                "deployTxnBlockNumber": "20541186",
-                "deployTimestamp": "1727871727",
+                "deployTxnHash": "0xa886f4a1cc4b74974d6b9d9e44da662c57c87f261810ad8cddada4162fb2fc20",
+                "deployTxnBlockNumber": "20582678",
+                "deployTimestamp": "1727954704",
                 "sourceName": "contracts/modules/PerpsMarketModule.sol",
                 "contractName": "PerpsMarketModule",
                 "deployedOn": "contract.PerpsMarketModule",
                 "gasUsed": 896870,
-                "gasCost": "1001277148"
+                "gasCost": "1000884277"
               },
               "InitialProxy": {
                 "address": "0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce",
@@ -25635,7 +25659,7 @@
                 "gasCost": "1500000051"
               },
               "PerpsMarketRouter": {
-                "address": "0xe38b6847e611e942e6c80ed89ae867f522402e80",
+                "address": "0xb932c8342106776e73e39d695f3ffc3a9624ece0",
                 "abi": [
                   "error FeatureUnavailable(bytes32 which)",
                   "error InvalidAccountId(uint128 accountId)",
@@ -25878,13 +25902,13 @@
                   "function updateReferrerShare(address referrer, uint256 shareRatioD18)"
                 ],
                 "deployedOn": "router.PerpsMarketRouter",
-                "deployTxnHash": "0x0b7b1fbc88bfca6a421c2b38e0bcf46bd14bff9860b0c4b9cbffcf6ef94be5b9",
-                "deployTxnBlockNumber": "20541187",
-                "deployTimestamp": "1727871728",
+                "deployTxnHash": "0x78acccdb4606af89c2eea3b236588e9b27217f51b986cdf2069aa6c80e4f40a8",
+                "deployTxnBlockNumber": "20582679",
+                "deployTimestamp": "1727954705",
                 "contractName": "PerpsMarketRouter",
                 "sourceName": "PerpsMarketRouter.sol",
                 "gasUsed": 1267837,
-                "gasCost": "1001119674"
+                "gasCost": "1000775120"
               },
               "PerpsMarketProxy": {
                 "address": "0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce",
@@ -26216,7 +26240,7 @@
             },
             "imports": {
               "spotMarket": {
-                "url": "ipfs://QmdLmGuMFCjo4mPH6ebnkMU7byUWFQ8BVkJA45CfWWdAuR",
+                "url": "ipfs://QmNjjJRgazUm6WH7a28ystCPidfJSpc5dqJEtwnhFqKKxo",
                 "contracts": {
                   "AsyncOrderConfigurationModule": {
                     "address": "0x72054FBDaDBa5B8619dE02BfE8BCA34276e1B940",
@@ -26994,7 +27018,7 @@
                 },
                 "imports": {
                   "synthetix": {
-                    "url": "ipfs://Qma8EML4Ur29XLPF4THKv4CVv21y464hS2qWsCvxARbi4W",
+                    "url": "ipfs://QmfDMVx6PpjK91d76BM14fPyyZwD4rZZSpGh8A1BDGy9XN",
                     "contracts": {
                       "AccountModule": {
                         "address": "0xB19c1D84c7c14e50E408f132459D724EB3367526",
@@ -28556,7 +28580,7 @@
                         }
                       },
                       "oracle_manager": {
-                        "url": "ipfs://Qmbo2rRkfwDR9mfgokEBquTWTLQunvtQpkgNG6HhyEDcbL",
+                        "url": "ipfs://QmfV2dfjqtgUPexGSZhFTTFsG1DeiS2NqTpWY4dE8tAoX2",
                         "tags": [
                           "latest"
                         ],
@@ -28564,10 +28588,12 @@
                         "preset": "with-synthetix",
                         "contracts": {
                           "NodeModule": {
-                            "address": "0x5e6CB7E728E1C320855587E1D9C6F7972ebdD6D5",
+                            "address": "0xB2505D6EA571639C9902ecCa70A1f93a0D321e39",
                             "abi": [
-                              "error Errors(bytes[] revertReasons)",
+                              "error DeviationToleranceExceeded(int256 deviation)",
+                              "error InvalidInputPrice()",
                               "error InvalidNodeDefinition(tuple(uint8 nodeType, bytes parameters, bytes32[] parents) nodeType)",
+                              "error InvalidParameter(string parameter, string reason)",
                               "error InvalidPrice(int256 price)",
                               "error NodeNotRegistered(bytes32 nodeId)",
                               "error OracleDataRequired(address oracleContract, bytes oracleQuery)",
@@ -28576,24 +28602,26 @@
                               "error OverflowUint256ToInt256()",
                               "error OverflowUint256ToUint160()",
                               "error OverflowUint56ToInt56()",
+                              "error StalenessToleranceExceeded(bytes32 parentId, int256 price, uint256 staleTimestamp)",
+                              "error UnprocessableNode(bytes32 nodeId)",
+                              "error UnsupportedOperation(uint8 operation)",
                               "event NodeRegistered(bytes32 nodeId, uint8 nodeType, bytes parameters, bytes32[] parents)",
                               "function getNode(bytes32 nodeId) pure returns (tuple(uint8 nodeType, bytes parameters, bytes32[] parents) node)",
                               "function getNodeId(uint8 nodeType, bytes parameters, bytes32[] parents) pure returns (bytes32 nodeId)",
                               "function process(bytes32 nodeId) view returns (tuple(int256 price, uint256 timestamp, uint256 __slotAvailableForFutureUse1, uint256 __slotAvailableForFutureUse2) node)",
-                              "function processManyWithRuntime(bytes32[] nodeIds, bytes32[] runtimeKeys, bytes32[] runtimeValues) view returns (tuple(int256 price, uint256 timestamp, uint256 __slotAvailableForFutureUse1, uint256 __slotAvailableForFutureUse2)[] nodes)",
                               "function processWithRuntime(bytes32 nodeId, bytes32[] runtimeKeys, bytes32[] runtimeValues) view returns (tuple(int256 price, uint256 timestamp, uint256 __slotAvailableForFutureUse1, uint256 __slotAvailableForFutureUse2) node)",
                               "function registerNode(uint8 nodeType, bytes parameters, bytes32[] parents) returns (bytes32 nodeId)"
                             ],
                             "constructorArgs": [],
                             "linkedLibraries": {},
-                            "deployTxnHash": "0x0e8ba90c866247f1bdaa0761ea8b93db145b57030be47fba40b10f9548b9c8b8",
-                            "deployTxnBlockNumber": "20541173",
-                            "deployTimestamp": "1727871701",
+                            "deployTxnHash": "0xf1dc0a0da4103ddecacbd7de516046682d9b031497ba9785641ae6bc75cc464d",
+                            "deployTxnBlockNumber": "19119881",
+                            "deployTimestamp": "1725029109",
                             "sourceName": "contracts/modules/NodeModule.sol",
                             "contractName": "NodeModule",
                             "deployedOn": "contract.NodeModule",
-                            "gasUsed": 4539095,
-                            "gasCost": "1006855253"
+                            "gasUsed": 4106509,
+                            "gasCost": "14134099"
                           },
                           "CoreModule": {
                             "address": "0xef0E3210A07A803527ed20B87E0F5A204cdc653f",
@@ -28661,7 +28689,7 @@
                             "gasCost": "1500000057"
                           },
                           "OracleRouter": {
-                            "address": "0x79e8ab29ff79805025c9462a2f2f12e9a496f81d",
+                            "address": "0x9d2e092fd18f3bf7dc6a11124ab8365116fc46e2",
                             "abi": [
                               "error ImplementationIsSterile(address implementation)",
                               "error NoChange()",
@@ -28681,8 +28709,10 @@
                               "function renounceNomination()",
                               "function simulateUpgradeTo(address newImplementation)",
                               "function upgradeTo(address newImplementation)",
-                              "error Errors(bytes[] revertReasons)",
+                              "error DeviationToleranceExceeded(int256 deviation)",
+                              "error InvalidInputPrice()",
                               "error InvalidNodeDefinition(tuple(uint8 nodeType, bytes parameters, bytes32[] parents) nodeType)",
+                              "error InvalidParameter(string parameter, string reason)",
                               "error InvalidPrice(int256 price)",
                               "error NodeNotRegistered(bytes32 nodeId)",
                               "error OracleDataRequired(address oracleContract, bytes oracleQuery)",
@@ -28691,22 +28721,24 @@
                               "error OverflowUint256ToInt256()",
                               "error OverflowUint256ToUint160()",
                               "error OverflowUint56ToInt56()",
+                              "error StalenessToleranceExceeded(bytes32 parentId, int256 price, uint256 staleTimestamp)",
+                              "error UnprocessableNode(bytes32 nodeId)",
+                              "error UnsupportedOperation(uint8 operation)",
                               "event NodeRegistered(bytes32 nodeId, uint8 nodeType, bytes parameters, bytes32[] parents)",
                               "function getNode(bytes32 nodeId) pure returns (tuple(uint8 nodeType, bytes parameters, bytes32[] parents) node)",
                               "function getNodeId(uint8 nodeType, bytes parameters, bytes32[] parents) pure returns (bytes32 nodeId)",
                               "function process(bytes32 nodeId) view returns (tuple(int256 price, uint256 timestamp, uint256 __slotAvailableForFutureUse1, uint256 __slotAvailableForFutureUse2) node)",
-                              "function processManyWithRuntime(bytes32[] nodeIds, bytes32[] runtimeKeys, bytes32[] runtimeValues) view returns (tuple(int256 price, uint256 timestamp, uint256 __slotAvailableForFutureUse1, uint256 __slotAvailableForFutureUse2)[] nodes)",
                               "function processWithRuntime(bytes32 nodeId, bytes32[] runtimeKeys, bytes32[] runtimeValues) view returns (tuple(int256 price, uint256 timestamp, uint256 __slotAvailableForFutureUse1, uint256 __slotAvailableForFutureUse2) node)",
                               "function registerNode(uint8 nodeType, bytes parameters, bytes32[] parents) returns (bytes32 nodeId)"
                             ],
                             "deployedOn": "router.OracleRouter",
-                            "deployTxnHash": "0xce426a78d1eb7627de74f133f0d5a108350f900643537cf1c671cf5821d26616",
-                            "deployTxnBlockNumber": "20541174",
-                            "deployTimestamp": "1727871702",
+                            "deployTxnHash": "0x2dddbf892660b422bc89b80dcfd8f378ff51a3bffbdb26cc3713dc4c298f8f8d",
+                            "deployTxnBlockNumber": "19119884",
+                            "deployTimestamp": "1725029115",
                             "contractName": "OracleRouter",
                             "sourceName": "OracleRouter.sol",
-                            "gasUsed": 254434,
-                            "gasCost": "1006057280"
+                            "gasUsed": 246006,
+                            "gasCost": "14139829"
                           },
                           "Proxy": {
                             "address": "0x3d07CBC5Cb9376A67E76C0655Fe239dDa8E2B264",
@@ -28729,8 +28761,10 @@
                               "function renounceNomination()",
                               "function simulateUpgradeTo(address newImplementation)",
                               "function upgradeTo(address newImplementation)",
-                              "error Errors(bytes[] revertReasons)",
+                              "error DeviationToleranceExceeded(int256 deviation)",
+                              "error InvalidInputPrice()",
                               "error InvalidNodeDefinition(tuple(uint8 nodeType, bytes parameters, bytes32[] parents) nodeType)",
+                              "error InvalidParameter(string parameter, string reason)",
                               "error InvalidPrice(int256 price)",
                               "error NodeNotRegistered(bytes32 nodeId)",
                               "error OracleDataRequired(address oracleContract, bytes oracleQuery)",
@@ -28739,11 +28773,13 @@
                               "error OverflowUint256ToInt256()",
                               "error OverflowUint256ToUint160()",
                               "error OverflowUint56ToInt56()",
+                              "error StalenessToleranceExceeded(bytes32 parentId, int256 price, uint256 staleTimestamp)",
+                              "error UnprocessableNode(bytes32 nodeId)",
+                              "error UnsupportedOperation(uint8 operation)",
                               "event NodeRegistered(bytes32 nodeId, uint8 nodeType, bytes parameters, bytes32[] parents)",
                               "function getNode(bytes32 nodeId) pure returns (tuple(uint8 nodeType, bytes parameters, bytes32[] parents) node)",
                               "function getNodeId(uint8 nodeType, bytes parameters, bytes32[] parents) pure returns (bytes32 nodeId)",
                               "function process(bytes32 nodeId) view returns (tuple(int256 price, uint256 timestamp, uint256 __slotAvailableForFutureUse1, uint256 __slotAvailableForFutureUse2) node)",
-                              "function processManyWithRuntime(bytes32[] nodeIds, bytes32[] runtimeKeys, bytes32[] runtimeValues) view returns (tuple(int256 price, uint256 timestamp, uint256 __slotAvailableForFutureUse1, uint256 __slotAvailableForFutureUse2)[] nodes)",
                               "function processWithRuntime(bytes32 nodeId, bytes32[] runtimeKeys, bytes32[] runtimeValues) view returns (tuple(int256 price, uint256 timestamp, uint256 __slotAvailableForFutureUse1, uint256 __slotAvailableForFutureUse2) node)",
                               "function registerNode(uint8 nodeType, bytes parameters, bytes32[] parents) returns (bytes32 nodeId)"
                             ],
@@ -28828,23 +28864,23 @@
                         },
                         "txns": {
                           "upgrade_proxy": {
-                            "hash": "0x37b28aef04795afec13686decc1052df7553e1a5cb7df567d784ef95d7f3b241",
-                            "blockNumber": "20541175",
-                            "timestamp": "1727871704",
+                            "hash": "",
+                            "blockNumber": "19120596",
+                            "timestamp": "1725030574",
                             "events": {
                               "Upgraded": [
                                 {
                                   "name": "Upgraded",
                                   "args": [
                                     "0x3d07CBC5Cb9376A67E76C0655Fe239dDa8E2B264",
-                                    "0x79E8AB29Ff79805025c9462a2f2F12e9A496f81d"
+                                    "0x9D2e092fd18F3bf7Dc6A11124ab8365116FC46E2"
                                   ]
                                 }
                               ]
                             },
                             "deployedOn": "invoke.upgrade_proxy",
-                            "gasUsed": 55368,
-                            "gasCost": "1005303039",
+                            "gasUsed": 55346,
+                            "gasCost": "1012317208",
                             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
                           }
                         },
@@ -29347,7 +29383,7 @@
                 }
               },
               "synthetix": {
-                "url": "ipfs://Qma8EML4Ur29XLPF4THKv4CVv21y464hS2qWsCvxARbi4W",
+                "url": "ipfs://QmfDMVx6PpjK91d76BM14fPyyZwD4rZZSpGh8A1BDGy9XN",
                 "contracts": {
                   "AccountModule": {
                     "address": "0xB19c1D84c7c14e50E408f132459D724EB3367526",
@@ -30909,7 +30945,7 @@
                     }
                   },
                   "oracle_manager": {
-                    "url": "ipfs://Qmbo2rRkfwDR9mfgokEBquTWTLQunvtQpkgNG6HhyEDcbL",
+                    "url": "ipfs://QmfV2dfjqtgUPexGSZhFTTFsG1DeiS2NqTpWY4dE8tAoX2",
                     "tags": [
                       "latest"
                     ],
@@ -30917,10 +30953,12 @@
                     "preset": "with-synthetix",
                     "contracts": {
                       "NodeModule": {
-                        "address": "0x5e6CB7E728E1C320855587E1D9C6F7972ebdD6D5",
+                        "address": "0xB2505D6EA571639C9902ecCa70A1f93a0D321e39",
                         "abi": [
-                          "error Errors(bytes[] revertReasons)",
+                          "error DeviationToleranceExceeded(int256 deviation)",
+                          "error InvalidInputPrice()",
                           "error InvalidNodeDefinition(tuple(uint8 nodeType, bytes parameters, bytes32[] parents) nodeType)",
+                          "error InvalidParameter(string parameter, string reason)",
                           "error InvalidPrice(int256 price)",
                           "error NodeNotRegistered(bytes32 nodeId)",
                           "error OracleDataRequired(address oracleContract, bytes oracleQuery)",
@@ -30929,24 +30967,26 @@
                           "error OverflowUint256ToInt256()",
                           "error OverflowUint256ToUint160()",
                           "error OverflowUint56ToInt56()",
+                          "error StalenessToleranceExceeded(bytes32 parentId, int256 price, uint256 staleTimestamp)",
+                          "error UnprocessableNode(bytes32 nodeId)",
+                          "error UnsupportedOperation(uint8 operation)",
                           "event NodeRegistered(bytes32 nodeId, uint8 nodeType, bytes parameters, bytes32[] parents)",
                           "function getNode(bytes32 nodeId) pure returns (tuple(uint8 nodeType, bytes parameters, bytes32[] parents) node)",
                           "function getNodeId(uint8 nodeType, bytes parameters, bytes32[] parents) pure returns (bytes32 nodeId)",
                           "function process(bytes32 nodeId) view returns (tuple(int256 price, uint256 timestamp, uint256 __slotAvailableForFutureUse1, uint256 __slotAvailableForFutureUse2) node)",
-                          "function processManyWithRuntime(bytes32[] nodeIds, bytes32[] runtimeKeys, bytes32[] runtimeValues) view returns (tuple(int256 price, uint256 timestamp, uint256 __slotAvailableForFutureUse1, uint256 __slotAvailableForFutureUse2)[] nodes)",
                           "function processWithRuntime(bytes32 nodeId, bytes32[] runtimeKeys, bytes32[] runtimeValues) view returns (tuple(int256 price, uint256 timestamp, uint256 __slotAvailableForFutureUse1, uint256 __slotAvailableForFutureUse2) node)",
                           "function registerNode(uint8 nodeType, bytes parameters, bytes32[] parents) returns (bytes32 nodeId)"
                         ],
                         "constructorArgs": [],
                         "linkedLibraries": {},
-                        "deployTxnHash": "0x0e8ba90c866247f1bdaa0761ea8b93db145b57030be47fba40b10f9548b9c8b8",
-                        "deployTxnBlockNumber": "20541173",
-                        "deployTimestamp": "1727871701",
+                        "deployTxnHash": "0xf1dc0a0da4103ddecacbd7de516046682d9b031497ba9785641ae6bc75cc464d",
+                        "deployTxnBlockNumber": "19119881",
+                        "deployTimestamp": "1725029109",
                         "sourceName": "contracts/modules/NodeModule.sol",
                         "contractName": "NodeModule",
                         "deployedOn": "contract.NodeModule",
-                        "gasUsed": 4539095,
-                        "gasCost": "1006855253"
+                        "gasUsed": 4106509,
+                        "gasCost": "14134099"
                       },
                       "CoreModule": {
                         "address": "0xef0E3210A07A803527ed20B87E0F5A204cdc653f",
@@ -31014,7 +31054,7 @@
                         "gasCost": "1500000057"
                       },
                       "OracleRouter": {
-                        "address": "0x79e8ab29ff79805025c9462a2f2f12e9a496f81d",
+                        "address": "0x9d2e092fd18f3bf7dc6a11124ab8365116fc46e2",
                         "abi": [
                           "error ImplementationIsSterile(address implementation)",
                           "error NoChange()",
@@ -31034,8 +31074,10 @@
                           "function renounceNomination()",
                           "function simulateUpgradeTo(address newImplementation)",
                           "function upgradeTo(address newImplementation)",
-                          "error Errors(bytes[] revertReasons)",
+                          "error DeviationToleranceExceeded(int256 deviation)",
+                          "error InvalidInputPrice()",
                           "error InvalidNodeDefinition(tuple(uint8 nodeType, bytes parameters, bytes32[] parents) nodeType)",
+                          "error InvalidParameter(string parameter, string reason)",
                           "error InvalidPrice(int256 price)",
                           "error NodeNotRegistered(bytes32 nodeId)",
                           "error OracleDataRequired(address oracleContract, bytes oracleQuery)",
@@ -31044,22 +31086,24 @@
                           "error OverflowUint256ToInt256()",
                           "error OverflowUint256ToUint160()",
                           "error OverflowUint56ToInt56()",
+                          "error StalenessToleranceExceeded(bytes32 parentId, int256 price, uint256 staleTimestamp)",
+                          "error UnprocessableNode(bytes32 nodeId)",
+                          "error UnsupportedOperation(uint8 operation)",
                           "event NodeRegistered(bytes32 nodeId, uint8 nodeType, bytes parameters, bytes32[] parents)",
                           "function getNode(bytes32 nodeId) pure returns (tuple(uint8 nodeType, bytes parameters, bytes32[] parents) node)",
                           "function getNodeId(uint8 nodeType, bytes parameters, bytes32[] parents) pure returns (bytes32 nodeId)",
                           "function process(bytes32 nodeId) view returns (tuple(int256 price, uint256 timestamp, uint256 __slotAvailableForFutureUse1, uint256 __slotAvailableForFutureUse2) node)",
-                          "function processManyWithRuntime(bytes32[] nodeIds, bytes32[] runtimeKeys, bytes32[] runtimeValues) view returns (tuple(int256 price, uint256 timestamp, uint256 __slotAvailableForFutureUse1, uint256 __slotAvailableForFutureUse2)[] nodes)",
                           "function processWithRuntime(bytes32 nodeId, bytes32[] runtimeKeys, bytes32[] runtimeValues) view returns (tuple(int256 price, uint256 timestamp, uint256 __slotAvailableForFutureUse1, uint256 __slotAvailableForFutureUse2) node)",
                           "function registerNode(uint8 nodeType, bytes parameters, bytes32[] parents) returns (bytes32 nodeId)"
                         ],
                         "deployedOn": "router.OracleRouter",
-                        "deployTxnHash": "0xce426a78d1eb7627de74f133f0d5a108350f900643537cf1c671cf5821d26616",
-                        "deployTxnBlockNumber": "20541174",
-                        "deployTimestamp": "1727871702",
+                        "deployTxnHash": "0x2dddbf892660b422bc89b80dcfd8f378ff51a3bffbdb26cc3713dc4c298f8f8d",
+                        "deployTxnBlockNumber": "19119884",
+                        "deployTimestamp": "1725029115",
                         "contractName": "OracleRouter",
                         "sourceName": "OracleRouter.sol",
-                        "gasUsed": 254434,
-                        "gasCost": "1006057280"
+                        "gasUsed": 246006,
+                        "gasCost": "14139829"
                       },
                       "Proxy": {
                         "address": "0x3d07CBC5Cb9376A67E76C0655Fe239dDa8E2B264",
@@ -31082,8 +31126,10 @@
                           "function renounceNomination()",
                           "function simulateUpgradeTo(address newImplementation)",
                           "function upgradeTo(address newImplementation)",
-                          "error Errors(bytes[] revertReasons)",
+                          "error DeviationToleranceExceeded(int256 deviation)",
+                          "error InvalidInputPrice()",
                           "error InvalidNodeDefinition(tuple(uint8 nodeType, bytes parameters, bytes32[] parents) nodeType)",
+                          "error InvalidParameter(string parameter, string reason)",
                           "error InvalidPrice(int256 price)",
                           "error NodeNotRegistered(bytes32 nodeId)",
                           "error OracleDataRequired(address oracleContract, bytes oracleQuery)",
@@ -31092,11 +31138,13 @@
                           "error OverflowUint256ToInt256()",
                           "error OverflowUint256ToUint160()",
                           "error OverflowUint56ToInt56()",
+                          "error StalenessToleranceExceeded(bytes32 parentId, int256 price, uint256 staleTimestamp)",
+                          "error UnprocessableNode(bytes32 nodeId)",
+                          "error UnsupportedOperation(uint8 operation)",
                           "event NodeRegistered(bytes32 nodeId, uint8 nodeType, bytes parameters, bytes32[] parents)",
                           "function getNode(bytes32 nodeId) pure returns (tuple(uint8 nodeType, bytes parameters, bytes32[] parents) node)",
                           "function getNodeId(uint8 nodeType, bytes parameters, bytes32[] parents) pure returns (bytes32 nodeId)",
                           "function process(bytes32 nodeId) view returns (tuple(int256 price, uint256 timestamp, uint256 __slotAvailableForFutureUse1, uint256 __slotAvailableForFutureUse2) node)",
-                          "function processManyWithRuntime(bytes32[] nodeIds, bytes32[] runtimeKeys, bytes32[] runtimeValues) view returns (tuple(int256 price, uint256 timestamp, uint256 __slotAvailableForFutureUse1, uint256 __slotAvailableForFutureUse2)[] nodes)",
                           "function processWithRuntime(bytes32 nodeId, bytes32[] runtimeKeys, bytes32[] runtimeValues) view returns (tuple(int256 price, uint256 timestamp, uint256 __slotAvailableForFutureUse1, uint256 __slotAvailableForFutureUse2) node)",
                           "function registerNode(uint8 nodeType, bytes parameters, bytes32[] parents) returns (bytes32 nodeId)"
                         ],
@@ -31181,23 +31229,23 @@
                     },
                     "txns": {
                       "upgrade_proxy": {
-                        "hash": "0x37b28aef04795afec13686decc1052df7553e1a5cb7df567d784ef95d7f3b241",
-                        "blockNumber": "20541175",
-                        "timestamp": "1727871704",
+                        "hash": "",
+                        "blockNumber": "19120596",
+                        "timestamp": "1725030574",
                         "events": {
                           "Upgraded": [
                             {
                               "name": "Upgraded",
                               "args": [
                                 "0x3d07CBC5Cb9376A67E76C0655Fe239dDa8E2B264",
-                                "0x79E8AB29Ff79805025c9462a2f2F12e9A496f81d"
+                                "0x9D2e092fd18F3bf7Dc6A11124ab8365116FC46E2"
                               ]
                             }
                           ]
                         },
                         "deployedOn": "invoke.upgrade_proxy",
-                        "gasUsed": 55368,
-                        "gasCost": "1005303039",
+                        "gasUsed": 55346,
+                        "gasCost": "1012317208",
                         "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
                       }
                     },
@@ -31602,23 +31650,23 @@
             },
             "txns": {
               "upgrade_proxy": {
-                "hash": "0xaffa6d40da603daf6c1117779db2099f3e84400d17af65610ac2e336967aed9b",
-                "blockNumber": "20541188",
-                "timestamp": "1727871729",
+                "hash": "0xb2eeb5a55de4ed7214fffa665203a5155c2d0c7189f3dc70a4c7d8e4a9dae431",
+                "blockNumber": "20582680",
+                "timestamp": "1727954706",
                 "events": {
                   "Upgraded": [
                     {
                       "name": "Upgraded",
                       "args": [
                         "0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce",
-                        "0xe38b6847E611e942E6c80eD89aE867F522402e80"
+                        "0xb932C8342106776E73E39D695F3FFC3A9624eCE0"
                       ]
                     }
                   ]
                 },
                 "deployedOn": "invoke.upgrade_proxy",
                 "gasUsed": 55631,
-                "gasCost": "1000982404",
+                "gasCost": "1000679937",
                 "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
               },
               "addCreateMarketToFeatureFlag": {
@@ -32977,9 +33025,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceBtc": {
-            "hash": "0x7789dd863bd261a86ae965869bd1914b13d3db4f5c7745b62403383307f580b0",
-            "blockNumber": "20541207",
-            "timestamp": "1727871760",
+            "hash": "0xe542244492578a4464e78081d0487ae1459d24c4476baca7c51506b5841bce22",
+            "blockNumber": "20582699",
+            "timestamp": "1727954739",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -32994,7 +33042,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceBtc",
             "gasUsed": 37747,
-            "gasCost": "1000077838",
+            "gasCost": "1000053866",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -33008,9 +33056,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceEth": {
-            "hash": "0xbdf64f51315bc4af9193e11eddb014ea1d3be768eaa787f1242ee382e9d240a2",
-            "blockNumber": "20541216",
-            "timestamp": "1727871769",
+            "hash": "0x3b3cfb83e572600c1d579eebf3d0cf3221dfc0006dd9938247054436074ce8ec",
+            "blockNumber": "20582708",
+            "timestamp": "1727954748",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -33025,7 +33073,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceEth",
             "gasUsed": 37747,
-            "gasCost": "1000023422",
+            "gasCost": "1000016208",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -34159,9 +34207,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceSnx": {
-            "hash": "0x06381ca69b449385ad4c22a2f6adf502afe5ca42b9ad7c7e6124042464fbc1a4",
-            "blockNumber": "20541246",
-            "timestamp": "1727871799",
+            "hash": "0x009a8e495f9b6de517993b8c4be61d8c989c4297d349c516bc9b8559baf17620",
+            "blockNumber": "20582738",
+            "timestamp": "1727954778",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -34176,7 +34224,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceSnx",
             "gasUsed": 37759,
-            "gasCost": "1000000431",
+            "gasCost": "1000000301",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -34190,9 +34238,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceSol": {
-            "hash": "0x4d73f3e66072c4d08f22b713e44246f51ee33564140d31aa1d0e034241cabc3b",
-            "blockNumber": "20541247",
-            "timestamp": "1727871800",
+            "hash": "0xb1524e10a8b1ea0cdf9b8fdaa2e0c5b3027f26999e92536350473c6389e06854",
+            "blockNumber": "20582739",
+            "timestamp": "1727954779",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -34207,7 +34255,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceSol",
             "gasUsed": 37759,
-            "gasCost": "1000000378",
+            "gasCost": "1000000264",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -34221,9 +34269,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceW": {
-            "hash": "0xc9957c2b40977f22f95e705df441d8c48e22dc110ae22fc28fd43336720c981f",
-            "blockNumber": "20541257",
-            "timestamp": "1727871810",
+            "hash": "0xbc3719abe758596c2a7316eee68899a055073f0bf0b059a5e32c67b3cacdd2fc",
+            "blockNumber": "20582749",
+            "timestamp": "1727954789",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -34238,7 +34286,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceW",
             "gasUsed": 37759,
-            "gasCost": "1000000103",
+            "gasCost": "1000000072",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -34252,9 +34300,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceWif": {
-            "hash": "0xc049add4b54726a14c36426624ecb49a5e18154534d79050052ac6aca9755b5a",
-            "blockNumber": "20541258",
-            "timestamp": "1727871811",
+            "hash": "0xba3c27038b6a98b3437e0468d8f676f95568d59ac6de53bf35a7b2da5d358f55",
+            "blockNumber": "20582750",
+            "timestamp": "1727954790",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -34269,7 +34317,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceWif",
             "gasUsed": 37759,
-            "gasCost": "1000000091",
+            "gasCost": "1000000064",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -43290,9 +43338,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceArb": {
-            "hash": "0xaa9dc7f7d2f8f4a230c7a1f3b076768701b80bd0fb250ea9e9f614c4fb92727b",
-            "blockNumber": "20541195",
-            "timestamp": "1727871748",
+            "hash": "0x63a67f18dc82e8c476ab7901c9579befc9166c31fccb052568878aa6f3616b8b",
+            "blockNumber": "20582687",
+            "timestamp": "1727954727",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -43307,7 +43355,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceArb",
             "gasUsed": 37759,
-            "gasCost": "1000386056",
+            "gasCost": "1000267179",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -43321,9 +43369,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceAvax": {
-            "hash": "0xa6085231b4741dab6fad860517a69b78a457364afa4bee4c4b187eae89f077e6",
-            "blockNumber": "20541198",
-            "timestamp": "1727871751",
+            "hash": "0xc30ce596084066fcceb6d6ea59bfc6885b310bbfe53b6f0fba7c35e881e97142",
+            "blockNumber": "20582690",
+            "timestamp": "1727954730",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -43338,7 +43386,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceAvax",
             "gasUsed": 37759,
-            "gasCost": "1000258692",
+            "gasCost": "1000179031",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -43352,9 +43400,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceBnb": {
-            "hash": "0x24914b9cc2f1fe043cc46163b049ce8dc8eabc2eb9fb9f240c817c6f13df0933",
-            "blockNumber": "20541204",
-            "timestamp": "1727871757",
+            "hash": "0x83fd86b40d9c4ed407da0aa7f0edeac974138e4b3b91e95ecd8b7e9b54f559f4",
+            "blockNumber": "20582696",
+            "timestamp": "1727954736",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -43369,7 +43417,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceBnb",
             "gasUsed": 37759,
-            "gasCost": "1000116159",
+            "gasCost": "1000080387",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -43383,9 +43431,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceBonk": {
-            "hash": "0x44253f2e651831c83d8d787227b5d740d5cb02d075c4f9edbd2c051fcfa136b3",
-            "blockNumber": "20541206",
-            "timestamp": "1727871759",
+            "hash": "0x8a94028d98ff2c96000ef5a21b35a4b34c11b68bdacd1c8d4c9021a8336cb611",
+            "blockNumber": "20582698",
+            "timestamp": "1727954738",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -43400,7 +43448,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceBonk",
             "gasUsed": 37759,
-            "gasCost": "1000088950",
+            "gasCost": "1000061556",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -43414,9 +43462,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceDoge": {
-            "hash": "0x7eded096a77258b5962aa973449d27dee68cc567006b4f54e0b3607bf974375c",
-            "blockNumber": "20541210",
-            "timestamp": "1727871763",
+            "hash": "0xc5c5c873224b1b4394b3d7993ccb24183eb1408960937a153188a041b3fe8593",
+            "blockNumber": "20582702",
+            "timestamp": "1727954742",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -43431,7 +43479,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceDoge",
             "gasUsed": 37759,
-            "gasCost": "1000052159",
+            "gasCost": "1000036095",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -43445,9 +43493,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceEna": {
-            "hash": "0xfaddb3378e3741e4bdf57bdc904f02ede2047bf0c86e284c2eef2e6063d8ec62",
-            "blockNumber": "20541213",
-            "timestamp": "1727871766",
+            "hash": "0x912fd90b17b52e029bd202699e8939697f0a51b27ec90c8282b37d3779b91f0f",
+            "blockNumber": "20582705",
+            "timestamp": "1727954745",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -43462,7 +43510,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceEna",
             "gasUsed": 37759,
-            "gasCost": "1000034952",
+            "gasCost": "1000024187",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -43476,9 +43524,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceFtm": {
-            "hash": "0xbed69fda76e30e1ffad0fb12615ce4473688063b26faf3863eedb46ff96b6d9e",
-            "blockNumber": "20541221",
-            "timestamp": "1727871774",
+            "hash": "0x4bbc080630992e04854a386acfd6cc72884388e44a23e613f5b5da4e25bc9182",
+            "blockNumber": "20582713",
+            "timestamp": "1727954753",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -43493,7 +43541,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceFtm",
             "gasUsed": 37759,
-            "gasCost": "1000012020",
+            "gasCost": "1000008318",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -43507,9 +43555,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceMatic": {
-            "hash": "0xfda752d746e704a7a1b5bf8acdb79fdecd43aa3a72c85a11ab99a50e504cf9ec",
-            "blockNumber": "20541234",
-            "timestamp": "1727871787",
+            "hash": "0xaa3fb1f0cc6e53dafca3c8375e5187b3aae0e73abe4bc89a747037f511c97742",
+            "blockNumber": "20582726",
+            "timestamp": "1727954766",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -43524,7 +43572,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceMatic",
             "gasUsed": 37759,
-            "gasCost": "1000002124",
+            "gasCost": "1000001471",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -43538,9 +43586,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceOp": {
-            "hash": "0x390a17fda4fcf61b744d683eeded9360fb44a6b970dc8386e9f341887cb7c71d",
-            "blockNumber": "20541237",
-            "timestamp": "1727871790",
+            "hash": "0x8882449996e3fe4895bb78992921186f37a32f3c23ebafca34984eb5386e85ca",
+            "blockNumber": "20582729",
+            "timestamp": "1727954769",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -43555,7 +43603,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceOp",
             "gasUsed": 37759,
-            "gasCost": "1000001424",
+            "gasCost": "1000000988",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -43569,9 +43617,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceOrdi": {
-            "hash": "0x2f198bc7036ac35cd15431e65fcf4ee336fe3ace02ec37fe3717cddd2ba5f454",
-            "blockNumber": "20541238",
-            "timestamp": "1727871791",
+            "hash": "0x55e61a1ac1cfdad5a84cf3528f91b698f35a83b2ccc526fbd341a2d1847927d5",
+            "blockNumber": "20582730",
+            "timestamp": "1727954770",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -43586,7 +43634,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceOrdi",
             "gasUsed": 37759,
-            "gasCost": "1000001247",
+            "gasCost": "1000000865",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -43600,9 +43648,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPricePepe": {
-            "hash": "0x1f0aef0bb7fcfef496568a368f3b6856cb0699831e2eeb959da8a3d97e0b003a",
-            "blockNumber": "20541240",
-            "timestamp": "1727871793",
+            "hash": "0xb7ddd3ac58e0b9ece23765ed77eec1aaa1444e77fc5413f1601e69be672213fb",
+            "blockNumber": "20582732",
+            "timestamp": "1727954772",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -43617,7 +43665,7 @@
             },
             "deployedOn": "invoke.setPerpsPricePepe",
             "gasUsed": 37759,
-            "gasCost": "1000000956",
+            "gasCost": "1000000663",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -43631,9 +43679,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceRune": {
-            "hash": "0x6afb95bf93f042da63b4e71c889589a74807667465c5451eae7a8fce74afc10c",
-            "blockNumber": "20541243",
-            "timestamp": "1727871796",
+            "hash": "0x26daed004bedb523fc2484c76cfdba32d04be523daae470a921b131d90da24c6",
+            "blockNumber": "20582735",
+            "timestamp": "1727954775",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -43648,7 +43696,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceRune",
             "gasUsed": 37759,
-            "gasCost": "1000000642",
+            "gasCost": "1000000446",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -51042,9 +51090,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceArkm": {
-            "hash": "0x39d763d1703afc25c05e7f5614617505b79efff781bdf6e3af9782e452a10501",
-            "blockNumber": "20541196",
-            "timestamp": "1727871749",
+            "hash": "0x28f1775f3d18c659a179bb937e969847476e431ccb5fe292d60275c29d706bc7",
+            "blockNumber": "20582688",
+            "timestamp": "1727954728",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -51059,7 +51107,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceArkm",
             "gasUsed": 37759,
-            "gasCost": "1000337827",
+            "gasCost": "1000233800",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -51073,9 +51121,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceAxl": {
-            "hash": "0x94a5d9aed2799a71c3d7521bbc9b8a465529957a25abd425756dc1c6d3c339b6",
-            "blockNumber": "20541199",
-            "timestamp": "1727871752",
+            "hash": "0x79195fd7a55c707fe5dd6a2dc857451970ba613eeaddcc499721965136becc01",
+            "blockNumber": "20582691",
+            "timestamp": "1727954731",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -51090,7 +51138,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceAxl",
             "gasUsed": 37759,
-            "gasCost": "1000226374",
+            "gasCost": "1000156664",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -51104,9 +51152,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceBome": {
-            "hash": "0x914f9b2ca2da6da48bf1f534d09d0f40a94cb82c40378b7a510ed82bec465ce1",
-            "blockNumber": "20541205",
-            "timestamp": "1727871758",
+            "hash": "0xcbe798fc8838653ddf4c71b5c0c7d9ff8ea7e1ecd869154b0e1babe546c70f24",
+            "blockNumber": "20582697",
+            "timestamp": "1727954737",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -51121,7 +51169,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceBome",
             "gasUsed": 37759,
-            "gasCost": "1000101648",
+            "gasCost": "1000070344",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -51135,9 +51183,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceEthfi": {
-            "hash": "0x4bb378e4e5c4cd04de0fe7fed4fa8b1a71c18a3696e1c7efa134f4491a3e1f91",
-            "blockNumber": "20541218",
-            "timestamp": "1727871771",
+            "hash": "0xac58926dc81b44f5528fbeb6649ac9526e7cfca46acf1fd4015ee1b01e4c5495",
+            "blockNumber": "20582710",
+            "timestamp": "1727954750",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -51152,7 +51200,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceEthfi",
             "gasUsed": 37759,
-            "gasCost": "1000017936",
+            "gasCost": "1000012412",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -51166,9 +51214,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceGala": {
-            "hash": "0xda6e6d9e68e56710f033f98054d442f121c2778c24b59cb0a1ed77014c51649f",
-            "blockNumber": "20541223",
-            "timestamp": "1727871776",
+            "hash": "0x99781548a7da701d8e5bbd269a3fb6c01c90d918610445f8e620fe6c3c7e0c23",
+            "blockNumber": "20582715",
+            "timestamp": "1727954755",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -51183,7 +51231,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceGala",
             "gasUsed": 37747,
-            "gasCost": "1000009205",
+            "gasCost": "1000006370",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -51197,9 +51245,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceGmx": {
-            "hash": "0xcd806225e079145191196e96929643d408645b8f88dfa72d2e35de82e41849d1",
-            "blockNumber": "20541224",
-            "timestamp": "1727871777",
+            "hash": "0x417b1a09c81ea8c38e5875325fdeb32ed049becf606f6fcec38e69b08fca0395",
+            "blockNumber": "20582716",
+            "timestamp": "1727954756",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -51214,7 +51262,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceGmx",
             "gasUsed": 37759,
-            "gasCost": "1000008056",
+            "gasCost": "1000005575",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -51228,9 +51276,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceInj": {
-            "hash": "0x0efce78f423570cd7519fef7ec5a22a4fcbba10a8a52b0c4696dac7160a22c30",
-            "blockNumber": "20541228",
-            "timestamp": "1727871781",
+            "hash": "0x2477b8bd7f066bd9b1ad58a0b8724d7e0aaf422c53efc29786bf4e6de1a21c85",
+            "blockNumber": "20582720",
+            "timestamp": "1727954760",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -51245,7 +51293,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceInj",
             "gasUsed": 37759,
-            "gasCost": "1000004726",
+            "gasCost": "1000003271",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -51259,9 +51307,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceLink": {
-            "hash": "0xf4b21a5999daaac1d68a033e441c6e49b1165ba770a116adbdb50e0ce6046d28",
-            "blockNumber": "20541232",
-            "timestamp": "1727871785",
+            "hash": "0x0c8da26b9fef69ff4979c9d2e8fa2ed03c9d5b49c86544ab47299f51d23258d6",
+            "blockNumber": "20582724",
+            "timestamp": "1727954764",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -51276,7 +51324,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceLink",
             "gasUsed": 37759,
-            "gasCost": "1000002773",
+            "gasCost": "1000001920",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -51290,9 +51338,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPricePendle": {
-            "hash": "0x064fe9bbd7d633a152775e4cf23304cea2ed8ed8db421a2b610b4dd8a0aa6834",
-            "blockNumber": "20541239",
-            "timestamp": "1727871792",
+            "hash": "0xdef658e44447a8810cd5e6910bdc97e4ed35598ba34ed3db500aa0ce1fcb0145",
+            "blockNumber": "20582731",
+            "timestamp": "1727954771",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -51307,7 +51355,7 @@
             },
             "deployedOn": "invoke.setPerpsPricePendle",
             "gasUsed": 37759,
-            "gasCost": "1000001092",
+            "gasCost": "1000000757",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -51321,9 +51369,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceStx": {
-            "hash": "0xf5994905d3b3fc19be8741b08f2d38e7d6cf060a465821b755fa333059c41dac",
-            "blockNumber": "20541249",
-            "timestamp": "1727871802",
+            "hash": "0x9213d19e5a33e22b7de4e8dd668af031d538942c05d8f13d238288852b08ee2f",
+            "blockNumber": "20582741",
+            "timestamp": "1727954781",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -51338,7 +51386,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceStx",
             "gasUsed": 37759,
-            "gasCost": "1000000290",
+            "gasCost": "1000000204",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -51352,9 +51400,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceSui": {
-            "hash": "0xeec01430b127bf6440d8e0e5472bd7239249c12d5edfdd010b504ee811013cc4",
-            "blockNumber": "20541250",
-            "timestamp": "1727871803",
+            "hash": "0xafa8dea89e159cc636358120a73ce8a291e487cd140fc32f9192c7a5cc4d7a71",
+            "blockNumber": "20582742",
+            "timestamp": "1727954782",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -51369,7 +51417,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceSui",
             "gasUsed": 37759,
-            "gasCost": "1000000254",
+            "gasCost": "1000000179",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -51383,9 +51431,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceTao": {
-            "hash": "0xd34ea1cb2f4c1b7b6314d75d327531f8aa0319f43eb087cc233b5129926a3337",
-            "blockNumber": "20541252",
-            "timestamp": "1727871805",
+            "hash": "0xa5c112f2ef221346bfc8fe04a47ee2afd721e7453d408eaf6143caaf3a98db25",
+            "blockNumber": "20582744",
+            "timestamp": "1727954784",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -51400,7 +51448,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceTao",
             "gasUsed": 37759,
-            "gasCost": "1000000196",
+            "gasCost": "1000000138",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -51414,9 +51462,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceTia": {
-            "hash": "0x603060bce14ac6b9099ca841f18b58141d63d3c7a38553e05a597473b81550d3",
-            "blockNumber": "20541253",
-            "timestamp": "1727871806",
+            "hash": "0x7ee1c863a9961be1eb1fb9690f9ca7baf8bb5095d9ea4f5d5ca7dabcf5b4561a",
+            "blockNumber": "20582745",
+            "timestamp": "1727954785",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -51431,7 +51479,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceTia",
             "gasUsed": 37759,
-            "gasCost": "1000000172",
+            "gasCost": "1000000121",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -51445,9 +51493,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceTon": {
-            "hash": "0x7f606818897bdb16db27caab409c0bb1eafe18ba39a1dd395aafa21f57092c30",
-            "blockNumber": "20541254",
-            "timestamp": "1727871807",
+            "hash": "0xa59242242c7f7b52b343001694054b7174ac6e8973295497323d5a04cfff96c5",
+            "blockNumber": "20582746",
+            "timestamp": "1727954786",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -51462,7 +51510,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceTon",
             "gasUsed": 37759,
-            "gasCost": "1000000151",
+            "gasCost": "1000000106",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -58713,9 +58761,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceAave": {
-            "hash": "0x8c7b08a733783f6c967c24161aebef1beeaec91b7ea10c493b419b68f3bea49e",
-            "blockNumber": "20541191",
-            "timestamp": "1727871744",
+            "hash": "0x63f7d8f25ad21c418b657b3b5f13da6e53ea3d0e5efd72a5b64206c99398481b",
+            "blockNumber": "20582683",
+            "timestamp": "1727954723",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -58730,7 +58778,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceAave",
             "gasUsed": 37759,
-            "gasCost": "1000658375",
+            "gasCost": "1000455657",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -58744,9 +58792,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceAda": {
-            "hash": "0xb84739a3c6e6d0489525f105407cded07c08eb425104befac2729e2b3d44c254",
-            "blockNumber": "20541192",
-            "timestamp": "1727871745",
+            "hash": "0x15608b38de801529709e5c106502e727b011fb3a0600709ff2e3bec56224808b",
+            "blockNumber": "20582684",
+            "timestamp": "1727954724",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -58761,7 +58809,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceAda",
             "gasUsed": 37759,
-            "gasCost": "1000576126",
+            "gasCost": "1000398730",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -58775,9 +58823,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceAlgo": {
-            "hash": "0xdf92c53bfebcbefe97337b98c02f5764e2b225f924af9b3cd88985ed4176d3c1",
-            "blockNumber": "20541193",
-            "timestamp": "1727871746",
+            "hash": "0x640b3ad56c5bd7c327128a799a99eb7dbc116f0842da595ea6424d4e08f37e63",
+            "blockNumber": "20582685",
+            "timestamp": "1727954725",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -58792,7 +58840,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceAlgo",
             "gasUsed": 37759,
-            "gasCost": "1000504152",
+            "gasCost": "1000348915",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -58806,9 +58854,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceApt": {
-            "hash": "0x0113d5d4cabc71e8c02b443914b0e596bfa3d237f32c4908045621319fcd4a87",
-            "blockNumber": "20541194",
-            "timestamp": "1727871747",
+            "hash": "0xaa223ef1df5caeb60b41648502513a5a03a7ff4b5a5bce4b51063525ce84c24e",
+            "blockNumber": "20582686",
+            "timestamp": "1727954726",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -58823,7 +58871,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceApt",
             "gasUsed": 37759,
-            "gasCost": "1000441170",
+            "gasCost": "1000305324",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -58837,9 +58885,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceAtom": {
-            "hash": "0xb8e4754cf2666fdd732ecfd41d8c3222773850e23a201224e9f0ca350070573d",
-            "blockNumber": "20541197",
-            "timestamp": "1727871750",
+            "hash": "0x7e23274b539fecca24411c36ba1b480f75e753dd40efc78e43fd9cc8919b2042",
+            "blockNumber": "20582689",
+            "timestamp": "1727954729",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -58854,7 +58902,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceAtom",
             "gasUsed": 37747,
-            "gasCost": "1000295623",
+            "gasCost": "1000204591",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -58868,9 +58916,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceAxs": {
-            "hash": "0x5c731fec70ca702ef8d4cfcfb8d339daaafd7fb63e83a83c059643bcf871674d",
-            "blockNumber": "20541200",
-            "timestamp": "1727871753",
+            "hash": "0x3b6606348f771f062eaac45b34df733184e633208385d0177d1bb661edecc65b",
+            "blockNumber": "20582692",
+            "timestamp": "1727954732",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -58885,7 +58933,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceAxs",
             "gasUsed": 37759,
-            "gasCost": "1000198094",
+            "gasCost": "1000137092",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -58899,9 +58947,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceBal": {
-            "hash": "0x09c69936b889d3f07f9e784d7798ef46365d25feecdef2b51bee99631a8f04ba",
-            "blockNumber": "20541201",
-            "timestamp": "1727871754",
+            "hash": "0xb1c35a34df74c298011c926ad486c106ee1e02be6fd8df3bfb6610077df5ca6e",
+            "blockNumber": "20582693",
+            "timestamp": "1727954733",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -58916,7 +58964,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceBal",
             "gasUsed": 37759,
-            "gasCost": "1000173347",
+            "gasCost": "1000119965",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -58930,9 +58978,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceBch": {
-            "hash": "0x08b9353455dae4a995314f7a3137ba30b514d91696f0062bfcad0d5a2d58ed11",
-            "blockNumber": "20541202",
-            "timestamp": "1727871755",
+            "hash": "0xeda55d73c289e20f2114cc9ae1fadd0d26e534acc0107ff163638c42d8c1cc2e",
+            "blockNumber": "20582694",
+            "timestamp": "1727954734",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -58947,7 +58995,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceBch",
             "gasUsed": 37747,
-            "gasCost": "1000151692",
+            "gasCost": "1000104978",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -58961,9 +59009,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceBlur": {
-            "hash": "0x34c2671d72a3c9028283e40ad3c71f3d182afe3f18fe61cb1a1ab774addc3f85",
-            "blockNumber": "20541203",
-            "timestamp": "1727871756",
+            "hash": "0x4ab00707f0a231c49691aa1627bc1333df751432860678b9698fbe8b887d700a",
+            "blockNumber": "20582695",
+            "timestamp": "1727954735",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -58978,7 +59026,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceBlur",
             "gasUsed": 37759,
-            "gasCost": "1000132742",
+            "gasCost": "1000091863",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -58992,9 +59040,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceComp": {
-            "hash": "0x5b63c7813a388323f0fb8ab042a9d51ebe6e3b80cd17fc9ec611d39d93aaec9e",
-            "blockNumber": "20541208",
-            "timestamp": "1727871761",
+            "hash": "0x150da10853a8ef796957ba5a052d2aaf0aebe33882ca0b8fcf3d7e5219d01d89",
+            "blockNumber": "20582700",
+            "timestamp": "1727954740",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -59009,7 +59057,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceComp",
             "gasUsed": 37759,
-            "gasCost": "1000068114",
+            "gasCost": "1000047137",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -63847,9 +63895,9 @@
         "contracts": {},
         "txns": {
           "setPerpsEthbtcOrderFees": {
-            "hash": "0xf96c66cb891fa569e78e9ea2a0e597aae857f2861cdbe4c42b44445f93d0bb71",
-            "blockNumber": "20541190",
-            "timestamp": "1727871739",
+            "hash": "0xd4ba216f1ce8b8f8f2336e0ea0aff49725d9080056f817b17ba6a66a60231bfe",
+            "blockNumber": "20582682",
+            "timestamp": "1727954718",
             "events": {
               "OrderFeesSet": [
                 {
@@ -63864,7 +63912,7 @@
             },
             "deployedOn": "invoke.setPerpsEthbtcOrderFees",
             "gasUsed": 42214,
-            "gasCost": "1000752359",
+            "gasCost": "1000520707",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -64535,9 +64583,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceCrv": {
-            "hash": "0xcac8b4bc731344380c1eb6f102dc8a9e280b07c4d2aa8cd53e73517011200713",
-            "blockNumber": "20541209",
-            "timestamp": "1727871762",
+            "hash": "0xab541c267d338ee9622338d42ab38c02b3c743964873d1fd8684875734921e55",
+            "blockNumber": "20582701",
+            "timestamp": "1727954741",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -64552,7 +64600,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceCrv",
             "gasUsed": 37759,
-            "gasCost": "1000059605",
+            "gasCost": "1000041248",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -64566,9 +64614,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceDot": {
-            "hash": "0x87ef1a8889a9b1174ac5a463ae5c1ea0bdc73ccd0db485e1269d32eb541da8bd",
-            "blockNumber": "20541211",
-            "timestamp": "1727871764",
+            "hash": "0x0446f29b3fa5c1504ca2435dfe2fef1d30fd3442f751ea5747871ca9f16f316b",
+            "blockNumber": "20582703",
+            "timestamp": "1727954743",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -64583,7 +64631,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceDot",
             "gasUsed": 37759,
-            "gasCost": "1000045643",
+            "gasCost": "1000031586",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -64597,9 +64645,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceDydx": {
-            "hash": "0xcad390f2f6d9372a69ecaa8bedb5026929d5d504e507fe4f48b2e1963c4f651e",
-            "blockNumber": "20541212",
-            "timestamp": "1727871765",
+            "hash": "0xdb205a8bf57e84b993164062275966ac0003def1d97b5c451e75483eab18c626",
+            "blockNumber": "20582704",
+            "timestamp": "1727954744",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -64614,7 +64662,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceDydx",
             "gasUsed": 37759,
-            "gasCost": "1000039941",
+            "gasCost": "1000027640",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -64628,9 +64676,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceEos": {
-            "hash": "0x6f99f2fe1ef5cfc12a37f0b197adc4bcf38a63069601b460386e49263892bc0c",
-            "blockNumber": "20541214",
-            "timestamp": "1727871767",
+            "hash": "0xe55baecb9a4b14e38e767f3adae77b238105e8d4fc8a6d5ce4e39c95a2822868",
+            "blockNumber": "20582706",
+            "timestamp": "1727954746",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -64645,7 +64693,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceEos",
             "gasUsed": 37759,
-            "gasCost": "1000030586",
+            "gasCost": "1000021166",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -64659,9 +64707,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceEtc": {
-            "hash": "0xde57df8106905a87012e0118809d32c4b0f185c15a8e05625114db3cc79d97fc",
-            "blockNumber": "20541215",
-            "timestamp": "1727871768",
+            "hash": "0xe276f072b882a92b155828e7ebb0260f38f3ad62b2c6dc0e66b226805bced0cc",
+            "blockNumber": "20582707",
+            "timestamp": "1727954747",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -64676,7 +64724,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceEtc",
             "gasUsed": 37759,
-            "gasCost": "1000026765",
+            "gasCost": "1000018522",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -64690,9 +64738,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceEthbtc": {
-            "hash": "0xf4b4edeb1577e6130c45093a90e739f0da28da4584514e4b3a414764dc311ef8",
-            "blockNumber": "20541217",
-            "timestamp": "1727871770",
+            "hash": "0xd3d0462a8b6befca3d85a14ba81987148b9469dd9dd4b6b5184bc86cdc3adf5c",
+            "blockNumber": "20582709",
+            "timestamp": "1727954749",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -64707,7 +64755,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceEthbtc",
             "gasUsed": 37759,
-            "gasCost": "1000020496",
+            "gasCost": "1000014184",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -64721,9 +64769,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceFil": {
-            "hash": "0xb69b87d2c291f45ade0fab12af2ea3f223fa1899cc020dd37d38a47f1b8898cc",
-            "blockNumber": "20541219",
-            "timestamp": "1727871772",
+            "hash": "0x8fee43fd69abe57ec216641f3dd4a7c078d33ac4a100dc83731396ffced3bef4",
+            "blockNumber": "20582711",
+            "timestamp": "1727954751",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -64738,7 +64786,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceFil",
             "gasUsed": 37759,
-            "gasCost": "1000015696",
+            "gasCost": "1000010862",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -64752,9 +64800,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceFlow": {
-            "hash": "0x1f615649ba2ced47cd0ab647fe29db2fb3954db0183f44a5f33065c0e634d493",
-            "blockNumber": "20541220",
-            "timestamp": "1727871773",
+            "hash": "0x64343a0d1eca7b077417b0ca7975048c16641ad0e1548c3e2bb79cf38e4570fe",
+            "blockNumber": "20582712",
+            "timestamp": "1727954752",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -64769,7 +64817,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceFlow",
             "gasUsed": 37759,
-            "gasCost": "1000013736",
+            "gasCost": "1000009505",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -64783,9 +64831,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceFxs": {
-            "hash": "0xad581503bff4b585356880b531c6c1f346ed5b8f5b0591ac59faab5702930748",
-            "blockNumber": "20541222",
-            "timestamp": "1727871775",
+            "hash": "0x158d75f0c26338a9d0106a37b9fea0cdf9565286c16f4d8d61be0461be530d83",
+            "blockNumber": "20582714",
+            "timestamp": "1727954754",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -64800,7 +64848,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceFxs",
             "gasUsed": 37759,
-            "gasCost": "1000010519",
+            "gasCost": "1000007279",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -71682,9 +71730,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceGrt": {
-            "hash": "0xf09858e82da73d5b94e6b99fbf5a60bea417d6df2788b3b023251533fc271a5f",
-            "blockNumber": "20541225",
-            "timestamp": "1727871778",
+            "hash": "0x8357d5557ec154faa2de78b9e70a67176e3f462ad439c3093ea3a46353783dd4",
+            "blockNumber": "20582717",
+            "timestamp": "1727954757",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -71699,7 +71747,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceGrt",
             "gasUsed": 37747,
-            "gasCost": "1000007050",
+            "gasCost": "1000004879",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -71713,9 +71761,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceIcp": {
-            "hash": "0x1de1831e08308604e85a54568cc0796e9d0e0fbf53ea99930e0f7064b1cf1bb5",
-            "blockNumber": "20541226",
-            "timestamp": "1727871779",
+            "hash": "0x37d79f859c62ba37528b61514b1c895b33ef82584ffc4e9635cadda82ec8b3f7",
+            "blockNumber": "20582718",
+            "timestamp": "1727954758",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -71730,7 +71778,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceIcp",
             "gasUsed": 37759,
-            "gasCost": "1000006170",
+            "gasCost": "1000004270",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -71744,9 +71792,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceImx": {
-            "hash": "0x3c1ffd6c3c1071dd79db38f7c24eb1fbc857e827daacb399bb9b53eb41969a4c",
-            "blockNumber": "20541227",
-            "timestamp": "1727871780",
+            "hash": "0x65031cd6de57e9e17cbc66975138376d20bebd87acdb35e6caec30a5b8cbacbc",
+            "blockNumber": "20582719",
+            "timestamp": "1727954759",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -71761,7 +71809,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceImx",
             "gasUsed": 37759,
-            "gasCost": "1000005400",
+            "gasCost": "1000003737",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -71775,9 +71823,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceJto": {
-            "hash": "0xd85dd0762ed362004ad297112d24e161e5b0191b9bf9cc8ae474906318c3510f",
-            "blockNumber": "20541229",
-            "timestamp": "1727871782",
+            "hash": "0xbc317b77506d3183a556c5b5fdd23618b89d25d98d326a72ad0aba8634e875cd",
+            "blockNumber": "20582721",
+            "timestamp": "1727954761",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -71792,7 +71840,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceJto",
             "gasUsed": 37747,
-            "gasCost": "1000004136",
+            "gasCost": "1000002863",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -71806,9 +71854,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceJup": {
-            "hash": "0x4213ae01318bd3fad9c2e13f4f2ab2349a4670adbcb4b3758478259e863978c7",
-            "blockNumber": "20541230",
-            "timestamp": "1727871783",
+            "hash": "0xd8aab014dd4a2996e5bb515ed070fc7dba25f8d0a5247b112ed16e8cad0ab0b9",
+            "blockNumber": "20582722",
+            "timestamp": "1727954762",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -71823,7 +71871,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceJup",
             "gasUsed": 37759,
-            "gasCost": "1000003620",
+            "gasCost": "1000002506",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -71837,9 +71885,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceLdo": {
-            "hash": "0x06af8cada922431472c973784ffab2540cfe0968b7c8fdc9c3be04f877a1dbd5",
-            "blockNumber": "20541231",
-            "timestamp": "1727871784",
+            "hash": "0x5ee3f9a955494fe7ea9dd97f7eebe399ff34f0f40a93ed0392618f2f43afaa1c",
+            "blockNumber": "20582723",
+            "timestamp": "1727954763",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -71854,7 +71902,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceLdo",
             "gasUsed": 37759,
-            "gasCost": "1000003168",
+            "gasCost": "1000002193",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -71868,9 +71916,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceLtc": {
-            "hash": "0x2a991f724c0b287b5aaa9fc2f1c46ae37360234af5b66db94d226be06affa96d",
-            "blockNumber": "20541233",
-            "timestamp": "1727871786",
+            "hash": "0x9b6ffdafef3ea95a33cb8b75d5c34b3194ec4ec675a8ebabe26555a71b658e26",
+            "blockNumber": "20582725",
+            "timestamp": "1727954765",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -71885,7 +71933,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceLtc",
             "gasUsed": 37747,
-            "gasCost": "1000002427",
+            "gasCost": "1000001681",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -71899,9 +71947,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceMeme": {
-            "hash": "0x5452f88d52659b567a03de1779e54ae0a21d8ada2c148c98855cf6039db56802",
-            "blockNumber": "20541235",
-            "timestamp": "1727871788",
+            "hash": "0xf5182e3c33c364cac795d456a61ed07a054bc2c65070c11a98ab8921665b60d4",
+            "blockNumber": "20582727",
+            "timestamp": "1727954767",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -71916,7 +71964,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceMeme",
             "gasUsed": 37759,
-            "gasCost": "1000001859",
+            "gasCost": "1000001288",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -71930,9 +71978,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceNear": {
-            "hash": "0x36424d692a241adc1c52d3c6a4d28024808d1ef304a36c8be54b37ebe4ae0a90",
-            "blockNumber": "20541236",
-            "timestamp": "1727871789",
+            "hash": "0xb33435816516dcba13ce68c00e2d149d42a0e8b10e860272df77a80b1c1cde77",
+            "blockNumber": "20582728",
+            "timestamp": "1727954768",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -71947,7 +71995,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceNear",
             "gasUsed": 37759,
-            "gasCost": "1000001627",
+            "gasCost": "1000001128",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -71961,9 +72009,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPricePyth": {
-            "hash": "0x79ec964e5707f2dc1d19f094745a79ed6759ed2d71ac5fde34c67621a9d9834e",
-            "blockNumber": "20541241",
-            "timestamp": "1727871794",
+            "hash": "0xf4777600615aaec7842e1422f0425c7aa7a171ecdf0e6a846c2e85099b85e3f6",
+            "blockNumber": "20582733",
+            "timestamp": "1727954773",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -71978,7 +72026,7 @@
             },
             "deployedOn": "invoke.setPerpsPricePyth",
             "gasUsed": 37759,
-            "gasCost": "1000000837",
+            "gasCost": "1000000581",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -71992,9 +72040,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceRndr": {
-            "hash": "0x1487bf1298abc1ef65d1714061303ca2705d3cb33661aaa2b90a05fd27fbf717",
-            "blockNumber": "20541242",
-            "timestamp": "1727871795",
+            "hash": "0x52523d7a0e1c5e4da60afedd16cf1a993fd755155208480ce22a395c8f568239",
+            "blockNumber": "20582734",
+            "timestamp": "1727954774",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -72009,7 +72057,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceRndr",
             "gasUsed": 37759,
-            "gasCost": "1000000733",
+            "gasCost": "1000000509",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -72023,9 +72071,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceSei": {
-            "hash": "0x6ffcfce890db652226db11a543a3e38d9c3c84b9aee4c5ce41ffb2856ee903e0",
-            "blockNumber": "20541244",
-            "timestamp": "1727871797",
+            "hash": "0x207f66855f4c14d87a7da8daa985572a24677c54d9a0354bdc9b917901da02fe",
+            "blockNumber": "20582736",
+            "timestamp": "1727954776",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -72040,7 +72088,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceSei",
             "gasUsed": 37747,
-            "gasCost": "1000000562",
+            "gasCost": "1000000391",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -72054,9 +72102,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceShib": {
-            "hash": "0xc88ceee4c867ab348a52cd179f94a9bdf1f863e91dc163b37de0d5e04e7bf7aa",
-            "blockNumber": "20541245",
-            "timestamp": "1727871798",
+            "hash": "0x5db3f538a1c92b8ec3e268a96c188e796d526da47e560d364e95c0bef47e77c0",
+            "blockNumber": "20582737",
+            "timestamp": "1727954777",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -72071,7 +72119,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceShib",
             "gasUsed": 37759,
-            "gasCost": "1000000492",
+            "gasCost": "1000000343",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -75924,9 +75972,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceStrk": {
-            "hash": "0xbe748a934fa16feaf8612d9a19a4abd5a900808f793e572308316c7ae07a0acc",
-            "blockNumber": "20541248",
-            "timestamp": "1727871801",
+            "hash": "0x38112d25d0f733a71eb352c1795add7c7163220de57bb9de6e0de9d4297c211a",
+            "blockNumber": "20582740",
+            "timestamp": "1727954780",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -75941,7 +75989,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceStrk",
             "gasUsed": 37759,
-            "gasCost": "1000000331",
+            "gasCost": "1000000232",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -75955,9 +76003,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceSushi": {
-            "hash": "0x2f8b83c57f80a94f6612175652b255b63a5ca1b5ffb5eef8d68a0af42d70c668",
-            "blockNumber": "20541251",
-            "timestamp": "1727871804",
+            "hash": "0x863f2a1914e1abe85249e3562e052cbfeebbfdda750abd5b11405d690072fe69",
+            "blockNumber": "20582743",
+            "timestamp": "1727954783",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -75972,7 +76020,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceSushi",
             "gasUsed": 37759,
-            "gasCost": "1000000223",
+            "gasCost": "1000000157",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -75986,9 +76034,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceTrx": {
-            "hash": "0xcceb7f3cec7e928db5393a3b1287fa8531f868ee7ad5994d364f10028c96e80f",
-            "blockNumber": "20541255",
-            "timestamp": "1727871808",
+            "hash": "0x4bf6296e2539784b441297ae8fb4030777187ac4e5fa964deaca5e5f31a24ebe",
+            "blockNumber": "20582747",
+            "timestamp": "1727954787",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -76003,7 +76051,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceTrx",
             "gasUsed": 37759,
-            "gasCost": "1000000133",
+            "gasCost": "1000000093",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -76017,9 +76065,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceUni": {
-            "hash": "0xb9a0170b3d876750c7958acd1df30a26231dc57be21b1e5082518e5c50688ebc",
-            "blockNumber": "20541256",
-            "timestamp": "1727871809",
+            "hash": "0xc563e8d238eb1032a1f612658d6791674747dd3c714036cbf5ec871a68c4f861",
+            "blockNumber": "20582748",
+            "timestamp": "1727954788",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -76034,7 +76082,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceUni",
             "gasUsed": 37759,
-            "gasCost": "1000000117",
+            "gasCost": "1000000082",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -76048,9 +76096,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceXlm": {
-            "hash": "0x549c23bde585b642a2c976a4f2bc2e0dc9ba84a54ebb1faf8455d06dc85838b9",
-            "blockNumber": "20541259",
-            "timestamp": "1727871812",
+            "hash": "0xaca2fae63778ce07422e99a7537d1d72b4f24f2d911a77048fd9137635a914bb",
+            "blockNumber": "20582751",
+            "timestamp": "1727954791",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -76065,7 +76113,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceXlm",
             "gasUsed": 37759,
-            "gasCost": "1000000080",
+            "gasCost": "1000000057",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -76079,9 +76127,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceXrp": {
-            "hash": "0xf1b5783f38a7d5a3b62572d26da023c1923b255e25137416458201b6d806aad2",
-            "blockNumber": "20541260",
-            "timestamp": "1727871813",
+            "hash": "0xf60203fe01ce7ec1e63a48420fb8cb6bc2639b918e92edc24a39a9e436486218",
+            "blockNumber": "20582752",
+            "timestamp": "1727954792",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -76096,7 +76144,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceXrp",
             "gasUsed": 37759,
-            "gasCost": "1000000071",
+            "gasCost": "1000000050",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -76110,9 +76158,9 @@
         "contracts": {},
         "txns": {
           "setPerpsPriceYfi": {
-            "hash": "0xa8a9bd1aa623a6325d24a36d8f867cd0a536b399cdbf975288792c3de7eceafb",
-            "blockNumber": "20541261",
-            "timestamp": "1727871814",
+            "hash": "0x1a26e5b8593ff434b0f1f057eaf8c499bc4ca2d9a63a8742fa2f195839e2d032",
+            "blockNumber": "20582753",
+            "timestamp": "1727954793",
             "events": {
               "MarketPriceDataUpdated": [
                 {
@@ -76127,7 +76175,7 @@
             },
             "deployedOn": "invoke.setPerpsPriceYfi",
             "gasUsed": 37759,
-            "gasCost": "1000000063",
+            "gasCost": "1000000044",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
@@ -80494,9 +80542,9 @@
         "contracts": {},
         "txns": {
           "PerpsMarketProxy_setCollateralConfiguration_USD": {
-            "hash": "0x2f0392b915292a13ceeb871c4492bc4403ec46cc296b08f87a1137041e922a3e",
-            "blockNumber": "20541189",
-            "timestamp": "1727871731",
+            "hash": "0xbc93fec959ee5a40451325c2d4144e54166dc4711fd612ef00ddd49b32c451c6",
+            "blockNumber": "20582681",
+            "timestamp": "1727954709",
             "events": {
               "CollateralConfigurationSet": [
                 {
@@ -80513,7 +80561,7 @@
             },
             "deployedOn": "invoke.PerpsMarketProxy_setCollateralConfiguration_USD",
             "gasUsed": 69944,
-            "gasCost": "1000859708",
+            "gasCost": "1000595011",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
