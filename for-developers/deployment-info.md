@@ -194,7 +194,7 @@
     <tr>
       <td>system</td>
       <td><a href="https://usecannon.com/packages/synthetix/3.5.0/42161-main">synthetix:3.5.0@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/Qmef7TJy9QhCHpLoYoUnZXWcHyNdJttTQAKxEJjtmYJ3Q7">Qmef7TJy9QhCHpLoYoUnZXWcHyNdJttTQAKxEJjtmYJ3Q7</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmZNJKepKM5PF3ht6vGoQQxeqNXVRFQvsJaT2GxNNLJ2Mw">QmZNJKepKM5PF3ht6vGoQQxeqNXVRFQvsJaT2GxNNLJ2Mw</a></td>
       <td>
         bundleSalt: main<br />oracle_manager_source: oracle-manager<br />owner: <a href="https://arbiscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />salt: main<br />const_one_oracle_id: 0x066ef68c9d9ca51eee861aeb5bce51a12e61f06f10bf62243c563671ae3a9733
@@ -203,7 +203,7 @@
     <tr>
       <td>spotFactory</td>
       <td><a href="https://usecannon.com/packages/synthetix-spot-market/3.6.0/42161-main">synthetix-spot-market:3.6.0@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/Qmc9F2QCJyY7VEM2L9jGxhXv9PfBm81hYFkRogVfZT7Cvz">Qmc9F2QCJyY7VEM2L9jGxhXv9PfBm81hYFkRogVfZT7Cvz</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmPo3jatQDLhjrV6i53MtVBF7SRNKpgrVykLwhRqzrEDSv">QmPo3jatQDLhjrV6i53MtVBF7SRNKpgrVykLwhRqzrEDSv</a></td>
       <td>
         owner: <a href="https://arbiscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />salt: snax<br />synthetixPackage: synthetix<br />synthetixPreset: main
@@ -212,7 +212,7 @@
     <tr>
       <td>perpsFactory</td>
       <td><a href="https://usecannon.com/packages/synthetix-perps-market/3.6.4/42161-main">synthetix-perps-market:3.6.4@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmPXGz55UC3k4vYuKWfbJgcpDaX1LKohJ3EhgQSL4cnKG3">QmPXGz55UC3k4vYuKWfbJgcpDaX1LKohJ3EhgQSL4cnKG3</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmNP4RuuoyQUUaacN73QdmgycacHKGdMUGxjDgKpHN8wCq">QmNP4RuuoyQUUaacN73QdmgycacHKGdMUGxjDgKpHN8wCq</a></td>
       <td>
         coreProxyOwner: <a href="https://arbiscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />owner: <a href="https://arbiscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
