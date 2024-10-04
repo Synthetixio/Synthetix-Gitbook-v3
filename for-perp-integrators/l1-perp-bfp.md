@@ -6,7 +6,7 @@ This document aims to be an introductory guide for frontend trading, vault build
 The project is open source and you can find all source on GitHub [https://github.com/Synthetixio/synthetix-v3/tree/main/markets/bfp-market](https://github.com/Synthetixio/synthetix-v3/tree/main/markets/bfp-market). Note contract interfaces mentioned here may be out of date. Please refer to the source code on GitHub or better, inspect the contracts directly on cannon or Etherscan.
 {% endhint %}
 
-## What is bfp?
+## What is BFP?
 
 bfp-market or “Big Freaking Perp”-market is a perp market built on top of Synthetix v3. bfp-market, similar to other markets like spot-market, perps-market, and legacy-market are all markets designed, developed, and maintained internally by Synthetix core contributors.
 
@@ -18,9 +18,15 @@ The primary difference between perps-market and bfp-market is the intended use c
 
 The design intent between both markets lead to features that exist in bfp-market which do not exist in perps-market and vice versa. It also influences the destination contracts are deployed to (Ethereum L1 vs L2s), margin management (isolated only vs. cross margin) and the number of markets (just ETHPERP vs. 100+ markets).
 
-{% hint style="info" %}
-bfp-market deployment artifacts are published to [cannon](https://usecannon.com/). You can see the full deployment artifact in the cannon registery under the [synthetix-bfp-market](https://usecannon.com/packages/synthetix-bfp-market) package.
-{% endhint %}
+
+## Testnet deployment
+
+BFP market is deployed on Sepolia. Deployment artifacts are published to [cannon](https://usecannon.com/packages/synthetix-bfp-market).
+You can see the full Sepolia deployment artifact with contract addresses in the cannon registry under the [synthetix-bfp-market](https://usecannon.com/packages/synthetix-bfp-market/latest/11155111-main) package.
+
+To interact with the contracts, you can call functions directly using cannon interface [BfpMarketProxy](https://usecannon.com/packages/synthetix-bfp-market/latest/11155111-main/interact/synthetix-bfp-market/BfpMarketProxy/0x07049D05FC829933511274F6e3A828d464d3517E) package on cannon.
+
+Deployment addresses along with ABIs can be found under the [Deployment Info](../deployment-info/11155111-main.md) section.
 
 ### Overview
 
@@ -503,7 +509,7 @@ function getRemainingLiquidatableSizeCapacity(
 They also have certain bypasses such as the endorsed keeper and when skew is within a `liquidationMaxPd` configuration. We provide a few utility view functions to dig into the health of a position such as:
 
 ```solidity
-// Used in combination with discountedMaringUsd from getMarginDigest
+// Used in combination with discountedMarginUsd from getMarginDigest
 function getLiquidationMarginUsd(
     uint128 accountId,
     uint128 marketId,
