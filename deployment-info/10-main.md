@@ -156,6 +156,42 @@
         <a href="./10-main/cannon.json"><code>cannon.json</code></a>
       </td>
     </tr>
+    <tr>
+      <td>Collateral tokens</td>
+      <td>
+        <a href="./10-main/collateralTokens.json"><code>collateralTokens.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>Collateral tokens</td>
+      <td>
+        <a href="./10-main/collateralTokens.json"><code>collateralTokens.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>Synth tokens</td>
+      <td>
+        <a href="./10-main/synthTokens.json"><code>synthTokens.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>System token</td>
+      <td>
+        <a href="./10-main/systemToken.json"><code>systemToken.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>Rewards distributors</td>
+      <td>
+        <a href="./10-main/rewardsDistributors.json"><code>rewardsDistributors.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>All utilised Pyth price feeds</td>
+      <td>
+        <a href="./10-main/pythFeeds.json"><code>pythFeeds.json</code></a>
+      </td>
+    </tr>
   </tbody>
 </table>
 
