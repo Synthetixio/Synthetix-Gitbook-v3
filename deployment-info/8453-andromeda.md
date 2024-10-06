@@ -252,6 +252,42 @@
         <a href="./8453-andromeda/cannon.json"><code>cannon.json</code></a>
       </td>
     </tr>
+    <tr>
+      <td>Collateral tokens</td>
+      <td>
+        <a href="./8453-andromeda/collateralTokens.json"><code>collateralTokens.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>Collateral tokens</td>
+      <td>
+        <a href="./8453-andromeda/collateralTokens.json"><code>collateralTokens.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>Synth tokens</td>
+      <td>
+        <a href="./8453-andromeda/synthTokens.json"><code>synthTokens.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>System token</td>
+      <td>
+        <a href="./8453-andromeda/systemToken.json"><code>systemToken.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>Rewards distributors</td>
+      <td>
+        <a href="./8453-andromeda/rewardsDistributors.json"><code>rewardsDistributors.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>All utilised Pyth price feeds</td>
+      <td>
+        <a href="./8453-andromeda/pythFeeds.json"><code>pythFeeds.json</code></a>
+      </td>
+    </tr>
   </tbody>
 </table>
 
