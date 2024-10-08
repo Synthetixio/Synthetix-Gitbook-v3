@@ -750,8 +750,8 @@
     </tr>
     <tr>
       <td>perpsFactory</td>
-      <td><a href="https://usecannon.com/packages/synthetix-perps-market/3.3.19/8453-andromeda">synthetix-perps-market:3.3.19@andromeda</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmaXY9WoMMY6uMEYdCWgzYH4KYz3ZqwcNKMs1eS3EmzNQX">QmaXY9WoMMY6uMEYdCWgzYH4KYz3ZqwcNKMs1eS3EmzNQX</a></td>
+      <td><a href="https://usecannon.com/packages/synthetix-perps-market/3.6.4/8453-andromeda">synthetix-perps-market:3.6.4@andromeda</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmXuurzggmn2nMeozBjAwwBgtmQrccLnhUSnCSGtYLLyqo">QmXuurzggmn2nMeozBjAwwBgtmQrccLnhUSnCSGtYLLyqo</a></td>
       <td>
         coreProxyOwner: <a href="https://basescan.org/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />owner: <a href="https://basescan.org/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
