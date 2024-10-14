@@ -376,8 +376,8 @@
     </tr>
     <tr>
       <td>perpsFactory</td>
-      <td><a href="https://usecannon.com/packages/synthetix-perps-market/3.7.1/421614-main">synthetix-perps-market:3.7.1@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmeT5zVTHLtXYBKqvQJh4he1VyDRQLPNb8HHN1bHc6Xpvx">QmeT5zVTHLtXYBKqvQJh4he1VyDRQLPNb8HHN1bHc6Xpvx</a></td>
+      <td><a href="https://usecannon.com/packages/synthetix-perps-market/3.6.5/421614-main">synthetix-perps-market:3.6.5@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmejzBi1wp9vMLLxZcHTgvAunHgEtq4U4XTniYRKmCdYL5">QmejzBi1wp9vMLLxZcHTgvAunHgEtq4U4XTniYRKmCdYL5</a></td>
       <td>
         coreProxyOwner: <a href="https://sepolia.arbiscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />owner: <a href="https://sepolia.arbiscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
