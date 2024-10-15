@@ -7784,7 +7784,7 @@ There is a synthetix v3 core system supply cap also set. If the current supply b
 
 **Parameters**
 * `token` (*address*) - the collateral token address.
-* `distributor` (*address*) - the previous distributor address if there was one. Set it to address(0) if first distributor, or need to create a new clone.
+* `distributor` (*address*) - the distributor address.
 * `collateralId` (*uint128*) - the collateral id.
 * `poolDelegatedCollateralTypes` (*address[]*) - the pool delegated collateral types.
 
@@ -11474,12 +11474,6 @@ See {setApprovalForAll}
 * `newVotingPeriodStartDate` (*uint64*) - new start date for the voting period
 * `newEpochEndDate` (*uint64*) - new end date for the epoch
 
-#### setCurrentEpochSeatCountAndMinimumActiveMembers
-
-  ```solidity
-  function setCurrentEpochSeatCountAndMinimumActiveMembers(uint8 epochSeatCount, uint8 minimumActiveMembers) external
-  ```
-
 #### setNextElectionSettings
 
   ```solidity
@@ -11550,6 +11544,7 @@ See {setApprovalForAll}
   Processes ballots in batches during the Evaluation period (after epochEndDate)
 
   ElectionTally needs to be extended to specify how votes are counted
+Should be called after all crosschain votes propogate; if called immediately when the evaluation period starts some votes have the chance of being lost
 
 #### resolve
 
@@ -12024,7 +12019,7 @@ See {setApprovalForAll}
 #### setSnapshotContract
 
   ```solidity
-  function setSnapshotContract(address snapshotContract, enum SnapshotVotePower.WeightType weight, bool enabled) external
+  function setSnapshotContract(address snapshotContract, enum SnapshotVotePower.WeightType weight, uint256 scale, bool enabled) external
   ```
 
 #### takeVotePowerSnapshot
@@ -12182,12 +12177,6 @@ See {setApprovalForAll}
 * `newVotingPeriodStartDate` (*uint64*) - new start date for the voting period
 * `newEpochEndDate` (*uint64*) - new end date for the epoch
 
-#### setCurrentEpochSeatCountAndMinimumActiveMembers
-
-  ```solidity
-  function setCurrentEpochSeatCountAndMinimumActiveMembers(uint8 epochSeatCount, uint8 minimumActiveMembers) external
-  ```
-
 #### setNextElectionSettings
 
   ```solidity
@@ -12258,6 +12247,7 @@ See {setApprovalForAll}
   Processes ballots in batches during the Evaluation period (after epochEndDate)
 
   ElectionTally needs to be extended to specify how votes are counted
+Should be called after all crosschain votes propogate; if called immediately when the evaluation period starts some votes have the chance of being lost
 
 #### resolve
 
@@ -12663,6 +12653,31 @@ See {setApprovalForAll}
   ```solidity
   function processManyWithRuntime(bytes32[] nodeIds, bytes32[] runtimeKeys, bytes32[] runtimeValues) external view returns (struct NodeOutput.Data[] nodes)
   ```
+
+  Returns node current output data for many nodes at the same time, aggregating errors (if any)
+
+**Parameters**
+* `nodeIds` (*bytes32[]*) - The node ID
+* `runtimeKeys` (*bytes32[]*) - Keys corresponding to runtime values which could be used by the node graph. The same keys are used for all nodes
+* `runtimeValues` (*bytes32[]*) - The values used by the node graph. The same values are used for all nodes
+
+**Returns**
+* `nodes` (*struct NodeOutput.Data[]*) - The output data for all the nodes
+#### processManyWithManyRuntime
+
+  ```solidity
+  function processManyWithManyRuntime(bytes32[] nodeIds, bytes32[][] runtimeKeys, bytes32[][] runtimeValues) external view returns (struct NodeOutput.Data[] nodes)
+  ```
+
+  Same as `processManyWithRuntime`, but allows for different runtime for each oracle call.
+
+**Parameters**
+* `nodeIds` (*bytes32[]*) - The node ID
+* `runtimeKeys` (*bytes32[][]*) - Keys corresponding to runtime values which could be used by the node graph.
+* `runtimeValues` (*bytes32[][]*) - The values used by the node graph.
+
+**Returns**
+* `nodes` (*struct NodeOutput.Data[]*) - The output data for all the nodes
 
 #### NodeRegistered
 
@@ -13296,7 +13311,7 @@ Available in ArbOS version 20
 #### constructor
 
   ```solidity
-  constructor(address _owner, uint256 _ownerFeeShare, address _feeToken) public
+  constructor(address _owner, address _feeShareRecipient, uint256 _feeShare, address _feeToken) public
   ```
 
 #### quoteFees
@@ -13309,6 +13324,24 @@ Available in ArbOS version 20
 
   ```solidity
   function claimFees() external
+  ```
+
+#### setFeeShare
+
+  ```solidity
+  function setFeeShare(uint256 _newFeeShare) external
+  ```
+
+#### setFeeShareRecipient
+
+  ```solidity
+  function setFeeShareRecipient(address _newFeeShareRecipient) external
+  ```
+
+#### acceptFeeShareRecipient
+
+  ```solidity
+  function acceptFeeShareRecipient() external
   ```
 
 #### supportsInterface
