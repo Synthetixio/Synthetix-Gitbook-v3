@@ -702,8 +702,8 @@
     </tr>
     <tr>
       <td>perpsFactory</td>
-      <td><a href="https://usecannon.com/packages/synthetix-perps-market/3.8.1/84532-andromeda">synthetix-perps-market:3.8.1@andromeda</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmfT5Y8ABAZzvv42JPcsGy2GPYeb2GMGh1ejxpqosh8QGx">QmfT5Y8ABAZzvv42JPcsGy2GPYeb2GMGh1ejxpqosh8QGx</a></td>
+      <td><a href="https://usecannon.com/packages/synthetix-perps-market/3.9.0/84532-andromeda">synthetix-perps-market:3.9.0@andromeda</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmRKm9Ns36DbgCNr4yVuEJzmpaMkSjo1igk3qmcnJMMffi">QmRKm9Ns36DbgCNr4yVuEJzmpaMkSjo1igk3qmcnJMMffi</a></td>
       <td>
         coreProxyOwner: <a href="https://sepolia.basescan.org/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />owner: <a href="https://sepolia.basescan.org/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
@@ -744,8 +744,8 @@
     </tr>
     <tr>
       <td>perpsLowCapFactory</td>
-      <td><a href="https://usecannon.com/packages/synthetix-perps-market/3.8.1/84532-andromeda">synthetix-perps-market:3.8.1@andromeda</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmbjsMyDf4yBGtifLUichEJwAU4Bv2ubE4VXqhotHRQ57J">QmbjsMyDf4yBGtifLUichEJwAU4Bv2ubE4VXqhotHRQ57J</a></td>
+      <td><a href="https://usecannon.com/packages/synthetix-perps-market/3.9.0/84532-andromeda">synthetix-perps-market:3.9.0@andromeda</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmczSX8hperhy7v2DNFkg44VtWA3JpN4eY37wRJHJVBv29">QmczSX8hperhy7v2DNFkg44VtWA3JpN4eY37wRJHJVBv29</a></td>
       <td>
         coreProxyOwner: <a href="https://sepolia.basescan.org/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />owner: <a href="https://sepolia.basescan.org/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
