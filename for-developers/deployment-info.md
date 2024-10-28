@@ -752,6 +752,77 @@
         ><br />salt: snax<br />spotMarketPackage: synthetix-spot-market:latest<br />spotMarketPreset: main<br />synthetixPackage: synthetix:latest<br />synthetixPreset: main<br />superMarketId: 6
       </td>
     </tr>
+    <tr>
+      <td>cbbtc_mock_collateral</td>
+      <td><a href="https://usecannon.com/packages/synthetix-mock-tokens/1.8/84532-andromeda">synthetix-mock-tokens:1.8@andromeda</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmR6HjeYQB8N6n6YvJVJ2ezBoHjYoTDCkNxCUroNus4Qbe">QmR6HjeYQB8N6n6YvJVJ2ezBoHjYoTDCkNxCUroNus4Qbe</a></td>
+      <td>
+        decimals: 18<br />initialSupply: 0<br />name: Token<br />owner: <a href="https://sepolia.basescan.org/address/0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"><code>0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9</code></a
+        ><br />salt: <br />symbol: TKN
+      </td>
+    </tr>
+    <tr>
+      <td>cbeth_mock_collateral</td>
+      <td><a href="https://usecannon.com/packages/synthetix-mock-tokens/1.8/84532-andromeda">synthetix-mock-tokens:1.8@andromeda</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmewiZMz15weqhtYbmJG8YPQgpsH1iz6sVHetw3PwnSqX5">QmewiZMz15weqhtYbmJG8YPQgpsH1iz6sVHetw3PwnSqX5</a></td>
+      <td>
+        decimals: 18<br />initialSupply: 0<br />name: Token<br />owner: <a href="https://sepolia.basescan.org/address/0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"><code>0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9</code></a
+        ><br />salt: <br />symbol: TKN
+      </td>
+    </tr>
+    <tr>
+      <td>wsteth_mock_collateral</td>
+      <td><a href="https://usecannon.com/packages/synthetix-mock-tokens/1.8/84532-andromeda">synthetix-mock-tokens:1.8@andromeda</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmYcFJWnSWwtaf9ueFu2PdDEjJYRdeGFJurskncz9Qo75o">QmYcFJWnSWwtaf9ueFu2PdDEjJYRdeGFJurskncz9Qo75o</a></td>
+      <td>
+        decimals: 18<br />initialSupply: 0<br />name: Token<br />owner: <a href="https://sepolia.basescan.org/address/0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"><code>0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9</code></a
+        ><br />salt: <br />symbol: TKN
+      </td>
+    </tr>
+    <tr>
+      <td>RewardsDistributor_scbbtc_liquidation_rewards</td>
+      <td><a href="https://usecannon.com/packages/synthetix-rewards-dist-ext/3.6.0/84532-andromeda">synthetix-rewards-dist-ext:3.6.0@andromeda</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmfSqa9kk3gDMY27y4BSaxZUFwy18pdEKJ1H3EiCyT7U5x">QmfSqa9kk3gDMY27y4BSaxZUFwy18pdEKJ1H3EiCyT7U5x</a></td>
+      <td>
+        authorizedDistributor: <a href="https://sepolia.basescan.org/address/0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce"><code>0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce</code></a
+        ><br />name: Rewards Distributor (External) V3<br />payoutToken: <a href="https://sepolia.basescan.org/address/0x22e6966B799c4D5B13BE962E1D117b56327FDa66"><code>0x22e6966B799c4D5B13BE962E1D117b56327FDa66</code></a
+        ><br />payoutTokenDecimals: 18<br />poolId: 1<br />rewardManager: <a href="https://sepolia.basescan.org/address/0x32C222A9A159782aFD7529c87FA34b96CA72C696"><code>0x32C222A9A159782aFD7529c87FA34b96CA72C696</code></a
+        ><br />salt: rewards
+      </td>
+    </tr>
+    <tr>
+      <td>RewardsDistributor_scbeth_liquidation_rewards</td>
+      <td><a href="https://usecannon.com/packages/synthetix-rewards-dist-ext/3.6.0/84532-andromeda">synthetix-rewards-dist-ext:3.6.0@andromeda</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmP7sLthodxq5tjZ1ungQEFtNrYUqP6h86VwFFUH4bTr41">QmP7sLthodxq5tjZ1ungQEFtNrYUqP6h86VwFFUH4bTr41</a></td>
+      <td>
+        authorizedDistributor: <a href="https://sepolia.basescan.org/address/0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce"><code>0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce</code></a
+        ><br />name: Rewards Distributor (External) V3<br />payoutToken: <a href="https://sepolia.basescan.org/address/0x22e6966B799c4D5B13BE962E1D117b56327FDa66"><code>0x22e6966B799c4D5B13BE962E1D117b56327FDa66</code></a
+        ><br />payoutTokenDecimals: 18<br />poolId: 1<br />rewardManager: <a href="https://sepolia.basescan.org/address/0x32C222A9A159782aFD7529c87FA34b96CA72C696"><code>0x32C222A9A159782aFD7529c87FA34b96CA72C696</code></a
+        ><br />salt: rewards
+      </td>
+    </tr>
+    <tr>
+      <td>RewardsDistributor_sweth_liquidation_rewards</td>
+      <td><a href="https://usecannon.com/packages/synthetix-rewards-dist-ext/3.6.0/84532-andromeda">synthetix-rewards-dist-ext:3.6.0@andromeda</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmcdpS12eFtkhSdViccyhsQUkuLG897Jydj6sY5Fzr74Bz">QmcdpS12eFtkhSdViccyhsQUkuLG897Jydj6sY5Fzr74Bz</a></td>
+      <td>
+        authorizedDistributor: <a href="https://sepolia.basescan.org/address/0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce"><code>0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce</code></a
+        ><br />name: Rewards Distributor (External) V3<br />payoutToken: <a href="https://sepolia.basescan.org/address/0x22e6966B799c4D5B13BE962E1D117b56327FDa66"><code>0x22e6966B799c4D5B13BE962E1D117b56327FDa66</code></a
+        ><br />payoutTokenDecimals: 18<br />poolId: 1<br />rewardManager: <a href="https://sepolia.basescan.org/address/0x32C222A9A159782aFD7529c87FA34b96CA72C696"><code>0x32C222A9A159782aFD7529c87FA34b96CA72C696</code></a
+        ><br />salt: rewards
+      </td>
+    </tr>
+    <tr>
+      <td>RewardsDistributor_swsteth_liquidation_rewards</td>
+      <td><a href="https://usecannon.com/packages/synthetix-rewards-dist-ext/3.6.0/84532-andromeda">synthetix-rewards-dist-ext:3.6.0@andromeda</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmXz36Q7815fhhw9nirBqrxNVsW5dG7QADKwF4o61hXimi">QmXz36Q7815fhhw9nirBqrxNVsW5dG7QADKwF4o61hXimi</a></td>
+      <td>
+        authorizedDistributor: <a href="https://sepolia.basescan.org/address/0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce"><code>0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce</code></a
+        ><br />name: Rewards Distributor (External) V3<br />payoutToken: <a href="https://sepolia.basescan.org/address/0x22e6966B799c4D5B13BE962E1D117b56327FDa66"><code>0x22e6966B799c4D5B13BE962E1D117b56327FDa66</code></a
+        ><br />payoutTokenDecimals: 18<br />poolId: 1<br />rewardManager: <a href="https://sepolia.basescan.org/address/0x32C222A9A159782aFD7529c87FA34b96CA72C696"><code>0x32C222A9A159782aFD7529c87FA34b96CA72C696</code></a
+        ><br />salt: rewards
+      </td>
+    </tr>
   </tbody>
 </table>
 
