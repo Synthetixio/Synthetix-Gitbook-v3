@@ -33,3 +33,13 @@ How can I swap assets?
 3. Wait 10 seconds and refresh the page
 4. Click "View Pending Orders", open the "Committed" tab, and check the "My Orders" button
 5. When the "Settle" button is enabled, click it and submit the transaction.
+
+## Sample Applications
+
+Ideas for things to build to get to know the protocol (optional!)
+
+* Execute trading strategies similar to the [funding rate arbitrage bot](https://github.com/50shadesofgwei/SynthetixFundingRateArbitrage). Consider simplified strategies like price triggers, or triggers based on market conditions.
+* Automate functions around the contracts similar to the sample [liquidation or order keepers](https://github.com/Synthetixio/sample-v3-keeper).
+* Build Telegram or Discord bots for tracking market conditions, traders, and market activity.
+* Build a command line interface for the SDK, improving the user experience.
+

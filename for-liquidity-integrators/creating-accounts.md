@@ -1,5 +1,7 @@
 # Creating Accounts
 
+Liquidity integrators are projects or protocols that provide a way for their users to earn yield on assets by delegating collateral to Synthetix's liquidity pools. Users can choose which pools they back by themselves.
+
 To deposit collateral in the Synthetix protocol, users must first create an account. Accounts are represented as ERC-721 compliant tokens (NFTs). They can be transferred between wallets using any app with general support for NFTs.
 
 **Anyone can mint an account token by calling the `createAccount()` function on the** [**Synthetix Core address**](../for-developers/addresses-+-abis.md)**.** Other than gas fees, there is no cost to mint an account token. When creating an account, can optionally pass in the `requestedAccountId` parameter for an ID with a value below `type(uint128).max / 2` that isn't already in use.

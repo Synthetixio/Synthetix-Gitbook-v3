@@ -26,7 +26,6 @@
 * [Smart Contract Audits](for-developers/smart-contract-audits.md)
 * [Perps Market](for-developers/perps-market.md)
 * [Spot Market](for-developers/spot-market.md)
-* [Onchain Summer](for-developers/onchain-summer.md)
 * [Developer FAQ](for-developers/developer-faq.md)
 
 ## For Perp Integrators

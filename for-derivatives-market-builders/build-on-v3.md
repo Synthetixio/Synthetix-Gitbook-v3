@@ -5,7 +5,7 @@ description: What will you build on v3?
 # Build on v3
 
 {% hint style="warning" %}
-This is a permissioned function and only Synthetix governance can currently enabled new Markets
+This is a permissioned function and only Synthetix governance can currently enable new Markets
 {% endhint %}
 
 <figure><img src="../.gitbook/assets/Twitter_post_-_4 (1).png" alt=""><figcaption></figcaption></figure>

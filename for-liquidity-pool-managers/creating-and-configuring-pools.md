@@ -1,6 +1,6 @@
 # Creating and Configuring Pools and Vaults
 
-**Liquidity Pools** distribute credit and debt between liquidity providers and derivatives markets. A pool's manager (i.e. owner) can decide which market to provide with liquidity and set relevant configuration values.
+**Liquidity Pools** distribute credit and debt between liquidity providers and derivatives markets. A liquidity pool manager (i.e. owner) selects markets to provide with liquidity based on their desired risk and return profile. Pool managers' source of liquidity is liquidity providers that deposit collateral into the Synthetix protocol and choose to delegate collateral to specific liquidity pool managers.
 
 ## Creating Pools[​](https://snx-v3-docs.vercel.app/pools-markets/delegating-credit-and-debt#creating-pools) <a href="#creating-pools" id="creating-pools"></a>
 

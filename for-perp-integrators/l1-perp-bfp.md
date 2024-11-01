@@ -3,7 +3,7 @@
 This document aims to be an introductory guide for frontend trading, vault builders, bot builders, market makers, and traders with technical knowledge to integrate with the bfp market contracts.
 
 {% hint style="info" %}
-The project is open source and you can find all source on GitHub [https://github.com/Synthetixio/synthetix-v3/tree/main/markets/bfp-market](https://github.com/Synthetixio/synthetix-v3/tree/main/markets/bfp-market). Note contract interfaces mentioned here may be out of date. Please refer to the source code on GitHub or better, inspect the contracts directly on cannon or Etherscan.
+The project is open source and you can find all source on GitHub [https://github.com/Synthetixio/synthetix-v3/tree/main/markets/bfp-market](https://github.com/Synthetixio/synthetix-v3/tree/main/markets/bfp-market). Note that contract interfaces mentioned here may be out of date. Please refer to the source code on GitHub or better, inspect the contracts directly on cannon or Etherscan.
 {% endhint %}
 
 ## What is BFP?
@@ -12,17 +12,15 @@ bfp-market or “Big Freaking Perp”-market is a perp market built on top of Sy
 
 If you are familiar with perps-market ([Perps V3](perps-v3.md)), bfp-market will look and feel very familiar. Both bfp-market and perps-market inherit the same design and mechanisms behind async orders, liquidations, margin management, accounting, account management etc. However, there are subtle differences, particularly in the interface and implementation. For instance the codebase between the two markets are also entirely different.
 
-The original design intent behind bfp-market is to accommodate the creation of delta neutral positions utilising ETH and ETH LSTs as collateral. This gives way to a tokenised yield bearing (through positive funding) and hyper-stable collateral that then can be used for further DeFi (stable coins, additional leverage, etc.). All of this done completely decentralised and onchain.
+**The original design intent behind bfp-market is to accommodate the creation of delta neutral positions utilising ETH and ETH LSTs as collateral.** This gives way to a tokenised yield bearing (through positive funding) and hyper-stable collateral that then can be used for further DeFi (stable coins, additional leverage, etc.). All of this done completely decentralised and onchain.
 
 The primary difference between perps-market and bfp-market is the intended use case. While perps-market is designed and intended to be a general purpose perpetual futures market with native cross margin support, spot-synths as collateral, with 100+ markets, bfp-market’s intent is very different.
 
 The design intent between both markets lead to features that exist in bfp-market which do not exist in perps-market and vice versa. It also influences the destination contracts are deployed to (Ethereum L1 vs L2s), margin management (isolated only vs. cross margin) and the number of markets (just ETHPERP vs. 100+ markets).
 
-
 ## Testnet deployment
 
-BFP market is deployed on Sepolia. Deployment artifacts are published to [cannon](https://usecannon.com/packages/synthetix-bfp-market).
-You can see the full Sepolia deployment artifact with contract addresses in the cannon registry under the [synthetix-bfp-market](https://usecannon.com/packages/synthetix-bfp-market/latest/11155111-main) package.
+BFP market is deployed on Sepolia. Deployment artifacts are published to [cannon](https://usecannon.com/packages/synthetix-bfp-market). You can see the full Sepolia deployment artifact with contract addresses in the cannon registry under the [synthetix-bfp-market](https://usecannon.com/packages/synthetix-bfp-market/latest/11155111-main) package.
 
 To interact with the contracts, you can call functions directly using cannon interface [BfpMarketProxy](https://usecannon.com/packages/synthetix-bfp-market/latest/11155111-main/interact/synthetix-bfp-market/BfpMarketProxy/0x07049D05FC829933511274F6e3A828d464d3517E) package on cannon.
 
@@ -89,7 +87,7 @@ Account margin is isolated by `marketId`. When you deposit a supported collatera
 {% endhint %}
 
 {% hint style="info" %}
-Note the subtle difference in `collateralAddress` vs `synthMarketId` and the lack of `marketId` in perps-market but present in bfp-market.&#x20;
+Note the subtle difference in `collateralAddress` vs `synthMarketId` and the lack of `marketId` in perps-market but present in bfp-market.
 {% endhint %}
 
 {% hint style="info" %}
@@ -177,7 +175,7 @@ function commitOrder(
 {% endhint %}
 
 {% hint style="info" %}
-`limitPrice` and `keeperFeeBufferUsd` are USD denominated. Limit price can be used for slippage and price impact protection.&#x20;
+`limitPrice` and `keeperFeeBufferUsd` are USD denominated. Limit price can be used for slippage and price impact protection.
 {% endhint %}
 
 There are two main differences aside from the interface. In perps-market, the `OrderCommitmentRequest` request argument accepts a `settlementStrategyId` whereas bfp-market does not. Also bfp-market has a concept of `hooks`, whilst perps-market does not.
@@ -192,7 +190,7 @@ Settlement hooks are a bfp-market exclusive feature (see settlement hooks sectio
 
 Fees are paid to pool delegators that back the market and paid out of the account margin. Such fees include settlement fees. bfp-market settlements are async which means you won't know exactly what the fees would be until they settle. This is because they’re impacted by gas prices, market prices, market skew at the time of settlement etc. You can retrieve the estimated order and keeper fees by calling:
 
-Settlement fees on commitment are an estimate of what they would actually be on settlement.&#x20;
+Settlement fees on commitment are an estimate of what they would actually be on settlement.
 
 ```solidity
 function getOrderFees(
@@ -276,7 +274,7 @@ Another subtle difference is how fees are paid to keepers for settlement. Upon s
 
 Position modification occurs in two steps: commit, settlement. However, the time between commit and settle can vary depending on chain congestion. If we assume block production is 12s and settlement occurs at the block immediately after settlement then this allows the caller of `settleOrder` to choose a price between commitment time `t` and `t + 12`.
 
-To eliminate keeper settlement optionality, the earliest price available in Pythnet between `t` and `t + 12` must be used as the `priceUpdateDate`. This is validated onchain during settlement and a revert will be thrown if the earliest price isn't provided.&#x20;
+To eliminate keeper settlement optionality, the earliest price available in Pythnet between `t` and `t + 12` must be used as the `priceUpdateDate`. This is validated onchain during settlement and a revert will be thrown if the earliest price isn't provided.
 
 ### How do I view my position?
 
@@ -551,7 +549,7 @@ LPs need to monitor their position during times of high volatility due to liquid
 
 ### Feature flags
 
-bfp-market uses feature flags to enable/disable features. When a market is deployed, features are initially disabled until markets are ready to accept deposits and trade. You can see a full set list of features in `Flag.sol`.&#x20;
+bfp-market uses feature flags to enable/disable features. When a market is deployed, features are initially disabled until markets are ready to accept deposits and trade. You can see a full set list of features in `Flag.sol`.
 
 ```solidity
 //SPDX-License-Identifier: MIT
