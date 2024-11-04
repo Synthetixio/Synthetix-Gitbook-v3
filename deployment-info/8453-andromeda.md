@@ -19214,28 +19214,28 @@ Perps market ID: <code>900</code>
     <tr>
       <td><code>4</code> Synthetic Coinbase Wrapped BTC Spot Market</td>
       <td>
-        <a href="https://basescan.org/address/0xEde8a407913A874Dd7e3d5B731AFcA135D30375E"><code>0xEde8a407913A874Dd7e3d5B731AFcA135D30375E</code></a>
+        <a href="https://basescan.org/address/0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"><code>0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82</code></a>
       </td>
       <td>n/a</td>
     </tr>
     <tr>
       <td><code>5</code> Synthetic Coinbase Wrapped Staked ETH Spot Market</td>
       <td>
-        <a href="https://basescan.org/address/0xEde8a407913A874Dd7e3d5B731AFcA135D30375E"><code>0xEde8a407913A874Dd7e3d5B731AFcA135D30375E</code></a>
+        <a href="https://basescan.org/address/0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"><code>0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82</code></a>
       </td>
       <td>n/a</td>
     </tr>
     <tr>
       <td><code>6</code> Synthetic Wrapped ETH Spot Market</td>
       <td>
-        <a href="https://basescan.org/address/0xEde8a407913A874Dd7e3d5B731AFcA135D30375E"><code>0xEde8a407913A874Dd7e3d5B731AFcA135D30375E</code></a>
+        <a href="https://basescan.org/address/0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"><code>0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82</code></a>
       </td>
       <td>n/a</td>
     </tr>
     <tr>
       <td><code>7</code> Synthetic Lido Wrapped Staked ETH Spot Market</td>
       <td>
-        <a href="https://basescan.org/address/0xEde8a407913A874Dd7e3d5B731AFcA135D30375E"><code>0xEde8a407913A874Dd7e3d5B731AFcA135D30375E</code></a>
+        <a href="https://basescan.org/address/0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"><code>0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82</code></a>
       </td>
       <td>n/a</td>
     </tr>
