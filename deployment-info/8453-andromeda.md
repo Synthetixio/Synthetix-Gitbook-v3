@@ -1388,8 +1388,8 @@ Token address: <a href="https://basescan.org/address/0xc1CBa3fCea344f92D9239c08C
     </tr>
     <tr>
       <td>collateralLeverage</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>10</td>
+      <td><code>10000000000000000000</code> / <code>0x8ac7230489e80000</code></td>
     </tr>
     <tr>
       <td>feeCollector</td>
@@ -1400,8 +1400,8 @@ Token address: <a href="https://basescan.org/address/0xc1CBa3fCea344f92D9239c08C
     </tr>
     <tr>
       <td>atomicFixedFee</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>0.3</td>
+      <td><code>300000000000000000</code> / <code>0x0429d069189e0000</code></td>
     </tr>
     <tr>
       <td>asyncFixedFee</td>
@@ -1425,8 +1425,81 @@ Token address: <a href="https://basescan.org/address/0xc1CBa3fCea344f92D9239c08C
     </tr>
     <tr>
       <td>skewScale</td>
+      <td>35 k</td>
+      <td><code>35000000000000000000000</code> / <code>0x07695a92c20d6fe00000</code></td>
+    </tr>
+  </tbody>
+</table>
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Settlement strategy parameter</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>settlementStrategyId</td>
       <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td><code>0</code></td>
+    </tr>
+    <tr>
+      <td>strategyType</td>
+      <td>PYTH</td>
+      <td><code>1</code></td>
+    </tr>
+    <tr>
+      <td>settlementDelay</td>
+      <td>2</td>
+      <td><code>2</code> / <code>0x02</code></td>
+    </tr>
+    <tr>
+      <td>settlementWindowDuration</td>
+      <td>60</td>
+      <td><code>60</code> / <code>0x3c</code></td>
+    </tr>
+    <tr>
+      <td>priceVerificationContract</td>
+      <td></td>
+      <td>
+        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>feedId</td>
+      <td></td>
+      <td><code>"0x2817d7bfe5c64b8ea956e9a26f573ef64e72e4d7891f2d6af9bcc93f7aff9a97"</code></td>
+    </tr>
+    <tr>
+      <td>url</td>
+      <td></td>
+      <td><code>"https://api.synthetix.io/pyth-mainnet/api/get_vaa_ccip?data={data}"</code></td>
+    </tr>
+    <tr>
+      <td>settlementReward</td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+    </tr>
+    <tr>
+      <td>priceDeviationTolerance</td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+    </tr>
+    <tr>
+      <td>minimumUsdExchangeAmount</td>
+      <td>0.000001</td>
+      <td><code>1000000000000</code> / <code>0xe8d4a51000</code></td>
+    </tr>
+    <tr>
+      <td>maxRoundingLoss</td>
+      <td>0.000001</td>
+      <td><code>1000000000000</code> / <code>0xe8d4a51000</code></td>
+    </tr>
+    <tr>
+      <td>disabled</td>
+      <td>🚫 Disabled</td>
+      <td><code>true</code></td>
     </tr>
   </tbody>
 </table>
@@ -1483,8 +1556,8 @@ Token address: <a href="https://basescan.org/address/0xc1CBa3fCea344f92D9239c08C
     </tr>
     <tr>
       <td>collateralLeverage</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>10</td>
+      <td><code>10000000000000000000</code> / <code>0x8ac7230489e80000</code></td>
     </tr>
     <tr>
       <td>feeCollector</td>
@@ -1495,8 +1568,8 @@ Token address: <a href="https://basescan.org/address/0xc1CBa3fCea344f92D9239c08C
     </tr>
     <tr>
       <td>atomicFixedFee</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>0.3</td>
+      <td><code>300000000000000000</code> / <code>0x0429d069189e0000</code></td>
     </tr>
     <tr>
       <td>asyncFixedFee</td>
@@ -1520,8 +1593,81 @@ Token address: <a href="https://basescan.org/address/0xc1CBa3fCea344f92D9239c08C
     </tr>
     <tr>
       <td>skewScale</td>
+      <td>350 k</td>
+      <td><code>350000000000000000000000</code> / <code>0x4a1d89bb94865ec00000</code></td>
+    </tr>
+  </tbody>
+</table>
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Settlement strategy parameter</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>settlementStrategyId</td>
       <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td><code>0</code></td>
+    </tr>
+    <tr>
+      <td>strategyType</td>
+      <td>PYTH</td>
+      <td><code>1</code></td>
+    </tr>
+    <tr>
+      <td>settlementDelay</td>
+      <td>2</td>
+      <td><code>2</code> / <code>0x02</code></td>
+    </tr>
+    <tr>
+      <td>settlementWindowDuration</td>
+      <td>60</td>
+      <td><code>60</code> / <code>0x3c</code></td>
+    </tr>
+    <tr>
+      <td>priceVerificationContract</td>
+      <td></td>
+      <td>
+        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>feedId</td>
+      <td></td>
+      <td><code>"0x15ecddd26d49e1a8f1de9376ebebc03916ede873447c1255d2d5891b92ce5717"</code></td>
+    </tr>
+    <tr>
+      <td>url</td>
+      <td></td>
+      <td><code>"https://api.synthetix.io/pyth-mainnet/api/get_vaa_ccip?data={data}"</code></td>
+    </tr>
+    <tr>
+      <td>settlementReward</td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+    </tr>
+    <tr>
+      <td>priceDeviationTolerance</td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+    </tr>
+    <tr>
+      <td>minimumUsdExchangeAmount</td>
+      <td>0.000001</td>
+      <td><code>1000000000000</code> / <code>0xe8d4a51000</code></td>
+    </tr>
+    <tr>
+      <td>maxRoundingLoss</td>
+      <td>0.000001</td>
+      <td><code>1000000000000</code> / <code>0xe8d4a51000</code></td>
+    </tr>
+    <tr>
+      <td>disabled</td>
+      <td>🚫 Disabled</td>
+      <td><code>true</code></td>
     </tr>
   </tbody>
 </table>
@@ -1578,8 +1724,8 @@ Token address: <a href="https://basescan.org/address/0xc1CBa3fCea344f92D9239c08C
     </tr>
     <tr>
       <td>collateralLeverage</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>10</td>
+      <td><code>10000000000000000000</code> / <code>0x8ac7230489e80000</code></td>
     </tr>
     <tr>
       <td>feeCollector</td>
@@ -1590,8 +1736,8 @@ Token address: <a href="https://basescan.org/address/0xc1CBa3fCea344f92D9239c08C
     </tr>
     <tr>
       <td>atomicFixedFee</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>0.3</td>
+      <td><code>300000000000000000</code> / <code>0x0429d069189e0000</code></td>
     </tr>
     <tr>
       <td>asyncFixedFee</td>
@@ -1615,8 +1761,81 @@ Token address: <a href="https://basescan.org/address/0xc1CBa3fCea344f92D9239c08C
     </tr>
     <tr>
       <td>skewScale</td>
+      <td>350 k</td>
+      <td><code>350000000000000000000000</code> / <code>0x4a1d89bb94865ec00000</code></td>
+    </tr>
+  </tbody>
+</table>
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Settlement strategy parameter</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>settlementStrategyId</td>
       <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td><code>0</code></td>
+    </tr>
+    <tr>
+      <td>strategyType</td>
+      <td>PYTH</td>
+      <td><code>1</code></td>
+    </tr>
+    <tr>
+      <td>settlementDelay</td>
+      <td>2</td>
+      <td><code>2</code> / <code>0x02</code></td>
+    </tr>
+    <tr>
+      <td>settlementWindowDuration</td>
+      <td>60</td>
+      <td><code>60</code> / <code>0x3c</code></td>
+    </tr>
+    <tr>
+      <td>priceVerificationContract</td>
+      <td></td>
+      <td>
+        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>feedId</td>
+      <td></td>
+      <td><code>"0xff61491a931112ddf1bd8147cd1b641375f79f5825126d665480874634fd0ace"</code></td>
+    </tr>
+    <tr>
+      <td>url</td>
+      <td></td>
+      <td><code>"https://api.synthetix.io/pyth-mainnet/api/get_vaa_ccip?data={data}"</code></td>
+    </tr>
+    <tr>
+      <td>settlementReward</td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+    </tr>
+    <tr>
+      <td>priceDeviationTolerance</td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+    </tr>
+    <tr>
+      <td>minimumUsdExchangeAmount</td>
+      <td>0.000001</td>
+      <td><code>1000000000000</code> / <code>0xe8d4a51000</code></td>
+    </tr>
+    <tr>
+      <td>maxRoundingLoss</td>
+      <td>0.000001</td>
+      <td><code>1000000000000</code> / <code>0xe8d4a51000</code></td>
+    </tr>
+    <tr>
+      <td>disabled</td>
+      <td>🚫 Disabled</td>
+      <td><code>true</code></td>
     </tr>
   </tbody>
 </table>
@@ -1673,8 +1892,8 @@ Token address: <a href="https://basescan.org/address/0xc1CBa3fCea344f92D9239c08C
     </tr>
     <tr>
       <td>collateralLeverage</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>10</td>
+      <td><code>10000000000000000000</code> / <code>0x8ac7230489e80000</code></td>
     </tr>
     <tr>
       <td>feeCollector</td>
@@ -1685,8 +1904,8 @@ Token address: <a href="https://basescan.org/address/0xc1CBa3fCea344f92D9239c08C
     </tr>
     <tr>
       <td>atomicFixedFee</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td>0.3</td>
+      <td><code>300000000000000000</code> / <code>0x0429d069189e0000</code></td>
     </tr>
     <tr>
       <td>asyncFixedFee</td>
@@ -1710,8 +1929,81 @@ Token address: <a href="https://basescan.org/address/0xc1CBa3fCea344f92D9239c08C
     </tr>
     <tr>
       <td>skewScale</td>
+      <td>350 k</td>
+      <td><code>350000000000000000000000</code> / <code>0x4a1d89bb94865ec00000</code></td>
+    </tr>
+  </tbody>
+</table>
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Settlement strategy parameter</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>settlementStrategyId</td>
       <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
+      <td><code>0</code></td>
+    </tr>
+    <tr>
+      <td>strategyType</td>
+      <td>PYTH</td>
+      <td><code>1</code></td>
+    </tr>
+    <tr>
+      <td>settlementDelay</td>
+      <td>2</td>
+      <td><code>2</code> / <code>0x02</code></td>
+    </tr>
+    <tr>
+      <td>settlementWindowDuration</td>
+      <td>60</td>
+      <td><code>60</code> / <code>0x3c</code></td>
+    </tr>
+    <tr>
+      <td>priceVerificationContract</td>
+      <td></td>
+      <td>
+        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>feedId</td>
+      <td></td>
+      <td><code>"0x6df640f3b8963d8f8358f791f352b8364513f6ab1cca5ed3f1f7b5448980e784"</code></td>
+    </tr>
+    <tr>
+      <td>url</td>
+      <td></td>
+      <td><code>"https://api.synthetix.io/pyth-mainnet/api/get_vaa_ccip?data={data}"</code></td>
+    </tr>
+    <tr>
+      <td>settlementReward</td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+    </tr>
+    <tr>
+      <td>priceDeviationTolerance</td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+    </tr>
+    <tr>
+      <td>minimumUsdExchangeAmount</td>
+      <td>0.000001</td>
+      <td><code>1000000000000</code> / <code>0xe8d4a51000</code></td>
+    </tr>
+    <tr>
+      <td>maxRoundingLoss</td>
+      <td>0.000001</td>
+      <td><code>1000000000000</code> / <code>0xe8d4a51000</code></td>
+    </tr>
+    <tr>
+      <td>disabled</td>
+      <td>🚫 Disabled</td>
+      <td><code>true</code></td>
     </tr>
   </tbody>
 </table>
