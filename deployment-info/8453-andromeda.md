@@ -167,6 +167,102 @@
       </td>
     </tr>
     <tr>
+      <td>CollateralToken_cbBTC</td>
+      <td>
+        <a href="https://basescan.org/address/0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf"><code>0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/CollateralToken_cbBTC.json"><code>CollateralToken_cbBTC.json</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/CollateralToken_cbBTC.readable.json"><code>CollateralToken_cbBTC.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>CollateralToken_cbETH</td>
+      <td>
+        <a href="https://basescan.org/address/0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22"><code>0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/CollateralToken_cbETH.json"><code>CollateralToken_cbETH.json</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/CollateralToken_cbETH.readable.json"><code>CollateralToken_cbETH.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>CollateralToken_WETH</td>
+      <td>
+        <a href="https://basescan.org/address/0x4200000000000000000000000000000000000006"><code>0x4200000000000000000000000000000000000006</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/CollateralToken_WETH.json"><code>CollateralToken_WETH.json</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/CollateralToken_WETH.readable.json"><code>CollateralToken_WETH.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>CollateralToken_wstETH</td>
+      <td>
+        <a href="https://basescan.org/address/0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452"><code>0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/CollateralToken_wstETH.json"><code>CollateralToken_wstETH.json</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/CollateralToken_wstETH.readable.json"><code>CollateralToken_wstETH.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>CollateralToken_scbBTC</td>
+      <td>
+        <a href="https://basescan.org/address/0xEDE1d04C864EeEC40393ED4cb454B85A5ABD071C"><code>0xEDE1d04C864EeEC40393ED4cb454B85A5ABD071C</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/CollateralToken_scbBTC.json"><code>CollateralToken_scbBTC.json</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/CollateralToken_scbBTC.readable.json"><code>CollateralToken_scbBTC.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>CollateralToken_scbETH</td>
+      <td>
+        <a href="https://basescan.org/address/0xc302f3f74ec19d0917C7F19Bca6775f7000a292a"><code>0xc302f3f74ec19d0917C7F19Bca6775f7000a292a</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/CollateralToken_scbETH.json"><code>CollateralToken_scbETH.json</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/CollateralToken_scbETH.readable.json"><code>CollateralToken_scbETH.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>CollateralToken_sWETH</td>
+      <td>
+        <a href="https://basescan.org/address/0xFA24Be208408F20395914Ba82Def333d987E0080"><code>0xFA24Be208408F20395914Ba82Def333d987E0080</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/CollateralToken_sWETH.json"><code>CollateralToken_sWETH.json</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/CollateralToken_sWETH.readable.json"><code>CollateralToken_sWETH.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>CollateralToken_swstETH</td>
+      <td>
+        <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448760fC501050d976"><code>0x3526D453D1Edb105E4e2b8448760fC501050d976</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/CollateralToken_swstETH.json"><code>CollateralToken_swstETH.json</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/CollateralToken_swstETH.readable.json"><code>CollateralToken_swstETH.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
       <td>SynthToken_sUSDC</td>
       <td>
         <a href="https://basescan.org/address/0xC74eA762cF06c9151cE074E6a569a5945b6302E7"><code>0xC74eA762cF06c9151cE074E6a569a5945b6302E7</code></a>
@@ -191,6 +287,54 @@
       </td>
     </tr>
     <tr>
+      <td>SynthToken_scbBTC</td>
+      <td>
+        <a href="https://basescan.org/address/0xEDE1d04C864EeEC40393ED4cb454B85A5ABD071C"><code>0xEDE1d04C864EeEC40393ED4cb454B85A5ABD071C</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/SynthToken_scbBTC.json"><code>SynthToken_scbBTC.json</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/SynthToken_scbBTC.readable.json"><code>SynthToken_scbBTC.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>SynthToken_scbETH</td>
+      <td>
+        <a href="https://basescan.org/address/0xc302f3f74ec19d0917C7F19Bca6775f7000a292a"><code>0xc302f3f74ec19d0917C7F19Bca6775f7000a292a</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/SynthToken_scbETH.json"><code>SynthToken_scbETH.json</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/SynthToken_scbETH.readable.json"><code>SynthToken_scbETH.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>SynthToken_sWETH</td>
+      <td>
+        <a href="https://basescan.org/address/0xFA24Be208408F20395914Ba82Def333d987E0080"><code>0xFA24Be208408F20395914Ba82Def333d987E0080</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/SynthToken_sWETH.json"><code>SynthToken_sWETH.json</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/SynthToken_sWETH.readable.json"><code>SynthToken_sWETH.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>SynthToken_swstETH</td>
+      <td>
+        <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448760fC501050d976"><code>0x3526D453D1Edb105E4e2b8448760fC501050d976</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/SynthToken_swstETH.json"><code>SynthToken_swstETH.json</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/SynthToken_swstETH.readable.json"><code>SynthToken_swstETH.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
       <td>RewardsDistributor_1_sUSDC_USDC</td>
       <td>
         <a href="https://basescan.org/address/0xe92bcD40849BE5a5eb90065402e508aF4b28263b"><code>0xe92bcD40849BE5a5eb90065402e508aF4b28263b</code></a>
@@ -212,6 +356,54 @@
       </td>
       <td>
         <a href="./8453-andromeda/RewardsDistributor_1_sUSDC_SNX.readable.json"><code>RewardsDistributor_1_sUSDC_SNX.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>RewardsDistributor_1_scbBTC</td>
+      <td>
+        <a href="https://basescan.org/address/0x7656bDEE9f4e7A507fd0C5b2431D3F3690E20711"><code>0x7656bDEE9f4e7A507fd0C5b2431D3F3690E20711</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/RewardsDistributor_1_scbBTC.json"><code>RewardsDistributor_1_scbBTC.json</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/RewardsDistributor_1_scbBTC.readable.json"><code>RewardsDistributor_1_scbBTC.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>RewardsDistributor_1_scbETH</td>
+      <td>
+        <a href="https://basescan.org/address/0x4D64E1FDcfD08081F0bF088C1e6b32087FeF0237"><code>0x4D64E1FDcfD08081F0bF088C1e6b32087FeF0237</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/RewardsDistributor_1_scbETH.json"><code>RewardsDistributor_1_scbETH.json</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/RewardsDistributor_1_scbETH.readable.json"><code>RewardsDistributor_1_scbETH.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>RewardsDistributor_1_sWETH</td>
+      <td>
+        <a href="https://basescan.org/address/0x2F64ad511C33a78080b114c5ef51370B31488e65"><code>0x2F64ad511C33a78080b114c5ef51370B31488e65</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/RewardsDistributor_1_sWETH.json"><code>RewardsDistributor_1_sWETH.json</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/RewardsDistributor_1_sWETH.readable.json"><code>RewardsDistributor_1_sWETH.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>RewardsDistributor_1_swstETH</td>
+      <td>
+        <a href="https://basescan.org/address/0xE8183A61d64ea44a430bB361467063535B769052"><code>0xE8183A61d64ea44a430bB361467063535B769052</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/RewardsDistributor_1_swstETH.json"><code>RewardsDistributor_1_swstETH.json</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/RewardsDistributor_1_swstETH.readable.json"><code>RewardsDistributor_1_swstETH.readable.json</code></a>
       </td>
     </tr>
     <tr>
@@ -287,6 +479,210 @@
       <td>
         <a href="./8453-andromeda/pythFeeds.json"><code>pythFeeds.json</code></a>
       </td>
+    </tr>
+  </tbody>
+</table>
+
+# Collateral `cbBTC` Coinbase Wrapped BTC
+
+Token address: <a href="https://basescan.org/address/0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf"><code>0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf</code></a>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Parameter name</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>depositingEnabled</td>
+      <td>🚫 Disabled</td>
+      <td><code>false</code></td>
+    </tr>
+    <tr>
+      <td>decimals</td>
+      <td>8</td>
+      <td><code>8</code></td>
+    </tr>
+    <tr>
+      <td>issuanceRatioD18</td>
+      <td>10</td>
+      <td><code>10000000000000000000</code> / <code>0x8ac7230489e80000</code></td>
+    </tr>
+    <tr>
+      <td>liquidationRatioD18</td>
+      <td>1.5</td>
+      <td><code>1500000000000000000</code> / <code>0x14d1120d7b160000</code></td>
+    </tr>
+    <tr>
+      <td>liquidationRewardD18</td>
+      <td>0.0001</td>
+      <td><code>100000000000000</code> / <code>0x5af3107a4000</code></td>
+    </tr>
+    <tr>
+      <td>oracleNodeId</td>
+      <td></td>
+      <td><code>"0x4f189a68184f97a6df1c6a5c71f3cd35715f5fe5af8c889bf74ef47df083a51b"</code></td>
+    </tr>
+    <tr>
+      <td>minDelegationD18</td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
+    </tr>
+  </tbody>
+</table>
+
+# Collateral `cbETH` Coinbase Wrapped Staked ETH
+
+Token address: <a href="https://basescan.org/address/0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22"><code>0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22</code></a>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Parameter name</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>depositingEnabled</td>
+      <td>🚫 Disabled</td>
+      <td><code>false</code></td>
+    </tr>
+    <tr>
+      <td>decimals</td>
+      <td>18</td>
+      <td><code>18</code></td>
+    </tr>
+    <tr>
+      <td>issuanceRatioD18</td>
+      <td>2</td>
+      <td><code>2000000000000000000</code> / <code>0x1bc16d674ec80000</code></td>
+    </tr>
+    <tr>
+      <td>liquidationRatioD18</td>
+      <td>1.1</td>
+      <td><code>1100000000000000000</code> / <code>0x0f43fc2c04ee0000</code></td>
+    </tr>
+    <tr>
+      <td>liquidationRewardD18</td>
+      <td>0.0001</td>
+      <td><code>100000000000000</code> / <code>0x5af3107a4000</code></td>
+    </tr>
+    <tr>
+      <td>oracleNodeId</td>
+      <td></td>
+      <td><code>"0x45eda7976a375f79a75db3e3c9e311404e5b4e12b4cf0680f416f62995aeb42d"</code></td>
+    </tr>
+    <tr>
+      <td>minDelegationD18</td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
+    </tr>
+  </tbody>
+</table>
+
+# Collateral `scbBTC` Synthetic Coinbase Wrapped BTC
+
+Token address: <a href="https://basescan.org/address/0xEDE1d04C864EeEC40393ED4cb454B85A5ABD071C"><code>0xEDE1d04C864EeEC40393ED4cb454B85A5ABD071C</code></a>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Parameter name</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>depositingEnabled</td>
+      <td>🚫 Disabled</td>
+      <td><code>false</code></td>
+    </tr>
+    <tr>
+      <td>decimals</td>
+      <td>18</td>
+      <td><code>18</code></td>
+    </tr>
+    <tr>
+      <td>issuanceRatioD18</td>
+      <td>2</td>
+      <td><code>2000000000000000000</code> / <code>0x1bc16d674ec80000</code></td>
+    </tr>
+    <tr>
+      <td>liquidationRatioD18</td>
+      <td>1.1</td>
+      <td><code>1100000000000000000</code> / <code>0x0f43fc2c04ee0000</code></td>
+    </tr>
+    <tr>
+      <td>liquidationRewardD18</td>
+      <td>0.0001</td>
+      <td><code>100000000000000</code> / <code>0x5af3107a4000</code></td>
+    </tr>
+    <tr>
+      <td>oracleNodeId</td>
+      <td></td>
+      <td><code>"0x4f189a68184f97a6df1c6a5c71f3cd35715f5fe5af8c889bf74ef47df083a51b"</code></td>
+    </tr>
+    <tr>
+      <td>minDelegationD18</td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
+    </tr>
+  </tbody>
+</table>
+
+# Collateral `scbETH` Synthetic Coinbase Wrapped Staked ETH
+
+Token address: <a href="https://basescan.org/address/0xc302f3f74ec19d0917C7F19Bca6775f7000a292a"><code>0xc302f3f74ec19d0917C7F19Bca6775f7000a292a</code></a>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Parameter name</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>depositingEnabled</td>
+      <td>🚫 Disabled</td>
+      <td><code>false</code></td>
+    </tr>
+    <tr>
+      <td>decimals</td>
+      <td>18</td>
+      <td><code>18</code></td>
+    </tr>
+    <tr>
+      <td>issuanceRatioD18</td>
+      <td>2</td>
+      <td><code>2000000000000000000</code> / <code>0x1bc16d674ec80000</code></td>
+    </tr>
+    <tr>
+      <td>liquidationRatioD18</td>
+      <td>1.1</td>
+      <td><code>1100000000000000000</code> / <code>0x0f43fc2c04ee0000</code></td>
+    </tr>
+    <tr>
+      <td>liquidationRewardD18</td>
+      <td>0.0001</td>
+      <td><code>100000000000000</code> / <code>0x5af3107a4000</code></td>
+    </tr>
+    <tr>
+      <td>oracleNodeId</td>
+      <td></td>
+      <td><code>"0x45eda7976a375f79a75db3e3c9e311404e5b4e12b4cf0680f416f62995aeb42d"</code></td>
+    </tr>
+    <tr>
+      <td>minDelegationD18</td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -495,6 +891,108 @@ Token address: <a href="https://basescan.org/address/0xC74eA762cF06c9151cE074E6a
   </tbody>
 </table>
 
+# Collateral `sWETH` Synthetic Wrapped ETH
+
+Token address: <a href="https://basescan.org/address/0xFA24Be208408F20395914Ba82Def333d987E0080"><code>0xFA24Be208408F20395914Ba82Def333d987E0080</code></a>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Parameter name</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>depositingEnabled</td>
+      <td>🚫 Disabled</td>
+      <td><code>false</code></td>
+    </tr>
+    <tr>
+      <td>decimals</td>
+      <td>18</td>
+      <td><code>18</code></td>
+    </tr>
+    <tr>
+      <td>issuanceRatioD18</td>
+      <td>2</td>
+      <td><code>2000000000000000000</code> / <code>0x1bc16d674ec80000</code></td>
+    </tr>
+    <tr>
+      <td>liquidationRatioD18</td>
+      <td>1.1</td>
+      <td><code>1100000000000000000</code> / <code>0x0f43fc2c04ee0000</code></td>
+    </tr>
+    <tr>
+      <td>liquidationRewardD18</td>
+      <td>0.0001</td>
+      <td><code>100000000000000</code> / <code>0x5af3107a4000</code></td>
+    </tr>
+    <tr>
+      <td>oracleNodeId</td>
+      <td></td>
+      <td><code>"0x7e714744a9bfaa0bd9c6dfb379e49fb7eb07f04b90af8880d860f2b5b5a675fb"</code></td>
+    </tr>
+    <tr>
+      <td>minDelegationD18</td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
+    </tr>
+  </tbody>
+</table>
+
+# Collateral `swstETH` Synthetic Lido Wrapped Staked ETH
+
+Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448760fC501050d976"><code>0x3526D453D1Edb105E4e2b8448760fC501050d976</code></a>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Parameter name</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>depositingEnabled</td>
+      <td>🚫 Disabled</td>
+      <td><code>false</code></td>
+    </tr>
+    <tr>
+      <td>decimals</td>
+      <td>18</td>
+      <td><code>18</code></td>
+    </tr>
+    <tr>
+      <td>issuanceRatioD18</td>
+      <td>2</td>
+      <td><code>2000000000000000000</code> / <code>0x1bc16d674ec80000</code></td>
+    </tr>
+    <tr>
+      <td>liquidationRatioD18</td>
+      <td>1.1</td>
+      <td><code>1100000000000000000</code> / <code>0x0f43fc2c04ee0000</code></td>
+    </tr>
+    <tr>
+      <td>liquidationRewardD18</td>
+      <td>0.0001</td>
+      <td><code>100000000000000</code> / <code>0x5af3107a4000</code></td>
+    </tr>
+    <tr>
+      <td>oracleNodeId</td>
+      <td></td>
+      <td><code>"0x4944a7c9c9ea2b5dfc1d7f2f46ec171ccda269b73359929d6296ded5f10de58b"</code></td>
+    </tr>
+    <tr>
+      <td>minDelegationD18</td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
+    </tr>
+  </tbody>
+</table>
+
 # Collateral `USDC` USD Coin
 
 Token address: <a href="https://basescan.org/address/0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"><code>0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913</code></a>
@@ -542,6 +1040,108 @@ Token address: <a href="https://basescan.org/address/0x833589fCD6eDb6E08f4c7C32D
       <td>minDelegationD18</td>
       <td>100</td>
       <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+    </tr>
+  </tbody>
+</table>
+
+# Collateral `WETH` Wrapped Ether
+
+Token address: <a href="https://basescan.org/address/0x4200000000000000000000000000000000000006"><code>0x4200000000000000000000000000000000000006</code></a>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Parameter name</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>depositingEnabled</td>
+      <td>🚫 Disabled</td>
+      <td><code>false</code></td>
+    </tr>
+    <tr>
+      <td>decimals</td>
+      <td>18</td>
+      <td><code>18</code></td>
+    </tr>
+    <tr>
+      <td>issuanceRatioD18</td>
+      <td>2</td>
+      <td><code>2000000000000000000</code> / <code>0x1bc16d674ec80000</code></td>
+    </tr>
+    <tr>
+      <td>liquidationRatioD18</td>
+      <td>1.1</td>
+      <td><code>1100000000000000000</code> / <code>0x0f43fc2c04ee0000</code></td>
+    </tr>
+    <tr>
+      <td>liquidationRewardD18</td>
+      <td>0.0001</td>
+      <td><code>100000000000000</code> / <code>0x5af3107a4000</code></td>
+    </tr>
+    <tr>
+      <td>oracleNodeId</td>
+      <td></td>
+      <td><code>"0x7e714744a9bfaa0bd9c6dfb379e49fb7eb07f04b90af8880d860f2b5b5a675fb"</code></td>
+    </tr>
+    <tr>
+      <td>minDelegationD18</td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
+    </tr>
+  </tbody>
+</table>
+
+# Collateral `wstETH` Wrapped liquid staked Ether 2.0
+
+Token address: <a href="https://basescan.org/address/0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452"><code>0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452</code></a>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Parameter name</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>depositingEnabled</td>
+      <td>🚫 Disabled</td>
+      <td><code>false</code></td>
+    </tr>
+    <tr>
+      <td>decimals</td>
+      <td>18</td>
+      <td><code>18</code></td>
+    </tr>
+    <tr>
+      <td>issuanceRatioD18</td>
+      <td>2</td>
+      <td><code>2000000000000000000</code> / <code>0x1bc16d674ec80000</code></td>
+    </tr>
+    <tr>
+      <td>liquidationRatioD18</td>
+      <td>1.1</td>
+      <td><code>1100000000000000000</code> / <code>0x0f43fc2c04ee0000</code></td>
+    </tr>
+    <tr>
+      <td>liquidationRewardD18</td>
+      <td>0.0001</td>
+      <td><code>100000000000000</code> / <code>0x5af3107a4000</code></td>
+    </tr>
+    <tr>
+      <td>oracleNodeId</td>
+      <td></td>
+      <td><code>"0x4944a7c9c9ea2b5dfc1d7f2f46ec171ccda269b73359929d6296ded5f10de58b"</code></td>
+    </tr>
+    <tr>
+      <td>minDelegationD18</td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -736,6 +1336,386 @@ Token address: <a href="https://basescan.org/address/0x833589fCD6eDb6E08f4c7C32D
   </tbody>
 </table>
 
+# Synth market `4` Synthetic Coinbase Wrapped BTC Spot Market
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Parameter name</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>synthMarketId</td>
+      <td>4</td>
+      <td><code>4</code></td>
+    </tr>
+    <tr>
+      <td>name</td>
+      <td></td>
+      <td><code>"Synthetic Coinbase Wrapped BTC Spot Market"</code></td>
+    </tr>
+    <tr>
+      <td>synthSymbol</td>
+      <td></td>
+      <td><code>"scbBTC"</code></td>
+    </tr>
+    <tr>
+      <td>synthName</td>
+      <td></td>
+      <td><code>"Synthetic Coinbase Wrapped BTC"</code></td>
+    </tr>
+    <tr>
+      <td>synthDecimals</td>
+      <td>18</td>
+      <td><code>18</code></td>
+    </tr>
+    <tr>
+      <td>synthAddress</td>
+      <td></td>
+      <td>
+        <a href="https://basescan.org/address/0xEDE1d04C864EeEC40393ED4cb454B85A5ABD071C"><code>0xEDE1d04C864EeEC40393ED4cb454B85A5ABD071C</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>implementationAddress</td>
+      <td></td>
+      <td>
+        <a href="https://basescan.org/address/0x3F8Ca2C1Ee9A72dd40d9483a633e9118199e867B"><code>0x3F8Ca2C1Ee9A72dd40d9483a633e9118199e867B</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>collateralLeverage</td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+    </tr>
+    <tr>
+      <td>feeCollector</td>
+      <td></td>
+      <td>
+        <a href="https://basescan.org/address/0x0000000000000000000000000000000000000000"><code>0x0000000000000000000000000000000000000000</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>atomicFixedFee</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>asyncFixedFee</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>wrapFee</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>unwrapFee</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>utilizationFeeRate</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>skewScale</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+  </tbody>
+</table>
+
+# Synth market `5` Synthetic Coinbase Wrapped Staked ETH Spot Market
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Parameter name</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>synthMarketId</td>
+      <td>5</td>
+      <td><code>5</code></td>
+    </tr>
+    <tr>
+      <td>name</td>
+      <td></td>
+      <td><code>"Synthetic Coinbase Wrapped Staked ETH Spot Market"</code></td>
+    </tr>
+    <tr>
+      <td>synthSymbol</td>
+      <td></td>
+      <td><code>"scbETH"</code></td>
+    </tr>
+    <tr>
+      <td>synthName</td>
+      <td></td>
+      <td><code>"Synthetic Coinbase Wrapped Staked ETH"</code></td>
+    </tr>
+    <tr>
+      <td>synthDecimals</td>
+      <td>18</td>
+      <td><code>18</code></td>
+    </tr>
+    <tr>
+      <td>synthAddress</td>
+      <td></td>
+      <td>
+        <a href="https://basescan.org/address/0xc302f3f74ec19d0917C7F19Bca6775f7000a292a"><code>0xc302f3f74ec19d0917C7F19Bca6775f7000a292a</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>implementationAddress</td>
+      <td></td>
+      <td>
+        <a href="https://basescan.org/address/0x3F8Ca2C1Ee9A72dd40d9483a633e9118199e867B"><code>0x3F8Ca2C1Ee9A72dd40d9483a633e9118199e867B</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>collateralLeverage</td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+    </tr>
+    <tr>
+      <td>feeCollector</td>
+      <td></td>
+      <td>
+        <a href="https://basescan.org/address/0x0000000000000000000000000000000000000000"><code>0x0000000000000000000000000000000000000000</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>atomicFixedFee</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>asyncFixedFee</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>wrapFee</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>unwrapFee</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>utilizationFeeRate</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>skewScale</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+  </tbody>
+</table>
+
+# Synth market `6` Synthetic Wrapped ETH Spot Market
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Parameter name</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>synthMarketId</td>
+      <td>6</td>
+      <td><code>6</code></td>
+    </tr>
+    <tr>
+      <td>name</td>
+      <td></td>
+      <td><code>"Synthetic Wrapped ETH Spot Market"</code></td>
+    </tr>
+    <tr>
+      <td>synthSymbol</td>
+      <td></td>
+      <td><code>"sWETH"</code></td>
+    </tr>
+    <tr>
+      <td>synthName</td>
+      <td></td>
+      <td><code>"Synthetic Wrapped ETH"</code></td>
+    </tr>
+    <tr>
+      <td>synthDecimals</td>
+      <td>18</td>
+      <td><code>18</code></td>
+    </tr>
+    <tr>
+      <td>synthAddress</td>
+      <td></td>
+      <td>
+        <a href="https://basescan.org/address/0xFA24Be208408F20395914Ba82Def333d987E0080"><code>0xFA24Be208408F20395914Ba82Def333d987E0080</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>implementationAddress</td>
+      <td></td>
+      <td>
+        <a href="https://basescan.org/address/0x3F8Ca2C1Ee9A72dd40d9483a633e9118199e867B"><code>0x3F8Ca2C1Ee9A72dd40d9483a633e9118199e867B</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>collateralLeverage</td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+    </tr>
+    <tr>
+      <td>feeCollector</td>
+      <td></td>
+      <td>
+        <a href="https://basescan.org/address/0x0000000000000000000000000000000000000000"><code>0x0000000000000000000000000000000000000000</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>atomicFixedFee</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>asyncFixedFee</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>wrapFee</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>unwrapFee</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>utilizationFeeRate</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>skewScale</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+  </tbody>
+</table>
+
+# Synth market `7` Synthetic Lido Wrapped Staked ETH Spot Market
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Parameter name</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>synthMarketId</td>
+      <td>7</td>
+      <td><code>7</code></td>
+    </tr>
+    <tr>
+      <td>name</td>
+      <td></td>
+      <td><code>"Synthetic Lido Wrapped Staked ETH Spot Market"</code></td>
+    </tr>
+    <tr>
+      <td>synthSymbol</td>
+      <td></td>
+      <td><code>"swstETH"</code></td>
+    </tr>
+    <tr>
+      <td>synthName</td>
+      <td></td>
+      <td><code>"Synthetic Lido Wrapped Staked ETH"</code></td>
+    </tr>
+    <tr>
+      <td>synthDecimals</td>
+      <td>18</td>
+      <td><code>18</code></td>
+    </tr>
+    <tr>
+      <td>synthAddress</td>
+      <td></td>
+      <td>
+        <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448760fC501050d976"><code>0x3526D453D1Edb105E4e2b8448760fC501050d976</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>implementationAddress</td>
+      <td></td>
+      <td>
+        <a href="https://basescan.org/address/0x3F8Ca2C1Ee9A72dd40d9483a633e9118199e867B"><code>0x3F8Ca2C1Ee9A72dd40d9483a633e9118199e867B</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>collateralLeverage</td>
+      <td>1</td>
+      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+    </tr>
+    <tr>
+      <td>feeCollector</td>
+      <td></td>
+      <td>
+        <a href="https://basescan.org/address/0x0000000000000000000000000000000000000000"><code>0x0000000000000000000000000000000000000000</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>atomicFixedFee</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>asyncFixedFee</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>wrapFee</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>unwrapFee</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>utilizationFeeRate</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>skewScale</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+  </tbody>
+</table>
+
 # Perps Market ETH / Ethereum
 
 Perps market ID: <code>100</code>
@@ -863,8 +1843,8 @@ Perps market ID: <code>100</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -1059,8 +2039,8 @@ Perps market ID: <code>1000</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -1255,8 +2235,8 @@ Perps market ID: <code>1100</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -1451,8 +2431,8 @@ Perps market ID: <code>1200</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -1647,8 +2627,8 @@ Perps market ID: <code>1300</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -1843,8 +2823,8 @@ Perps market ID: <code>1400</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -2039,8 +3019,8 @@ Perps market ID: <code>1500</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -2235,8 +3215,8 @@ Perps market ID: <code>1600</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -2431,8 +3411,8 @@ Perps market ID: <code>1700</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -2627,8 +3607,8 @@ Perps market ID: <code>1800</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -2823,8 +3803,8 @@ Perps market ID: <code>1900</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -3019,8 +3999,8 @@ Perps market ID: <code>200</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -3215,8 +4195,8 @@ Perps market ID: <code>2000</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -3411,8 +4391,8 @@ Perps market ID: <code>2100</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -3607,8 +4587,8 @@ Perps market ID: <code>2200</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -3803,8 +4783,8 @@ Perps market ID: <code>2300</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -3999,8 +4979,8 @@ Perps market ID: <code>2400</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -4195,8 +5175,8 @@ Perps market ID: <code>2500</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -4391,8 +5371,8 @@ Perps market ID: <code>2600</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -4587,8 +5567,8 @@ Perps market ID: <code>2700</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -4783,8 +5763,8 @@ Perps market ID: <code>2800</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -4979,8 +5959,8 @@ Perps market ID: <code>2900</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -5175,8 +6155,8 @@ Perps market ID: <code>300</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -5371,8 +6351,8 @@ Perps market ID: <code>3000</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -5567,8 +6547,8 @@ Perps market ID: <code>3100</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -5763,8 +6743,8 @@ Perps market ID: <code>3200</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -5959,8 +6939,8 @@ Perps market ID: <code>3300</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -6155,8 +7135,8 @@ Perps market ID: <code>3400</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -6351,8 +7331,8 @@ Perps market ID: <code>3500</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -6547,8 +7527,8 @@ Perps market ID: <code>3600</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -6743,8 +7723,8 @@ Perps market ID: <code>3700</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -6939,8 +7919,8 @@ Perps market ID: <code>3800</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -7135,8 +8115,8 @@ Perps market ID: <code>3900</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -7331,8 +8311,8 @@ Perps market ID: <code>400</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -7527,8 +8507,8 @@ Perps market ID: <code>4000</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -7723,8 +8703,8 @@ Perps market ID: <code>4100</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -7919,8 +8899,8 @@ Perps market ID: <code>4200</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -8115,8 +9095,8 @@ Perps market ID: <code>4300</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -8311,8 +9291,8 @@ Perps market ID: <code>4400</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -8507,8 +9487,8 @@ Perps market ID: <code>4500</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -8703,8 +9683,8 @@ Perps market ID: <code>4600</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -8899,8 +9879,8 @@ Perps market ID: <code>4700</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -9095,8 +10075,8 @@ Perps market ID: <code>4800</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -9291,8 +10271,8 @@ Perps market ID: <code>4900</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -9487,8 +10467,8 @@ Perps market ID: <code>500</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -9683,8 +10663,8 @@ Perps market ID: <code>5000</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -9879,8 +10859,8 @@ Perps market ID: <code>5100</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -10075,8 +11055,8 @@ Perps market ID: <code>5200</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -10271,8 +11251,8 @@ Perps market ID: <code>5300</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -10467,8 +11447,8 @@ Perps market ID: <code>5400</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -10663,8 +11643,8 @@ Perps market ID: <code>5500</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -10859,8 +11839,8 @@ Perps market ID: <code>5600</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -11055,8 +12035,8 @@ Perps market ID: <code>5700</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -11251,8 +12231,8 @@ Perps market ID: <code>5800</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -11447,8 +12427,8 @@ Perps market ID: <code>600</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -11643,8 +12623,8 @@ Perps market ID: <code>6000</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -11839,8 +12819,8 @@ Perps market ID: <code>6100</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -12035,8 +13015,8 @@ Perps market ID: <code>6200</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -12231,8 +13211,8 @@ Perps market ID: <code>6300</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -12427,8 +13407,8 @@ Perps market ID: <code>6400</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -12623,8 +13603,8 @@ Perps market ID: <code>6500</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -12819,8 +13799,8 @@ Perps market ID: <code>6600</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -13015,8 +13995,8 @@ Perps market ID: <code>6700</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -13211,8 +14191,8 @@ Perps market ID: <code>6800</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -13407,8 +14387,8 @@ Perps market ID: <code>6900</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -13603,8 +14583,8 @@ Perps market ID: <code>700</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -13799,8 +14779,8 @@ Perps market ID: <code>7000</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -13995,8 +14975,8 @@ Perps market ID: <code>7100</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -14191,8 +15171,8 @@ Perps market ID: <code>7200</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -14387,8 +15367,8 @@ Perps market ID: <code>7300</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -14583,8 +15563,8 @@ Perps market ID: <code>7400</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -14779,8 +15759,8 @@ Perps market ID: <code>7500</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -14975,8 +15955,8 @@ Perps market ID: <code>7600</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -15171,8 +16151,8 @@ Perps market ID: <code>7700</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -15367,8 +16347,8 @@ Perps market ID: <code>7800</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -15563,8 +16543,8 @@ Perps market ID: <code>7900</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -15759,8 +16739,8 @@ Perps market ID: <code>800</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -15955,8 +16935,8 @@ Perps market ID: <code>8000</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -16151,8 +17131,8 @@ Perps market ID: <code>8100</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -16347,8 +17327,8 @@ Perps market ID: <code>8200</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -16543,8 +17523,8 @@ Perps market ID: <code>8300</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -16739,8 +17719,8 @@ Perps market ID: <code>8400</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -16935,8 +17915,8 @@ Perps market ID: <code>8500</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -17131,8 +18111,8 @@ Perps market ID: <code>8600</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -17327,8 +18307,8 @@ Perps market ID: <code>8700</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -17523,8 +18503,8 @@ Perps market ID: <code>900</code>
     </tr>
     <tr>
       <td>maxKeeperRewardUsd</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>30</td>
+      <td><code>30000000000000000000</code> / <code>0x01a055690d9db80000</code></td>
     </tr>
     <tr>
       <td>maxKeeperScalingRatioD18</td>
@@ -17720,6 +18700,254 @@ Perps market ID: <code>900</code>
   </tbody>
 </table>
 
+# Rewards Distributor: Perps Coinbase Wrapped Bitcoin Liquidation Rewards
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Parameter name</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>name</td>
+      <td></td>
+      <td><code>"synthetix-omnibus"</code></td>
+    </tr>
+    <tr>
+      <td>address</td>
+      <td></td>
+      <td>
+        <a href="https://basescan.org/address/0x7656bDEE9f4e7A507fd0C5b2431D3F3690E20711"><code>0x7656bDEE9f4e7A507fd0C5b2431D3F3690E20711</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>deployTxn</td>
+      <td></td>
+      <td>
+        <a href="https://basescan.org/tx/undefined"><code>undefined</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>registered</td>
+      <td>✅ Registered</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>poolId</td>
+      <td>1</td>
+      <td><code>"1"</code></td>
+    </tr>
+    <tr>
+      <td>collateralType</td>
+      <td>n/a</td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>payoutToken</td>
+      <td>scbBTC <code>18</code></td>
+      <td>
+        <a href="https://basescan.org/address/0xEDE1d04C864EeEC40393ED4cb454B85A5ABD071C"><code>0xEDE1d04C864EeEC40393ED4cb454B85A5ABD071C</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>rewardManager</td>
+      <td></td>
+      <td>
+        <a href="https://basescan.org/address/0x32C222A9A159782aFD7529c87FA34b96CA72C696"><code>0x32C222A9A159782aFD7529c87FA34b96CA72C696</code></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+# Rewards Distributor: Perps Coinbase Wrapped Staked ETH Liquidation Rewards
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Parameter name</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>name</td>
+      <td></td>
+      <td><code>"synthetix-omnibus"</code></td>
+    </tr>
+    <tr>
+      <td>address</td>
+      <td></td>
+      <td>
+        <a href="https://basescan.org/address/0x4D64E1FDcfD08081F0bF088C1e6b32087FeF0237"><code>0x4D64E1FDcfD08081F0bF088C1e6b32087FeF0237</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>deployTxn</td>
+      <td></td>
+      <td>
+        <a href="https://basescan.org/tx/undefined"><code>undefined</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>registered</td>
+      <td>✅ Registered</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>poolId</td>
+      <td>1</td>
+      <td><code>"1"</code></td>
+    </tr>
+    <tr>
+      <td>collateralType</td>
+      <td>n/a</td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>payoutToken</td>
+      <td>scbETH <code>18</code></td>
+      <td>
+        <a href="https://basescan.org/address/0xc302f3f74ec19d0917C7F19Bca6775f7000a292a"><code>0xc302f3f74ec19d0917C7F19Bca6775f7000a292a</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>rewardManager</td>
+      <td></td>
+      <td>
+        <a href="https://basescan.org/address/0x32C222A9A159782aFD7529c87FA34b96CA72C696"><code>0x32C222A9A159782aFD7529c87FA34b96CA72C696</code></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+# Rewards Distributor: Perps Wrapped ETH Liquidation Rewards
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Parameter name</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>name</td>
+      <td></td>
+      <td><code>"synthetix-omnibus"</code></td>
+    </tr>
+    <tr>
+      <td>address</td>
+      <td></td>
+      <td>
+        <a href="https://basescan.org/address/0x2F64ad511C33a78080b114c5ef51370B31488e65"><code>0x2F64ad511C33a78080b114c5ef51370B31488e65</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>deployTxn</td>
+      <td></td>
+      <td>
+        <a href="https://basescan.org/tx/undefined"><code>undefined</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>registered</td>
+      <td>✅ Registered</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>poolId</td>
+      <td>1</td>
+      <td><code>"1"</code></td>
+    </tr>
+    <tr>
+      <td>collateralType</td>
+      <td>n/a</td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>payoutToken</td>
+      <td>sWETH <code>18</code></td>
+      <td>
+        <a href="https://basescan.org/address/0xFA24Be208408F20395914Ba82Def333d987E0080"><code>0xFA24Be208408F20395914Ba82Def333d987E0080</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>rewardManager</td>
+      <td></td>
+      <td>
+        <a href="https://basescan.org/address/0x32C222A9A159782aFD7529c87FA34b96CA72C696"><code>0x32C222A9A159782aFD7529c87FA34b96CA72C696</code></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+# Rewards Distributor: Perps Lido Wrapped Staked ETH Liquidation Rewards
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Parameter name</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>name</td>
+      <td></td>
+      <td><code>"synthetix-omnibus"</code></td>
+    </tr>
+    <tr>
+      <td>address</td>
+      <td></td>
+      <td>
+        <a href="https://basescan.org/address/0xE8183A61d64ea44a430bB361467063535B769052"><code>0xE8183A61d64ea44a430bB361467063535B769052</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>deployTxn</td>
+      <td></td>
+      <td>
+        <a href="https://basescan.org/tx/undefined"><code>undefined</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>registered</td>
+      <td>✅ Registered</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>poolId</td>
+      <td>1</td>
+      <td><code>"1"</code></td>
+    </tr>
+    <tr>
+      <td>collateralType</td>
+      <td>n/a</td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>payoutToken</td>
+      <td>swstETH <code>18</code></td>
+      <td>
+        <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448760fC501050d976"><code>0x3526D453D1Edb105E4e2b8448760fC501050d976</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>rewardManager</td>
+      <td></td>
+      <td>
+        <a href="https://basescan.org/address/0x32C222A9A159782aFD7529c87FA34b96CA72C696"><code>0x32C222A9A159782aFD7529c87FA34b96CA72C696</code></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 # Owners
 
 <table data-full-width="true">
@@ -17817,6 +19045,56 @@ Perps market ID: <code>900</code>
       <td>n/a</td>
     </tr>
     <tr>
+      <td>CollateralToken_cbBTC</td>
+      <td>
+        <a href="https://basescan.org/address/0xCe56D20689D836EC7A728CEb94A15746696c16e6"><code>0xCe56D20689D836EC7A728CEb94A15746696c16e6</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>CollateralToken_cbETH</td>
+      <td>n/a</td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>CollateralToken_WETH</td>
+      <td>n/a</td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>CollateralToken_wstETH</td>
+      <td>n/a</td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>CollateralToken_scbBTC</td>
+      <td>
+        <a href="https://basescan.org/address/0x18141523403e2595D31b22604AcB8Fc06a4CaA61"><code>0x18141523403e2595D31b22604AcB8Fc06a4CaA61</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>CollateralToken_scbETH</td>
+      <td>
+        <a href="https://basescan.org/address/0x18141523403e2595D31b22604AcB8Fc06a4CaA61"><code>0x18141523403e2595D31b22604AcB8Fc06a4CaA61</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>CollateralToken_sWETH</td>
+      <td>
+        <a href="https://basescan.org/address/0x18141523403e2595D31b22604AcB8Fc06a4CaA61"><code>0x18141523403e2595D31b22604AcB8Fc06a4CaA61</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>CollateralToken_swstETH</td>
+      <td>
+        <a href="https://basescan.org/address/0x18141523403e2595D31b22604AcB8Fc06a4CaA61"><code>0x18141523403e2595D31b22604AcB8Fc06a4CaA61</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
       <td>SynthToken_sUSDC</td>
       <td>
         <a href="https://basescan.org/address/0x18141523403e2595D31b22604AcB8Fc06a4CaA61"><code>0x18141523403e2595D31b22604AcB8Fc06a4CaA61</code></a>
@@ -17831,12 +19109,60 @@ Perps market ID: <code>900</code>
       <td>n/a</td>
     </tr>
     <tr>
+      <td>SynthToken_scbBTC</td>
+      <td>
+        <a href="https://basescan.org/address/0x18141523403e2595D31b22604AcB8Fc06a4CaA61"><code>0x18141523403e2595D31b22604AcB8Fc06a4CaA61</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>SynthToken_scbETH</td>
+      <td>
+        <a href="https://basescan.org/address/0x18141523403e2595D31b22604AcB8Fc06a4CaA61"><code>0x18141523403e2595D31b22604AcB8Fc06a4CaA61</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>SynthToken_sWETH</td>
+      <td>
+        <a href="https://basescan.org/address/0x18141523403e2595D31b22604AcB8Fc06a4CaA61"><code>0x18141523403e2595D31b22604AcB8Fc06a4CaA61</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>SynthToken_swstETH</td>
+      <td>
+        <a href="https://basescan.org/address/0x18141523403e2595D31b22604AcB8Fc06a4CaA61"><code>0x18141523403e2595D31b22604AcB8Fc06a4CaA61</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
       <td>RewardsDistributor_1_sUSDC_USDC</td>
       <td>n/a</td>
       <td>n/a</td>
     </tr>
     <tr>
       <td>RewardsDistributor_1_sUSDC_SNX</td>
+      <td>n/a</td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>RewardsDistributor_1_scbBTC</td>
+      <td>n/a</td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>RewardsDistributor_1_scbETH</td>
+      <td>n/a</td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>RewardsDistributor_1_sWETH</td>
+      <td>n/a</td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>RewardsDistributor_1_swstETH</td>
       <td>n/a</td>
       <td>n/a</td>
     </tr>
@@ -17882,6 +19208,34 @@ Perps market ID: <code>900</code>
       <td><code>3</code> Synthetic Static aUSDC Spot Market</td>
       <td>
         <a href="https://basescan.org/address/0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"><code>0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td><code>4</code> Synthetic Coinbase Wrapped BTC Spot Market</td>
+      <td>
+        <a href="https://basescan.org/address/0xEde8a407913A874Dd7e3d5B731AFcA135D30375E"><code>0xEde8a407913A874Dd7e3d5B731AFcA135D30375E</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td><code>5</code> Synthetic Coinbase Wrapped Staked ETH Spot Market</td>
+      <td>
+        <a href="https://basescan.org/address/0xEde8a407913A874Dd7e3d5B731AFcA135D30375E"><code>0xEde8a407913A874Dd7e3d5B731AFcA135D30375E</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td><code>6</code> Synthetic Wrapped ETH Spot Market</td>
+      <td>
+        <a href="https://basescan.org/address/0xEde8a407913A874Dd7e3d5B731AFcA135D30375E"><code>0xEde8a407913A874Dd7e3d5B731AFcA135D30375E</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td><code>7</code> Synthetic Lido Wrapped Staked ETH Spot Market</td>
+      <td>
+        <a href="https://basescan.org/address/0xEde8a407913A874Dd7e3d5B731AFcA135D30375E"><code>0xEde8a407913A874Dd7e3d5B731AFcA135D30375E</code></a>
       </td>
       <td>n/a</td>
     </tr>
