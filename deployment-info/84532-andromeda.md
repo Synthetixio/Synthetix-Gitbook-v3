@@ -19663,25 +19663,6 @@ Perps market ID: <code>900</code>
 <table data-full-width="true">
   <thead>
     <tr>
-      <th width="400">Pool</th>
-      <th width="500">Owner</th>
-      <th width="500">Nominated owner</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><code>1</code> Spartan Council Pool <i>* preferred</i></td>
-      <td>
-        <a href="https://sepolia.basescan.org/address/0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"><code>0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9</code></a>
-      </td>
-      <td>n/a</td>
-    </tr>
-  </tbody>
-</table>
-
-<table data-full-width="true">
-  <thead>
-    <tr>
       <th width="400">Synth Market</th>
       <th width="500">Owner</th>
       <th width="500">Nominated owner</th>
