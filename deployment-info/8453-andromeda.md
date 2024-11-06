@@ -14255,24 +14255,24 @@ Perps market ID: <code>6700</code>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
-      <td>1.5</td>
-      <td><code>1500000000000000000</code> / <code>0x14d1120d7b160000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>maxSecondsInLiquidationWindow</td>
-      <td>30</td>
-      <td><code>30</code> / <code>0x1e</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0.0005</td>
-      <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>endorsedLiquidator</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x11233749514Ab8d00C0A5873DF7428b3db70030f"><code>0x11233749514Ab8d00C0A5873DF7428b3db70030f</code></a>
+        <a href="https://basescan.org/address/undefined"><code>undefined</code></a>
       </td>
     </tr>
     <tr>
@@ -14313,45 +14313,45 @@ Perps market ID: <code>6700</code>
     </tr>
     <tr>
       <td>strategyType</td>
-      <td>PYTH</td>
-      <td><code>0</code></td>
+      <td>Unknown</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>settlementDelay</td>
-      <td>2</td>
-      <td><code>2</code> / <code>0x02</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>settlementWindowDuration</td>
-      <td>60</td>
-      <td><code>60</code> / <code>0x3c</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/undefined"><code>undefined</code></a>
       </td>
     </tr>
     <tr>
       <td>feedId</td>
       <td></td>
-      <td><code>"0x26e4f737fde0263a9eea10ae63ac36dcedab2aaf629261a994e1eeb6ee0afe53"</code></td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>disabled</td>
-      <td>✅ Enabled</td>
-      <td><code>false</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>commitmentPriceDelay</td>
-      <td>2</td>
-      <td><code>2</code> / <code>0x02</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
   </tbody>
 </table>
@@ -14376,13 +14376,13 @@ Perps market ID: <code>6800</code>
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>19.35 m</td>
-      <td><code>19348600000000000000000000</code> / <code>0x100139b52da3ade6e00000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>maxOpenInterest</td>
-      <td>19.35 m</td>
-      <td><code>19348600000000000000000000</code> / <code>0x100139b52da3ade6e00000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td></td>
@@ -14391,13 +14391,13 @@ Perps market ID: <code>6800</code>
     </tr>
     <tr>
       <td>skewScale</td>
-      <td>0.81 b</td>
-      <td><code>806250000000000000000000000</code> / <code>0x029aea14140ce7644e400000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
-      <td>9</td>
-      <td><code>9000000000000000000</code> / <code>0x7ce66c50e2840000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td></td>
@@ -14406,13 +14406,13 @@ Perps market ID: <code>6800</code>
     </tr>
     <tr>
       <td>makerFee</td>
-      <td>0.0002</td>
-      <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0.001</td>
-      <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td></td>
@@ -14421,28 +14421,28 @@ Perps market ID: <code>6800</code>
     </tr>
     <tr>
       <td>initialMarginRatioD18</td>
-      <td>1.88</td>
-      <td><code>1880000000000000000</code> / <code>0x1a171a0a11bc0000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>minimumInitialMarginRatioD18</td>
-      <td>0.05</td>
-      <td><code>50000000000000000</code> / <code>0xb1a2bc2ec50000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>maintenanceMarginScalarD18</td>
-      <td>0.28</td>
-      <td><code>280000000000000000</code> / <code>0x03e2c284391c0000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0.0003</td>
-      <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td></td>
@@ -14451,24 +14451,24 @@ Perps market ID: <code>6800</code>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
-      <td>1.5</td>
-      <td><code>1500000000000000000</code> / <code>0x14d1120d7b160000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>maxSecondsInLiquidationWindow</td>
-      <td>30</td>
-      <td><code>30</code> / <code>0x1e</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0.0005</td>
-      <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>endorsedLiquidator</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x11233749514Ab8d00C0A5873DF7428b3db70030f"><code>0x11233749514Ab8d00C0A5873DF7428b3db70030f</code></a>
+        <a href="https://basescan.org/address/undefined"><code>undefined</code></a>
       </td>
     </tr>
     <tr>
@@ -14509,45 +14509,45 @@ Perps market ID: <code>6800</code>
     </tr>
     <tr>
       <td>strategyType</td>
-      <td>PYTH</td>
-      <td><code>0</code></td>
+      <td>Unknown</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>settlementDelay</td>
-      <td>2</td>
-      <td><code>2</code> / <code>0x02</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>settlementWindowDuration</td>
-      <td>60</td>
-      <td><code>60</code> / <code>0x3c</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/undefined"><code>undefined</code></a>
       </td>
     </tr>
     <tr>
       <td>feedId</td>
       <td></td>
-      <td><code>"0x67aed5a24fdad045475e7195c98a98aea119c763f272d4523f5bac93a4f33c2b"</code></td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>disabled</td>
-      <td>✅ Enabled</td>
-      <td><code>false</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>commitmentPriceDelay</td>
-      <td>2</td>
-      <td><code>2</code> / <code>0x02</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
   </tbody>
 </table>
@@ -14572,13 +14572,13 @@ Perps market ID: <code>6900</code>
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>209.1 k</td>
-      <td><code>209100000000000000000000</code> / <code>0x2c47556e3cb823b00000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>maxOpenInterest</td>
-      <td>209.1 k</td>
-      <td><code>209100000000000000000000</code> / <code>0x2c47556e3cb823b00000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td></td>
@@ -14587,13 +14587,13 @@ Perps market ID: <code>6900</code>
     </tr>
     <tr>
       <td>skewScale</td>
-      <td>4.5 m</td>
-      <td><code>4500000000000000000000000</code> / <code>0x03b8e97d229a2d54800000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
-      <td>9</td>
-      <td><code>9000000000000000000</code> / <code>0x7ce66c50e2840000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td></td>
@@ -14602,13 +14602,13 @@ Perps market ID: <code>6900</code>
     </tr>
     <tr>
       <td>makerFee</td>
-      <td>0.0002</td>
-      <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0.001</td>
-      <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td></td>
@@ -14617,28 +14617,28 @@ Perps market ID: <code>6900</code>
     </tr>
     <tr>
       <td>initialMarginRatioD18</td>
-      <td>0.77</td>
-      <td><code>770000000000000000</code> / <code>0x0aaf96eb9d0d0000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>minimumInitialMarginRatioD18</td>
-      <td>0.05</td>
-      <td><code>50000000000000000</code> / <code>0xb1a2bc2ec50000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>maintenanceMarginScalarD18</td>
-      <td>0.31</td>
-      <td><code>310000000000000000</code> / <code>0x044d575b885f0000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0.0003</td>
-      <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td></td>
@@ -14647,24 +14647,24 @@ Perps market ID: <code>6900</code>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
-      <td>1.5</td>
-      <td><code>1500000000000000000</code> / <code>0x14d1120d7b160000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>maxSecondsInLiquidationWindow</td>
-      <td>30</td>
-      <td><code>30</code> / <code>0x1e</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0.0005</td>
-      <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>endorsedLiquidator</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x11233749514Ab8d00C0A5873DF7428b3db70030f"><code>0x11233749514Ab8d00C0A5873DF7428b3db70030f</code></a>
+        <a href="https://basescan.org/address/undefined"><code>undefined</code></a>
       </td>
     </tr>
     <tr>
@@ -14705,45 +14705,45 @@ Perps market ID: <code>6900</code>
     </tr>
     <tr>
       <td>strategyType</td>
-      <td>PYTH</td>
-      <td><code>0</code></td>
+      <td>Unknown</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>settlementDelay</td>
-      <td>2</td>
-      <td><code>2</code> / <code>0x02</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>settlementWindowDuration</td>
-      <td>60</td>
-      <td><code>60</code> / <code>0x3c</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/undefined"><code>undefined</code></a>
       </td>
     </tr>
     <tr>
       <td>feedId</td>
       <td></td>
-      <td><code>"0x78d185a741d07edb3412b09008b7c5cfb9bbbd7d568bf00ba737b456ba171501"</code></td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>disabled</td>
-      <td>✅ Enabled</td>
-      <td><code>false</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>commitmentPriceDelay</td>
-      <td>2</td>
-      <td><code>2</code> / <code>0x02</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
   </tbody>
 </table>
@@ -14768,13 +14768,13 @@ Perps market ID: <code>700</code>
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>3 m</td>
-      <td><code>3000000000000000000000000</code> / <code>0x027b46536c66c8e3000000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>maxOpenInterest</td>
-      <td>3 m</td>
-      <td><code>3000000000000000000000000</code> / <code>0x027b46536c66c8e3000000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td></td>
@@ -14783,13 +14783,13 @@ Perps market ID: <code>700</code>
     </tr>
     <tr>
       <td>skewScale</td>
-      <td>102 m</td>
-      <td><code>102000000000000000000000000</code> / <code>0x545f571465a6ae26000000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
-      <td>9</td>
-      <td><code>9000000000000000000</code> / <code>0x7ce66c50e2840000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td></td>
@@ -14798,13 +14798,13 @@ Perps market ID: <code>700</code>
     </tr>
     <tr>
       <td>makerFee</td>
-      <td>0.0002</td>
-      <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0.001</td>
-      <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td></td>
@@ -14813,28 +14813,28 @@ Perps market ID: <code>700</code>
     </tr>
     <tr>
       <td>initialMarginRatioD18</td>
-      <td>3.46</td>
-      <td><code>3460000000000000000</code> / <code>0x300463ab0ada0000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>minimumInitialMarginRatioD18</td>
-      <td>0.05</td>
-      <td><code>50000000000000000</code> / <code>0xb1a2bc2ec50000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>maintenanceMarginScalarD18</td>
-      <td>0.38</td>
-      <td><code>380000000000000000</code> / <code>0x054607fc96a60000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0.0003</td>
-      <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td></td>
@@ -14843,24 +14843,24 @@ Perps market ID: <code>700</code>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
-      <td>1.5</td>
-      <td><code>1500000000000000000</code> / <code>0x14d1120d7b160000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>maxSecondsInLiquidationWindow</td>
-      <td>30</td>
-      <td><code>30</code> / <code>0x1e</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0.0005</td>
-      <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>endorsedLiquidator</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x11233749514Ab8d00C0A5873DF7428b3db70030f"><code>0x11233749514Ab8d00C0A5873DF7428b3db70030f</code></a>
+        <a href="https://basescan.org/address/undefined"><code>undefined</code></a>
       </td>
     </tr>
     <tr>
@@ -14901,45 +14901,45 @@ Perps market ID: <code>700</code>
     </tr>
     <tr>
       <td>strategyType</td>
-      <td>PYTH</td>
-      <td><code>0</code></td>
+      <td>Unknown</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>settlementDelay</td>
-      <td>2</td>
-      <td><code>2</code> / <code>0x02</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>settlementWindowDuration</td>
-      <td>60</td>
-      <td><code>60</code> / <code>0x3c</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/undefined"><code>undefined</code></a>
       </td>
     </tr>
     <tr>
       <td>feedId</td>
       <td></td>
-      <td><code>"0xb7910ba7322db020416fcac28b48c01212fd9cc8fbcbaf7d30477ed8605f6bd4"</code></td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>disabled</td>
-      <td>✅ Enabled</td>
-      <td><code>false</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>commitmentPriceDelay</td>
-      <td>2</td>
-      <td><code>2</code> / <code>0x02</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
   </tbody>
 </table>
@@ -14964,13 +14964,13 @@ Perps market ID: <code>7000</code>
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>16.38 m</td>
-      <td><code>16384500000000000000000000</code> / <code>0x0d8d8d86564e8aef500000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>maxOpenInterest</td>
-      <td>16.38 m</td>
-      <td><code>16384500000000000000000000</code> / <code>0x0d8d8d86564e8aef500000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td></td>
@@ -14979,13 +14979,13 @@ Perps market ID: <code>7000</code>
     </tr>
     <tr>
       <td>skewScale</td>
-      <td>333 m</td>
-      <td><code>333000000000000000000000000</code> / <code>0x0113737e2c00911a6d000000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
-      <td>9</td>
-      <td><code>9000000000000000000</code> / <code>0x7ce66c50e2840000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td></td>
@@ -14994,13 +14994,13 @@ Perps market ID: <code>7000</code>
     </tr>
     <tr>
       <td>makerFee</td>
-      <td>0.0002</td>
-      <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0.001</td>
-      <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td></td>
@@ -15009,28 +15009,28 @@ Perps market ID: <code>7000</code>
     </tr>
     <tr>
       <td>initialMarginRatioD18</td>
-      <td>1.4</td>
-      <td><code>1400000000000000000</code> / <code>0x136dcc951d8c0000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>minimumInitialMarginRatioD18</td>
-      <td>0.05</td>
-      <td><code>50000000000000000</code> / <code>0xb1a2bc2ec50000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>maintenanceMarginScalarD18</td>
-      <td>0.37</td>
-      <td><code>370000000000000000</code> / <code>0x0522810a26e50000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0.0003</td>
-      <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td></td>
@@ -15039,24 +15039,24 @@ Perps market ID: <code>7000</code>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
-      <td>1.5</td>
-      <td><code>1500000000000000000</code> / <code>0x14d1120d7b160000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>maxSecondsInLiquidationWindow</td>
-      <td>30</td>
-      <td><code>30</code> / <code>0x1e</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0.0005</td>
-      <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>endorsedLiquidator</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x11233749514Ab8d00C0A5873DF7428b3db70030f"><code>0x11233749514Ab8d00C0A5873DF7428b3db70030f</code></a>
+        <a href="https://basescan.org/address/undefined"><code>undefined</code></a>
       </td>
     </tr>
     <tr>
@@ -15097,45 +15097,45 @@ Perps market ID: <code>7000</code>
     </tr>
     <tr>
       <td>strategyType</td>
-      <td>PYTH</td>
-      <td><code>0</code></td>
+      <td>Unknown</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>settlementDelay</td>
-      <td>2</td>
-      <td><code>2</code> / <code>0x02</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>settlementWindowDuration</td>
-      <td>60</td>
-      <td><code>60</code> / <code>0x3c</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/undefined"><code>undefined</code></a>
       </td>
     </tr>
     <tr>
       <td>feedId</td>
       <td></td>
-      <td><code>"0xb7a8eba68a997cd0210c2e1e4ee811ad2d174b3611c22d9ebf16f4cb7e9ba850"</code></td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>disabled</td>
-      <td>✅ Enabled</td>
-      <td><code>false</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>commitmentPriceDelay</td>
-      <td>2</td>
-      <td><code>2</code> / <code>0x02</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
   </tbody>
 </table>
@@ -15160,13 +15160,13 @@ Perps market ID: <code>7100</code>
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>5.65 m</td>
-      <td><code>5646550000000000000000000</code> / <code>0x04abb416bf07ed8d980000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>maxOpenInterest</td>
-      <td>5.65 m</td>
-      <td><code>5646550000000000000000000</code> / <code>0x04abb416bf07ed8d980000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td></td>
@@ -15175,13 +15175,13 @@ Perps market ID: <code>7100</code>
     </tr>
     <tr>
       <td>skewScale</td>
-      <td>400 m</td>
-      <td><code>400000000000000000000000000</code> / <code>0x014adf4b7320334b90000000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
-      <td>9</td>
-      <td><code>9000000000000000000</code> / <code>0x7ce66c50e2840000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td></td>
@@ -15190,13 +15190,13 @@ Perps market ID: <code>7100</code>
     </tr>
     <tr>
       <td>makerFee</td>
-      <td>0.0002</td>
-      <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0.001</td>
-      <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td></td>
@@ -15205,28 +15205,28 @@ Perps market ID: <code>7100</code>
     </tr>
     <tr>
       <td>initialMarginRatioD18</td>
-      <td>2.57</td>
-      <td><code>2570000000000000000</code> / <code>0x23aa796230c10000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>minimumInitialMarginRatioD18</td>
-      <td>0.05</td>
-      <td><code>50000000000000000</code> / <code>0xb1a2bc2ec50000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>maintenanceMarginScalarD18</td>
-      <td>0.33</td>
-      <td><code>330000000000000000</code> / <code>0x0494654067e10000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0.0003</td>
-      <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td></td>
@@ -15235,24 +15235,24 @@ Perps market ID: <code>7100</code>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
-      <td>1.5</td>
-      <td><code>1500000000000000000</code> / <code>0x14d1120d7b160000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>maxSecondsInLiquidationWindow</td>
-      <td>30</td>
-      <td><code>30</code> / <code>0x1e</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0.0005</td>
-      <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>endorsedLiquidator</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x11233749514Ab8d00C0A5873DF7428b3db70030f"><code>0x11233749514Ab8d00C0A5873DF7428b3db70030f</code></a>
+        <a href="https://basescan.org/address/undefined"><code>undefined</code></a>
       </td>
     </tr>
     <tr>
@@ -15293,45 +15293,45 @@ Perps market ID: <code>7100</code>
     </tr>
     <tr>
       <td>strategyType</td>
-      <td>PYTH</td>
-      <td><code>0</code></td>
+      <td>Unknown</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>settlementDelay</td>
-      <td>2</td>
-      <td><code>2</code> / <code>0x02</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>settlementWindowDuration</td>
-      <td>60</td>
-      <td><code>60</code> / <code>0x3c</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/undefined"><code>undefined</code></a>
       </td>
     </tr>
     <tr>
       <td>feedId</td>
       <td></td>
-      <td><code>"0xec5d399846a9209f3fe5881d70aae9268c94339ff9817e8d18ff19fa05eea1c8"</code></td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>disabled</td>
-      <td>✅ Enabled</td>
-      <td><code>false</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>commitmentPriceDelay</td>
-      <td>2</td>
-      <td><code>2</code> / <code>0x02</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
   </tbody>
 </table>
@@ -15356,13 +15356,13 @@ Perps market ID: <code>7200</code>
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>150</td>
-      <td><code>150000000000000000000</code> / <code>0x0821ab0d4414980000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>maxOpenInterest</td>
-      <td>150</td>
-      <td><code>150000000000000000000</code> / <code>0x0821ab0d4414980000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td></td>
@@ -15371,13 +15371,13 @@ Perps market ID: <code>7200</code>
     </tr>
     <tr>
       <td>skewScale</td>
-      <td>2.13 k</td>
-      <td><code>2125000000000000000000</code> / <code>0x73324c914479140000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
-      <td>9</td>
-      <td><code>9000000000000000000</code> / <code>0x7ce66c50e2840000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td></td>
@@ -15386,13 +15386,13 @@ Perps market ID: <code>7200</code>
     </tr>
     <tr>
       <td>makerFee</td>
-      <td>0.0002</td>
-      <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0.001</td>
-      <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td></td>
@@ -15401,28 +15401,28 @@ Perps market ID: <code>7200</code>
     </tr>
     <tr>
       <td>initialMarginRatioD18</td>
-      <td>1.49</td>
-      <td><code>1490000000000000000</code> / <code>0x14ad8b1b0b550000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>minimumInitialMarginRatioD18</td>
-      <td>0.05</td>
-      <td><code>50000000000000000</code> / <code>0xb1a2bc2ec50000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>maintenanceMarginScalarD18</td>
-      <td>0.39</td>
-      <td><code>390000000000000000</code> / <code>0x05698eef06670000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0.0003</td>
-      <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td></td>
@@ -15431,24 +15431,24 @@ Perps market ID: <code>7200</code>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
-      <td>1.5</td>
-      <td><code>1500000000000000000</code> / <code>0x14d1120d7b160000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>maxSecondsInLiquidationWindow</td>
-      <td>30</td>
-      <td><code>30</code> / <code>0x1e</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0.0005</td>
-      <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>endorsedLiquidator</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x11233749514Ab8d00C0A5873DF7428b3db70030f"><code>0x11233749514Ab8d00C0A5873DF7428b3db70030f</code></a>
+        <a href="https://basescan.org/address/undefined"><code>undefined</code></a>
       </td>
     </tr>
     <tr>
@@ -15489,45 +15489,45 @@ Perps market ID: <code>7200</code>
     </tr>
     <tr>
       <td>strategyType</td>
-      <td>PYTH</td>
-      <td><code>0</code></td>
+      <td>Unknown</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>settlementDelay</td>
-      <td>2</td>
-      <td><code>2</code> / <code>0x02</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>settlementWindowDuration</td>
-      <td>60</td>
-      <td><code>60</code> / <code>0x3c</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/undefined"><code>undefined</code></a>
       </td>
     </tr>
     <tr>
       <td>feedId</td>
       <td></td>
-      <td><code>"0x425f4b198ab2504936886c1e93511bb6720fbcf2045a4f3c0723bb213846022f"</code></td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>disabled</td>
-      <td>✅ Enabled</td>
-      <td><code>false</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
     <tr>
       <td>commitmentPriceDelay</td>
-      <td>2</td>
-      <td><code>2</code> / <code>0x02</code></td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
   </tbody>
 </table>
