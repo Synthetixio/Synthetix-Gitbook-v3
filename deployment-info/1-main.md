@@ -443,9 +443,7 @@ Token address: <a href="https://etherscan.io/address/0xb2F30A7C980f052f02563fb51
     </tr>
     <tr>
       <td>USDProxy</td>
-      <td>
-        <a href="https://etherscan.io/address/0xffffffaEff0B96Ea8e4f94b2253f31abdD875847"><code>0xffffffaEff0B96Ea8e4f94b2253f31abdD875847</code></a>
-      </td>
+      <td>n/a</td>
       <td>n/a</td>
     </tr>
     <tr>
