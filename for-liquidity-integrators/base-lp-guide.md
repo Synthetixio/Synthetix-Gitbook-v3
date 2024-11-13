@@ -4,7 +4,7 @@
 
 1\.  Bridge or obtain USDC on Base
 
-2\.  Go to the [Synthetix V3 LP app](https://liquidity.synthetix.eth.limo/)
+2\.  Go to the [Synthetix V3 LP app](https://liquidity.synthetix.io/)
 
 3\.  Connect your wallet, switch network to Base, then click 'Create Account'
 
