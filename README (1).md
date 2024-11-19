@@ -15,6 +15,6 @@ The protocol allows **liquidity providers** (LPs) to delegate collateral to **li
 
 Unique to Synthetix is the ability for **liquidity pool managers** to configure these pools to extend credit to **derivatives markets**. These markets generally rely on decentralized oracle networks (such as [Chainlink](https://chain.link/) and [Pyth](https://pyth.network/)) to retrieve the price of off-chain assets and issue on-chain derivatives of these assets. Analogous to [Uniswap](https://uniswap.org/), in exchange for extending credit to markets (allowing them to always fill orders for traders), markets can collect and deposit fees. This creates an incentive for liquidity providers by reducing the debt of their positions.
 
-Anyone can interact with the [Synthetix V3 core system](https://v3.synthetix.io/) and the Synthetix V3 [market implementations](https://synthetix-markets-prototype.vercel.app/).
+Anyone can interact with the [Synthetix V3 core system](https://v3.synthetix.io/) and the Synthetix V3 [market implementations](https://synthetix-markets-prototype.snxdev.io/).
 
 <figure><img src=".gitbook/assets/Synthetix_V3_Core_System_Vertical.png" alt=""><figcaption></figcaption></figure>
