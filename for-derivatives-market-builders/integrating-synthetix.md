@@ -1,6 +1,6 @@
 # Operating a Market
 
-## Managing Credit & Debt[​](https://snx-v3-docs.vercel.app/pools-markets/integrating-markets#managing-credit--debt) <a href="#managing-credit--debt" id="managing-credit--debt"></a>
+## Managing Credit & Debt
 
 When a market receives snxUSD (e.g. by selling a synthetic asset), it should deposit them into the market manager using the `depositMarketUsd` function. This effectively credits all of the pools (and relevant liquidity positions) backing this market, pro-rata.
 
