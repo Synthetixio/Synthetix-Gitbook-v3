@@ -4,7 +4,7 @@ When a liquidity provider calls `delegateCollateral`, a **liquidity position** i
 
 Each liquidity position consists of an amount collateral, and amount of debt, and a resulting **Collateralization Ratio**. Liquidity positions are identified as the combination of the relevant Account ID, Pool ID, and Collateral Type Address. (Note that this means one account cannot have two separate positions with the same pool and collateral type.)
 
-## Collateralization Ratio[​](https://snx-v3-docs.vercel.app/liquidity-positions/managing-debt#collateralization-ratio) (C-Ratio) <a href="#collateralization-ratio" id="collateralization-ratio"></a>
+## Collateralization Ratio (C-Ratio)
 
 Each liquidity position has a collateralization ratio. This represents the relationship between the value of the collateral associated with the liquidity position and the amount of the debt it’s responsible for. This is represented as a percentage. For example, a C-Ratio of 200% means that the value of the collateral is double the amount of debt it’s backing.
 
