@@ -6,7 +6,7 @@ This is a permissioned function and only Synthetix governance can currently crea
 
 Pool owners may register and remove **rewards distributors** from the vaults in their pools. Rewards distributors are smart contracts which can distribute rewards among all of the liquidity positions in a specified vault (instantaneously or over time) and allow these rewards to be collected.
 
-## Creating a Rewards Distributor[​](https://snx-v3-docs.vercel.app/pools-markets/rewards#rewards-distributor) <a href="#rewards-distributor" id="rewards-distributor"></a>
+## Creating a Rewards Distributor
 
 Reward distributors must conform to the `IRewardDistributor` interface. This includes a `payout` function which should transfer `amount` of rewards to the `sender` address:
 
