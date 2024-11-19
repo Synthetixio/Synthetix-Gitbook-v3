@@ -2,7 +2,7 @@
 
 **Liquidity Pools** distribute credit and debt between liquidity providers and derivatives markets. A liquidity pool manager (i.e. owner) selects markets to provide with liquidity based on their desired risk and return profile. Pool managers' source of liquidity is liquidity providers that deposit collateral into the Synthetix protocol and choose to delegate collateral to specific liquidity pool managers.
 
-## Creating Pools[​](https://snx-v3-docs.vercel.app/pools-markets/delegating-credit-and-debt#creating-pools) <a href="#creating-pools" id="creating-pools"></a>
+## Creating Pools
 
 {% hint style="warning" %}
 This is a permissioned function and only Synthetix governance can currently create or configure Pools and Vaults
@@ -12,7 +12,7 @@ Pools may be created using the `createPool` function. Ownership can then be tran
 
 Pools may also have human-readable names stored on-chain, which can be set by the owner using the `setPoolName` function and retrieved with the `getPoolName` function.
 
-## Configuring Pools[​](https://snx-v3-docs.vercel.app/pools-markets/delegating-credit-and-debt#configuring-pools) <a href="#configuring-pools" id="configuring-pools"></a>
+## Configuring Pools
 
 The owner of a pool may set a list of markets to back (with corresponding **weights** and **maximum debt share values**) using the `setPoolConfiguration` function.
 
@@ -33,7 +33,7 @@ By default, pools accept all collateral types approved by governance (using the 
 
 In the pool configuration (not to be confused with the pool _collateral_ configuration), pool owners can set the `collateralDisabledByDefault` value to `true`. In this case, new collateral types cannot be delegated to this pool. The pool owner must set a `collateralLimitD18` value to accept it. In other words, `collateralLimitD18 == 0` means that the pool will accept an unlimited amount of this collateral, unless `collateralDisabledByDefault` is set to `true`.
 
-### Calculating Credit Capacity[​](https://snx-v3-docs.vercel.app/pools-markets/delegating-credit-and-debt#calculating-credit-capacity) <a href="#calculating-credit-capacity" id="calculating-credit-capacity"></a>
+### Calculating Credit Capacity
 
 To understand how the pool configuration function works, it's useful to see how it effects the available credit capacity (i.e. amount of withdrawable snxUSD) provided to markets.
 
@@ -44,7 +44,7 @@ Then, a **maximum debt share value** is determined. We take the lesser of these 
 * The maximum debt share value set in the pool's configuration, per above. The maximum debt share value also allows a pool to stop backing a market if it accrues too much debt. (See [Credit and Debt Distribution](credit-and-debt-distribution.md) for more details.)
 * The **minimum liquidity ratio** is applied to the collateral value after factoring in the weights. For instance, if the collateral value derived from the weights minus the vault's debt which has already been assigned is $100 and the minimum liquidity ratio is set to 200%, this maximum debt share value would be $0.50. This value is added to the existing debt share value to determine the number of dollars per debt share than can be assumed before the market exceed the minimum liquidity ratio. So if the current debt share value is $0.25, in this case, the maximum debt share value calculated here would be $0.75. This maximum debt share value fluctuates over time, as the value of the debt, the value of the collateral, and amount of the collateral backing a market changes over time.
 
-The credit capacity that a market gets is the difference between the maximum debt share value subtracted by the current debt per share value. For instance, if the collateral value derived from the weights is $100, the maximum debt share value is $0.75, and the current debt share value is $0.25, the actual credit capacity provided to the market would be $50.[​](https://snx-v3-docs.vercel.app/pools-markets/delegating-credit-and-debt#available-credit)
+The credit capacity that a market gets is the difference between the maximum debt share value subtracted by the current debt per share value. For instance, if the collateral value derived from the weights is $100, the maximum debt share value is $0.75, and the current debt share value is $0.25, the actual credit capacity provided to the market would be $50.
 
 Finally, the available credit capacity for a market can be calculated by taking the total credit capacity provided to it across all pools, subtracting its amount of reported debt and its net issuance (i.e. the amount of stablecoins it has minted minus the amount it has burned). This is the maximum amount of stablecoins it is allowed to withdraw. If it begins to report debt such that its available credit drops below 0, the market becomes insolvent and positions which are backing this market no longer accrue debt.
 
