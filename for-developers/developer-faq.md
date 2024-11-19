@@ -9,7 +9,7 @@ description: A guide to help developers start interacting with Synthetix V3
 Where can I get assets on OP Goerli?&#x20;
 
 * `ETH`: Optimism Goerli ETH is available from various faucets. We recommend the official [Optimism faucet](https://app.optimism.io/faucet) but there are also [other faucets](https://community.optimism.io/docs/useful-tools/faucets/) available.
-* `snxETH`: You can wrap OP Goerli ETH into snxETH on "Spot" tab of [the market prototype](https://synthetix-markets-prototype.vercel.app/). This is the easiest way to get assets for testing if you have testnet ETH.
+* `snxETH`: You can wrap OP Goerli ETH into snxETH on "Spot" tab of [the market prototype](https://synthetix-markets-prototype.snxdev.io/). This is the easiest way to get assets for testing if you have testnet ETH.
 * `snxUSD`: snxETH acquired through wrapping can be sold for snxUSD on the spot market prototype.
 
 Where can I get assets on Base or Arbitrum Goerli?&#x20;
@@ -28,7 +28,7 @@ Where can I get assets on Base or Arbitrum Goerli?&#x20;
 
 How can I swap assets?
 
-1. Navigate to the [spot market prototype](https://synthetix-markets-prototype.vercel.app/)
+1. Navigate to the [spot market prototype](https://synthetix-markets-prototype.snxdev.io/)
 2. Prepare your order and click "Submit order". If a token approval is required, you will be prompted with two transactions.
 3. Wait 10 seconds and refresh the page
 4. Click "View Pending Orders", open the "Committed" tab, and check the "My Orders" button
