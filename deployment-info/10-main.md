@@ -181,6 +181,18 @@
       </td>
     </tr>
     <tr>
+      <td>Spot markets</td>
+      <td>
+        <a href="./10-main/spotMarkets.json"><code>spotMarkets.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>Perps markets</td>
+      <td>
+        <a href="./10-main/perpsMarkets.json"><code>perpsMarkets.json</code></a>
+      </td>
+    </tr>
+    <tr>
       <td>Rewards distributors</td>
       <td>
         <a href="./10-main/rewardsDistributors.json"><code>rewardsDistributors.json</code></a>
@@ -216,7 +228,7 @@ Token address: <a href="https://optimistic.etherscan.io/address/0x8700dAec35aF8F
     <tr>
       <td>decimals</td>
       <td>18</td>
-      <td><code>18</code></td>
+      <td><code>18</code> / <code>0x12</code></td>
     </tr>
     <tr>
       <td>issuanceRatioD18</td>
@@ -243,56 +255,10 @@ Token address: <a href="https://optimistic.etherscan.io/address/0x8700dAec35aF8F
       <td>20</td>
       <td><code>20000000000000000000</code> / <code>0x01158e460913d00000</code></td>
     </tr>
-  </tbody>
-</table>
-
-# Collateral `sUSD` Synthetic USD Token v3
-
-Token address: <a href="https://optimistic.etherscan.io/address/0xb2F30A7C980f052f02563fb518dcc39e6bf38175"><code>0xb2F30A7C980f052f02563fb518dcc39e6bf38175</code></a>
-
-<table data-full-width="true">
-  <thead>
     <tr>
-      <th width="400">Parameter name</th>
-      <th width="100">Value</th>
-      <th width="800">Raw value</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>depositingEnabled</td>
-      <td>✅ Enabled</td>
-      <td><code>true</code></td>
-    </tr>
-    <tr>
-      <td>decimals</td>
-      <td>18</td>
-      <td><code>18</code></td>
-    </tr>
-    <tr>
-      <td>issuanceRatioD18</td>
-      <td>10</td>
-      <td><code>10000000000000000000</code> / <code>0x8ac7230489e80000</code></td>
-    </tr>
-    <tr>
-      <td>liquidationRatioD18</td>
-      <td>10</td>
-      <td><code>10000000000000000000</code> / <code>0x8ac7230489e80000</code></td>
-    </tr>
-    <tr>
-      <td>liquidationRewardD18</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
-    </tr>
-    <tr>
-      <td>oracleNodeId</td>
-      <td></td>
-      <td><code>"0x066ef68c9d9ca51eee861aeb5bce51a12e61f06f10bf62243c563671ae3a9733"</code></td>
-    </tr>
-    <tr>
-      <td>minDelegationD18</td>
-      <td><code>MaxUint256</code></td>
-      <td><code>MaxUint256</code> / <code>0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</code></td>
+      <td>oracle.stalenessTolerance</td>
+      <td>3,600</td>
+      <td><code>3600</code> / <code>0x0e10</code></td>
     </tr>
   </tbody>
 </table>
@@ -318,7 +284,7 @@ Token address: <a href="https://optimistic.etherscan.io/address/0x42000000000000
     <tr>
       <td>decimals</td>
       <td>18</td>
-      <td><code>18</code></td>
+      <td><code>18</code> / <code>0x12</code></td>
     </tr>
     <tr>
       <td>issuanceRatioD18</td>
@@ -348,60 +314,175 @@ Token address: <a href="https://optimistic.etherscan.io/address/0x42000000000000
   </tbody>
 </table>
 
-# Synth market `1` Synthetic Ethereum Spot Market
+# Spot Markets
+
+# Spot market snxETH / Synthetic Ethereum
 
 <table data-full-width="true">
   <thead>
     <tr>
-      <th width="400">Parameter name</th>
+      <th width="400">Spot market parameters</th>
       <th width="100">Value</th>
       <th width="800">Raw value</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>synthMarketId</td>
+      <td>ID:</td>
       <td>1</td>
-      <td><code>1</code></td>
+      <td><code>1</code> / <code>0x01</code></td>
     </tr>
     <tr>
-      <td>name</td>
-      <td></td>
-      <td><code>"Synthetic Ethereum Spot Market"</code></td>
+      <td>maxWrappableAmount</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
     </tr>
     <tr>
-      <td>synthSymbol</td>
+      <td>atomicFixedFee</td>
+      <td><code>MaxUint256</code></td>
+      <td><code>MaxUint256</code> / <code>0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</code></td>
+    </tr>
+    <tr>
+      <td>skewScale</td>
+      <td>100 k</td>
+      <td><code>100000000000000000000000</code> / <code>0x152d02c7e14af6800000</code></td>
+    </tr>
+    <tr>
+      <td>collateralLeverage</td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Synth token</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>symbol</td>
       <td></td>
       <td><code>"snxETH"</code></td>
     </tr>
     <tr>
-      <td>synthName</td>
+      <td>name</td>
       <td></td>
       <td><code>"Synthetic Ethereum"</code></td>
     </tr>
     <tr>
-      <td>synthDecimals</td>
-      <td>18</td>
-      <td><code>18</code></td>
-    </tr>
-    <tr>
-      <td>synthAddress</td>
+      <td>address</td>
       <td></td>
       <td>
         <a href="https://optimistic.etherscan.io/address/0x08b2A7e830258F28c9c04501447a8bc83DCE42bE"><code>0x08b2A7e830258F28c9c04501447a8bc83DCE42bE</code></a>
       </td>
     </tr>
     <tr>
-      <td>implementationAddress</td>
+      <td>decimals</td>
+      <td>18</td>
+      <td><code>18</code> / <code>0x12</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Token</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>symbol</td>
+      <td></td>
+      <td><code>"WETH"</code></td>
+    </tr>
+    <tr>
+      <td>name</td>
+      <td></td>
+      <td><code>"Wrapped Ether"</code></td>
+    </tr>
+    <tr>
+      <td>address</td>
       <td></td>
       <td>
-        <a href="https://optimistic.etherscan.io/address/0xd2d3AcE5C69b0460ec202f83daFcE14766f6EF74"><code>0xd2d3AcE5C69b0460ec202f83daFcE14766f6EF74</code></a>
+        <a href="https://optimistic.etherscan.io/address/0x4200000000000000000000000000000000000006"><code>0x4200000000000000000000000000000000000006</code></a>
       </td>
     </tr>
     <tr>
-      <td>collateralLeverage</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>decimals</td>
+      <td>18</td>
+      <td><code>18</code> / <code>0x12</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Synth price data</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>buyFeedId</td>
+      <td></td>
+      <td><code>"0xeb4e9ce87048389ccf5abf4fed4c514e446bc6e1cc7d1a10ec973deee506485a"</code></td>
+    </tr>
+    <tr>
+      <td>sellFeedId</td>
+      <td></td>
+      <td><code>"0xeb4e9ce87048389ccf5abf4fed4c514e446bc6e1cc7d1a10ec973deee506485a"</code></td>
+    </tr>
+    <tr>
+      <td>strictStalenessTolerance</td>
+      <td>undefined</td>
+      <td><code>undefined</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Fees</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>atomicFixedFee</td>
+      <td><code>MaxUint256</code></td>
+      <td><code>MaxUint256</code> / <code>0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</code></td>
+    </tr>
+    <tr>
+      <td>asyncFixedFee</td>
+      <td>0</td>
+      <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
+    </tr>
+    <tr>
+      <td>wrapFee</td>
+      <td>0</td>
+      <td><code>100000000000000</code> / <code>0x5af3107a4000</code></td>
+    </tr>
+    <tr>
+      <td>unwrapFee</td>
+      <td>0</td>
+      <td><code>100000000000000</code> / <code>0x5af3107a4000</code></td>
+    </tr>
+    <tr>
+      <td>marketUtilizationFees</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
     </tr>
     <tr>
       <td>feeCollector</td>
@@ -410,56 +491,27 @@ Token address: <a href="https://optimistic.etherscan.io/address/0x42000000000000
         <a href="https://optimistic.etherscan.io/address/0x0000000000000000000000000000000000000000"><code>0x0000000000000000000000000000000000000000</code></a>
       </td>
     </tr>
-    <tr>
-      <td>atomicFixedFee</td>
-      <td><code>MaxUint256</code></td>
-      <td><code>MaxUint256</code> / <code>0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</code></td>
-    </tr>
-    <tr>
-      <td>asyncFixedFee</td>
-      <td>0.001</td>
-      <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
-    </tr>
-    <tr>
-      <td>wrapFee</td>
-      <td>0.0001</td>
-      <td><code>100000000000000</code> / <code>0x5af3107a4000</code></td>
-    </tr>
-    <tr>
-      <td>unwrapFee</td>
-      <td>0.0001</td>
-      <td><code>100000000000000</code> / <code>0x5af3107a4000</code></td>
-    </tr>
-    <tr>
-      <td>utilizationFeeRate</td>
-      <td>0</td>
-      <td><code>0</code> / <code>0x00</code></td>
-    </tr>
-    <tr>
-      <td>skewScale</td>
-      <td>100 k</td>
-      <td><code>100000000000000000000000</code> / <code>0x152d02c7e14af6800000</code></td>
-    </tr>
   </tbody>
 </table>
+
 <table data-full-width="true">
   <thead>
     <tr>
-      <th width="400">Settlement strategy parameter</th>
+      <th width="400">Settlement strategy</th>
       <th width="100">Value</th>
       <th width="800">Raw value</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>settlementStrategyId</td>
+      <td>ID:</td>
       <td>0</td>
-      <td><code>0</code></td>
+      <td><code>0</code> / <code>0x00</code></td>
     </tr>
     <tr>
       <td>strategyType</td>
       <td>PYTH</td>
-      <td><code>1</code></td>
+      <td><code>1</code> / <code>0x01</code></td>
     </tr>
     <tr>
       <td>settlementDelay</td>
@@ -500,18 +552,79 @@ Token address: <a href="https://optimistic.etherscan.io/address/0x42000000000000
     </tr>
     <tr>
       <td>minimumUsdExchangeAmount</td>
-      <td>0.000001</td>
+      <td>0</td>
       <td><code>1000000000000</code> / <code>0xe8d4a51000</code></td>
     </tr>
     <tr>
       <td>maxRoundingLoss</td>
-      <td>0.000001</td>
+      <td>0</td>
       <td><code>1000000000000</code> / <code>0xe8d4a51000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
       <td>✅ Enabled</td>
       <td><code>false</code></td>
+    </tr>
+  </tbody>
+</table>
+
+# Perps Markets
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Interest rate parameters</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>lowUtilizationInterestRateGradient</td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
+    </tr>
+    <tr>
+      <td>interestRateGradientBreakpoint</td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
+    </tr>
+    <tr>
+      <td>highUtilizationInterestRateGradient</td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Keeper reward guards</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>minKeeperRewardUsd</td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
+    </tr>
+    <tr>
+      <td>minKeeperProfitRatioD18</td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
+    </tr>
+    <tr>
+      <td>maxKeeperRewardUsd</td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
+    </tr>
+    <tr>
+      <td>maxKeeperScalingRatioD18</td>
+      <td>n/a</td>
+      <td><code>undefined</code></td>
     </tr>
   </tbody>
 </table>
