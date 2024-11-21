@@ -1939,8 +1939,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>priceDeviationTolerance</td>
@@ -2191,8 +2191,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>priceDeviationTolerance</td>
@@ -2443,8 +2443,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>priceDeviationTolerance</td>
@@ -2695,8 +2695,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>priceDeviationTolerance</td>
@@ -2891,8 +2891,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -2962,8 +2962,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -3087,8 +3087,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -3158,8 +3158,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -3283,8 +3283,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -3354,8 +3354,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -3479,8 +3479,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -3550,8 +3550,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -3675,8 +3675,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -3746,8 +3746,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -3871,8 +3871,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -3942,8 +3942,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -4067,8 +4067,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -4138,8 +4138,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -4263,8 +4263,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -4334,8 +4334,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -4459,8 +4459,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -4530,8 +4530,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -4655,8 +4655,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -4726,8 +4726,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -4851,8 +4851,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -4922,8 +4922,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -5047,8 +5047,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -5118,8 +5118,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -5243,8 +5243,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -5314,8 +5314,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -5439,8 +5439,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -5510,8 +5510,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -5635,8 +5635,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -5706,8 +5706,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -5831,8 +5831,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -5902,8 +5902,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -6027,8 +6027,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -6098,8 +6098,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -6223,8 +6223,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -6294,8 +6294,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -6419,8 +6419,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -6490,8 +6490,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -6615,8 +6615,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -6686,8 +6686,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -6811,8 +6811,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -6882,8 +6882,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -7007,8 +7007,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -7078,8 +7078,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -7203,8 +7203,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -7274,8 +7274,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -7399,8 +7399,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -7470,8 +7470,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -7595,8 +7595,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -7666,8 +7666,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -7791,8 +7791,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -7862,8 +7862,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -7987,8 +7987,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -8058,8 +8058,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -8183,8 +8183,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -8254,8 +8254,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -8379,8 +8379,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -8450,8 +8450,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -8575,8 +8575,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -8646,8 +8646,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -8771,8 +8771,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -8842,8 +8842,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -8967,8 +8967,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -9038,8 +9038,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -9163,8 +9163,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -9234,8 +9234,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -9359,8 +9359,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -9430,8 +9430,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -9555,8 +9555,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -9626,8 +9626,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -9751,8 +9751,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -9822,8 +9822,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -9947,8 +9947,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -10018,8 +10018,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -10143,8 +10143,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -10214,8 +10214,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -10339,8 +10339,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -10410,8 +10410,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -10535,8 +10535,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -10606,8 +10606,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -10731,8 +10731,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -10802,8 +10802,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -10927,8 +10927,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -10998,8 +10998,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -11123,8 +11123,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -11194,8 +11194,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -11319,8 +11319,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -11390,8 +11390,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -11515,8 +11515,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -11586,8 +11586,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -11711,8 +11711,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -11782,8 +11782,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -11907,8 +11907,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -11978,8 +11978,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -12103,8 +12103,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -12174,8 +12174,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -12299,8 +12299,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -12370,8 +12370,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -12495,8 +12495,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -12566,8 +12566,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -12691,8 +12691,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -12762,8 +12762,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -12887,8 +12887,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -12958,8 +12958,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -13083,8 +13083,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -13154,8 +13154,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -13279,8 +13279,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -13350,8 +13350,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -13475,8 +13475,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -13546,8 +13546,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -13671,8 +13671,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -13742,8 +13742,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -13867,8 +13867,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -13938,8 +13938,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -14063,8 +14063,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -14134,8 +14134,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -14259,8 +14259,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -14330,8 +14330,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -14455,8 +14455,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -14526,8 +14526,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -14651,8 +14651,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -14722,8 +14722,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -14847,8 +14847,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -14918,8 +14918,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -15043,8 +15043,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -15114,8 +15114,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -15239,8 +15239,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -15310,8 +15310,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -15435,8 +15435,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -15506,8 +15506,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -15631,8 +15631,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -15702,8 +15702,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -15827,8 +15827,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -15898,8 +15898,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -16023,8 +16023,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -16094,8 +16094,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -16219,8 +16219,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -16290,8 +16290,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -16415,8 +16415,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -16486,8 +16486,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -16611,8 +16611,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -16682,8 +16682,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -16807,8 +16807,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -16878,8 +16878,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -17003,8 +17003,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -17074,8 +17074,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -17199,8 +17199,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -17270,8 +17270,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -17395,8 +17395,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -17466,8 +17466,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -17591,8 +17591,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -17662,8 +17662,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -17787,8 +17787,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -17858,8 +17858,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -17983,8 +17983,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -18054,8 +18054,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -18179,8 +18179,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -18250,8 +18250,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -18375,8 +18375,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -18446,8 +18446,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -18571,8 +18571,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -18642,8 +18642,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -18767,8 +18767,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -18838,8 +18838,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -18963,8 +18963,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -19034,8 +19034,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -19159,8 +19159,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -19230,8 +19230,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -19355,8 +19355,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -19426,8 +19426,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -19551,8 +19551,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -19622,8 +19622,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
@@ -19747,8 +19747,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumPositionMargin</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
     </tr>
     <tr>
       <td>maxLiquidationLimitAccumulationMultiplier</td>
@@ -19818,8 +19818,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>settlementReward</td>
-      <td>1</td>
-      <td><code>1000000000000000000</code> / <code>0x0de0b6b3a7640000</code></td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
     </tr>
     <tr>
       <td>disabled</td>
