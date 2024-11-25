@@ -1949,12 +1949,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumUsdExchangeAmount</td>
-      <td>0</td>
+      <td>0.000001</td>
       <td><code>1000000000000</code> / <code>0xe8d4a51000</code></td>
     </tr>
     <tr>
       <td>maxRoundingLoss</td>
-      <td>0</td>
+      <td>0.000001</td>
       <td><code>1000000000000</code> / <code>0xe8d4a51000</code></td>
     </tr>
     <tr>
@@ -2201,12 +2201,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumUsdExchangeAmount</td>
-      <td>0</td>
+      <td>0.000001</td>
       <td><code>1000000000000</code> / <code>0xe8d4a51000</code></td>
     </tr>
     <tr>
       <td>maxRoundingLoss</td>
-      <td>0</td>
+      <td>0.000001</td>
       <td><code>1000000000000</code> / <code>0xe8d4a51000</code></td>
     </tr>
     <tr>
@@ -2453,12 +2453,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumUsdExchangeAmount</td>
-      <td>0</td>
+      <td>0.000001</td>
       <td><code>1000000000000</code> / <code>0xe8d4a51000</code></td>
     </tr>
     <tr>
       <td>maxRoundingLoss</td>
-      <td>0</td>
+      <td>0.000001</td>
       <td><code>1000000000000</code> / <code>0xe8d4a51000</code></td>
     </tr>
     <tr>
@@ -2705,12 +2705,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumUsdExchangeAmount</td>
-      <td>0</td>
+      <td>0.000001</td>
       <td><code>1000000000000</code> / <code>0xe8d4a51000</code></td>
     </tr>
     <tr>
       <td>maxRoundingLoss</td>
-      <td>0</td>
+      <td>0.000001</td>
       <td><code>1000000000000</code> / <code>0xe8d4a51000</code></td>
     </tr>
     <tr>
@@ -2849,12 +2849,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.000001</td>
       <td><code>1000000000000</code> / <code>0xe8d4a51000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
   </tbody>
@@ -2886,7 +2886,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -2901,7 +2901,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -3045,12 +3045,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.000001</td>
       <td><code>1000000000000</code> / <code>0xe8d4a51000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
   </tbody>
@@ -3082,7 +3082,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -3097,7 +3097,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -3241,12 +3241,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -3278,7 +3278,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -3293,7 +3293,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -3437,12 +3437,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.000001</td>
       <td><code>1000000000000</code> / <code>0xe8d4a51000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.0008</td>
       <td><code>800000000000000</code> / <code>0x02d79883d20000</code></td>
     </tr>
   </tbody>
@@ -3474,7 +3474,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -3489,7 +3489,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -3633,12 +3633,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -3670,7 +3670,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -3685,7 +3685,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -3829,12 +3829,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -3866,7 +3866,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -3881,7 +3881,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -4025,12 +4025,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -4062,7 +4062,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -4077,7 +4077,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -4221,12 +4221,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -4258,7 +4258,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -4273,7 +4273,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -4417,12 +4417,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -4454,7 +4454,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -4469,7 +4469,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -4613,12 +4613,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -4650,7 +4650,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -4665,7 +4665,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -4809,12 +4809,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -4846,7 +4846,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -4861,7 +4861,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -5005,12 +5005,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -5042,7 +5042,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -5057,7 +5057,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -5201,12 +5201,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -5238,7 +5238,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -5253,7 +5253,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -5397,12 +5397,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -5434,7 +5434,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -5449,7 +5449,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -5593,12 +5593,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -5625,12 +5625,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maintenanceMarginScalarD18</td>
-      <td>0.03</td>
+      <td>0.033333</td>
       <td><code>33333000000000000</code> / <code>0x766c2fd84c5000</code></td>
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -5645,7 +5645,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -5789,12 +5789,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -5821,12 +5821,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maintenanceMarginScalarD18</td>
-      <td>0.03</td>
+      <td>0.033333</td>
       <td><code>33333000000000000</code> / <code>0x766c2fd84c5000</code></td>
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -5841,7 +5841,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -5985,12 +5985,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -6022,7 +6022,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -6037,7 +6037,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -6181,12 +6181,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -6218,7 +6218,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -6233,7 +6233,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -6377,12 +6377,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -6414,7 +6414,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -6429,7 +6429,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -6573,12 +6573,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -6610,7 +6610,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -6625,7 +6625,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -6769,12 +6769,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -6806,7 +6806,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -6821,7 +6821,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -6965,12 +6965,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -7002,7 +7002,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -7017,7 +7017,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -7161,12 +7161,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -7198,7 +7198,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -7213,7 +7213,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -7357,12 +7357,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -7394,7 +7394,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -7409,7 +7409,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -7553,12 +7553,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -7590,7 +7590,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -7605,7 +7605,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -7749,12 +7749,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -7786,7 +7786,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -7801,7 +7801,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -7945,12 +7945,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -7982,7 +7982,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -7997,7 +7997,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -8141,12 +8141,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -8178,7 +8178,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -8193,7 +8193,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -8337,12 +8337,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -8374,7 +8374,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -8389,7 +8389,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -8533,12 +8533,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -8570,7 +8570,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -8585,7 +8585,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -8729,12 +8729,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -8766,7 +8766,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -8781,7 +8781,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -8925,12 +8925,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -8962,7 +8962,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -8977,7 +8977,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -9121,12 +9121,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -9158,7 +9158,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -9173,7 +9173,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -9317,12 +9317,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -9354,7 +9354,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -9369,7 +9369,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -9513,12 +9513,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -9550,7 +9550,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -9565,7 +9565,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -9709,12 +9709,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -9746,7 +9746,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -9761,7 +9761,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -9905,12 +9905,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -9942,7 +9942,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -9957,7 +9957,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -10101,12 +10101,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -10138,7 +10138,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -10153,7 +10153,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -10297,12 +10297,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -10334,7 +10334,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -10349,7 +10349,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -10493,12 +10493,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -10530,7 +10530,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -10545,7 +10545,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -10689,12 +10689,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -10726,7 +10726,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -10741,7 +10741,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -10885,12 +10885,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -10922,7 +10922,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -10937,7 +10937,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -11081,12 +11081,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -11118,7 +11118,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -11133,7 +11133,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -11277,12 +11277,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -11314,7 +11314,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -11329,7 +11329,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -11473,12 +11473,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -11510,7 +11510,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -11525,7 +11525,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -11669,12 +11669,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -11706,7 +11706,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -11721,7 +11721,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -11865,12 +11865,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -11902,7 +11902,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -11917,7 +11917,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -12061,12 +12061,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.000001</td>
       <td><code>1000000000000</code> / <code>0xe8d4a51000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
   </tbody>
@@ -12098,7 +12098,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -12113,7 +12113,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -12257,12 +12257,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -12294,7 +12294,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -12309,7 +12309,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -12453,12 +12453,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -12490,7 +12490,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -12505,7 +12505,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -12649,12 +12649,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -12681,12 +12681,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maintenanceMarginScalarD18</td>
-      <td>0.07</td>
+      <td>0.06666</td>
       <td><code>66660000000000000</code> / <code>0xecd2eab4ba4000</code></td>
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -12701,7 +12701,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -12845,12 +12845,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -12882,7 +12882,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -12897,7 +12897,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -13041,12 +13041,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -13078,7 +13078,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -13093,7 +13093,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -13237,12 +13237,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -13274,7 +13274,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -13289,7 +13289,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -13433,12 +13433,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -13470,7 +13470,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -13485,7 +13485,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -13629,12 +13629,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -13666,7 +13666,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -13681,7 +13681,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -13825,12 +13825,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -13862,7 +13862,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -13877,7 +13877,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -14021,12 +14021,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -14043,7 +14043,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>initialMarginRatioD18</td>
-      <td>0.01</td>
+      <td>0.005</td>
       <td><code>5000000000000000</code> / <code>0x11c37937e08000</code></td>
     </tr>
     <tr>
@@ -14058,7 +14058,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -14073,7 +14073,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -14217,12 +14217,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -14254,7 +14254,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -14269,7 +14269,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -14413,12 +14413,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -14450,7 +14450,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -14465,7 +14465,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -14609,12 +14609,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -14646,7 +14646,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -14661,7 +14661,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -14805,12 +14805,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -14842,7 +14842,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -14857,7 +14857,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -15001,12 +15001,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -15038,7 +15038,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -15053,7 +15053,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -15197,12 +15197,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -15234,7 +15234,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -15249,7 +15249,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -15393,12 +15393,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -15430,7 +15430,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -15445,7 +15445,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -15589,12 +15589,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -15626,7 +15626,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -15641,7 +15641,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -15785,12 +15785,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -15822,7 +15822,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -15837,7 +15837,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -15981,12 +15981,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -16018,7 +16018,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -16033,7 +16033,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -16177,12 +16177,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -16214,7 +16214,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -16229,7 +16229,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -16373,12 +16373,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -16410,7 +16410,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -16425,7 +16425,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -16569,12 +16569,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>makerFee</td>
-      <td>0</td>
+      <td>0.0002</td>
       <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -16606,7 +16606,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -16621,7 +16621,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -16770,7 +16770,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -16792,7 +16792,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumInitialMarginRatioD18</td>
-      <td>0.33</td>
+      <td>0.334</td>
       <td><code>334000000000000000</code> / <code>0x04a29b3afafb0000</code></td>
     </tr>
     <tr>
@@ -16802,7 +16802,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -16817,7 +16817,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -16966,7 +16966,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -16983,12 +16983,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>initialMarginRatioD18</td>
-      <td>0.69</td>
+      <td>0.694</td>
       <td><code>694000000000000000</code> / <code>0x09a19552b21f0000</code></td>
     </tr>
     <tr>
       <td>minimumInitialMarginRatioD18</td>
-      <td>0.33</td>
+      <td>0.334</td>
       <td><code>334000000000000000</code> / <code>0x04a29b3afafb0000</code></td>
     </tr>
     <tr>
@@ -16998,7 +16998,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -17013,7 +17013,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -17162,7 +17162,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -17179,12 +17179,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>initialMarginRatioD18</td>
-      <td>1.6</td>
+      <td>1.597</td>
       <td><code>1597000000000000000</code> / <code>0x1629af09ea4c8000</code></td>
     </tr>
     <tr>
       <td>minimumInitialMarginRatioD18</td>
-      <td>0.33</td>
+      <td>0.328</td>
       <td><code>328000000000000000</code> / <code>0x048d4a431e540000</code></td>
     </tr>
     <tr>
@@ -17194,7 +17194,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -17209,7 +17209,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -17358,7 +17358,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -17390,7 +17390,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -17405,7 +17405,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -17554,7 +17554,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -17576,7 +17576,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>minimumInitialMarginRatioD18</td>
-      <td>0.35</td>
+      <td>0.345</td>
       <td><code>345000000000000000</code> / <code>0x04c9afac0f828000</code></td>
     </tr>
     <tr>
@@ -17586,7 +17586,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -17601,7 +17601,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -17750,7 +17750,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -17767,12 +17767,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>initialMarginRatioD18</td>
-      <td>2.4</td>
+      <td>2.403</td>
       <td><code>2403000000000000000</code> / <code>0x21592bc4b3438000</code></td>
     </tr>
     <tr>
       <td>minimumInitialMarginRatioD18</td>
-      <td>0.33</td>
+      <td>0.334</td>
       <td><code>334000000000000000</code> / <code>0x04a29b3afafb0000</code></td>
     </tr>
     <tr>
@@ -17782,7 +17782,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -17797,7 +17797,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -17946,7 +17946,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -17978,7 +17978,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -17993,7 +17993,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -18142,7 +18142,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -18159,12 +18159,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>initialMarginRatioD18</td>
-      <td>2.81</td>
+      <td>2.808</td>
       <td><code>2808000000000000000</code> / <code>0x26f8051f614c0000</code></td>
     </tr>
     <tr>
       <td>minimumInitialMarginRatioD18</td>
-      <td>0.33</td>
+      <td>0.328</td>
       <td><code>328000000000000000</code> / <code>0x048d4a431e540000</code></td>
     </tr>
     <tr>
@@ -18174,7 +18174,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -18189,7 +18189,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -18338,7 +18338,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -18355,12 +18355,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>initialMarginRatioD18</td>
-      <td>1.47</td>
+      <td>1.467</td>
       <td><code>1467000000000000000</code> / <code>0x145bd4ba3d7f8000</code></td>
     </tr>
     <tr>
       <td>minimumInitialMarginRatioD18</td>
-      <td>0.33</td>
+      <td>0.325</td>
       <td><code>325000000000000000</code> / <code>0x0482a1c730008000</code></td>
     </tr>
     <tr>
@@ -18370,7 +18370,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -18385,7 +18385,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -18534,7 +18534,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -18551,12 +18551,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>initialMarginRatioD18</td>
-      <td>0.91</td>
+      <td>0.907</td>
       <td><code>907000000000000000</code> / <code>0x0c964fb1cb478000</code></td>
     </tr>
     <tr>
       <td>minimumInitialMarginRatioD18</td>
-      <td>0.35</td>
+      <td>0.345</td>
       <td><code>345000000000000000</code> / <code>0x04c9afac0f828000</code></td>
     </tr>
     <tr>
@@ -18566,7 +18566,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -18581,7 +18581,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -18730,7 +18730,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -18747,12 +18747,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>initialMarginRatioD18</td>
-      <td>1.17</td>
+      <td>1.168</td>
       <td><code>1168000000000000000</code> / <code>0x103591cfc9a80000</code></td>
     </tr>
     <tr>
       <td>minimumInitialMarginRatioD18</td>
-      <td>0.34</td>
+      <td>0.335</td>
       <td><code>335000000000000000</code> / <code>0x04a628b99fc18000</code></td>
     </tr>
     <tr>
@@ -18762,7 +18762,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -18777,7 +18777,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -18926,7 +18926,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -18943,12 +18943,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>initialMarginRatioD18</td>
-      <td>1.04</td>
+      <td>1.037</td>
       <td><code>1037000000000000000</code> / <code>0x0e642a0178148000</code></td>
     </tr>
     <tr>
       <td>minimumInitialMarginRatioD18</td>
-      <td>0.33</td>
+      <td>0.334</td>
       <td><code>334000000000000000</code> / <code>0x04a29b3afafb0000</code></td>
     </tr>
     <tr>
@@ -18958,7 +18958,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -18973,7 +18973,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -19122,7 +19122,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
   </tbody>
@@ -19139,12 +19139,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>initialMarginRatioD18</td>
-      <td>1.21</td>
+      <td>1.211</td>
       <td><code>1211000000000000000</code> / <code>0x10ce561576ff8000</code></td>
     </tr>
     <tr>
       <td>minimumInitialMarginRatioD18</td>
-      <td>0.32</td>
+      <td>0.317</td>
       <td><code>317000000000000000</code> / <code>0x046635d209cc8000</code></td>
     </tr>
     <tr>
@@ -19154,7 +19154,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -19169,7 +19169,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -19318,7 +19318,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
   </tbody>
@@ -19335,12 +19335,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>initialMarginRatioD18</td>
-      <td>2.46</td>
+      <td>2.459</td>
       <td><code>2459000000000000000</code> / <code>0x22201f78beaf8000</code></td>
     </tr>
     <tr>
       <td>minimumInitialMarginRatioD18</td>
-      <td>0.32</td>
+      <td>0.317</td>
       <td><code>317000000000000000</code> / <code>0x046635d209cc8000</code></td>
     </tr>
     <tr>
@@ -19350,7 +19350,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -19365,7 +19365,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -19514,7 +19514,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
   </tbody>
@@ -19531,12 +19531,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>initialMarginRatioD18</td>
-      <td>1.59</td>
+      <td>1.588</td>
       <td><code>1588000000000000000</code> / <code>0x1609b5961f520000</code></td>
     </tr>
     <tr>
       <td>minimumInitialMarginRatioD18</td>
-      <td>0.32</td>
+      <td>0.317</td>
       <td><code>317000000000000000</code> / <code>0x046635d209cc8000</code></td>
     </tr>
     <tr>
@@ -19546,7 +19546,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -19561,7 +19561,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
@@ -19710,7 +19710,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
@@ -19727,12 +19727,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>initialMarginRatioD18</td>
-      <td>4.69</td>
+      <td>4.688</td>
       <td><code>4688000000000000000</code> / <code>0x410f1f2973080000</code></td>
     </tr>
     <tr>
       <td>minimumInitialMarginRatioD18</td>
-      <td>0.32</td>
+      <td>0.317</td>
       <td><code>317000000000000000</code> / <code>0x046635d209cc8000</code></td>
     </tr>
     <tr>
@@ -19742,7 +19742,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>flagRewardRatioD18</td>
-      <td>0</td>
+      <td>0.0003</td>
       <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
     </tr>
     <tr>
@@ -19757,7 +19757,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxLiquidationPd</td>
-      <td>0</td>
+      <td>0.0005</td>
       <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
     </tr>
     <tr>
