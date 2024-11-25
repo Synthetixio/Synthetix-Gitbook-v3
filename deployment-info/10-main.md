@@ -466,17 +466,17 @@ Token address: <a href="https://optimistic.etherscan.io/address/0x42000000000000
     </tr>
     <tr>
       <td>asyncFixedFee</td>
-      <td>0</td>
+      <td>0.001</td>
       <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
     <tr>
       <td>wrapFee</td>
-      <td>0</td>
+      <td>0.0001</td>
       <td><code>100000000000000</code> / <code>0x5af3107a4000</code></td>
     </tr>
     <tr>
       <td>unwrapFee</td>
-      <td>0</td>
+      <td>0.0001</td>
       <td><code>100000000000000</code> / <code>0x5af3107a4000</code></td>
     </tr>
     <tr>
@@ -552,12 +552,12 @@ Token address: <a href="https://optimistic.etherscan.io/address/0x42000000000000
     </tr>
     <tr>
       <td>minimumUsdExchangeAmount</td>
-      <td>0</td>
+      <td>0.000001</td>
       <td><code>1000000000000</code> / <code>0xe8d4a51000</code></td>
     </tr>
     <tr>
       <td>maxRoundingLoss</td>
-      <td>0</td>
+      <td>0.000001</td>
       <td><code>1000000000000</code> / <code>0xe8d4a51000</code></td>
     </tr>
     <tr>
