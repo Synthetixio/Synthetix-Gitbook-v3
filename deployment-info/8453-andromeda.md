@@ -17417,7 +17417,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>endorsedLiquidator</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x95A61Fa7454CA5f6A3CE01724e306Cd14a22D306"><code>0x95A61Fa7454CA5f6A3CE01724e306Cd14a22D306</code></a>
+        <a href="https://basescan.org/address/0x11233749514Ab8d00C0A5873DF7428b3db70030f"><code>0x11233749514Ab8d00C0A5873DF7428b3db70030f</code></a>
       </td>
     </tr>
   </tbody>
@@ -18005,7 +18005,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>endorsedLiquidator</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x95A61Fa7454CA5f6A3CE01724e306Cd14a22D306"><code>0x95A61Fa7454CA5f6A3CE01724e306Cd14a22D306</code></a>
+        <a href="https://basescan.org/address/0x11233749514Ab8d00C0A5873DF7428b3db70030f"><code>0x11233749514Ab8d00C0A5873DF7428b3db70030f</code></a>
       </td>
     </tr>
   </tbody>
@@ -19965,7 +19965,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>endorsedLiquidator</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x95A61Fa7454CA5f6A3CE01724e306Cd14a22D306"><code>0x95A61Fa7454CA5f6A3CE01724e306Cd14a22D306</code></a>
+        <a href="https://basescan.org/address/0x11233749514Ab8d00C0A5873DF7428b3db70030f"><code>0x11233749514Ab8d00C0A5873DF7428b3db70030f</code></a>
       </td>
     </tr>
   </tbody>
@@ -20161,7 +20161,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>endorsedLiquidator</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x95A61Fa7454CA5f6A3CE01724e306Cd14a22D306"><code>0x95A61Fa7454CA5f6A3CE01724e306Cd14a22D306</code></a>
+        <a href="https://basescan.org/address/0x11233749514Ab8d00C0A5873DF7428b3db70030f"><code>0x11233749514Ab8d00C0A5873DF7428b3db70030f</code></a>
       </td>
     </tr>
   </tbody>
@@ -20357,7 +20357,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>endorsedLiquidator</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x95A61Fa7454CA5f6A3CE01724e306Cd14a22D306"><code>0x95A61Fa7454CA5f6A3CE01724e306Cd14a22D306</code></a>
+        <a href="https://basescan.org/address/0x11233749514Ab8d00C0A5873DF7428b3db70030f"><code>0x11233749514Ab8d00C0A5873DF7428b3db70030f</code></a>
       </td>
     </tr>
   </tbody>
