@@ -1321,11 +1321,47 @@ by limiting the frequency of `delegateCollateral` (or `setPoolConfiguration`) ca
   function getMarketPools(uint128 marketId) external returns (uint128[] inRangePoolIds, uint128[] outRangePoolIds)
   ```
 
+  Retrieves a list of pool ids supplying liquidity to the market. Additionally, returns a list of pool ids registered to the market, but not actively providing liquidity
+
+**Parameters**
+* `marketId` (*uint128*) - the id of the market
+
+#### getMarketPoolMaxDebtPerShare
+
+  ```solidity
+  function getMarketPoolMaxDebtPerShare(uint128 marketId, uint128 poolId) external view returns (int256)
+  ```
+
+  Retrieves the maximum value per share tolerated by a pool before it will bumped out of the pool
+
+#### getMarketCapacityContributionFromPool
+
+  ```solidity
+  function getMarketCapacityContributionFromPool(uint128 marketId, uint128 poolId) external view returns (uint256)
+  ```
+
+  Retrieves the amount of credit capacity added to the total provided by a single pool attached the market
+
+**Parameters**
+* `marketId` (*uint128*) - the id of the market
+* `poolId` (*uint128*) - the id of the specific pool to retrieve capacity contribution for
+
 #### getMarketPoolDebtDistribution
 
   ```solidity
   function getMarketPoolDebtDistribution(uint128 marketId, uint128 poolId) external returns (uint256 sharesD18, uint128 totalSharesD18, int128 valuePerShareD27)
   ```
+
+  Retrieves internal data about the debt distribution on the market
+
+**Parameters**
+* `marketId` (*uint128*) - the id of the market
+* `poolId` (*uint128*) - the id of the specific pool to retrieve sharesD18 for
+
+**Returns**
+* `sharesD18` (*uint256*) - the number of shares (USD denominated) supplied by the supplied pool in the market
+* `totalSharesD18` (*uint128*) - the number of shares (USD denominated) supplied by all pools attached to the market
+* `valuePerShareD27` (*int128*) - the current value per share of the debt distribution
 
 #### MarketRegistered
 
@@ -1679,6 +1715,32 @@ Incoming market ids need to be provided in ascending order.
 
 **Returns**
 * `nominatedOwner` (*address*) - The current nominated owner of the pool.
+#### getPoolTotalDebt
+
+  ```solidity
+  function getPoolTotalDebt(uint128 poolId) external returns (int256 totalDebtD18)
+  ```
+
+  Returns the current pool debt
+
+**Parameters**
+* `poolId` (*uint128*) - The id of the pool whose total debt is being queried
+
+**Returns**
+* `totalDebtD18` (*int256*) - The total debt of all vaults put together
+#### getPoolDebtPerShare
+
+  ```solidity
+  function getPoolDebtPerShare(uint128 poolId) external returns (int256 debtPerShareD18)
+  ```
+
+  Returns the current pool debt divided by the computed value of the underlying vault liquidity
+
+**Parameters**
+* `poolId` (*uint128*) - The id of the pool whose total debt is being queried
+
+**Returns**
+* `debtPerShareD18` (*int256*) - The total debt of all vaults put together divided by the computed collateral value of those vaults
 #### setMinLiquidityRatio
 
   ```solidity
@@ -14675,22 +14737,28 @@ Retrieves the number of decimals used in the scalar.
   constructor(address _pythAddress) public
   ```
 
-#### _getImplementation
-
-  ```solidity
-  function _getImplementation() internal view returns (address)
-  ```
-
 #### oracleId
 
   ```solidity
   function oracleId() external pure returns (bytes32)
   ```
 
+#### setBenchmarkPrice
+
+  ```solidity
+  function setBenchmarkPrice(bytes32 priceId, uint64 requestedTime, int256 newPrice, int32 expo) external
+  ```
+
 #### getBenchmarkPrice
 
   ```solidity
   function getBenchmarkPrice(bytes32 priceId, uint64 requestedTime) external view returns (int256)
+  ```
+
+#### setLatestPrice
+
+  ```solidity
+  function setLatestPrice(bytes32 priceId, int256 newPrice) external
   ```
 
 #### getLatestPrice
@@ -14719,30 +14787,6 @@ Retrieves the number of decimals used in the scalar.
 
   gets scaled price. Borrowed from PythNode.sol.
 
-#### fallback
-
-  ```solidity
-  fallback() external payable
-  ```
-
-#### receive
-
-  ```solidity
-  receive() external payable
-  ```
-
-#### _forward
-
-  ```solidity
-  function _forward() internal
-  ```
-
-#### _getImplementation
-
-  ```solidity
-  function _getImplementation() internal view virtual returns (address)
-  ```
-
 #### oracleId
 
   ```solidity
@@ -14753,6 +14797,18 @@ Retrieves the number of decimals used in the scalar.
 
   ```solidity
   function fulfillOracleQuery(bytes signedOffchainData) external payable
+  ```
+
+#### ForkBenchmarkPriceSet
+
+  ```solidity
+  event ForkBenchmarkPriceSet(bytes32 priceId, uint64 requestedTime, int256 newPrice, int32 expo)
+  ```
+
+#### ForkLatestPriceSet
+
+  ```solidity
+  event ForkLatestPriceSet(bytes32 priceId, int256 newPrice)
   ```
 
 ### IERC7412
