@@ -361,16 +361,16 @@
     </tr>
     <tr>
       <td>pyth_erc7412_wrapper</td>
-      <td><a href="https://usecannon.com/packages/pyth-erc7412-wrapper/3.3.15/421614-main">pyth-erc7412-wrapper:3.3.15@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmUCeV91jQWH5quzNc2HFfKCrdokTapDYX7jEbqqeVb9my">QmUCeV91jQWH5quzNc2HFfKCrdokTapDYX7jEbqqeVb9my</a></td>
+      <td><a href="https://usecannon.com/packages/pyth-erc7412-wrapper/3.10.0/421614-main">pyth-erc7412-wrapper:3.10.0@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmeYBZAmpRYrxUbZa2HXxdcdddKSf5guLfFvXfb1gBNbYS">QmeYBZAmpRYrxUbZa2HXxdcdddKSf5guLfFvXfb1gBNbYS</a></td>
       <td>
         pythAddress: <a href="https://sepolia.arbiscan.io/address/0x420000000000000000000000000000000000000F"><code>0x420000000000000000000000000000000000000F</code></a>
       </td>
     </tr>
     <tr>
       <td>system</td>
-      <td><a href="https://usecannon.com/packages/synthetix/3.8.1/421614-main">synthetix:3.8.1@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmeQDcH22fRWvjfSuKRUid51kvjXg3Lyd2pJtdWN2eSMeA">QmeQDcH22fRWvjfSuKRUid51kvjXg3Lyd2pJtdWN2eSMeA</a></td>
+      <td><a href="https://usecannon.com/packages/synthetix/3.10.0/421614-main">synthetix:3.10.0@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmZ918cEMNK4v6jLT4HEzo4Z21uZCjDe7eaE6je9D8TzpN">QmZ918cEMNK4v6jLT4HEzo4Z21uZCjDe7eaE6je9D8TzpN</a></td>
       <td>
         account_token_name: Synthetix Account<br />account_token_symbol: SACCT<br />bundleSalt: main<br />oracle_manager_package: oracle-manager<br />owner: <a href="https://sepolia.arbiscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />salt: main<br />usd_token_name: Synthetic USD Token v3<br />usd_token_symbol: sUSD<br />const_one_oracle_id: 0x066ef68c9d9ca51eee861aeb5bce51a12e61f06f10bf62243c563671ae3a9733
@@ -379,7 +379,7 @@
     <tr>
       <td>spotFactory</td>
       <td><a href="https://usecannon.com/packages/synthetix-spot-market/3.8.1/421614-main">synthetix-spot-market:3.8.1@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmadQYoN9zojkNFvKGH2feWh4HAVXiH7STQiMMSw87YNKq">QmadQYoN9zojkNFvKGH2feWh4HAVXiH7STQiMMSw87YNKq</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmV3wFMGnjSTa8AcYLtVcmnRTcc84iJqhLpfooY8G12MPa">QmV3wFMGnjSTa8AcYLtVcmnRTcc84iJqhLpfooY8G12MPa</a></td>
       <td>
         owner: <a href="https://sepolia.arbiscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />salt: snax<br />synthetixPackage: synthetix<br />synthetixPreset: main
@@ -388,7 +388,7 @@
     <tr>
       <td>perpsFactory</td>
       <td><a href="https://usecannon.com/packages/synthetix-perps-market/3.9.0/421614-main">synthetix-perps-market:3.9.0@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmXSZvGTGPiXdttvmnQyL7MYZPUvU1f6vPtCZamG3x59av">QmXSZvGTGPiXdttvmnQyL7MYZPUvU1f6vPtCZamG3x59av</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmSEKVEZNdR6p7SBBAbjRnimtr94G1re5sfmS7UdA1LEtP">QmSEKVEZNdR6p7SBBAbjRnimtr94G1re5sfmS7UdA1LEtP</a></td>
       <td>
         coreProxyOwner: <a href="https://sepolia.arbiscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />owner: <a href="https://sepolia.arbiscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
@@ -479,8 +479,8 @@
     </tr>
     <tr>
       <td>perps_gas_oracle_node</td>
-      <td><a href="https://usecannon.com/packages/arbitrum-gas-price-oracle/3.3.16/421614-main">arbitrum-gas-price-oracle:3.3.16@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmQaUGLJD8A5mR43PMdRiM3kPiMP4FAv97RPEBFifEpe3v">QmQaUGLJD8A5mR43PMdRiM3kPiMP4FAv97RPEBFifEpe3v</a></td>
+      <td><a href="https://usecannon.com/packages/arbitrum-gas-price-oracle/3.10.0/421614-main">arbitrum-gas-price-oracle:3.10.0@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmNxRR19SpXohjffSMyUPYzwEncYtQv4cZXqZaVr3LrRik">QmNxRR19SpXohjffSMyUPYzwEncYtQv4cZXqZaVr3LrRik</a></td>
       <td>
         arbGasPriceOracleAddress: <a href="https://sepolia.arbiscan.io/address/0x000000000000000000000000000000000000006C"><code>0x000000000000000000000000000000000000006C</code></a>
       </td>
@@ -727,8 +727,8 @@
     </tr>
     <tr>
       <td>pyth_erc7412_wrapper</td>
-      <td><a href="https://usecannon.com/packages/pyth-erc7412-wrapper/3.3.15/84532-andromeda">pyth-erc7412-wrapper:3.3.15@andromeda</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmUm3PZPqxoFZV6bJZXXiMvfJu1C7ANtDhKT5mLeiC1a5s">QmUm3PZPqxoFZV6bJZXXiMvfJu1C7ANtDhKT5mLeiC1a5s</a></td>
+      <td><a href="https://usecannon.com/packages/pyth-erc7412-wrapper/3.10.0/84532-andromeda">pyth-erc7412-wrapper:3.10.0@andromeda</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmYkAqpb27jFGZjrTgiPuWKRE1m3n3Yox3o6oH6U7fV3t1">QmYkAqpb27jFGZjrTgiPuWKRE1m3n3Yox3o6oH6U7fV3t1</a></td>
       <td>
         pythAddress: <a href="https://sepolia.basescan.org/address/0x420000000000000000000000000000000000000F"><code>0x420000000000000000000000000000000000000F</code></a>
       </td>
@@ -741,8 +741,8 @@
     </tr>
     <tr>
       <td>system</td>
-      <td><a href="https://usecannon.com/packages/synthetix/3.8.1/84532-andromeda">synthetix:3.8.1@andromeda</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmaoPV7jyHQF6ViTqPMvRFqGS3HWrXwr6Y1wCBtkai1Fbw">QmaoPV7jyHQF6ViTqPMvRFqGS3HWrXwr6Y1wCBtkai1Fbw</a></td>
+      <td><a href="https://usecannon.com/packages/synthetix/3.10.0/84532-andromeda">synthetix:3.10.0@andromeda</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmYU5CpmhL5vebttggudSHMZ64Y1J5uDfsFv8V81KRL95g">QmYU5CpmhL5vebttggudSHMZ64Y1J5uDfsFv8V81KRL95g</a></td>
       <td>
         account_token_name: Synthetix Account<br />account_token_symbol: SACCT<br />bundleSalt: main<br />oracle_manager_package: oracle-manager<br />owner: <a href="https://sepolia.basescan.org/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />salt: main<br />usd_token_name: Synthetic USD Token v3<br />usd_token_symbol: sUSD
@@ -760,7 +760,7 @@
     <tr>
       <td>spotFactory</td>
       <td><a href="https://usecannon.com/packages/synthetix-spot-market/3.8.1/84532-andromeda">synthetix-spot-market:3.8.1@andromeda</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmR9p2GKEV4APcUBZYCsaKuvSN6SXQkvTy6WN4tc89fNaa">QmR9p2GKEV4APcUBZYCsaKuvSN6SXQkvTy6WN4tc89fNaa</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmaS1tWGTPqgtALenZwkc4RqGohtsujhXV6L2oSHwXD5zQ">QmaS1tWGTPqgtALenZwkc4RqGohtsujhXV6L2oSHwXD5zQ</a></td>
       <td>
         owner: <a href="https://sepolia.basescan.org/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />salt: snax<br />synthetixPackage: synthetix<br />synthetixPreset: main
@@ -769,7 +769,7 @@
     <tr>
       <td>perpsFactory</td>
       <td><a href="https://usecannon.com/packages/synthetix-perps-market/3.9.0/84532-andromeda">synthetix-perps-market:3.9.0@andromeda</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmRKm9Ns36DbgCNr4yVuEJzmpaMkSjo1igk3qmcnJMMffi">QmRKm9Ns36DbgCNr4yVuEJzmpaMkSjo1igk3qmcnJMMffi</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmVAmy1sqKWW7WEYKJuNYnjeuNPn5DbbNcbstgGELxcJNj">QmVAmy1sqKWW7WEYKJuNYnjeuNPn5DbbNcbstgGELxcJNj</a></td>
       <td>
         coreProxyOwner: <a href="https://sepolia.basescan.org/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />owner: <a href="https://sepolia.basescan.org/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
@@ -779,7 +779,7 @@
     <tr>
       <td>buyback_snx</td>
       <td><a href="https://usecannon.com/packages/buyback-snx/3.3.14/84532-andromeda">buyback-snx:3.3.14@andromeda</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmVaHcJ84foiHPuLajNRBDbF9Y7PGnr27hDxrtX9Ne2fBu">QmVaHcJ84foiHPuLajNRBDbF9Y7PGnr27hDxrtX9Ne2fBu</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmcitC53Q65NGzGTNP3ApPtVfYVwiX2gRDVJgJHQ2ZyW4g">QmcitC53Q65NGzGTNP3ApPtVfYVwiX2gRDVJgJHQ2ZyW4g</a></td>
       <td>
         oracle_manager_address: <a href="https://sepolia.basescan.org/address/0x0000000000000000000000000000000000000000"><code>0x0000000000000000000000000000000000000000</code></a
         ><br />premium: 0.01<br />snx_fee_share: 0.5<br />snx_oracle_id: 0x39d020f60982ed892abbcd4a06a276a9f9b7bfbce003204c110b6e488f502da3<br />snx_token: <a href="https://sepolia.basescan.org/address/0x0000000000000000000000000000000000000000"><code>0x0000000000000000000000000000000000000000</code></a
@@ -811,7 +811,7 @@
     <tr>
       <td>perpsLowCapFactory</td>
       <td><a href="https://usecannon.com/packages/synthetix-perps-market/3.9.0/84532-andromeda">synthetix-perps-market:3.9.0@andromeda</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmczSX8hperhy7v2DNFkg44VtWA3JpN4eY37wRJHJVBv29">QmczSX8hperhy7v2DNFkg44VtWA3JpN4eY37wRJHJVBv29</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmUKB8MTRTV4aQ2m2LpfonEdabFuLVM88QXyDPuG1LN4rE">QmUKB8MTRTV4aQ2m2LpfonEdabFuLVM88QXyDPuG1LN4rE</a></td>
       <td>
         coreProxyOwner: <a href="https://sepolia.basescan.org/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />owner: <a href="https://sepolia.basescan.org/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
