@@ -1,6 +1,6 @@
 {
-  "generator": "cannon cli 2.19.4",
-  "timestamp": 1733432739,
+  "generator": "cannon cli 2.20.1",
+  "timestamp": 1733493676,
   "def": {
     "setting": {
       "snx_package": {
@@ -29,18 +29,6 @@
       },
       "pool_owner": {
         "defaultValue": "0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"
-      },
-      "buybackStalenessTolerance": {
-        "defaultValue": "30"
-      },
-      "buyback_premium": {
-        "defaultValue": "<%= parseEther('0.01') %>"
-      },
-      "buyback_fee_share": {
-        "defaultValue": "<%= parseEther('0.5') %>"
-      },
-      "pythSnxFeedId": {
-        "defaultValue": "0x39d020f60982ed892abbcd4a06a276a9f9b7bfbce003204c110b6e488f502da3"
       },
       "synthUsdcMaxMarketCollateral": {
         "defaultValue": "<%= parseEther(String(100_000_000)) %>"
@@ -173,29 +161,6 @@
           "provision.system"
         ]
       },
-      "snx_mock_collateral": {
-        "source": "mintable-token:1.8@permissionless-mint",
-        "target": "synthetix-mock-tokens@snx",
-        "options": {
-          "salt": "<%= settings.salt %>",
-          "name": "Fake Wrapped SNX",
-          "symbol": "fwSNX",
-          "owner": "<%= settings.owner %>"
-        }
-      },
-      "buyback_snx": {
-        "source": "<%= settings.buyback_snx_package %>",
-        "targetPreset": "<%= settings.target_preset %>",
-        "options": {
-          "salt": "<%= settings.salt %>",
-          "premium": "<%= settings.buyback_premium %>",
-          "snx_fee_share": "<%= settings.buyback_fee_share %>",
-          "oracle_manager_address": "<%= imports.system.imports.oracle_manager.contracts.Proxy.address %>",
-          "snx_token": "<%= imports.snx_mock_collateral.contracts.MintableToken.address %>",
-          "usd_token": "<%= imports.system.contracts.USDProxy.address %>",
-          "snx_oracle_id": "<%= extras.snx_oracle_id_buyback %>"
-        }
-      },
       "usdc_mock_collateral": {
         "source": "mintable-token:1.8",
         "target": "synthetix-mock-tokens:1.8@usdc",
@@ -205,6 +170,16 @@
           "symbol": "fUSDC",
           "owner": "<%= settings.owner %>",
           "decimals": "6"
+        }
+      },
+      "snx_mock_collateral": {
+        "source": "mintable-token:1.8@permissionless-mint",
+        "target": "synthetix-mock-tokens@snx",
+        "options": {
+          "salt": "<%= settings.salt %>",
+          "name": "Fake Wrapped SNX",
+          "symbol": "fwSNX",
+          "owner": "<%= settings.owner %>"
         }
       },
       "spartan_council_pool_rewards": {
@@ -318,6 +293,20 @@
         },
         "depends": [
           "provision.spotFactory"
+        ]
+      },
+      "owned_fee_collector": {
+        "source": "owned-fee-collector:3.10.0",
+        "targetPreset": "<%= settings.target_preset %>",
+        "options": {
+          "salt": "<%= settings.salt %>",
+          "owner": "<%= settings.owner %>",
+          "fee_share_recipient": "0xf2107A85d8b79CBd2c5b2Bb63CA73Fd068040b67",
+          "fee_share": "500000000000000000",
+          "fee_token": "<%= imports.system.contracts.USDProxy.address %>"
+        },
+        "depends": [
+          "provision.system"
         ]
       },
       "pyth_erc7412_wrapper": {
@@ -481,83 +470,6 @@
         "depends": [
           "invoke.createScPool"
         ]
-      },
-      "setFeeCollector": {
-        "target": [
-          "perpsFactory.PerpsMarketProxy"
-        ],
-        "fromCall": {
-          "func": "owner"
-        },
-        "func": "setFeeCollector",
-        "args": [
-          "<%= imports.buyback_snx.contracts.buyback_snx.address %>"
-        ]
-      },
-      "registerPythSnxOracleNodeBuyback": {
-        "target": [
-          "system.oracle_manager.Proxy"
-        ],
-        "func": "registerNode",
-        "args": [
-          5,
-          "<%= defaultAbiCoder.encode(['address', 'bytes32', 'bool'], [settings.pyth_price_verification_address, settings.pythSnxFeedId, false]) %>",
-          []
-        ],
-        "extra": {
-          "snx_pyth_oracle_id_buyback": {
-            "event": "NodeRegistered",
-            "arg": 0
-          }
-        },
-        "depends": [
-          "provision.system",
-          "setting.pythSnxFeedId",
-          "setting.pyth_price_verification_address"
-        ]
-      },
-      "registerLookupSnxOracleNodeBuyback": {
-        "target": [
-          "system.oracle_manager.Proxy"
-        ],
-        "func": "registerNode",
-        "args": [
-          9,
-          "<%= defaultAbiCoder.encode(['address', 'bytes32', 'uint256'], [imports.pyth_erc7412_wrapper.contracts.PythERC7412Wrapper.address, settings.pythSnxFeedId, settings.buybackStalenessTolerance]) %>",
-          []
-        ],
-        "extra": {
-          "snx_lookup_oracle_id_buyback": {
-            "event": "NodeRegistered",
-            "arg": 0
-          }
-        },
-        "depends": [
-          "provision.pyth_erc7412_wrapper",
-          "provision.system",
-          "setting.buybackStalenessTolerance",
-          "setting.pythSnxFeedId"
-        ]
-      },
-      "registerSnxOracleNodeBuyback": {
-        "target": [
-          "system.oracle_manager.Proxy"
-        ],
-        "func": "registerNode",
-        "args": [
-          7,
-          "<%= defaultAbiCoder.encode(['uint256'], [settings.buybackStalenessTolerance]) %>",
-          [
-            "<%= extras.snx_pyth_oracle_id_buyback %>",
-            "<%= extras.snx_lookup_oracle_id_buyback %>"
-          ]
-        ],
-        "extra": {
-          "snx_oracle_id_buyback": {
-            "event": "NodeRegistered",
-            "arg": 0
-          }
-        }
       },
       "CoreProxy_configureCollateral_cbbtc": {
         "target": [
@@ -7424,6 +7336,45 @@
         "func": "updateReferrerShare",
         "args": [
           "0xa7DB9b0a95D253022068d43BD1d64756f92eF83C",
+          "<%= settings.referrerFee %>"
+        ]
+      },
+      "setMassDotMoneyAsReferrerOnPerpsMarket": {
+        "target": [
+          "perpsFactory.PerpsMarketProxy"
+        ],
+        "fromCall": {
+          "func": "owner"
+        },
+        "func": "updateReferrerShare",
+        "args": [
+          "0xf944069B489F1ebfF4C3C6a6014d58cBEf7C7009",
+          "<%= settings.referrerFee %>"
+        ]
+      },
+      "setSynthetixAsReferrerOnPerpsMarket": {
+        "target": [
+          "perpsFactory.PerpsMarketProxy"
+        ],
+        "fromCall": {
+          "func": "owner"
+        },
+        "func": "updateReferrerShare",
+        "args": [
+          "0xd25215758734dd3ade497ce04de1c35820964126",
+          "<%= settings.referrerFee %>"
+        ]
+      },
+      "setCyberDEXAsReferrerOnPerpsMarket": {
+        "target": [
+          "perpsFactory.PerpsMarketProxy"
+        ],
+        "fromCall": {
+          "func": "owner"
+        },
+        "func": "updateReferrerShare",
+        "args": [
+          "0x829d7E022c2ACD05a875bCa4Bd11F56E003B727B",
           "<%= settings.referrerFee %>"
         ]
       },
@@ -24204,6 +24155,21 @@
           "<%= settings.synth_weth_max_collateral_amount %>"
         ]
       },
+      "setFeeCollector": {
+        "target": [
+          "perpsFactory.PerpsMarketProxy"
+        ],
+        "fromCall": {
+          "func": "owner"
+        },
+        "func": "setFeeCollector",
+        "args": [
+          "<%= imports.owned_fee_collector.contracts.owned_fee_collector.address %>"
+        ],
+        "depends": [
+          "provision.system"
+        ]
+      },
       "setMinimumLiquidityRatio": {
         "target": [
           "system.CoreProxy"
@@ -26238,7 +26204,7 @@
       }
     },
     "name": "synthetix-omnibus",
-    "version": "63",
+    "version": "64",
     "description": "Andromeda dev deployment",
     "preset": "andromeda"
   },
@@ -40501,28 +40467,28 @@
         "contracts": {},
         "txns": {
           "setFeeCollector": {
-            "hash": "0x47e2b6890bde882163d1a416c7bb2381d98fb83c913eb5ad0f38588ea590e308",
-            "blockNumber": "18681862",
-            "timestamp": "1733132012",
+            "hash": "0xfba089e7adc6203dce841dbf107e889d5b9b9bcf1ee5e61bd3d5ce7dfc07e7aa",
+            "blockNumber": "18862677",
+            "timestamp": "1733493642",
             "events": {
               "FeeCollectorSet": [
                 {
                   "name": "FeeCollectorSet",
                   "args": [
-                    "0xCcB59cF41E62095294F8F9148370F601B0025BD0"
+                    "0x7F6BB57C76aa79fa9cd56799fEeA167eCd331640"
                   ]
                 }
               ]
             },
             "deployedOn": "invoke.setFeeCollector",
-            "gasUsed": 42846,
-            "gasCost": "1000773",
+            "gasUsed": 42869,
+            "gasCost": "1000717",
             "signer": "0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"
           }
         },
         "settings": {}
       },
-      "hash": "900007c0b5ac691666223f7a34f37172",
+      "hash": "53de3c4e9016e0871908c72a2a74c19e",
       "version": 7
     },
     "invoke.setPerpsBtcFundingParameters": {
@@ -97166,16 +97132,178 @@
       },
       "hash": "62c5c4591cb20fdf16c39bfb144964d3",
       "version": 7
+    },
+    "provision.owned_fee_collector": {
+      "artifacts": {
+        "imports": {
+          "owned_fee_collector": {
+            "url": "ipfs://QmNYTF2cDKrun6u28hJ8NLkA8PJdtsUVARaW9e58Qf3VNh",
+            "tags": [
+              "latest"
+            ],
+            "target": "owned-fee-collector:3.10.0@andromeda",
+            "preset": "andromeda",
+            "settings": {
+              "fee_share": "400000000000000000",
+              "fee_share_recipient": "0x14E4f1DE5cA748Fb130711f41473f1d2bc80523a",
+              "fee_token": "0xb2F30A7C980f052f02563fb518dcc39e6bf38175",
+              "owner": "0xD3DFa13CDc7c133b1700c243f03A8C6Df513A93b"
+            },
+            "contracts": {
+              "owned_fee_collector": {
+                "address": "0x7F6BB57C76aa79fa9cd56799fEeA167eCd331640",
+                "abi": [
+                  "constructor(address _owner, address _feeShareRecipient, uint256 _feeShare, address _feeToken)",
+                  "error NoChange()",
+                  "error NotNominated(address addr)",
+                  "error Unauthorized(address addr)",
+                  "error ZeroAddress()",
+                  "event OwnerChanged(address oldOwner, address newOwner)",
+                  "event OwnerNominated(address newOwner)",
+                  "function FEE_TOKEN() view returns (address)",
+                  "function acceptFeeShareRecipient()",
+                  "function acceptOwnership()",
+                  "function claimFees()",
+                  "function feeShare() view returns (uint256)",
+                  "function feeShareRecipient() view returns (address)",
+                  "function nominateNewOwner(address newNominatedOwner)",
+                  "function nominatedOwner() view returns (address)",
+                  "function owner() view returns (address)",
+                  "function quoteFees(uint128 marketId, uint256 feeAmount, address sender) view returns (uint256)",
+                  "function renounceNomination()",
+                  "function setFeeShare(uint256 _newFeeShare)",
+                  "function setFeeShareRecipient(address _newFeeShareRecipient)",
+                  "function supportsInterface(bytes4 interfaceId) view returns (bool)",
+                  "function tempFeeShareRecipient() view returns (address)"
+                ],
+                "constructorArgs": [
+                  "0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9",
+                  "0xf2107A85d8b79CBd2c5b2Bb63CA73Fd068040b67",
+                  "500000000000000000",
+                  "0x682f0d17feDC62b2a0B91f8992243Bf44cAfeaaE"
+                ],
+                "linkedLibraries": {},
+                "deployTxnHash": "0x96c665a4fadf59baa2b86727b690ccec23724b290c8bd9f19582bb262fb1ceae",
+                "deployTxnBlockNumber": "18862667",
+                "deployTimestamp": "1733493622",
+                "sourceName": "contracts/OwnedFeeCollector.sol",
+                "contractName": "OwnedFeeCollector",
+                "deployedOn": "contract.owned_fee_collector",
+                "gasUsed": 611037,
+                "gasCost": "1000722"
+              }
+            },
+            "extras": {
+              "fee_share": "400000000000000000",
+              "fee_share_recipient": "0x14E4f1DE5cA748Fb130711f41473f1d2bc80523a",
+              "fee_token": "0xb2F30A7C980f052f02563fb518dcc39e6bf38175",
+              "owner": "0xD3DFa13CDc7c133b1700c243f03A8C6Df513A93b"
+            }
+          }
+        }
+      },
+      "hash": null,
+      "version": 7
+    },
+    "invoke.setCyberDEXAsReferrerOnPerpsMarket": {
+      "artifacts": {
+        "contracts": {},
+        "txns": {
+          "setCyberDEXAsReferrerOnPerpsMarket": {
+            "hash": "0xd6231e39f17c20247bce7a601accdef8562695899c4dd28380d4e7c24718c9fb",
+            "blockNumber": "18862673",
+            "timestamp": "1733493634",
+            "events": {
+              "ReferrerShareUpdated": [
+                {
+                  "name": "ReferrerShareUpdated",
+                  "args": [
+                    "0x829d7E022c2ACD05a875bCa4Bd11F56E003B727B",
+                    "200000000000000000"
+                  ]
+                }
+              ]
+            },
+            "deployedOn": "invoke.setCyberDEXAsReferrerOnPerpsMarket",
+            "gasUsed": 56751,
+            "gasCost": "1000723",
+            "signer": "0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"
+          }
+        },
+        "settings": {}
+      },
+      "hash": "febd9c7529f44a5ac12e26a878daf53a",
+      "version": 7
+    },
+    "invoke.setMassDotMoneyAsReferrerOnPerpsMarket": {
+      "artifacts": {
+        "contracts": {},
+        "txns": {
+          "setMassDotMoneyAsReferrerOnPerpsMarket": {
+            "hash": "0x26795b91be3b65c4296aaf1fcbd492aebd810bf803eab50c16f5e3cfb90a2fa3",
+            "blockNumber": "18862679",
+            "timestamp": "1733493646",
+            "events": {
+              "ReferrerShareUpdated": [
+                {
+                  "name": "ReferrerShareUpdated",
+                  "args": [
+                    "0xf944069B489F1ebfF4C3C6a6014d58cBEf7C7009",
+                    "200000000000000000"
+                  ]
+                }
+              ]
+            },
+            "deployedOn": "invoke.setMassDotMoneyAsReferrerOnPerpsMarket",
+            "gasUsed": 56763,
+            "gasCost": "1000714",
+            "signer": "0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"
+          }
+        },
+        "settings": {}
+      },
+      "hash": "d4d7cca51f0ee860207d7d85b0297ba7",
+      "version": 7
+    },
+    "invoke.setSynthetixAsReferrerOnPerpsMarket": {
+      "artifacts": {
+        "contracts": {},
+        "txns": {
+          "setSynthetixAsReferrerOnPerpsMarket": {
+            "hash": "0x3b037ad405c468a971a055589c32c6d8976a262173fdcc758f038fe1acb0f6b8",
+            "blockNumber": "18862690",
+            "timestamp": "1733493668",
+            "events": {
+              "ReferrerShareUpdated": [
+                {
+                  "name": "ReferrerShareUpdated",
+                  "args": [
+                    "0xD25215758734dd3aDE497CE04De1c35820964126",
+                    "200000000000000000"
+                  ]
+                }
+              ]
+            },
+            "deployedOn": "invoke.setSynthetixAsReferrerOnPerpsMarket",
+            "gasUsed": 56763,
+            "gasCost": "1000700",
+            "signer": "0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"
+          }
+        },
+        "settings": {}
+      },
+      "hash": "f924a88e0d87668ed5b6ebf4f9a634e9",
+      "version": 7
     }
   },
-  "seq": 9,
+  "seq": 10,
   "track": "xpauzk7rwrn",
   "options": {},
   "status": "complete",
   "meta": {
     "gitUrl": "https://github.com/Synthetixio/synthetix-deployments",
-    "commitHash": "3ba6384ea41199f6661aca28fb8e9f51a8171b87",
-    "readme": "https://github.com/Synthetixio/synthetix-deployments/blob/3ba6384ea41199f6661aca28fb8e9f51a8171b87/README.md"
+    "commitHash": "00c786b52018e4235d90f0d03e16624d286d0e45",
+    "readme": "https://github.com/Synthetixio/synthetix-deployments/blob/00c786b52018e4235d90f0d03e16624d286d0e45/README.md"
   },
   "miscUrl": "ipfs://QmeSt2mnJKE8qmRhLyYbHQQxDKpsFbcWnw5e7JF4xVbN6k",
   "chainId": 84532
