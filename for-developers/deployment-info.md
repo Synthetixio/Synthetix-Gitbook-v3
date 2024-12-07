@@ -326,6 +326,16 @@
         ><br />salt: rewards
       </td>
     </tr>
+    <tr>
+      <td>owned_fee_collector</td>
+      <td><a href="https://usecannon.com/packages/owned-fee-collector/3.10.0/42161-main">owned-fee-collector:3.10.0@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmRdjgEaeLkSYmK8YpS4Ttd3T52rdnYb9EC6CZfyqq35TB">QmRdjgEaeLkSYmK8YpS4Ttd3T52rdnYb9EC6CZfyqq35TB</a></td>
+      <td>
+        fee_share: 0.4<br />fee_share_recipient: <a href="https://arbiscan.io/address/0x14E4f1DE5cA748Fb130711f41473f1d2bc80523a"><code>0x14E4f1DE5cA748Fb130711f41473f1d2bc80523a</code></a
+        ><br />fee_token: <a href="https://arbiscan.io/address/0xb2F30A7C980f052f02563fb518dcc39e6bf38175"><code>0xb2F30A7C980f052f02563fb518dcc39e6bf38175</code></a
+        ><br />owner: <a href="https://arbiscan.io/address/0xD3DFa13CDc7c133b1700c243f03A8C6Df513A93b"><code>0xD3DFa13CDc7c133b1700c243f03A8C6Df513A93b</code></a>
+      </td>
+    </tr>
   </tbody>
 </table>
 
@@ -567,6 +577,16 @@
         ><br />salt: rewards
       </td>
     </tr>
+    <tr>
+      <td>owned_fee_collector</td>
+      <td><a href="https://usecannon.com/packages/owned-fee-collector/3.10.0/421614-main">owned-fee-collector:3.10.0@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmVFHFkQu7wVtfLqFgfAsXBxbrXLBqwUUyz4srtqi4PgZD">QmVFHFkQu7wVtfLqFgfAsXBxbrXLBqwUUyz4srtqi4PgZD</a></td>
+      <td>
+        fee_share: 0.4<br />fee_share_recipient: <a href="https://sepolia.arbiscan.io/address/0x14E4f1DE5cA748Fb130711f41473f1d2bc80523a"><code>0x14E4f1DE5cA748Fb130711f41473f1d2bc80523a</code></a
+        ><br />fee_token: <a href="https://sepolia.arbiscan.io/address/0xb2F30A7C980f052f02563fb518dcc39e6bf38175"><code>0xb2F30A7C980f052f02563fb518dcc39e6bf38175</code></a
+        ><br />owner: <a href="https://sepolia.arbiscan.io/address/0xD3DFa13CDc7c133b1700c243f03A8C6Df513A93b"><code>0xD3DFa13CDc7c133b1700c243f03A8C6Df513A93b</code></a>
+      </td>
+    </tr>
   </tbody>
 </table>
 
@@ -700,6 +720,16 @@
         ><br />name: Rewards Distributor (External) V3<br />payoutToken: <a href="https://basescan.org/address/0x22e6966B799c4D5B13BE962E1D117b56327FDa66"><code>0x22e6966B799c4D5B13BE962E1D117b56327FDa66</code></a
         ><br />payoutTokenDecimals: 18<br />poolId: 1<br />rewardManager: <a href="https://basescan.org/address/0x32C222A9A159782aFD7529c87FA34b96CA72C696"><code>0x32C222A9A159782aFD7529c87FA34b96CA72C696</code></a
         ><br />salt: rewards
+      </td>
+    </tr>
+    <tr>
+      <td>owned_fee_collector</td>
+      <td><a href="https://usecannon.com/packages/owned-fee-collector/3.10.0/8453-andromeda">owned-fee-collector:3.10.0@andromeda</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/Qma33E3iMCVjWUqzbooJapsCxn8Jd6PWxqZK57XRxbDpEE">Qma33E3iMCVjWUqzbooJapsCxn8Jd6PWxqZK57XRxbDpEE</a></td>
+      <td>
+        fee_share: 0.4<br />fee_share_recipient: <a href="https://basescan.org/address/0x14E4f1DE5cA748Fb130711f41473f1d2bc80523a"><code>0x14E4f1DE5cA748Fb130711f41473f1d2bc80523a</code></a
+        ><br />fee_token: <a href="https://basescan.org/address/0xb2F30A7C980f052f02563fb518dcc39e6bf38175"><code>0xb2F30A7C980f052f02563fb518dcc39e6bf38175</code></a
+        ><br />owner: <a href="https://basescan.org/address/0xD3DFa13CDc7c133b1700c243f03A8C6Df513A93b"><code>0xD3DFa13CDc7c133b1700c243f03A8C6Df513A93b</code></a>
       </td>
     </tr>
   </tbody>
@@ -887,6 +917,16 @@
         ><br />name: Rewards Distributor (External) V3<br />payoutToken: <a href="https://sepolia.basescan.org/address/0x22e6966B799c4D5B13BE962E1D117b56327FDa66"><code>0x22e6966B799c4D5B13BE962E1D117b56327FDa66</code></a
         ><br />payoutTokenDecimals: 18<br />poolId: 1<br />rewardManager: <a href="https://sepolia.basescan.org/address/0x32C222A9A159782aFD7529c87FA34b96CA72C696"><code>0x32C222A9A159782aFD7529c87FA34b96CA72C696</code></a
         ><br />salt: rewards
+      </td>
+    </tr>
+    <tr>
+      <td>owned_fee_collector</td>
+      <td><a href="https://usecannon.com/packages/owned-fee-collector/3.10.0/84532-andromeda">owned-fee-collector:3.10.0@andromeda</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmNYTF2cDKrun6u28hJ8NLkA8PJdtsUVARaW9e58Qf3VNh">QmNYTF2cDKrun6u28hJ8NLkA8PJdtsUVARaW9e58Qf3VNh</a></td>
+      <td>
+        fee_share: 0.4<br />fee_share_recipient: <a href="https://sepolia.basescan.org/address/0x14E4f1DE5cA748Fb130711f41473f1d2bc80523a"><code>0x14E4f1DE5cA748Fb130711f41473f1d2bc80523a</code></a
+        ><br />fee_token: <a href="https://sepolia.basescan.org/address/0xb2F30A7C980f052f02563fb518dcc39e6bf38175"><code>0xb2F30A7C980f052f02563fb518dcc39e6bf38175</code></a
+        ><br />owner: <a href="https://sepolia.basescan.org/address/0xD3DFa13CDc7c133b1700c243f03A8C6Df513A93b"><code>0xD3DFa13CDc7c133b1700c243f03A8C6Df513A93b</code></a>
       </td>
     </tr>
   </tbody>
