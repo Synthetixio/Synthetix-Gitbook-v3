@@ -765,9 +765,12 @@
     </tr>
     <tr>
       <td>snx_mock_collateral</td>
-      <td><a href="https://usecannon.com/packages/mintable-token/1.8/84532-andromeda">mintable-token:1.8@andromeda</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmRn3QsqJ44qKocb1gq9vcCUiPzo1gG2BvMHqhjBj5E7nx">QmRn3QsqJ44qKocb1gq9vcCUiPzo1gG2BvMHqhjBj5E7nx</a></td>
-      <td>decimals: 18<br />name: Token<br />salt: andromeda-dev-2<br />symbol: TKN</td>
+      <td><a href="https://usecannon.com/packages/synthetix-mock-tokens/1.8/84532-andromeda">synthetix-mock-tokens:1.8@andromeda</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmW5aRDx5TX6e84ACTkqQ8zitoeDngcVQjuafdHyMR4mev">QmW5aRDx5TX6e84ACTkqQ8zitoeDngcVQjuafdHyMR4mev</a></td>
+      <td>
+        decimals: 18<br />initialSupply: 0<br />name: Token<br />owner: <a href="https://sepolia.basescan.org/address/0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"><code>0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9</code></a
+        ><br />salt: andromeda-dev-2<br />symbol: TKN
+      </td>
     </tr>
     <tr>
       <td>system</td>
@@ -927,6 +930,16 @@
         fee_share: 0.4<br />fee_share_recipient: <a href="https://sepolia.basescan.org/address/0x14E4f1DE5cA748Fb130711f41473f1d2bc80523a"><code>0x14E4f1DE5cA748Fb130711f41473f1d2bc80523a</code></a
         ><br />fee_token: <a href="https://sepolia.basescan.org/address/0xb2F30A7C980f052f02563fb518dcc39e6bf38175"><code>0xb2F30A7C980f052f02563fb518dcc39e6bf38175</code></a
         ><br />owner: <a href="https://sepolia.basescan.org/address/0xD3DFa13CDc7c133b1700c243f03A8C6Df513A93b"><code>0xD3DFa13CDc7c133b1700c243f03A8C6Df513A93b</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>RewardsDistributor_snx_rewards_for_sc_pool</td>
+      <td><a href="https://usecannon.com/packages/synthetix-rewards-distributor/3.9.1/84532-andromeda">synthetix-rewards-distributor:3.9.1@andromeda</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmbeUwcCnNjJN5JpYFbf7nd1x3RQqxoZCCjqK1Kxtzm7kg">QmbeUwcCnNjJN5JpYFbf7nd1x3RQqxoZCCjqK1Kxtzm7kg</a></td>
+      <td>
+        name: Rewards Distributor V3<br />payoutToken: <a href="https://sepolia.basescan.org/address/0x22e6966B799c4D5B13BE962E1D117b56327FDa66"><code>0x22e6966B799c4D5B13BE962E1D117b56327FDa66</code></a
+        ><br />payoutTokenDecimals: 18<br />poolId: 1<br />rewardManager: <a href="https://sepolia.basescan.org/address/0x32C222A9A159782aFD7529c87FA34b96CA72C696"><code>0x32C222A9A159782aFD7529c87FA34b96CA72C696</code></a
+        ><br />salt: rewards
       </td>
     </tr>
   </tbody>
