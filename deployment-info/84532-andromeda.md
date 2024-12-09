@@ -119,15 +119,15 @@
       </td>
     </tr>
     <tr>
-      <td>MintableToken_fwSNX</td>
+      <td>MintableToken_SNX</td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0x8F4b425597A70001E255d067626e4860E2543f22"><code>0x8F4b425597A70001E255d067626e4860E2543f22</code></a>
+        <a href="https://sepolia.basescan.org/address/0x5cA6E1AfdDffc3979bC1Ae88BC99d414D8C60EDC"><code>0x5cA6E1AfdDffc3979bC1Ae88BC99d414D8C60EDC</code></a>
       </td>
       <td>
-        <a href="./84532-andromeda/MintableToken_fwSNX.json"><code>MintableToken_fwSNX.json</code></a>
+        <a href="./84532-andromeda/MintableToken_SNX.json"><code>MintableToken_SNX.json</code></a>
       </td>
       <td>
-        <a href="./84532-andromeda/MintableToken_fwSNX.readable.json"><code>MintableToken_fwSNX.readable.json</code></a>
+        <a href="./84532-andromeda/MintableToken_SNX.readable.json"><code>MintableToken_SNX.readable.json</code></a>
       </td>
     </tr>
     <tr>
@@ -464,6 +464,18 @@
       </td>
       <td>
         <a href="./84532-andromeda/RewardsDistributor_1_swstETH.readable.json"><code>RewardsDistributor_1_swstETH.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>RewardsDistributor_1_SNX</td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0x961f69e073350D4ff7d24ce31127A79FA1B5416F"><code>0x961f69e073350D4ff7d24ce31127A79FA1B5416F</code></a>
+      </td>
+      <td>
+        <a href="./84532-andromeda/RewardsDistributor_1_SNX.json"><code>RewardsDistributor_1_SNX.json</code></a>
+      </td>
+      <td>
+        <a href="./84532-andromeda/RewardsDistributor_1_SNX.readable.json"><code>RewardsDistributor_1_SNX.readable.json</code></a>
       </td>
     </tr>
     <tr>
@@ -21250,6 +21262,68 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
   </tbody>
 </table>
 
+# Rewards Distributor: SNX Pool Rewards
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Parameter name</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>name</td>
+      <td></td>
+      <td><code>"synthetix-omnibus"</code></td>
+    </tr>
+    <tr>
+      <td>address</td>
+      <td></td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0x961f69e073350D4ff7d24ce31127A79FA1B5416F"><code>0x961f69e073350D4ff7d24ce31127A79FA1B5416F</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>deployTxn</td>
+      <td></td>
+      <td>
+        <a href="https://sepolia.basescan.org/tx/undefined"><code>undefined</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>registered</td>
+      <td>✅ Registered</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>poolId</td>
+      <td>1</td>
+      <td><code>1</code> / <code>0x01</code></td>
+    </tr>
+    <tr>
+      <td>collateralType</td>
+      <td>n/a</td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>payoutToken</td>
+      <td>SNX <code>18</code> / <code>0x12</code></td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0x5cA6E1AfdDffc3979bC1Ae88BC99d414D8C60EDC"><code>0x5cA6E1AfdDffc3979bC1Ae88BC99d414D8C60EDC</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>rewardManager</td>
+      <td></td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0x764F4C95FDA0D6f8114faC54f6709b1B45f919a1"><code>0x764F4C95FDA0D6f8114faC54f6709b1B45f919a1</code></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 # Owners
 
 <table data-full-width="true">
@@ -21321,8 +21395,10 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>n/a</td>
     </tr>
     <tr>
-      <td>MintableToken_fwSNX</td>
-      <td>n/a</td>
+      <td>MintableToken_SNX</td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"><code>0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9</code></a>
+      </td>
       <td>n/a</td>
     </tr>
     <tr>
@@ -21502,6 +21578,11 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>RewardsDistributor_1_swstETH</td>
+      <td>n/a</td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>RewardsDistributor_1_SNX</td>
       <td>n/a</td>
       <td>n/a</td>
     </tr>
