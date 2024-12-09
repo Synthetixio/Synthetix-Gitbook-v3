@@ -1,6 +1,6 @@
 {
   "generator": "cannon cli 2.20.1",
-  "timestamp": 1733493676,
+  "timestamp": 1733731908,
   "def": {
     "setting": {
       "snx_package": {
@@ -22,12 +22,6 @@
         "defaultValue": "synthetix-spot-market:3.8.1"
       },
       "deployer": {
-        "defaultValue": "0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"
-      },
-      "sc_pool_id": {
-        "defaultValue": "1"
-      },
-      "pool_owner": {
         "defaultValue": "0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"
       },
       "synthUsdcMaxMarketCollateral": {
@@ -84,6 +78,9 @@
       "account_timeout_withdraw": {
         "defaultValue": "86400"
       },
+      "spartan_council_pool_id_setting": {
+        "defaultValue": "1"
+      },
       "commitment_price_delay": {
         "defaultValue": "2"
       },
@@ -110,6 +107,9 @@
       },
       "price_deviation_tolerance": {
         "defaultValue": "<%= parseEther('1') %>"
+      },
+      "pool_owner": {
+        "defaultValue": "0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"
       },
       "stataBasUSDC_address": {
         "defaultValue": "<%= imports.erc_4626_to_assets_ratio_oracle.imports.statausdc_token_mock.contracts.Token.address %>",
@@ -172,27 +172,16 @@
           "decimals": "6"
         }
       },
-      "snx_mock_collateral": {
-        "source": "mintable-token:1.8@permissionless-mint",
-        "target": "synthetix-mock-tokens@snx",
+      "RewardsDistributor_snx_rewards_for_sc_pool": {
+        "source": "synthetix-rewards-distributor:3.9.1",
+        "target": "synthetix-rewards-distributor:3.9.1@pool-snx",
         "options": {
-          "salt": "<%= settings.salt %>",
-          "name": "Fake Wrapped SNX",
-          "symbol": "fwSNX",
-          "owner": "<%= settings.owner %>"
-        }
-      },
-      "spartan_council_pool_rewards": {
-        "source": "synthetix-rewards-distributor:0.0.2",
-        "targetPreset": "<%= settings.target_preset %>",
-        "options": {
-          "salt": "<%= settings.salt %>",
+          "salt": "<%= settings.salt %>-pool-snx",
           "rewardManager": "<%= imports.system.contracts.CoreProxy.address %>",
-          "poolId": "<%= settings.sc_pool_id %>",
-          "collateralType": "<%= extras.synth_usdc_token_address %>",
-          "payoutToken": "<%= imports.snx_mock_collateral.contracts.MintableToken.address %>",
+          "poolId": "<%= settings.spartan_council_pool_id_setting %>",
+          "payoutToken": "<%= settings.snx_address %>",
           "payoutTokenDecimals": "18",
-          "name": "Spartan Council Pool Rewards"
+          "name": "SNX Pool Rewards"
         }
       },
       "sccp_313_spartan_council_pool_usdc_rewards": {
@@ -201,7 +190,7 @@
         "options": {
           "salt": "<%= settings.salt %>",
           "rewardManager": "<%= imports.system.contracts.CoreProxy.address %>",
-          "poolId": "<%= settings.sc_pool_id %>",
+          "poolId": "<%= settings.spartan_council_pool_id_setting %>",
           "collateralType": "<%= extras.synth_usdc_token_address %>",
           "payoutToken": "<%= imports.usdc_mock_collateral.contracts.MintableToken.address %>",
           "payoutTokenDecimals": "6",
@@ -214,7 +203,7 @@
         "options": {
           "salt": "<%= settings.salt %>-perps-scbbtc",
           "rewardManager": "<%= imports.system.contracts.CoreProxy.address %>",
-          "poolId": "<%= settings.sc_pool_id %>",
+          "poolId": "<%= settings.spartan_council_pool_id_setting %>",
           "payoutToken": "<%= extras.synth_cbbtc_token_address %>",
           "payoutTokenDecimals": "18",
           "name": "Perps Coinbase Wrapped Bitcoin Liquidation Rewards",
@@ -227,7 +216,7 @@
         "options": {
           "salt": "<%= settings.salt %>-perps-scbeth",
           "rewardManager": "<%= imports.system.contracts.CoreProxy.address %>",
-          "poolId": "<%= settings.sc_pool_id %>",
+          "poolId": "<%= settings.spartan_council_pool_id_setting %>",
           "payoutToken": "<%= extras.synth_cbeth_token_address %>",
           "payoutTokenDecimals": "18",
           "name": "Perps Coinbase Wrapped Staked ETH Liquidation Rewards",
@@ -240,7 +229,7 @@
         "options": {
           "salt": "<%= settings.salt %>-perps-swsteth",
           "rewardManager": "<%= imports.system.contracts.CoreProxy.address %>",
-          "poolId": "<%= settings.sc_pool_id %>",
+          "poolId": "<%= settings.spartan_council_pool_id_setting %>",
           "payoutToken": "<%= extras.synth_wsteth_token_address %>",
           "payoutTokenDecimals": "18",
           "name": "Perps Lido Wrapped Staked ETH Liquidation Rewards",
@@ -253,7 +242,7 @@
         "options": {
           "salt": "<%= settings.salt %>-perps-sweth",
           "rewardManager": "<%= imports.system.contracts.CoreProxy.address %>",
-          "poolId": "<%= settings.sc_pool_id %>",
+          "poolId": "<%= settings.spartan_council_pool_id_setting %>",
           "payoutToken": "<%= extras.synth_weth_token_address %>",
           "payoutTokenDecimals": "18",
           "name": "Perps Lido Wrapped ETH Liquidation Rewards",
@@ -346,6 +335,16 @@
           "owner": "<%= settings.owner %>",
           "decimals": "18"
         }
+      },
+      "snx_mock_collateral": {
+        "source": "mintable-token:1.8",
+        "target": "synthetix-mock-tokens:1.8@snx",
+        "options": {
+          "name": "Fake SNX",
+          "symbol": "SNX",
+          "owner": "<%= settings.owner %>",
+          "decimals": "18"
+        }
       }
     },
     "invoke": {
@@ -430,7 +429,7 @@
         ],
         "func": "createPool",
         "args": [
-          "<%= settings.sc_pool_id %>",
+          "<%= settings.spartan_council_pool_id_setting %>",
           "<%= settings.pool_owner %>"
         ],
         "depends": [
@@ -444,12 +443,12 @@
         "fromCall": {
           "func": "getPoolOwner",
           "args": [
-            "<%= settings.sc_pool_id %>"
+            "<%= settings.spartan_council_pool_id_setting %>"
           ]
         },
         "func": "setPoolName",
         "args": [
-          "<%= settings.sc_pool_id %>",
+          "<%= settings.spartan_council_pool_id_setting %>",
           "Spartan Council Pool"
         ],
         "depends": [
@@ -465,7 +464,7 @@
         },
         "func": "setPreferredPool",
         "args": [
-          "<%= settings.sc_pool_id %>"
+          "<%= settings.spartan_council_pool_id_setting %>"
         ],
         "depends": [
           "invoke.createScPool"
@@ -498,12 +497,12 @@
         "fromCall": {
           "func": "getPoolOwner",
           "args": [
-            "<%= settings.sc_pool_id %>"
+            "<%= settings.spartan_council_pool_id_setting %>"
           ]
         },
         "func": "setPoolCollateralConfiguration",
         "args": [
-          "<%= settings.sc_pool_id %>",
+          "<%= settings.spartan_council_pool_id_setting %>",
           "<%= settings.cbbtc_address %>",
           {
             "collateralLimitD18": "<%= settings.cbbtc_max_collateral_limit %>",
@@ -538,12 +537,12 @@
         "fromCall": {
           "func": "getPoolOwner",
           "args": [
-            "<%= settings.sc_pool_id %>"
+            "<%= settings.spartan_council_pool_id_setting %>"
           ]
         },
         "func": "setPoolCollateralConfiguration",
         "args": [
-          "<%= settings.sc_pool_id %>",
+          "<%= settings.spartan_council_pool_id_setting %>",
           "<%= settings.cbeth_address %>",
           {
             "collateralLimitD18": "<%= settings.cbeth_max_collateral_limit %>",
@@ -578,12 +577,12 @@
         "fromCall": {
           "func": "getPoolOwner",
           "args": [
-            "<%= settings.sc_pool_id %>"
+            "<%= settings.spartan_council_pool_id_setting %>"
           ]
         },
         "func": "setPoolCollateralConfiguration",
         "args": [
-          "<%= settings.sc_pool_id %>",
+          "<%= settings.spartan_council_pool_id_setting %>",
           "<%= settings.wsteth_address %>",
           {
             "collateralLimitD18": "<%= settings.wsteth_max_collateral_limit %>",
@@ -618,12 +617,12 @@
         "fromCall": {
           "func": "getPoolOwner",
           "args": [
-            "<%= settings.sc_pool_id %>"
+            "<%= settings.spartan_council_pool_id_setting %>"
           ]
         },
         "func": "setPoolCollateralConfiguration",
         "args": [
-          "<%= settings.sc_pool_id %>",
+          "<%= settings.spartan_council_pool_id_setting %>",
           "<%= settings.weth_address %>",
           {
             "collateralLimitD18": "<%= settings.weth_max_collateral_limit %>",
@@ -1679,21 +1678,21 @@
           "<%= parseEther('10') %>"
         ]
       },
-      "register_spartan_council_pool_rewards": {
+      "CoreProxy_registerRewardsDistributor_snx_rewards_for_sc_pool": {
         "target": [
           "system.CoreProxy"
         ],
         "fromCall": {
           "func": "getPoolOwner",
           "args": [
-            "<%= settings.sc_pool_id %>"
+            "<%= settings.spartan_council_pool_id_setting %>"
           ]
         },
         "func": "registerRewardsDistributor",
         "args": [
-          "<%= settings.sc_pool_id %>",
-          "<%= extras.synth_usdc_token_address %>",
-          "<%= imports.spartan_council_pool_rewards.contracts.RewardsDistributor.address %>"
+          "<%= settings.spartan_council_pool_id_setting %>",
+          "<%= AddressZero %>",
+          "<%= imports.RewardsDistributor_snx_rewards_for_sc_pool.contracts.RewardsDistributor.address %>"
         ]
       },
       "sccp_313_register_spartan_council_pool_usdc_rewards": {
@@ -1703,12 +1702,12 @@
         "fromCall": {
           "func": "getPoolOwner",
           "args": [
-            "<%= settings.sc_pool_id %>"
+            "<%= settings.spartan_council_pool_id_setting %>"
           ]
         },
         "func": "registerRewardsDistributor",
         "args": [
-          "<%= settings.sc_pool_id %>",
+          "<%= settings.spartan_council_pool_id_setting %>",
           "<%= extras.synth_usdc_token_address %>",
           "<%= imports.sccp_313_spartan_council_pool_usdc_rewards.contracts.RewardsDistributor.address %>"
         ]
@@ -1738,12 +1737,12 @@
         "fromCall": {
           "func": "getPoolOwner",
           "args": [
-            "<%= settings.sc_pool_id %>"
+            "<%= settings.spartan_council_pool_id_setting %>"
           ]
         },
         "func": "registerRewardsDistributor",
         "args": [
-          "<%= settings.sc_pool_id %>",
+          "<%= settings.spartan_council_pool_id_setting %>",
           "<%= extras.synth_usdc_token_address %>",
           "<%= imports.RewardsDistributor_scbbtc_liquidation_rewards.contracts.RewardsDistributorExternal.address %>"
         ]
@@ -1755,12 +1754,12 @@
         "fromCall": {
           "func": "getPoolOwner",
           "args": [
-            "<%= settings.sc_pool_id %>"
+            "<%= settings.spartan_council_pool_id_setting %>"
           ]
         },
         "func": "registerRewardsDistributor",
         "args": [
-          "<%= settings.sc_pool_id %>",
+          "<%= settings.spartan_council_pool_id_setting %>",
           "<%= settings.synth_stata_usdc_token_address %>",
           "<%= imports.RewardsDistributor_scbbtc_liquidation_rewards.contracts.RewardsDistributorExternal.address %>"
         ]
@@ -1790,12 +1789,12 @@
         "fromCall": {
           "func": "getPoolOwner",
           "args": [
-            "<%= settings.sc_pool_id %>"
+            "<%= settings.spartan_council_pool_id_setting %>"
           ]
         },
         "func": "registerRewardsDistributor",
         "args": [
-          "<%= settings.sc_pool_id %>",
+          "<%= settings.spartan_council_pool_id_setting %>",
           "<%= extras.synth_usdc_token_address %>",
           "<%= imports.RewardsDistributor_scbeth_liquidation_rewards.contracts.RewardsDistributorExternal.address %>"
         ]
@@ -1807,12 +1806,12 @@
         "fromCall": {
           "func": "getPoolOwner",
           "args": [
-            "<%= settings.sc_pool_id %>"
+            "<%= settings.spartan_council_pool_id_setting %>"
           ]
         },
         "func": "registerRewardsDistributor",
         "args": [
-          "<%= settings.sc_pool_id %>",
+          "<%= settings.spartan_council_pool_id_setting %>",
           "<%= settings.synth_stata_usdc_token_address %>",
           "<%= imports.RewardsDistributor_scbeth_liquidation_rewards.contracts.RewardsDistributorExternal.address %>"
         ]
@@ -1842,12 +1841,12 @@
         "fromCall": {
           "func": "getPoolOwner",
           "args": [
-            "<%= settings.sc_pool_id %>"
+            "<%= settings.spartan_council_pool_id_setting %>"
           ]
         },
         "func": "registerRewardsDistributor",
         "args": [
-          "<%= settings.sc_pool_id %>",
+          "<%= settings.spartan_council_pool_id_setting %>",
           "<%= extras.synth_usdc_token_address %>",
           "<%= imports.RewardsDistributor_swsteth_liquidation_rewards.contracts.RewardsDistributorExternal.address %>"
         ]
@@ -1859,12 +1858,12 @@
         "fromCall": {
           "func": "getPoolOwner",
           "args": [
-            "<%= settings.sc_pool_id %>"
+            "<%= settings.spartan_council_pool_id_setting %>"
           ]
         },
         "func": "registerRewardsDistributor",
         "args": [
-          "<%= settings.sc_pool_id %>",
+          "<%= settings.spartan_council_pool_id_setting %>",
           "<%= settings.synth_stata_usdc_token_address %>",
           "<%= imports.RewardsDistributor_swsteth_liquidation_rewards.contracts.RewardsDistributorExternal.address %>"
         ]
@@ -1894,12 +1893,12 @@
         "fromCall": {
           "func": "getPoolOwner",
           "args": [
-            "<%= settings.sc_pool_id %>"
+            "<%= settings.spartan_council_pool_id_setting %>"
           ]
         },
         "func": "registerRewardsDistributor",
         "args": [
-          "<%= settings.sc_pool_id %>",
+          "<%= settings.spartan_council_pool_id_setting %>",
           "<%= extras.synth_usdc_token_address %>",
           "<%= imports.RewardsDistributor_sweth_liquidation_rewards.contracts.RewardsDistributorExternal.address %>"
         ]
@@ -1911,12 +1910,12 @@
         "fromCall": {
           "func": "getPoolOwner",
           "args": [
-            "<%= settings.sc_pool_id %>"
+            "<%= settings.spartan_council_pool_id_setting %>"
           ]
         },
         "func": "registerRewardsDistributor",
         "args": [
-          "<%= settings.sc_pool_id %>",
+          "<%= settings.spartan_council_pool_id_setting %>",
           "<%= settings.synth_stata_usdc_token_address %>",
           "<%= imports.RewardsDistributor_sweth_liquidation_rewards.contracts.RewardsDistributorExternal.address %>"
         ]
@@ -26100,8 +26099,9 @@
       "token_addresses": {
         "cbbtc_address": "<%= imports.cbbtc_mock_collateral.contracts.MintableToken.address %>",
         "cbeth_address": "<%= imports.cbeth_mock_collateral.contracts.MintableToken.address %>",
-        "wsteth_address": "<%= imports.wsteth_mock_collateral.contracts.MintableToken.address %>",
-        "weth_address": "0x4200000000000000000000000000000000000006"
+        "snx_address": "<%= imports.snx_mock_collateral.contracts.MintableToken.address %>",
+        "weth_address": "0x4200000000000000000000000000000000000006",
+        "wsteth_address": "<%= imports.wsteth_mock_collateral.contracts.MintableToken.address %>"
       },
       "pyth_feeds": {
         "description": "https://pyth.network/developers/price-feed-ids#pyth-evm-mainnet",
@@ -26320,22 +26320,25 @@
       "artifacts": {
         "imports": {
           "snx_mock_collateral": {
-            "url": "ipfs://QmRn3QsqJ44qKocb1gq9vcCUiPzo1gG2BvMHqhjBj5E7nx",
+            "url": "ipfs://QmW5aRDx5TX6e84ACTkqQ8zitoeDngcVQjuafdHyMR4mev",
             "tags": [
               "latest"
             ],
-            "preset": "with-synthetix-omnibus",
+            "target": "synthetix-mock-tokens:1.8@snx",
+            "preset": "snx",
             "settings": {
               "decimals": "18",
+              "initialSupply": "0",
               "name": "Token",
+              "owner": "0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9",
               "salt": "andromeda-dev-2",
               "symbol": "TKN"
             },
             "contracts": {
               "MintableToken": {
-                "address": "0x8F4b425597A70001E255d067626e4860E2543f22",
+                "address": "0x5cA6E1AfdDffc3979bC1Ae88BC99d414D8C60EDC",
                 "abi": [
-                  "constructor(string name, string symbol, uint8 tokenDecimals) payable",
+                  "constructor(address owner, string name, string symbol, uint8 tokenDecimals, uint256 initialSupply) payable",
                   "function allowance(address owner, address spender) view returns (uint256)",
                   "function approve(address spender, uint256 amount) returns (bool)",
                   "function balanceOf(address account) view returns (uint256)",
@@ -26344,31 +26347,41 @@
                   "function increaseAllowance(address spender, uint256 addedValue) returns (bool)",
                   "function mint(uint256 amount, address to)",
                   "function name() view returns (string)",
+                  "function owner() view returns (address)",
+                  "function renounceOwnership()",
                   "function symbol() view returns (string)",
                   "function totalSupply() view returns (uint256)",
                   "function transfer(address to, uint256 amount) returns (bool)",
                   "function transferFrom(address from, address to, uint256 amount) returns (bool)",
+                  "function transferOwnership(address newOwner)",
                   "event Approval(address indexed owner, address indexed spender, uint256 value)",
+                  "event OwnershipTransferred(address indexed previousOwner, address indexed newOwner)",
                   "event Transfer(address indexed from, address indexed to, uint256 value)"
                 ],
                 "constructorArgs": [
-                  "Fake Wrapped SNX",
-                  "fwSNX",
-                  "18"
+                  "0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9",
+                  "Fake SNX",
+                  "SNX",
+                  "18",
+                  "0"
                 ],
                 "linkedLibraries": {},
-                "deployTxnHash": "0x3f7422e34e9d30a6a8b2503794110dc1af816dd46f74dc13f7f1e9d330d9cfd4",
-                "sourceName": "src/MintableTokenPermissionlessMint.sol",
-                "contractName": "MintableTokenPermissionlessMint",
+                "deployTxnHash": "0xe9563e875c2c988e3b95f0074799dd8078806d9b875951692d5efb903c8d5923",
+                "deployTxnBlockNumber": "18981770",
+                "deployTimestamp": "1733731828",
+                "sourceName": "src/MintableToken.sol",
+                "contractName": "MintableToken",
                 "deployedOn": "contract.MintableToken",
                 "highlight": true,
-                "gasUsed": 639992,
-                "gasCost": "1000290"
+                "gasUsed": 774761,
+                "gasCost": "1000283"
               }
             },
             "extras": {
               "decimals": "18",
+              "initialSupply": "0",
               "name": "Token",
+              "owner": "0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9",
               "salt": "andromeda-dev-2",
               "symbol": "TKN"
             }
@@ -89293,11 +89306,12 @@
         "settings": {
           "cbbtc_address": "0x8608d511E224180051A36d34121725D978064e6E",
           "cbeth_address": "0x00ab6b818652bB3bFE334983171edFD38184DbeD",
-          "wsteth_address": "0x7Bf65af7EFBd0E933fb87dD2C9cE7A17d959b822",
-          "weth_address": "0x4200000000000000000000000000000000000006"
+          "snx_address": "0x5cA6E1AfdDffc3979bC1Ae88BC99d414D8C60EDC",
+          "weth_address": "0x4200000000000000000000000000000000000006",
+          "wsteth_address": "0x7Bf65af7EFBd0E933fb87dD2C9cE7A17d959b822"
         }
       },
-      "hash": "b241ff73c7bdfd7afb4de7bb867343af",
+      "hash": "0db69e0517ffe244953445e0e59edc7b",
       "version": 7
     },
     "invoke.CoreProxy_setPoolCollateralConfiguration_cbbtc": {
@@ -97294,16 +97308,133 @@
       },
       "hash": "f924a88e0d87668ed5b6ebf4f9a634e9",
       "version": 7
+    },
+    "setting.spartan_council_pool_id_setting": {
+      "artifacts": {
+        "settings": {
+          "spartan_council_pool_id_setting": "1"
+        }
+      },
+      "hash": "5f6fb867a611e73895d85f93fc6f7baa",
+      "version": 7
+    },
+    "provision.RewardsDistributor_snx_rewards_for_sc_pool": {
+      "artifacts": {
+        "imports": {
+          "RewardsDistributor_snx_rewards_for_sc_pool": {
+            "url": "ipfs://QmbeUwcCnNjJN5JpYFbf7nd1x3RQqxoZCCjqK1Kxtzm7kg",
+            "tags": [
+              "latest"
+            ],
+            "target": "synthetix-rewards-distributor:3.9.1@pool-snx",
+            "preset": "pool-snx",
+            "settings": {
+              "name": "Rewards Distributor V3",
+              "payoutToken": "0x22e6966B799c4D5B13BE962E1D117b56327FDa66",
+              "payoutTokenDecimals": "18",
+              "poolId": "1",
+              "rewardManager": "0x32C222A9A159782aFD7529c87FA34b96CA72C696",
+              "salt": "rewards"
+            },
+            "contracts": {
+              "RewardsDistributor": {
+                "address": "0x961f69e073350D4ff7d24ce31127A79FA1B5416F",
+                "abi": [
+                  "constructor(address rewardManager_, uint128 poolId_, address payoutToken_, uint8 payoutTokenDecimals_, string name_)",
+                  "function SYSTEM_PRECISION() view returns (uint256)",
+                  "function distributeRewards(uint128 poolId_, address collateralType_, uint256 amount_, uint64 start_, uint32 duration_)",
+                  "function name() view returns (string)",
+                  "function onPositionUpdated(uint128, uint128, address, uint256)",
+                  "function payout(uint128, uint128 poolId_, address, address payoutTarget_, uint256 payoutAmount_) returns (bool)",
+                  "function payoutToken() view returns (address)",
+                  "function poolId() view returns (uint128)",
+                  "function precision() view returns (uint256)",
+                  "function rewardManager() view returns (address)",
+                  "function rewardedAmount() view returns (uint256)",
+                  "function setShouldFailPayout(bool shouldFailPayout_)",
+                  "function shouldFailPayout() view returns (bool)",
+                  "function supportsInterface(bytes4 interfaceId) view returns (bool)",
+                  "function token() view returns (address)",
+                  "error FailedTransfer(address from, address to, uint256 value)",
+                  "error InvalidParameter(string parameter, string reason)",
+                  "error NotEnoughBalance(uint256 amountRequested, uint256 currentBalance)",
+                  "error NotEnoughRewardsLeft(uint256 amountRequested, uint256 amountLeft)",
+                  "error OverflowInt256ToUint256()",
+                  "error OverflowUint256ToInt256()",
+                  "error Unauthorized(address addr)"
+                ],
+                "constructorArgs": [
+                  "0x764F4C95FDA0D6f8114faC54f6709b1B45f919a1",
+                  "1",
+                  "0x5cA6E1AfdDffc3979bC1Ae88BC99d414D8C60EDC",
+                  "18",
+                  "SNX Pool Rewards"
+                ],
+                "linkedLibraries": {},
+                "deployTxnHash": "0xb828fedc92c944de72cc85514a424678db256d315623dafb3a298e251987daf2",
+                "deployTxnBlockNumber": "18981779",
+                "deployTimestamp": "1733731846",
+                "sourceName": "src/RewardsDistributor.sol",
+                "contractName": "RewardsDistributor",
+                "deployedOn": "contract.RewardsDistributor",
+                "gasUsed": 921412,
+                "gasCost": "1000283"
+              }
+            },
+            "extras": {
+              "name": "Rewards Distributor V3",
+              "payoutToken": "0x22e6966B799c4D5B13BE962E1D117b56327FDa66",
+              "payoutTokenDecimals": "18",
+              "poolId": "1",
+              "rewardManager": "0x32C222A9A159782aFD7529c87FA34b96CA72C696",
+              "salt": "rewards"
+            }
+          }
+        }
+      },
+      "hash": null,
+      "version": 7
+    },
+    "invoke.CoreProxy_registerRewardsDistributor_snx_rewards_for_sc_pool": {
+      "artifacts": {
+        "contracts": {},
+        "txns": {
+          "CoreProxy_registerRewardsDistributor_snx_rewards_for_sc_pool": {
+            "hash": "0xba4752e182c93807e3f7fce6f7861f8aaae24459e6a73e189b84ae96ef19f14f",
+            "blockNumber": "18981784",
+            "timestamp": "1733731856",
+            "events": {
+              "RewardsDistributorRegistered": [
+                {
+                  "name": "RewardsDistributorRegistered",
+                  "args": [
+                    "1",
+                    "0x0000000000000000000000000000000000000000",
+                    "0x961f69e073350D4ff7d24ce31127A79FA1B5416F"
+                  ]
+                }
+              ]
+            },
+            "deployedOn": "invoke.CoreProxy_registerRewardsDistributor_snx_rewards_for_sc_pool",
+            "gasUsed": 128755,
+            "gasCost": "1000284",
+            "signer": "0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"
+          }
+        },
+        "settings": {}
+      },
+      "hash": "451f174afcd1a2535ac23210f160a4ac",
+      "version": 7
     }
   },
-  "seq": 10,
+  "seq": 11,
   "track": "xpauzk7rwrn",
   "options": {},
   "status": "complete",
   "meta": {
-    "gitUrl": "https://github.com/Synthetixio/synthetix-deployments",
-    "commitHash": "00c786b52018e4235d90f0d03e16624d286d0e45",
-    "readme": "https://github.com/Synthetixio/synthetix-deployments/blob/00c786b52018e4235d90f0d03e16624d286d0e45/README.md"
+    "gitUrl": "https://nk/Synthetixio/synthetix-deployments",
+    "commitHash": "43db33446f9e47ece59b05da89f71c439dfafcba",
+    "readme": "https://nk/Synthetixio/synthetix-deployments/blob/43db33446f9e47ece59b05da89f71c439dfafcba/README.md"
   },
   "miscUrl": "ipfs://QmeSt2mnJKE8qmRhLyYbHQQxDKpsFbcWnw5e7JF4xVbN6k",
   "chainId": 84532
