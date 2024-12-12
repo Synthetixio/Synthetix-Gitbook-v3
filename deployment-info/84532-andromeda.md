@@ -109,7 +109,7 @@
     <tr>
       <td>PythERC7412Wrapper</td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
       <td>
         <a href="./84532-andromeda/PythERC7412Wrapper.json"><code>PythERC7412Wrapper.json</code></a>
@@ -407,15 +407,15 @@
       </td>
     </tr>
     <tr>
-      <td>RewardsDistributor_1_sUSDC_fwSNX</td>
+      <td>RewardsDistributor_1_sUSDC_SNX</td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0x477010BEe49e5c88989138A4f0D7176E5741eb84"><code>0x477010BEe49e5c88989138A4f0D7176E5741eb84</code></a>
+        <a href="https://sepolia.basescan.org/address/0x49ECf205E6F7990e376FC64442d7d7faDe3d70f3"><code>0x49ECf205E6F7990e376FC64442d7d7faDe3d70f3</code></a>
       </td>
       <td>
-        <a href="./84532-andromeda/RewardsDistributor_1_sUSDC_fwSNX.json"><code>RewardsDistributor_1_sUSDC_fwSNX.json</code></a>
+        <a href="./84532-andromeda/RewardsDistributor_1_sUSDC_SNX.json"><code>RewardsDistributor_1_sUSDC_SNX.json</code></a>
       </td>
       <td>
-        <a href="./84532-andromeda/RewardsDistributor_1_sUSDC_fwSNX.readable.json"><code>RewardsDistributor_1_sUSDC_fwSNX.readable.json</code></a>
+        <a href="./84532-andromeda/RewardsDistributor_1_sUSDC_SNX.readable.json"><code>RewardsDistributor_1_sUSDC_SNX.readable.json</code></a>
       </td>
     </tr>
     <tr>
@@ -836,7 +836,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x8608d511E22418005
     <tr>
       <td>oracleNodeId</td>
       <td></td>
-      <td><code>"0xffc3112805565629210a9bab9428f72a735609c3d4becf35d7026a9c1b1615dd"</code></td>
+      <td><code>"0xd84cdef0e372a8ff5d77c169e2474521d794a7db775807d2053c143de9ac05f6"</code></td>
     </tr>
     <tr>
       <td>minDelegationD18</td>
@@ -897,7 +897,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x00ab6b818652bB3bF
     <tr>
       <td>oracleNodeId</td>
       <td></td>
-      <td><code>"0xe64c50fd8d66841cbb797d8abc728eba494c2523d5b272aa8c766b4ea6d3c46b"</code></td>
+      <td><code>"0xa5e5d5dee832ca45ca61795126bbb60ba42987f512e6f5db3e34e37715702580"</code></td>
     </tr>
     <tr>
       <td>minDelegationD18</td>
@@ -958,7 +958,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x42000000000000000
     <tr>
       <td>oracleNodeId</td>
       <td></td>
-      <td><code>"0xaeea86f9f9ce0466ef17f7aa35d110d289ba21927987778f8b86dda16e91df65"</code></td>
+      <td><code>"0x05716bc7b541125ba8041a3417a1925bf9d5d6f8dbb46dd51ee8ce86c7da159d"</code></td>
     </tr>
     <tr>
       <td>minDelegationD18</td>
@@ -1019,7 +1019,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x7Bf65af7EFBd0E933
     <tr>
       <td>oracleNodeId</td>
       <td></td>
-      <td><code>"0x8b74ea26311b0f96525ca704f7e54d626a918289edf6377425a7befe496c0a6c"</code></td>
+      <td><code>"0x5383195b6416a7e30042100df08bec3d7fb8922e22a311ee751c971dde521dca"</code></td>
     </tr>
     <tr>
       <td>minDelegationD18</td>
@@ -1080,7 +1080,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x410EecB4b4CF71753
     <tr>
       <td>oracleNodeId</td>
       <td></td>
-      <td><code>"0xffc3112805565629210a9bab9428f72a735609c3d4becf35d7026a9c1b1615dd"</code></td>
+      <td><code>"0xd84cdef0e372a8ff5d77c169e2474521d794a7db775807d2053c143de9ac05f6"</code></td>
     </tr>
     <tr>
       <td>minDelegationD18</td>
@@ -1141,7 +1141,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x1c6dfe3205334Fece
     <tr>
       <td>oracleNodeId</td>
       <td></td>
-      <td><code>"0xe64c50fd8d66841cbb797d8abc728eba494c2523d5b272aa8c766b4ea6d3c46b"</code></td>
+      <td><code>"0xa5e5d5dee832ca45ca61795126bbb60ba42987f512e6f5db3e34e37715702580"</code></td>
     </tr>
     <tr>
       <td>minDelegationD18</td>
@@ -1202,7 +1202,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x86B35F1b900B15C98
     <tr>
       <td>oracleNodeId</td>
       <td></td>
-      <td><code>"0xaeea86f9f9ce0466ef17f7aa35d110d289ba21927987778f8b86dda16e91df65"</code></td>
+      <td><code>"0x05716bc7b541125ba8041a3417a1925bf9d5d6f8dbb46dd51ee8ce86c7da159d"</code></td>
     </tr>
     <tr>
       <td>minDelegationD18</td>
@@ -1263,7 +1263,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     <tr>
       <td>oracleNodeId</td>
       <td></td>
-      <td><code>"0x8b74ea26311b0f96525ca704f7e54d626a918289edf6377425a7befe496c0a6c"</code></td>
+      <td><code>"0x5383195b6416a7e30042100df08bec3d7fb8922e22a311ee751c971dde521dca"</code></td>
     </tr>
     <tr>
       <td>minDelegationD18</td>
@@ -1904,12 +1904,12 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     <tr>
       <td>buyFeedId</td>
       <td></td>
-      <td><code>"0xffc3112805565629210a9bab9428f72a735609c3d4becf35d7026a9c1b1615dd"</code></td>
+      <td><code>"0xd84cdef0e372a8ff5d77c169e2474521d794a7db775807d2053c143de9ac05f6"</code></td>
     </tr>
     <tr>
       <td>sellFeedId</td>
       <td></td>
-      <td><code>"0xffc3112805565629210a9bab9428f72a735609c3d4becf35d7026a9c1b1615dd"</code></td>
+      <td><code>"0xd84cdef0e372a8ff5d77c169e2474521d794a7db775807d2053c143de9ac05f6"</code></td>
     </tr>
     <tr>
       <td>strictStalenessTolerance</td>
@@ -1996,7 +1996,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -2156,12 +2156,12 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     <tr>
       <td>buyFeedId</td>
       <td></td>
-      <td><code>"0xe64c50fd8d66841cbb797d8abc728eba494c2523d5b272aa8c766b4ea6d3c46b"</code></td>
+      <td><code>"0xa5e5d5dee832ca45ca61795126bbb60ba42987f512e6f5db3e34e37715702580"</code></td>
     </tr>
     <tr>
       <td>sellFeedId</td>
       <td></td>
-      <td><code>"0xe64c50fd8d66841cbb797d8abc728eba494c2523d5b272aa8c766b4ea6d3c46b"</code></td>
+      <td><code>"0xa5e5d5dee832ca45ca61795126bbb60ba42987f512e6f5db3e34e37715702580"</code></td>
     </tr>
     <tr>
       <td>strictStalenessTolerance</td>
@@ -2248,7 +2248,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -2408,12 +2408,12 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     <tr>
       <td>buyFeedId</td>
       <td></td>
-      <td><code>"0xaeea86f9f9ce0466ef17f7aa35d110d289ba21927987778f8b86dda16e91df65"</code></td>
+      <td><code>"0x05716bc7b541125ba8041a3417a1925bf9d5d6f8dbb46dd51ee8ce86c7da159d"</code></td>
     </tr>
     <tr>
       <td>sellFeedId</td>
       <td></td>
-      <td><code>"0xaeea86f9f9ce0466ef17f7aa35d110d289ba21927987778f8b86dda16e91df65"</code></td>
+      <td><code>"0x05716bc7b541125ba8041a3417a1925bf9d5d6f8dbb46dd51ee8ce86c7da159d"</code></td>
     </tr>
     <tr>
       <td>strictStalenessTolerance</td>
@@ -2500,7 +2500,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -2660,12 +2660,12 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     <tr>
       <td>buyFeedId</td>
       <td></td>
-      <td><code>"0x8b74ea26311b0f96525ca704f7e54d626a918289edf6377425a7befe496c0a6c"</code></td>
+      <td><code>"0x5383195b6416a7e30042100df08bec3d7fb8922e22a311ee751c971dde521dca"</code></td>
     </tr>
     <tr>
       <td>sellFeedId</td>
       <td></td>
-      <td><code>"0x8b74ea26311b0f96525ca704f7e54d626a918289edf6377425a7befe496c0a6c"</code></td>
+      <td><code>"0x5383195b6416a7e30042100df08bec3d7fb8922e22a311ee751c971dde521dca"</code></td>
     </tr>
     <tr>
       <td>strictStalenessTolerance</td>
@@ -2752,7 +2752,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -2882,8 +2882,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.25</td>
-      <td><code>250000000000000000</code> / <code>0x03782dace9d90000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -3024,7 +3024,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -3078,8 +3078,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.25</td>
-      <td><code>250000000000000000</code> / <code>0x03782dace9d90000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -3220,7 +3220,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -3274,8 +3274,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -3416,7 +3416,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -3470,8 +3470,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -3612,7 +3612,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -3666,8 +3666,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -3808,7 +3808,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -3862,8 +3862,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -4004,7 +4004,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -4058,8 +4058,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -4200,7 +4200,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -4254,8 +4254,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -4396,7 +4396,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -4450,8 +4450,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -4592,7 +4592,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -4646,8 +4646,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -4788,7 +4788,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -4842,8 +4842,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -4984,7 +4984,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -5038,8 +5038,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -5180,7 +5180,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -5234,8 +5234,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -5376,7 +5376,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -5430,8 +5430,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -5572,7 +5572,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -5626,8 +5626,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -5768,7 +5768,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -5822,8 +5822,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -5964,7 +5964,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -6018,8 +6018,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -6160,7 +6160,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -6214,8 +6214,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -6356,7 +6356,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -6410,8 +6410,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -6552,7 +6552,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -6606,8 +6606,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -6748,7 +6748,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -6802,8 +6802,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -6944,7 +6944,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -6998,8 +6998,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -7140,7 +7140,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -7194,8 +7194,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -7336,7 +7336,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -7390,8 +7390,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -7532,7 +7532,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -7586,8 +7586,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -7728,7 +7728,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -7782,8 +7782,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -7924,7 +7924,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -7978,8 +7978,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -8120,7 +8120,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -8174,8 +8174,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -8316,7 +8316,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -8370,8 +8370,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -8512,7 +8512,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -8566,8 +8566,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -8708,7 +8708,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -8762,8 +8762,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -8904,7 +8904,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -8958,8 +8958,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -9100,7 +9100,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -9154,8 +9154,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -9296,7 +9296,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -9350,8 +9350,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -9492,7 +9492,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -9546,8 +9546,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -9688,7 +9688,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -9742,8 +9742,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -9884,7 +9884,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -9938,8 +9938,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -10080,7 +10080,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -10134,8 +10134,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -10276,7 +10276,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -10330,8 +10330,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -10472,7 +10472,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -10526,8 +10526,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -10668,7 +10668,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -10722,8 +10722,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -10864,7 +10864,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -10918,8 +10918,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -11060,7 +11060,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -11114,8 +11114,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -11256,7 +11256,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -11310,8 +11310,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -11452,7 +11452,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -11506,8 +11506,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -11648,7 +11648,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -11702,8 +11702,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -11844,7 +11844,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -11898,8 +11898,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -12040,7 +12040,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -12094,8 +12094,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -12236,7 +12236,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -12290,8 +12290,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -12432,7 +12432,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -12486,8 +12486,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -12628,7 +12628,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -12682,8 +12682,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -12824,7 +12824,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -12878,8 +12878,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -13020,7 +13020,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -13074,8 +13074,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -13216,7 +13216,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -13270,8 +13270,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -13412,7 +13412,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -13466,8 +13466,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -13608,7 +13608,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -13662,8 +13662,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -13804,7 +13804,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -13858,8 +13858,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -14000,7 +14000,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -14054,8 +14054,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -14196,7 +14196,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -14250,8 +14250,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -14392,7 +14392,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -14446,8 +14446,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -14588,7 +14588,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -14642,8 +14642,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -14784,7 +14784,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -14838,8 +14838,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -14980,7 +14980,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -15034,8 +15034,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -15176,7 +15176,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -15230,8 +15230,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -15372,7 +15372,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -15426,8 +15426,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -15568,7 +15568,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -15622,8 +15622,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -15764,7 +15764,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -15818,8 +15818,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -15960,7 +15960,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -16014,8 +16014,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -16156,7 +16156,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -16210,8 +16210,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -16352,7 +16352,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -16406,8 +16406,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -16548,7 +16548,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -16602,8 +16602,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -16744,7 +16744,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -16798,8 +16798,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -16940,7 +16940,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -16994,8 +16994,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -17136,7 +17136,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -17190,8 +17190,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -17332,7 +17332,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -17386,8 +17386,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -17528,7 +17528,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -17582,8 +17582,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -17724,7 +17724,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -17778,8 +17778,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -17920,7 +17920,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -17974,8 +17974,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -18116,7 +18116,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -18170,8 +18170,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -18312,7 +18312,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -18366,8 +18366,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -18508,7 +18508,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -18562,8 +18562,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -18704,7 +18704,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -18758,8 +18758,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -18900,7 +18900,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -18954,8 +18954,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -19096,7 +19096,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -19150,8 +19150,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -19292,7 +19292,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -19346,8 +19346,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -19488,7 +19488,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -19542,8 +19542,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -19684,7 +19684,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -19738,8 +19738,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.2</td>
-      <td><code>200000000000000000</code> / <code>0x02c68af0bb140000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -19880,7 +19880,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -19934,8 +19934,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.2</td>
-      <td><code>200000000000000000</code> / <code>0x02c68af0bb140000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -20076,7 +20076,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -20130,8 +20130,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.2</td>
-      <td><code>200000000000000000</code> / <code>0x02c68af0bb140000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -20272,7 +20272,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -20326,8 +20326,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.2</td>
-      <td><code>200000000000000000</code> / <code>0x02c68af0bb140000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -20468,7 +20468,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -20522,8 +20522,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.2</td>
-      <td><code>200000000000000000</code> / <code>0x02c68af0bb140000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -20664,7 +20664,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
@@ -20718,8 +20718,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.2</td>
-      <td><code>200000000000000000</code> / <code>0x02c68af0bb140000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -20860,13 +20860,209 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0xB767ebf42E82C816CE1790C858c0917D46639884"><code>0xB767ebf42E82C816CE1790C858c0917D46639884</code></a>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
       </td>
     </tr>
     <tr>
       <td>feedId</td>
       <td></td>
       <td><code>"0x9db37f4d5654aad3e37e2e14ffd8d53265fb3026d1d8f91146539eebaa2ef45f"</code></td>
+    </tr>
+    <tr>
+      <td>settlementReward</td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
+    </tr>
+    <tr>
+      <td>disabled</td>
+      <td>✅ Enabled</td>
+      <td><code>false</code></td>
+    </tr>
+    <tr>
+      <td>commitmentPriceDelay</td>
+      <td>2</td>
+      <td><code>2</code> / <code>0x02</code></td>
+    </tr>
+  </tbody>
+</table>
+
+# Perps Market SOLETH / Solana Ethereum Ratio
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Parameter name</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ID:</td>
+      <td>9500</td>
+      <td><code>9500</code> / <code>0x251c</code></td>
+    </tr>
+    <tr>
+      <td>maxMarketSize</td>
+      <td>125 m</td>
+      <td><code>125000000000000000000000000</code> / <code>0x6765c793fa10079d000000</code></td>
+    </tr>
+    <tr>
+      <td>maxMarketValue</td>
+      <td>5 m</td>
+      <td><code>5000000000000000000000000</code> / <code>0x0422ca8b0a00a425000000</code></td>
+    </tr>
+    <tr>
+      <td>lockedOiRatio</td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Funding parameters</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>skewScale</td>
+      <td>4.5 b</td>
+      <td><code>4500000000000000000000000000</code> / <code>0x0e8a5010cf2a411214000000</code></td>
+    </tr>
+    <tr>
+      <td>maxFundingVelocity</td>
+      <td>9</td>
+      <td><code>9000000000000000000</code> / <code>0x7ce66c50e2840000</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Order fees</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>makerFee</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>takerFee</td>
+      <td>0.001</td>
+      <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Liquidation parameters</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>initialMarginRatioD18</td>
+      <td>5.5</td>
+      <td><code>5500000000000000000</code> / <code>0x4c53ecdc18a60000</code></td>
+    </tr>
+    <tr>
+      <td>minimumInitialMarginRatioD18</td>
+      <td>0.333</td>
+      <td><code>333000000000000000</code> / <code>0x049f0dbc56348000</code></td>
+    </tr>
+    <tr>
+      <td>maintenanceMarginScalarD18</td>
+      <td>0.05</td>
+      <td><code>50000000000000000</code> / <code>0xb1a2bc2ec50000</code></td>
+    </tr>
+    <tr>
+      <td>flagRewardRatioD18</td>
+      <td>0.0003</td>
+      <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
+    </tr>
+    <tr>
+      <td>minimumPositionMargin</td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
+    </tr>
+    <tr>
+      <td>maxLiquidationLimitAccumulationMultiplier</td>
+      <td>1.5</td>
+      <td><code>1500000000000000000</code> / <code>0x14d1120d7b160000</code></td>
+    </tr>
+    <tr>
+      <td>maxLiquidationPd</td>
+      <td>0.0005</td>
+      <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
+    </tr>
+    <tr>
+      <td>maxSecondsInLiquidationWindow</td>
+      <td>30</td>
+      <td><code>30</code> / <code>0x1e</code></td>
+    </tr>
+    <tr>
+      <td>endorsedLiquidator</td>
+      <td></td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0x11233749514Ab8d00C0A5873DF7428b3db70030f"><code>0x11233749514Ab8d00C0A5873DF7428b3db70030f</code></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Settlement strategy parameters</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>strategyId</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>strategyType</td>
+      <td>PYTH</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>settlementDelay</td>
+      <td>2</td>
+      <td><code>2</code> / <code>0x02</code></td>
+    </tr>
+    <tr>
+      <td>settlementWindowDuration</td>
+      <td>60</td>
+      <td><code>60</code> / <code>0x3c</code></td>
+    </tr>
+    <tr>
+      <td>priceVerificationContract</td>
+      <td></td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>feedId</td>
+      <td></td>
+      <td><code>"0xde87506dabfadbef89af2d5d796ebae80ddaea240fc7667aa808fce3629cd8fb"</code></td>
     </tr>
     <tr>
       <td>settlementReward</td>
@@ -20970,7 +21166,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>address</td>
       <td></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0x477010BEe49e5c88989138A4f0D7176E5741eb84"><code>0x477010BEe49e5c88989138A4f0D7176E5741eb84</code></a>
+        <a href="https://sepolia.basescan.org/address/0x49ECf205E6F7990e376FC64442d7d7faDe3d70f3"><code>0x49ECf205E6F7990e376FC64442d7d7faDe3d70f3</code></a>
       </td>
     </tr>
     <tr>
@@ -20999,9 +21195,9 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>payoutToken</td>
-      <td>fwSNX <code>18</code> / <code>0x12</code></td>
+      <td>SNX <code>18</code> / <code>0x12</code></td>
       <td>
-        <a href="https://sepolia.basescan.org/address/0x8F4b425597A70001E255d067626e4860E2543f22"><code>0x8F4b425597A70001E255d067626e4860E2543f22</code></a>
+        <a href="https://sepolia.basescan.org/address/0x5cA6E1AfdDffc3979bC1Ae88BC99d414D8C60EDC"><code>0x5cA6E1AfdDffc3979bC1Ae88BC99d414D8C60EDC</code></a>
       </td>
     </tr>
     <tr>
@@ -21557,7 +21753,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
       <td>n/a</td>
     </tr>
     <tr>
-      <td>RewardsDistributor_1_sUSDC_fwSNX</td>
+      <td>RewardsDistributor_1_sUSDC_SNX</td>
       <td>n/a</td>
       <td>n/a</td>
     </tr>
