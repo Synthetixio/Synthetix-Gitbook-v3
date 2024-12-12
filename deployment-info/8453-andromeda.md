@@ -109,7 +109,7 @@
     <tr>
       <td>PythERC7412Wrapper</td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
       <td>
         <a href="./8453-andromeda/PythERC7412Wrapper.json"><code>PythERC7412Wrapper.json</code></a>
@@ -404,6 +404,30 @@
       </td>
       <td>
         <a href="./8453-andromeda/RewardsDistributor_1_swstETH.readable.json"><code>RewardsDistributor_1_swstETH.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>RewardsDistributor_1_SNX</td>
+      <td>
+        <a href="https://basescan.org/address/0x7A1b3DB73E5B8c58EDC8A821890005064f2B83Fd"><code>0x7A1b3DB73E5B8c58EDC8A821890005064f2B83Fd</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/RewardsDistributor_1_SNX.json"><code>RewardsDistributor_1_SNX.json</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/RewardsDistributor_1_SNX.readable.json"><code>RewardsDistributor_1_SNX.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>RewardsDistributor_1_USDC</td>
+      <td>
+        <a href="https://basescan.org/address/0xa7163fE9788BF14CcDac854131CAc2C17d1a1676"><code>0xa7163fE9788BF14CcDac854131CAc2C17d1a1676</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/RewardsDistributor_1_USDC.json"><code>RewardsDistributor_1_USDC.json</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/RewardsDistributor_1_USDC.readable.json"><code>RewardsDistributor_1_USDC.readable.json</code></a>
       </td>
     </tr>
     <tr>
@@ -764,7 +788,7 @@ Token address: <a href="https://basescan.org/address/0xcbB7C0000aB88B473b1f5aFd9
     <tr>
       <td>oracleNodeId</td>
       <td></td>
-      <td><code>"0x4f189a68184f97a6df1c6a5c71f3cd35715f5fe5af8c889bf74ef47df083a51b"</code></td>
+      <td><code>"0x9221d0821c77350ae6f72b32d3ef5afe3dafe2c4255efee581312b5442d35f71"</code></td>
     </tr>
     <tr>
       <td>minDelegationD18</td>
@@ -825,7 +849,7 @@ Token address: <a href="https://basescan.org/address/0x2Ae3F1Ec7F1F5012CFEab0185
     <tr>
       <td>oracleNodeId</td>
       <td></td>
-      <td><code>"0x45eda7976a375f79a75db3e3c9e311404e5b4e12b4cf0680f416f62995aeb42d"</code></td>
+      <td><code>"0x65aff9d20a5acfd8c5fc83ccfa27ed0a9325f12eddc118c4d279c87cb8db787e"</code></td>
     </tr>
     <tr>
       <td>minDelegationD18</td>
@@ -886,7 +910,7 @@ Token address: <a href="https://basescan.org/address/0x4200000000000000000000000
     <tr>
       <td>oracleNodeId</td>
       <td></td>
-      <td><code>"0x7e714744a9bfaa0bd9c6dfb379e49fb7eb07f04b90af8880d860f2b5b5a675fb"</code></td>
+      <td><code>"0x2b116933f5becbc44708f4e7ae4941d9e36659f5123eb54dff4e08dc8d549780"</code></td>
     </tr>
     <tr>
       <td>minDelegationD18</td>
@@ -947,7 +971,7 @@ Token address: <a href="https://basescan.org/address/0xc1CBa3fCea344f92D9239c08C
     <tr>
       <td>oracleNodeId</td>
       <td></td>
-      <td><code>"0x4944a7c9c9ea2b5dfc1d7f2f46ec171ccda269b73359929d6296ded5f10de58b"</code></td>
+      <td><code>"0x7712c3ec66e0bd643bc4dddd83ccde87ddae81202854a7398c81fc5a48d6081d"</code></td>
     </tr>
     <tr>
       <td>minDelegationD18</td>
@@ -1008,7 +1032,7 @@ Token address: <a href="https://basescan.org/address/0xEDE1d04C864EeEC40393ED4cb
     <tr>
       <td>oracleNodeId</td>
       <td></td>
-      <td><code>"0x4f189a68184f97a6df1c6a5c71f3cd35715f5fe5af8c889bf74ef47df083a51b"</code></td>
+      <td><code>"0x9221d0821c77350ae6f72b32d3ef5afe3dafe2c4255efee581312b5442d35f71"</code></td>
     </tr>
     <tr>
       <td>minDelegationD18</td>
@@ -1069,7 +1093,7 @@ Token address: <a href="https://basescan.org/address/0xc302f3f74ec19d0917C7F19Bc
     <tr>
       <td>oracleNodeId</td>
       <td></td>
-      <td><code>"0x45eda7976a375f79a75db3e3c9e311404e5b4e12b4cf0680f416f62995aeb42d"</code></td>
+      <td><code>"0x65aff9d20a5acfd8c5fc83ccfa27ed0a9325f12eddc118c4d279c87cb8db787e"</code></td>
     </tr>
     <tr>
       <td>minDelegationD18</td>
@@ -1130,7 +1154,7 @@ Token address: <a href="https://basescan.org/address/0xFA24Be208408F20395914Ba82
     <tr>
       <td>oracleNodeId</td>
       <td></td>
-      <td><code>"0x7e714744a9bfaa0bd9c6dfb379e49fb7eb07f04b90af8880d860f2b5b5a675fb"</code></td>
+      <td><code>"0x2b116933f5becbc44708f4e7ae4941d9e36659f5123eb54dff4e08dc8d549780"</code></td>
     </tr>
     <tr>
       <td>minDelegationD18</td>
@@ -1191,7 +1215,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     <tr>
       <td>oracleNodeId</td>
       <td></td>
-      <td><code>"0x4944a7c9c9ea2b5dfc1d7f2f46ec171ccda269b73359929d6296ded5f10de58b"</code></td>
+      <td><code>"0x7712c3ec66e0bd643bc4dddd83ccde87ddae81202854a7398c81fc5a48d6081d"</code></td>
     </tr>
     <tr>
       <td>minDelegationD18</td>
@@ -1832,12 +1856,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     <tr>
       <td>buyFeedId</td>
       <td></td>
-      <td><code>"0x4f189a68184f97a6df1c6a5c71f3cd35715f5fe5af8c889bf74ef47df083a51b"</code></td>
+      <td><code>"0x9221d0821c77350ae6f72b32d3ef5afe3dafe2c4255efee581312b5442d35f71"</code></td>
     </tr>
     <tr>
       <td>sellFeedId</td>
       <td></td>
-      <td><code>"0x4f189a68184f97a6df1c6a5c71f3cd35715f5fe5af8c889bf74ef47df083a51b"</code></td>
+      <td><code>"0x9221d0821c77350ae6f72b32d3ef5afe3dafe2c4255efee581312b5442d35f71"</code></td>
     </tr>
     <tr>
       <td>strictStalenessTolerance</td>
@@ -1924,7 +1948,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -2084,12 +2108,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     <tr>
       <td>buyFeedId</td>
       <td></td>
-      <td><code>"0x45eda7976a375f79a75db3e3c9e311404e5b4e12b4cf0680f416f62995aeb42d"</code></td>
+      <td><code>"0x65aff9d20a5acfd8c5fc83ccfa27ed0a9325f12eddc118c4d279c87cb8db787e"</code></td>
     </tr>
     <tr>
       <td>sellFeedId</td>
       <td></td>
-      <td><code>"0x45eda7976a375f79a75db3e3c9e311404e5b4e12b4cf0680f416f62995aeb42d"</code></td>
+      <td><code>"0x65aff9d20a5acfd8c5fc83ccfa27ed0a9325f12eddc118c4d279c87cb8db787e"</code></td>
     </tr>
     <tr>
       <td>strictStalenessTolerance</td>
@@ -2176,7 +2200,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -2336,12 +2360,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     <tr>
       <td>buyFeedId</td>
       <td></td>
-      <td><code>"0x7e714744a9bfaa0bd9c6dfb379e49fb7eb07f04b90af8880d860f2b5b5a675fb"</code></td>
+      <td><code>"0x2b116933f5becbc44708f4e7ae4941d9e36659f5123eb54dff4e08dc8d549780"</code></td>
     </tr>
     <tr>
       <td>sellFeedId</td>
       <td></td>
-      <td><code>"0x7e714744a9bfaa0bd9c6dfb379e49fb7eb07f04b90af8880d860f2b5b5a675fb"</code></td>
+      <td><code>"0x2b116933f5becbc44708f4e7ae4941d9e36659f5123eb54dff4e08dc8d549780"</code></td>
     </tr>
     <tr>
       <td>strictStalenessTolerance</td>
@@ -2428,7 +2452,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -2588,12 +2612,12 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     <tr>
       <td>buyFeedId</td>
       <td></td>
-      <td><code>"0x4944a7c9c9ea2b5dfc1d7f2f46ec171ccda269b73359929d6296ded5f10de58b"</code></td>
+      <td><code>"0x7712c3ec66e0bd643bc4dddd83ccde87ddae81202854a7398c81fc5a48d6081d"</code></td>
     </tr>
     <tr>
       <td>sellFeedId</td>
       <td></td>
-      <td><code>"0x4944a7c9c9ea2b5dfc1d7f2f46ec171ccda269b73359929d6296ded5f10de58b"</code></td>
+      <td><code>"0x7712c3ec66e0bd643bc4dddd83ccde87ddae81202854a7398c81fc5a48d6081d"</code></td>
     </tr>
     <tr>
       <td>strictStalenessTolerance</td>
@@ -2680,7 +2704,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -2810,8 +2834,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.25</td>
-      <td><code>250000000000000000</code> / <code>0x03782dace9d90000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -2952,7 +2976,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -3006,8 +3030,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.25</td>
-      <td><code>250000000000000000</code> / <code>0x03782dace9d90000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -3148,7 +3172,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -3202,8 +3226,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -3344,7 +3368,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -3398,8 +3422,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -3540,7 +3564,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -3594,8 +3618,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -3736,7 +3760,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -3790,8 +3814,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -3932,7 +3956,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -3986,8 +4010,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -4128,7 +4152,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -4182,8 +4206,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -4324,7 +4348,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -4378,8 +4402,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -4520,7 +4544,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -4574,8 +4598,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -4716,7 +4740,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -4770,8 +4794,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -4912,7 +4936,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -4966,8 +4990,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -5108,7 +5132,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -5162,8 +5186,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -5304,7 +5328,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -5358,8 +5382,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -5500,7 +5524,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -5554,8 +5578,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -5696,7 +5720,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -5750,8 +5774,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -5892,7 +5916,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -5946,8 +5970,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -6088,7 +6112,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -6142,8 +6166,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -6284,7 +6308,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -6338,8 +6362,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -6480,7 +6504,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -6534,8 +6558,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -6676,7 +6700,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -6730,8 +6754,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -6872,7 +6896,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -6926,8 +6950,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -7068,7 +7092,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -7122,8 +7146,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -7264,7 +7288,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -7318,8 +7342,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -7460,7 +7484,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -7514,8 +7538,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -7656,7 +7680,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -7710,8 +7734,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -7852,7 +7876,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -7906,8 +7930,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -8048,7 +8072,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -8102,8 +8126,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -8244,7 +8268,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -8298,8 +8322,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -8440,7 +8464,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -8494,8 +8518,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -8636,7 +8660,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -8690,8 +8714,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -8832,7 +8856,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -8886,8 +8910,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -9028,7 +9052,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -9082,8 +9106,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -9224,7 +9248,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -9278,8 +9302,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -9420,7 +9444,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -9474,8 +9498,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -9616,7 +9640,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -9670,8 +9694,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -9812,7 +9836,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -9866,8 +9890,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -10008,7 +10032,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -10062,8 +10086,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -10204,7 +10228,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -10258,8 +10282,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -10400,7 +10424,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -10454,8 +10478,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -10596,7 +10620,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -10650,8 +10674,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -10792,7 +10816,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -10846,8 +10870,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -10988,7 +11012,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -11042,8 +11066,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -11184,7 +11208,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -11238,8 +11262,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -11380,7 +11404,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -11434,8 +11458,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -11576,7 +11600,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -11630,8 +11654,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -11772,7 +11796,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -11826,8 +11850,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -11968,7 +11992,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -12022,8 +12046,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -12164,7 +12188,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -12218,8 +12242,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -12360,7 +12384,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -12414,8 +12438,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -12556,7 +12580,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -12610,8 +12634,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -12752,7 +12776,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -12806,8 +12830,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -12948,7 +12972,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -13002,8 +13026,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -13144,7 +13168,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -13198,8 +13222,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -13340,7 +13364,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -13394,8 +13418,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -13536,7 +13560,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -13590,8 +13614,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -13732,7 +13756,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -13786,8 +13810,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -13928,7 +13952,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -13982,8 +14006,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -14124,7 +14148,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -14178,8 +14202,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -14320,7 +14344,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -14374,8 +14398,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -14516,7 +14540,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -14570,8 +14594,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -14712,7 +14736,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -14766,8 +14790,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -14908,7 +14932,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -14962,8 +14986,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -15104,7 +15128,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -15158,8 +15182,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -15300,7 +15324,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -15354,8 +15378,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -15496,7 +15520,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -15550,8 +15574,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -15692,7 +15716,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -15746,8 +15770,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -15888,7 +15912,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -15942,8 +15966,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -16084,7 +16108,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -16138,8 +16162,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -16280,7 +16304,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -16334,8 +16358,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -16476,7 +16500,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -16530,8 +16554,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -16672,7 +16696,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -16726,8 +16750,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -16868,7 +16892,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -16922,8 +16946,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -17064,7 +17088,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -17118,8 +17142,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -17260,7 +17284,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -17314,8 +17338,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -17456,7 +17480,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -17510,8 +17534,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -17652,7 +17676,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -17706,8 +17730,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -17848,7 +17872,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -17902,8 +17926,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -18044,7 +18068,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -18098,8 +18122,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -18240,7 +18264,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -18294,8 +18318,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -18436,7 +18460,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -18490,8 +18514,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -18632,7 +18656,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -18686,8 +18710,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -18828,7 +18852,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -18882,8 +18906,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -19024,7 +19048,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -19078,8 +19102,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -19220,7 +19244,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -19274,8 +19298,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -19416,7 +19440,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -19470,8 +19494,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -19612,7 +19636,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -19666,8 +19690,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.5</td>
-      <td><code>500000000000000000</code> / <code>0x06f05b59d3b20000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -19808,7 +19832,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -19862,8 +19886,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.2</td>
-      <td><code>200000000000000000</code> / <code>0x02c68af0bb140000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -20004,7 +20028,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -20058,8 +20082,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.2</td>
-      <td><code>200000000000000000</code> / <code>0x02c68af0bb140000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -20200,7 +20224,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -20254,8 +20278,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.2</td>
-      <td><code>200000000000000000</code> / <code>0x02c68af0bb140000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -20396,7 +20420,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -20450,8 +20474,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.2</td>
-      <td><code>200000000000000000</code> / <code>0x02c68af0bb140000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -20592,7 +20616,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -20646,8 +20670,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.2</td>
-      <td><code>200000000000000000</code> / <code>0x02c68af0bb140000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -20788,7 +20812,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -20842,8 +20866,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>lockedOiRatio</td>
-      <td>0.2</td>
-      <td><code>200000000000000000</code> / <code>0x02c68af0bb140000</code></td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
     </tr>
   </tbody>
 </table>
@@ -20984,7 +21008,7 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>priceVerificationContract</td>
       <td></td>
       <td>
-        <a href="https://basescan.org/address/0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52"><code>0x3FC194FA6C26BE94Fc404E69b51793c199c3BF52</code></a>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
       </td>
     </tr>
     <tr>
@@ -21386,6 +21410,130 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   </tbody>
 </table>
 
+# Rewards Distributor: SNX Pool Rewards
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Parameter name</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>name</td>
+      <td></td>
+      <td><code>"synthetix-omnibus"</code></td>
+    </tr>
+    <tr>
+      <td>address</td>
+      <td></td>
+      <td>
+        <a href="https://basescan.org/address/0x7A1b3DB73E5B8c58EDC8A821890005064f2B83Fd"><code>0x7A1b3DB73E5B8c58EDC8A821890005064f2B83Fd</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>deployTxn</td>
+      <td></td>
+      <td>
+        <a href="https://basescan.org/tx/undefined"><code>undefined</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>registered</td>
+      <td>✅ Registered</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>poolId</td>
+      <td>1</td>
+      <td><code>1</code> / <code>0x01</code></td>
+    </tr>
+    <tr>
+      <td>collateralType</td>
+      <td>n/a</td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>payoutToken</td>
+      <td>SNX <code>18</code> / <code>0x12</code></td>
+      <td>
+        <a href="https://basescan.org/address/0x22e6966B799c4D5B13BE962E1D117b56327FDa66"><code>0x22e6966B799c4D5B13BE962E1D117b56327FDa66</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>rewardManager</td>
+      <td></td>
+      <td>
+        <a href="https://basescan.org/address/0x32C222A9A159782aFD7529c87FA34b96CA72C696"><code>0x32C222A9A159782aFD7529c87FA34b96CA72C696</code></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+# Rewards Distributor: USDC Pool Rewards
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Parameter name</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>name</td>
+      <td></td>
+      <td><code>"synthetix-omnibus"</code></td>
+    </tr>
+    <tr>
+      <td>address</td>
+      <td></td>
+      <td>
+        <a href="https://basescan.org/address/0xa7163fE9788BF14CcDac854131CAc2C17d1a1676"><code>0xa7163fE9788BF14CcDac854131CAc2C17d1a1676</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>deployTxn</td>
+      <td></td>
+      <td>
+        <a href="https://basescan.org/tx/undefined"><code>undefined</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>registered</td>
+      <td>✅ Registered</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>poolId</td>
+      <td>1</td>
+      <td><code>1</code> / <code>0x01</code></td>
+    </tr>
+    <tr>
+      <td>collateralType</td>
+      <td>n/a</td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>payoutToken</td>
+      <td>USDC <code>6</code> / <code>0x06</code></td>
+      <td>
+        <a href="https://basescan.org/address/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"><code>0x833589fcd6edb6e08f4c7c32d4f71b54bda02913</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>rewardManager</td>
+      <td></td>
+      <td>
+        <a href="https://basescan.org/address/0x32C222A9A159782aFD7529c87FA34b96CA72C696"><code>0x32C222A9A159782aFD7529c87FA34b96CA72C696</code></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 # Owners
 
 <table data-full-width="true">
@@ -21601,6 +21749,16 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>RewardsDistributor_1_swstETH</td>
+      <td>n/a</td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>RewardsDistributor_1_SNX</td>
+      <td>n/a</td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>RewardsDistributor_1_USDC</td>
       <td>n/a</td>
       <td>n/a</td>
     </tr>
