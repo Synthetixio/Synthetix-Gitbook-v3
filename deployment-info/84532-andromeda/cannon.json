@@ -1,6 +1,6 @@
 {
   "generator": "cannon cli 2.20.2",
-  "timestamp": 1734043961,
+  "timestamp": 1734086910,
   "def": {
     "setting": {
       "snx_package": {
@@ -25293,7 +25293,7 @@
         "goat_perps_market_skew_scale": "<%= parseEther(String(20_000_000)) %>",
         "goat_perps_market_max_funding_velocity": "<%= parseEther('9') %>",
         "goat_perps_maker_fee_ratio": "<%= parseEther('0.000000') %>",
-        "goat_perps_taker_fee_ratio": "<%= parseEther('0.000500') %>",
+        "goat_perps_taker_fee_ratio": "<%= parseEther('0.001000') %>",
         "goat_perps_max_market_size": "<%= parseEther(String(10_000_000)) %>",
         "goat_perps_max_market_value": "<%= parseEther(String(3_000_000)) %>",
         "goat_perps_initial_margin_ratio": "<%= parseEther('2.459') %>",
@@ -25578,7 +25578,7 @@
         "moodeng_perps_market_skew_scale": "<%= parseEther(String(50_000_000)) %>",
         "moodeng_perps_market_max_funding_velocity": "<%= parseEther('9') %>",
         "moodeng_perps_maker_fee_ratio": "<%= parseEther('0.000000') %>",
-        "moodeng_perps_taker_fee_ratio": "<%= parseEther('0.000500') %>",
+        "moodeng_perps_taker_fee_ratio": "<%= parseEther('0.001000') %>",
         "moodeng_perps_max_market_size": "<%= parseEther(String(34_000_000)) %>",
         "moodeng_perps_max_market_value": "<%= parseEther(String(3_000_000)) %>",
         "moodeng_perps_initial_margin_ratio": "<%= parseEther('1.588') %>",
@@ -25882,7 +25882,7 @@
         "safe_perps_market_skew_scale": "<%= parseEther(String(3_000_000)) %>",
         "safe_perps_market_max_funding_velocity": "<%= parseEther('9') %>",
         "safe_perps_maker_fee_ratio": "<%= parseEther('0.000000') %>",
-        "safe_perps_taker_fee_ratio": "<%= parseEther('0.000500') %>",
+        "safe_perps_taker_fee_ratio": "<%= parseEther('0.001000') %>",
         "safe_perps_max_market_size": "<%= parseEther(String(500_000)) %>",
         "safe_perps_max_market_value": "<%= parseEther(String(500_000)) %>",
         "safe_perps_initial_margin_ratio": "<%= parseEther('1.211') %>",
@@ -26457,7 +26457,7 @@
       }
     },
     "name": "synthetix-omnibus",
-    "version": "66",
+    "version": "67",
     "description": "Andromeda dev deployment",
     "preset": "andromeda"
   },
@@ -92433,7 +92433,7 @@
           "goat_perps_market_skew_scale": "20000000000000000000000000",
           "goat_perps_market_max_funding_velocity": "9000000000000000000",
           "goat_perps_maker_fee_ratio": "0",
-          "goat_perps_taker_fee_ratio": "500000000000000",
+          "goat_perps_taker_fee_ratio": "1000000000000000",
           "goat_perps_max_market_size": "10000000000000000000000000",
           "goat_perps_max_market_value": "3000000000000000000000000",
           "goat_perps_initial_margin_ratio": "2459000000000000000",
@@ -92448,7 +92448,7 @@
           "goat_perps_endorsed_liquidator": "0x11233749514Ab8d00C0A5873DF7428b3db70030f"
         }
       },
-      "hash": "6defc6ea237d0f1e6de7ca74778747e9",
+      "hash": "db444a8ebcfeef3878e31289cb61936d",
       "version": 7
     },
     "var.perps_moodeng_market_settings": {
@@ -92458,7 +92458,7 @@
           "moodeng_perps_market_skew_scale": "50000000000000000000000000",
           "moodeng_perps_market_max_funding_velocity": "9000000000000000000",
           "moodeng_perps_maker_fee_ratio": "0",
-          "moodeng_perps_taker_fee_ratio": "500000000000000",
+          "moodeng_perps_taker_fee_ratio": "1000000000000000",
           "moodeng_perps_max_market_size": "34000000000000000000000000",
           "moodeng_perps_max_market_value": "3000000000000000000000000",
           "moodeng_perps_initial_margin_ratio": "1588000000000000000",
@@ -92473,7 +92473,7 @@
           "moodeng_perps_endorsed_liquidator": "0x11233749514Ab8d00C0A5873DF7428b3db70030f"
         }
       },
-      "hash": "ed9a304a781c5aab588c118a60105ddc",
+      "hash": "8260f586f2b1952d24f52811aafcd4aa",
       "version": 7
     },
     "var.perps_safe_market_settings": {
@@ -92483,7 +92483,7 @@
           "safe_perps_market_skew_scale": "3000000000000000000000000",
           "safe_perps_market_max_funding_velocity": "9000000000000000000",
           "safe_perps_maker_fee_ratio": "0",
-          "safe_perps_taker_fee_ratio": "500000000000000",
+          "safe_perps_taker_fee_ratio": "1000000000000000",
           "safe_perps_max_market_size": "500000000000000000000000",
           "safe_perps_max_market_value": "500000000000000000000000",
           "safe_perps_initial_margin_ratio": "1211000000000000000",
@@ -92498,7 +92498,7 @@
           "safe_perps_endorsed_liquidator": "0x11233749514Ab8d00C0A5873DF7428b3db70030f"
         }
       },
-      "hash": "d6e2685693492334616a64d21f591b10",
+      "hash": "7094b05f2294cc506e9034b786cb9a76",
       "version": 7
     },
     "invoke.registerLookupGoatOracleNode": {
@@ -93228,9 +93228,9 @@
         "contracts": {},
         "txns": {
           "setPerpsGoatOrderFees": {
-            "hash": "0x32a0fb75d5838cc669c476656895e96d6a3f49bd60c6e8408815c4b53f9a757c",
-            "blockNumber": "17469938",
-            "timestamp": "1730708164",
+            "hash": "0x2f99f32597456f7aac6e992d44419908c4a0aaef208309f14c680d869b4d350e",
+            "blockNumber": "19159296",
+            "timestamp": "1734086880",
             "events": {
               "OrderFeesSet": [
                 {
@@ -93238,20 +93238,20 @@
                   "args": [
                     "8600",
                     "0",
-                    "500000000000000"
+                    "1000000000000000"
                   ]
                 }
               ]
             },
             "deployedOn": "invoke.setPerpsGoatOrderFees",
-            "gasUsed": 59266,
-            "gasCost": "1000351",
+            "gasUsed": 42174,
+            "gasCost": "1000285",
             "signer": "0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"
           }
         },
         "settings": {}
       },
-      "hash": "868294e9ab0af0a86ed3107e34323088",
+      "hash": "184dd161fddd632461c44a0535623005",
       "version": 7
     },
     "invoke.setPerpsMoodengFundingParameters": {
@@ -93447,9 +93447,9 @@
         "contracts": {},
         "txns": {
           "setPerpsMoodengOrderFees": {
-            "hash": "0x69406886f007d23a4bd2f41e218ac40ffac8ea84969ea14a83c63c9e87239e33",
-            "blockNumber": "17469954",
-            "timestamp": "1730708196",
+            "hash": "0x4fc8f397633b66b0f2708371bf5319026b44eabe61bd9b6d8863ef51c401b7db",
+            "blockNumber": "19159299",
+            "timestamp": "1734086886",
             "events": {
               "OrderFeesSet": [
                 {
@@ -93457,20 +93457,20 @@
                   "args": [
                     "8700",
                     "0",
-                    "500000000000000"
+                    "1000000000000000"
                   ]
                 }
               ]
             },
             "deployedOn": "invoke.setPerpsMoodengOrderFees",
-            "gasUsed": 59266,
-            "gasCost": "1000353",
+            "gasUsed": 42174,
+            "gasCost": "1000285",
             "signer": "0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"
           }
         },
         "settings": {}
       },
-      "hash": "8df992b5b5c8601ac9015ddd4c381c66",
+      "hash": "fde5635c35e3dbb684d4dacde3fd02a1",
       "version": 7
     },
     "invoke.setPerpsPriceGoat": {
@@ -93759,9 +93759,9 @@
         "contracts": {},
         "txns": {
           "setPerpsSafeOrderFees": {
-            "hash": "0xeda201029c8ed7e22aff7343110e7fbdd5496b6a726d255f593f093583a5f9ba",
-            "blockNumber": "17470158",
-            "timestamp": "1730708604",
+            "hash": "0x683aa80b95f9c2fd92c23b4a5272657e1cf6fe88fc1ec88c857f0706a89c7ee1",
+            "blockNumber": "19159304",
+            "timestamp": "1734086896",
             "events": {
               "OrderFeesSet": [
                 {
@@ -93769,20 +93769,20 @@
                   "args": [
                     "8500",
                     "0",
-                    "500000000000000"
+                    "1000000000000000"
                   ]
                 }
               ]
             },
             "deployedOn": "invoke.setPerpsSafeOrderFees",
-            "gasUsed": 59266,
-            "gasCost": "1000365",
+            "gasUsed": 42174,
+            "gasCost": "1000285",
             "signer": "0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"
           }
         },
         "settings": {}
       },
-      "hash": "76f529964ce09cebc4a7b9319951a0e1",
+      "hash": "5833795d46e826b5b1e2c9f8d226e9a7",
       "version": 7
     },
     "invoke.setPerpsGoatSettlementStrategy": {
@@ -98129,14 +98129,14 @@
       "version": 7
     }
   },
-  "seq": 15,
+  "seq": 16,
   "track": "xpauzk7rwrn",
   "options": {},
   "status": "complete",
   "meta": {
     "gitUrl": "https://github.com/Synthetixio/synthetix-deployments",
-    "commitHash": "0432f20a09478ec78af1bc1ed2552f242cb92c80",
-    "readme": "https://github.com/Synthetixio/synthetix-deployments/blob/0432f20a09478ec78af1bc1ed2552f242cb92c80/README.md"
+    "commitHash": "6c817d1d2a9fc939e13fc9a6c3d2435d6fe36bf5",
+    "readme": "https://github.com/Synthetixio/synthetix-deployments/blob/6c817d1d2a9fc939e13fc9a6c3d2435d6fe36bf5/README.md"
   },
   "miscUrl": "ipfs://QmeSt2mnJKE8qmRhLyYbHQQxDKpsFbcWnw5e7JF4xVbN6k",
   "chainId": 84532
