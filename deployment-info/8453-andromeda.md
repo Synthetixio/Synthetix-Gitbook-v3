@@ -19146,8 +19146,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0.0005</td>
-      <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
+      <td>0.001</td>
+      <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
 </table>
@@ -19342,8 +19342,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0.0005</td>
-      <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
+      <td>0.001</td>
+      <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
 </table>
@@ -19538,8 +19538,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>takerFee</td>
-      <td>0.0005</td>
-      <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
+      <td>0.001</td>
+      <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
     </tr>
   </tbody>
 </table>
