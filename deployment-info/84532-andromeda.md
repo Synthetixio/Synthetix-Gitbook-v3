@@ -21082,6 +21082,790 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
   </tbody>
 </table>
 
+# Perps Market PENGU / Pudgy Penguins
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Parameter name</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ID:</td>
+      <td>9600</td>
+      <td><code>9600</code> / <code>0x2580</code></td>
+    </tr>
+    <tr>
+      <td>maxMarketSize</td>
+      <td>2 b</td>
+      <td><code>2000000000000000000000000000</code> / <code>0x06765c793fa10079d0000000</code></td>
+    </tr>
+    <tr>
+      <td>maxMarketValue</td>
+      <td>3 m</td>
+      <td><code>3000000000000000000000000</code> / <code>0x027b46536c66c8e3000000</code></td>
+    </tr>
+    <tr>
+      <td>lockedOiRatio</td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Funding parameters</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>skewScale</td>
+      <td>300 m</td>
+      <td><code>300000000000000000000000000</code> / <code>0xf8277896582678ac000000</code></td>
+    </tr>
+    <tr>
+      <td>maxFundingVelocity</td>
+      <td>9</td>
+      <td><code>9000000000000000000</code> / <code>0x7ce66c50e2840000</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Order fees</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>makerFee</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>takerFee</td>
+      <td>0.001</td>
+      <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Liquidation parameters</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>initialMarginRatioD18</td>
+      <td>2.453</td>
+      <td><code>2453000000000000000</code> / <code>0x220ace80e2088000</code></td>
+    </tr>
+    <tr>
+      <td>minimumInitialMarginRatioD18</td>
+      <td>0.317</td>
+      <td><code>317000000000000000</code> / <code>0x046635d209cc8000</code></td>
+    </tr>
+    <tr>
+      <td>maintenanceMarginScalarD18</td>
+      <td>0.05</td>
+      <td><code>50000000000000000</code> / <code>0xb1a2bc2ec50000</code></td>
+    </tr>
+    <tr>
+      <td>flagRewardRatioD18</td>
+      <td>0.0003</td>
+      <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
+    </tr>
+    <tr>
+      <td>minimumPositionMargin</td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
+    </tr>
+    <tr>
+      <td>maxLiquidationLimitAccumulationMultiplier</td>
+      <td>1.5</td>
+      <td><code>1500000000000000000</code> / <code>0x14d1120d7b160000</code></td>
+    </tr>
+    <tr>
+      <td>maxLiquidationPd</td>
+      <td>0.0005</td>
+      <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
+    </tr>
+    <tr>
+      <td>maxSecondsInLiquidationWindow</td>
+      <td>30</td>
+      <td><code>30</code> / <code>0x1e</code></td>
+    </tr>
+    <tr>
+      <td>endorsedLiquidator</td>
+      <td></td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0x11233749514Ab8d00C0A5873DF7428b3db70030f"><code>0x11233749514Ab8d00C0A5873DF7428b3db70030f</code></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Settlement strategy parameters</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>strategyId</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>strategyType</td>
+      <td>PYTH</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>settlementDelay</td>
+      <td>2</td>
+      <td><code>2</code> / <code>0x02</code></td>
+    </tr>
+    <tr>
+      <td>settlementWindowDuration</td>
+      <td>60</td>
+      <td><code>60</code> / <code>0x3c</code></td>
+    </tr>
+    <tr>
+      <td>priceVerificationContract</td>
+      <td></td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>feedId</td>
+      <td></td>
+      <td><code>"0xbed3097008b9b5e3c93bec20be79cb43986b85a996475589351a21e67bae9b61"</code></td>
+    </tr>
+    <tr>
+      <td>settlementReward</td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
+    </tr>
+    <tr>
+      <td>disabled</td>
+      <td>✅ Enabled</td>
+      <td><code>false</code></td>
+    </tr>
+    <tr>
+      <td>commitmentPriceDelay</td>
+      <td>2</td>
+      <td><code>2</code> / <code>0x02</code></td>
+    </tr>
+  </tbody>
+</table>
+
+# Perps Market VIRTUAL / Virtuals Protocol
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Parameter name</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ID:</td>
+      <td>9700</td>
+      <td><code>9700</code> / <code>0x25e4</code></td>
+    </tr>
+    <tr>
+      <td>maxMarketSize</td>
+      <td>0.5 m</td>
+      <td><code>500000000000000000000000</code> / <code>0x69e10de76676d0800000</code></td>
+    </tr>
+    <tr>
+      <td>maxMarketValue</td>
+      <td>0.7 m</td>
+      <td><code>700000000000000000000000</code> / <code>0x943b1377290cbd800000</code></td>
+    </tr>
+    <tr>
+      <td>lockedOiRatio</td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Funding parameters</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>skewScale</td>
+      <td>2 m</td>
+      <td><code>2000000000000000000000000</code> / <code>0x01a784379d99db42000000</code></td>
+    </tr>
+    <tr>
+      <td>maxFundingVelocity</td>
+      <td>9</td>
+      <td><code>9000000000000000000</code> / <code>0x7ce66c50e2840000</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Order fees</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>makerFee</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>takerFee</td>
+      <td>0.001</td>
+      <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Liquidation parameters</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>initialMarginRatioD18</td>
+      <td>1.264</td>
+      <td><code>1264000000000000000</code> / <code>0x118aa14d94180000</code></td>
+    </tr>
+    <tr>
+      <td>minimumInitialMarginRatioD18</td>
+      <td>0.317</td>
+      <td><code>317000000000000000</code> / <code>0x046635d209cc8000</code></td>
+    </tr>
+    <tr>
+      <td>maintenanceMarginScalarD18</td>
+      <td>0.05</td>
+      <td><code>50000000000000000</code> / <code>0xb1a2bc2ec50000</code></td>
+    </tr>
+    <tr>
+      <td>flagRewardRatioD18</td>
+      <td>0.0003</td>
+      <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
+    </tr>
+    <tr>
+      <td>minimumPositionMargin</td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
+    </tr>
+    <tr>
+      <td>maxLiquidationLimitAccumulationMultiplier</td>
+      <td>1.5</td>
+      <td><code>1500000000000000000</code> / <code>0x14d1120d7b160000</code></td>
+    </tr>
+    <tr>
+      <td>maxLiquidationPd</td>
+      <td>0.0005</td>
+      <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
+    </tr>
+    <tr>
+      <td>maxSecondsInLiquidationWindow</td>
+      <td>30</td>
+      <td><code>30</code> / <code>0x1e</code></td>
+    </tr>
+    <tr>
+      <td>endorsedLiquidator</td>
+      <td></td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0x11233749514Ab8d00C0A5873DF7428b3db70030f"><code>0x11233749514Ab8d00C0A5873DF7428b3db70030f</code></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Settlement strategy parameters</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>strategyId</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>strategyType</td>
+      <td>PYTH</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>settlementDelay</td>
+      <td>2</td>
+      <td><code>2</code> / <code>0x02</code></td>
+    </tr>
+    <tr>
+      <td>settlementWindowDuration</td>
+      <td>60</td>
+      <td><code>60</code> / <code>0x3c</code></td>
+    </tr>
+    <tr>
+      <td>priceVerificationContract</td>
+      <td></td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>feedId</td>
+      <td></td>
+      <td><code>"0x8132e3eb1dac3e56939a16ff83848d194345f6688bff97eb1c8bd462d558802b"</code></td>
+    </tr>
+    <tr>
+      <td>settlementReward</td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
+    </tr>
+    <tr>
+      <td>disabled</td>
+      <td>✅ Enabled</td>
+      <td><code>false</code></td>
+    </tr>
+    <tr>
+      <td>commitmentPriceDelay</td>
+      <td>2</td>
+      <td><code>2</code> / <code>0x02</code></td>
+    </tr>
+  </tbody>
+</table>
+
+# Perps Market KMNO / Kamino
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Parameter name</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ID:</td>
+      <td>9800</td>
+      <td><code>9800</code> / <code>0x2648</code></td>
+    </tr>
+    <tr>
+      <td>maxMarketSize</td>
+      <td>2 m</td>
+      <td><code>2000000000000000000000000</code> / <code>0x01a784379d99db42000000</code></td>
+    </tr>
+    <tr>
+      <td>maxMarketValue</td>
+      <td>200 k</td>
+      <td><code>200000000000000000000000</code> / <code>0x2a5a058fc295ed000000</code></td>
+    </tr>
+    <tr>
+      <td>lockedOiRatio</td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Funding parameters</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>skewScale</td>
+      <td>5 m</td>
+      <td><code>5000000000000000000000000</code> / <code>0x0422ca8b0a00a425000000</code></td>
+    </tr>
+    <tr>
+      <td>maxFundingVelocity</td>
+      <td>9</td>
+      <td><code>9000000000000000000</code> / <code>0x7ce66c50e2840000</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Order fees</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>makerFee</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>takerFee</td>
+      <td>0.001</td>
+      <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Liquidation parameters</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>initialMarginRatioD18</td>
+      <td>0.291</td>
+      <td><code>291000000000000000</code> / <code>0x0409d6f54da38000</code></td>
+    </tr>
+    <tr>
+      <td>minimumInitialMarginRatioD18</td>
+      <td>0.317</td>
+      <td><code>317000000000000000</code> / <code>0x046635d209cc8000</code></td>
+    </tr>
+    <tr>
+      <td>maintenanceMarginScalarD18</td>
+      <td>0.05</td>
+      <td><code>50000000000000000</code> / <code>0xb1a2bc2ec50000</code></td>
+    </tr>
+    <tr>
+      <td>flagRewardRatioD18</td>
+      <td>0.0003</td>
+      <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
+    </tr>
+    <tr>
+      <td>minimumPositionMargin</td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
+    </tr>
+    <tr>
+      <td>maxLiquidationLimitAccumulationMultiplier</td>
+      <td>1.5</td>
+      <td><code>1500000000000000000</code> / <code>0x14d1120d7b160000</code></td>
+    </tr>
+    <tr>
+      <td>maxLiquidationPd</td>
+      <td>0.0005</td>
+      <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
+    </tr>
+    <tr>
+      <td>maxSecondsInLiquidationWindow</td>
+      <td>30</td>
+      <td><code>30</code> / <code>0x1e</code></td>
+    </tr>
+    <tr>
+      <td>endorsedLiquidator</td>
+      <td></td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0x11233749514Ab8d00C0A5873DF7428b3db70030f"><code>0x11233749514Ab8d00C0A5873DF7428b3db70030f</code></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Settlement strategy parameters</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>strategyId</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>strategyType</td>
+      <td>PYTH</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>settlementDelay</td>
+      <td>2</td>
+      <td><code>2</code> / <code>0x02</code></td>
+    </tr>
+    <tr>
+      <td>settlementWindowDuration</td>
+      <td>60</td>
+      <td><code>60</code> / <code>0x3c</code></td>
+    </tr>
+    <tr>
+      <td>priceVerificationContract</td>
+      <td></td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>feedId</td>
+      <td></td>
+      <td><code>"0xb17e5bc5de742a8a378b54c9c75442b7d51e30ada63f28d9bd28d3c0e26511a0"</code></td>
+    </tr>
+    <tr>
+      <td>settlementReward</td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
+    </tr>
+    <tr>
+      <td>disabled</td>
+      <td>✅ Enabled</td>
+      <td><code>false</code></td>
+    </tr>
+    <tr>
+      <td>commitmentPriceDelay</td>
+      <td>2</td>
+      <td><code>2</code> / <code>0x02</code></td>
+    </tr>
+  </tbody>
+</table>
+
+# Perps Market FARTCOIN / Fartcoin
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Parameter name</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ID:</td>
+      <td>9900</td>
+      <td><code>9900</code> / <code>0x26ac</code></td>
+    </tr>
+    <tr>
+      <td>maxMarketSize</td>
+      <td>2.5 m</td>
+      <td><code>2500000000000000000000000</code> / <code>0x0211654585005212800000</code></td>
+    </tr>
+    <tr>
+      <td>maxMarketValue</td>
+      <td>2 m</td>
+      <td><code>2000000000000000000000000</code> / <code>0x01a784379d99db42000000</code></td>
+    </tr>
+    <tr>
+      <td>lockedOiRatio</td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Funding parameters</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>skewScale</td>
+      <td>7 m</td>
+      <td><code>7000000000000000000000000</code> / <code>0x05ca4ec2a79a7f67000000</code></td>
+    </tr>
+    <tr>
+      <td>maxFundingVelocity</td>
+      <td>9</td>
+      <td><code>9000000000000000000</code> / <code>0x7ce66c50e2840000</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Order fees</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>makerFee</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>takerFee</td>
+      <td>0.001</td>
+      <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Liquidation parameters</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>initialMarginRatioD18</td>
+      <td>2.809</td>
+      <td><code>2809000000000000000</code> / <code>0x26fb929e06128000</code></td>
+    </tr>
+    <tr>
+      <td>minimumInitialMarginRatioD18</td>
+      <td>0.317</td>
+      <td><code>317000000000000000</code> / <code>0x046635d209cc8000</code></td>
+    </tr>
+    <tr>
+      <td>maintenanceMarginScalarD18</td>
+      <td>0.05</td>
+      <td><code>50000000000000000</code> / <code>0xb1a2bc2ec50000</code></td>
+    </tr>
+    <tr>
+      <td>flagRewardRatioD18</td>
+      <td>0.0003</td>
+      <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
+    </tr>
+    <tr>
+      <td>minimumPositionMargin</td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
+    </tr>
+    <tr>
+      <td>maxLiquidationLimitAccumulationMultiplier</td>
+      <td>1.5</td>
+      <td><code>1500000000000000000</code> / <code>0x14d1120d7b160000</code></td>
+    </tr>
+    <tr>
+      <td>maxLiquidationPd</td>
+      <td>0.0005</td>
+      <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
+    </tr>
+    <tr>
+      <td>maxSecondsInLiquidationWindow</td>
+      <td>30</td>
+      <td><code>30</code> / <code>0x1e</code></td>
+    </tr>
+    <tr>
+      <td>endorsedLiquidator</td>
+      <td></td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0x11233749514Ab8d00C0A5873DF7428b3db70030f"><code>0x11233749514Ab8d00C0A5873DF7428b3db70030f</code></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Settlement strategy parameters</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>strategyId</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>strategyType</td>
+      <td>PYTH</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>settlementDelay</td>
+      <td>2</td>
+      <td><code>2</code> / <code>0x02</code></td>
+    </tr>
+    <tr>
+      <td>settlementWindowDuration</td>
+      <td>60</td>
+      <td><code>60</code> / <code>0x3c</code></td>
+    </tr>
+    <tr>
+      <td>priceVerificationContract</td>
+      <td></td>
+      <td>
+        <a href="https://sepolia.basescan.org/address/0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A"><code>0x21fDb21da8102DA4776e2de1AbD8901fF8c21a2A</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>feedId</td>
+      <td></td>
+      <td><code>"0x58cd29ef0e714c5affc44f269b2c1899a52da4169d7acc147b9da692e6953608"</code></td>
+    </tr>
+    <tr>
+      <td>settlementReward</td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
+    </tr>
+    <tr>
+      <td>disabled</td>
+      <td>✅ Enabled</td>
+      <td><code>false</code></td>
+    </tr>
+    <tr>
+      <td>commitmentPriceDelay</td>
+      <td>2</td>
+      <td><code>2</code> / <code>0x02</code></td>
+    </tr>
+  </tbody>
+</table>
+
 # Rewards Distributor: Spartan Council Pool USDC Rewards
 
 <table data-full-width="true">
