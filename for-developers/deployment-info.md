@@ -752,6 +752,17 @@
         ><br />salt: rewards
       </td>
     </tr>
+    <tr>
+      <td>RewardsDistributor_susdc_liquidation_rewards</td>
+      <td><a href="https://usecannon.com/packages/synthetix-rewards-dist-ext/3.6.0/8453-andromeda">synthetix-rewards-dist-ext:3.6.0@andromeda</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmfT7ahwBGAy5wvuT6eXEUNSS8sqampWZk3dRz4Zz7BhBk">QmfT7ahwBGAy5wvuT6eXEUNSS8sqampWZk3dRz4Zz7BhBk</a></td>
+      <td>
+        authorizedDistributor: <a href="https://basescan.org/address/0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce"><code>0x0A2AF931eFFd34b81ebcc57E3d3c9B1E1dE1C9Ce</code></a
+        ><br />name: Rewards Distributor (External) V3<br />payoutToken: <a href="https://basescan.org/address/0x22e6966B799c4D5B13BE962E1D117b56327FDa66"><code>0x22e6966B799c4D5B13BE962E1D117b56327FDa66</code></a
+        ><br />payoutTokenDecimals: 18<br />poolId: 1<br />rewardManager: <a href="https://basescan.org/address/0x32C222A9A159782aFD7529c87FA34b96CA72C696"><code>0x32C222A9A159782aFD7529c87FA34b96CA72C696</code></a
+        ><br />salt: rewards
+      </td>
+    </tr>
   </tbody>
 </table>
 
