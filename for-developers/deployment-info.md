@@ -832,8 +832,8 @@
     </tr>
     <tr>
       <td>perpsFactory</td>
-      <td><a href="https://usecannon.com/packages/synthetix-perps-market/3.10.1/84532-andromeda">synthetix-perps-market:3.10.1@andromeda</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmWWuo1FJfpJX8yenpQd1Ep35zj1Q8VDHtehm4WRkdiFFd">QmWWuo1FJfpJX8yenpQd1Ep35zj1Q8VDHtehm4WRkdiFFd</a></td>
+      <td><a href="https://usecannon.com/packages/synthetix-perps-market/3.11.1.orderbook/84532-andromeda">synthetix-perps-market:3.11.1.orderbook@andromeda</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmcpvtGrhzHxic3Z4f9UEMi961cRQsvJEebotjt8vsgH49">QmcpvtGrhzHxic3Z4f9UEMi961cRQsvJEebotjt8vsgH49</a></td>
       <td>
         coreProxyOwner: <a href="https://sepolia.basescan.org/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />owner: <a href="https://sepolia.basescan.org/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
@@ -874,8 +874,8 @@
     </tr>
     <tr>
       <td>perpsLowCapFactory</td>
-      <td><a href="https://usecannon.com/packages/synthetix-perps-market/3.10.1/84532-andromeda">synthetix-perps-market:3.10.1@andromeda</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmQU9qBE7yu6BkrEkr18HPgbmHG15YCnqkTtQdK35iAzi8">QmQU9qBE7yu6BkrEkr18HPgbmHG15YCnqkTtQdK35iAzi8</a></td>
+      <td><a href="https://usecannon.com/packages/synthetix-perps-market/3.11.1.orderbook/84532-andromeda">synthetix-perps-market:3.11.1.orderbook@andromeda</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/Qmb1P3LXnUXRftZwG8865en32pMZ2rMZ9269QxcsCh7qtf">Qmb1P3LXnUXRftZwG8865en32pMZ2rMZ9269QxcsCh7qtf</a></td>
       <td>
         coreProxyOwner: <a href="https://sepolia.basescan.org/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />owner: <a href="https://sepolia.basescan.org/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
