@@ -13,7 +13,7 @@
     <tr>
       <td>system</td>
       <td><a href="https://usecannon.com/packages/synthetix/3.8.0/1-main">synthetix:3.8.0@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmdXSK7hogiZutb3ecJsy1e97tUK9nN9v5tcFqkUnTMV1y">QmdXSK7hogiZutb3ecJsy1e97tUK9nN9v5tcFqkUnTMV1y</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmSPDKeEK6hgKECTmBfvm6LaQNnUKV6f9unubU8JDnrad5">QmSPDKeEK6hgKECTmBfvm6LaQNnUKV6f9unubU8JDnrad5</a></td>
       <td>
         account_token_name: Synthetix Account<br />account_token_symbol: SACCT<br />bundleSalt: main<br />oracle_manager_package: oracle-manager<br />owner: <a href="https://etherscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />salt: main<br />usd_token_name: Synthetic USD Token v3<br />usd_token_symbol: sUSD
@@ -832,8 +832,8 @@
     </tr>
     <tr>
       <td>perpsFactory</td>
-      <td><a href="https://usecannon.com/packages/synthetix-perps-market/3.11.1.orderbook/84532-andromeda">synthetix-perps-market:3.11.1.orderbook@andromeda</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmcpvtGrhzHxic3Z4f9UEMi961cRQsvJEebotjt8vsgH49">QmcpvtGrhzHxic3Z4f9UEMi961cRQsvJEebotjt8vsgH49</a></td>
+      <td><a href="https://usecannon.com/packages/synthetix-perps-market/3.11.2-orderbook/84532-andromeda">synthetix-perps-market:3.11.2-orderbook@andromeda</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmfCaDt8EzWhSLm7LeZ1ddKRRY8SCijjVoaE8CszUzhZB1">QmfCaDt8EzWhSLm7LeZ1ddKRRY8SCijjVoaE8CszUzhZB1</a></td>
       <td>
         coreProxyOwner: <a href="https://sepolia.basescan.org/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />owner: <a href="https://sepolia.basescan.org/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
@@ -874,8 +874,8 @@
     </tr>
     <tr>
       <td>perpsLowCapFactory</td>
-      <td><a href="https://usecannon.com/packages/synthetix-perps-market/3.11.1.orderbook/84532-andromeda">synthetix-perps-market:3.11.1.orderbook@andromeda</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/Qmb1P3LXnUXRftZwG8865en32pMZ2rMZ9269QxcsCh7qtf">Qmb1P3LXnUXRftZwG8865en32pMZ2rMZ9269QxcsCh7qtf</a></td>
+      <td><a href="https://usecannon.com/packages/synthetix-perps-market/3.11.2-orderbook/84532-andromeda">synthetix-perps-market:3.11.2-orderbook@andromeda</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmbtAfbh6u2fwgGJVQ5B8GUvKft4x8TFyCKe9H9ktAFcxs">QmbtAfbh6u2fwgGJVQ5B8GUvKft4x8TFyCKe9H9ktAFcxs</a></td>
       <td>
         coreProxyOwner: <a href="https://sepolia.basescan.org/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />owner: <a href="https://sepolia.basescan.org/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
