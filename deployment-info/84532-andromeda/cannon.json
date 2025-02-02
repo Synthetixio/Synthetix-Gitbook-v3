@@ -1,6 +1,6 @@
 {
   "generator": "cannon cli 2.21.0",
-  "timestamp": 1738081104,
+  "timestamp": 1738354669,
   "def": {
     "setting": {
       "snx_package": {
@@ -52,7 +52,7 @@
         "defaultValue": "<%= parseEther('0.2') %>"
       },
       "perps_market_package": {
-        "defaultValue": "synthetix-perps-market:3.11.1.orderbook"
+        "defaultValue": "synthetix-perps-market:3.11.2-orderbook"
       },
       "perps_super_market_name": {
         "defaultValue": "High MCap"
@@ -28331,7 +28331,7 @@
       }
     },
     "name": "synthetix-omnibus",
-    "version": "75",
+    "version": "76",
     "description": "Andromeda dev deployment",
     "preset": "andromeda",
     "deployers": [
@@ -34500,15 +34500,15 @@
       "artifacts": {
         "imports": {
           "perpsFactory": {
-            "url": "ipfs://QmcpvtGrhzHxic3Z4f9UEMi961cRQsvJEebotjt8vsgH49",
+            "url": "ipfs://QmfCaDt8EzWhSLm7LeZ1ddKRRY8SCijjVoaE8CszUzhZB1",
             "tags": [
               "latest"
             ],
-            "target": "synthetix-perps-market:3.11.1.orderbook@andromeda",
+            "target": "synthetix-perps-market:3.11.2-orderbook@andromeda",
             "preset": "andromeda",
             "contracts": {
               "AsyncOrderCancelModule": {
-                "address": "0x334bF08a4091A201dfA1e22BACE1129A73Be1bf6",
+                "address": "0x8fc50eBBa725bC0D153fcc5c5786fF75B3787D4A",
                 "abi": [
                   "error AcceptablePriceNotExceeded(uint256 fillPrice, uint256 acceptablePrice)",
                   "error AccountLiquidatable(uint128 accountId)",
@@ -34532,17 +34532,17 @@
                 ],
                 "constructorArgs": [],
                 "linkedLibraries": {},
-                "deployTxnHash": "0x746a8c762a35ed9d3a29505414f83c3c1f8230388ca07f36868d5d786072979b",
-                "deployTxnBlockNumber": "21156217",
-                "deployTimestamp": "1738080722",
+                "deployTxnHash": "0x1a6047f1bba2d37f563cc9fde1097887c9e11b8de967fc7e780602cc0320fd15",
+                "deployTxnBlockNumber": "21293017",
+                "deployTimestamp": "1738354322",
                 "sourceName": "contracts/modules/AsyncOrderCancelModule.sol",
                 "contractName": "AsyncOrderCancelModule",
                 "deployedOn": "contract.AsyncOrderCancelModule",
                 "gasUsed": 2089482,
-                "gasCost": "251032884"
+                "gasCost": "1000321"
               },
               "AsyncOrderModule": {
-                "address": "0xF88e13849A6Db5c2e06058949656EaC0E84f380C",
+                "address": "0x4F19CdA649fd252bb38a7681b165879016e3250E",
                 "abi": [
                   "error AccountLiquidatable(uint128 accountId)",
                   "error AccountNotFound(uint128 accountId)",
@@ -34579,17 +34579,17 @@
                 ],
                 "constructorArgs": [],
                 "linkedLibraries": {},
-                "deployTxnHash": "0x86eb57247e5434b08af17fd40ddaae26af8e1a7514a8361934bbc2dfeade1fe6",
-                "deployTxnBlockNumber": "21156220",
-                "deployTimestamp": "1738080728",
+                "deployTxnHash": "0x27f1c6fb86d232aa949faac4a551537d5b843f1e979ac669cc7864866518e8d5",
+                "deployTxnBlockNumber": "21293019",
+                "deployTimestamp": "1738354326",
                 "sourceName": "contracts/modules/AsyncOrderModule.sol",
                 "contractName": "AsyncOrderModule",
                 "deployedOn": "contract.AsyncOrderModule",
-                "gasUsed": 3831361,
-                "gasCost": "250770804"
+                "gasUsed": 3831349,
+                "gasCost": "1000321"
               },
               "AsyncOrderSettlementPythModule": {
-                "address": "0xe30a492C8bBAD9C5Fc64d961C3F21402dB104263",
+                "address": "0x2E045c2D0AD693E29B91E154a3461e1F50f2E231",
                 "abi": [
                   "error AcceptablePriceExceeded(uint256 fillPrice, uint256 acceptablePrice)",
                   "error AccountLiquidatable(uint128 accountId)",
@@ -34625,17 +34625,17 @@
                 ],
                 "constructorArgs": [],
                 "linkedLibraries": {},
-                "deployTxnHash": "0x991193ece7985cde8a6777d6d6c14e876760a9398eca3352850a218e56b79085",
-                "deployTxnBlockNumber": "21156222",
-                "deployTimestamp": "1738080732",
+                "deployTxnHash": "0xf052349f6f98a8ebba38e50009103da5e3af3ed17bdb356856105320159559b7",
+                "deployTxnBlockNumber": "21293021",
+                "deployTimestamp": "1738354330",
                 "sourceName": "contracts/modules/AsyncOrderSettlementPythModule.sol",
                 "contractName": "AsyncOrderSettlementPythModule",
                 "deployedOn": "contract.AsyncOrderSettlementPythModule",
                 "gasUsed": 4202234,
-                "gasCost": "250626003"
+                "gasCost": "1000320"
               },
               "BookOrderModule": {
-                "address": "0xb07f612873E55fA25ed1bcD481D28EdBb970753C",
+                "address": "0x06e212c895abf0170C8401a9D5410f8E127F1970",
                 "abi": [
                   "error AccountLiquidatable(uint128 accountId)",
                   "error AccountNotFound(uint128 accountId)",
@@ -34663,22 +34663,23 @@
                   "event ItsGreater(uint128 accountId, uint128 cmpAccountId)",
                   "event MarketUpdated(uint128 marketId, uint256 price, int256 skew, uint256 size, int256 sizeDelta, int256 currentFundingRate, int256 currentFundingVelocity, uint128 interestRate)",
                   "event OrderSettled(uint128 indexed marketId, uint128 indexed accountId, uint256 fillPrice, int256 pnl, int256 accruedFunding, int128 sizeDelta, int128 newSize, uint256 totalFees, uint256 referralFees, uint256 collectedFees, uint256 settlementReward, bytes32 indexed trackingCode, address settler)",
+                  "function getOrderMode(uint128 accountId) view returns (bytes16)",
                   "function setBookMode(uint128 accountId, bool useBook)",
                   "function settleBookOrders(uint128 marketId, tuple(uint128 accountId, int128 sizeDelta, uint256 orderPrice, bytes signedPriceData, bytes32 trackingCode)[] orders) returns (tuple(uint8 status)[] cancelledOrders)"
                 ],
                 "constructorArgs": [],
                 "linkedLibraries": {},
-                "deployTxnHash": "0xecbc054e8a91ae0280b833a7b5dfd680867af912199794eba5f53c9ae88567c1",
-                "deployTxnBlockNumber": "21156224",
-                "deployTimestamp": "1738080736",
+                "deployTxnHash": "0x3dac20bb9e3fb1dbc276cd9ee7f2e810d585b0628e8922057701a3b625747df1",
+                "deployTxnBlockNumber": "21293023",
+                "deployTimestamp": "1738354334",
                 "sourceName": "contracts/modules/BookOrderModule.sol",
                 "contractName": "BookOrderModule",
                 "deployedOn": "contract.BookOrderModule",
-                "gasUsed": 3269853,
-                "gasCost": "251357700"
+                "gasUsed": 3292478,
+                "gasCost": "1000321"
               },
               "CollateralConfigurationModule": {
-                "address": "0x855A9213cA7E9BD7a34213CB6a27F6686D119681",
+                "address": "0x79402ca777Cc97BdAcb4CB2C6fA05B36EE5ff080",
                 "abi": [
                   "error InvalidDistributor(uint128 id, address distributor)",
                   "error InvalidDistributorContract(address distributor)",
@@ -34702,14 +34703,14 @@
                 ],
                 "constructorArgs": [],
                 "linkedLibraries": {},
-                "deployTxnHash": "0x4926db96dcda898f42531378a57affc7c050a1d052faad67697641026d1b9e8a",
-                "deployTxnBlockNumber": "21156227",
-                "deployTimestamp": "1738080742",
+                "deployTxnHash": "0x97cf702c3936646da59c909587c4d22f0faf468acb3ae1414fd6e6ca4688ac19",
+                "deployTxnBlockNumber": "21293025",
+                "deployTimestamp": "1738354338",
                 "sourceName": "contracts/modules/CollateralConfigurationModule.sol",
                 "contractName": "CollateralConfigurationModule",
                 "deployedOn": "contract.CollateralConfigurationModule",
                 "gasUsed": 904043,
-                "gasCost": "251614686"
+                "gasCost": "1000321"
               },
               "CoreModule": {
                 "address": "0x0c487767e6e0d598f48fc43150D2159aA84EA66e",
@@ -34776,7 +34777,7 @@
                 "gasCost": "1000256"
               },
               "GlobalPerpsMarketModule": {
-                "address": "0x47aeE01b92D2C015DA78f6375738E670FAD4AE72",
+                "address": "0x822B0EaEb455dB1F5dec92511afB29227C7061d1",
                 "abi": [
                   "error InvalidFeeCollectorInterface(address invalidFeeCollector)",
                   "error InvalidInterestRateParameters(uint128 lowUtilizationInterestRateGradient, uint128 highUtilizationInterestRateGradient)",
@@ -34815,17 +34816,17 @@
                 ],
                 "constructorArgs": [],
                 "linkedLibraries": {},
-                "deployTxnHash": "0x458520df97c3e941ff4ab7e7e5849d45adbe7e1cf6f16f6d63ca3cb449facb68",
-                "deployTxnBlockNumber": "21156229",
-                "deployTimestamp": "1738080746",
+                "deployTxnHash": "0x9f15c3c0031d62c968816e1f520139e388f2b7275efb986305d4c5e0bbffa814",
+                "deployTxnBlockNumber": "21293027",
+                "deployTimestamp": "1738354342",
                 "sourceName": "contracts/modules/GlobalPerpsMarketModule.sol",
                 "contractName": "GlobalPerpsMarketModule",
                 "deployedOn": "contract.GlobalPerpsMarketModule",
-                "gasUsed": 1857643,
-                "gasCost": "252492172"
+                "gasUsed": 1857631,
+                "gasCost": "1000322"
               },
               "LiquidationModule": {
-                "address": "0xd8485b0f7c9144580a6f68b462ceC0aE6EA6d138",
+                "address": "0x4A64a5DF61849e64CF8883DAba04f26613F09f84",
                 "abi": [
                   "error AccountHasOpenPositions(uint128 accountId)",
                   "error FeatureUnavailable(bytes32 which)",
@@ -34859,17 +34860,17 @@
                 ],
                 "constructorArgs": [],
                 "linkedLibraries": {},
-                "deployTxnHash": "0x8749432336ac7695162779a14452cf27a5804bba5ee63027ad5a3199bb782099",
-                "deployTxnBlockNumber": "21156231",
-                "deployTimestamp": "1738080750",
+                "deployTxnHash": "0x1171f265046b000485d8b3b085585c49aa01079c006bfa9f5adabc3c97082776",
+                "deployTxnBlockNumber": "21293030",
+                "deployTimestamp": "1738354348",
                 "sourceName": "contracts/modules/LiquidationModule.sol",
                 "contractName": "LiquidationModule",
                 "deployedOn": "contract.LiquidationModule",
                 "gasUsed": 4156910,
-                "gasCost": "252712479"
+                "gasCost": "1000322"
               },
               "MarketConfigurationModule": {
-                "address": "0xA90428277d34FD6d4F082A6fA7383B400E9A5fC6",
+                "address": "0xBdea5E2bE0afCf9822B2C31a2e1eDA62B05eBeD9",
                 "abi": [
                   "error InvalidSettlementStrategy(uint256 settlementStrategyId)",
                   "error InvalidSettlementWindowDuration(uint256 duration)",
@@ -34907,17 +34908,17 @@
                 ],
                 "constructorArgs": [],
                 "linkedLibraries": {},
-                "deployTxnHash": "0xcd8ecda90b6748d964bc52eca166e4a0176e748775c8c8b3f1ca4728d6e4b118",
-                "deployTxnBlockNumber": "21156233",
-                "deployTimestamp": "1738080754",
+                "deployTxnHash": "0x3e1337aa69f50a3aa382c344080fdcf02f25b1543b4187cae0663d801efbe87c",
+                "deployTxnBlockNumber": "21293033",
+                "deployTimestamp": "1738354354",
                 "sourceName": "contracts/modules/MarketConfigurationModule.sol",
                 "contractName": "MarketConfigurationModule",
                 "deployedOn": "contract.MarketConfigurationModule",
-                "gasUsed": 1064187,
-                "gasCost": "252870128"
+                "gasUsed": 1064175,
+                "gasCost": "1000323"
               },
               "PerpsAccountModule": {
-                "address": "0x3A009F0EDe0756c7A85a25d90ec0a300e317aC02",
+                "address": "0x4FBd6F031E82b10aA006B7E597EbF9A8AEF1473b",
                 "abi": [
                   "error AccountLiquidatable(uint128 accountId)",
                   "error AccountNotFound(uint128 accountId)",
@@ -34966,17 +34967,17 @@
                 ],
                 "constructorArgs": [],
                 "linkedLibraries": {},
-                "deployTxnHash": "0xaf8980e68bebeaf7e390a7ec594f21f9fef76198e43d6fffbe367c9d893eda0c",
-                "deployTxnBlockNumber": "21156235",
-                "deployTimestamp": "1738080758",
+                "deployTxnHash": "0xef9de8a48c5159a17fdec4b13c72e312c0c9ad2ebc4466ae5008eaa5ba2aabba",
+                "deployTxnBlockNumber": "21293035",
+                "deployTimestamp": "1738354358",
                 "sourceName": "contracts/modules/PerpsAccountModule.sol",
                 "contractName": "PerpsAccountModule",
                 "deployedOn": "contract.PerpsAccountModule",
                 "gasUsed": 4235010,
-                "gasCost": "252440211"
+                "gasCost": "1000323"
               },
               "PerpsMarketFactoryModule": {
-                "address": "0x471E8591f07a867915C558be494D5a0e6dF919BA",
+                "address": "0x70FDeBD9a908F4fBacd876FD51B1c81067275756",
                 "abi": [
                   "error FeatureUnavailable(bytes32 which)",
                   "error InvalidMarket(uint128 marketId)",
@@ -35003,17 +35004,17 @@
                 ],
                 "constructorArgs": [],
                 "linkedLibraries": {},
-                "deployTxnHash": "0x4cd84422e54ad447d923fef0fd25604c6ea96be06c539d416bb338dcf09a8c5b",
-                "deployTxnBlockNumber": "21156253",
-                "deployTimestamp": "1738080794",
+                "deployTxnHash": "0xbce6221e88a6eeb529b7e922cb5006c2e9ee5c85ff66698ad109f4287c899075",
+                "deployTxnBlockNumber": "21293037",
+                "deployTimestamp": "1738354362",
                 "sourceName": "contracts/modules/PerpsMarketFactoryModule.sol",
                 "contractName": "PerpsMarketFactoryModule",
                 "deployedOn": "contract.PerpsMarketFactoryModule",
                 "gasUsed": 2045508,
-                "gasCost": "247744449"
+                "gasCost": "1000324"
               },
               "PerpsMarketModule": {
-                "address": "0xdCb16BDdf2f5dF0F2cB649F683FD5141D7d57136",
+                "address": "0x85EB32606192F41272C3e7D31B94c7FC87a7281f",
                 "abi": [
                   "error OverflowInt256ToUint256()",
                   "error OverflowUint256ToInt256()",
@@ -35029,14 +35030,14 @@
                 ],
                 "constructorArgs": [],
                 "linkedLibraries": {},
-                "deployTxnHash": "0xb2635ad73000e59aac0e1a525b33a9899ad291a323727d3b8cfd51232e06ae3f",
-                "deployTxnBlockNumber": "21156255",
-                "deployTimestamp": "1738080798",
+                "deployTxnHash": "0x01b72d82d9c2e48d7af0e4c1aad96664c57281d40790f1cd16a10c123e444365",
+                "deployTxnBlockNumber": "21293040",
+                "deployTimestamp": "1738354368",
                 "sourceName": "contracts/modules/PerpsMarketModule.sol",
                 "contractName": "PerpsMarketModule",
                 "deployedOn": "contract.PerpsMarketModule",
                 "gasUsed": 905063,
-                "gasCost": "248883371"
+                "gasCost": "1000324"
               },
               "InitialProxy": {
                 "address": "0xf53Ca60F031FAf0E347D44FbaA4870da68250c8d",
@@ -35073,7 +35074,7 @@
                 "gasCost": "1000326"
               },
               "PerpsMarketRouter": {
-                "address": "0xd954a60f9607d7a63ee0dfcc13c8e72d4d76db8a",
+                "address": "0x58260c24789b0c67f6bb3e341504d4426149eeda",
                 "abi": [
                   "function facets() pure returns (tuple(address facetAddress, bytes4[] functionSelectors)[])",
                   "function facetFunctionSelectors(address facet) pure returns (bytes4[] functionSelectors)",
@@ -35219,6 +35220,7 @@
                   "event ItsGreater(uint128 accountId, uint128 cmpAccountId)",
                   "event MarketUpdated(uint128 marketId, uint256 price, int256 skew, uint256 size, int256 sizeDelta, int256 currentFundingRate, int256 currentFundingVelocity, uint128 interestRate)",
                   "event OrderSettled(uint128 indexed marketId, uint128 indexed accountId, uint256 fillPrice, int256 pnl, int256 accruedFunding, int128 sizeDelta, int128 newSize, uint256 totalFees, uint256 referralFees, uint256 collectedFees, uint256 settlementReward, bytes32 indexed trackingCode, address settler)",
+                  "function getOrderMode(uint128 accountId) view returns (bytes16)",
                   "function setBookMode(uint128 accountId, bool useBook)",
                   "function settleBookOrders(uint128 marketId, tuple(uint128 accountId, int128 sizeDelta, uint256 orderPrice, bytes signedPriceData, bytes32 trackingCode)[] orders) returns (tuple(uint8 status)[] cancelledOrders)",
                   "error AcceptablePriceExceeded(uint256 fillPrice, uint256 acceptablePrice)",
@@ -35332,13 +35334,13 @@
                   "function updateReferrerShare(address referrer, uint256 shareRatioD18)"
                 ],
                 "deployedOn": "router.PerpsMarketRouter",
-                "deployTxnHash": "0x86bc79d02200b5a69f4c8b70917add577d4b216d07d7c601393f6ca7683cc78f",
-                "deployTxnBlockNumber": "21156258",
-                "deployTimestamp": "1738080804",
+                "deployTxnHash": "0x8fee02e04c10d80af614c1a40f55c0a1067f22fd087d43bebf967515151c4091",
+                "deployTxnBlockNumber": "21293044",
+                "deployTimestamp": "1738354376",
                 "contractName": "PerpsMarketRouter",
                 "sourceName": "PerpsMarketRouter.sol",
-                "gasUsed": 5104490,
-                "gasCost": "248207554"
+                "gasUsed": 5116102,
+                "gasCost": "1000323"
               },
               "PerpsMarketProxy": {
                 "address": "0xf53Ca60F031FAf0E347D44FbaA4870da68250c8d",
@@ -35487,6 +35489,7 @@
                   "event ItsGreater(uint128 accountId, uint128 cmpAccountId)",
                   "event MarketUpdated(uint128 marketId, uint256 price, int256 skew, uint256 size, int256 sizeDelta, int256 currentFundingRate, int256 currentFundingVelocity, uint128 interestRate)",
                   "event OrderSettled(uint128 indexed marketId, uint128 indexed accountId, uint256 fillPrice, int256 pnl, int256 accruedFunding, int128 sizeDelta, int128 newSize, uint256 totalFees, uint256 referralFees, uint256 collectedFees, uint256 settlementReward, bytes32 indexed trackingCode, address settler)",
+                  "function getOrderMode(uint128 accountId) view returns (bytes16)",
                   "function setBookMode(uint128 accountId, bool useBook)",
                   "function settleBookOrders(uint128 marketId, tuple(uint128 accountId, int128 sizeDelta, uint256 orderPrice, bytes signedPriceData, bytes32 trackingCode)[] orders) returns (tuple(uint8 status)[] cancelledOrders)",
                   "error AcceptablePriceExceeded(uint256 fillPrice, uint256 acceptablePrice)",
@@ -41224,23 +41227,23 @@
             },
             "txns": {
               "upgrade_proxy": {
-                "hash": "0x841b63c98afdac53b28cd0a17c4c8fe4f14431867126c0fd68173d7c20ac4411",
-                "blockNumber": "21156261",
-                "timestamp": "1738080810",
+                "hash": "0x1100306d041084f2af6769e2b1a66addcd39ed26fc078144a4e61ac66b9a9d97",
+                "blockNumber": "21293046",
+                "timestamp": "1738354380",
                 "events": {
                   "Upgraded": [
                     {
                       "name": "Upgraded",
                       "args": [
                         "0xf53Ca60F031FAf0E347D44FbaA4870da68250c8d",
-                        "0xd954a60F9607d7A63EE0DFCc13C8E72D4D76db8A"
+                        "0x58260c24789b0C67F6BB3E341504d4426149eEDa"
                       ]
                     }
                   ]
                 },
                 "deployedOn": "invoke.upgrade_proxy",
-                "gasUsed": 55721,
-                "gasCost": "248648878",
+                "gasUsed": 55765,
+                "gasCost": "1000323",
                 "signer": "0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"
               },
               "addCreateMarketToFeatureFlag": {
@@ -45192,10 +45195,10 @@
     "setting.perps_market_package": {
       "artifacts": {
         "settings": {
-          "perps_market_package": "synthetix-perps-market:3.11.1.orderbook"
+          "perps_market_package": "synthetix-perps-market:3.11.2-orderbook"
         }
       },
-      "hash": "a366b3a2fe6270a623eb7484ab857539",
+      "hash": "d6722904e4f4e70c46245fe576e231be",
       "version": 7
     },
     "setting.perps_super_market_name": {
@@ -61720,15 +61723,15 @@
       "artifacts": {
         "imports": {
           "perpsLowCapFactory": {
-            "url": "ipfs://Qmb1P3LXnUXRftZwG8865en32pMZ2rMZ9269QxcsCh7qtf",
+            "url": "ipfs://QmbtAfbh6u2fwgGJVQ5B8GUvKft4x8TFyCKe9H9ktAFcxs",
             "tags": [
               "latest"
             ],
-            "target": "synthetix-perps-market:3.11.1.orderbook@andromeda",
+            "target": "synthetix-perps-market:3.11.2-orderbook@andromeda",
             "preset": "andromeda",
             "contracts": {
               "AsyncOrderCancelModule": {
-                "address": "0xb869bD94732116ef9F4C792C5E8B08bDDd0FEDA4",
+                "address": "0x0e1212cA4204F09B21Da13325f0095cE04Eb2C85",
                 "abi": [
                   "error AcceptablePriceNotExceeded(uint256 fillPrice, uint256 acceptablePrice)",
                   "error AccountLiquidatable(uint128 accountId)",
@@ -61752,17 +61755,17 @@
                 ],
                 "constructorArgs": [],
                 "linkedLibraries": {},
-                "deployTxnHash": "0x14ce35b4138c36a3a1299a8aa073f02202836dc4178b0f4abb0e5eeca4e1c44f",
-                "deployTxnBlockNumber": "21156267",
-                "deployTimestamp": "1738080822",
+                "deployTxnHash": "0xe4321be2e89bf32601a6dc90068c152c47738f761d70d1a8fc567f14136bc70d",
+                "deployTxnBlockNumber": "21293051",
+                "deployTimestamp": "1738354390",
                 "sourceName": "contracts/modules/AsyncOrderCancelModule.sol",
                 "contractName": "AsyncOrderCancelModule",
                 "deployedOn": "contract.AsyncOrderCancelModule",
                 "gasUsed": 2089482,
-                "gasCost": "249282919"
+                "gasCost": "1000324"
               },
               "AsyncOrderModule": {
-                "address": "0x361b81Ef51068377b79AA672058dbCd256D4718F",
+                "address": "0x6BFde8D6B2D0C365a2446dB40E76320806545fD3",
                 "abi": [
                   "error AccountLiquidatable(uint128 accountId)",
                   "error AccountNotFound(uint128 accountId)",
@@ -61799,17 +61802,17 @@
                 ],
                 "constructorArgs": [],
                 "linkedLibraries": {},
-                "deployTxnHash": "0x79ac2b02ceddb2bc96bd9043192bc518acbab5e7912d5f788c8bb09702d19834",
-                "deployTxnBlockNumber": "21156269",
-                "deployTimestamp": "1738080826",
+                "deployTxnHash": "0x61ae7ad11e75a8b4f8025e170c247766379342930377d6c4e6e32b003aac72c1",
+                "deployTxnBlockNumber": "21293054",
+                "deployTimestamp": "1738354396",
                 "sourceName": "contracts/modules/AsyncOrderModule.sol",
                 "contractName": "AsyncOrderModule",
                 "deployedOn": "contract.AsyncOrderModule",
-                "gasUsed": 3831361,
-                "gasCost": "249016972"
+                "gasUsed": 3831349,
+                "gasCost": "1000323"
               },
               "AsyncOrderSettlementPythModule": {
-                "address": "0x3Dc75ab8Ebdd3cf4EA1F2558122D0efB56bE1dD9",
+                "address": "0xc4625AdC6c4fCc64BCbEc8E07b02028E6d34147B",
                 "abi": [
                   "error AcceptablePriceExceeded(uint256 fillPrice, uint256 acceptablePrice)",
                   "error AccountLiquidatable(uint128 accountId)",
@@ -61845,17 +61848,17 @@
                 ],
                 "constructorArgs": [],
                 "linkedLibraries": {},
-                "deployTxnHash": "0xc3df985b134d22b4a5e6a53d75c6e5cb09cfeffd70d29430b08d890177cb48ae",
-                "deployTxnBlockNumber": "21156271",
-                "deployTimestamp": "1738080830",
+                "deployTxnHash": "0xf62093d4ab80667529ccdf69dfdaf02c1320012d790d5e5eaa9989faca1c17a6",
+                "deployTxnBlockNumber": "21293056",
+                "deployTimestamp": "1738354400",
                 "sourceName": "contracts/modules/AsyncOrderSettlementPythModule.sol",
                 "contractName": "AsyncOrderSettlementPythModule",
                 "deployedOn": "contract.AsyncOrderSettlementPythModule",
                 "gasUsed": 4202234,
-                "gasCost": "248860643"
+                "gasCost": "1000323"
               },
               "BookOrderModule": {
-                "address": "0x4989D2a1adD8BDDfc88AADB524ee423771BE9a78",
+                "address": "0xc571f52f1f3CC3a1c3Cd1b6B60Bb659c838F0770",
                 "abi": [
                   "error AccountLiquidatable(uint128 accountId)",
                   "error AccountNotFound(uint128 accountId)",
@@ -61883,22 +61886,23 @@
                   "event ItsGreater(uint128 accountId, uint128 cmpAccountId)",
                   "event MarketUpdated(uint128 marketId, uint256 price, int256 skew, uint256 size, int256 sizeDelta, int256 currentFundingRate, int256 currentFundingVelocity, uint128 interestRate)",
                   "event OrderSettled(uint128 indexed marketId, uint128 indexed accountId, uint256 fillPrice, int256 pnl, int256 accruedFunding, int128 sizeDelta, int128 newSize, uint256 totalFees, uint256 referralFees, uint256 collectedFees, uint256 settlementReward, bytes32 indexed trackingCode, address settler)",
+                  "function getOrderMode(uint128 accountId) view returns (bytes16)",
                   "function setBookMode(uint128 accountId, bool useBook)",
                   "function settleBookOrders(uint128 marketId, tuple(uint128 accountId, int128 sizeDelta, uint256 orderPrice, bytes signedPriceData, bytes32 trackingCode)[] orders) returns (tuple(uint8 status)[] cancelledOrders)"
                 ],
                 "constructorArgs": [],
                 "linkedLibraries": {},
-                "deployTxnHash": "0xcdbbd8701f1e8cac5bec2d2e1c4a13cc400371876658eae84a621413b7943789",
-                "deployTxnBlockNumber": "21156273",
-                "deployTimestamp": "1738080834",
+                "deployTxnHash": "0x9709b69ed161c818556f3fa260fac0af0d49b61218982843fa47f97e36580258",
+                "deployTxnBlockNumber": "21293058",
+                "deployTimestamp": "1738354404",
                 "sourceName": "contracts/modules/BookOrderModule.sol",
                 "contractName": "BookOrderModule",
                 "deployedOn": "contract.BookOrderModule",
-                "gasUsed": 3269853,
-                "gasCost": "250917002"
+                "gasUsed": 3292478,
+                "gasCost": "1000323"
               },
               "CollateralConfigurationModule": {
-                "address": "0x7cCD783DA2661FB22A75b322A086e05028CEf5cC",
+                "address": "0x7B9C652726b42179c4A0D966aec075885C80ffBA",
                 "abi": [
                   "error InvalidDistributor(uint128 id, address distributor)",
                   "error InvalidDistributorContract(address distributor)",
@@ -61922,14 +61926,14 @@
                 ],
                 "constructorArgs": [],
                 "linkedLibraries": {},
-                "deployTxnHash": "0x305d41da9fc1b3ef3c6af5ba3e05db799f1b46738f6f3752ddfca64998e762b6",
-                "deployTxnBlockNumber": "21156276",
-                "deployTimestamp": "1738080840",
+                "deployTxnHash": "0x590c10f0f37190363e3ace7a7d91e02450e17d32bafbb8170c858a34b234620f",
+                "deployTxnBlockNumber": "21293060",
+                "deployTimestamp": "1738354408",
                 "sourceName": "contracts/modules/CollateralConfigurationModule.sol",
                 "contractName": "CollateralConfigurationModule",
                 "deployedOn": "contract.CollateralConfigurationModule",
                 "gasUsed": 904043,
-                "gasCost": "250889651"
+                "gasCost": "1000323"
               },
               "CoreModule": {
                 "address": "0x0c487767e6e0d598f48fc43150D2159aA84EA66e",
@@ -61996,7 +62000,7 @@
                 "gasCost": "1000258"
               },
               "GlobalPerpsMarketModule": {
-                "address": "0x160dA6E4c5249007f37D125d7A986332beA9323F",
+                "address": "0xD131dF7Dd98A9844d96945efe723b60b0504D1e0",
                 "abi": [
                   "error InvalidFeeCollectorInterface(address invalidFeeCollector)",
                   "error InvalidInterestRateParameters(uint128 lowUtilizationInterestRateGradient, uint128 highUtilizationInterestRateGradient)",
@@ -62035,17 +62039,17 @@
                 ],
                 "constructorArgs": [],
                 "linkedLibraries": {},
-                "deployTxnHash": "0x73e4d51544c4e0391966981e0a16256cb2ff239f12c7fc55b498a774bdc78228",
-                "deployTxnBlockNumber": "21156279",
-                "deployTimestamp": "1738080846",
+                "deployTxnHash": "0xf20154cae36ecde8c25afeab603a0365f334f1defe54ce74c7406baa10b2e3b2",
+                "deployTxnBlockNumber": "21293062",
+                "deployTimestamp": "1738354412",
                 "sourceName": "contracts/modules/GlobalPerpsMarketModule.sol",
                 "contractName": "GlobalPerpsMarketModule",
                 "deployedOn": "contract.GlobalPerpsMarketModule",
-                "gasUsed": 1857643,
-                "gasCost": "254572983"
+                "gasUsed": 1857631,
+                "gasCost": "1000322"
               },
               "LiquidationModule": {
-                "address": "0xd22e2C5aC1722041A62DC66D43D7F8558b487EF6",
+                "address": "0x6acaFE853Ad21353C6aa4422dB44c7B8C3Ac42B0",
                 "abi": [
                   "error AccountHasOpenPositions(uint128 accountId)",
                   "error FeatureUnavailable(bytes32 which)",
@@ -62079,17 +62083,17 @@
                 ],
                 "constructorArgs": [],
                 "linkedLibraries": {},
-                "deployTxnHash": "0x6be153eba0a77d354b4a5ca2a8423633086d6c803f99ea077c763a8f0fe62fce",
-                "deployTxnBlockNumber": "21156281",
-                "deployTimestamp": "1738080850",
+                "deployTxnHash": "0x1bd852997b7c6864ab67bdfed54e057f99452bcd7039ed60d2d058cbc0fcab78",
+                "deployTxnBlockNumber": "21293065",
+                "deployTimestamp": "1738354418",
                 "sourceName": "contracts/modules/LiquidationModule.sol",
                 "contractName": "LiquidationModule",
                 "deployedOn": "contract.LiquidationModule",
                 "gasUsed": 4156910,
-                "gasCost": "255123342"
+                "gasCost": "1000322"
               },
               "MarketConfigurationModule": {
-                "address": "0xBD849353F00fFeb29f95a58dF3b6b50f44401832",
+                "address": "0x68a1c395a2Bc320c0F4ca07f583C3DB9b79392E0",
                 "abi": [
                   "error InvalidSettlementStrategy(uint256 settlementStrategyId)",
                   "error InvalidSettlementWindowDuration(uint256 duration)",
@@ -62127,17 +62131,17 @@
                 ],
                 "constructorArgs": [],
                 "linkedLibraries": {},
-                "deployTxnHash": "0x9c59419a6443ae121233c34c3ec0123ed9157b9e64e61dc6e38edd9a23771587",
-                "deployTxnBlockNumber": "21156283",
-                "deployTimestamp": "1738080854",
+                "deployTxnHash": "0xd4f1af657ea4a69e905fd2dd7c10cf22e938c7e391207411d94902fe325c00e0",
+                "deployTxnBlockNumber": "21293067",
+                "deployTimestamp": "1738354422",
                 "sourceName": "contracts/modules/MarketConfigurationModule.sol",
                 "contractName": "MarketConfigurationModule",
                 "deployedOn": "contract.MarketConfigurationModule",
-                "gasUsed": 1064187,
-                "gasCost": "257304706"
+                "gasUsed": 1064175,
+                "gasCost": "1000322"
               },
               "PerpsAccountModule": {
-                "address": "0x07d6D10f880618E58FDe720c1E38bD858eA1717c",
+                "address": "0x3cA3C78B6aADF110a4691C055a254d0c4C2A2cdA",
                 "abi": [
                   "error AccountLiquidatable(uint128 accountId)",
                   "error AccountNotFound(uint128 accountId)",
@@ -62186,17 +62190,17 @@
                 ],
                 "constructorArgs": [],
                 "linkedLibraries": {},
-                "deployTxnHash": "0x734dbb3b6c79ed7ff9bd388b85e1f0c2284fb556ff876042d2ec000dc5167fc7",
-                "deployTxnBlockNumber": "21156285",
-                "deployTimestamp": "1738080858",
+                "deployTxnHash": "0x8851e47740637b8e63fa42bb7052af46ad42827a7c253ad87c61d525db83bad7",
+                "deployTxnBlockNumber": "21293069",
+                "deployTimestamp": "1738354426",
                 "sourceName": "contracts/modules/PerpsAccountModule.sol",
                 "contractName": "PerpsAccountModule",
                 "deployedOn": "contract.PerpsAccountModule",
                 "gasUsed": 4235010,
-                "gasCost": "261338633"
+                "gasCost": "1000322"
               },
               "PerpsMarketFactoryModule": {
-                "address": "0x1a21394A2f9dc45B233D73E15A1cdFca998B5fe9",
+                "address": "0x0c0511D6A26b7c6aD65A9c014c43aE5A266e777b",
                 "abi": [
                   "error FeatureUnavailable(bytes32 which)",
                   "error InvalidMarket(uint128 marketId)",
@@ -62223,17 +62227,17 @@
                 ],
                 "constructorArgs": [],
                 "linkedLibraries": {},
-                "deployTxnHash": "0xfcafb4ce0d9e7d43af904052a1da53a56fc712d539fac65702dfe3e3cf30307e",
-                "deployTxnBlockNumber": "21156288",
-                "deployTimestamp": "1738080864",
+                "deployTxnHash": "0x10ecd1e2652cf4e8c7d9730fa7a294c8ada8d8fa386ada465b8d086e60c2dbfb",
+                "deployTxnBlockNumber": "21293072",
+                "deployTimestamp": "1738354432",
                 "sourceName": "contracts/modules/PerpsMarketFactoryModule.sol",
                 "contractName": "PerpsMarketFactoryModule",
                 "deployedOn": "contract.PerpsMarketFactoryModule",
                 "gasUsed": 2045508,
-                "gasCost": "264125506"
+                "gasCost": "1000323"
               },
               "PerpsMarketModule": {
-                "address": "0xc3E13c43e6315Ee4Aeb6a22a1167Ea1091Dc1F99",
+                "address": "0x5e35DcE09f93A09B55d962f399015c4aaE12370a",
                 "abi": [
                   "error OverflowInt256ToUint256()",
                   "error OverflowUint256ToInt256()",
@@ -62249,14 +62253,14 @@
                 ],
                 "constructorArgs": [],
                 "linkedLibraries": {},
-                "deployTxnHash": "0xcad7672c3e8403a94faa81641af0ae00391933a7c5fd964b7381225e4636988b",
-                "deployTxnBlockNumber": "21156290",
-                "deployTimestamp": "1738080868",
+                "deployTxnHash": "0x0fdfe4a9823931f8cb82c2f4aa58e08f2b6cba12847c9af877cef14d8992ad66",
+                "deployTxnBlockNumber": "21293074",
+                "deployTimestamp": "1738354436",
                 "sourceName": "contracts/modules/PerpsMarketModule.sol",
                 "contractName": "PerpsMarketModule",
                 "deployedOn": "contract.PerpsMarketModule",
                 "gasUsed": 905063,
-                "gasCost": "266733989"
+                "gasCost": "1000324"
               },
               "InitialProxy": {
                 "address": "0x0aacb1DDCF65d8347e3a2585cD78b423987cA04d",
@@ -62295,7 +62299,7 @@
                 "gasCost": "946739810"
               },
               "PerpsMarketRouter": {
-                "address": "0x9590e9dae8a7277ff20c2d6283d9395156b2af1e",
+                "address": "0x047b8f128839ceabc04f74c5d7ec0399c3c05d4d",
                 "abi": [
                   "function facets() pure returns (tuple(address facetAddress, bytes4[] functionSelectors)[])",
                   "function facetFunctionSelectors(address facet) pure returns (bytes4[] functionSelectors)",
@@ -62441,6 +62445,7 @@
                   "event ItsGreater(uint128 accountId, uint128 cmpAccountId)",
                   "event MarketUpdated(uint128 marketId, uint256 price, int256 skew, uint256 size, int256 sizeDelta, int256 currentFundingRate, int256 currentFundingVelocity, uint128 interestRate)",
                   "event OrderSettled(uint128 indexed marketId, uint128 indexed accountId, uint256 fillPrice, int256 pnl, int256 accruedFunding, int128 sizeDelta, int128 newSize, uint256 totalFees, uint256 referralFees, uint256 collectedFees, uint256 settlementReward, bytes32 indexed trackingCode, address settler)",
+                  "function getOrderMode(uint128 accountId) view returns (bytes16)",
                   "function setBookMode(uint128 accountId, bool useBook)",
                   "function settleBookOrders(uint128 marketId, tuple(uint128 accountId, int128 sizeDelta, uint256 orderPrice, bytes signedPriceData, bytes32 trackingCode)[] orders) returns (tuple(uint8 status)[] cancelledOrders)",
                   "error AcceptablePriceExceeded(uint256 fillPrice, uint256 acceptablePrice)",
@@ -62554,13 +62559,13 @@
                   "function updateReferrerShare(address referrer, uint256 shareRatioD18)"
                 ],
                 "deployedOn": "router.PerpsMarketRouter",
-                "deployTxnHash": "0x90c3e50fecd33bacc417dfc2d00d0788ef02d96ed842c2d5e4c220877bcf09e1",
-                "deployTxnBlockNumber": "21156294",
-                "deployTimestamp": "1738080876",
+                "deployTxnHash": "0xfb7123e2f5b595454a21667feb9cfbefa3cdd745124b9ca95f7fbc4f43559f2b",
+                "deployTxnBlockNumber": "21293077",
+                "deployTimestamp": "1738354442",
                 "contractName": "PerpsMarketRouter",
                 "sourceName": "PerpsMarketRouter.sol",
-                "gasUsed": 5104994,
-                "gasCost": "274541748"
+                "gasUsed": 5116018,
+                "gasCost": "1000325"
               },
               "PerpsMarketProxy": {
                 "address": "0x0aacb1DDCF65d8347e3a2585cD78b423987cA04d",
@@ -62709,6 +62714,7 @@
                   "event ItsGreater(uint128 accountId, uint128 cmpAccountId)",
                   "event MarketUpdated(uint128 marketId, uint256 price, int256 skew, uint256 size, int256 sizeDelta, int256 currentFundingRate, int256 currentFundingVelocity, uint128 interestRate)",
                   "event OrderSettled(uint128 indexed marketId, uint128 indexed accountId, uint256 fillPrice, int256 pnl, int256 accruedFunding, int128 sizeDelta, int128 newSize, uint256 totalFees, uint256 referralFees, uint256 collectedFees, uint256 settlementReward, bytes32 indexed trackingCode, address settler)",
+                  "function getOrderMode(uint128 accountId) view returns (bytes16)",
                   "function setBookMode(uint128 accountId, bool useBook)",
                   "function settleBookOrders(uint128 marketId, tuple(uint128 accountId, int128 sizeDelta, uint256 orderPrice, bytes signedPriceData, bytes32 trackingCode)[] orders) returns (tuple(uint8 status)[] cancelledOrders)",
                   "error AcceptablePriceExceeded(uint256 fillPrice, uint256 acceptablePrice)",
@@ -68447,23 +68453,23 @@
             },
             "txns": {
               "upgrade_proxy": {
-                "hash": "0x934f6a8c6554d2371f1e95910407930a60622bddc130851c47ebe46a4607b5e6",
-                "blockNumber": "21156296",
-                "timestamp": "1738080880",
+                "hash": "0xc4f527b01c7c27b280b47c2a098abccf05a41e60245309ade96633d437fab259",
+                "blockNumber": "21293080",
+                "timestamp": "1738354448",
                 "events": {
                   "Upgraded": [
                     {
                       "name": "Upgraded",
                       "args": [
                         "0x0aacb1DDCF65d8347e3a2585cD78b423987cA04d",
-                        "0x9590E9DAe8A7277FF20C2d6283D9395156B2aF1e"
+                        "0x047B8F128839cEABc04f74C5d7EC0399c3c05d4D"
                       ]
                     }
                   ]
                 },
                 "deployedOn": "invoke.upgrade_proxy",
-                "gasUsed": 55721,
-                "gasCost": "275910843",
+                "gasUsed": 55765,
+                "gasCost": "1000325",
                 "signer": "0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"
               },
               "addCreateMarketToFeatureFlag": {
@@ -103854,14 +103860,14 @@
       "version": 7
     }
   },
-  "seq": 21,
+  "seq": 22,
   "track": "xpauzk7rwrn",
   "options": {},
   "status": "complete",
   "meta": {
     "gitUrl": "https://github.com/Synthetixio/synthetix-deployments",
-    "commitHash": "4f97d347062a6ced08b7d0902215b07a5065b6ee",
-    "readme": "https://github.com/Synthetixio/synthetix-deployments/blob/4f97d347062a6ced08b7d0902215b07a5065b6ee/README.md"
+    "commitHash": "ff28b28f1034b0ccfc489734809747e483b26fe6",
+    "readme": "https://github.com/Synthetixio/synthetix-deployments/blob/ff28b28f1034b0ccfc489734809747e483b26fe6/README.md"
   },
   "miscUrl": "ipfs://QmeSt2mnJKE8qmRhLyYbHQQxDKpsFbcWnw5e7JF4xVbN6k",
   "chainId": 84532
