@@ -2863,8 +2863,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>skewScale</td>
-      <td>350 k</td>
-      <td><code>350000000000000000000000</code> / <code>0x4a1d89bb94865ec00000</code></td>
+      <td>300 k</td>
+      <td><code>300000000000000000000000</code> / <code>0x3f870857a3e0e3800000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
@@ -3059,8 +3059,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>skewScale</td>
-      <td>35 k</td>
-      <td><code>35000000000000000000000</code> / <code>0x07695a92c20d6fe00000</code></td>
+      <td>12.5 k</td>
+      <td><code>12500000000000000000000</code> / <code>0x02a5a058fc295ed00000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
@@ -10289,8 +10289,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxMarketValue</td>
-      <td>0.5 m</td>
-      <td><code>500000000000000000000000</code> / <code>0x69e10de76676d0800000</code></td>
+      <td>100 k</td>
+      <td><code>100000000000000000000000</code> / <code>0x152d02c7e14af6800000</code></td>
     </tr>
     <tr>
       <td>lockedOiRatio</td>
@@ -19109,8 +19109,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxMarketValue</td>
-      <td>250 k</td>
-      <td><code>250000000000000000000000</code> / <code>0x34f086f3b33b68400000</code></td>
+      <td>100 k</td>
+      <td><code>100000000000000000000000</code> / <code>0x152d02c7e14af6800000</code></td>
     </tr>
     <tr>
       <td>lockedOiRatio</td>
@@ -19501,8 +19501,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxMarketValue</td>
-      <td>3 m</td>
-      <td><code>3000000000000000000000000</code> / <code>0x027b46536c66c8e3000000</code></td>
+      <td>1 m</td>
+      <td><code>1000000000000000000000000</code> / <code>0xd3c21bcecceda1000000</code></td>
     </tr>
     <tr>
       <td>lockedOiRatio</td>
@@ -22595,6 +22595,398 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>feedId</td>
       <td></td>
       <td><code>"0xf490b178d0c85683b7a0f2388b40af2e6f7c90cbe0f96b31f315f08d0e5a2d6d"</code></td>
+    </tr>
+    <tr>
+      <td>settlementReward</td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
+    </tr>
+    <tr>
+      <td>disabled</td>
+      <td>✅ Enabled</td>
+      <td><code>false</code></td>
+    </tr>
+    <tr>
+      <td>commitmentPriceDelay</td>
+      <td>2</td>
+      <td><code>2</code> / <code>0x02</code></td>
+    </tr>
+  </tbody>
+</table>
+
+# Perps Market VVV / Venice Token
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Parameter name</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ID:</td>
+      <td>10300</td>
+      <td><code>10300</code> / <code>0x283c</code></td>
+    </tr>
+    <tr>
+      <td>maxMarketSize</td>
+      <td>0.5 m</td>
+      <td><code>500000000000000000000000</code> / <code>0x69e10de76676d0800000</code></td>
+    </tr>
+    <tr>
+      <td>maxMarketValue</td>
+      <td>1 m</td>
+      <td><code>1000000000000000000000000</code> / <code>0xd3c21bcecceda1000000</code></td>
+    </tr>
+    <tr>
+      <td>lockedOiRatio</td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Funding parameters</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>skewScale</td>
+      <td>1 m</td>
+      <td><code>1000000000000000000000000</code> / <code>0xd3c21bcecceda1000000</code></td>
+    </tr>
+    <tr>
+      <td>maxFundingVelocity</td>
+      <td>36</td>
+      <td><code>36000000000000000000</code> / <code>0x01f399b1438a100000</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Order fees</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>makerFee</td>
+      <td>0.0002</td>
+      <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
+    </tr>
+    <tr>
+      <td>takerFee</td>
+      <td>0.001</td>
+      <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Liquidation parameters</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>initialMarginRatioD18</td>
+      <td>1.278</td>
+      <td><code>1278000000000000000</code> / <code>0x11bc5e3a96f30000</code></td>
+    </tr>
+    <tr>
+      <td>minimumInitialMarginRatioD18</td>
+      <td>0.408</td>
+      <td><code>408000000000000000</code> / <code>0x05a981d69c5c0000</code></td>
+    </tr>
+    <tr>
+      <td>maintenanceMarginScalarD18</td>
+      <td>0.05</td>
+      <td><code>50000000000000000</code> / <code>0xb1a2bc2ec50000</code></td>
+    </tr>
+    <tr>
+      <td>flagRewardRatioD18</td>
+      <td>0.0003</td>
+      <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
+    </tr>
+    <tr>
+      <td>minimumPositionMargin</td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
+    </tr>
+    <tr>
+      <td>maxLiquidationLimitAccumulationMultiplier</td>
+      <td>1.5</td>
+      <td><code>1500000000000000000</code> / <code>0x14d1120d7b160000</code></td>
+    </tr>
+    <tr>
+      <td>maxLiquidationPd</td>
+      <td>0.0005</td>
+      <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
+    </tr>
+    <tr>
+      <td>maxSecondsInLiquidationWindow</td>
+      <td>30</td>
+      <td><code>30</code> / <code>0x1e</code></td>
+    </tr>
+    <tr>
+      <td>endorsedLiquidator</td>
+      <td></td>
+      <td>
+        <a href="https://basescan.org/address/0x11233749514Ab8d00C0A5873DF7428b3db70030f"><code>0x11233749514Ab8d00C0A5873DF7428b3db70030f</code></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Settlement strategy parameters</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>strategyId</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>strategyType</td>
+      <td>PYTH</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>settlementDelay</td>
+      <td>2</td>
+      <td><code>2</code> / <code>0x02</code></td>
+    </tr>
+    <tr>
+      <td>settlementWindowDuration</td>
+      <td>60</td>
+      <td><code>60</code> / <code>0x3c</code></td>
+    </tr>
+    <tr>
+      <td>priceVerificationContract</td>
+      <td></td>
+      <td>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>feedId</td>
+      <td></td>
+      <td><code>"0x5ece7483ae221e3645ec0f9b5c6671ac830cb85471744df5d8e7deae152e31a2"</code></td>
+    </tr>
+    <tr>
+      <td>settlementReward</td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
+    </tr>
+    <tr>
+      <td>disabled</td>
+      <td>✅ Enabled</td>
+      <td><code>false</code></td>
+    </tr>
+    <tr>
+      <td>commitmentPriceDelay</td>
+      <td>2</td>
+      <td><code>2</code> / <code>0x02</code></td>
+    </tr>
+  </tbody>
+</table>
+
+# Perps Market VELO / Velodrome Finance
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Parameter name</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ID:</td>
+      <td>10400</td>
+      <td><code>10400</code> / <code>0x28a0</code></td>
+    </tr>
+    <tr>
+      <td>maxMarketSize</td>
+      <td>6 m</td>
+      <td><code>6000000000000000000000000</code> / <code>0x04f68ca6d8cd91c6000000</code></td>
+    </tr>
+    <tr>
+      <td>maxMarketValue</td>
+      <td>300 k</td>
+      <td><code>300000000000000000000000</code> / <code>0x3f870857a3e0e3800000</code></td>
+    </tr>
+    <tr>
+      <td>lockedOiRatio</td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Funding parameters</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>skewScale</td>
+      <td>25 m</td>
+      <td><code>25000000000000000000000000</code> / <code>0x14adf4b7320334b9000000</code></td>
+    </tr>
+    <tr>
+      <td>maxFundingVelocity</td>
+      <td>36</td>
+      <td><code>36000000000000000000</code> / <code>0x01f399b1438a100000</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Order fees</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>makerFee</td>
+      <td>0.0002</td>
+      <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
+    </tr>
+    <tr>
+      <td>takerFee</td>
+      <td>0.001</td>
+      <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Liquidation parameters</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>initialMarginRatioD18</td>
+      <td>0.437</td>
+      <td><code>437000000000000000</code> / <code>0x0610892f46d88000</code></td>
+    </tr>
+    <tr>
+      <td>minimumInitialMarginRatioD18</td>
+      <td>0.317</td>
+      <td><code>317000000000000000</code> / <code>0x046635d209cc8000</code></td>
+    </tr>
+    <tr>
+      <td>maintenanceMarginScalarD18</td>
+      <td>0.05</td>
+      <td><code>50000000000000000</code> / <code>0xb1a2bc2ec50000</code></td>
+    </tr>
+    <tr>
+      <td>flagRewardRatioD18</td>
+      <td>0.0003</td>
+      <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
+    </tr>
+    <tr>
+      <td>minimumPositionMargin</td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
+    </tr>
+    <tr>
+      <td>maxLiquidationLimitAccumulationMultiplier</td>
+      <td>1.5</td>
+      <td><code>1500000000000000000</code> / <code>0x14d1120d7b160000</code></td>
+    </tr>
+    <tr>
+      <td>maxLiquidationPd</td>
+      <td>0.0005</td>
+      <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
+    </tr>
+    <tr>
+      <td>maxSecondsInLiquidationWindow</td>
+      <td>30</td>
+      <td><code>30</code> / <code>0x1e</code></td>
+    </tr>
+    <tr>
+      <td>endorsedLiquidator</td>
+      <td></td>
+      <td>
+        <a href="https://basescan.org/address/0x11233749514Ab8d00C0A5873DF7428b3db70030f"><code>0x11233749514Ab8d00C0A5873DF7428b3db70030f</code></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Settlement strategy parameters</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>strategyId</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>strategyType</td>
+      <td>PYTH</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>settlementDelay</td>
+      <td>2</td>
+      <td><code>2</code> / <code>0x02</code></td>
+    </tr>
+    <tr>
+      <td>settlementWindowDuration</td>
+      <td>60</td>
+      <td><code>60</code> / <code>0x3c</code></td>
+    </tr>
+    <tr>
+      <td>priceVerificationContract</td>
+      <td></td>
+      <td>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>feedId</td>
+      <td></td>
+      <td><code>"0x8b66bf97961dcd47336fe8467a4c7fd86e6c0bc77ebfbe91ab106a56d3a3513a"</code></td>
     </tr>
     <tr>
       <td>settlementReward</td>
