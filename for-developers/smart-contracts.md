@@ -2416,6 +2416,20 @@ Requirements:
 * `amount` (*uint256*) - The new amount of collateral delegated in the position, denominated with 18 decimals of precision.
 * `leverage` (*uint256*) - The new leverage amount used in the position, denominated with 18 decimals of precision. Requirements: - `ERC2771Context._msgSender()` must be the owner of the account, have the `ADMIN` permission, or have the `DELEGATE` permission. - If increasing the amount delegated, it must not exceed the available collateral (`getAccountAvailableCollateral`) associated with the account. - If decreasing the amount delegated, the liquidity position must have a collateralization ratio greater than the target collateralization ratio for the corresponding collateral type. Emits a {DelegationUpdated} event.
 
+#### migrateDelegation
+
+  ```solidity
+  function migrateDelegation(uint128 accountId, uint128 oldPoolId, address collateralType, uint128 newPoolId) external
+  ```
+
+  Allows a user to move their delegation to a new pool without repaying debt
+
+**Parameters**
+* `accountId` (*uint128*) - The id of the account associated with the position that will be updated.
+* `oldPoolId` (*uint128*) - The id of the pool associated with the position that should be moved from.
+* `collateralType` (*address*) - The address of the collateral used in the position.
+* `newPoolId` (*uint128*) - The new pool Id of the position. Requirements: - `ERC2771Context._msgSender()` must be the owner of the account, have the `ADMIN` permission, or have the `DELEGATE` permission. Emits a {DelegationUpdated} event for both affected pools.
+
 #### getPositionCollateralRatio
 
   ```solidity
