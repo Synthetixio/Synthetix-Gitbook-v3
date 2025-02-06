@@ -95,6 +95,18 @@
       </td>
     </tr>
     <tr>
+      <td>TreasuryMarketProxy</td>
+      <td>
+        <a href="https://etherscan.io/address/0x7b952507306E7D983bcFe6942Ac9F2f75C1332D8"><code>0x7b952507306E7D983bcFe6942Ac9F2f75C1332D8</code></a>
+      </td>
+      <td>
+        <a href="./1-main/TreasuryMarketProxy.json"><code>TreasuryMarketProxy.json</code></a>
+      </td>
+      <td>
+        <a href="./1-main/TreasuryMarketProxy.readable.json"><code>TreasuryMarketProxy.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
       <td>TrustedMulticallForwarder</td>
       <td>
         <a href="https://etherscan.io/address/0xE2C5658cC5C448B48141168f3e475dF8f65A1e3e"><code>0xE2C5658cC5C448B48141168f3e475dF8f65A1e3e</code></a>
@@ -659,6 +671,13 @@ Token address: <a href="https://etherscan.io/address/0xC011a73ee8576Fb46F5E1c575
       <td>n/a</td>
     </tr>
     <tr>
+      <td>TreasuryMarketProxy</td>
+      <td>
+        <a href="https://etherscan.io/address/0xEb3107117FEAd7de89Cd14D463D340A2E6917769"><code>0xEb3107117FEAd7de89Cd14D463D340A2E6917769</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
       <td>TrustedMulticallForwarder</td>
       <td>n/a</td>
       <td>n/a</td>
@@ -697,7 +716,7 @@ Token address: <a href="https://etherscan.io/address/0xC011a73ee8576Fb46F5E1c575
   </thead>
   <tbody>
     <tr>
-      <td><code>1</code> Spartan Council Pool <i>* preferred</i></td>
+      <td><code>8</code> Treasury Pool <i>* preferred</i></td>
       <td>
         <a href="https://etherscan.io/address/0xEb3107117FEAd7de89Cd14D463D340A2E6917769"><code>0xEb3107117FEAd7de89Cd14D463D340A2E6917769</code></a>
       </td>
