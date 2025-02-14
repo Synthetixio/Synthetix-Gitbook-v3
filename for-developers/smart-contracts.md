@@ -2555,6 +2555,21 @@ The return value is a percentage with 18 decimals places.
 
 **Returns**
 * `ratioD18` (*uint256*) - The collateralization ratio of the vault, denominated with 18 decimals of precision.
+#### getLastDelegationTime
+
+  ```solidity
+  function getLastDelegationTime(uint128 accountId, uint128 poolId, address collateralType) external view returns (uint256 lastDelegationTime)
+  ```
+
+  Returns the last delegation time registered for a delegated account position
+
+**Parameters**
+* `accountId` (*uint128*) - The id of the account whose delegation time is being queried.
+* `poolId` (*uint128*) - The id of the pool in which the account's position is held.
+* `collateralType` (*address*) - The address of the collateral used in the queried position.
+
+**Returns**
+* `lastDelegationTime` (*uint256*) - The timestamp of the last delegation update.
 
 #### DelegationUpdated
 
