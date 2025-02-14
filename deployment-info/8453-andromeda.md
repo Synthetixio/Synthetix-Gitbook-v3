@@ -443,6 +443,18 @@
       </td>
     </tr>
     <tr>
+      <td>RewardsDistributor_1_sStataUSDC</td>
+      <td>
+        <a href="https://basescan.org/address/0x8F80b20efb6BcCa7809997B4609094C63f315C32"><code>0x8F80b20efb6BcCa7809997B4609094C63f315C32</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/RewardsDistributor_1_sStataUSDC.json"><code>RewardsDistributor_1_sStataUSDC.json</code></a>
+      </td>
+      <td>
+        <a href="./8453-andromeda/RewardsDistributor_1_sStataUSDC.readable.json"><code>RewardsDistributor_1_sStataUSDC.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
       <td>AllErrors</td>
       <td>n/a</td>
       <td>
@@ -1517,8 +1529,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxWrappableAmount</td>
-      <td>5 m</td>
-      <td><code>5000000000000000000000000</code> / <code>0x0422ca8b0a00a425000000</code></td>
+      <td>50 m</td>
+      <td><code>50000000000000000000000000</code> / <code>0x295be96e64066972000000</code></td>
     </tr>
     <tr>
       <td>atomicFixedFee</td>
@@ -23764,6 +23776,68 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   </tbody>
 </table>
 
+# Rewards Distributor: Perps Static Aave Base USDC Liquidation Rewards
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Parameter name</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>name</td>
+      <td></td>
+      <td><code>"synthetix-omnibus"</code></td>
+    </tr>
+    <tr>
+      <td>address</td>
+      <td></td>
+      <td>
+        <a href="https://basescan.org/address/0x8F80b20efb6BcCa7809997B4609094C63f315C32"><code>0x8F80b20efb6BcCa7809997B4609094C63f315C32</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>deployTxn</td>
+      <td></td>
+      <td>
+        <a href="https://basescan.org/tx/undefined"><code>undefined</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>registered</td>
+      <td>✅ Registered</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>poolId</td>
+      <td>1</td>
+      <td><code>1</code> / <code>0x01</code></td>
+    </tr>
+    <tr>
+      <td>collateralType</td>
+      <td>n/a</td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>payoutToken</td>
+      <td>sStataUSDC <code>18</code> / <code>0x12</code></td>
+      <td>
+        <a href="https://basescan.org/address/0x729Ef31D86d31440ecBF49f27F7cD7c16c6616d2"><code>0x729Ef31D86d31440ecBF49f27F7cD7c16c6616d2</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>rewardManager</td>
+      <td></td>
+      <td>
+        <a href="https://basescan.org/address/0x32C222A9A159782aFD7529c87FA34b96CA72C696"><code>0x32C222A9A159782aFD7529c87FA34b96CA72C696</code></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 # Owners
 
 <table data-full-width="true">
@@ -23994,6 +24068,11 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>RewardsDistributor_1_sUSDC</td>
+      <td>n/a</td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>RewardsDistributor_1_sStataUSDC</td>
       <td>n/a</td>
       <td>n/a</td>
     </tr>
