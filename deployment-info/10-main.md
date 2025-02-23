@@ -59,6 +59,54 @@
       </td>
     </tr>
     <tr>
+      <td>LegacyMarketProxy</td>
+      <td>
+        <a href="https://optimistic.etherscan.io/address/0x19F03FCf06204DF85b2593145b87134D3366170c"><code>0x19F03FCf06204DF85b2593145b87134D3366170c</code></a>
+      </td>
+      <td>
+        <a href="./10-main/LegacyMarketProxy.json"><code>LegacyMarketProxy.json</code></a>
+      </td>
+      <td>
+        <a href="./10-main/LegacyMarketProxy.readable.json"><code>LegacyMarketProxy.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>V2x</td>
+      <td>
+        <a href="https://optimistic.etherscan.io/address/0x5A41F634958dB9183e9d0d1Cd8Dee439B6ABb3BF"><code>0x5A41F634958dB9183e9d0d1Cd8Dee439B6ABb3BF</code></a>
+      </td>
+      <td>
+        <a href="./10-main/V2x.json"><code>V2x.json</code></a>
+      </td>
+      <td>
+        <a href="./10-main/V2x.readable.json"><code>V2x.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>V2xUsd</td>
+      <td>
+        <a href="https://optimistic.etherscan.io/address/0xDfA2d3a0d32F870D87f8A0d7AA6b9CdEB7bc5AdB"><code>0xDfA2d3a0d32F870D87f8A0d7AA6b9CdEB7bc5AdB</code></a>
+      </td>
+      <td>
+        <a href="./10-main/V2xUsd.json"><code>V2xUsd.json</code></a>
+      </td>
+      <td>
+        <a href="./10-main/V2xUsd.readable.json"><code>V2xUsd.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>TreasuryMarketProxy</td>
+      <td>
+        <a href="https://optimistic.etherscan.io/address/0x421dEc7c865469128c76f910351DF693cBf6Bf04"><code>0x421dEc7c865469128c76f910351DF693cBf6Bf04</code></a>
+      </td>
+      <td>
+        <a href="./10-main/TreasuryMarketProxy.json"><code>TreasuryMarketProxy.json</code></a>
+      </td>
+      <td>
+        <a href="./10-main/TreasuryMarketProxy.readable.json"><code>TreasuryMarketProxy.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
       <td>TrustedMulticallForwarder</td>
       <td>
         <a href="https://optimistic.etherscan.io/address/0xE2C5658cC5C448B48141168f3e475dF8f65A1e3e"><code>0xE2C5658cC5C448B48141168f3e475dF8f65A1e3e</code></a>
@@ -222,8 +270,8 @@ Token address: <a href="https://optimistic.etherscan.io/address/0x8700dAec35aF8F
   <tbody>
     <tr>
       <td>depositingEnabled</td>
-      <td>🚫 Disabled</td>
-      <td><code>false</code></td>
+      <td>✅ Enabled</td>
+      <td><code>true</code></td>
     </tr>
     <tr>
       <td>decimals</td>
@@ -669,6 +717,34 @@ Token address: <a href="https://optimistic.etherscan.io/address/0x42000000000000
       <td>n/a</td>
     </tr>
     <tr>
+      <td>LegacyMarketProxy</td>
+      <td>
+        <a href="https://optimistic.etherscan.io/address/0x6cd3f878852769e04A723A5f66CA7DD4d9E38A6C"><code>0x6cd3f878852769e04A723A5f66CA7DD4d9E38A6C</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>V2x</td>
+      <td>
+        <a href="https://optimistic.etherscan.io/address/0x6d4a64C57612841c2C6745dB2a4E4db34F002D20"><code>0x6d4a64C57612841c2C6745dB2a4E4db34F002D20</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>V2xUsd</td>
+      <td>
+        <a href="https://optimistic.etherscan.io/address/0x6d4a64C57612841c2C6745dB2a4E4db34F002D20"><code>0x6d4a64C57612841c2C6745dB2a4E4db34F002D20</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>TreasuryMarketProxy</td>
+      <td>
+        <a href="https://optimistic.etherscan.io/address/0x6cd3f878852769e04A723A5f66CA7DD4d9E38A6C"><code>0x6cd3f878852769e04A723A5f66CA7DD4d9E38A6C</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
       <td>TrustedMulticallForwarder</td>
       <td>n/a</td>
       <td>n/a</td>
@@ -712,7 +788,7 @@ Token address: <a href="https://optimistic.etherscan.io/address/0x42000000000000
   </thead>
   <tbody>
     <tr>
-      <td><code>1</code> Spartan Council Pool <i>* preferred</i></td>
+      <td><code>8</code> Treasury Pool <i>* preferred</i></td>
       <td>
         <a href="https://optimistic.etherscan.io/address/0x6cd3f878852769e04A723A5f66CA7DD4d9E38A6C"><code>0x6cd3f878852769e04A723A5f66CA7DD4d9E38A6C</code></a>
       </td>
