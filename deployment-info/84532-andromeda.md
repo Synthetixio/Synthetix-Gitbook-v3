@@ -3315,8 +3315,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
   <tbody>
     <tr>
       <td>skewScale</td>
-      <td>3.63 m</td>
-      <td><code>3627800000000000000000000</code> / <code>0x0300376e9bf3d43d600000</code></td>
+      <td>7.16 m</td>
+      <td><code>7161000000000000000000000</code> / <code>0x05ec66967de3f069a00000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
@@ -3707,8 +3707,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
   <tbody>
     <tr>
       <td>skewScale</td>
-      <td>30 m</td>
-      <td><code>30000000000000000000000000</code> / <code>0x18d0bf423c03d8de000000</code></td>
+      <td>54.87 m</td>
+      <td><code>54873000000000000000000000</code> / <code>0x2d63cf4a60d1e425a00000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
@@ -3903,8 +3903,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
   <tbody>
     <tr>
       <td>skewScale</td>
-      <td>39.77 m</td>
-      <td><code>39767500000000000000000000</code> / <code>0x20e5187ea5b2ec77b00000</code></td>
+      <td>101.29 m</td>
+      <td><code>101293000000000000000000000</code> / <code>0x53c9a0886abd3852200000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
@@ -4099,8 +4099,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
   <tbody>
     <tr>
       <td>skewScale</td>
-      <td>408.17 m</td>
-      <td><code>408170800000000000000000000</code> / <code>0x0151a18767bef18986c00000</code></td>
+      <td>0.89 b</td>
+      <td><code>885716000000000000000000000</code> / <code>0x02dca5a891fc76e83c800000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
@@ -4883,8 +4883,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
   <tbody>
     <tr>
       <td>skewScale</td>
-      <td>4.15 t</td>
-      <td><code>4152595936800000000000000000000</code> / <code>0x3469c2d9c6a6e4750104800000</code></td>
+      <td>11.17 t</td>
+      <td><code>11169613416000000000000000000000</code> / <code>0x8cfaf7aadc8595f7d231000000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
@@ -5079,8 +5079,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
   <tbody>
     <tr>
       <td>skewScale</td>
-      <td>6 m</td>
-      <td><code>6000000000000000000000000</code> / <code>0x04f68ca6d8cd91c6000000</code></td>
+      <td>12.14 m</td>
+      <td><code>12135000000000000000000000</code> / <code>0x0a09afab0c3e7bf2600000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
@@ -5275,8 +5275,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
   <tbody>
     <tr>
       <td>skewScale</td>
-      <td>0.8 t</td>
-      <td><code>802983764800000000000000000000</code> / <code>0x0a22949a3956642f3385000000</code></td>
+      <td>1.29 t</td>
+      <td><code>1294569458000000000000000000000</code> / <code>0x1056fac1dbd95e9407d3400000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
@@ -6255,8 +6255,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
   <tbody>
     <tr>
       <td>skewScale</td>
-      <td>3.05 m</td>
-      <td><code>3054000000000000000000000</code> / <code>0x0286b5abf70e85d8c00000</code></td>
+      <td>5.77 m</td>
+      <td><code>5770000000000000000000000</code> / <code>0x04c5d853a6adcbc2400000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
@@ -6647,8 +6647,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
   <tbody>
     <tr>
       <td>skewScale</td>
-      <td>1.13 m</td>
-      <td><code>1128300000000000000000000</code> / <code>0xeeed43fbca651a300000</code></td>
+      <td>1.84 m</td>
+      <td><code>1838000000000000000000000</code> / <code>0x0185362dfda2a460c00000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
@@ -7235,8 +7235,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
   <tbody>
     <tr>
       <td>skewScale</td>
-      <td>15.11 m</td>
-      <td><code>15109000000000000000000000</code> / <code>0x0c7f7487fcff2c39200000</code></td>
+      <td>24.97 m</td>
+      <td><code>24967000000000000000000000</code> / <code>0x14a6f7c8329cb306600000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
@@ -8999,8 +8999,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
   <tbody>
     <tr>
       <td>skewScale</td>
-      <td>103.9 k</td>
-      <td><code>103900000000000000000000</code> / <code>0x16006e273a350df00000</code></td>
+      <td>163 k</td>
+      <td><code>163000000000000000000000</code> / <code>0x22843f69a4fcbfe00000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
@@ -9195,8 +9195,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
   <tbody>
     <tr>
       <td>skewScale</td>
-      <td>82.47 m</td>
-      <td><code>82468000000000000000000000</code> / <code>0x4437473cef51d88e800000</code></td>
+      <td>221.2 m</td>
+      <td><code>221196000000000000000000000</code> / <code>0xb6f8132feff4a26f800000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
@@ -9391,8 +9391,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
   <tbody>
     <tr>
       <td>skewScale</td>
-      <td>54.1 m</td>
-      <td><code>54100700000000000000000000</code> / <code>0x2cc044d2daaea8a1f00000</code></td>
+      <td>86.27 m</td>
+      <td><code>86271000000000000000000000</code> / <code>0x475c9847f7cc4ac1600000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
@@ -9979,8 +9979,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
   <tbody>
     <tr>
       <td>skewScale</td>
-      <td>2.22 m</td>
-      <td><code>2218700000000000000000000</code> / <code>0x01d5d3f7cf27988bb00000</code></td>
+      <td>3.34 m</td>
+      <td><code>3341000000000000000000000</code> / <code>0x02c37bf910df5a6e200000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
@@ -10371,8 +10371,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
   <tbody>
     <tr>
       <td>skewScale</td>
-      <td>84.9 k</td>
-      <td><code>84900000000000000000000</code> / <code>0x11fa702f548588100000</code></td>
+      <td>147 k</td>
+      <td><code>147000000000000000000000</code> / <code>0x1f20e2cec89ed5e00000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
@@ -10763,8 +10763,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
   <tbody>
     <tr>
       <td>skewScale</td>
-      <td>78.3 k</td>
-      <td><code>78300000000000000000000</code> / <code>0x1094a6c90cd1fdf00000</code></td>
+      <td>136 k</td>
+      <td><code>136000000000000000000000</code> / <code>0x1ccc9324511e45000000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
@@ -10959,8 +10959,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
   <tbody>
     <tr>
       <td>skewScale</td>
-      <td>36.24 m</td>
-      <td><code>36240800000000000000000000</code> / <code>0x1dfa49b462ac5672800000</code></td>
+      <td>68.74 m</td>
+      <td><code>68741000000000000000000000</code> / <code>0x38dc7913b26cdc29200000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
@@ -11155,8 +11155,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
   <tbody>
     <tr>
       <td>skewScale</td>
-      <td>7.27 m</td>
-      <td><code>7268400000000000000000000</code> / <code>0x060324c0e6fe5a02c00000</code></td>
+      <td>11.46 m</td>
+      <td><code>11460000000000000000000000</code> / <code>0x097abfd8470dc1f2800000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
@@ -12135,8 +12135,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
   <tbody>
     <tr>
       <td>skewScale</td>
-      <td>8.72 m</td>
-      <td><code>8723100000000000000000000</code> / <code>0x07373032d38b6e28f00000</code></td>
+      <td>16.01 m</td>
+      <td><code>16007000000000000000000000</code> / <code>0x0d3d9d35708f4326600000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
@@ -14095,8 +14095,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
   <tbody>
     <tr>
       <td>skewScale</td>
-      <td>1.3 b</td>
-      <td><code>1300000000000000000000000000</code> / <code>0x043355b53628a6b594000000</code></td>
+      <td>2.05 b</td>
+      <td><code>2053463000000000000000000000</code> / <code>0x06a295b44932b689c8600000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
@@ -14291,8 +14291,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
   <tbody>
     <tr>
       <td>skewScale</td>
-      <td>6.97 m</td>
-      <td><code>6973600000000000000000000</code> / <code>0x05c4b79d0e7bb13e800000</code></td>
+      <td>12.49 m</td>
+      <td><code>12491000000000000000000000</code> / <code>0x0a55127781e5a588e00000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
@@ -15075,8 +15075,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
   <tbody>
     <tr>
       <td>skewScale</td>
-      <td>2.57 t</td>
-      <td><code>2572944297100000000000000000000</code> / <code>0x2079a1a3c6001e08e93ab00000</code></td>
+      <td>4.16 t</td>
+      <td><code>4162312435000000000000000000000</code> / <code>0x348928264d8580e70951e00000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
@@ -15271,8 +15271,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
   <tbody>
     <tr>
       <td>skewScale</td>
-      <td>29.59 m</td>
-      <td><code>29585200000000000000000000</code> / <code>0x1878e8e7da0c6fbec00000</code></td>
+      <td>49.61 m</td>
+      <td><code>49609000000000000000000000</code> / <code>0x29091d475b9d326ba00000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
@@ -17035,8 +17035,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
   <tbody>
     <tr>
       <td>skewScale</td>
-      <td>0.91 b</td>
-      <td><code>911660400000000000000000000</code> / <code>0x02f21b994ffcbc776fc00000</code></td>
+      <td>2.06 b</td>
+      <td><code>2062547000000000000000000000</code> / <code>0x06aa1950e9a4efd17de00000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
@@ -18407,8 +18407,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
   <tbody>
     <tr>
       <td>skewScale</td>
-      <td>100 t</td>
-      <td><code>100000000000000000000000000000000</code> / <code>0x04ee2d6d415b85acef8100000000</code></td>
+      <td>158.7 t</td>
+      <td><code>158703939009000000000000000000000</code> / <code>0x07d320157bea3d5bc566f6a00000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
@@ -21347,8 +21347,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
   <tbody>
     <tr>
       <td>skewScale</td>
-      <td>4.93 m</td>
-      <td><code>4931300000000000000000000</code> / <code>0x04143e4f0444d74d100000</code></td>
+      <td>11.29 m</td>
+      <td><code>11285000000000000000000000</code> / <code>0x0955b11369437ec3200000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
@@ -21739,8 +21739,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
   <tbody>
     <tr>
       <td>skewScale</td>
-      <td>8.71 m</td>
-      <td><code>8710600000000000000000000</code> / <code>0x07348a927a8f44ca200000</code></td>
+      <td>30.98 m</td>
+      <td><code>30980000000000000000000000</code> / <code>0x19a0452a493d511a800000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
@@ -22131,8 +22131,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
   <tbody>
     <tr>
       <td>skewScale</td>
-      <td>3.73 m</td>
-      <td><code>3730900000000000000000000</code> / <code>0x03160c7e883c9e32d00000</code></td>
+      <td>5.81 m</td>
+      <td><code>5806000000000000000000000</code> / <code>0x04cd77e4031d9f10c00000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
