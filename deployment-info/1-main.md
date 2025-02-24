@@ -716,7 +716,7 @@ Token address: <a href="https://etherscan.io/address/0xC011a73ee8576Fb46F5E1c575
   </thead>
   <tbody>
     <tr>
-      <td><code>1</code> Spartan Council Pool <i>* preferred</i></td>
+      <td><code>8</code> Treasury Pool <i>* preferred</i></td>
       <td>
         <a href="https://etherscan.io/address/0xEb3107117FEAd7de89Cd14D463D340A2E6917769"><code>0xEb3107117FEAd7de89Cd14D463D340A2E6917769</code></a>
       </td>
