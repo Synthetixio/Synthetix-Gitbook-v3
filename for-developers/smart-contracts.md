@@ -9292,6 +9292,21 @@ delegatedCollateral is the avaialble collateral value for markets to withdraw, d
   function rewardsDistributor() external view returns (contract ISNXDistributor)
   ```
 
+#### returnUSD
+
+  ```solidity
+  function returnUSD(uint256 amount) external
+  ```
+
+  Called by anyone with {amount} v3 sUSD to convert {amount} v3 sUSD to {amount} v2x sUSD.
+The v3 sUSD will be burned (thereby reducing the sUSD total supply and v3 system size), and v2x sUSD will be minted.
+Any user who has v3 sUSD can call this function.
+Requirements:
+* User must first approve() the legacy market contract to spend the user's v3 sUSD
+
+**Parameters**
+* `amount` (*uint256*) - the quantity to convert
+
 #### convertUSD
 
   ```solidity
@@ -9418,6 +9433,18 @@ Requirements:
 **Parameters**
 * `account` (*address*) - the address of the address which provided the sUSD for conversion
 * `amount` (*uint256*) - the amount of sUSD burnt, and the amount of snxUSD minted
+
+#### ReturnedUSD
+
+  ```solidity
+  event ReturnedUSD(address account, uint256 amount)
+  ```
+
+  Emitted after a call to `returnUSD`, moving debt from v3 to v2x.
+
+**Parameters**
+* `account` (*address*) - the address of the address which provided the v3 sUSD for conversion
+* `amount` (*uint256*) - the amount of v3 sUSD burnt, and the amount of v2x sUSD minted
 
 #### PauseStablecoinConversionSet
 
