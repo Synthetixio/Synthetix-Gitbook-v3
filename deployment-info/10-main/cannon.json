@@ -1,10 +1,10 @@
 {
   "generator": "cannon website 2.15.5",
-  "timestamp": 1740150014,
+  "timestamp": 1741885846,
   "def": {
     "setting": {
       "minimum_liquidity_ratio": {
-        "defaultValue": "<%= parseEther('2') %>"
+        "defaultValue": "1100000000000000000"
       },
       "account_timeout_withdraw": {
         "defaultValue": "86400"
@@ -865,6 +865,21 @@
           "<%= settings.treasury_market_target_cratio %>"
         ]
       },
+      "setDebtDecayFunction": {
+        "target": [
+          "treasury_market.Proxy"
+        ],
+        "fromCall": {
+          "func": "owner"
+        },
+        "func": "setDebtDecayFunction",
+        "args": [
+          "1",
+          "31536000",
+          "<%= parseEther('1') %>",
+          "<%= parseEther('0.5') %>"
+        ]
+      },
       "setPositionManagerOverrideWithdrawTimeout": {
         "target": [
           "system.CoreProxy"
@@ -1010,7 +1025,7 @@
       }
     },
     "name": "synthetix-omnibus",
-    "version": "8",
+    "version": "9",
     "description": "Includes the full synthetix system with configurations applied",
     "deployers": [
       "0x1C8236B406911A376369e33D39189F1b4B39F27D",
@@ -6804,27 +6819,29 @@
         "contracts": {},
         "txns": {
           "setMinimumLiquidityRatio": {
-            "hash": "0x9e34806b5ea48175eb6d45c87c4ff731fb2f3569cb0c8d7621fef518198bc333",
+            "hash": "0xa561d0c4d8118ae3256b7f332e05418c65722f11bb59989ee038ffa6d451d830",
+            "blockNumber": "133143469",
+            "timestamp": "1741885824",
             "events": {
               "SetMinLiquidityRatio": [
                 {
                   "name": "SetMinLiquidityRatio",
                   "args": [
-                    {
-                      "type": "BigNumber",
-                      "hex": "0x1bc16d674ec80000"
-                    }
+                    "1100000000000000000"
                   ]
                 }
               ]
             },
-            "deployedOn": "invoke.setMinimumLiquidityRatio"
+            "deployedOn": "invoke.setMinimumLiquidityRatio",
+            "gasUsed": 38642,
+            "gasCost": "1000586071",
+            "signer": "0x6cd3f878852769e04A723A5f66CA7DD4d9E38A6C"
           }
         },
-        "extras": {}
+        "settings": {}
       },
-      "hash": "9f0d21e3cdef7d1a142a19f5c8314447",
-      "version": 5
+      "hash": "96cccef00f940f71718cc6dbe2d07194",
+      "version": 7
     },
     "invoke.permitCreatePool": {
       "artifacts": {
@@ -37364,10 +37381,10 @@
     "setting.minimum_liquidity_ratio": {
       "artifacts": {
         "settings": {
-          "minimum_liquidity_ratio": "2000000000000000000"
+          "minimum_liquidity_ratio": "1100000000000000000"
         }
       },
-      "hash": "09553939422a81e0204384bf690274c4",
+      "hash": "109f80ca4fb572bb6f910537ee0e25cf",
       "version": 7
     },
     "setting.owner": {
@@ -76316,6 +76333,38 @@
         "settings": {}
       },
       "hash": "c796fb3719a5160d2989ff1a46bdd717",
+      "version": 7
+    },
+    "invoke.setDebtDecayFunction": {
+      "artifacts": {
+        "contracts": {},
+        "txns": {
+          "setDebtDecayFunction": {
+            "hash": "0xff6b707a6017083f2353513792c66f04b16029d09adb84df6502637307db8b7d",
+            "blockNumber": "132402469",
+            "timestamp": "1740403745",
+            "events": {
+              "DebtDecayUpdated": [
+                {
+                  "name": "DebtDecayUpdated",
+                  "args": [
+                    1,
+                    31536000,
+                    "1000000000000000000",
+                    "500000000000000000"
+                  ]
+                }
+              ]
+            },
+            "deployedOn": "invoke.setDebtDecayFunction",
+            "gasUsed": 76545,
+            "gasCost": "1000056882",
+            "signer": "0x6cd3f878852769e04A723A5f66CA7DD4d9E38A6C"
+          }
+        },
+        "settings": {}
+      },
+      "hash": "f896561e41c4782158546c2f2e384799",
       "version": 7
     }
   },
