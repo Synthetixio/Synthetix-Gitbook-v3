@@ -273,13 +273,13 @@ Token address: <a href="https://etherscan.io/address/0xC011a73ee8576Fb46F5E1c575
     </tr>
     <tr>
       <td>liquidationRatioD18</td>
-      <td>1.05</td>
-      <td><code>1050000000000000000</code> / <code>0x0e92596fd6290000</code></td>
+      <td>1.01</td>
+      <td><code>1010000000000000000</code> / <code>0x0e043da617250000</code></td>
     </tr>
     <tr>
       <td>liquidationRewardD18</td>
-      <td>50</td>
-      <td><code>50000000000000000000</code> / <code>0x02b5e3af16b1880000</code></td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
     </tr>
     <tr>
       <td>oracleNodeId</td>
@@ -288,8 +288,8 @@ Token address: <a href="https://etherscan.io/address/0xC011a73ee8576Fb46F5E1c575
     </tr>
     <tr>
       <td>minDelegationD18</td>
-      <td>100</td>
-      <td><code>100000000000000000000</code> / <code>0x056bc75e2d63100000</code></td>
+      <td>0</td>
+      <td><code>1</code> / <code>0x01</code></td>
     </tr>
     <tr>
       <td>oracle.stalenessTolerance</td>
@@ -716,7 +716,7 @@ Token address: <a href="https://etherscan.io/address/0xC011a73ee8576Fb46F5E1c575
   </thead>
   <tbody>
     <tr>
-      <td><code>8</code> Treasury Pool <i>* preferred</i></td>
+      <td><code>1</code> Spartan Council Pool <i>* preferred</i></td>
       <td>
         <a href="https://etherscan.io/address/0xEb3107117FEAd7de89Cd14D463D340A2E6917769"><code>0xEb3107117FEAd7de89Cd14D463D340A2E6917769</code></a>
       </td>
