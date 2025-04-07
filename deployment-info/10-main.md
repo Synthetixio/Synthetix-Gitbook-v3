@@ -285,13 +285,13 @@ Token address: <a href="https://optimistic.etherscan.io/address/0x8700dAec35aF8F
     </tr>
     <tr>
       <td>liquidationRatioD18</td>
-      <td>1.05</td>
-      <td><code>1050000000000000000</code> / <code>0x0e92596fd6290000</code></td>
+      <td>1.01</td>
+      <td><code>1010000000000000000</code> / <code>0x0e043da617250000</code></td>
     </tr>
     <tr>
       <td>liquidationRewardD18</td>
-      <td>10</td>
-      <td><code>10000000000000000000</code> / <code>0x8ac7230489e80000</code></td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
     </tr>
     <tr>
       <td>oracleNodeId</td>
@@ -300,8 +300,8 @@ Token address: <a href="https://optimistic.etherscan.io/address/0x8700dAec35aF8F
     </tr>
     <tr>
       <td>minDelegationD18</td>
-      <td>20</td>
-      <td><code>20000000000000000000</code> / <code>0x01158e460913d00000</code></td>
+      <td>0</td>
+      <td><code>1</code> / <code>0x01</code></td>
     </tr>
     <tr>
       <td>oracle.stalenessTolerance</td>
@@ -788,7 +788,7 @@ Token address: <a href="https://optimistic.etherscan.io/address/0x42000000000000
   </thead>
   <tbody>
     <tr>
-      <td><code>8</code> Treasury Pool <i>* preferred</i></td>
+      <td><code>1</code> Spartan Council Pool <i>* preferred</i></td>
       <td>
         <a href="https://optimistic.etherscan.io/address/0x6cd3f878852769e04A723A5f66CA7DD4d9E38A6C"><code>0x6cd3f878852769e04A723A5f66CA7DD4d9E38A6C</code></a>
       </td>
