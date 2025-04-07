@@ -3240,8 +3240,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>0.5 m</td>
-      <td><code>500000000000000000000000</code> / <code>0x69e10de76676d0800000</code></td>
+      <td>1.18 m</td>
+      <td><code>1179245000000000000000000</code> / <code>0xf9b6ffe228377d940000</code></td>
     </tr>
     <tr>
       <td>maxMarketValue</td>
@@ -3632,13 +3632,13 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>1.5 m</td>
-      <td><code>1500000000000000000000000</code> / <code>0x013da329b6336471800000</code></td>
+      <td>4.13 m</td>
+      <td><code>4126264000000000000000000</code> / <code>0x0369c5383b245eb5e00000</code></td>
     </tr>
     <tr>
       <td>maxMarketValue</td>
-      <td>2 m</td>
-      <td><code>2000000000000000000000000</code> / <code>0x01a784379d99db42000000</code></td>
+      <td>1 m</td>
+      <td><code>1000000000000000000000000</code> / <code>0xd3c21bcecceda1000000</code></td>
     </tr>
     <tr>
       <td>lockedOiRatio</td>
@@ -3828,13 +3828,13 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>2 m</td>
-      <td><code>2000000000000000000000000</code> / <code>0x01a784379d99db42000000</code></td>
+      <td>21.51 m</td>
+      <td><code>21510002000000000000000000</code> / <code>0x11caeb8b806d1706880000</code></td>
     </tr>
     <tr>
       <td>maxMarketValue</td>
-      <td>0.5 m</td>
-      <td><code>500000000000000000000000</code> / <code>0x69e10de76676d0800000</code></td>
+      <td>1 m</td>
+      <td><code>1000000000000000000000000</code> / <code>0xd3c21bcecceda1000000</code></td>
     </tr>
     <tr>
       <td>lockedOiRatio</td>
@@ -4612,8 +4612,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>0.75 m</td>
-      <td><code>750000000000000000000000</code> / <code>0x9ed194db19b238c00000</code></td>
+      <td>2.35 m</td>
+      <td><code>2353495000000000000000000</code> / <code>0x01f25f38377d13e6fc0000</code></td>
     </tr>
     <tr>
       <td>maxMarketValue</td>
@@ -4808,13 +4808,13 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>82.1 k</td>
-      <td><code>82100000000000000000000</code> / <code>0x1162a661078eb2500000</code></td>
+      <td>226.48 k</td>
+      <td><code>226475000000000000000000</code> / <code>0x2ff53bfe68061fcc0000</code></td>
     </tr>
     <tr>
       <td>maxMarketValue</td>
-      <td>2 m</td>
-      <td><code>2000000000000000000000000</code> / <code>0x01a784379d99db42000000</code></td>
+      <td>1 m</td>
+      <td><code>1000000000000000000000000</code> / <code>0xd3c21bcecceda1000000</code></td>
     </tr>
     <tr>
       <td>lockedOiRatio</td>
@@ -5200,13 +5200,13 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>300 k</td>
-      <td><code>300000000000000000000000</code> / <code>0x3f870857a3e0e3800000</code></td>
+      <td>0.85 m</td>
+      <td><code>847458000000000000000000</code> / <code>0xb374ca4ccf150c480000</code></td>
     </tr>
     <tr>
       <td>maxMarketValue</td>
-      <td>1 m</td>
-      <td><code>1000000000000000000000000</code> / <code>0xd3c21bcecceda1000000</code></td>
+      <td>0.5 m</td>
+      <td><code>500000000000000000000000</code> / <code>0x69e10de76676d0800000</code></td>
     </tr>
     <tr>
       <td>lockedOiRatio</td>
@@ -5788,8 +5788,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>2 m</td>
-      <td><code>2000000000000000000000000</code> / <code>0x01a784379d99db42000000</code></td>
+      <td>5.59 m</td>
+      <td><code>5586592000000000000000000</code> / <code>0x049f01c2584706d6800000</code></td>
     </tr>
     <tr>
       <td>maxMarketValue</td>
@@ -7748,8 +7748,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>400 k</td>
-      <td><code>400000000000000000000000</code> / <code>0x54b40b1f852bda000000</code></td>
+      <td>1.7 m</td>
+      <td><code>1703578000000000000000000</code> / <code>0x0168bf25ff80ebea280000</code></td>
     </tr>
     <tr>
       <td>maxMarketValue</td>
@@ -8140,8 +8140,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>2.45 k</td>
-      <td><code>2450000000000000000000</code> / <code>0x84d0948357fb080000</code></td>
+      <td>7.89 k</td>
+      <td><code>7886000000000000000000</code> / <code>0x01ab803c122e6a780000</code></td>
     </tr>
     <tr>
       <td>maxMarketValue</td>
@@ -8336,13 +8336,13 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>229.51 m</td>
-      <td><code>229513950000000000000000000</code> / <code>0xbdd978290888c350b80000</code></td>
+      <td>0.7 b</td>
+      <td><code>695894224000000000000000000</code> / <code>0x023fa155795b0f5201400000</code></td>
     </tr>
     <tr>
       <td>maxMarketValue</td>
-      <td>1 m</td>
-      <td><code>1000000000000000000000000</code> / <code>0xd3c21bcecceda1000000</code></td>
+      <td>0.5 m</td>
+      <td><code>500000000000000000000000</code> / <code>0x69e10de76676d0800000</code></td>
     </tr>
     <tr>
       <td>lockedOiRatio</td>
@@ -8532,13 +8532,13 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>300 k</td>
-      <td><code>300000000000000000000000</code> / <code>0x3f870857a3e0e3800000</code></td>
+      <td>3.17 m</td>
+      <td><code>3169572000000000000000000</code> / <code>0x029f2ed7a857d2de100000</code></td>
     </tr>
     <tr>
       <td>maxMarketValue</td>
-      <td>0.5 m</td>
-      <td><code>500000000000000000000000</code> / <code>0x69e10de76676d0800000</code></td>
+      <td>1 m</td>
+      <td><code>1000000000000000000000000</code> / <code>0xd3c21bcecceda1000000</code></td>
     </tr>
     <tr>
       <td>lockedOiRatio</td>
@@ -8728,8 +8728,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>0.85 m</td>
-      <td><code>849150000000000000000000</code> / <code>0xb3d083845a7b65380000</code></td>
+      <td>2.96 m</td>
+      <td><code>2958580000000000000000000</code> / <code>0x027280f173d3599b500000</code></td>
     </tr>
     <tr>
       <td>maxMarketValue</td>
@@ -10296,8 +10296,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>377.6 k</td>
-      <td><code>377600000000000000000000</code> / <code>0x4ff5bcad1d752c000000</code></td>
+      <td>144.09 k</td>
+      <td><code>144092000000000000000000</code> / <code>0x1e833e3367dd61f00000</code></td>
     </tr>
     <tr>
       <td>maxMarketValue</td>
@@ -10688,8 +10688,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>3.33 m</td>
-      <td><code>3329150000000000000000000</code> / <code>0x02c0f99547c75813380000</code></td>
+      <td>8.72 m</td>
+      <td><code>8719156000000000000000000</code> / <code>0x07365a64d4cba34c500000</code></td>
     </tr>
     <tr>
       <td>maxMarketValue</td>
@@ -12060,13 +12060,13 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>72.23 m</td>
-      <td><code>72226506000000000000000000</code> / <code>0x3bbe8ebc5e2a9cace80000</code></td>
+      <td>268.1 m</td>
+      <td><code>268096515000000000000000000</code> / <code>0xddc3a5332f3e61c62c0000</code></td>
     </tr>
     <tr>
       <td>maxMarketValue</td>
-      <td>2 m</td>
-      <td><code>2000000000000000000000000</code> / <code>0x01a784379d99db42000000</code></td>
+      <td>3 m</td>
+      <td><code>3000000000000000000000000</code> / <code>0x027b46536c66c8e3000000</code></td>
     </tr>
     <tr>
       <td>lockedOiRatio</td>
@@ -13628,8 +13628,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>0.97 m</td>
-      <td><code>967850000000000000000000</code> / <code>0xccf340ee06edb8680000</code></td>
+      <td>3.91 m</td>
+      <td><code>3907013000000000000000000</code> / <code>0x033b57996059f423f40000</code></td>
     </tr>
     <tr>
       <td>maxMarketValue</td>
@@ -13824,13 +13824,13 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>0.7 m</td>
-      <td><code>695300000000000000000000</code> / <code>0x933c49dcdeb78d900000</code></td>
+      <td>2.1 m</td>
+      <td><code>2098416000000000000000000</code> / <code>0x01bc5b5bfb038a7dc00000</code></td>
     </tr>
     <tr>
       <td>maxMarketValue</td>
-      <td>0.5 m</td>
-      <td><code>500000000000000000000000</code> / <code>0x69e10de76676d0800000</code></td>
+      <td>1 m</td>
+      <td><code>1000000000000000000000000</code> / <code>0xd3c21bcecceda1000000</code></td>
     </tr>
     <tr>
       <td>lockedOiRatio</td>
@@ -14608,8 +14608,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>2.28 m</td>
-      <td><code>2277900000000000000000000</code> / <code>0x01e25d34d8f08da0b00000</code></td>
+      <td>6.41 m</td>
+      <td><code>6411900000000000000000000</code> / <code>0x054dc5cba519d6ac700000</code></td>
     </tr>
     <tr>
       <td>maxMarketValue</td>
@@ -15000,8 +15000,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>3.5 m</td>
-      <td><code>3496500000000000000000000</code> / <code>0x02e469a511ed0b28500000</code></td>
+      <td>10.17 m</td>
+      <td><code>10167768000000000000000000</code> / <code>0x08691bcec87852b0600000</code></td>
     </tr>
     <tr>
       <td>maxMarketValue</td>
@@ -15392,8 +15392,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>1.9 m</td>
-      <td><code>1904850000000000000000000</code> / <code>0x01935e201b102990080000</code></td>
+      <td>6.16 m</td>
+      <td><code>6157635000000000000000000</code> / <code>0x0517ee0fed8f8b832c0000</code></td>
     </tr>
     <tr>
       <td>maxMarketValue</td>
@@ -16176,8 +16176,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>16.38 m</td>
-      <td><code>16384500000000000000000000</code> / <code>0x0d8d8d86564e8aef500000</code></td>
+      <td>7.25 m</td>
+      <td><code>7247952000000000000000000</code> / <code>0x05fed043e5b07faf400000</code></td>
     </tr>
     <tr>
       <td>maxMarketValue</td>
@@ -16372,8 +16372,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>5.65 m</td>
-      <td><code>5646550000000000000000000</code> / <code>0x04abb416bf07ed8d980000</code></td>
+      <td>1.79 m</td>
+      <td><code>1793079000000000000000000</code> / <code>0x017bb301e2784ce67c0000</code></td>
     </tr>
     <tr>
       <td>maxMarketValue</td>
@@ -16764,8 +16764,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>268.82 k</td>
-      <td><code>268820000000000000000000</code> / <code>0x38ecc2eb22993bd00000</code></td>
+      <td>1.9 m</td>
+      <td><code>1901502000000000000000000</code> / <code>0x0192a8a145aaa068380000</code></td>
     </tr>
     <tr>
       <td>maxMarketValue</td>
@@ -16960,13 +16960,13 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>477.55 k</td>
-      <td><code>477550000000000000000000</code> / <code>0x652009914fa970f80000</code></td>
+      <td>1.21 m</td>
+      <td><code>1210214000000000000000000</code> / <code>0x010045d518136c2dd80000</code></td>
     </tr>
     <tr>
       <td>maxMarketValue</td>
-      <td>1 m</td>
-      <td><code>1000000000000000000000000</code> / <code>0xd3c21bcecceda1000000</code></td>
+      <td>0.5 m</td>
+      <td><code>500000000000000000000000</code> / <code>0x69e10de76676d0800000</code></td>
     </tr>
     <tr>
       <td>lockedOiRatio</td>
@@ -18528,13 +18528,13 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>3.33 t</td>
-      <td><code>3332222592470000000000000000000</code> / <code>0x2a0efdecda100c163561980000</code></td>
+      <td>44.25 t</td>
+      <td><code>44247787610619000000000000000000</code> / <code>0x022e7c500f5383ee736f030c0000</code></td>
     </tr>
     <tr>
       <td>maxMarketValue</td>
-      <td>1 m</td>
-      <td><code>1000000000000000000000000</code> / <code>0xd3c21bcecceda1000000</code></td>
+      <td>2 m</td>
+      <td><code>2000000000000000000000000</code> / <code>0x01a784379d99db42000000</code></td>
     </tr>
     <tr>
       <td>lockedOiRatio</td>
@@ -18724,13 +18724,13 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>428.6 k</td>
-      <td><code>428600000000000000000000</code> / <code>0x5ac273dabbe085e00000</code></td>
+      <td>6.86 m</td>
+      <td><code>6861848000000000000000000</code> / <code>0x05ad0d8683732a01600000</code></td>
     </tr>
     <tr>
       <td>maxMarketValue</td>
-      <td>1 m</td>
-      <td><code>1000000000000000000000000</code> / <code>0xd3c21bcecceda1000000</code></td>
+      <td>3 m</td>
+      <td><code>3000000000000000000000000</code> / <code>0x027b46536c66c8e3000000</code></td>
     </tr>
     <tr>
       <td>lockedOiRatio</td>
@@ -19508,13 +19508,13 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>34 m</td>
-      <td><code>34000000000000000000000000</code> / <code>0x1c1fc7b177378f62000000</code></td>
+      <td>26.5 m</td>
+      <td><code>26497085000000000000000000</code> / <code>0x15eaf9db27d6ee22d40000</code></td>
     </tr>
     <tr>
       <td>maxMarketValue</td>
-      <td>1 m</td>
-      <td><code>1000000000000000000000000</code> / <code>0xd3c21bcecceda1000000</code></td>
+      <td>0.5 m</td>
+      <td><code>500000000000000000000000</code> / <code>0x69e10de76676d0800000</code></td>
     </tr>
     <tr>
       <td>lockedOiRatio</td>
@@ -19704,13 +19704,13 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>4 m</td>
-      <td><code>4000000000000000000000000</code> / <code>0x034f086f3b33b684000000</code></td>
+      <td>10.66 m</td>
+      <td><code>10662117000000000000000000</code> / <code>0x08d1ca854edf117c740000</code></td>
     </tr>
     <tr>
       <td>maxMarketValue</td>
-      <td>3 m</td>
-      <td><code>3000000000000000000000000</code> / <code>0x027b46536c66c8e3000000</code></td>
+      <td>1 m</td>
+      <td><code>1000000000000000000000000</code> / <code>0xd3c21bcecceda1000000</code></td>
     </tr>
     <tr>
       <td>lockedOiRatio</td>
@@ -19900,8 +19900,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>50 t</td>
-      <td><code>50000000000000000000000000000000</code> / <code>0x027716b6a0adc2d677c080000000</code></td>
+      <td>67.84 b</td>
+      <td><code>67842605156000000000000000000</code> / <code>0xdb361672dc4e979d63100000</code></td>
     </tr>
     <tr>
       <td>maxMarketValue</td>
@@ -20096,8 +20096,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>0.6 b</td>
-      <td><code>600000000000000000000000000</code> / <code>0x01f04ef12cb04cf158000000</code></td>
+      <td>95.03 m</td>
+      <td><code>95026924000000000000000000</code> / <code>0x4e9abbdf4d22b788300000</code></td>
     </tr>
     <tr>
       <td>maxMarketValue</td>
@@ -20292,8 +20292,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>15 m</td>
-      <td><code>15000000000000000000000000</code> / <code>0x0c685fa11e01ec6f000000</code></td>
+      <td>3.18 m</td>
+      <td><code>3184713000000000000000000</code> / <code>0x02a263a33e275e1b840000</code></td>
     </tr>
     <tr>
       <td>maxMarketValue</td>
@@ -20488,8 +20488,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>1 m</td>
-      <td><code>1000000000000000000000000</code> / <code>0xd3c21bcecceda1000000</code></td>
+      <td>350.39 k</td>
+      <td><code>350385000000000000000000</code> / <code>0x4a3268ae58b51c240000</code></td>
     </tr>
     <tr>
       <td>maxMarketValue</td>
@@ -20684,13 +20684,13 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>6 m</td>
-      <td><code>6000000000000000000000000</code> / <code>0x04f68ca6d8cd91c6000000</code></td>
+      <td>36.76 m</td>
+      <td><code>36764706000000000000000000</code> / <code>0x1e693ab4af4762ab480000</code></td>
     </tr>
     <tr>
       <td>maxMarketValue</td>
-      <td>2 m</td>
-      <td><code>2000000000000000000000000</code> / <code>0x01a784379d99db42000000</code></td>
+      <td>0.5 m</td>
+      <td><code>500000000000000000000000</code> / <code>0x69e10de76676d0800000</code></td>
     </tr>
     <tr>
       <td>lockedOiRatio</td>
@@ -21272,13 +21272,13 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>2 b</td>
-      <td><code>2000000000000000000000000000</code> / <code>0x06765c793fa10079d0000000</code></td>
+      <td>305.34 m</td>
+      <td><code>305343511000000000000000000</code> / <code>0xfc9300e626abd539fc0000</code></td>
     </tr>
     <tr>
       <td>maxMarketValue</td>
-      <td>3 m</td>
-      <td><code>3000000000000000000000000</code> / <code>0x027b46536c66c8e3000000</code></td>
+      <td>1 m</td>
+      <td><code>1000000000000000000000000</code> / <code>0xd3c21bcecceda1000000</code></td>
     </tr>
     <tr>
       <td>lockedOiRatio</td>
@@ -21468,13 +21468,13 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>0.5 m</td>
-      <td><code>500000000000000000000000</code> / <code>0x69e10de76676d0800000</code></td>
+      <td>1.46 m</td>
+      <td><code>1464343000000000000000000</code> / <code>0x013616316e8e4669fc0000</code></td>
     </tr>
     <tr>
       <td>maxMarketValue</td>
-      <td>0.7 m</td>
-      <td><code>700000000000000000000000</code> / <code>0x943b1377290cbd800000</code></td>
+      <td>0.5 m</td>
+      <td><code>500000000000000000000000</code> / <code>0x69e10de76676d0800000</code></td>
     </tr>
     <tr>
       <td>lockedOiRatio</td>
@@ -22056,8 +22056,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>105 k</td>
-      <td><code>105000000000000000000000</code> / <code>0x163c0fb846284fa00000</code></td>
+      <td>0.57 m</td>
+      <td><code>571265000000000000000000</code> / <code>0x78f85673b84fd5640000</code></td>
     </tr>
     <tr>
       <td>maxMarketValue</td>
@@ -22252,13 +22252,13 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>1 m</td>
-      <td><code>1000000000000000000000000</code> / <code>0xd3c21bcecceda1000000</code></td>
+      <td>3.12 m</td>
+      <td><code>3120125000000000000000000</code> / <code>0x0294b650af1141f9d40000</code></td>
     </tr>
     <tr>
       <td>maxMarketValue</td>
-      <td>2 m</td>
-      <td><code>2000000000000000000000000</code> / <code>0x01a784379d99db42000000</code></td>
+      <td>1 m</td>
+      <td><code>1000000000000000000000000</code> / <code>0xd3c21bcecceda1000000</code></td>
     </tr>
     <tr>
       <td>lockedOiRatio</td>
@@ -23624,13 +23624,13 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>1 m</td>
-      <td><code>1000000000000000000000000</code> / <code>0xd3c21bcecceda1000000</code></td>
+      <td>0.89 m</td>
+      <td><code>886211000000000000000000</code> / <code>0xbba9983600e3752c0000</code></td>
     </tr>
     <tr>
       <td>maxMarketValue</td>
-      <td>200 k</td>
-      <td><code>200000000000000000000000</code> / <code>0x2a5a058fc295ed000000</code></td>
+      <td>0.5 m</td>
+      <td><code>500000000000000000000000</code> / <code>0x69e10de76676d0800000</code></td>
     </tr>
     <tr>
       <td>lockedOiRatio</td>
