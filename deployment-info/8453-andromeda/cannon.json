@@ -1,6 +1,6 @@
 {
   "generator": "cannon website 2.15.5",
-  "timestamp": 1743411655,
+  "timestamp": 1744633502,
   "def": {
     "setting": {
       "snx_package": {
@@ -28075,7 +28075,7 @@
       },
       "perps_arb_market_settings": {
         "arb_perps_market_id": "1600",
-        "arb_perps_market_skew_scale": "<%= parseEther(String(60_186_800)) %>",
+        "arb_perps_market_skew_scale": "<%= parseEther(String(120_373_600)) %>",
         "arb_perps_market_max_funding_velocity": "<%= parseEther('36') %>",
         "arb_perps_maker_fee_ratio": "<%= parseEther('0.000200') %>",
         "arb_perps_taker_fee_ratio": "<%= parseEther('0.001000') %>",
@@ -28132,7 +28132,7 @@
       },
       "perps_avax_market_settings": {
         "avax_perps_market_id": "900",
-        "avax_perps_market_skew_scale": "<%= parseEther(String(1_580_100)) %>",
+        "avax_perps_market_skew_scale": "<%= parseEther(String(3_160_200)) %>",
         "avax_perps_market_max_funding_velocity": "<%= parseEther('36') %>",
         "avax_perps_maker_fee_ratio": "<%= parseEther('0.000200') %>",
         "avax_perps_taker_fee_ratio": "<%= parseEther('0.001000') %>",
@@ -28156,7 +28156,7 @@
         "axl_perps_maker_fee_ratio": "<%= parseEther('0.000200') %>",
         "axl_perps_taker_fee_ratio": "<%= parseEther('0.001000') %>",
         "axl_perps_max_market_size": "<%= parseEther(String(1_000_000)) %>",
-        "axl_perps_max_market_value": "<%= parseEther(String(500_000)) %>",
+        "axl_perps_max_market_value": "<%= parseEther(String(250_000)) %>",
         "axl_perps_initial_margin_ratio": "<%= parseEther('2.85') %>",
         "axl_perps_maintenance_margin_scalar": "<%= parseEther('0.34') %>",
         "axl_perps_minimum_initial_margin_ratio": "<%= parseEther('0.05') %>",
@@ -28193,8 +28193,8 @@
         "bal_perps_market_max_funding_velocity": "<%= parseEther('36') %>",
         "bal_perps_maker_fee_ratio": "<%= parseEther('0.000200') %>",
         "bal_perps_taker_fee_ratio": "<%= parseEther('0.001000') %>",
-        "bal_perps_max_market_size": "<%= parseEther(String(144_092)) %>",
-        "bal_perps_max_market_value": "<%= parseEther(String(100_000)) %>",
+        "bal_perps_max_market_size": "<%= parseEther(String(0)) %>",
+        "bal_perps_max_market_value": "<%= parseEther(String(0)) %>",
         "bal_perps_initial_margin_ratio": "<%= parseEther('3.94') %>",
         "bal_perps_maintenance_margin_scalar": "<%= parseEther('0.35') %>",
         "bal_perps_minimum_initial_margin_ratio": "<%= parseEther('0.05') %>",
@@ -28764,7 +28764,7 @@
         "goat_perps_maker_fee_ratio": "<%= parseEther('0.000200') %>",
         "goat_perps_taker_fee_ratio": "<%= parseEther('0.001000') %>",
         "goat_perps_max_market_size": "<%= parseEther(String(10_000_000)) %>",
-        "goat_perps_max_market_value": "<%= parseEther(String(3_000_000)) %>",
+        "goat_perps_max_market_value": "<%= parseEther(String(500_000)) %>",
         "goat_perps_initial_margin_ratio": "<%= parseEther('2.459') %>",
         "goat_perps_maintenance_margin_scalar": "<%= parseEther('0.317') %>",
         "goat_perps_minimum_initial_margin_ratio": "<%= parseEther('0.05') %>",
@@ -29087,7 +29087,7 @@
         "mew_perps_maker_fee_ratio": "<%= parseEther('0.000200') %>",
         "mew_perps_taker_fee_ratio": "<%= parseEther('0.001000') %>",
         "mew_perps_max_market_size": "<%= parseEther(String(123_319_770)) %>",
-        "mew_perps_max_market_value": "<%= parseEther(String(1_000_000)) %>",
+        "mew_perps_max_market_value": "<%= parseEther(String(500_000)) %>",
         "mew_perps_initial_margin_ratio": "<%= parseEther('1.597') %>",
         "mew_perps_maintenance_margin_scalar": "<%= parseEther('0.328') %>",
         "mew_perps_minimum_initial_margin_ratio": "<%= parseEther('0.05') %>",
@@ -29182,7 +29182,7 @@
         "not_perps_maker_fee_ratio": "<%= parseEther('0.000200') %>",
         "not_perps_taker_fee_ratio": "<%= parseEther('0.001000') %>",
         "not_perps_max_market_size": "<%= parseEther(String(118_077_700)) %>",
-        "not_perps_max_market_value": "<%= parseEther(String(1_000_000)) %>",
+        "not_perps_max_market_value": "<%= parseEther(String(700_000)) %>",
         "not_perps_initial_margin_ratio": "<%= parseEther('1.14') %>",
         "not_perps_maintenance_margin_scalar": "<%= parseEther('0.345') %>",
         "not_perps_minimum_initial_margin_ratio": "<%= parseEther('0.05') %>",
@@ -29201,7 +29201,7 @@
         "om_perps_maker_fee_ratio": "<%= parseEther('0.000200') %>",
         "om_perps_taker_fee_ratio": "<%= parseEther('0.001000') %>",
         "om_perps_max_market_size": "<%= parseEther(String(500_000)) %>",
-        "om_perps_max_market_value": "<%= parseEther(String(3_000_000)) %>",
+        "om_perps_max_market_value": "<%= parseEther(String(1_000_000)) %>",
         "om_perps_initial_margin_ratio": "<%= parseEther('0.378') %>",
         "om_perps_maintenance_margin_scalar": "<%= parseEther('0.723') %>",
         "om_perps_minimum_initial_margin_ratio": "<%= parseEther('0.25') %>",
@@ -29296,7 +29296,7 @@
         "people_perps_maker_fee_ratio": "<%= parseEther('0.000200') %>",
         "people_perps_taker_fee_ratio": "<%= parseEther('0.001000') %>",
         "people_perps_max_market_size": "<%= parseEther(String(11_341_730)) %>",
-        "people_perps_max_market_value": "<%= parseEther(String(1_000_000)) %>",
+        "people_perps_max_market_value": "<%= parseEther(String(500_000)) %>",
         "people_perps_initial_margin_ratio": "<%= parseEther('2.403') %>",
         "people_perps_maintenance_margin_scalar": "<%= parseEther('0.334') %>",
         "people_perps_minimum_initial_margin_ratio": "<%= parseEther('0.05') %>",
@@ -29353,7 +29353,7 @@
         "pol_perps_maker_fee_ratio": "<%= parseEther('0.0002') %>",
         "pol_perps_taker_fee_ratio": "<%= parseEther('0.0010') %>",
         "pol_perps_max_market_size": "<%= parseEther(String(7_500_000)) %>",
-        "pol_perps_max_market_value": "<%= parseEther(String(3_000_000)) %>",
+        "pol_perps_max_market_value": "<%= parseEther(String(1_500_000)) %>",
         "pol_perps_initial_margin_ratio": "<%= parseEther('1.8') %>",
         "pol_perps_maintenance_margin_scalar": "<%= parseEther('0.37') %>",
         "pol_perps_minimum_initial_margin_ratio": "<%= parseEther('0.02') %>",
@@ -29595,7 +29595,7 @@
       },
       "perps_sol_market_settings": {
         "sol_perps_market_id": "400",
-        "sol_perps_market_skew_scale": "<%= parseEther(String(817_500)) %>",
+        "sol_perps_market_skew_scale": "<%= parseEther(String(1_635_000)) %>",
         "sol_perps_market_max_funding_velocity": "<%= parseEther('36') %>",
         "sol_perps_maker_fee_ratio": "<%= parseEther('0.00020') %>",
         "sol_perps_taker_fee_ratio": "<%= parseEther('0.000800') %>",
@@ -29766,13 +29766,13 @@
       },
       "perps_trump_market_settings": {
         "trump_perps_market_id": "10000",
-        "trump_perps_market_skew_scale": "<%= parseEther(String(3_138_300)) %>",
+        "trump_perps_market_skew_scale": "<%= parseEther(String(6_276_600)) %>",
         "trump_perps_market_max_funding_velocity": "<%= parseEther('36') %>",
         "trump_perps_maker_fee_ratio": "<%= parseEther('0.000200') %>",
         "trump_perps_taker_fee_ratio": "<%= parseEther('0.001000') %>",
         "trump_perps_max_market_size": "<%= parseEther(String(571_265)) %>",
         "trump_perps_max_market_value": "<%= parseEther(String(3_000_000)) %>",
-        "trump_perps_initial_margin_ratio": "<%= parseEther('14.837') %>",
+        "trump_perps_initial_margin_ratio": "<%= parseEther('6.85') %>",
         "trump_perps_maintenance_margin_scalar": "<%= parseEther('0.407') %>",
         "trump_perps_minimum_initial_margin_ratio": "<%= parseEther('0.05') %>",
         "trump_perps_flag_reward_ratio_d18": "<%= parseEther('0.0003') %>",
@@ -29842,7 +29842,7 @@
       },
       "perps_virtual_market_settings": {
         "virtual_perps_market_id": "9700",
-        "virtual_perps_market_skew_scale": "<%= parseEther(String(11_285_000)) %>",
+        "virtual_perps_market_skew_scale": "<%= parseEther(String(22_570_000)) %>",
         "virtual_perps_market_max_funding_velocity": "<%= parseEther('36') %>",
         "virtual_perps_maker_fee_ratio": "<%= parseEther('0.000200') %>",
         "virtual_perps_taker_fee_ratio": "<%= parseEther('0.001000') %>",
@@ -30134,7 +30134,7 @@
       }
     },
     "name": "synthetix-omnibus",
-    "version": "88",
+    "version": "89",
     "description": "Andromeda deployment",
     "preset": "andromeda",
     "deployers": [
@@ -46021,30 +46021,30 @@
         "contracts": {},
         "txns": {
           "setPerpsSolFundingParameters": {
-            "hash": "0xf37e2d2af6ef2aab8c767db0e089773bfd21b9e788cd1119105c52552943ec8a",
-            "blockNumber": "25350102",
-            "timestamp": "1737489574",
+            "hash": "0xe0d246df4664ce3441adb84ecedf6ddd6528ae0da8be87b32d736c68a98a7fbd",
+            "blockNumber": "28921968",
+            "timestamp": "1744633450",
             "events": {
               "FundingParametersSet": [
                 {
                   "name": "FundingParametersSet",
                   "args": [
                     "400",
-                    "817500000000000000000000",
+                    "1635000000000000000000000",
                     "36000000000000000000"
                   ]
                 }
               ]
             },
             "deployedOn": "invoke.setPerpsSolFundingParameters",
-            "gasUsed": 45068,
-            "gasCost": "1000000008",
+            "gasUsed": 42280,
+            "gasCost": "1000169367",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
         "settings": {}
       },
-      "hash": "222af1785da7e56a8096e10fdf7473ef",
+      "hash": "c9284450388b1ffaedb222140850fd2d",
       "version": 7
     },
     "invoke.setPerpsSolLiquidationParameters": {
@@ -52650,30 +52650,30 @@
         "contracts": {},
         "txns": {
           "setPerpsArbFundingParameters": {
-            "hash": "0x978660fc203fa554cafb064955e255d2979975c76f0a9614c2dd48a65b928d7b",
-            "blockNumber": "25349994",
-            "timestamp": "1737489400",
+            "hash": "0x9d7fa716be592ddce0d917b0c3025e74d324af2a0d72536fd40577850fbbb306",
+            "blockNumber": "28921957",
+            "timestamp": "1744633345",
             "events": {
               "FundingParametersSet": [
                 {
                   "name": "FundingParametersSet",
                   "args": [
                     "1600",
-                    "60186800000000000000000000",
+                    "120373600000000000000000000",
                     "36000000000000000000"
                   ]
                 }
               ]
             },
             "deployedOn": "invoke.setPerpsArbFundingParameters",
-            "gasUsed": 45080,
-            "gasCost": "1000315076",
+            "gasUsed": 42280,
+            "gasCost": "1000732739",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
         "settings": {}
       },
-      "hash": "55f82310bb6d26d96db58da626206973",
+      "hash": "79f312d1cc7ece81b6003921a330c6c1",
       "version": 7
     },
     "invoke.setPerpsArbLiquidationParameters": {
@@ -52863,30 +52863,30 @@
         "contracts": {},
         "txns": {
           "setPerpsAvaxFundingParameters": {
-            "hash": "0x55c881acd81fd6582962639de100ef4cff78f8e3de37b6f2ffafc1e6f4ec9cc2",
-            "blockNumber": "25349999",
-            "timestamp": "1737489407",
+            "hash": "0x666a32bbdc91faa005ccad1297c042ca24e43f1d950d920ebd74a475640d40b8",
+            "blockNumber": "28921958",
+            "timestamp": "1744633348",
             "events": {
               "FundingParametersSet": [
                 {
                   "name": "FundingParametersSet",
                   "args": [
                     "900",
-                    "1580100000000000000000000",
+                    "3160200000000000000000000",
                     "36000000000000000000"
                   ]
                 }
               ]
             },
             "deployedOn": "invoke.setPerpsAvaxFundingParameters",
-            "gasUsed": 45080,
-            "gasCost": "1000161975",
+            "gasUsed": 42280,
+            "gasCost": "1000641405",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
         "settings": {}
       },
-      "hash": "2c9263ce0195eb64a740618d0007ac7d",
+      "hash": "e3abd24027b3680113b02fe8c5b70603",
       "version": 7
     },
     "invoke.setPerpsAvaxLiquidationParameters": {
@@ -61353,27 +61353,29 @@
         "contracts": {},
         "txns": {
           "setPerpsAxlMaxMarketValue": {
-            "hash": "",
+            "hash": "0x7cb3d3ec53edaec54ab6f2eb3991e34c4be60e357f8b1a43112dbf9515958b7e",
+            "blockNumber": "28921959",
+            "timestamp": "1744633350",
             "events": {
               "MaxMarketValueSet": [
                 {
                   "name": "MaxMarketValueSet",
                   "args": [
                     "3200",
-                    "500000000000000000000000"
+                    "250000000000000000000000"
                   ]
                 }
               ]
             },
             "deployedOn": "invoke.setPerpsAxlMaxMarketValue",
-            "gasUsed": 39558,
-            "gasCost": "1008469580",
+            "gasUsed": 39610,
+            "gasCost": "1000561456",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
         "settings": {}
       },
-      "hash": "d7a3eaa04598cdec6c6e049044baeed2",
+      "hash": "b7bcced8b29e7e421671b7412469f1fe",
       "version": 7
     },
     "invoke.setPerpsAxlOrderFees": {
@@ -69908,29 +69910,29 @@
         "contracts": {},
         "txns": {
           "setPerpsBalMaxMarketSize": {
-            "hash": "0x7e9d00dd4ec5d55116c788880c580e01e2ea01b72d27ccad11b376b5001b4f7b",
-            "blockNumber": "28311022",
-            "timestamp": "1743411489",
+            "hash": "0x5532aaec0aa641aed89ce0030a890a018d9991e4d7ccd26654b47a41b2b97cfb",
+            "blockNumber": "28921960",
+            "timestamp": "1744633353",
             "events": {
               "MaxMarketSizeSet": [
                 {
                   "name": "MaxMarketSizeSet",
                   "args": [
                     "3900",
-                    "144092000000000000000000"
+                    "0"
                   ]
                 }
               ]
             },
             "deployedOn": "invoke.setPerpsBalMaxMarketSize",
-            "gasUsed": 39521,
-            "gasCost": "1000638077",
+            "gasUsed": 34625,
+            "gasCost": "1000491460",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
         "settings": {}
       },
-      "hash": "a36906a9cb8ab02d877d556ab16e8390",
+      "hash": "ad518932cc566b61bee328fd7ba6dd70",
       "version": 7
     },
     "invoke.setPerpsBalMaxMarketValue": {
@@ -69938,29 +69940,29 @@
         "contracts": {},
         "txns": {
           "setPerpsBalMaxMarketValue": {
-            "hash": "0xc3dd165e7d2f4c2f5ffb83ffb739b6e50917107851b112ea9cf91d8e00abc4e4",
-            "blockNumber": "25951721",
-            "timestamp": "1738692866",
+            "hash": "0x1a96694bd074e8d02c1b97461155dfafc5870cc2f94e1949992955c9c3f89961",
+            "blockNumber": "28921961",
+            "timestamp": "1744633353",
             "events": {
               "MaxMarketValueSet": [
                 {
                   "name": "MaxMarketValueSet",
                   "args": [
                     "3900",
-                    "100000000000000000000000"
+                    "0"
                   ]
                 }
               ]
             },
             "deployedOn": "invoke.setPerpsBalMaxMarketValue",
-            "gasUsed": 39610,
-            "gasCost": "1001583753",
+            "gasUsed": 34714,
+            "gasCost": "1000430170",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
         "settings": {}
       },
-      "hash": "991fe2c829e282b68a065433416903be",
+      "hash": "99b09650e8e990861323f3ad54bbaaed",
       "version": 7
     },
     "invoke.setPerpsBalOrderFees": {
@@ -90660,7 +90662,7 @@
       "artifacts": {
         "settings": {
           "arb_perps_market_id": "1600",
-          "arb_perps_market_skew_scale": "60186800000000000000000000",
+          "arb_perps_market_skew_scale": "120373600000000000000000000",
           "arb_perps_market_max_funding_velocity": "36000000000000000000",
           "arb_perps_maker_fee_ratio": "200000000000000",
           "arb_perps_taker_fee_ratio": "1000000000000000",
@@ -90678,7 +90680,7 @@
           "arb_perps_endorsed_liquidator": "0x11233749514Ab8d00C0A5873DF7428b3db70030f"
         }
       },
-      "hash": "ed1ff4c0b2c9523a7b6451cccde93673",
+      "hash": "6748df43c17b792f719dade46e765ae6",
       "version": 7
     },
     "var.perps_arkm_market_settings": {
@@ -90735,7 +90737,7 @@
       "artifacts": {
         "settings": {
           "avax_perps_market_id": "900",
-          "avax_perps_market_skew_scale": "1580100000000000000000000",
+          "avax_perps_market_skew_scale": "3160200000000000000000000",
           "avax_perps_market_max_funding_velocity": "36000000000000000000",
           "avax_perps_maker_fee_ratio": "200000000000000",
           "avax_perps_taker_fee_ratio": "1000000000000000",
@@ -90753,7 +90755,7 @@
           "avax_perps_endorsed_liquidator": "0x11233749514Ab8d00C0A5873DF7428b3db70030f"
         }
       },
-      "hash": "60795223b9127ba2ec64303a5adde608",
+      "hash": "57a02b645c65ce765f33690c72568694",
       "version": 7
     },
     "var.perps_axl_market_settings": {
@@ -90765,7 +90767,7 @@
           "axl_perps_maker_fee_ratio": "200000000000000",
           "axl_perps_taker_fee_ratio": "1000000000000000",
           "axl_perps_max_market_size": "1000000000000000000000000",
-          "axl_perps_max_market_value": "500000000000000000000000",
+          "axl_perps_max_market_value": "250000000000000000000000",
           "axl_perps_initial_margin_ratio": "2850000000000000000",
           "axl_perps_maintenance_margin_scalar": "340000000000000000",
           "axl_perps_minimum_initial_margin_ratio": "50000000000000000",
@@ -90778,7 +90780,7 @@
           "axl_perps_endorsed_liquidator": "0x11233749514Ab8d00C0A5873DF7428b3db70030f"
         }
       },
-      "hash": "b1427bcd8a1eab152d03ba94d061bd34",
+      "hash": "76dfe74a00c6ca332344874c80d8965c",
       "version": 7
     },
     "var.perps_axs_market_settings": {
@@ -90814,8 +90816,8 @@
           "bal_perps_market_max_funding_velocity": "36000000000000000000",
           "bal_perps_maker_fee_ratio": "200000000000000",
           "bal_perps_taker_fee_ratio": "1000000000000000",
-          "bal_perps_max_market_size": "144092000000000000000000",
-          "bal_perps_max_market_value": "100000000000000000000000",
+          "bal_perps_max_market_size": "0",
+          "bal_perps_max_market_value": "0",
           "bal_perps_initial_margin_ratio": "3940000000000000000",
           "bal_perps_maintenance_margin_scalar": "350000000000000000",
           "bal_perps_minimum_initial_margin_ratio": "50000000000000000",
@@ -90828,7 +90830,7 @@
           "bal_perps_endorsed_liquidator": "0x11233749514Ab8d00C0A5873DF7428b3db70030f"
         }
       },
-      "hash": "8706413b6d123a96631b9c1ae0fa9895",
+      "hash": "f17f9f01c519764cb73d6f292d684f4f",
       "version": 7
     },
     "var.perps_bch_market_settings": {
@@ -92169,7 +92171,7 @@
       "artifacts": {
         "settings": {
           "sol_perps_market_id": "400",
-          "sol_perps_market_skew_scale": "817500000000000000000000",
+          "sol_perps_market_skew_scale": "1635000000000000000000000",
           "sol_perps_market_max_funding_velocity": "36000000000000000000",
           "sol_perps_maker_fee_ratio": "200000000000000",
           "sol_perps_taker_fee_ratio": "800000000000000",
@@ -92187,7 +92189,7 @@
           "sol_perps_endorsed_liquidator": "0x11233749514Ab8d00C0A5873DF7428b3db70030f"
         }
       },
-      "hash": "28eddeb94a204d43acbcdf9ef86c6cfd",
+      "hash": "7e4b12f7b0d8533dcf2eec5b1c0ed0b5",
       "version": 7
     },
     "var.perps_strk_market_settings": {
@@ -92599,7 +92601,7 @@
           "mew_perps_maker_fee_ratio": "200000000000000",
           "mew_perps_taker_fee_ratio": "1000000000000000",
           "mew_perps_max_market_size": "123319770000000000000000000",
-          "mew_perps_max_market_value": "1000000000000000000000000",
+          "mew_perps_max_market_value": "500000000000000000000000",
           "mew_perps_initial_margin_ratio": "1597000000000000000",
           "mew_perps_maintenance_margin_scalar": "328000000000000000",
           "mew_perps_minimum_initial_margin_ratio": "50000000000000000",
@@ -92612,7 +92614,7 @@
           "mew_perps_endorsed_liquidator": "0x11233749514Ab8d00C0A5873DF7428b3db70030f"
         }
       },
-      "hash": "d729af49c5f2ef693efaf6296d1832f8",
+      "hash": "50aa6199a27bb76e3b8867ca59c1da46",
       "version": 7
     },
     "var.perps_mkr_market_settings": {
@@ -92649,7 +92651,7 @@
           "not_perps_maker_fee_ratio": "200000000000000",
           "not_perps_taker_fee_ratio": "1000000000000000",
           "not_perps_max_market_size": "118077700000000000000000000",
-          "not_perps_max_market_value": "1000000000000000000000000",
+          "not_perps_max_market_value": "700000000000000000000000",
           "not_perps_initial_margin_ratio": "1140000000000000000",
           "not_perps_maintenance_margin_scalar": "345000000000000000",
           "not_perps_minimum_initial_margin_ratio": "50000000000000000",
@@ -92662,7 +92664,7 @@
           "not_perps_endorsed_liquidator": "0x11233749514Ab8d00C0A5873DF7428b3db70030f"
         }
       },
-      "hash": "47ae3b5999f7622b12728770d77d163a",
+      "hash": "eb3f8203d7fc2953e63e493c15b0e660",
       "version": 7
     },
     "var.perps_people_market_settings": {
@@ -92674,7 +92676,7 @@
           "people_perps_maker_fee_ratio": "200000000000000",
           "people_perps_taker_fee_ratio": "1000000000000000",
           "people_perps_max_market_size": "11341730000000000000000000",
-          "people_perps_max_market_value": "1000000000000000000000000",
+          "people_perps_max_market_value": "500000000000000000000000",
           "people_perps_initial_margin_ratio": "2403000000000000000",
           "people_perps_maintenance_margin_scalar": "334000000000000000",
           "people_perps_minimum_initial_margin_ratio": "50000000000000000",
@@ -92687,7 +92689,7 @@
           "people_perps_endorsed_liquidator": "0x11233749514Ab8d00C0A5873DF7428b3db70030f"
         }
       },
-      "hash": "6e4995ee43eae9f138221a2edb91e45e",
+      "hash": "bab6c2ce2699185a6ea0b98727989e23",
       "version": 7
     },
     "var.perps_pol_market_settings": {
@@ -92699,7 +92701,7 @@
           "pol_perps_maker_fee_ratio": "200000000000000",
           "pol_perps_taker_fee_ratio": "1000000000000000",
           "pol_perps_max_market_size": "7500000000000000000000000",
-          "pol_perps_max_market_value": "3000000000000000000000000",
+          "pol_perps_max_market_value": "1500000000000000000000000",
           "pol_perps_initial_margin_ratio": "1800000000000000000",
           "pol_perps_maintenance_margin_scalar": "370000000000000000",
           "pol_perps_minimum_initial_margin_ratio": "20000000000000000",
@@ -92712,7 +92714,7 @@
           "pol_perps_endorsed_liquidator": "0x11233749514Ab8d00C0A5873DF7428b3db70030f"
         }
       },
-      "hash": "066cfb0188b0ec5093451b9dd8d27748",
+      "hash": "6e2f0bded9ced1693d1501e4531a075a",
       "version": 7
     },
     "var.perps_popcat_market_settings": {
@@ -95577,29 +95579,29 @@
         "contracts": {},
         "txns": {
           "setPerpsMewMaxMarketValue": {
-            "hash": "",
-            "blockNumber": "21188557",
-            "timestamp": "1729166600",
+            "hash": "0x3a940cb46ecab82a4caa7c38a3c26160c5d63300d34f0e537fe76efcc57881c3",
+            "blockNumber": "28921963",
+            "timestamp": "1744633405",
             "events": {
               "MaxMarketValueSet": [
                 {
                   "name": "MaxMarketValueSet",
                   "args": [
                     "7500",
-                    "1000000000000000000000000"
+                    "500000000000000000000000"
                   ]
                 }
               ]
             },
             "deployedOn": "invoke.setPerpsMewMaxMarketValue",
-            "gasUsed": 56690,
-            "gasCost": "1000008371",
+            "gasUsed": 39610,
+            "gasCost": "1000329583",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
         "settings": {}
       },
-      "hash": "a94392d992397079f1f019eb517adfa4",
+      "hash": "572a983566ae4c714584f95125bcdf27",
       "version": 7
     },
     "invoke.setPerpsMewOrderFees": {
@@ -96015,29 +96017,29 @@
         "contracts": {},
         "txns": {
           "setPerpsNotMaxMarketValue": {
-            "hash": "",
-            "blockNumber": "21188571",
-            "timestamp": "1729166638",
+            "hash": "0xdf7caa7893e825cce0f3dc83cb6c844c703ec449ac2a80d16c50a52e2e040765",
+            "blockNumber": "28921964",
+            "timestamp": "1744633411",
             "events": {
               "MaxMarketValueSet": [
                 {
                   "name": "MaxMarketValueSet",
                   "args": [
                     "7700",
-                    "1000000000000000000000000"
+                    "700000000000000000000000"
                   ]
                 }
               ]
             },
             "deployedOn": "invoke.setPerpsNotMaxMarketValue",
-            "gasUsed": 56690,
-            "gasCost": "1000001308",
+            "gasUsed": 39610,
+            "gasCost": "1000288494",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
         "settings": {}
       },
-      "hash": "980d87ab06fdad5c5c0a35235e1336c1",
+      "hash": "379feda7eded6a5cbd8f24b69c10a0ee",
       "version": 7
     },
     "invoke.setPerpsNotOrderFees": {
@@ -96234,29 +96236,29 @@
         "contracts": {},
         "txns": {
           "setPerpsPeopleMaxMarketValue": {
-            "hash": "",
-            "blockNumber": "21188578",
-            "timestamp": "1729166657",
+            "hash": "0xa3e6251dbf83809848c78475605ceaf08a7241c0e3a09a5cdccce6e35683f748",
+            "blockNumber": "28921966",
+            "timestamp": "1744633418",
             "events": {
               "MaxMarketValueSet": [
                 {
                   "name": "MaxMarketValueSet",
                   "args": [
                     "7800",
-                    "1000000000000000000000000"
+                    "500000000000000000000000"
                   ]
                 }
               ]
             },
             "deployedOn": "invoke.setPerpsPeopleMaxMarketValue",
-            "gasUsed": 56690,
-            "gasCost": "1000000520",
+            "gasUsed": 39610,
+            "gasCost": "1000221046",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
         "settings": {}
       },
-      "hash": "148b5f95ca8a2799083a301613b46803",
+      "hash": "0242d72d6c8c8bccbd84b94bd22c9e07",
       "version": 7
     },
     "invoke.setPerpsPeopleOrderFees": {
@@ -96453,29 +96455,29 @@
         "contracts": {},
         "txns": {
           "setPerpsPolMaxMarketValue": {
-            "hash": "",
-            "blockNumber": "21188585",
-            "timestamp": "1729166676",
+            "hash": "0xb3becadef10a89ca643458cf6bce9206091d19dea01a2cf36d5354eae99f7a23",
+            "blockNumber": "28921967",
+            "timestamp": "1744633421",
             "events": {
               "MaxMarketValueSet": [
                 {
                   "name": "MaxMarketValueSet",
                   "args": [
                     "7900",
-                    "3000000000000000000000000"
+                    "1500000000000000000000000"
                   ]
                 }
               ]
             },
             "deployedOn": "invoke.setPerpsPolMaxMarketValue",
-            "gasUsed": 56702,
-            "gasCost": "1000000208",
+            "gasUsed": 39622,
+            "gasCost": "1000193489",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
         "settings": {}
       },
-      "hash": "d63971230756297509e3e6be7c5069a0",
+      "hash": "c7f879366c12ff09d403944eb2097798",
       "version": 7
     },
     "invoke.setPerpsPolOrderFees": {
@@ -98806,7 +98808,7 @@
           "goat_perps_maker_fee_ratio": "200000000000000",
           "goat_perps_taker_fee_ratio": "1000000000000000",
           "goat_perps_max_market_size": "10000000000000000000000000",
-          "goat_perps_max_market_value": "3000000000000000000000000",
+          "goat_perps_max_market_value": "500000000000000000000000",
           "goat_perps_initial_margin_ratio": "2459000000000000000",
           "goat_perps_maintenance_margin_scalar": "317000000000000000",
           "goat_perps_minimum_initial_margin_ratio": "50000000000000000",
@@ -98819,7 +98821,7 @@
           "goat_perps_endorsed_liquidator": "0x11233749514Ab8d00C0A5873DF7428b3db70030f"
         }
       },
-      "hash": "906a85b8e75c0437f5a257ba32ef68f8",
+      "hash": "bc0bcfc867221358243a5552707a2562",
       "version": 7
     },
     "var.perps_moodeng_market_settings": {
@@ -99569,29 +99571,29 @@
         "contracts": {},
         "txns": {
           "setPerpsGoatMaxMarketValue": {
-            "hash": "0x10eeb75ac1b9b13231348b34ce8e122abde6af0aebb8977d6e1bf11c27493b2d",
-            "blockNumber": "21962193",
-            "timestamp": "1730713782",
+            "hash": "0x7a4d08bc2dd54316eb057ed8081f50c2a1639a9832f2842d302d2cd46c22f19f",
+            "blockNumber": "28921962",
+            "timestamp": "1744633384",
             "events": {
               "MaxMarketValueSet": [
                 {
                   "name": "MaxMarketValueSet",
                   "args": [
                     "8600",
-                    "3000000000000000000000000"
+                    "500000000000000000000000"
                   ]
                 }
               ]
             },
             "deployedOn": "invoke.setPerpsGoatMaxMarketValue",
-            "gasUsed": 56702,
-            "gasCost": "1000074802",
+            "gasUsed": 39610,
+            "gasCost": "1000376524",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
         "settings": {}
       },
-      "hash": "1b01edf996c515d5c9816790d43144e3",
+      "hash": "98716465f7fd769ba21023c2aa9d8ee6",
       "version": 7
     },
     "invoke.setPerpsGoatOrderFees": {
@@ -108100,7 +108102,7 @@
       "artifacts": {
         "settings": {
           "virtual_perps_market_id": "9700",
-          "virtual_perps_market_skew_scale": "11285000000000000000000000",
+          "virtual_perps_market_skew_scale": "22570000000000000000000000",
           "virtual_perps_market_max_funding_velocity": "36000000000000000000",
           "virtual_perps_maker_fee_ratio": "200000000000000",
           "virtual_perps_taker_fee_ratio": "1000000000000000",
@@ -108118,7 +108120,7 @@
           "virtual_perps_endorsed_liquidator": "0x11233749514Ab8d00C0A5873DF7428b3db70030f"
         }
       },
-      "hash": "826cd79bc7f7365f5942bd912952ecdf",
+      "hash": "becf9b6ff8b470114cae6c01a38c6bd8",
       "version": 7
     },
     "invoke.registerLookupPenguOracleNode": {
@@ -108763,30 +108765,30 @@
         "contracts": {},
         "txns": {
           "setPerpsVirtualFundingParameters": {
-            "hash": "0x16fd5e8728a706da77b3e85b58c7c886a55aaf0e24f27d3d4b6a3a170f955e49",
-            "blockNumber": "26970629",
-            "timestamp": "1740730737",
+            "hash": "0x067d32ece70e1565bc922b7133e1d0f928c1cd2b84d1581cd6cd24a982d4cd6b",
+            "blockNumber": "28921971",
+            "timestamp": "1744633464",
             "events": {
               "FundingParametersSet": [
                 {
                   "name": "FundingParametersSet",
                   "args": [
                     "9700",
-                    "11285000000000000000000000",
+                    "22570000000000000000000000",
                     "36000000000000000000"
                   ]
                 }
               ]
             },
             "deployedOn": "invoke.setPerpsVirtualFundingParameters",
-            "gasUsed": 39480,
-            "gasCost": "1000000039",
+            "gasUsed": 42280,
+            "gasCost": "1000113610",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
         "settings": {}
       },
-      "hash": "ed1e820686325c2f9d325cdd095dedde",
+      "hash": "6fd7c335d34f59c1678cf2e81d3fe7fd",
       "version": 7
     },
     "invoke.setPerpsVirtualLiquidationParameters": {
@@ -110047,13 +110049,13 @@
       "artifacts": {
         "settings": {
           "trump_perps_market_id": "10000",
-          "trump_perps_market_skew_scale": "3138300000000000000000000",
+          "trump_perps_market_skew_scale": "6276600000000000000000000",
           "trump_perps_market_max_funding_velocity": "36000000000000000000",
           "trump_perps_maker_fee_ratio": "200000000000000",
           "trump_perps_taker_fee_ratio": "1000000000000000",
           "trump_perps_max_market_size": "571265000000000000000000",
           "trump_perps_max_market_value": "3000000000000000000000000",
-          "trump_perps_initial_margin_ratio": "14837000000000000000",
+          "trump_perps_initial_margin_ratio": "6850000000000000000",
           "trump_perps_maintenance_margin_scalar": "407000000000000000",
           "trump_perps_minimum_initial_margin_ratio": "50000000000000000",
           "trump_perps_flag_reward_ratio_d18": "300000000000000",
@@ -110065,7 +110067,7 @@
           "trump_perps_endorsed_liquidator": "0x11233749514Ab8d00C0A5873DF7428b3db70030f"
         }
       },
-      "hash": "e1f13e75e31907ac35ed463e494ae91a",
+      "hash": "ef1bd67a8391d7c6aee3047370de12de",
       "version": 7
     },
     "invoke.registerLookupTrumpOracleNode": {
@@ -110282,16 +110284,16 @@
         "contracts": {},
         "txns": {
           "setPerpsTrumpFundingParameters": {
-            "hash": "0xc93bfe8a3ce32aff019a2d3d64ad5ffdd9fb31d74b091a950b8f277e817f0933",
-            "blockNumber": "25558449",
-            "timestamp": "1737906385",
+            "hash": "0x0bc9948ffd639d98b594a8440d93f87d213aacccafca0de35df6f640da5ab749",
+            "blockNumber": "28921969",
+            "timestamp": "1744633459",
             "events": {
               "FundingParametersSet": [
                 {
                   "name": "FundingParametersSet",
                   "args": [
                     "10000",
-                    "3138300000000000000000000",
+                    "6276600000000000000000000",
                     "36000000000000000000"
                   ]
                 }
@@ -110299,13 +110301,13 @@
             },
             "deployedOn": "invoke.setPerpsTrumpFundingParameters",
             "gasUsed": 42280,
-            "gasCost": "1000224345",
+            "gasCost": "1000148256",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
         "settings": {}
       },
-      "hash": "5acad17589a73faef8eac45e875a752b",
+      "hash": "13fcbeedb3ae7f0b1cd177060b0efc2e",
       "version": 7
     },
     "invoke.setPerpsTrumpLiquidationParameters": {
@@ -110313,16 +110315,16 @@
         "contracts": {},
         "txns": {
           "setPerpsTrumpLiquidationParameters": {
-            "hash": "0xeeeb8300beca519778ebe676415fd852424ceecc4bc5172ccc0b61efdb650591",
-            "blockNumber": "25244676",
-            "timestamp": "1737279058",
+            "hash": "0x846c46d94c1cddbb47a172a35d44eef6a1c0c57113dc93c73154a3c0d4ec0d52",
+            "blockNumber": "28921970",
+            "timestamp": "1744633460",
             "events": {
               "LiquidationParametersSet": [
                 {
                   "name": "LiquidationParametersSet",
                   "args": [
                     "10000",
-                    "14837000000000000000",
+                    "6850000000000000000",
                     "407000000000000000",
                     "50000000000000000",
                     "300000000000000",
@@ -110332,14 +110334,14 @@
               ]
             },
             "deployedOn": "invoke.setPerpsTrumpLiquidationParameters",
-            "gasUsed": 147175,
-            "gasCost": "1003518923",
+            "gasUsed": 50463,
+            "gasCost": "1000129777",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
         "settings": {}
       },
-      "hash": "b2b2da72eb5eba6f202e96070ad72e9a",
+      "hash": "b73b79d6e4a1fe8b1e1ae77f2453ce73",
       "version": 7
     },
     "invoke.setPerpsTrumpLockedOiRatio": {
@@ -113566,7 +113568,7 @@
           "om_perps_maker_fee_ratio": "200000000000000",
           "om_perps_taker_fee_ratio": "1000000000000000",
           "om_perps_max_market_size": "500000000000000000000000",
-          "om_perps_max_market_value": "3000000000000000000000000",
+          "om_perps_max_market_value": "1000000000000000000000000",
           "om_perps_initial_margin_ratio": "378000000000000000",
           "om_perps_maintenance_margin_scalar": "723000000000000000",
           "om_perps_minimum_initial_margin_ratio": "250000000000000000",
@@ -113579,7 +113581,7 @@
           "om_perps_endorsed_liquidator": "0x11233749514Ab8d00C0A5873DF7428b3db70030f"
         }
       },
-      "hash": "6d9ce8eeadb87d94ffe6ea5282fdcae3",
+      "hash": "029a0dc37b2b66179fd5cf2b54778626",
       "version": 7
     },
     "invoke.registerLookupIpOracleNode": {
@@ -115047,29 +115049,29 @@
         "contracts": {},
         "txns": {
           "setPerpsOmMaxMarketValue": {
-            "hash": "0xbb8dd1743aac52490ed2a68ece3bb6db13c03a3fe4fa5958848173b8606c4439",
-            "blockNumber": "26970615",
-            "timestamp": "1740730673",
+            "hash": "0xafed7284bee3fb5e9197c612f2c85db900b0a904563e31a0fdee6500d4d1935d",
+            "blockNumber": "28921965",
+            "timestamp": "1744633412",
             "events": {
               "MaxMarketValueSet": [
                 {
                   "name": "MaxMarketValueSet",
                   "args": [
                     "10700",
-                    "3000000000000000000000000"
+                    "1000000000000000000000000"
                   ]
                 }
               ]
             },
             "deployedOn": "invoke.setPerpsOmMaxMarketValue",
-            "gasUsed": 56710,
-            "gasCost": "1000000230",
+            "gasUsed": 39598,
+            "gasCost": "1000252528",
             "signer": "0xbb63CA5554dc4CcaCa4EDd6ECC2837d5EFe83C82"
           }
         },
         "settings": {}
       },
-      "hash": "5ffd5260ac6d8ca012bc53e5976b4b74",
+      "hash": "94a97d234acec85a60a6d797245cd1af",
       "version": 7
     },
     "invoke.setPerpsOmOrderFees": {

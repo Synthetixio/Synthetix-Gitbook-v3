@@ -3463,8 +3463,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>skewScale</td>
-      <td>0.82 m</td>
-      <td><code>817500000000000000000000</code> / <code>0xad1cc3886b5e6bf00000</code></td>
+      <td>1.64 m</td>
+      <td><code>1635000000000000000000000</code> / <code>0x015a398710d6bcd7e00000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
@@ -4443,8 +4443,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>skewScale</td>
-      <td>1.58 m</td>
-      <td><code>1580100000000000000000000</code> / <code>0x014e996483df6766900000</code></td>
+      <td>3.16 m</td>
+      <td><code>3160200000000000000000000</code> / <code>0x029d32c907bececd200000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
@@ -5815,8 +5815,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>skewScale</td>
-      <td>60.19 m</td>
-      <td><code>60186800000000000000000000</code> / <code>0x31c90cf73b3ae094c00000</code></td>
+      <td>120.37 m</td>
+      <td><code>120373600000000000000000000</code> / <code>0x639219ee7675c129800000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
@@ -8929,8 +8929,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxMarketValue</td>
-      <td>0.5 m</td>
-      <td><code>500000000000000000000000</code> / <code>0x69e10de76676d0800000</code></td>
+      <td>250 k</td>
+      <td><code>250000000000000000000000</code> / <code>0x34f086f3b33b68400000</code></td>
     </tr>
     <tr>
       <td>lockedOiRatio</td>
@@ -10296,13 +10296,13 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>144.09 k</td>
-      <td><code>144092000000000000000000</code> / <code>0x1e833e3367dd61f00000</code></td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
     </tr>
     <tr>
       <td>maxMarketValue</td>
-      <td>100 k</td>
-      <td><code>100000000000000000000000</code> / <code>0x152d02c7e14af6800000</code></td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
     </tr>
     <tr>
       <td>lockedOiRatio</td>
@@ -17161,8 +17161,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxMarketValue</td>
-      <td>1 m</td>
-      <td><code>1000000000000000000000000</code> / <code>0xd3c21bcecceda1000000</code></td>
+      <td>0.5 m</td>
+      <td><code>500000000000000000000000</code> / <code>0x69e10de76676d0800000</code></td>
     </tr>
     <tr>
       <td>lockedOiRatio</td>
@@ -17553,8 +17553,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxMarketValue</td>
-      <td>1 m</td>
-      <td><code>1000000000000000000000000</code> / <code>0xd3c21bcecceda1000000</code></td>
+      <td>0.7 m</td>
+      <td><code>700000000000000000000000</code> / <code>0x943b1377290cbd800000</code></td>
     </tr>
     <tr>
       <td>lockedOiRatio</td>
@@ -17749,8 +17749,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxMarketValue</td>
-      <td>1 m</td>
-      <td><code>1000000000000000000000000</code> / <code>0xd3c21bcecceda1000000</code></td>
+      <td>0.5 m</td>
+      <td><code>500000000000000000000000</code> / <code>0x69e10de76676d0800000</code></td>
     </tr>
     <tr>
       <td>lockedOiRatio</td>
@@ -17945,8 +17945,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxMarketValue</td>
-      <td>3 m</td>
-      <td><code>3000000000000000000000000</code> / <code>0x027b46536c66c8e3000000</code></td>
+      <td>1.5 m</td>
+      <td><code>1500000000000000000000000</code> / <code>0x013da329b6336471800000</code></td>
     </tr>
     <tr>
       <td>lockedOiRatio</td>
@@ -19317,8 +19317,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxMarketValue</td>
-      <td>3 m</td>
-      <td><code>3000000000000000000000000</code> / <code>0x027b46536c66c8e3000000</code></td>
+      <td>0.5 m</td>
+      <td><code>500000000000000000000000</code> / <code>0x69e10de76676d0800000</code></td>
     </tr>
     <tr>
       <td>lockedOiRatio</td>
@@ -21495,8 +21495,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>skewScale</td>
-      <td>11.29 m</td>
-      <td><code>11285000000000000000000000</code> / <code>0x0955b11369437ec3200000</code></td>
+      <td>22.57 m</td>
+      <td><code>22570000000000000000000000</code> / <code>0x12ab6226d286fd86400000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
@@ -22083,8 +22083,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>skewScale</td>
-      <td>3.14 m</td>
-      <td><code>3138300000000000000000000</code> / <code>0x02988f957a2dfb0e700000</code></td>
+      <td>6.28 m</td>
+      <td><code>6276600000000000000000000</code> / <code>0x05311f2af45bf61ce00000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
@@ -22127,8 +22127,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>initialMarginRatioD18</td>
-      <td>14.837</td>
-      <td><code>14837000000000000000</code> / <code>0xcde79ce3e4788000</code></td>
+      <td>6.85</td>
+      <td><code>6850000000000000000</code> / <code>0x5f1016b5076d0000</code></td>
     </tr>
     <tr>
       <td>minimumInitialMarginRatioD18</td>
@@ -23433,8 +23433,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
     </tr>
     <tr>
       <td>maxMarketValue</td>
-      <td>3 m</td>
-      <td><code>3000000000000000000000000</code> / <code>0x027b46536c66c8e3000000</code></td>
+      <td>1 m</td>
+      <td><code>1000000000000000000000000</code> / <code>0xd3c21bcecceda1000000</code></td>
     </tr>
     <tr>
       <td>lockedOiRatio</td>
