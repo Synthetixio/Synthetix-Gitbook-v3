@@ -40,11 +40,13 @@
     </tr>
     <tr>
       <td>treasury_market</td>
-      <td><a href="https://usecannon.com/packages/synthetix-treasury-market/3.12.0/1-main">synthetix-treasury-market:3.12.0@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmNmvgZpo5mdoaW31L8wx2kMaV8hoTyoQuatEs6NMZtBJ9">QmNmvgZpo5mdoaW31L8wx2kMaV8hoTyoQuatEs6NMZtBJ9</a></td>
+      <td><a href="https://usecannon.com/packages/synthetix-treasury-market/3.12.2/1-main">synthetix-treasury-market:3.12.2@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/Qme7kBwcwY8zmh38UBq7vuZDsoPMuNZEawQF1CK6NPQgMo">Qme7kBwcwY8zmh38UBq7vuZDsoPMuNZEawQF1CK6NPQgMo</a></td>
       <td>
-        owner: <a href="https://etherscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
-        ><br />pool_id: 1<br />treasury_address: <a href="https://etherscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
+        aux_recipient: <a href="https://etherscan.io/address/0x0000000000000000000000000000000000000000"><code>0x0000000000000000000000000000000000000000</code></a
+        ><br />aux_reset_time: 604,800<br />aux_token: <a href="https://etherscan.io/address/0x0000000000000000000000000000000000000000"><code>0x0000000000000000000000000000000000000000</code></a
+        ><br />owner: <a href="https://etherscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
+        ><br />pool_id: 1<br />required_aux_token_ratio: 0<br />treasury_address: <a href="https://etherscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />v3_package: synthetix:latest<br />collateral_token: <a href="https://etherscan.io/address/0xb2F30A7C980f052f02563fb518dcc39e6bf38175"><code>0xb2F30A7C980f052f02563fb518dcc39e6bf38175</code></a
         ><br />market_id: 3
       </td>
@@ -94,11 +96,13 @@
     </tr>
     <tr>
       <td>treasury_market</td>
-      <td><a href="https://usecannon.com/packages/synthetix-treasury-market/3.12.0/10-main">synthetix-treasury-market:3.12.0@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmTdC8RK1u4C3aeZixVyEWaLbSkJd9HNmLyrZda8mHmvD3">QmTdC8RK1u4C3aeZixVyEWaLbSkJd9HNmLyrZda8mHmvD3</a></td>
+      <td><a href="https://usecannon.com/packages/synthetix-treasury-market/3.12.2/10-main">synthetix-treasury-market:3.12.2@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmWHGfPt25M6epHXdWNC562kSTPZaYUpgtXu4pSCyi7mF2">QmWHGfPt25M6epHXdWNC562kSTPZaYUpgtXu4pSCyi7mF2</a></td>
       <td>
-        owner: <a href="https://optimistic.etherscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
-        ><br />pool_id: 1<br />treasury_address: <a href="https://optimistic.etherscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
+        aux_recipient: <a href="https://optimistic.etherscan.io/address/0x0000000000000000000000000000000000000000"><code>0x0000000000000000000000000000000000000000</code></a
+        ><br />aux_reset_time: 604,800<br />aux_token: <a href="https://optimistic.etherscan.io/address/0x0000000000000000000000000000000000000000"><code>0x0000000000000000000000000000000000000000</code></a
+        ><br />owner: <a href="https://optimistic.etherscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
+        ><br />pool_id: 1<br />required_aux_token_ratio: 0<br />treasury_address: <a href="https://optimistic.etherscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />v3_package: synthetix:latest<br />collateral_token: <a href="https://optimistic.etherscan.io/address/0xb2F30A7C980f052f02563fb518dcc39e6bf38175"><code>0xb2F30A7C980f052f02563fb518dcc39e6bf38175</code></a
         ><br />market_id: 3
       </td>
