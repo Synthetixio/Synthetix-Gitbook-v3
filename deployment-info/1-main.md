@@ -107,6 +107,18 @@
       </td>
     </tr>
     <tr>
+      <td>TreasuryStakingProxy</td>
+      <td>
+        <a href="https://etherscan.io/address/0x200D50E61ad543086081E58518F2def6278f27a9"><code>0x200D50E61ad543086081E58518F2def6278f27a9</code></a>
+      </td>
+      <td>
+        <a href="./1-main/TreasuryStakingProxy.json"><code>TreasuryStakingProxy.json</code></a>
+      </td>
+      <td>
+        <a href="./1-main/TreasuryStakingProxy.readable.json"><code>TreasuryStakingProxy.readable.json</code></a>
+      </td>
+    </tr>
+    <tr>
       <td>TrustedMulticallForwarder</td>
       <td>
         <a href="https://etherscan.io/address/0xE2C5658cC5C448B48141168f3e475dF8f65A1e3e"><code>0xE2C5658cC5C448B48141168f3e475dF8f65A1e3e</code></a>
@@ -672,6 +684,13 @@ Token address: <a href="https://etherscan.io/address/0xC011a73ee8576Fb46F5E1c575
     </tr>
     <tr>
       <td>TreasuryMarketProxy</td>
+      <td>
+        <a href="https://etherscan.io/address/0xEb3107117FEAd7de89Cd14D463D340A2E6917769"><code>0xEb3107117FEAd7de89Cd14D463D340A2E6917769</code></a>
+      </td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <td>TreasuryStakingProxy</td>
       <td>
         <a href="https://etherscan.io/address/0xEb3107117FEAd7de89Cd14D463D340A2E6917769"><code>0xEb3107117FEAd7de89Cd14D463D340A2E6917769</code></a>
       </td>
