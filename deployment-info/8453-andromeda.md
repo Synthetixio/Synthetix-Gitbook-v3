@@ -5423,8 +5423,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>skewScale</td>
-      <td>1.29 t</td>
-      <td><code>1294569458000000000000000000000</code> / <code>0x1056fac1dbd95e9407d3400000</code></td>
+      <td>0.5 t</td>
+      <td><code>500000000000000000000000000000</code> / <code>0x064f964e68233a76f520000000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
@@ -7775,8 +7775,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>skewScale</td>
-      <td>11 m</td>
-      <td><code>11000000000000000000000000</code> / <code>0x09195731e2ce35eb000000</code></td>
+      <td>3 m</td>
+      <td><code>3000000000000000000000000</code> / <code>0x027b46536c66c8e3000000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
@@ -16007,8 +16007,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>skewScale</td>
-      <td>2.73 m</td>
-      <td><code>2725500000000000000000000</code> / <code>0x024125a6ab921dac700000</code></td>
+      <td>5 m</td>
+      <td><code>5000000000000000000000000</code> / <code>0x0422ca8b0a00a425000000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
@@ -18555,8 +18555,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>skewScale</td>
-      <td>158.7 t</td>
-      <td><code>158703939009000000000000000000000</code> / <code>0x07d320157bea3d5bc566f6a00000</code></td>
+      <td>30 t</td>
+      <td><code>30000000000000000000000000000000</code> / <code>0x017aa73a606841b3e17380000000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
@@ -19731,8 +19731,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>skewScale</td>
-      <td>95.37 m</td>
-      <td><code>95366700000000000000000000</code> / <code>0x4ee2af2a881050bd300000</code></td>
+      <td>47 m</td>
+      <td><code>47000000000000000000000000</code> / <code>0x26e0a31af79fa08f000000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
@@ -20711,8 +20711,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>skewScale</td>
-      <td>24.01 m</td>
-      <td><code>24005300000000000000000000</code> / <code>0x13db51eba9b5ac9a500000</code></td>
+      <td>60 m</td>
+      <td><code>60000000000000000000000000</code> / <code>0x31a17e847807b1bc000000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
@@ -22279,8 +22279,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>skewScale</td>
-      <td>5.81 m</td>
-      <td><code>5806000000000000000000000</code> / <code>0x04cd77e4031d9f10c00000</code></td>
+      <td>8.5 m</td>
+      <td><code>8500000000000000000000000</code> / <code>0x0707f1ec5dcde3d8800000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
@@ -22475,8 +22475,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>skewScale</td>
-      <td>12 m</td>
-      <td><code>12000000000000000000000000</code> / <code>0x09ed194db19b238c000000</code></td>
+      <td>36 m</td>
+      <td><code>36000000000000000000000000</code> / <code>0x1dc74be914d16aa4000000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
@@ -22671,8 +22671,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>skewScale</td>
-      <td>1 m</td>
-      <td><code>1000000000000000000000000</code> / <code>0xd3c21bcecceda1000000</code></td>
+      <td>300 k</td>
+      <td><code>300000000000000000000000</code> / <code>0x3f870857a3e0e3800000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
@@ -23455,8 +23455,8 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
   <tbody>
     <tr>
       <td>skewScale</td>
-      <td>4 m</td>
-      <td><code>4000000000000000000000000</code> / <code>0x034f086f3b33b684000000</code></td>
+      <td>12 m</td>
+      <td><code>12000000000000000000000000</code> / <code>0x09ed194db19b238c000000</code></td>
     </tr>
     <tr>
       <td>maxFundingVelocity</td>
@@ -23783,6 +23783,202 @@ Token address: <a href="https://basescan.org/address/0x3526D453D1Edb105E4e2b8448
       <td>feedId</td>
       <td></td>
       <td><code>"0x7302dee641a08507c297a7b0c8b3efa74a48a3baa6c040acab1e5209692b7e59"</code></td>
+    </tr>
+    <tr>
+      <td>settlementReward</td>
+      <td>0.4</td>
+      <td><code>400000000000000000</code> / <code>0x058d15e176280000</code></td>
+    </tr>
+    <tr>
+      <td>disabled</td>
+      <td>✅ Enabled</td>
+      <td><code>false</code></td>
+    </tr>
+    <tr>
+      <td>commitmentPriceDelay</td>
+      <td>2</td>
+      <td><code>2</code> / <code>0x02</code></td>
+    </tr>
+  </tbody>
+</table>
+
+# Perps Market XMR / Monero
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Parameter name</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ID:</td>
+      <td>10900</td>
+      <td><code>10900</code> / <code>0x2a94</code></td>
+    </tr>
+    <tr>
+      <td>maxMarketSize</td>
+      <td>2 k</td>
+      <td><code>2000000000000000000000</code> / <code>0x6c6b935b8bbd400000</code></td>
+    </tr>
+    <tr>
+      <td>maxMarketValue</td>
+      <td>350 k</td>
+      <td><code>350000000000000000000000</code> / <code>0x4a1d89bb94865ec00000</code></td>
+    </tr>
+    <tr>
+      <td>lockedOiRatio</td>
+      <td>0.1</td>
+      <td><code>100000000000000000</code> / <code>0x016345785d8a0000</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Funding parameters</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>skewScale</td>
+      <td>20 k</td>
+      <td><code>20000000000000000000000</code> / <code>0x043c33c1937564800000</code></td>
+    </tr>
+    <tr>
+      <td>maxFundingVelocity</td>
+      <td>36</td>
+      <td><code>36000000000000000000</code> / <code>0x01f399b1438a100000</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Order fees</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>makerFee</td>
+      <td>0.0002</td>
+      <td><code>200000000000000</code> / <code>0xb5e620f48000</code></td>
+    </tr>
+    <tr>
+      <td>takerFee</td>
+      <td>0.001</td>
+      <td><code>1000000000000000</code> / <code>0x038d7ea4c68000</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Liquidation parameters</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>initialMarginRatioD18</td>
+      <td>0.499</td>
+      <td><code>499000000000000000</code> / <code>0x06eccddb2eeb8000</code></td>
+    </tr>
+    <tr>
+      <td>minimumInitialMarginRatioD18</td>
+      <td>0.389</td>
+      <td><code>389000000000000000</code> / <code>0x0566017061a08000</code></td>
+    </tr>
+    <tr>
+      <td>maintenanceMarginScalarD18</td>
+      <td>0.07</td>
+      <td><code>70000000000000000</code> / <code>0xf8b0a10e470000</code></td>
+    </tr>
+    <tr>
+      <td>flagRewardRatioD18</td>
+      <td>0.0003</td>
+      <td><code>300000000000000</code> / <code>0x0110d9316ec000</code></td>
+    </tr>
+    <tr>
+      <td>minimumPositionMargin</td>
+      <td>15</td>
+      <td><code>15000000000000000000</code> / <code>0xd02ab486cedc0000</code></td>
+    </tr>
+    <tr>
+      <td>maxLiquidationLimitAccumulationMultiplier</td>
+      <td>1.5</td>
+      <td><code>1500000000000000000</code> / <code>0x14d1120d7b160000</code></td>
+    </tr>
+    <tr>
+      <td>maxLiquidationPd</td>
+      <td>0.0005</td>
+      <td><code>500000000000000</code> / <code>0x01c6bf52634000</code></td>
+    </tr>
+    <tr>
+      <td>maxSecondsInLiquidationWindow</td>
+      <td>30</td>
+      <td><code>30</code> / <code>0x1e</code></td>
+    </tr>
+    <tr>
+      <td>endorsedLiquidator</td>
+      <td></td>
+      <td>
+        <a href="https://basescan.org/address/0x11233749514Ab8d00C0A5873DF7428b3db70030f"><code>0x11233749514Ab8d00C0A5873DF7428b3db70030f</code></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table data-full-width="true">
+  <thead>
+    <tr>
+      <th width="400">Settlement strategy parameters</th>
+      <th width="100">Value</th>
+      <th width="800">Raw value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>strategyId</td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>strategyType</td>
+      <td>PYTH</td>
+      <td><code>0</code> / <code>0x00</code></td>
+    </tr>
+    <tr>
+      <td>settlementDelay</td>
+      <td>2</td>
+      <td><code>2</code> / <code>0x02</code></td>
+    </tr>
+    <tr>
+      <td>settlementWindowDuration</td>
+      <td>60</td>
+      <td><code>60</code> / <code>0x3c</code></td>
+    </tr>
+    <tr>
+      <td>priceVerificationContract</td>
+      <td></td>
+      <td>
+        <a href="https://basescan.org/address/0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a"><code>0x9Cb0B428632fc7dC56FDf453aEd890BA55B1953a</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td>feedId</td>
+      <td></td>
+      <td><code>"0x46b8cc9347f04391764a0361e0b17c3ba394b001e7c304f7650f6376e37c321d"</code></td>
     </tr>
     <tr>
       <td>settlementReward</td>
