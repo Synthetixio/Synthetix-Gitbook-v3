@@ -1,6 +1,6 @@
 {
   "generator": "cannon website 2.15.5",
-  "timestamp": 1745669108,
+  "timestamp": 1746532191,
   "def": {
     "setting": {
       "minimum_liquidity_ratio": {
@@ -139,7 +139,7 @@
         "defaultValue": "<%= parseEther('0.1') %>"
       },
       "treasury_aux_reset_time": {
-        "defaultValue": "<%= 365 * 24 * 60 * 60  %>"
+        "defaultValue": "<%= 1423685  %>"
       },
       "ethSettlementWindowDuration": {
         "defaultValue": "60"
@@ -1116,7 +1116,7 @@
       }
     },
     "name": "synthetix-omnibus",
-    "version": "11",
+    "version": "12",
     "description": "Includes the full synthetix system with configurations applied",
     "deployers": [
       "0x1C8236B406911A376369e33D39189F1b4B39F27D",
@@ -73707,7 +73707,7 @@
       "artifacts": {
         "imports": {
           "treasury_market": {
-            "url": "ipfs://QmWHGfPt25M6epHXdWNC562kSTPZaYUpgtXu4pSCyi7mF2",
+            "url": "ipfs://QmVsYLBR1xje5U2ZSRzmygtWnzkUks7b99chVNFbiRZSw7",
             "tags": [
               "latest"
             ],
@@ -76569,23 +76569,23 @@
                 "signer": "0x6cd3f878852769e04A723A5f66CA7DD4d9E38A6C"
               },
               "setAuxTokenRewards": {
-                "hash": "0xf119e89e6a24ced42ae86988c0cdc660a25225dd4641998a676dc058951c44ce",
-                "blockNumber": "135035150",
-                "timestamp": "1745669106",
+                "hash": "0x5a922a7636e0a9ae90411a3edf4bad65bac450d75e8667173d60fcfe6c47e3f3",
+                "blockNumber": "135466692",
+                "timestamp": "1746532189",
                 "events": {
                   "UpdateAuxTokenRequirement": [
                     {
                       "name": "UpdateAuxTokenRequirement",
                       "args": [
-                        "1745669106",
+                        "1746532189",
                         "100000000000000000"
                       ]
                     }
                   ]
                 },
                 "deployedOn": "invoke.setAuxTokenRewards",
-                "gasUsed": 120047,
-                "gasCost": "1000001452",
+                "gasUsed": 65935,
+                "gasCost": "1000009108",
                 "signer": "0x6cd3f878852769e04A723A5f66CA7DD4d9E38A6C"
               },
               "setFeatureFlagAssociateDebt": {
@@ -76910,10 +76910,10 @@
     "setting.treasury_aux_reset_time": {
       "artifacts": {
         "settings": {
-          "treasury_aux_reset_time": "31536000"
+          "treasury_aux_reset_time": "1423685"
         }
       },
-      "hash": "bb8df843e21d221ddd2ce39929eb935f",
+      "hash": "cb237ab68cf871270644274df65bbd54",
       "version": 7
     },
     "setting.treasury_aux_token_address": {
