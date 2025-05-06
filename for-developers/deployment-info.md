@@ -41,7 +41,7 @@
     <tr>
       <td>treasury_market</td>
       <td><a href="https://usecannon.com/packages/synthetix-treasury-market/3.12.2/1-main">synthetix-treasury-market:3.12.2@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/Qme7kBwcwY8zmh38UBq7vuZDsoPMuNZEawQF1CK6NPQgMo">Qme7kBwcwY8zmh38UBq7vuZDsoPMuNZEawQF1CK6NPQgMo</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmZbeEFiuTqUHH8GV5EmyjJhpqRZxrQQrPXdLtk32bEyk3">QmZbeEFiuTqUHH8GV5EmyjJhpqRZxrQQrPXdLtk32bEyk3</a></td>
       <td>
         aux_recipient: <a href="https://etherscan.io/address/0x0000000000000000000000000000000000000000"><code>0x0000000000000000000000000000000000000000</code></a
         ><br />aux_reset_time: 604,800<br />aux_token: <a href="https://etherscan.io/address/0x0000000000000000000000000000000000000000"><code>0x0000000000000000000000000000000000000000</code></a
@@ -97,7 +97,7 @@
     <tr>
       <td>treasury_market</td>
       <td><a href="https://usecannon.com/packages/synthetix-treasury-market/3.12.2/10-main">synthetix-treasury-market:3.12.2@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmWHGfPt25M6epHXdWNC562kSTPZaYUpgtXu4pSCyi7mF2">QmWHGfPt25M6epHXdWNC562kSTPZaYUpgtXu4pSCyi7mF2</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmVsYLBR1xje5U2ZSRzmygtWnzkUks7b99chVNFbiRZSw7">QmVsYLBR1xje5U2ZSRzmygtWnzkUks7b99chVNFbiRZSw7</a></td>
       <td>
         aux_recipient: <a href="https://optimistic.etherscan.io/address/0x0000000000000000000000000000000000000000"><code>0x0000000000000000000000000000000000000000</code></a
         ><br />aux_reset_time: 604,800<br />aux_token: <a href="https://optimistic.etherscan.io/address/0x0000000000000000000000000000000000000000"><code>0x0000000000000000000000000000000000000000</code></a
