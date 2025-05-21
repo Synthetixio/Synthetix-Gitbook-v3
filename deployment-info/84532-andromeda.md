@@ -11520,13 +11520,13 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>maxMarketSize</td>
-      <td>3.18 m</td>
-      <td><code>3182150000000000000000000</code> / <code>0x02a1d8b278feb93d580000</code></td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
     </tr>
     <tr>
       <td>maxMarketValue</td>
-      <td>1 m</td>
-      <td><code>1000000000000000000000000</code> / <code>0xd3c21bcecceda1000000</code></td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
     </tr>
     <tr>
       <td>lockedOiRatio</td>
@@ -23481,8 +23481,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     </tr>
     <tr>
       <td>maxMarketValue</td>
-      <td>0.5 m</td>
-      <td><code>500000000000000000000000</code> / <code>0x69e10de76676d0800000</code></td>
+      <td>0</td>
+      <td><code>0</code> / <code>0x00</code></td>
     </tr>
     <tr>
       <td>lockedOiRatio</td>
