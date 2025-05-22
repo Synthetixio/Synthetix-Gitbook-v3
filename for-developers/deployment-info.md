@@ -40,8 +40,8 @@
     </tr>
     <tr>
       <td>treasury_market</td>
-      <td><a href="https://usecannon.com/packages/synthetix-treasury-market/3.12.2/1-main">synthetix-treasury-market:3.12.2@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmZbeEFiuTqUHH8GV5EmyjJhpqRZxrQQrPXdLtk32bEyk3">QmZbeEFiuTqUHH8GV5EmyjJhpqRZxrQQrPXdLtk32bEyk3</a></td>
+      <td><a href="https://usecannon.com/packages/synthetix-treasury-market/3.12.3/1-main">synthetix-treasury-market:3.12.3@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmUBZPQBWpoGDrabudPf7DoiTPm8VSsTRCSm6mbUbJnHN9">QmUBZPQBWpoGDrabudPf7DoiTPm8VSsTRCSm6mbUbJnHN9</a></td>
       <td>
         aux_recipient: <a href="https://etherscan.io/address/0x0000000000000000000000000000000000000000"><code>0x0000000000000000000000000000000000000000</code></a
         ><br />aux_reset_time: 604,800<br />aux_token: <a href="https://etherscan.io/address/0x0000000000000000000000000000000000000000"><code>0x0000000000000000000000000000000000000000</code></a
@@ -96,8 +96,8 @@
     </tr>
     <tr>
       <td>treasury_market</td>
-      <td><a href="https://usecannon.com/packages/synthetix-treasury-market/3.12.2/10-main">synthetix-treasury-market:3.12.2@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmVsYLBR1xje5U2ZSRzmygtWnzkUks7b99chVNFbiRZSw7">QmVsYLBR1xje5U2ZSRzmygtWnzkUks7b99chVNFbiRZSw7</a></td>
+      <td><a href="https://usecannon.com/packages/synthetix-treasury-market/3.12.3/10-main">synthetix-treasury-market:3.12.3@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmQv1MsSBtSZkRMCs6a6L6BYv47UAeGLcReLQGG6F8vF8H">QmQv1MsSBtSZkRMCs6a6L6BYv47UAeGLcReLQGG6F8vF8H</a></td>
       <td>
         aux_recipient: <a href="https://optimistic.etherscan.io/address/0x0000000000000000000000000000000000000000"><code>0x0000000000000000000000000000000000000000</code></a
         ><br />aux_reset_time: 604,800<br />aux_token: <a href="https://optimistic.etherscan.io/address/0x0000000000000000000000000000000000000000"><code>0x0000000000000000000000000000000000000000</code></a
