@@ -11678,7 +11678,7 @@ Token address: <a href="https://sepolia.basescan.org/address/0x5dc2592d23f72833c
     <tr>
       <td>feedId</td>
       <td></td>
-      <td><code>"0x06ade621dbc31ed0fc9255caaab984a468abe84164fb2ccc76f02a4636d97e31"</code></td>
+      <td><code>"0x39d020f60982ed892abbcd4a06a276a9f9b7bfbce003204c110b6e488f502da3"</code></td>
     </tr>
     <tr>
       <td>settlementReward</td>
