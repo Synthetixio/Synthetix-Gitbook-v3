@@ -97,7 +97,7 @@
     <tr>
       <td>treasury_market</td>
       <td><a href="https://usecannon.com/packages/synthetix-treasury-market/3.12.3/10-main">synthetix-treasury-market:3.12.3@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmQv1MsSBtSZkRMCs6a6L6BYv47UAeGLcReLQGG6F8vF8H">QmQv1MsSBtSZkRMCs6a6L6BYv47UAeGLcReLQGG6F8vF8H</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmPDv6JAeKnU12KgR4UwjmCRG2EqxLE4xS9ZsWhvjBhNds">QmPDv6JAeKnU12KgR4UwjmCRG2EqxLE4xS9ZsWhvjBhNds</a></td>
       <td>
         aux_recipient: <a href="https://optimistic.etherscan.io/address/0x0000000000000000000000000000000000000000"><code>0x0000000000000000000000000000000000000000</code></a
         ><br />aux_reset_time: 604,800<br />aux_token: <a href="https://optimistic.etherscan.io/address/0x0000000000000000000000000000000000000000"><code>0x0000000000000000000000000000000000000000</code></a
@@ -178,8 +178,8 @@
     </tr>
     <tr>
       <td>snx_v4_onchain</td>
-      <td><a href="https://usecannon.com/packages/synthetix-v4-onchain/0.1.1/11155111-main">synthetix-v4-onchain:0.1.1@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmcvTLhAUnPrhMeNdrPHV3kFdJXg1PVAApgwXK4jjafN8r">QmcvTLhAUnPrhMeNdrPHV3kFdJXg1PVAApgwXK4jjafN8r</a></td>
+      <td><a href="https://usecannon.com/packages/synthetix-v4-onchain/0.1.3/11155111-main">synthetix-v4-onchain:0.1.3@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmaRFpvkmx1z7Qe5epiDU71s6RimJFCaNzdvBGMtMBYwVg">QmaRFpvkmx1z7Qe5epiDU71s6RimJFCaNzdvBGMtMBYwVg</a></td>
       <td>
         coreProxyOwner: <a href="https://sepolia.etherscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />owner: <a href="https://sepolia.etherscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
