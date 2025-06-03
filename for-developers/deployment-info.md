@@ -41,7 +41,7 @@
     <tr>
       <td>treasury_market</td>
       <td><a href="https://usecannon.com/packages/synthetix-treasury-market/3.12.3/1-main">synthetix-treasury-market:3.12.3@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmUBZPQBWpoGDrabudPf7DoiTPm8VSsTRCSm6mbUbJnHN9">QmUBZPQBWpoGDrabudPf7DoiTPm8VSsTRCSm6mbUbJnHN9</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmSyHKKotVhQ8UALkMiTEkDMEN9NUhzLyVD5mhPnjzNBCj">QmSyHKKotVhQ8UALkMiTEkDMEN9NUhzLyVD5mhPnjzNBCj</a></td>
       <td>
         aux_recipient: <a href="https://etherscan.io/address/0x0000000000000000000000000000000000000000"><code>0x0000000000000000000000000000000000000000</code></a
         ><br />aux_reset_time: 604,800<br />aux_token: <a href="https://etherscan.io/address/0x0000000000000000000000000000000000000000"><code>0x0000000000000000000000000000000000000000</code></a
