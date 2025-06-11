@@ -178,8 +178,8 @@
     </tr>
     <tr>
       <td>snx_v4_onchain</td>
-      <td><a href="https://usecannon.com/packages/synthetix-v4-onchain/0.1.7/11155111-main">synthetix-v4-onchain:0.1.7@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmUdjNdbFjjtv5HDdGHSUE95Hg9NRYSnF7Zk7KM97H1CCS">QmUdjNdbFjjtv5HDdGHSUE95Hg9NRYSnF7Zk7KM97H1CCS</a></td>
+      <td><a href="https://usecannon.com/packages/synthetix-v4-onchain/0.1.9/11155111-main">synthetix-v4-onchain:0.1.9@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmfGJ4uh92AuRUzTr5YVyHf1Fb6RCA8PjTV6JeiX4K6MEk">QmfGJ4uh92AuRUzTr5YVyHf1Fb6RCA8PjTV6JeiX4K6MEk</a></td>
       <td>
         coreProxyOwner: <a href="https://sepolia.etherscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />owner: <a href="https://sepolia.etherscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
