@@ -425,8 +425,8 @@
     </tr>
     <tr>
       <td>system</td>
-      <td><a href="https://usecannon.com/packages/synthetix/3.10.1/421614-main">synthetix:3.10.1@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmNgQR5DLssGk9geYPX5Wywc1rhGC6yrkt5cSS3yNfW8uM">QmNgQR5DLssGk9geYPX5Wywc1rhGC6yrkt5cSS3yNfW8uM</a></td>
+      <td><a href="https://usecannon.com/packages/synthetix/3.13.0/421614-main">synthetix:3.13.0@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmfRTUnhPprThdRfXWgSkmdUDdYYkVPt7j43p1g2uVtM8k">QmfRTUnhPprThdRfXWgSkmdUDdYYkVPt7j43p1g2uVtM8k</a></td>
       <td>
         account_token_name: Synthetix Account<br />account_token_symbol: SACCT<br />bundleSalt: main<br />oracle_manager_package: oracle-manager<br />owner: <a href="https://sepolia.arbiscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />salt: main<br />usd_token_name: Synthetic USD Token v3<br />usd_token_symbol: sUSD<br />const_one_oracle_id: 0x066ef68c9d9ca51eee861aeb5bce51a12e61f06f10bf62243c563671ae3a9733
@@ -435,7 +435,7 @@
     <tr>
       <td>spotFactory</td>
       <td><a href="https://usecannon.com/packages/synthetix-spot-market/3.10.1/421614-main">synthetix-spot-market:3.10.1@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmbPQoBHR6i4ygSxSeVXwo9ThpvCvZSkt2tRQKAuNAx7fU">QmbPQoBHR6i4ygSxSeVXwo9ThpvCvZSkt2tRQKAuNAx7fU</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmXMKL3wvaQH1jbaZrjGSeFbpQpm7GV4xPC4HDbC5CkykT">QmXMKL3wvaQH1jbaZrjGSeFbpQpm7GV4xPC4HDbC5CkykT</a></td>
       <td>
         owner: <a href="https://sepolia.arbiscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />salt: snax<br />synthetixPackage: synthetix<br />synthetixPreset: main
@@ -444,7 +444,7 @@
     <tr>
       <td>perpsFactory</td>
       <td><a href="https://usecannon.com/packages/synthetix-perps-market/3.10.1/421614-main">synthetix-perps-market:3.10.1@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmZim44oSZhYDp2ZJRTpatLm5XqbjUEmGuWcDxPLc862pb">QmZim44oSZhYDp2ZJRTpatLm5XqbjUEmGuWcDxPLc862pb</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmUgg9oCpEZYyBttrbY1vYugwv8LVbdi5A5mdssNpb7YDJ">QmUgg9oCpEZYyBttrbY1vYugwv8LVbdi5A5mdssNpb7YDJ</a></td>
       <td>
         coreProxyOwner: <a href="https://sepolia.arbiscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />owner: <a href="https://sepolia.arbiscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
