@@ -239,8 +239,8 @@
     </tr>
     <tr>
       <td>system</td>
-      <td><a href="https://usecannon.com/packages/synthetix/3.10.1/42161-main">synthetix:3.10.1@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmWzPcSc1JPm4rKWoJVsCJRf6SUYtwdrRGsgfez1XHXg2v">QmWzPcSc1JPm4rKWoJVsCJRf6SUYtwdrRGsgfez1XHXg2v</a></td>
+      <td><a href="https://usecannon.com/packages/synthetix/3.13.0/42161-main">synthetix:3.13.0@main</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmW2FkNR8TxicpXLoRkR6zaopU4LKTRfjp1y2TiTsxRggq">QmW2FkNR8TxicpXLoRkR6zaopU4LKTRfjp1y2TiTsxRggq</a></td>
       <td>
         account_token_name: Synthetix Account<br />account_token_symbol: SACCT<br />bundleSalt: main<br />oracle_manager_package: oracle-manager<br />owner: <a href="https://arbiscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />salt: main<br />usd_token_name: Synthetic USD Token v3<br />usd_token_symbol: sUSD<br />const_one_oracle_id: 0x066ef68c9d9ca51eee861aeb5bce51a12e61f06f10bf62243c563671ae3a9733
@@ -249,7 +249,7 @@
     <tr>
       <td>spotFactory</td>
       <td><a href="https://usecannon.com/packages/synthetix-spot-market/3.10.1/42161-main">synthetix-spot-market:3.10.1@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmfEPm9WHeJyyFxGqXxzdgpqn4uDCcYLEnFEQoTNp8yvAG">QmfEPm9WHeJyyFxGqXxzdgpqn4uDCcYLEnFEQoTNp8yvAG</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmPxDm6JxsoPkgkNCAQGaGJT9omLix5y51Bzj6vZN8TkAZ">QmPxDm6JxsoPkgkNCAQGaGJT9omLix5y51Bzj6vZN8TkAZ</a></td>
       <td>
         owner: <a href="https://arbiscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />salt: snax<br />synthetixPackage: synthetix<br />synthetixPreset: main
@@ -258,7 +258,7 @@
     <tr>
       <td>perpsFactory</td>
       <td><a href="https://usecannon.com/packages/synthetix-perps-market/3.10.1/42161-main">synthetix-perps-market:3.10.1@main</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmcnotuvVgL5QpCEhw3FdYZPRYRNZEN2Hr95QASSWEMwsV">QmcnotuvVgL5QpCEhw3FdYZPRYRNZEN2Hr95QASSWEMwsV</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmNgMe2596ydJ6YJoZtp5WfvANYTt7g9sKNzLaFTPFun9D">QmNgMe2596ydJ6YJoZtp5WfvANYTt7g9sKNzLaFTPFun9D</a></td>
       <td>
         coreProxyOwner: <a href="https://arbiscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />owner: <a href="https://arbiscan.io/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
