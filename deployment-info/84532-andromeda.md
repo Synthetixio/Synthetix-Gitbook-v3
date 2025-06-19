@@ -662,8 +662,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0x8069c44244e724437
   <tbody>
     <tr>
       <td>depositingEnabled</td>
-      <td>✅ Enabled</td>
-      <td><code>true</code></td>
+      <td>🚫 Disabled</td>
+      <td><code>false</code></td>
     </tr>
     <tr>
       <td>decimals</td>
@@ -776,8 +776,8 @@ Token address: <a href="https://sepolia.basescan.org/address/0xB94c6E4f5162717c6
   <tbody>
     <tr>
       <td>depositingEnabled</td>
-      <td>✅ Enabled</td>
-      <td><code>true</code></td>
+      <td>🚫 Disabled</td>
+      <td><code>false</code></td>
     </tr>
     <tr>
       <td>decimals</td>

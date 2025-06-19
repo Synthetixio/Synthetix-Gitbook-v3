@@ -1,6 +1,6 @@
 {
-  "generator": "cannon cli 2.21.1",
-  "timestamp": 1747896572,
+  "generator": "cannon cli 2.23.0",
+  "timestamp": 1750144895,
   "def": {
     "setting": {
       "snx_package": {
@@ -688,7 +688,7 @@
             "liquidationRatioD18": "<%= settings.susdc_liquidation_ratio %>",
             "liquidationRewardD18": "<%= settings.susdc_liquidation_reward %>",
             "minDelegationD18": "<%= settings.susdc_min_delegation %>",
-            "depositingEnabled": true
+            "depositingEnabled": false
           }
         ]
       },
@@ -708,7 +708,7 @@
             "liquidationRatioD18": "<%= settings.sstatausdc_liquidation_ratio %>",
             "liquidationRewardD18": "<%= settings.sstatausdc_liquidation_reward %>",
             "minDelegationD18": "<%= settings.sstatausdc_min_delegation %>",
-            "depositingEnabled": true
+            "depositingEnabled": false
           }
         ]
       },
@@ -43784,7 +43784,9 @@
         "contracts": {},
         "txns": {
           "configure_susdc_collateral": {
-            "hash": "0xdb6b6ffcea1e12d131abf1b0a35496725491cc24fba20cc0546036f11b79bfac",
+            "hash": "0xb59f7c06d4f356dea44aed14cd7f0a8beaca8f2f33ce430ecfb30d30fdb17a45",
+            "blockNumber": "27188210",
+            "timestamp": "1750144708",
             "events": {
               "CollateralConfigured": [
                 {
@@ -43792,7 +43794,7 @@
                   "args": [
                     "0x8069c44244e72443722cfb22DcE5492cba239d39",
                     {
-                      "depositingEnabled": true,
+                      "depositingEnabled": false,
                       "issuanceRatioD18": "115792089237316195423570985008687907853269984665640564039457584007913129639935",
                       "liquidationRatioD18": "1005000000000000000",
                       "liquidationRewardD18": "1000000000000000000",
@@ -43805,15 +43807,15 @@
               ]
             },
             "deployedOn": "invoke.configure_susdc_collateral",
-            "gasUsed": 243533,
-            "gasCost": "1000327",
+            "gasUsed": 54576,
+            "gasCost": "1000075",
             "signer": "0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"
           }
         },
-        "extras": {}
+        "settings": {}
       },
-      "hash": "066b1163d5d9f838731a8c606b77a16e",
-      "version": 6
+      "hash": "921ab65d4f04f2925b16dfa4e00246da",
+      "version": 7
     },
     "invoke.createBtcPerpsMarket": {
       "artifacts": {
@@ -59786,9 +59788,9 @@
         "contracts": {},
         "txns": {
           "configure_sstatausdc_collateral": {
-            "hash": "0xa871c92d18fd1823417995ace101fe594f2799a0b897af29bf8fce6f3cd4087f",
-            "blockNumber": "12339846",
-            "timestamp": "1720447980",
+            "hash": "0xf95070d1b94332ada3c390ab01c62ce96633174227a519bb9acf241b1a74d156",
+            "blockNumber": "27188207",
+            "timestamp": "1750144702",
             "events": {
               "CollateralConfigured": [
                 {
@@ -59796,7 +59798,7 @@
                   "args": [
                     "0xB94c6E4f5162717c6fAb1Eeab8f0296307F91528",
                     {
-                      "depositingEnabled": true,
+                      "depositingEnabled": false,
                       "issuanceRatioD18": "115792089237316195423570985008687907853269984665640564039457584007913129639935",
                       "liquidationRatioD18": "1100000000000000000",
                       "liquidationRewardD18": "1000000000000000000",
@@ -59809,14 +59811,14 @@
               ]
             },
             "deployedOn": "invoke.configure_sstatausdc_collateral",
-            "gasUsed": 59368,
-            "gasCost": "1000361",
+            "gasUsed": 54564,
+            "gasCost": "1000075",
             "signer": "0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"
           }
         },
         "settings": {}
       },
-      "hash": "cd521461438ed86d91c92d7d718b708e",
+      "hash": "f81d41653184544a44fd959aea69b68b",
       "version": 7
     },
     "setting.perps_lowcap_super_market_name": {
@@ -110131,14 +110133,14 @@
       "version": 7
     }
   },
-  "seq": 38,
+  "seq": 39,
   "track": "xpauzk7rwrn",
   "options": {},
   "status": "complete",
   "meta": {
     "gitUrl": "https://github.com/Synthetixio/synthetix-deployments",
-    "commitHash": "706b555629bec0cdc71d4d0b83160f6fd3b73eeb",
-    "readme": "https://github.com/Synthetixio/synthetix-deployments/blob/706b555629bec0cdc71d4d0b83160f6fd3b73eeb/README.md"
+    "commitHash": "a06d708ef761caeb8ea2c90f0afb766bfc4616e6",
+    "readme": "https://github.com/Synthetixio/synthetix-deployments/blob/a06d708ef761caeb8ea2c90f0afb766bfc4616e6/README.md"
   },
   "miscUrl": "ipfs://QmeSt2mnJKE8qmRhLyYbHQQxDKpsFbcWnw5e7JF4xVbN6k",
   "chainId": 84532
