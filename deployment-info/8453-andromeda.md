@@ -614,8 +614,8 @@ Token address: <a href="https://basescan.org/address/0xC74eA762cF06c9151cE074E6a
   <tbody>
     <tr>
       <td>depositingEnabled</td>
-      <td>🚫 Disabled</td>
-      <td><code>false</code></td>
+      <td>✅ Enabled</td>
+      <td><code>true</code></td>
     </tr>
     <tr>
       <td>decimals</td>
@@ -728,8 +728,8 @@ Token address: <a href="https://basescan.org/address/0x729Ef31D86d31440ecBF49f27
   <tbody>
     <tr>
       <td>depositingEnabled</td>
-      <td>🚫 Disabled</td>
-      <td><code>false</code></td>
+      <td>✅ Enabled</td>
+      <td><code>true</code></td>
     </tr>
     <tr>
       <td>decimals</td>
