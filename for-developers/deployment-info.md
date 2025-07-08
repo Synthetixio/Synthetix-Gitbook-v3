@@ -666,8 +666,8 @@
     </tr>
     <tr>
       <td>system</td>
-      <td><a href="https://usecannon.com/packages/synthetix/3.10.1/8453-andromeda">synthetix:3.10.1@andromeda</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/Qma4U3evDxvJa4QMuVsKNVJJiv7F8XcWic848hpRWEkwx9">Qma4U3evDxvJa4QMuVsKNVJJiv7F8XcWic848hpRWEkwx9</a></td>
+      <td><a href="https://usecannon.com/packages/synthetix/3.13.0/8453-andromeda">synthetix:3.13.0@andromeda</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmTQK1C6Cu1N6kefoKCwrCocxct1Tuj76rUmCkHsKftLgP">QmTQK1C6Cu1N6kefoKCwrCocxct1Tuj76rUmCkHsKftLgP</a></td>
       <td>
         account_token_name: Synthetix Account<br />account_token_symbol: SACCT<br />bundleSalt: main<br />oracle_manager_package: oracle-manager<br />owner: <a href="https://basescan.org/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />salt: main<br />usd_token_name: Synthetic USD Token v3<br />usd_token_symbol: sUSD
@@ -676,7 +676,7 @@
     <tr>
       <td>spotFactory</td>
       <td><a href="https://usecannon.com/packages/synthetix-spot-market/3.10.5/8453-andromeda">synthetix-spot-market:3.10.5@andromeda</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmNabmHDnYBS4R2XurgjRwp5fdjHmb17amUnJLdsE6j8tr">QmNabmHDnYBS4R2XurgjRwp5fdjHmb17amUnJLdsE6j8tr</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmdNYCyrQeHE1VVJgnD8ocZ2u6Lh6Wb4r3HpGmP3oN35jA">QmdNYCyrQeHE1VVJgnD8ocZ2u6Lh6Wb4r3HpGmP3oN35jA</a></td>
       <td>
         owner: <a href="https://basescan.org/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />salt: snax<br />synthetixPackage: synthetix<br />synthetixPreset: main
@@ -685,7 +685,7 @@
     <tr>
       <td>perpsFactory</td>
       <td><a href="https://usecannon.com/packages/synthetix-perps-market/3.10.1/8453-andromeda">synthetix-perps-market:3.10.1@andromeda</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmUqVWuYN58Ltk2EdNsuBiWA61mkHQkfgsdWgstXQD2mWf">QmUqVWuYN58Ltk2EdNsuBiWA61mkHQkfgsdWgstXQD2mWf</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmNqA7UXiGkyYVCe8MgRYQWyZ77QrXpAkxWmDmHAKBd1Qq">QmNqA7UXiGkyYVCe8MgRYQWyZ77QrXpAkxWmDmHAKBd1Qq</a></td>
       <td>
         coreProxyOwner: <a href="https://basescan.org/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />owner: <a href="https://basescan.org/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
@@ -862,8 +862,8 @@
     </tr>
     <tr>
       <td>system</td>
-      <td><a href="https://usecannon.com/packages/synthetix/3.10.1/84532-andromeda">synthetix:3.10.1@andromeda</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmSJf4QZA78PqgyFbbjyUiV2Cgt2vXUzZqgpRxdZjgdA1K">QmSJf4QZA78PqgyFbbjyUiV2Cgt2vXUzZqgpRxdZjgdA1K</a></td>
+      <td><a href="https://usecannon.com/packages/synthetix/3.13.0/84532-andromeda">synthetix:3.13.0@andromeda</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmPXocsn5NG5YQDC3PfQ8a3DbtGtxz3G7LQb1YMRKioCuH">QmPXocsn5NG5YQDC3PfQ8a3DbtGtxz3G7LQb1YMRKioCuH</a></td>
       <td>
         account_token_name: Synthetix Account<br />account_token_symbol: SACCT<br />bundleSalt: main<br />oracle_manager_package: oracle-manager<br />owner: <a href="https://sepolia.basescan.org/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />salt: main<br />usd_token_name: Synthetic USD Token v3<br />usd_token_symbol: sUSD
@@ -881,7 +881,7 @@
     <tr>
       <td>spotFactory</td>
       <td><a href="https://usecannon.com/packages/synthetix-spot-market/3.10.5/84532-andromeda">synthetix-spot-market:3.10.5@andromeda</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmVz8bJKm5JEkstKheasVj1AzoYbVAur6V5MeP71xFF9YH">QmVz8bJKm5JEkstKheasVj1AzoYbVAur6V5MeP71xFF9YH</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmZEbcnLv4ESAxU1ZcTcMvJ7ZX8akiBwvVCpjER9df9Qu1">QmZEbcnLv4ESAxU1ZcTcMvJ7ZX8akiBwvVCpjER9df9Qu1</a></td>
       <td>
         owner: <a href="https://sepolia.basescan.org/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />salt: snax<br />synthetixPackage: synthetix<br />synthetixPreset: main
@@ -890,7 +890,7 @@
     <tr>
       <td>perpsFactory</td>
       <td><a href="https://usecannon.com/packages/synthetix-perps-market/3.11.2-orderbook/84532-andromeda">synthetix-perps-market:3.11.2-orderbook@andromeda</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmWFaVzQcRhd8Qbp2FF8v7iNZj7eGDwL6rJ1fn1sFMRdEW">QmWFaVzQcRhd8Qbp2FF8v7iNZj7eGDwL6rJ1fn1sFMRdEW</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmdnQCNLdFuRpspM8WB52K9TwvXatDtZxsmAaR27U34xD5">QmdnQCNLdFuRpspM8WB52K9TwvXatDtZxsmAaR27U34xD5</a></td>
       <td>
         coreProxyOwner: <a href="https://sepolia.basescan.org/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />owner: <a href="https://sepolia.basescan.org/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
@@ -932,7 +932,7 @@
     <tr>
       <td>perpsLowCapFactory</td>
       <td><a href="https://usecannon.com/packages/synthetix-perps-market/3.11.2-orderbook/84532-andromeda">synthetix-perps-market:3.11.2-orderbook@andromeda</a></td>
-      <td><a href="https://ipfs.synthetix.io/ipfs/QmbR1N3B7GPaA9U38BjQcroKdgdLcco36Fqhaeibdyy9kz">QmbR1N3B7GPaA9U38BjQcroKdgdLcco36Fqhaeibdyy9kz</a></td>
+      <td><a href="https://ipfs.synthetix.io/ipfs/QmSFcggmkkz4X3GSgRDZ7wtN2VMRbiD1i9CS7STg1YHuGE">QmSFcggmkkz4X3GSgRDZ7wtN2VMRbiD1i9CS7STg1YHuGE</a></td>
       <td>
         coreProxyOwner: <a href="https://sepolia.basescan.org/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
         ><br />owner: <a href="https://sepolia.basescan.org/address/0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"><code>0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266</code></a
